@@ -1,24 +1,31 @@
 # AI Artificial Intelligence landscape
 
-## General Models [LLM]
+## AI Model Types
+- Large Language Models (LLM)
+  - General-purpose language models
+  - Code-specialized models {GitHub Copilot (Codex), Anthropic Claude Code, StarCoder, CodeLlama, DeepSeek Coder}
+- Image Generation Models
+  - Text-to-Image {Stable Diffusion, Midjourney, DALL-E}
+  - Image-to-Image
+- Multimodal Models (Text, Image, Audio, Video) {OpenAI Sora, Gemini, Meta Seamless, }
 
 
-## Natural Language Models [NLM]
+### Core Models (Order by Name ↑)
 
-
-## Coding Models
-
-
-
-## Image Models
-
+- [Claude](https://www.anthropic.com/claude)
+- [GPT](https://openai.com/index/gpt-4/)
+- [Llama](https://www.llama.com/)
+- [o1](https://openai.com/o1/)
 - [Stable Diffusion](https://stability.ai/stable-image)
 
+### Language Model Benchmarks
 
+- [SWE-bench](https://www.swebench.com/index.html)
+- [GSM8K](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k) - [Leaderboard](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k)
 
 ##  Desktop Software - running models
 
-- [LM Studio](https://lmstudio.ai/) -GUI
+- [LM Studio](https://lmstudio.ai/) - GUI
 - [ollama](https://ollama.com) - CLI 
 
 
@@ -28,9 +35,10 @@
 - [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/new) 
 
 
-## Promiment AI People (Order by SurName A-Z)
+## Prominent AI People (Sorted by Surname ↑)
 
 - [Dario Amodei](https://darioamodei.com/) - [Anthropic](https://www.anthropic.com/)
+- [Nathan Lambert](https://www.interconnects.ai/) - [Allen Institute for AI](https://allenai.org/)
 - [Emad Mostaque](https://emad.posthaven.com/) - [stability.ai](https://stability.ai/)
 
 
