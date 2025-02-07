@@ -1,0 +1,2 @@
+Suppose you have a stack of boxes, they are red, blue, and yellow. The red is on the bottom, on top of that is the blue, and on top of that is the yellow. You take the blue one out and put it on the top. You then add a fourth green box onto the top.
+Can you describe the stack of boxes?
