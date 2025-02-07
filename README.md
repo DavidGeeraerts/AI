@@ -1,4 +1,6 @@
-# AI Artificial Intelligence landscape
+# AI Artificial Intelligence landscape - The Book of AI
+This is a work in progress --started 2025-02-- to document my exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
+
 
 ## [Glossory](Glossory.md)
 
@@ -22,18 +24,33 @@
 - [o1](https://openai.com/o1/)
 - [Stable Diffusion](https://stability.ai/stable-image)
 
-### Language Model Benchmarks
+### Base Model Data (Order by Name ↑)
 
-- [SWE-bench](https://www.swebench.com/index.html)
+- [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE)
+- [**Common Crawl**](https://commoncrawl.org/)
+- [**Google Dataset Search**](https://datasetsearch.research.google.com/)
+- [**Hugging Face Datasets**](https://huggingface.co/datasets)
+- [**Kaggle**](https://www.kaggle.com/datasets)
+- [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog)
+- [SNAP - Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
+- [USA Data Gov](https://data.gov/)
+
+
+### Language Model Benchmarks (Order by Name ↑)
+
+- [GAIA](https://arxiv.org/abs/2311.12983) General Artificial Intelligence Assessment - [Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)
 - [GSM8K](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k) - [Leaderboard](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k)
+- [SWE-bench](https://www.swebench.com/index.html)
 
-##  Desktop Software - running models
 
-- [LM Studio](https://lmstudio.ai/) - GUI
+###  Running AI Models Locally
+
 - [ollama](https://ollama.com) - CLI 
+- [ollama-ui](https://ollama-ui.github.io/ollama-ui/) - Simple HTML UI for Ollama. Available as [Chrome extension](https://chromewebstore.google.com/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco?pli=1).
+- [LM Studio](https://lmstudio.ai/) - GUI
 
-
-## Web/Online Models
+## Web/Online Models (Order by Name ↑)
 
 - [Allen Institute AI - Tulu 3:405B](https://playground.allenai.org/)
 - [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/new)
@@ -43,10 +60,12 @@
 - [Grok](https://grok.com/)
 
 
-## AI Resources
+## AI Resources (Order by Name ↑)
 
 [ApX Machine Learning](https://apxml.com/posts)
-
+[Arsturn](https://www.arsturn.com/blog)
+[Epoch AI](https://epoch.ai/)
+[ShinChven's Blog](https://atlassc.net/)
 
 
 ## Prominent AI People (Sorted by Surname ↑)
@@ -68,7 +87,12 @@
 - [arxiv](https://arxiv.org/list/cs.AI/recent)
 
 
-## Articles
+## AI Publications (Sorted by Publication Date ↓)
+
+- 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
+
+
+## Articles (Sorted by Publication Date ↓)
 
 - 2025-01-19  [Top 5 Mistakes to Avoid When Learning Machine Learning](https://apxml.com/posts/top-mistakes-when-learning-machine-learning)
 - 2024-10-02  [How to Get Started with Machine Learning: A Beginner’s Step-by-Step Guide](https://apxml.com/posts/get-started-with-machine-learning-guide)
