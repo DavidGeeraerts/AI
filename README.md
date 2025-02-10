@@ -1,4 +1,4 @@
-# AI Artificial Intelligence landscape - The Book of AI
+# AI - Artificial Intelligence landscape - The Book of AI
 This is a work in progress --started 2025-02-- to document my exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
 
 
@@ -14,18 +14,37 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
   - Image-to-Image
 - Multimodal Models (Text, Image, Audio, Video) {OpenAI Sora, Google Gemini, Meta Seamless, }
 
+### Prominent AI Organizations Creating Foundational AI Models
+(Order by Name ↑)
 
-### Base Models (Order by Name ↑)
+- [Alibaba](https://www.alibabacloud.com/en)
+- [Allen Institute for AI](https://allenai.org/)
+- [Amazon AI](https://aws.amazon.com/machine-learning/)
+- [Anthropic](https://www.anthropic.com/)
+- [xAI](https://x.ai/)
+- [Cohere](https://cohere.ai/)
+- [Deepseek](https://www.deepseek.com/)
+- [Google AI](https://ai.google/)
+- [Hugging Face](https://huggingface.co/)
+- [Meta AI](https://ai.facebook.com/)
+- [Microsoft AI](https://www.microsoft.com/en-us/ai)
+- [Mistral](https://mistral.ai/en)
+- [OpenAI](https://openai.com/)
+- [Stability AI](https://stability.ai/)
 
+### Foundational AI Models
+(Order by Name ↑)
 - [Claude](https://www.anthropic.com/claude)
 - [Deepseek](https://www.deepseek.com/)
 - [GPT](https://openai.com/index/gpt-4/)
 - [Llama](https://www.llama.com/)
+- [Nova](https://aws.amazon.com/ai/generative-ai/nova/)
 - [o1](https://openai.com/o1/)
+- [Qwen](https://huggingface.co/Qwen)
 - [Stable Diffusion](https://stability.ai/stable-image)
 
-### Base Model Data (Order by Name ↑)
-
+### Base Model Data
+(Order by Name ↑)
 - [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE)
 - [**Common Crawl**](https://commoncrawl.org/)
 - [**Google Dataset Search**](https://datasetsearch.research.google.com/)
@@ -37,11 +56,17 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [USA Data Gov](https://data.gov/)
 
 
-### Language Model Benchmarks (Order by Name ↑)
+### Benchmarks
+(Order by Name ↑)
 
 - [GAIA](https://arxiv.org/abs/2311.12983) General Artificial Intelligence Assessment - [Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)
+- [GPQA](https://arxiv.org/abs/2311.12983) General Purpose Question Answering
 - [GSM8K](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k) - [Leaderboard](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k)
+- [LiveBench](https://livebench.ai/#/) - [Leaderboard](https://livebench.ai/#/)
+- [LMArena](https://lmarena.ai/) - [Leaderboard](https://lmarena.ai/leaderboard)
+- [MMLU](https://arxiv.org/abs/2009.03300) - [Leaderboard](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
 - [SWE-bench](https://www.swebench.com/index.html)
+- [WebDev Arena](https://web.lmarena.ai/) - [Leaderboard](https://web.lmarena.ai/leaderboard)
 
 
 ###  Running AI Models Locally
@@ -50,49 +75,56 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [ollama-ui](https://ollama-ui.github.io/ollama-ui/) - Simple HTML UI for Ollama. Available as [Chrome extension](https://chromewebstore.google.com/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco?pli=1).
 - [LM Studio](https://lmstudio.ai/) - GUI
 
-## Web/Online Models (Order by Name ↑)
-
+## Web/Online Models
+(Order by Name ↑)
 - [Allen Institute AI - Tulu 3:405B](https://playground.allenai.org/)
 - [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/new)
 - [Deepseek](https://www.deepseek.com/) - [R1](https://chat.deepseek.com)
 - [GitHub Models](https://github.com/marketplace/models)
 - [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
 - [Grok](https://grok.com/)
+- [Nova](https://chat.novaapp.ai/)
+- [Qwen](https://chat.qwenlm.ai/)
 
 
-## AI Resources (Order by Name ↑)
-
+## AI Resources
+(Order by Name ↑)
 [ApX Machine Learning](https://apxml.com/posts)
 [Arsturn](https://www.arsturn.com/blog)
 [Epoch AI](https://epoch.ai/)
 [ShinChven's Blog](https://atlassc.net/)
 
 
-## Prominent AI People (Sorted by Surname ↑)
+## Prominent AI People
+(Sorted by Surname ↑)
 
 - [Dario Amodei](https://darioamodei.com/) - [Anthropic](https://www.anthropic.com/)
 - [AmandA Askell](https://askell.io/) - [Anthropic](https://www.anthropic.com/)
+- [Lex Fridman](https://lexfridman.com/) - [MIT](https://www.mit.edu/)
+- [Salim Ismail](https://salimismail.com/) - [Anthropic](https://www.anthropic.com/)
 - [Nathan Lambert](https://www.interconnects.ai/) - [Allen Institute for AI](https://allenai.org/)
 - [Emad Mostaque](https://emad.posthaven.com/) - [stability.ai](https://stability.ai/)
 - [Christopher Olah](https://colah.github.io/) - [Anthropic](https://www.anthropic.com/)
 
-## YouTube Videos (Sorted by Publication Date ↓)
-
-- 2025-02-02    [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
-- 2025-01-29    [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
-- 2024-11-11    [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
 
 ## AI Publication Websites
-
+(Order by Name ↑)
 - [arxiv](https://arxiv.org/list/cs.AI/recent)
 
 
-## AI Publications (Sorted by Publication Date ↓)
+## AI Publications
+(Sorted by Publication Date ↓)
 
 - 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
 
 
-## Articles (Sorted by Publication Date ↓)
-
+## Articles
+(Sorted by Publication Date ↓)
 - 2025-01-19  [Top 5 Mistakes to Avoid When Learning Machine Learning](https://apxml.com/posts/top-mistakes-when-learning-machine-learning)
 - 2024-10-02  [How to Get Started with Machine Learning: A Beginner’s Step-by-Step Guide](https://apxml.com/posts/get-started-with-machine-learning-guide)
+
+## YouTube Videos
+(Sorted by Publication Date ↓)
+- 2025-02-02    [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
+- 2025-01-29    [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
+- 2024-11-11    [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)

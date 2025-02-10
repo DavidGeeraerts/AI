@@ -10,7 +10,6 @@
 > refers to the process of removing the refusal mechanisms from an LLM. This is achieved using a technique implemented in the [remove-refusals-with-transformers project](https://github.com/Sumandora/remove-refusals-with-transformers). This project provides a proof-of-concept implementation to remove refusals from an LLM without using TransformerLens, which supports most models available on HuggingFace. The code is tested with models up to 3B, but it can work with bigger models as well. The project uses harmful and harmless instructions to remove the refusals.
 
 ### Agentic AI
-
 > uses sophisticated reasoning and iterative planning to autonomously solve complex, multi-step problems.
 
 At its core, Agentic AI is a type of AI that’s all about autonomy. This means that it can make decisions, take actions, and even learn on its own to achieve specific goals. It’s kind of like having a virtual assistant that can think, reason, and adapt to changing circumstances without needing constant direction. Agentic AI operates in four key stages:
@@ -26,12 +25,13 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 ### (AI) Artificial Intelligence
 > is a branch of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence. AI encompasses a wide range of techniques, including machine learning, natural language processing, computer vision, and robotics, to develop systems that can perceive, reason, learn, and act autonomously.
 
-### alignment
+### Alignment
 > refers to the process of ensuring that AI systems are designed and deployed in a way that aligns with human values, ethical principles, and societal norms. Alignment involves considering the impact of AI systems on various stakeholders, including users, employees, and society as a whole. By aligning AI systems with human values, organizations can build trust, promote fairness, and mitigate potential risks associated with AI technologies.
 
+### Auto-regressive language model
+> is a type of AI model that generates text one token (word or character) at a time, with each token being predicted based on the previous ones. This means the model uses its own generated output as part of the input for predicting the next token, creating a sequence that builds on itself. A well-known example of an auto-regressive language model is GPT (Generative Pre-trained Transformer). These models are trained on large datasets and learn to predict the next word in a sentence, making them capable of generating coherent and contextually relevant text.
 
 ### Attention Mechanism
-
 > A key component in neural networks that helps models focus on relevant parts of input data. The attention mechanism allows the model to assign different weights to different parts of the input, enabling it to learn which elements are more important for the task at hand. This mechanism has been widely used in various deep learning architectures, such as transformers, to improve performance in tasks like machine translation, image captioning, and text summarization.
 
 ---
@@ -48,12 +48,200 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 ### Bayesian Optimization
 > is a technique used in machine learning to optimize [hyperparameters](#hyperparameter) of a model by modeling the objective function as a probabilistic surrogate. Bayesian optimization uses a probabilistic model, such as Gaussian processes, to model the objective function and guide the search for optimal [hyperparameters](#hyperparameter). By iteratively evaluating the objective function and updating the probabilistic model, Bayesian optimization efficiently finds the best [hyperparameters](#hyperparameter) for the model.
 
+### Benchmark
+> is a standardized test or evaluation procedure used to compare the performance of different machine learning models on a specific task or dataset. Benchmarks provide a common framework for researchers and developers to assess the capabilities of different models, identify state-of-the-art approaches, and track progress in the field. Common benchmarks include image classification tasks, natural language processing tasks, and reinforcement learning environments. List of [benchmarks](README.md#benchmarks-order-by-name-).
+
+### (BM25) Best Matching 25
+> is a classic and widely used sparse retrieval model for information retrieval tasks. Unlike dense embedding models like DPR, which rely on dense vector representations, BM25 is based on lexical matching and statistical properties of text. It is a probabilistic model that ranks documents or passages based on their relevance to a query. BM25 is commonly used in search engines and information retrieval systems to retrieve relevant documents or passages based on keyword matching and term frequency-inverse document frequency (TF-IDF) weighting. BM25 remains a popular choice for retrieval tasks due to its simplicity, efficiency, and strong performance in many scenarios. However, for tasks requiring semantic understanding, dense embedding models like [DPR](#dpr-dense-passage-retrieval) are often preferred.
+
+#### Key Features of BM25:
+
+1. Sparse Representation:
+
+   BM25 operates on the bag-of-words assumption, where documents and queries are represented as sparse vectors of term frequencies.
+   It does not capture semantic meaning but relies on exact keyword matching.
+   
+2. Term Frequency and Inverse Document Frequency (TF-IDF):
+
+   BM25 combines term frequency (TF) (how often a term appears in a document) and inverse document frequency (IDF) (how rare or common a term is across the entire corpus) to compute relevance scores.
+
+3. Tunable Parameters:
+
+   BM25 has two key parameters:
+
+      k₁: Controls the saturation of term frequency (how quickly the influence of repeated terms levels off).
+
+      b: Controls the impact of document length normalization (penalizing longer documents).
+
+4. Efficiency:
+
+   BM25 is computationally efficient and works well with inverted indices, making it suitable for large-scale retrieval tasks.
+
+#### How BM25 Works:
+
+1. Input:
+
+   A query (e.g., "What is the capital of France?") and a collection of documents or passages.
+
+2. Tokenization:
+
+   The query and documents are [tokenized](#tokenization) into individual terms.
+
+3. Scoring:
+
+   For each document, BM25 computes a relevance score based on the presence of query terms in the document, their frequencies, and their IDF values.
+
+4. Ranking:
+
+   Documents are ranked by their BM25 scores, and the top-k most relevant documents are returned.
+
+#### Advantages of BM25:
+
+1. Simplicity:
+
+   BM25 is easy to implement and does not require training data or complex neural networks.
+
+2. Efficiency:
+
+   It is computationally lightweight and works well with inverted indices, making it suitable for large-scale retrieval tasks.
+
+3. Robustness:
+
+   BM25 performs well in many retrieval tasks, especially when exact keyword matching is important.
+
+4. Interpretability:
+
+   The scoring mechanism is transparent and interpretable, unlike dense embedding models.
+
+#### Limitations of BM25:
+
+1. Lack of Semantic Understanding:
+
+   BM25 relies on exact keyword matching and cannot capture semantic relationships between terms (e.g., synonyms or paraphrases).
+
+2. Static Scoring:
+
+   The model does not adapt to specific domains or tasks unless the parameters (k1k1​, bb) are tuned.
+
+3. Handling of Long Documents:
+
+   While BM25 includes document length normalization, it may still struggle with very long documents or queries.
+
+
 ### Boosting
 > is an ensemble learning technique that combines multiple weak learners to create a strong learner. Boosting works by training each model sequentially, where each subsequent model focuses on correcting the errors made by the previous models. The final prediction is made by aggregating the predictions of all models, such as taking a weighted sum of the predictions. Boosting helps improve the accuracy and generalization of the model by reducing bias and variance.
 
 ---
 
 ## C
+
+### (CLIP) Contrastive Language-Image Pretraining
+> is a multimodal model developed by OpenAI that learns joint representations of text and images. CLIP is trained on a large dataset of image-text pairs to understand the relationship between visual and textual information. By learning to associate images with their corresponding textual descriptions, CLIP can perform tasks like zero-shot image classification, image generation from text prompts, and multimodal retrieval. CLIP has demonstrated strong performance on various vision-and-language tasks and has been used in applications like content moderation, recommendation systems, and creative AI.
+> CLIP revolutionized AI by bridging vision and language, enabling powerful multimodal applications. It remains a cornerstone for tasks requiring joint understanding of text and images, from search to generative AI.
+
+#### Key Features:
+
+1. Multimodal Alignment:
+
+   CLIP maps images and text into a shared embedding space, where corresponding image-text pairs are close to each other.
+
+   Enables cross-modal tasks like image search using text queries or vice versa.
+
+2. Zero-Shot Learning:
+
+   CLIP can perform tasks like classification, retrieval, or captioning without fine-tuning by leveraging natural language prompts (e.g., "a photo of a dog").
+
+3. Contrastive Learning:
+
+   Trained using a contrastive loss to maximize similarity between correct image-text pairs and minimize similarity for mismatched pairs.
+
+4. Large-Scale Training:
+
+   Trained on 400 million image-text pairs from the internet, covering diverse concepts and styles.
+
+#### How CLIP Works:
+
+1. Dual-Encoder Architecture:
+
+   Image Encoder: A vision backbone (e.g., Vision Transformer or ResNet) converts images into embeddings.
+
+   Text Encoder: A transformer-based model converts text into embeddings.
+
+2. Embedding Space:
+
+   Images and text are projected into a shared 512-dimensional space.
+
+   Similarity between image and text embeddings is measured using cosine similarity.
+
+3. Zero-Shot Inference:
+
+   For classification, generate text embeddings for possible class labels (e.g., "cat," "dog") and compare them with the image embedding.
+
+   The label with the highest similarity is selected as the prediction.
+
+#### Applications:
+
+1. Zero-Shot Image Classification:
+
+   Classify images using natural language prompts without task-specific training.
+
+   Example: Predict whether an image shows a "golden retriever" or "labrador."
+
+2. Image Retrieval:
+
+   Search for images using text queries (e.g., "a sunset over mountains").
+
+3. Text-Guided Image Generation:
+
+   Used with generative models (e.g., DALL·E) to create images from text prompts.
+
+4. Content Moderation:
+
+   Detect inappropriate images or text based on embeddings.
+
+5. Multimodal Search:
+
+   Build systems that retrieve images or text across modalities.
+
+#### Strengths:
+
+- Flexibility: Adapts to new tasks via natural language prompts.
+- Scalability: Handles diverse concepts due to large-scale training.
+- Efficiency: No need for labeled data for downstream tasks.
+
+#### Limitations:
+
+1. Bias:
+
+   Inherits societal biases from web-scale training data
+
+2. Fine-Grained Understanding:
+
+   Struggles with subtle distinctions (e.g., dog breeds or nuanced art styles).
+
+3. Computational Cost:
+
+   Training requires significant resources, though inference is efficient.
+
+4. Static Knowledge:
+
+   Limited to knowledge present in its training data (up to 2021 for CLIP models).
+
+#### CLIP Variants:
+
+- OpenCLIP: Open-source reimplementation of CLIP with community-driven training.
+- CLIP-ViT: Vision Transformer-based image encoder for improved performance.
+- CLIP+GAN: Combines CLIP with generative adversarial networks (e.g., StyleCLIP).
+
+#### Comparison to Other Models
+| Model	| Modality	| Key Feature
+| --- | --- | --- |
+| CLIP | Text + Image | Zero-shot cross-modal retrieval
+| DALL·E | Text → Image | Generates images from text
+| ALIGN | Text + Image	| Google's CLIP-like model
+| Florence | Multimodal | Microsoft's foundational embedding model
+
+
 
 ### Constitutional AI
 
@@ -92,6 +280,97 @@ The integration of constitutional AI offers numerous benefits:
 Constitutional AI represents a significant step forward in the development of ethical artificial intelligence. By embedding moral principles into AI systems, companies like Anthropic are paving the way for more responsible and trustworthy technology. As AI becomes
 increasingly integrated into our lives, the importance of constitutional AI will continue to grow, ensuring that these powerful tools remain aligned with human values and contribute positively to society.
 
+### (CoT) Chain of Thought
+> is a reasoning technique used in natural language processing (NLP) and artificial intelligence (AI) to improve the performance of models, particularly in complex problem-solving tasks. It involves breaking down a problem into intermediate reasoning steps, mimicking how humans solve problems by thinking step-by-step. This approach is especially useful for tasks that require logical reasoning, arithmetic, or multi-step inference. Chain of Thought is a powerful technique that enhances the reasoning capabilities of AI models, making them more effective at solving complex problems and providing interpretable results. It is widely used in tasks requiring logical, mathematical, or multi-step reasoning.
+
+#### Key Concepts of Chain of Thought:
+
+1. Intermediate Reasoning Steps:
+
+   Instead of directly generating the final answer, the model produces a sequence of intermediate steps that lead to the solution.
+
+      Example:
+
+         Problem: "If Alice has 3 apples and Bob gives her 2 more, how many apples does Alice have?"
+
+         CoT: "Alice starts with 3 apples. Bob gives her 2 more. 3 + 2 = 5. Alice has 5 apples."
+
+2. Human-Like Reasoning:
+
+   CoT mimics the way humans solve problems by thinking aloud or writing down intermediate steps.
+
+3. Improved Performance:
+
+   By explicitly generating reasoning steps, models can handle more complex tasks that require logical or mathematical reasoning.
+
+#### How Chain of Thought Works:
+
+1. Input:
+
+   A problem or question is provided as input.
+
+2. Reasoning Steps:
+
+   The model generates a sequence of intermediate steps to solve the problem.
+
+3. Final Answer:
+
+   The model produces the final answer based on the reasoning steps.
+
+#### Benefits of Chain of Thought:
+
+1. Improved Accuracy:
+
+   Breaking down problems into smaller steps reduces errors and improves the model's ability to solve complex tasks.
+
+2. Explainability:
+
+   CoT provides a transparent reasoning process, making it easier to understand how the model arrived at its answer.
+
+3. Scalability:
+
+   CoT can be applied to a wide range of tasks, including arithmetic, logical reasoning, and commonsense reasoning.
+
+4. Few-Shot and Zero-Shot Learning:
+
+   CoT can be used in few-shot or zero-shot settings, where the model is given a few examples or no examples at all.
+
+#### Applications of Chain of Thought:
+
+- Mathematical Problem Solving:
+
+   Solving arithmetic, algebra, and word problems.
+
+- Logical Reasoning:
+
+   Tasks involving deductive or inductive reasoning.
+
+- Commonsense Reasoning:
+
+   Answering questions that require real-world knowledge.
+
+- Code Generation:
+
+   Writing code by breaking down the problem into smaller steps.
+
+- Question Answering:
+
+   Answering complex questions that require multi-step reasoning.
+
+#### Challenges of Chain of Thought:
+
+- Error Propagation:
+
+   If an intermediate step is incorrect, the final answer will likely be wrong.
+
+- Complexity:
+
+   Generating accurate and coherent reasoning steps can be challenging for very complex problems.
+
+- Computational Cost:
+
+   Generating multiple reasoning steps can increase the computational cost of inference.
+
 ---
 
 ## D
@@ -107,6 +386,96 @@ increasingly integrated into our lives, the importance of constitutional AI will
 
 > is a subset of machine learning that uses artificial neural networks to model and solve complex problems. Deep learning algorithms are designed to automatically learn and extract features from data, enabling them to make accurate predictions or decisions without explicit programming. Deep learning has been instrumental in advancing AI applications in areas such as computer vision, natural language processing, and speech recognition.
 
+### (DPR) Dense Passage Retrieval
+> is a state-of-the-art embedding model designed for efficient and accurate retrieval of relevant passages or documents in tasks like open-domain question answering (QA). Unlike traditional sparse retrieval methods (e.g., BM25), which rely on keyword matching, DPR uses dense vector representations (embeddings) to capture semantic similarity between queries and passages. By pre-training on large-scale text data, DPR can efficiently retrieve relevant information for downstream QA tasks. DPR has become a foundational component in modern retrieval systems, enabling more accurate and efficient information retrieval for tasks like QA, dialogue systems, and knowledge-intensive NLP applications.
+
+#### Key Features of DPR:
+
+1. Dense Embeddings:
+
+   DPR represents both queries and passages as dense vectors in a high-dimensional space (e.g., 768 dimensions).
+   These embeddings are learned using neural networks, enabling the model to capture semantic relationships rather than just lexical overlap.
+
+2. Dual-Encoder Architecture:
+
+   DPR uses two separate neural networks (encoders):
+      Query Encoder: Encodes the input question or query into a dense vector.
+      Passage Encoder: Encodes passages or documents into dense vectors.
+
+   The similarity between a query and a passage is computed using the dot product or cosine similarity of their embeddings.
+
+3.  Training Objective:
+
+   DPR is trained using a contrastive learning objective, where the model learns to maximize the similarity between a query and its correct passage (positive example) while minimizing the similarity with incorrect passages (negative examples).
+   Negative examples can be hard negatives (challenging examples) or random negatives.
+
+4. Efficient Retrieval:
+
+   Once the embeddings are computed, retrieval is performed using approximate nearest neighbor (ANN) search algorithms (e.g., FAISS) to efficiently find the most relevant passages from a large corpus.
+
+#### How DPR Works:
+
+1. Input:
+
+   A query (e.g., "What is the capital of France?") and a large collection of passages or documents.
+
+2. Encoding:
+
+   The query encoder generates a dense vector for the query.
+
+   The passage encoder precomputes dense vectors for all passages in the corpus.
+
+3. Similarity Calculation:
+
+   The similarity between the query vector and each passage vector is computed (e.g., using dot product or cosine similarity).
+
+4. Retrieval:
+
+   The top-k most similar passages are retrieved and returned as candidates for further processing (e.g., by a generative model in a Retrieval-Augmented Generation (RAG) pipeline).
+
+#### Training DPR:
+
+1. Dataset:
+
+   DPR is typically trained on question-answer pairs with associated passages, such as Natural Questions (NQ) or TriviaQA.
+
+2. Loss Function:
+
+   The model is trained using a contrastive loss (e.g., InfoNCE) to distinguish between positive and negative passage pairs.
+
+3. Fine-Tuning:
+
+   Pre-trained language models like BERT are often used as the backbone for the query and passage encoders, which are then fine-tuned on the retrieval task.
+
+#### Advantages of DPR:
+
+1. Semantic Understanding:
+
+   DPR captures the meaning of queries and passages, enabling it to retrieve relevant results even when there is no exact keyword match.
+
+2. Scalability:
+
+   DPR can efficiently handle large-scale corpora by leveraging approximate nearest neighbor search.
+
+3. Integration with Downstream Tasks:
+
+   DPR is often used as part of larger systems, such as Retrieval-Augmented Generation (RAG), where retrieved passages are fed into a generative model to produce answers.
+
+#### Limitations of DPR:
+
+1. Dependency on Training Data:
+
+   DPR's performance depends on the quality and diversity of the training data. It may struggle with out-of-domain queries.
+
+2. Computational Cost:
+
+   Precomputing embeddings for large corpora can be resource-intensive, though retrieval itself is fast.
+
+3. Static Knowledge:
+
+   DPR relies on a fixed corpus, so it cannot retrieve information from dynamically changing sources unless the embeddings are recomputed.
+
+
 ---
 
 ## E
@@ -114,9 +483,154 @@ increasingly integrated into our lives, the importance of constitutional AI will
 ### Embedding
 
 > is a technique used in natural language processing (NLP) and other machine learning tasks to represent words, phrases, or entities as vectors in a continuous vector space. Word embeddings capture semantic relationships between words, allowing models to understand the context and meaning of text data. Popular embedding methods include Word2Vec, GloVe, and FastText.
+Some Key points about Embeddings:
+1. Dimensionality Reduction: Embeddings reduce the dimensionality of data, making it easier to work with while preserving important information.
+2. Semantic Meaning: Words or items with similar meanings are placed closer together in the vector space. For example, in a word embedding, "king" and "queen" would be closer to each other than "king" and "apple".
+3. Training: Embeddings are typically learned during the training process of a model. Popular methods for creating word embeddings include Word2Vec, GloVe, and BERT.
+
+### Embedding Models
+> are machine learning models that learn to represent data as vectors in a continuous vector space, that map high-dimensional data (e.g., text, images, or graphs) into lower-dimensional vector representations [embeddings](#embedding). These embeddings capture semantic or structural relationships in the data, enabling efficient computation, comparison, and generalization. Embedding models are commonly used in natural language processing (NLP) to capture semantic relationships between words, phrases, or entities. These models learn to map input data to dense vector representations that encode meaningful information about the data. Popular embedding models include Word2Vec, GloVe, FastText, and BERT.
+
+> Embedding models are foundational to modern AI systems, enabling machines to "understand" and reason about unstructured data. Advances like contrastive learning and multimodal alignment (e.g., CLIP) continue to push the boundaries of what embeddings can achieve. For implementation, libraries like Hugging Face Transformers, TensorFlow, and PyTorch provide easy access to state-of-the-art models.
+
+
+#### Key Concepts:
+
+1. Vector Space:
+
+   Data points (words, images, etc.) are represented as vectors in a continuous space where geometric relationships (e.g., distance, angle) reflect semantic or functional similarities.
+
+2. Dimensionality Reduction:
+
+   Embeddings compress high-dimensional data (e.g., one-hot encoded words) into dense, low-dimensional vectors (e.g., 50–1000 dimensions).
+
+3. Semantic Relationships:
+
+   Similar items (e.g., synonyms, related images) are positioned closer in the embedding space (measured via cosine similarity or Euclidean distance).
+
+#### Types of Embedding Models:
+1. Word Embeddings:
+
+    Map words to vectors based on their context in large text corpora.
+
+    Examples:
+
+        Word2Vec (Skip-Gram, CBOW): Captures word analogies (e.g., king - man + woman ≈ queen).
+
+        GloVe (Global Vectors): Combines global co-occurrence statistics with local context.
+
+        FastText: Represents words as character n-grams, handling rare or misspelled words.
+
+2. Sentence/Document Embeddings:
+
+    Encode entire sentences, paragraphs, or documents into vectors.
+
+    Examples:
+
+        BERT (Bidirectional Transformers): Generates context-aware embeddings.
+
+        SBERT (Sentence-BERT): Optimized for sentence similarity tasks.
+
+        Doc2Vec: Extends Word2Vec to document-level embeddings.
+
+3. Image Embeddings:
+
+    Convert images into vectors using convolutional neural networks (CNNs).
+
+    Examples:
+
+        ResNet, VGG: Pre-trained CNNs for feature extraction.
+
+        CLIP (Contrastive Language-Image Pretraining): Aligns text and image embeddings.
+
+4. Multimodal Embeddings:
+
+    Encode data from multiple modalities (text, images, audio) into a shared space.
+
+    Examples:
+
+        CLIP: Maps text and images to the same space.
+
+        Wav2Vec: Embeds audio signals for speech tasks.
+
+5. Graph Embeddings:
+
+    Represent nodes, edges, or entire graphs as vectors.
+
+    Examples:
+
+        Node2Vec, GraphSAGE: Capture structural relationships in graphs.
+
+        TransE: Embeds knowledge graphs (e.g., entities and relations).
+
+#### Applications:
+
+1. Natural Language Processing (NLP):
+
+   Semantic search, text classification, machine translation, and named entity recognition.
+
+        Example: Finding similar articles using SBERT embeddings.
+
+2. Recommendation Systems:
+
+   Embed users and items (e.g., movies, products) to predict preferences.
+
+        Example: Collaborative filtering with matrix factorization.
+
+3. Computer Vision:
+
+   Image search (e.g., "find similar products"), object detection, and facial recognition.
+
+   Retrieval-Augmented Generation (RAG):
+
+        Retrieve relevant documents using embeddings to augment generative models (e.g., GPT, Llama).
+
+4. Anomaly Detection:
+
+   Identify outliers by comparing embeddings (e.g., fraud detection in transactions).
+
+#### Training Embedding Models:
+
+1. Unsupervised Learning:
+
+   Trained on large, unlabeled datasets (e.g., Wikipedia, Common Crawl).
+
+   Techniques: Skip-Gram (Word2Vec), masked language modeling (BERT).
+
+2. Supervised Learning:
+
+   Fine-tuned on labeled data for specific tasks (e.g., sentiment classification).
+
+3. Contrastive Learning:
+
+   Trains embeddings by contrasting positive pairs (similar items) against negatives.
+
+   Used in models like CLIP and SimCLR.
+
+#### Challenges:
+
+1. Semantic Nuance:
+
+   Capturing subtle differences (e.g., irony, sarcasm) remains difficult.
+
+2. Domain Adaptation:
+
+   Embeddings trained on general data may fail in specialized domains (e.g., medical text).
+
+3. Computational Cost:
+
+   Training large models (e.g., BERT) requires significant resources.
+
+4. Bias:
+
+   Embeddings can inherit biases from training data (e.g., gender stereotypes).
+
 
 ### Ensemble Learning
 > is a machine learning technique that combines multiple models to improve predictive performance. Ensemble methods leverage the diversity of individual models to make more accurate predictions by aggregating their outputs. Common ensemble techniques include bagging, boosting, and stacking, which can be applied to various machine learning algorithms.
+
+### Evaluation
+> is the process of assessing the performance of a machine learning model on a specific task or dataset. Evaluation involves measuring the model's accuracy, precision, recall, F1 score, or other metrics to determine how well it generalizes to new, unseen data. Effective evaluation helps identify the strengths and weaknesses of the model and guides improvements in the training process.
 
 ---
 
@@ -125,27 +639,61 @@ increasingly integrated into our lives, the importance of constitutional AI will
 ### Few-Shot Learning
 > is a machine learning paradigm where a model is trained to recognize new classes or tasks from a small number of examples. Few-shot learning aims to generalize from limited data by leveraging prior knowledge or meta-learning techniques. This approach is particularly useful for tasks where collecting large amounts of labeled data is challenging or impractical.
 
-
-
-
-### Federated Learning
-> is a machine learning approach that enables training models across multiple decentralized devices or servers while keeping the data local. Federated learning allows models to be trained on data from different sources without sharing the raw data, preserving privacy and security. This technique is used in applications where data cannot be centralized, such as healthcare, finance, and edge computing.
-
 ### Feature Engineering
 > is the process of selecting, transforming, and creating new features from raw data to improve the performance of machine learning models. Feature engineering involves identifying relevant features, encoding categorical variables, scaling numerical data, and creating new features that capture important patterns in the data. Effective feature engineering can significantly impact the accuracy and generalization of machine learning models.
 
 ### Feature Extraction
 > is the process of extracting relevant features from raw data to represent the underlying patterns and relationships in the data. Feature extraction involves transforming the input data into a set of meaningful features that can be used as input to machine learning models. This process helps reduce the dimensionality of the data and improve the performance of the models.
 
+### Federated Learning
+> is a machine learning approach that enables training models across multiple decentralized devices or servers while keeping the data local. Federated learning allows models to be trained on data from different sources without sharing the raw data, preserving privacy and security. This technique is used in applications where data cannot be centralized, such as healthcare, finance, and edge computing.
+
 ### Fine-tuning
 > is a technique used in transfer learning to adapt a pre-trained model to a specific task or dataset. Fine-tuning involves updating the parameters of the pre-trained model by training it on new data related to the target task. This process allows the model to leverage the knowledge learned from the pre-training phase and improve its performance on the new task.
+
+### Foundation model
+> is a large-scale language model that serves as the basis for developing more specialized models for specific tasks or domains. Foundation models are pre-trained on vast amounts of text data and can be fine-tuned on smaller datasets to perform well on targeted applications. These models provide a starting point for building custom models and enable efficient transfer learning across different tasks.
+
+### FP{8,16,32} Training Process
+> is a training process that uses mixed-precision training to accelerate the training of deep learning models. Reduces memory usage and accelerates computation in deep learning, particularly beneficial for large models (e.g., transformers). FP{8,16,32} refers to the precision of floating-point numbers used to represent the model's parameters during training. By using lower-precision floating-point numbers (e.g., FP16), the training process can be accelerated while maintaining model accuracy. This technique is particularly useful for training large models on GPUs or TPUs.
+> FP8 training optimizes the trade-off between computational efficiency and numerical precision, making it pivotal for next-gen AI models. By integrating dynamic scaling and mixed-precision techniques, it achieves significant speed and memory gains while maintaining model accuracy. Adoption requires compatible hardware and careful implementation but offers transformative benefits for scalable AI training.
+
 
 ---
 
 ## G
 
+### (GAIA) General AI Assistants Benchmark
+>  is a framework designed to evaluate the capabilities of AI assistants in handling real-world, multi-turn, and multi-modal tasks. It focuses on assessing how well AI systems can assist users in complex, interactive scenarios that require reasoning, knowledge retrieval, and task completion across various domains.
+
+#### Key Features of GAIA:
+
+1. Real-World Tasks:
+
+   GAIA includes tasks that mimic real-world interactions, such as booking a flight, planning a trip, or troubleshooting a technical issue.
+
+2. Multi-Turn Dialogue:
+
+   Tasks often involve multi-turn conversations, where the AI must maintain context and provide coherent responses over multiple interactions.
+
+3. Multi-Modal Inputs:
+
+   GAIA may include tasks that require processing multiple types of input, such as text, images, or audio.
+
+4. Complex Reasoning:
+
+   Tasks are designed to test the AI's ability to reason, plan, and solve problems that require multiple steps.
+
+5. User-Centric Evaluation:
+
+   GAIA emphasizes user satisfaction and task success, measuring how well the AI assistant meets the user's needs.
+
+
 ### (GANs) Generative Adversarial Networks
 > are a class of deep learning models that consist of two neural networks: a generator and a discriminator. The generator network learns to generate new data samples, such as images, text, or audio, while the discriminator network learns to distinguish between real data samples and generated samples. GANs are used in tasks like image generation, style transfer, and data augmentation.
+
+### (GPQA) General-Purpose Question Answering Benchmark
+> is a benchmark designed to evaluate the performance of question-answering models on a diverse set of tasks and question types. GPQA includes questions from various domains, such as science, history, and literature, to test the generalization and reasoning capabilities of QA models. The benchmark aims to assess how well models can answer questions that require complex reasoning and knowledge retrieval.
 
 ### (GPT) Generative Pre-trained Transformer
 > is a series of large language models developed by OpenAI that are based on the transformer architecture. The GPT models are pre-trained on vast amounts of text data to understand and generate human language. GPT models have been used for various natural language processing tasks, such as text generation, translation, and question answering.
@@ -158,6 +706,10 @@ increasingly integrated into our lives, the importance of constitutional AI will
 ---
 
 ## H
+
+### Hallucination
+>  refers to instances where the model generates information that is not based on the input data or real-world facts. Essentially, the AI "makes up" details or provides incorrect information confidently. This can happen for various reasons, such as limitations in the training data, the model's architecture, or the way it processes and interprets information.
+> Hallucinations can be problematic, especially in applications where accuracy is crucial, like medical diagnosis or legal advice. Researchers are continuously working on improving AI models to reduce the occurrence of hallucinations and ensure more reliable outputs.
 
 ### Hyperparameter
 
@@ -174,6 +726,8 @@ increasingly integrated into our lives, the importance of constitutional AI will
 
 
 ## J
+
+---
 
 ## K
 
@@ -217,6 +771,8 @@ predictions (outputs) of the teacher model.
 
 > In summary, knowledge distillation is a powerful technique for creating efficient, compact models that can perform nearly as well as their larger counterparts, making it an essential tool in modern AI modeling.
 
+---
+
 ## L
 
 ### Leaderboard
@@ -227,7 +783,6 @@ predictions (outputs) of the teacher model.
 
 ### Lightweight Models
 > are machine learning models that are designed to be small, fast, and resource-efficient, making them suitable for deployment on edge devices, mobile phones, or other resource-constrained environments. Lightweight models are optimized for low memory usage, fast inference speed, and minimal computational requirements, enabling them to perform efficiently in real-time applications.
-
 
 ### Loss Function
 > A measure of how well the model is performing during training. The loss function calculates the difference between the predicted output of the model and the actual target output. The goal of training a machine learning model is to minimize the loss function, which indicates that the model is making accurate predictions.
@@ -287,9 +842,67 @@ Promoting transparent, fair, and accountable AI systems is essential for respons
 In summary, mechanistic interpretability is a vital approach to understanding the internal decision-making processes of AI models. By focusing on the model's intrinsic mechanisms, it enhances trust, improves performance, and ensures compliance with ethical
 guidelines, ultimately fostering responsible AI development and deployment.
 
+### (MLA) Multi-head latent Attention
+> is a technique used in deep learning models to improve efficiency by reducing memory usage while maintaining performance. It achieves this by compressing the Key-Value (KV) cache into a latent vector, allowing the model to handle longer sequences with fewer computational resources. Multi-head latent attention is particularly useful in transformer-based models for natural language processing tasks, where memory constraints can be a limiting factor.
+
+### (MLOps) Machine Learning Operations
+> is a set of practices and tools used to streamline and automate the deployment, monitoring, and management of machine learning models in production. MLOps aims to bridge the gap between data science and operations teams, enabling organizations to deploy and scale machine learning models efficiently. MLOps involves processes such as model training, testing, deployment, monitoring, and maintenance to ensure the reliability and performance of machine learning systems.
+
+Key aspects of MLOps:
+1. Automation: Automates various stages of the ML pipeline, including data ingestion, preprocessing, model training, validation, and deployment1.
+2. Version Control: Tracks changes in ML assets to ensure reproducibility and the ability to roll back to previous versions if necessary1.
+3. Continuous Integration/Continuous Deployment (CI/CD): Integrates ML models with application code and data changes, ensuring smooth and consistent updates2.
+4. Monitoring and Governance: Monitors deployed models for performance and compliance with business and regulatory requirements2.
+
+### (MMLU) Massive Multitask Language Understanding
+> is a comprehensive evaluation framework designed to measure the multitask capabilities of language models across a wide range of domains and tasks. Introduced by Hendrycks et al. in 2020, MMLU tests a model's ability to generalize and perform well on diverse tasks, including humanities, STEM, social sciences, and more. It is one of the most challenging and widely used benchmarks for assessing the breadth and depth of a model's knowledge and reasoning abilities.
+
+### (MTP) Multi-Token Prediction
+> is an innovative training and inference strategy designed to enhance the efficiency and speed of large language models (LLMs) by predicting multiple future tokens simultaneously.
+> By predicting multiple tokens ahead and leveraging parallel verification, MTP strikes a balance between model performance and inference speed, making it a promising direction for efficient LLMs.
+
+#### Core Concept
+
+1. Objective: Train the model to predict the next n tokens at each position in the sequence, rather than just the immediate next token (as in traditional autoregressive models).
+2. Architecture: Utilizes multiple output heads, each predicting a token at a different future position (e.g., 1st, 2nd, ..., 4th token ahead).
+
+#### Training Strategy
+
+1. Multi-Token Loss: The model is trained to minimize the loss across all predicted tokens (e.g., predicting tokens t+1, t+2, t+3, t+4 at position t).
+2. Improved Context Learning: By forcing the model to anticipate longer sequences, it captures richer contextual dependencies.
+
+#### Inference Speedup
+
+1. Tree-Based Decoding:
+
+   Step 1: Generate a tree of candidate tokens for multiple positions in parallel.
+
+   Step 2: Use the model’s multi-token predictions to validate and select the correct path.
+
+   Step 3: Accept valid token sequences and discard incorrect branches, effectively decoding multiple tokens per step.
+
+2. Result: Reduces the sequential bottleneck of autoregressive generation, achieving 2–3× faster inference compared to standard methods.
+
+#### Key Advantages
+
+1. Sample Efficiency: Training on multi-token objectives improves data utilization.
+2. Faster Generation: Parallel token verification accelerates inference.
+3. Compatibility: Can be integrated into existing architectures (e.g., Transformers) with minimal modification.
+
+#### Applications
+
+- Code Generation: Accelerates output for IDEs or tools like GitHub Copilot.
+- Real-Time Chatbots: Reduces latency in conversational AI.
+- Document Summarization: Faster processing of long texts.
+
+#### Challenges
+
+- Increased Memory: Storing multiple candidate paths requires more memory.
+- Complex Validation: Ensuring coherence across parallel predictions adds computational overhead.
+
 
 ### Model-Agnostic Interpretability
-> is an approach to interpreting machine learning models that focuses on understanding the model's behavior without relying on specific model internals. Model-agnostic interpretability techniques, such as feature importance analysis, partial dependence plots, and SHAP values, provide insights into how models make predictions across different algorithms and architectures.
+> is a comprehensive evaluation framework designed to measure the multitask capabilities of language models across a wide range of domains and tasks. Introduced by Hendrycks et al. in 2020, MMLU tests a model's ability to generalize and perform well on diverse tasks, including humanities, STEM, social sciences, and more. It is one of the most challenging and widely used benchmarks for assessing the breadth and depth of a model's knowledge and reasoning abilities.
 
 ### Model-Based Reinforcement Learning
 > is a reinforcement learning approach that uses a learned model of the environment to make decisions and optimize policies. Model-based reinforcement learning involves training a predictive model of the environment dynamics and using it to simulate trajectories and plan actions. This approach can improve sample efficiency and accelerate learning in complex environments.
@@ -324,6 +937,15 @@ guidelines, ultimately fostering responsible AI development and deployment.
 ### Model Zoo
 > is a collection of pre-trained machine learning models that are publicly available for download and use. Model zoos provide a wide range of models trained on various tasks and datasets, allowing researchers and developers to leverage state-of-the-art models for their applications. Popular model zoos include Hugging Face, TensorFlow Hub, and PyTorch Hub.
 
+### (MoE) Mixture of Experts
+> is a machine learning architecture that combines multiple expert models to improve predictive performance. In a mixture of experts model, each expert specializes in a specific subset of the input data, and a gating network determines which expert to use for a given input. Mixture of experts models are used in tasks such as language modeling, image recognition, and recommendation systems. MoE architectures are particularly useful in large-scale models, such as those used in [natural language processing (NLP)](#natural-language-processing-nlp). They enable these models to handle vast amounts of data more efficiently, making them faster and more scalable.
+
+Key Features of Mixture of Experts (MoE) Models:
+1. Experts: Each expert network is trained to handle specific types of data or tasks, allowing for more efficient and accurate processing. Each expert is typically a neural network or a simpler model.
+2. Gating Network: A routing mechanism that decides which experts should process a given input. The gating network outputs a probability distribution over the experts, indicating how much each expert should contribute to the final output.
+3. Dynamic Routing: Inputs are dynamically assigned to experts based on the gating network's decisions. This allows the model to adapt to different types of inputs efficiently.
+4. Sparsity: Only a small subset of experts is activated for each input, making MoE computationally efficient.
+
 ### Multimodal Learning
 > is a machine learning paradigm that involves processing and generating data from multiple modalities, such as text, images, audio, and video. Multimodal learning aims to leverage information from different sources to improve model performance and enable more comprehensive understanding of complex data. Multimodal models can process and generate content across multiple modalities, enabling them to perform tasks like image captioning, text-to-image generation, and multimodal translation.
 
@@ -341,6 +963,9 @@ guidelines, ultimately fostering responsible AI development and deployment.
 
 
 ## O
+
+### (OW) Open Weights
+> refers to AI models whose model weights (parameters learned during training) are publicly released alongside the model architecture, enabling users to freely use, modify, and redistribute the model. This contrasts with closed models (e.g., GPT-4, Claude), where only API access is provided, and weights are kept proprietary. Open weights models promote transparency, reproducibility, and community collaboration in AI research and development.
 
 ### Overfitting
 > is a common problem in machine learning where a model learns the training data too well, capturing noise and irrelevant patterns that do not generalize to new, unseen data. Overfitting occurs when a model is too complex relative to the amount of training data, leading to high performance on the training set but poor performance on the test set.
@@ -386,7 +1011,46 @@ guidelines, ultimately fostering responsible AI development and deployment.
 
 ## Q
 
+---
+
 ## R
+
+### (RAG) Retrieval-Augmented Generation
+> is a technique in natural language processing (NLP) that combines retrieval-based methods with generative models to improve the quality and relevance of generated text. It is particularly useful in tasks like question answering, dialogue systems, and content creation, where both factual accuracy and contextual coherence are important.
+
+#### How RAG Works:
+
+1. Retrieval Phase:
+
+   Given an input (e.g., a question or prompt), the system retrieves relevant documents or passages from a large external knowledge source (e.g., Wikipedia, a database, or a curated corpus).
+   This is typically done using a dense retriever (e.g., a neural embedding model like DPR or BM25) to find the most semantically relevant information.
+
+2. Augmentation Phase:
+
+   The retrieved documents are combined with the original input to provide additional context for the generative model.
+
+3. Generation Phase:
+
+   A generative model (e.g., GPT, T5, or BART) uses the augmented input (original input + retrieved documents) to produce a coherent and contextually appropriate response.
+
+#### Key Benefits of RAG:
+
+- Factual Accuracy: By grounding the generation process in retrieved documents, RAG reduces the risk of generating incorrect or [hallucinated](#hallucination) information.
+- Contextual Relevance: The retrieved documents provide additional context, enabling the model to generate more relevant and detailed responses.
+- Scalability: RAG can leverage large external knowledge sources without requiring the generative model to memorize all information.
+
+#### Applications of RAG:
+
+- Question Answering: RAG can provide accurate answers by retrieving and synthesizing information from external sources.
+- Dialogue Systems: It enables chatbots to provide more informed and contextually appropriate responses.
+- Content Creation: RAG can assist in generating well-researched and factually accurate content.
+
+#### Challenges:
+
+- Retrieval Quality: The effectiveness of RAG depends heavily on the quality of the retrieval phase. Poor retrieval can lead to irrelevant or misleading information being used for generation.
+- Computational Cost: Combining retrieval and generation can be computationally expensive, especially when dealing with large knowledge bases.
+- Integration: Seamlessly integrating retrieved information into the generative process without introducing noise or redundancy can be challenging.
+
 
 ### Regularization
 > is a technique used in machine learning to prevent overfitting by adding a penalty term to the loss function. Regularization methods, such as L1 regularization (Lasso), L2 regularization (Ridge), and dropout, help reduce the complexity of the model and improve its generalization performance on unseen data.
@@ -425,7 +1089,7 @@ RAHF is particularly useful for tasks that involve processing long sequences, su
 RAHF is an architectural advancement that improves the efficiency and scalability of transformer models for long sequences, making them more suitable for a wide range of applications. It achieves this through hierarchical processing, random access memory
 mechanisms, and reversible attention.
 
-### Reinforcement Learning
+### (RL) Reinforcement Learning
 > is a machine learning paradigm that involves training agents to make sequential decisions in an environment to maximize a reward signal. Reinforcement learning models learn through trial and error, exploring different actions and learning from the feedback received from the environment. Reinforcement learning is used in applications such as game playing, robotics, and autonomous systems.
 
 ### (RLHF) Reinforcement learning from human feedback
@@ -478,6 +1142,8 @@ performance.
 
 > In summary, while "Race-to-the-Top" is not a specific term in AI, it can be interpreted as the competitive and iterative processes that drive advancements in AI systems. These processes often involve competition among models or agents, leading to mutual
 improvement and innovation. However, this race also raises important questions about control, ethics, and the responsible development of advanced AI technologies.
+
+---
 
 ## S
 
@@ -550,6 +1216,105 @@ that are both agreeable and truthful, enhancing their utility and user satisfact
 
 ## T
 
+### (TF-IDF) Term Frequency-Inverse Document Frequency
+> is a numerical statistic used in natural language processing to evaluate the importance of a word in a document relative to a collection of documents. TF-IDF combines two metrics: term frequency (TF), which measures how often a word appears in a document, and inverse document frequency (IDF), which measures how unique or rare a word is across documents. TF-IDF is commonly used in text mining, information retrieval, and document classification tasks. It is a foundational concept in many retrieval and text analysis tasks, such as search engines, document clustering, and keyword extraction. TF-IDF is a fundamental tool in NLP and information retrieval, providing a simple yet effective way to measure the importance of terms in a document. While it has limitations, it remains widely used in many applications.
+
+#### Term Frequency (TF):
+
+- Measures how often a term appears in a document.
+- The intuition is that terms that appear more frequently in a document are more relevant to that document.
+
+#### Inverse Document Frequency (IDF):
+
+- Measures how rare or common a term is across the entire corpus.
+- The intuition is that terms that appear in fewer documents are more discriminative and carry more information.
+
+#### TF-IDF
+- Combines TF and IDF to compute the importance of a term in a document relative to the corpus.
+
+#### Intuition Behind TF-IDF:
+
+- Term Frequency (TF):
+
+   If a term appears many times in a document, it is likely important to that document.
+
+   Example: In a document about cats, the word "cat" will have a high TF.
+
+- Inverse Document Frequency (IDF):
+
+   If a term appears in many documents, it is less discriminative and less important.
+
+   Example: Common words like "the" or "is" will have a low IDF because they appear in almost every document.
+
+- TF-IDF:
+
+   Balances the local importance (TF) and global rarity (IDF) of a term.
+
+   Example: A rare term like "meow" will have a high TF-IDF in a document about cats because it is both frequent in that document and rare in the corpus.
+
+#### Applications of TF-IDF:
+
+1. Information Retrieval:
+
+   Used in search engines to rank documents based on their relevance to a query.
+
+   Example: Retrieving documents containing the query terms with the highest TF-IDF scores.
+
+2. Text Mining:
+
+   Used for keyword extraction and document summarization.
+
+   Example: Identifying the most important terms in a document.
+
+3. Document Clustering and Classification:
+
+   Used as a feature representation for machine learning models.
+
+   Example: Representing documents as TF-IDF vectors for clustering or classification tasks.
+
+4. Recommender Systems:
+
+   Used to recommend similar documents or items based on TF-IDF similarity.
+
+#### Advantages of TF-IDF:
+
+- Simplicity:
+
+   Easy to compute and interpret.
+
+- Effectiveness:
+
+   Works well for many retrieval and text analysis tasks.
+
+- Scalability:
+
+   Can handle large corpora efficiently.
+
+#### Limitations of TF-IDF:
+
+- Lack of Semantic Understanding:
+
+   Does not capture semantic relationships between terms (e.g., synonyms or paraphrases).
+
+- Sparse Representation:
+
+   Produces high-dimensional sparse vectors, which can be inefficient for some tasks.
+
+- Dependence on Term Frequency:
+
+   May not work well for very short documents or queries.
+
+#### Comparison with BM25:
+
+- TF-IDF:
+
+   A static scoring function that does not account for document length or term saturation.
+
+- BM25:
+
+   An extension of TF-IDF that incorporates document length normalization and term frequency saturation, making it more robust for retrieval tasks.
+
+
 ### Tokenization
 > is the process of breaking down text data into smaller units called tokens. Tokens can be words, subwords, or characters, depending on the tokenization strategy used. Tokenization is a crucial step in natural language processing tasks, such as text classification, named entity recognition, and machine translation.
 
@@ -557,7 +1322,6 @@ that are both agreeable and truthful, enhancing their utility and user satisfact
 > is a machine learning technique where a model trained on one task is adapted or fine-tuned to perform a different task. Transfer learning leverages knowledge learned from one domain to improve performance on another domain, especially when labeled data is limited. This approach is widely used in natural language processing, computer vision, and other machine learning applications.
 
 ### transformer
-
 > is a revolutionary neural network architecture introduced in the 2017 paper titled *“Attention Is All You Need”* by researchers at Google. It has become a cornerstone of modern artificial intelligence (AI), particularly in natural language
 processing (NLP) and other sequence-based tasks.
 
@@ -580,7 +1344,6 @@ processing (NLP) and other sequence-based tasks.
 
 5. **Feed-Forward Networks**:
    - Each layer in the encoder and decoder includes a fully connected feed-forward network to transform the outputs from the attention mechanism.
-
 
 #### How Transformers Work
 
@@ -607,7 +1370,7 @@ processing (NLP) and other sequence-based tasks.
    - The decoder generates the output sequence one token at a time, using previously generated tokens as input.
 
 
-#### Advantages of Transformers - [Deepseek-r1:70B]
+#### Advantages of Transformers
 
 1. **Parallelization**:
    - Unlike RNNs, which process data sequentially, transformers can process all parts of the input in parallel, making them much faster to train.
@@ -620,7 +1383,6 @@ processing (NLP) and other sequence-based tasks.
 
 4. **Flexibility**:
    - Transformers can be adapted for a wide range of tasks beyond NLP, such as computer vision and speech recognition.
-
 
 #### Applications of Transformers
 
@@ -690,11 +1452,15 @@ Transformers have revolutionized AI by enabling efficient and scalable processin
 ### Vector Database
 > is a database system optimized for storing and querying vector data, such as embeddings generated by machine learning models. Vector databases are designed to efficiently index and search high-dimensional vectors, enabling similarity search, clustering, and retrieval of similar items based on their vector representations. These databases are commonly used in recommendation systems, image search, and natural language processing applications. An example of a vector database is [Milvus](https://milvus.io/).
 
+---
+
 ## X
+
+---
 
 ## Y
 
-### YOLO (You Only Look Once)
+### (YOLO) You Only Look Once
 > is a popular real-time object detection algorithm used in computer vision tasks.
 
 #### Technical Context and Meaning:
