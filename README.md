@@ -3,7 +3,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 
 ## [Glossory](Glossory.md)
-
+## [Notes](Notes.md)
 
 ## AI Model Types
 - Large Language Models (LLM)
@@ -26,6 +26,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [Deepseek](https://www.deepseek.com/)
 - [Google AI](https://ai.google/)
 - [Hugging Face](https://huggingface.co/)
+- [IBM](https://www.ibm.com/granite)
 - [Meta AI](https://ai.facebook.com/)
 - [Microsoft AI](https://www.microsoft.com/en-us/ai)
 - [Mistral](https://mistral.ai/en)
@@ -37,6 +38,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [Claude](https://www.anthropic.com/claude)
 - [Deepseek](https://www.deepseek.com/)
 - [GPT](https://openai.com/index/gpt-4/)
+- [Granite](https://www.ibm.com/granite)
 - [Llama](https://www.llama.com/)
 - [Nova](https://aws.amazon.com/ai/generative-ai/nova/)
 - [o1](https://openai.com/o1/)
@@ -82,13 +84,15 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [Deepseek](https://www.deepseek.com/) - [R1](https://chat.deepseek.com)
 - [GitHub Models](https://github.com/marketplace/models)
 - [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
+- [Granite](https://www.ibm.com/granite/playground/)
 - [Grok](https://grok.com/)
 - [Nova](https://chat.novaapp.ai/)
 - [Qwen](https://chat.qwenlm.ai/)
 
 
-## AI Resources
+## AI [blog] Resources
 (Order by Name ↑)
+[Ai2-Allen Institute](https://allenai.org/blog)
 [ApX Machine Learning](https://apxml.com/posts)
 [Arsturn](https://www.arsturn.com/blog)
 [Epoch AI](https://epoch.ai/)
@@ -109,6 +113,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## AI Publication Websites
 (Order by Name ↑)
+
 - [arxiv](https://arxiv.org/list/cs.AI/recent)
 
 
@@ -120,11 +125,20 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## Articles
 (Sorted by Publication Date ↓)
+- 2025-02-02 [A Detailed Analysis of Fine-Tuning, Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (RLVR) on the LLama3.1 405B Model](https://medium.com/@zhouboyang1983/a-detailed-analysis-of-fine-tuning-direct-preference-optimization-dpo-and-reinforcement-c24d9061cd84)
+- 2025-01-31 [DeepSeek-V3 Explained 1: Multi-head Latent Attention](https://towardsdatascience.com/deepseek-v3-explained-1-multi-head-latent-attention-ed6bee2a67c4/)
 - 2025-01-19  [Top 5 Mistakes to Avoid When Learning Machine Learning](https://apxml.com/posts/top-mistakes-when-learning-machine-learning)
 - 2024-10-02  [How to Get Started with Machine Learning: A Beginner’s Step-by-Step Guide](https://apxml.com/posts/get-started-with-machine-learning-guide)
+- 2024-07-13  [MHA vs MQA vs GQA vs MLA](https://medium.com/@zaiinn440/mha-vs-mqa-vs-gqa-vs-mla-c6cf8285bbec)
+- 2020-00-00  [Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition](https://robbieallen.medium.com/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc)
+
+## Online Books
+(Sorted by Publication Date ↓)
+- 2023 [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
-- 2025-02-02    [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
-- 2025-01-29    [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
-- 2024-11-11    [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
+- 2025-02-02  [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
+- 2025-01-29  [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
+- 2024-11-11  [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
+- 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)

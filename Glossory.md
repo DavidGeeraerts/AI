@@ -51,6 +51,10 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 ### Benchmark
 > is a standardized test or evaluation procedure used to compare the performance of different machine learning models on a specific task or dataset. Benchmarks provide a common framework for researchers and developers to assess the capabilities of different models, identify state-of-the-art approaches, and track progress in the field. Common benchmarks include image classification tasks, natural language processing tasks, and reinforcement learning environments. List of [benchmarks](README.md#benchmarks-order-by-name-).
 
+### (BERT) Bidirectional Encoder Representations from Transformers
+> is a pre-trained language model developed by Google that uses a transformer architecture to learn bidirectional representations of text. BERT is trained on a large corpus of text data using unsupervised learning, allowing it to capture deep contextual relationships between words and phrases. BERT has been widely adopted in natural language processing tasks, such as question answering, text classification, and named entity recognition, due to its ability to generate high-quality contextual embeddings.
+
+
 ### (BM25) Best Matching 25
 > is a classic and widely used sparse retrieval model for information retrieval tasks. Unlike dense embedding models like DPR, which rely on dense vector representations, BM25 is based on lexical matching and statistical properties of text. It is a probabilistic model that ranks documents or passages based on their relevance to a query. BM25 is commonly used in search engines and information retrieval systems to retrieve relevant documents or passages based on keyword matching and term frequency-inverse document frequency (TF-IDF) weighting. BM25 remains a popular choice for retrieval tasks due to its simplicity, efficiency, and strong performance in many scenarios. However, for tasks requiring semantic understanding, dense embedding models like [DPR](#dpr-dense-passage-retrieval) are often preferred.
 
@@ -241,10 +245,10 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 | ALIGN | Text + Image	| Google's CLIP-like model
 | Florence | Multimodal | Microsoft's foundational embedding model
 
-
+### code2seq
+> is a neural network model for code summarization that generates natural language summaries for code snippets. The code2seq model uses a sequence-to-sequence architecture with attention mechanisms to learn the mapping between code tokens and natural language tokens. By training on pairs of code snippets and their corresponding summaries, code2seq can generate human-readable descriptions of code functionality. Code summarization models like code2seq are useful for improving code comprehension, documentation, and searchability in software development.
 
 ### Constitutional AI
-
 > refers to the integration of ethical principles into artificial intelligence systems to ensure they operate responsibly and align with human values. This approach draws inspiration from human constitutions, which establish foundational laws and moral frameworks for governance. In AI, constitutional AI involves creating a set of guidelines that dictate how an AI system should behave, ensuring it adheres to ethical standards throughout its operations.
 
 #### **Implementation:**
@@ -385,6 +389,10 @@ increasingly integrated into our lives, the importance of constitutional AI will
 ### Deep Learning
 
 > is a subset of machine learning that uses artificial neural networks to model and solve complex problems. Deep learning algorithms are designed to automatically learn and extract features from data, enabling them to make accurate predictions or decisions without explicit programming. Deep learning has been instrumental in advancing AI applications in areas such as computer vision, natural language processing, and speech recognition.
+
+### (DPO) Direct Preference Optimization
+> is a technique used in reinforcement learning (RL) and machine learning to optimize policies or models directly based on human or expert preferences, without relying on explicit reward functions. Is a powerful and intuitive approach for aligning models with human preferences. By directly optimizing for preferred outcomes, it avoids the complexities of reward engineering and RL, making it particularly useful for tasks like language model fine-tuning and robotics. However, its success depends on the quality and diversity of preference data, as well as careful handling of potential biases.
+
 
 ### (DPR) Dense Passage Retrieval
 > is a state-of-the-art embedding model designed for efficient and accurate retrieval of relevant passages or documents in tasks like open-domain question answering (QA). Unlike traditional sparse retrieval methods (e.g., BM25), which rely on keyword matching, DPR uses dense vector representations (embeddings) to capture semantic similarity between queries and passages. By pre-training on large-scale text data, DPR can efficiently retrieve relevant information for downstream QA tasks. DPR has become a foundational component in modern retrieval systems, enabling more accurate and efficient information retrieval for tasks like QA, dialogue systems, and knowledge-intensive NLP applications.
@@ -703,6 +711,9 @@ Some Key points about Embeddings:
 
 > is an optimization algorithm used to minimize the loss function of a machine learning model by adjusting the model's parameters iteratively. Gradient descent works by calculating the gradient of the loss function with respect to each parameter and updating the parameters in the direction that reduces the loss. This process is repeated until the model converges to a set of parameters that minimize the loss function.
 
+### (GRPO) Group Relative Policy Optimization
+> is a reinforcement learning algorithm that aims to improve the stability and sample efficiency of policy optimization methods. It extends Proximal Policy Optimization (PPO) by incorporating group-based structures and relative performance metrics.  GRPO leverages the concept of group relativity to update the policy parameters based on the relative performance of different groups of trajectories. By considering the performance of multiple groups, GRPO can achieve better convergence and robustness in training reinforcement learning agents.
+
 ---
 
 ## H
@@ -842,8 +853,12 @@ Promoting transparent, fair, and accountable AI systems is essential for respons
 In summary, mechanistic interpretability is a vital approach to understanding the internal decision-making processes of AI models. By focusing on the model's intrinsic mechanisms, it enhances trust, improves performance, and ensures compliance with ethical
 guidelines, ultimately fostering responsible AI development and deployment.
 
-### (MLA) Multi-head latent Attention
+### (MHLA) Multi-head latent Attention
 > is a technique used in deep learning models to improve efficiency by reducing memory usage while maintaining performance. It achieves this by compressing the Key-Value (KV) cache into a latent vector, allowing the model to handle longer sequences with fewer computational resources. Multi-head latent attention is particularly useful in transformer-based models for natural language processing tasks, where memory constraints can be a limiting factor.
+
+### (ML) Machine Learning
+> is a branch of artificial intelligence that focuses on developing algorithms and models that enable computers to learn from data and make predictions or decisions without being explicitly programmed. Machine learning algorithms learn patterns and relationships in data through training and use this knowledge to make predictions or decisions on new, unseen data. Machine learning is used in various applications, such as image recognition, natural language processing, recommendation systems, and predictive analytics.
+
 
 ### (MLOps) Machine Learning Operations
 > is a set of practices and tools used to streamline and automate the deployment, monitoring, and management of machine learning models in production. MLOps aims to bridge the gap between data science and operations teams, enabling organizations to deploy and scale machine learning models efficiently. MLOps involves processes such as model training, testing, deployment, monitoring, and maintenance to ensure the reliability and performance of machine learning systems.
@@ -989,6 +1004,9 @@ Key Features of Mixture of Experts (MoE) Models:
 
 ## P
 
+### Post-Training
+> is a technique used in machine learning to improve the performance of a pre-trained model on a specific task or dataset. Post-training involves fine-tuning the pre-trained model on new data related to the target task, allowing the model to adapt and improve its performance on the new task. This approach is commonly used in transfer learning to leverage knowledge learned from pre-training to enhance the model's capabilities. A collection of techniques including instruction tuning followed by reinforcement learning from human feedback — has become a vital step in refining behaviors and unlocking new capabilities in language models. Since early approaches such as InstructGPT and the original ChatGPT, the sophistication and complexity of post-training approaches have continued to increase, moving towards multiple rounds of training, model merging, leveraging synthetic data, AI feedback, and multiple training algorithms and objectives.
+
 ### Prompt Engineering
 > is a technique used in large language models (LLMs) to guide the generation of text by providing specific instructions or examples to the model. Prompt engineering involves designing prompts that elicit the desired responses from the model, such as generating text in a particular style, answering questions, or completing tasks. By carefully crafting prompts, users can control the output of LLMs and improve their performance on specific tasks.
 
@@ -1095,6 +1113,9 @@ mechanisms, and reversible attention.
 ### (RLHF) Reinforcement learning from human feedback
 > is a machine learning paradigm that involves training agents to make sequential decisions in an environment based on feedback from human users. RLHF combines [reinforcement learning](#reinforcement-learning) with human feedback to improve the learning process and guide the agent's decision-making. This approach is used in interactive learning scenarios where human input is valuable for training the model.
 
+### (RLVR) Reinforcement Learning Verifiable Rewards
+> is a machine learning technique that combines reinforcement learning with value-based rewards to train agents to make decisions in complex environments. RLVR involves using value functions, such as Q-values or state-action values, to estimate the expected rewards of different actions and guide the agent's decision-making process. This approach is used in tasks such as game playing, robotics, and autonomous systems. RLVR builds on DPO and is specifically designed for tasks with objectively verifiable outcomes (e.g., math and code). Instead of relying on reward models, RLVR directly verifies the correctness of outputs using binary rewards (correct or incorrect). RLVR leverages the existing [RLHF](#rlhf-reinforcement-learning-from-human-feedback) objective but replaces the reward model with a verification function. When applied to domains with verifiable answers, such as mathematics and verifiable instruction following tasks, RLVR demonstrates targeted improvements on benchmarks like GSM8K while maintaining performance across other tasks.
+
 ### (RNN) Recurrent Neural Network
 > is a type of neural network architecture designed to process sequential data by maintaining an internal state or memory. RNNs are used in natural language processing, time series analysis, and other tasks that involve sequential data. The key feature of RNNs is their ability to capture dependencies and patterns in sequential data by processing each element in the sequence one at a time.
 
@@ -1165,7 +1186,10 @@ improvement and innovation. However, this race also raises important questions a
 ### Sequence-to-Sequence (Seq2Seq) Model
 > is a deep learning architecture used in natural language processing tasks, such as machine translation, text summarization, and question answering. The Seq2Seq model consists of an encoder that processes the input sequence and a decoder that generates the output sequence. This architecture is based on recurrent neural networks (RNNs) or transformer models and has been instrumental in advancing sequence-based tasks.
 
-### Supervised Learning
+### (SFT) Supervised Fine-Tuning
+> is a machine learning technique used to adapt a pre-trained model (e.g., a large language model or vision transformer) to a specific task or domain by training it on labeled data. Supervised fine-tuning involves updating the parameters of the pre-trained model using task-specific data to improve its performance on the target task. This approach is commonly used in transfer learning to leverage pre-trained models for downstream tasks. SFT bridges the gap between general pre-trained models and specialized applications, enabling efficient adaptation to real-world tasks. While powerful, its success depends on the quality of labeled data and careful hyperparameter tuning to balance task-specific performance with retained general knowledge. 
+
+### (SL) Supervised Learning
 > is a machine learning paradigm where a model learns to map input data to output labels based on a training dataset. Supervised learning requires labeled data, where each input is associated with a corresponding output label. This approach is used in tasks such as classification, regression, and object detection.
 
 ### Synthetic Data
