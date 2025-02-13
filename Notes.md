@@ -1,5 +1,15 @@
 # [AI] Notes
 
+## How to Train a Large Language Model
+1. **Data Collection**: Collect a large dataset of text.
+2. **Preprocessing**: Tokenize the text into subwords.
+3. **Model Architecture**: Choose a model architecture. [BPE](Glossory.md#bpe-byte-pair-encoding) algorithm for tokenization.
+4. **Training**: Train the model on the dataset. Data splitting and training strategies.
+5. **Fine-Tuning**: Fine-tune the model on a smaller dataset.
+6. **Inference**: Use the model to generate text.
+
+
+
 ## Training Process (example with Deepseek)
 1. Train V3-Base with RL for reasoning -> R1-Zero
 2. Create SFT data from R1-Zero using rejection sampling + synthetic data from V3.

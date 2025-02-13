@@ -131,6 +131,8 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 
    While BM25 includes document length normalization, it may still struggle with very long documents or queries.
 
+### (BPE) Byte Pair Encoding
+> is a data compression technique used in natural language processing to tokenize text into subword units. BPE works by iteratively merging the most frequent pairs of characters or subwords in a corpus to create a vocabulary of subword units. This allows the model to represent rare or out-of-vocabulary words as combinations of subword units, improving the generalization and efficiency of the model. BPE is commonly used in transformer-based language models like GPT and BERT to handle rare words and improve the model's performance on various NLP tasks.
 
 ### Boosting
 > is an ensemble learning technique that combines multiple weak learners to create a strong learner. Boosting works by training each model sequentially, where each subsequent model focuses on correcting the errors made by the previous models. The final prediction is made by aggregating the predictions of all models, such as taking a weighted sum of the predictions. Boosting helps improve the accuracy and generalization of the model by reducing bias and variance.
@@ -487,6 +489,11 @@ increasingly integrated into our lives, the importance of constitutional AI will
 ---
 
 ## E
+
+### (ECL) Effective Context Length
+> refers to the maximum number of tokens or words that a language model can effectively process and utilize in a single input sequence. Memory constraints, longer sequences require more memory, which can limit performance or cause computational bottlenecks. Degradation in Performance: Even if a model can technically process long sequences, its ability to maintain context and generate accurate outputs may degrade as the sequence length increases. Task Complexity: For tasks requiring deep understanding or reasoning, the ECL may be shorter than the theoretical maximum because the model needs to focus on a smaller, more relevant subset of the input.
+> See project [RULER](https://github.com/NVIDIA/RULER) for measuring the effective context length of language models. 
+
 
 ### Embedding
 

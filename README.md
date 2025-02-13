@@ -120,11 +120,13 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 ## AI Publications
 (Sorted by Publication Date ↓)
 
+- 2024-04-09  [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
 - 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
 
 
 ## Articles
 (Sorted by Publication Date ↓)
+- 2025-02-12 [Unlocking the Effective Context Length: Benchmarking the Granite-3.1-8b Model](https://www.redhat.com/en/blog/unlocking-effective-context-length-benchmarking-granite-31-8b-model)
 - 2025-02-02 [A Detailed Analysis of Fine-Tuning, Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (RLVR) on the LLama3.1 405B Model](https://medium.com/@zhouboyang1983/a-detailed-analysis-of-fine-tuning-direct-preference-optimization-dpo-and-reinforcement-c24d9061cd84)
 - 2025-01-31 [DeepSeek-V3 Explained 1: Multi-head Latent Attention](https://towardsdatascience.com/deepseek-v3-explained-1-multi-head-latent-attention-ed6bee2a67c4/)
 - 2025-01-19  [Top 5 Mistakes to Avoid When Learning Machine Learning](https://apxml.com/posts/top-mistakes-when-learning-machine-learning)
