@@ -1,4 +1,4 @@
-# AI - Artificial Intelligence landscape - The Book of AI
+# The Book of AI - Artificial Intelligence landscape
 This is a work in progress --started 2025-02-- to document my exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
 
 
@@ -53,6 +53,8 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [**Hugging Face Datasets**](https://huggingface.co/datasets)
 - [**Kaggle**](https://www.kaggle.com/datasets)
 - [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog)
+- [MNIST (Modified National Institute of Standards and Technology database)](https://github.com/cvdfoundation/mnist)
+- [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
 - [SNAP - Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 - [USA Data Gov](https://data.gov/)
@@ -122,7 +124,8 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 - 2024-04-09  [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
 - 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
-
+- 2019-06-17  [Superposition of many models into one](https://arxiv.org/abs/1902.05522)
+- 2017-06-12  [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 ## Articles
 (Sorted by Publication Date ↓)
@@ -136,11 +139,13 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## Online Books
 (Sorted by Publication Date ↓)
-- 2023 [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
+- 2023  [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
+- 2019  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
 - 2025-02-02  [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
 - 2025-01-29  [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
 - 2024-11-11  [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
+- 2024-04-01  [**3Blue1Brown: Neural networks Playlist**](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)

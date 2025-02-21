@@ -651,6 +651,14 @@ Some Key points about Embeddings:
 
 ## F
 
+### Feedforward Neural Network
+> information flows unidirectionally—from input nodes, through one or more hidden layers, to output nodes without any cycles or loops in the network structure. Feedforward neural networks serve as building blocks for many advanced deep learning architectures, such as
+Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs), which incorporate specialized structures tailored to specific tasks or data types (e.g., images, time series).
+
+1. Input layer: This layer consists of neurons that receive raw data or features as inputs. Each neuron corresponds to an input feature and has no incoming connections from other layers.
+2. Hidden layers: These layers contain neurons that perform computations on the received input, transforming it into more abstract representations through weighted sums and nonlinear activation functions. Feedforward networks can have multiple hidden layers (deep architectures), enabling them to learn increasingly complex features at each level.
+3. Output layer: The final layer of a feedforward network, responsible for generating predictions or classifications based on the transformed input data from previous layers. The number of neurons in this layer depends on the task at hand—for classification tasks, it typically matches the number of classes; for regression problems, there's usually one output neuron.
+
 ### Few-Shot Learning
 > is a machine learning paradigm where a model is trained to recognize new classes or tasks from a small number of examples. Few-shot learning aims to generalize from limited data by leveraging prior knowledge or meta-learning techniques. This approach is particularly useful for tasks where collecting large amounts of labeled data is challenging or impractical.
 
@@ -716,7 +724,8 @@ Some Key points about Embeddings:
 
 ### Gradient Descent
 
-> is an optimization algorithm used to minimize the loss function of a machine learning model by adjusting the model's parameters iteratively. Gradient descent works by calculating the gradient of the loss function with respect to each parameter and updating the parameters in the direction that reduces the loss. This process is repeated until the model converges to a set of parameters that minimize the loss function.
+> is an optimization algorithm used to minimize the loss function of a machine learning model by adjusting the model's parameters iteratively. Gradient descent works by calculating the gradient of the loss function with respect to each parameter and updating the parameters in the direction that reduces the loss. This process is repeated until the model converges to a set of parameters that minimize the loss function. The key idea behind Gradient Descent is to adjust parameters iteratively in the opposite direction of the
+gradient, aiming to minimize the cost function. 
 
 ### (GRPO) Group Relative Policy Optimization
 > is a reinforcement learning algorithm that aims to improve the stability and sample efficiency of policy optimization methods. It extends Proximal Policy Optimization (PPO) by incorporating group-based structures and relative performance metrics.  GRPO leverages the concept of group relativity to update the policy parameters based on the relative performance of different groups of trajectories. By considering the performance of multiple groups, GRPO can achieve better convergence and robustness in training reinforcement learning agents.
@@ -1014,6 +1023,19 @@ Key Features of Mixture of Experts (MoE) Models:
 ### Post-Training
 > is a technique used in machine learning to improve the performance of a pre-trained model on a specific task or dataset. Post-training involves fine-tuning the pre-trained model on new data related to the target task, allowing the model to adapt and improve its performance on the new task. This approach is commonly used in transfer learning to leverage knowledge learned from pre-training to enhance the model's capabilities. A collection of techniques including instruction tuning followed by reinforcement learning from human feedback — has become a vital step in refining behaviors and unlocking new capabilities in language models. Since early approaches such as InstructGPT and the original ChatGPT, the sophistication and complexity of post-training approaches have continued to increase, moving towards multiple rounds of training, model merging, leveraging synthetic data, AI feedback, and multiple training algorithms and objectives.
 
+### (PReLU) Parametric Rectified Linear Unit
+>  is a variant of the standard ReLU activation function used in artificial neural networks, particularly in deep learning models. PReLU was introduced to address some limitations of traditional ReLU, such as the "dying ReLU" problem, where some neurons may not activate for any input due to weight updates during training.
+> In PReLU, the slope of negative inputs is a learnable parameter (α) instead of being fixed at zero, as in traditional ReLU. This allows PReLU neurons to have a small positive gradient for negative inputs during the initial stages of training, preventing them from "dying" and ensuring that they remain active and contribute to the model's learning process.
+
+#### Advantages of PReLU:
+1. Mitigates dying ReLU problem: By allowing a small positive slope for negative inputs, PReLU prevents neurons from becoming completely inactive during training.
+2. Improved performance: PReLU can lead to better model performance compared to traditional ReLU on certain tasks due to its adaptability to the data distribution.
+3. Flexibility: The learnable parameter (α) in PReLU enables the network to adjust the slope for negative inputs, providing more flexibility than traditional ReLU.
+
+#### Disadvantages of PReLU:
+1. Increased computational complexity: Since PReLU involves a learnable parameter (α), it introduces additional parameters that need to be optimized during training, potentially increasing computational complexity and memory requirements.
+2. Training instability: In some cases, the optimization of α during training might lead to unstable learning dynamics or slow convergence.
+
 ### Prompt Engineering
 > is a technique used in large language models (LLMs) to guide the generation of text by providing specific instructions or examples to the model. Prompt engineering involves designing prompts that elicit the desired responses from the model, such as generating text in a particular style, answering questions, or completing tasks. By carefully crafting prompts, users can control the output of LLMs and improve their performance on specific tasks.
 
@@ -1114,6 +1136,14 @@ RAHF is particularly useful for tasks that involve processing long sequences, su
 RAHF is an architectural advancement that improves the efficiency and scalability of transformer models for long sequences, making them more suitable for a wide range of applications. It achieves this through hierarchical processing, random access memory
 mechanisms, and reversible attention.
 
+### (ReLU) Rectified Linear Unit
+>  is a popular activation function used in artificial neural networks, particularly in deep learning models. It was introduced to address the limitations of other activation functions like sigmoid and tanh. This means that if the input value (x) is positive, the output will be the same as the input; however, if the input is negative, the output will be zero. In other words, ReLU "rectifies" or sets all negative inputs to zero and passes positive inputs unchanged.
+#### Advantages of ReLU:
+1. **Efficiency**: ReLU is computationally efficient and easy to implement, making it a popular choice in deep learning models.
+2. Mitigates vanishing gradient problem: Unlike sigmoid and tanh functions, ReLU does not saturate for large positive values, helping to prevent the vanishing gradient problem in deep networks. This enables faster training and better performance on complex tasks like image recognition.
+3. **Sparsity**: ReLU introduces sparsity in the network by setting negative values to zero, which can help reduce overfitting and improve generalization. ReLU allows some neurons to deactivate completely during training (when inputs are negative), which can lead to more efficient feature representation and model interpretability.
+> However, ReLU also has its disadvantages, such as the "dying ReLU" problem, where a large gradient flowing through a ReLU neuron can cause the weights to update in such a way that the neuron will not activate on any datapoint again. To address this issue, variants of ReLU like Leaky ReLU and Parametric ReLU have been proposed.
+
 ### (RL) Reinforcement Learning
 > is a machine learning paradigm that involves training agents to make sequential decisions in an environment to maximize a reward signal. Reinforcement learning models learn through trial and error, exploring different actions and learning from the feedback received from the environment. Reinforcement learning is used in applications such as game playing, robotics, and autonomous systems.
 
@@ -1195,6 +1225,12 @@ improvement and innovation. However, this race also raises important questions a
 
 ### (SFT) Supervised Fine-Tuning
 > is a machine learning technique used to adapt a pre-trained model (e.g., a large language model or vision transformer) to a specific task or domain by training it on labeled data. Supervised fine-tuning involves updating the parameters of the pre-trained model using task-specific data to improve its performance on the target task. This approach is commonly used in transfer learning to leverage pre-trained models for downstream tasks. SFT bridges the gap between general pre-trained models and specialized applications, enabling efficient adaptation to real-world tasks. While powerful, its success depends on the quality of labeled data and careful hyperparameter tuning to balance task-specific performance with retained general knowledge. 
+
+### (SGD) Stochastic Gradient Descent
+> is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It's popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.
+
+### Superposition
+> borrowed from quantum mechanics where particles can exist in multiple states simultaneously, in AI models refers to the ability to represent more features or concepts than the number of dimensions or neurons available. In neural networks, particularly LLMs, this means that the same set of parameters can encode multiple linguistic patterns, semantic meanings, and world knowledge, leveraging overlapping representations. This is facilitated by the nonlinear activations (e.g., ReLU) within the network, which allow for the disentanglement of these representations during inference.
 
 ### (SL) Supervised Learning
 > is a machine learning paradigm where a model learns to map input data to output labels based on a training dataset. Supervised learning requires labeled data, where each input is associated with a corresponding output label. This approach is used in tasks such as classification, regression, and object detection.
