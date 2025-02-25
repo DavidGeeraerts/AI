@@ -148,9 +148,13 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## Online Books
 (Sorted by Publication Date ↓)
+- 2024  [Machine Learning and Deep Learning with R](https://theoreticalecology.github.io/machinelearning/)
+- 2024  [Natural Language Processing (NLP) Course](https://srdas.github.io/NLPBook/intro.html)
 - 2023  [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
 - 2023  [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 - 2019  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- 2018  [Deep Learning](https://srdas.github.io/DLBook/)
+- 2016  [Deep Learning](https://www.deeplearningbook.org/)
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
