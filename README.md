@@ -49,6 +49,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 (Order by Name ↑)
 - [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE)
 - [**Common Crawl**](https://commoncrawl.org/)
+- [**FineWeb**](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) -- curated Internet dataset.
 - [**Google Dataset Search**](https://datasetsearch.research.google.com/)
 - [**Hugging Face Datasets**](https://huggingface.co/datasets)
 - [**Kaggle**](https://www.kaggle.com/datasets)
@@ -59,6 +60,11 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
 - [USA Data Gov](https://data.gov/)
 
+### Miscellaneous Tools
+(Order by Name ↑)
+- [Excalidraw](https://excalidraw.com/) - online Diagram tool
+- [LLM Visualization](https://bbycroft.net/llm)
+- [Tiktokenizer](https://tiktokenizer.vercel.app/)
 
 ### Benchmarks
 (Order by Name ↑)
@@ -90,10 +96,12 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [Grok](https://grok.com/)
 - [Nova](https://chat.novaapp.ai/)
 - [Qwen](https://chat.qwenlm.ai/)
+- [Together AI](https://www.together.ai/)
 
 
 ## AI [blog] Resources
 (Order by Name ↑)
+[AI News](https://buttondown.com/ainews) - [RSS](https://buttondown.com/ainews/rss)
 [Ai2-Allen Institute](https://allenai.org/blog)
 [ApX Machine Learning](https://apxml.com/posts)
 [Arsturn](https://www.arsturn.com/blog)
@@ -140,12 +148,15 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 ## Online Books
 (Sorted by Publication Date ↓)
 - 2023  [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
+- 2023  [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 - 2019  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
+- 2025-02-05  [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?si=u2q8zaBubzTCPKC7)
 - 2025-02-02  [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
 - 2025-01-29  [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
 - 2024-11-11  [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
 - 2024-04-01  [**3Blue1Brown: Neural networks Playlist**](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
+
