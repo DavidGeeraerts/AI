@@ -102,12 +102,12 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 ## AI [blog] Resources
 (Order by Name ↑)
 
-[AI News](https://buttondown.com/ainews) - [RSS](https://buttondown.com/ainews/rss)
-[Ai2-Allen Institute](https://allenai.org/blog)
-[ApX Machine Learning](https://apxml.com/posts)
-[Arsturn](https://www.arsturn.com/blog)
-[Epoch AI](https://epoch.ai/)
-[ShinChven's Blog](https://atlassc.net/)
+- [AI News](https://buttondown.com/ainews) - [RSS](https://buttondown.com/ainews/rss)
+- [Ai2-Allen Institute](https://allenai.org/blog)
+- [ApX Machine Learning](https://apxml.com/posts)
+- [Arsturn](https://www.arsturn.com/blog)
+- [Epoch AI](https://epoch.ai/)
+- [ShinChven's Blog](https://atlassc.net/)
 
 
 ## Prominent AI People
