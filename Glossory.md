@@ -1523,6 +1523,12 @@ Transformers have revolutionized AI by enabling efficient and scalable processin
 
 ## X
 
+### (XLA) Accelerated Linear Algebra
+> XLA is an open-source compiler developed by Google that optimizes linear algebra computations for machine learning and numerical workloads. It’s not a standalone tool you’d use directly but a backend engine that speeds up tensor operations (e.g., matrix multiplications, convolutions) by compiling high-level code into efficient, hardware-specific instructions. 
+
+
+
+
 ---
 
 ## Y

@@ -1,13 +1,37 @@
 # [AI] Notes
 
+## Deep Learning notes
+- [Chapter-1](/assets/images/DL_Ch-1.jpg)
+- [Chapter-2](/assets/images/DL_Ch-2.jpg)
+- [Chapter-3 & Chapter-4](/assets/images/DL_Ch-3_and_Ch-4.jpg)
+- [Chapter-5](/assets/images/DL_Ch-5.jpg)
+- [Chapter-5.1](/assets/images/DL_Ch-5.1.jpg)
+- [Chapter-6](/assets/images/DL_Ch-6.jpg)
+- [Tensor](/assets/images/DL_Tensor.jpg)
+- [RL-Strategies](/assets/images/DL_RL_Strategies.jpg)
+
+
+
 ## How to Train a Large Language Model
 1. **Data Collection**: Collect a large dataset of text.
 2. **Preprocessing**: Tokenize the text into subwords.
 3. **Model Architecture**: Choose a model architecture. [BPE](Glossory.md#bpe-byte-pair-encoding) algorithm for tokenization.
-4. **Training**: Train the model on the dataset. Data splitting and training strategies.
-5. **Fine-Tuning**: Fine-tune the model on a smaller dataset.
-6. **Inference**: Use the model to generate text.
-
+   1. Embedding
+   2. Layer Norm
+   3. Self attention
+   4. Projection
+   5. MLP
+   6. Transformer
+   7. Softmax
+   8. Output
+4. **Inference**: Train the model on the dataset. Data splitting and training strategies.
+   1. Human Training
+   2. (SFT) Supervised Fine Tuning 
+5. **(RL) Reinforced Learning** 
+   1. (RLHF) Reinforcement Learning with Human Feedback
+   2. Practice problems
+   3. Fine-tune the model on a smaller dataset.
+6. **Output**
 
 
 ## Training Process (example with Deepseek)
