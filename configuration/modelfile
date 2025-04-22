@@ -1,0 +1,71 @@
+# model file for Ollama
+# <modelName> in Ollama registry or <file-path>: A path to a GGUF file
+FROM <modelName>
+# PARAMETERS
+#   PARAMETER <key> <value>
+
+# mirostat <int>: Enables Mirostat sampling (1 or 2) for coherent output; 0 disables. Default: 0.
+
+# mirostat_eta <float>: Learning rate for Mirostat. Default: 0.1.
+
+# mirostat_tau <float>: Target entropy for Mirostat. Default: 5.0.
+
+# num_ctx <int>: Context window size (tokens). Default: 2048.
+
+# num_gqa <int>: Number of GQA (Grouped-Query Attention) groups; model-specific.
+
+# num_gpu <int>: Number of GPU layers to offload (0 = CPU only, -1 = auto). Default: varies.
+
+# num_thread <int>: Number of CPU threads. Default: system-dependent.
+
+# repeat_last_n <int>: Lookback for repetition penalty (0 = disable). Default: 64.
+
+# repeat_penalty <float>: Penalty for repeated tokens. Default: 1.1.
+
+# temperature <float>: Sampling temperature (0.0–2.0; higher = more creative). Default: 0.8.
+PARAMETER temperature 0.8
+# seed <int>: Random seed for reproducibility (-1 = random). Default: -1.
+
+# stop <string>: Stop generation at this string (e.g., "###").
+
+# tfs_z <float>: Tail Free Sampling z-value (1.0 = disable). Default: 1.0.
+
+# num_predict <int>: Max tokens to generate (-1 = infinite, -2 = context fill). Default: 128.
+
+# top_k <int>: Top-k sampling (limits to k most likely tokens). Default: 40.
+
+# top_p <float>: Top-p (nucleus) sampling (0.0–1.0). Default: 0.9.
+
+
+# SYSTEM
+# Syntax: SYSTEM <prompt-text> or multi-line with SYSTEM """ ... """
+SYSTEM """
+You are technical.
+"""
+
+# Templates
+# TEMPLATE "{{ .System }} User: {{ .Prompt }}"
+# multi-line with TEMPLATE """
+# TEMPLATE """
+# [INST] {{ .System }}
+# Human: {{ .Prompt }} [/INST]
+# """
+
+#  ADAPTER
+# ADAPTER <adapter-name> <adapter-path>: A path to a GGUF file
+
+# LICENSE
+#   LICENSE MIT
+
+# LICENSE """
+# Apache License 2.0
+# See http://apache.org/licenses/LICENSE-2.0
+# """
+
+# MESSAGE
+# MESSAGE <role> <content>
+
+
+
+
+

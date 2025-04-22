@@ -81,7 +81,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ###  Running AI Models Locally
 
-- [ollama](https://ollama.com) - CLI 
+- [ollama](https://ollama.com) - CLI
 - [ollama-ui](https://ollama-ui.github.io/ollama-ui/) - Simple HTML UI for Ollama. Available as [Chrome extension](https://chromewebstore.google.com/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco?pli=1).
 - [LM Studio](https://lmstudio.ai/) - GUI
 
@@ -158,10 +158,14 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
+- 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
+- 2025-03-05  [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c)
 - 2025-02-05  [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?si=u2q8zaBubzTCPKC7)
 - 2025-02-02  [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8)
 - 2025-01-29  [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail | EP #146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg)
 - 2024-11-11  [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity | Lex Fridman Podcast #452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H)
-- 2024-04-01  [**3Blue1Brown: Neural networks Playlist**](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
+- 2024-09-09  [IBM Technology: RAG vs. Fine Tuning](https://youtu.be/00Q0G84kq3M?si=iJn3KAoFzOMM8a-L)
+- 2024-04-01  [3Blue1Brown: Neural networks Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
+- 2023-08-23  [IBM Technology: What is Retrieval-Augmented Generation (RAG)?](https://youtu.be/T-D1OfcDW1M?si=Uv-M2QcZL7WIJi40)
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
 
