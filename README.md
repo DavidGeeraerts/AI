@@ -131,6 +131,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 ## AI Publications
 (Sorted by Publication Date ↓)
 
+- 2025-04-25  [BitNet b1.58 2B4T Technical Report](https://arxiv.org/pdf/2504.12285)
 - 2024-04-09  [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
 - 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
 - 2019-06-17  [Superposition of many models into one](https://arxiv.org/abs/1902.05522)
