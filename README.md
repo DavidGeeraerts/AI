@@ -74,6 +74,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - [GSM8K](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k) - [Leaderboard](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k)
 - [LiveBench](https://livebench.ai/#/) - [Leaderboard](https://livebench.ai/#/)
 - [LMArena](https://lmarena.ai/) - [Leaderboard](https://lmarena.ai/leaderboard)
+- [Mensa Norway Intelligence Quotient (IQ) Test](https://www.mensa.no/iq-test/) - [Leaderboard](https://www.visualcapitalist.com/ranked-the-smartest-ai-models-by-iq/) 
 - [MMLU](https://arxiv.org/abs/2009.03300) - [Leaderboard](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
 - [SWE-bench](https://www.swebench.com/index.html)
 - [WebDev Arena](https://web.lmarena.ai/) - [Leaderboard](https://web.lmarena.ai/leaderboard)
@@ -159,6 +160,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## YouTube Videos
 (Sorted by Publication Date ↓)
+- 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
 - 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
 - 2025-03-05  [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c)
 - 2025-02-05  [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?si=u2q8zaBubzTCPKC7)
