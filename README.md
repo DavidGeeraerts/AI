@@ -158,8 +158,9 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - 2018  [Deep Learning](https://srdas.github.io/DLBook/)
 - 2016  [Deep Learning](https://www.deeplearningbook.org/)
 
-## YouTube Videos
+## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
+- [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest) 
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
 - 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
 - 2025-03-05  [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c)
