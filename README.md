@@ -160,7 +160,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
-- [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest) 
+- 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
 - 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
 - 2025-03-05  [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c)
@@ -172,4 +172,4 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 - 2024-04-01  [3Blue1Brown: Neural networks Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
 - 2023-08-23  [IBM Technology: What is Retrieval-Augmented Generation (RAG)?](https://youtu.be/T-D1OfcDW1M?si=Uv-M2QcZL7WIJi40)
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
-
+- [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
