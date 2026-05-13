@@ -160,6 +160,7 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
+- 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
 - 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
 - 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
