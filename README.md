@@ -5,6 +5,22 @@ This is a work in progress --started 2025-02-- to document my exploration of Art
 ## [Glossory](Glossory.md)
 ## [Notes](Notes.md)
 
+## :fire: Hotplate
+### [Ajax](https://data.pewdiepie.com/)
+Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax's refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
+
+### [Odysseus](https://odysseusai.dev/)
+Odysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.
+
+### [BenchLM](https://benchlm.ai/)
+LLM Leaderboard.
+#### [Best Ollama models](https://benchlm.ai/best/ollama-models)
+
+### [Heretic](https://heretic-project.org/)
+Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.
+
+
+
 ## AI Model Types
 - Large Language Models (LLM)
   - General-purpose language models
