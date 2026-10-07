@@ -116,6 +116,25 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 - [ollama-ui](https://ollama-ui.github.io/ollama-ui/) - Simple HTML UI for Ollama. Available as [Chrome extension](https://chromewebstore.google.com/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco?pli=1).
 - [LM Studio](https://lmstudio.ai/) - GUI
 
+| Aspect              | **LM Studio**                                      | **Ollama**                                          |
+|---------------------|----------------------------------------------------|-----------------------------------------------------|
+| **Primary focus**   | Polished desktop GUI for discovery, chat & experimentation | CLI + background service for scripting, APIs & integrations |
+| **License**         | Proprietary (free for personal + internal business use) | Fully open-source (MIT)                             |
+| **Interface**       | Excellent GUI + CLI (`lms`) + headless daemon (`llmster`) | CLI-first + local API; has added a basic desktop app |
+| **Model discovery** | Built-in Hugging Face browser with size/VRAM estimates | Curated library + simple `ollama pull model:tag`    |
+| **API**             | OpenAI- + Anthropic-compatible (port 1234)         | OpenAI-compatible + native endpoints (port 11434)   |
+| **Best hardware edge** | Stronger MLX performance on Apple Silicon         | Lower overhead, often slightly faster on NVIDIA    |
+| **Headless/server** | Yes (llmster since early 2026)                     | Native from the start (systemd/Docker-friendly)     |
+| **Extras**          | Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching | Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models |
+
+
+#### When Ollama is usually betterYou want a fully open-source, auditable tool.
+- You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).
+- You need Docker, Kubernetes, or long-running headless servers with minimal footprint.
+- You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).
+- You want the absolute simplest CLI workflow (ollama run model).
+
+
 ## Web/Online Models
 (Order by Name ↑)
 - [Allen Institute AI - Tulu 3:405B](https://playground.allenai.org/)
