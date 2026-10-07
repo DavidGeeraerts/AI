@@ -1,12 +1,12 @@
 # :open_book: The Book of AI - Artificial Intelligence landscape
-This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
+_This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._
 
 
 ## :fire: Hotplate
 
 #### :newspaper: General AI vibe for October 2026 
 
-:compass: building [harnesses](https://ryanalberts.github.io/best-of-Agent-Harnesses/) (LOOP, OpenHands, OpenCode, goose) for long-running agents + MCP (Model Context Protocol) tools + persistent memory + self-hosted personal messaging-accessible agents (OpenClaw + Hermes), with a heavy bias toward things you can actually run yourself and keep under control.
+:compass: Building and refining open-source agent harnesses for long-running and autonomous work (LOOP for efficiency and duration, OpenHands and OpenCode for coding, goose for general MCP-native use), combined with heavy adoption of MCP tools, persistent memory systems, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can actually run yourself, keep fully under your control, and host on your own hardware or cheap VPS ([Virtual Private Server](https://cloud.google.com/learn/what-is-a-virtual-private-server)).
 
 ---
 
