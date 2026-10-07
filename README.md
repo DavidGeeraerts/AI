@@ -96,17 +96,18 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 - [Tiktokenizer](https://tiktokenizer.vercel.app/)
 
 ### Benchmarks
-(Order by Name ↑)
-
-- [GAIA](https://arxiv.org/abs/2311.12983) General Artificial Intelligence Assessment - [Leaderboard](https://huggingface.co/spaces/gaia-benchmark/leaderboard)
-- [GPQA](https://arxiv.org/abs/2311.12983) General Purpose Question Answering
-- [GSM8K](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k) - [Leaderboard](https://paperswithcode.com/sota/arithmetic-reasoning-on-gsm8k)
-- [LiveBench](https://livebench.ai/#/) - [Leaderboard](https://livebench.ai/#/)
-- [LMArena](https://lmarena.ai/) - [Leaderboard](https://lmarena.ai/leaderboard)
-- [Mensa Norway Intelligence Quotient (IQ) Test](https://www.mensa.no/iq-test/) - [Leaderboard](https://www.visualcapitalist.com/ranked-the-smartest-ai-models-by-iq/) 
-- [MMLU](https://arxiv.org/abs/2009.03300) - [Leaderboard](https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu)
-- [SWE-bench](https://www.swebench.com/index.html)
-- [WebDev Arena](https://web.lmarena.ai/) - [Leaderboard](https://web.lmarena.ai/leaderboard)
+| Benchmark | Status in 2026 | Strengths | Weaknesses | Still useful? |
+|-----------|----------------|-----------|------------|---------------|
+| **MMLU** | Saturated | Historical reference for broad knowledge | Frontier models cluster ~90%+; little differentiation; contamination risk | Mostly no (use MMLU-Pro if needed) |
+| **GSM8K** | Saturated | Simple math word problems | Top models near ceiling (~95%+); many invalid questions noted | No for frontier comparison |
+| **GPQA** (esp. Diamond) | Near-saturating | Graduate-level “Google-proof” science reasoning | Leaders pushing 90%+; small set → noise | Still decent for science reasoning, but headroom shrinking |
+| **SWE-bench** (Verified/Pro variants) | Contested / partially saturating | Real GitHub issue resolution; strong signal for coding agents | Contamination concerns; scores climbing into high 70s–90s on easier versions | Yes for coding/agentic work (prefer newer/harder variants like Pro) |
+| **GAIA** | Active but contested | Multi-step agentic tasks (browsing, tools, files) that are easy for humans | Large score gaps depending on scaffolding/tools; some saturation reports | Yes for assistant/agent evaluation |
+| [**LiveBench**](https://livebench.ai/#/) | Highly regarded | Monthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following | Not human preference; not pure agentic long-horizon | **One of the strongest current objective capability benchmarks** |
+| [**LMArena**](https://lmarena.ai/) (Chatbot/Arena) | Highly regarded | Large-scale blind human preference (Elo-style); real user prompts | Style/verbosity bias; overlapping confidence intervals; not verifiable correctness | **Best for “which model feels best in open-ended use”** |
+| [**BenchLM**](https://benchlm.ai/) | Aggregator | Combines many sources into overall indices | Depends on underlying benchmarks; not a primary eval itself | Useful meta-view, not a standalone benchmark |
+| **Mensa Norway IQ Test** | Niche | Attempts IQ-style scoring | Narrow, not standard in frontier AI evaluation | Rarely used for serious model comparison |
+| **WebDev Arena** | Specialized | Web development tasks | Narrow domain | Useful only if you care specifically about web-dev agents |
 
 
 ###  Running AI Models Locally
