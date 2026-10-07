@@ -6,9 +6,7 @@ This is a work in progress --started 2025-02-- to document [my](https://github.c
 
 #### :newspaper: General AI vibe for October 2026 
 
-:compass: self-hosted, long-running, messaging-accessible agents (OpenClaw + Hermes) and efficient coding/long-horizon harnesses .
-
- building [harnesses](https://ryanalberts.github.io/best-of-Agent-Harnesses/) (LOOP, OpenHands, OpenCode, goose) for long-running agents + MCP (Model Context Protocol) tools + persistent memory + self-hosted personal messaging-accessible agents (OpenClaw + Hermes), with a heavy bias toward things you can actually run yourself and keep under control.
+:compass: building [harnesses](https://ryanalberts.github.io/best-of-Agent-Harnesses/) (LOOP, OpenHands, OpenCode, goose) for long-running agents + MCP (Model Context Protocol) tools + persistent memory + self-hosted personal messaging-accessible agents (OpenClaw + Hermes), with a heavy bias toward things you can actually run yourself and keep under control.
 
 ---
 
