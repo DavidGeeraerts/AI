@@ -2,10 +2,23 @@
 This is a work in progress --started 2025-02-- to document my exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
 
 
+
 ## [Glossory](Glossory.md)
 ## [Notes](Notes.md)
 
 ## :fire: Hotplate
+
+### [OpenWaldo](https://openwaldo.org/)
+| Letter | Meaning |
+| --- | --- |
+| W | Weights | 
+| A | Artifacts |
+| L | Licenses |
+| D | Data |
+| O | Origin |
+
+OpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.
+
 ### [Ajax](https://data.pewdiepie.com/)
 Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax's refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
 
