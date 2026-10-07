@@ -1,12 +1,17 @@
-# The Book of AI - Artificial Intelligence landscape
-This is a work in progress --started 2025-02-- to document my exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
+# :open_book: The Book of AI - Artificial Intelligence landscape
+This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc. 
 
-
-
-## [Glossory](Glossory.md)
-## [Notes](Notes.md)
 
 ## :fire: Hotplate
+
+#### :newspaper: General AI vibe for October 2026 
+
+:compass: self-hosted, long-running, messaging-accessible agents (OpenClaw + Hermes) and efficient coding/long-horizon harnesses .
+
+ building [harnesses](https://ryanalberts.github.io/best-of-Agent-Harnesses/) (LOOP, OpenHands, OpenCode, goose) for long-running agents + MCP (Model Context Protocol) tools + persistent memory + self-hosted personal messaging-accessible agents (OpenClaw + Hermes), with a heavy bias toward things you can actually run yourself and keep under control.
+
+---
+
 
 ### [OpenWaldo](https://openwaldo.org/)
 | Letter | Meaning |
@@ -32,6 +37,10 @@ LLM Leaderboard.
 ### [Heretic](https://heretic-project.org/)
 Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.
 
+--- 
+
+## [Glossory](Glossory.md)
+## [Notes](Notes.md)
 
 
 ## AI Model Types
