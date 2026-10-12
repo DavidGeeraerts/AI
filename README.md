@@ -10,6 +10,10 @@ _This is a work in progress --started 2025-02-- to document [my](https://github.
 
 ---
 
+### [KERNEL](https://www.kernel.sh/)
+is a specialized cloud browser infrastructure and "Browser-as-a-Service" platform built specifically for AI web agents and high-scale browser automation.
+While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, ***anti-bot bypass***, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).
+
 
 ### [OpenWaldo](https://openwaldo.org/)
 | Letter | Meaning |
