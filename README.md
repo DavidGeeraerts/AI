@@ -256,11 +256,16 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## AI Publications
 (Sorted by Publication Date ↓)
 
-- 2025-04-25  [BitNet b1.58 2B4T Technical Report](https://arxiv.org/pdf/2504.12285)
-- 2024-04-09  [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
-- 2023-07-27  [Universal and Transferable Adversarial Attacks on Aligned Language Models](./Publications/Universal%20and%20Transferable%20Adversarial%20Attacks%20on%20Aligned%20Language%20Models.pdf) - [LLM Attacks](https://llm-attacks.org/)
-- 2019-06-17  [Superposition of many models into one](https://arxiv.org/abs/1902.05522)
-- 2017-06-12  [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- 2025-04-25 [BitNet b1.58 2B4T Technical Report](https://arxiv.org/abs/2504.12285)
+- 2024-04-09 [RULER: What's the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
+- 2023-07-27 [Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks](https://arxiv.org/abs/2307.15043)
+- 2020-05-28 [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
+- 2019-06-17 [Superposition of many models into one](https://arxiv.org/abs/1902.05563)
+- 2018-10-11 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+- 2017-06-12 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- 2015-12-10 [Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)
+- 2014-06-10 [Generative Adversarial Networks (GANs)](https://arxiv.org/abs/1406.2661)
+- 2012 [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://dl.acm.org/doi/10.1145/3065386)
 
 ## Articles
 (Sorted by Publication Date ↓)
@@ -274,8 +279,11 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 ## Online Books
 (Sorted by Publication Date ↓)
+
+- 2026  [Principles and Practice of Deep Representation Learning](https://ma-lab-berkeley.github.io/deep-representation-learning-book/)
 - 2024  [Machine Learning and Deep Learning with R](https://theoreticalecology.github.io/machinelearning/)
 - 2024  [Natural Language Processing (NLP) Course](https://srdas.github.io/NLPBook/intro.html)
+- 2023  [Dive into Deep Learning](https://d2l.ai/)
 - 2023  [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
 - 2023  [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 - 2019  [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
