@@ -10,6 +10,16 @@ _This is a work in progress --started 2025-02-- to document [my](https://github.
 
 ---
 
+
+### Harnesses (the runtime that turns a model into an agent)
+
+- **[OpenClaw](https://github.com/openclaw)**  – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.
+- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**  – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.
+- **[goose](https://github.com/block/goose)** (Block / Agentic AI Foundation) – Apache-2.0, desktop + CLI + API, heavily MCP-native, local-model friendly.
+
+[**MCP**](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro) is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.
+
 ### [KERNEL](https://www.kernel.sh/)
 is a specialized cloud browser infrastructure and "Browser-as-a-Service" platform built specifically for AI web agents and high-scale browser automation.
 While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, ***anti-bot bypass***, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).
@@ -48,42 +58,70 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 ## AI Model Types
 - Large Language Models (LLM)
   - General-purpose language models
-  - Code-specialized models {GitHub Copilot (Codex), Anthropic Claude Code, StarCoder, CodeLlama, DeepSeek Coder}
+  - Code-specialized models
+    - Claude Fable 5.1 / Claude Opus 5.5 family (Anthropic)
+    - GPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)
+    - Gemini 4 Argon / Gemini 3.x Flash family (Google)
+    - Kimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)
+    - DeepSeek
+    - Qwen
 - Image Generation Models
-  - Text-to-Image {Stable Diffusion, Midjourney, DALL-E}
+  - Text-to-Image {[Stable Diffusion](https://stablediffusionweb.com/), [Midjourney](https://www.midjourney.com/home), DALL-E, [Grok Imagine](https://grok.com/supergrok/imagine)}
   - Image-to-Image
-- Multimodal Models (Text, Image, Audio, Video) {OpenAI Sora, Google Gemini, Meta Seamless, }
+- Multimodal Models (Text, Image, Audio, Video)
+  - Kimi K3 (Moonshot AI)
+  - Claude Opus 5 / Claude Opus 5.5 (Anthropic)
+  - Qwen3.8 Max (Alibaba)
+  - GPT-5.6 series (especially Sol / Luna variants) (OpenAI)
+  - Gemini 3.x Flash / Pro family (Google)
 
 ### Prominent AI Organizations Creating Foundational AI Models
 (Order by Name ↑)
 
-- [Alibaba](https://www.alibabacloud.com/en)
+- [Alibaba](https://www.alibabacloud.com/en) (Qwen)
 - [Allen Institute for AI](https://allenai.org/)
 - [Amazon AI](https://aws.amazon.com/machine-learning/)
 - [Anthropic](https://www.anthropic.com/)
-- [xAI](https://x.ai/)
+- [Black Forest Labs](https://blackforestlabs.ai/) (FLUX)
+- [ByteDance](https://www.bytedance.com/) (Seed / Seedream / Doubao)
 - [Cohere](https://cohere.ai/)
-- [Deepseek](https://www.deepseek.com/)
-- [Google AI](https://ai.google/)
+- [DeepSeek](https://www.deepseek.com/)
+- [Google AI / Google DeepMind](https://ai.google/)
 - [Hugging Face](https://huggingface.co/)
 - [IBM](https://www.ibm.com/granite)
 - [Meta AI](https://ai.facebook.com/)
 - [Microsoft AI](https://www.microsoft.com/en-us/ai)
-- [Mistral](https://mistral.ai/en)
+- [MiniMax](https://www.minimaxi.com/)
+- [Mistral AI](https://mistral.ai/)
+- [Moonshot AI](https://www.moonshot.cn/) (Kimi)
 - [OpenAI](https://openai.com/)
 - [Stability AI](https://stability.ai/)
+- [Xiaomi](https://www.xiaomi.com/) (MiMo)
+- [xAI](https://x.ai/)
+- [Zhipu AI / Z.AI](https://zhipuai.cn/) (GLM)
 
 ### Foundational AI Models
 (Order by Name ↑)
-- [Claude](https://www.anthropic.com/claude)
-- [Deepseek](https://www.deepseek.com/)
-- [GPT](https://openai.com/index/gpt-4/)
-- [Granite](https://www.ibm.com/granite)
-- [Llama](https://www.llama.com/)
-- [Nova](https://aws.amazon.com/ai/generative-ai/nova/)
-- [o1](https://openai.com/o1/)
-- [Qwen](https://huggingface.co/Qwen)
-- [Stable Diffusion](https://stability.ai/stable-image)
+
+- [Claude](https://www.anthropic.com/claude) (Anthropic)
+- [Command](https://cohere.com/) (Cohere)
+- [DeepSeek](https://www.deepseek.com/)
+- [FLUX](https://blackforestlabs.ai/) (Black Forest Labs)
+- [Gemini](https://ai.google/gemini/) (Google DeepMind)
+- [Gemma](https://ai.google.dev/gemma) (Google)
+- [GLM](https://zhipuai.cn/) (Zhipu AI / Z.AI)
+- [GPT](https://openai.com/) (OpenAI)
+- [Granite](https://www.ibm.com/granite) (IBM)
+- [Grok](https://x.ai/) (xAI)
+- [Kimi](https://www.moonshot.cn/) (Moonshot AI)
+- [Llama](https://www.llama.com/) (Meta)
+- [MiMo](https://www.xiaomi.com/) (Xiaomi)
+- [Mistral](https://mistral.ai/) (Mistral AI)
+- [Muse](https://ai.meta.com/) (Meta)
+- [Nova](https://aws.amazon.com/ai/generative-ai/nova/) (Amazon)
+- [Qwen](https://huggingface.co/Qwen) (Alibaba)
+- [Seed / Seedream](https://www.bytedance.com/) (ByteDance)
+- [Stable Diffusion](https://stability.ai/stable-image) (Stability AI)
 
 ### Base Model Data
 (Order by Name ↑)
@@ -121,11 +159,15 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 | **WebDev Arena** | Specialized | Web development tasks | Narrow domain | Useful only if you care specifically about web-dev agents |
 
 
-###  Running AI Models Locally
+### Running AI Models Locally
 
-- [ollama](https://ollama.com) - CLI
-- [ollama-ui](https://ollama-ui.github.io/ollama-ui/) - Simple HTML UI for Ollama. Available as [Chrome extension](https://chromewebstore.google.com/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco?pli=1).
-- [LM Studio](https://lmstudio.ai/) - GUI
+- [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
+- [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
+- [Jan](https://jan.ai/) — Fully open-source desktop app (privacy-focused)
+- [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
+- [KoboldCpp](https://github.com/LostRuins/koboldcpp) — Easy single-binary runner with built-in UI
+- [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving (multi-user / production)
 
 | Aspect              | **LM Studio**                                      | **Ollama**                                          |
 |---------------------|----------------------------------------------------|-----------------------------------------------------|
@@ -148,39 +190,61 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 
 ## Web/Online Models
 (Order by Name ↑)
-- [Allen Institute AI - Tulu 3:405B](https://playground.allenai.org/)
-- [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/new)
-- [Deepseek](https://www.deepseek.com/) - [R1](https://chat.deepseek.com)
+
+- [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/)
+- [DeepSeek](https://www.deepseek.com/) - [Chat](https://chat.deepseek.com/)
 - [GitHub Models](https://github.com/marketplace/models)
-- [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
-- [Granite](https://www.ibm.com/granite/playground/)
-- [Grok](https://grok.com/)
-- [Nova](https://chat.novaapp.ai/)
-- [Qwen](https://chat.qwenlm.ai/)
+- [Google](https://ai.google/) - [Gemini](https://gemini.google.com/) / [AI Studio](https://aistudio.google.com/)
+- [Grok](https://grok.com/) (xAI)
+- [IBM Granite](https://www.ibm.com/granite/playground/)
+- [Kimi](https://kimi.moonshot.cn/) (Moonshot AI)
+- [Meta AI](https://www.meta.ai/)
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+- [Mistral](https://chat.mistral.ai/)
+- [OpenAI](https://openai.com/) - [ChatGPT](https://chatgpt.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [Qwen](https://chat.qwen.ai/) (Alibaba)
 - [Together AI](https://www.together.ai/)
 
 
 ## AI [blog] Resources
+prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
+
 (Order by Name ↑)
 
 - [AI News](https://buttondown.com/ainews) - [RSS](https://buttondown.com/ainews/rss)
-- [Ai2-Allen Institute](https://allenai.org/blog)
+- [Ai2 – Allen Institute](https://allenai.org/blog)
 - [ApX Machine Learning](https://apxml.com/posts)
 - [Arsturn](https://www.arsturn.com/blog)
 - [Epoch AI](https://epoch.ai/)
+- [Import AI](https://importai.substack.com/) (Jack Clark)
+- [Interconnects](https://www.interconnects.ai/) (Nathan Lambert)
+- [Latent Space](https://www.latent.space/)
+- [SemiAnalysis](https://www.semianalysis.com/)
 - [ShinChven's Blog](https://atlassc.net/)
+- [Simon Willison’s Weblog](https://simonwillison.net/)
+- [The Batch](https://www.deeplearning.ai/the-batch/) (Andrew Ng)
 
 
 ## Prominent AI People
 (Sorted by Surname ↑)
 
 - [Dario Amodei](https://darioamodei.com/) - [Anthropic](https://www.anthropic.com/)
+- [Sam Altman](https://openai.com/about/) - [OpenAI](https://openai.com/)
 - [AmandA Askell](https://askell.io/) - [Anthropic](https://www.anthropic.com/)
+- [Yoshua Bengio](https://yoshuabengio.org/en/) - [Mila / Université de Montréal](https://mila.quebec/)
 - [Lex Fridman](https://lexfridman.com/) - [MIT](https://www.mit.edu/)
+- [Demis Hassabis](https://deepmind.google/about/) - [Google DeepMind](https://deepmind.google/)
+- [Geoffrey Hinton](https://discover.research.utoronto.ca/26059-geoffrey-e-hinton) - [University of Toronto](https://www.utoronto.ca/)
+- [Jensen Huang](https://www.nvidia.com/en-us/about-nvidia/board-of-directors/jensen-huang/) - [NVIDIA](https://www.nvidia.com/)
 - [Salim Ismail](https://salimismail.com/) - [Anthropic](https://www.anthropic.com/)
 - [Nathan Lambert](https://www.interconnects.ai/) - [Allen Institute for AI](https://allenai.org/)
+- [Yann LeCun](http://yann.lecun.com/) - [Meta / NYU](https://www.nyu.edu/)
+- [Fei-Fei Li](https://drfeifei.substack.com/about) - [Stanford University / World Labs](https://www.stanford.edu/)
 - [Emad Mostaque](https://emad.posthaven.com/) - [stability.ai](https://stability.ai/)
+- [Andrew Ng](https://www.andrewng.org/) - [DeepLearning.AI / Stanford](https://www.deeplearning.ai/)
 - [Christopher Olah](https://colah.github.io/) - [Anthropic](https://www.anthropic.com/)
+- [Ilya Sutskever](https://ssi.inc/) - [Safe Superintelligence (SSI)](https://ssi.inc/)
 
 
 ## AI Publication Websites

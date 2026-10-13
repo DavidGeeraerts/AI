@@ -839,6 +839,9 @@ predictions (outputs) of the teacher model.
 
 ## M
 
+### [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)
+is an open protocol that enables seamless integration between LLM applications and external data sources and tools.
+
 ### Mechanistic Interpretability (MechInterp)
 > Mechanistic interpretability refers to the ability to understand and explain the internal mechanisms of an AI model that lead to its decisions or outputs. It involves analyzing the components and processes within the model, such as weights, biases, activation
 patterns, and interactions between layers, to gain insight into how it operates.
