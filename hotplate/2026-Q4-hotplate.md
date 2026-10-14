@@ -45,8 +45,14 @@ While traditional cloud browsers (like Browserless or standard headless Chrome c
 
 OpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.
 
+### [JEV](https://jevmodel.org/)
+A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.
+
 #### [SpyNEL](https://github.com/agent0ai/spynel)
 Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.
+
+#### [DOX](https://github.com/agent0ai/dox)
+DOX is a lightweight `AGENTS.md` framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.
 
 #### [Ajax](https://data.pewdiepie.com/)
 Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax's refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
@@ -60,6 +66,3 @@ LLM Leaderboard.
 
 #### [Heretic](https://heretic-project.org/)
 Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.
-
-
---- 

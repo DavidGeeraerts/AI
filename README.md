@@ -1,9 +1,7 @@
 # :open_book: The Book of AI - Mapping the Artificial Intelligence landscape
 
-
-## :fire: Hotplate (Quarterly Release Cycle)
-
 <!-- HOTPLATE:START -->
+## :fire: Hotplate (Quarterly Release Cycle)
 
 ### :newspaper: General AI vibe for 2026 Q4 {October, November, December} 
 
@@ -49,6 +47,9 @@ While traditional cloud browsers (like Browserless or standard headless Chrome c
 | O | Origin |
 
 OpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.
+
+### [JEV](https://jevmodel.org/)
+A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.
 
 #### [SpyNEL](https://github.com/agent0ai/spynel)
 Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.
@@ -237,6 +238,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 (Order by Name ↑)
 
 - [AI News](https://news.smol.ai/)
+- [AI News Dashboard](https://news.kabyik.dev/)
 - [Ai2 – Allen Institute](https://allenai.org/blog)
 - [ApX Machine Learning](https://apxml.com/posts)
 - [Arsturn](https://www.arsturn.com/blog)
@@ -318,7 +320,9 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
+
 - 2026-10-11  [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR)
+- 2026-09-21  [Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX)
 - 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
 - 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
@@ -339,3 +343,6 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 ## History
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._
+
+## License
+Unless otherwise noted, original content in this repository by David Geeraerts is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
