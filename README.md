@@ -191,6 +191,7 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 - [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp) — Easy single-binary runner with built-in UI
 - [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving (multi-user / production)
+- [jan](https://www.jan.ai/) - run models locally, with cloud integration, MCP support.
 
 | Aspect              | **LM Studio**                                      | **Ollama**                                          |
 |---------------------|----------------------------------------------------|-----------------------------------------------------|
@@ -235,7 +236,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 (Order by Name ↑)
 
-- [AI News](https://buttondown.com/ainews) - [RSS](https://buttondown.com/ainews/rss)
+- [AI News](https://news.smol.ai/)
 - [Ai2 – Allen Institute](https://allenai.org/blog)
 - [ApX Machine Learning](https://apxml.com/posts)
 - [Arsturn](https://www.arsturn.com/blog)
@@ -247,6 +248,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 - [ShinChven's Blog](https://atlassc.net/)
 - [Simon Willison’s Weblog](https://simonwillison.net/)
 - [The Batch](https://www.deeplearning.ai/the-batch/) (Andrew Ng)
+- [The Gradient](https://thegradient.pub/)
+- [Turning Post](https://www.turingpost.com/)
 
 
 ## Prominent AI People
@@ -315,6 +318,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
+- 2026-10-11  [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR)
 - 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
 - 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
