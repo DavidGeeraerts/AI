@@ -3,6 +3,8 @@
 
 ## :fire: Hotplate (Quarterly Release Cycle)
 
+<!-- HOTPLATE:START -->
+
 ### :newspaper: General AI vibe for 2026 Q4 {October, November, December} 
 
 :compass: Building and refining open-source agent harnesses for long-running and autonomous work (LOOP for efficiency and duration, OpenHands and OpenCode for coding, goose for general MCP-native use), combined with heavy adoption of MCP tools, persistent memory systems, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can actually run yourself, keep fully under your control, and host on your own hardware or cheap VPS ([Virtual Private Server](https://cloud.google.com/learn/what-is-a-virtual-private-server)).
@@ -12,10 +14,22 @@
 
 #### Harnesses (the runtime that turns a model into an agent)
 
-- **[OpenClaw](https://github.com/openclaw)**  – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.
-- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.
-- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**  – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.
+- **[Agent Zero](https://www.agent-zero.ai/)** - agentic framework that gives the agent a full Linux computer inside a Docker container.
 - **[goose](https://github.com/block/goose)** (Block / Agentic AI Foundation) – Apache-2.0, desktop + CLI + API, heavily MCP-native, local-model friendly.
+- **[Hermes Agent](https://github.com/NousResearch/hermes-agent)** (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.
+- **[OpenClaw](https://github.com/openclaw)**  – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.
+- **[OpenCode](https://opencode.ai/)** - open source agent that helps you write code in your terminal, IDE, or desktop.
+- **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**  – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.
+
+| Aspect | Hermes Agent | Agent Zero |
+| :--- | :--- | :--- |
+| **Core Philosophy** | Persistent personal agent that learns & grows over time via skills/memory | Full sandboxed Linux computer + transparent, extensible agent framework |
+| **Strengths** | Strong continuous learning loop (auto skill creation/refinement); excellent multi-platform messaging gateway (20+ apps, one memory); flexible deployment (serverless options that hibernate); deep user modeling & cross-session recall; easy always-on personal assistant feel | Real desktop + browser with annotation/cowork; strong project isolation; highly transparent & editable (prompts/tools as files); mature multi-agent hierarchy + Plugin Hub; visual Web UI for control/observation; good for complex computer-use tasks |
+| **Weaknesses** | Less emphasis on a full GUI desktop environment; memory/skills can increase token cost on simple tasks; more “gateway + tools” than “own computer” metaphor | Heavier Docker dependency & resource footprint; less native multi-messaging surface out of the box; learning is more manual/project-oriented than automatic skill growth; Web UI-centric rather than chat-app native |
+| **Best For** | Always-available personal agent reachable from chat apps that improves with use | Technical users wanting a controllable agentic “computer” for development, research, document work, or multi-agent workflows |
+| **Deployment Style** | Lightweight long-running process / serverless; strong messaging focus | Docker-first full environment; Web UI + optional host CLI bridge |
+| **Extensibility** | Skills system + MCP + toolsets; community skills | Plugins, skills, fully editable prompts, MCP/A2A, community Plugin Hub |
+
 
 #### [**MCP**](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
 is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.
@@ -36,6 +50,12 @@ While traditional cloud browsers (like Browserless or standard headless Chrome c
 
 OpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.
 
+#### [SpyNEL](https://github.com/agent0ai/spynel)
+Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.
+
+#### [DOX](https://github.com/agent0ai/dox)
+DOX is a lightweight `AGENTS.md` framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.
+
 #### [Ajax](https://data.pewdiepie.com/)
 Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax's refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
 
@@ -49,11 +69,14 @@ LLM Leaderboard.
 #### [Heretic](https://heretic-project.org/)
 Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.
 
+<!-- HOTPLATE:END -->
+
 --- 
 
 ## [Glossory](Glossory.md)
 ## [Notes](Notes.md)
 
+--- 
 
 ## AI Model Types
 - Large Language Models (LLM)
@@ -181,7 +204,7 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 | **Extras**          | Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching | Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models |
 
 
-#### When Ollama is usually betterYou want a fully open-source, auditable tool.
+#### When Ollama is usually better: You want a fully open-source, auditable tool.
 - You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).
 - You need Docker, Kubernetes, or long-running headless servers with minimal footprint.
 - You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).

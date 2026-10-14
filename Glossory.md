@@ -1208,6 +1208,9 @@ improvement and innovation. However, this race also raises important questions a
 
 ## S
 
+### [Singularity](https://singularity-hpc.readthedocs.io/)
+> is optimized for managing containers in an HPC environment. Meant for shared academic supercomputers where users aren't allowed to have root privileges.
+
 ### Stacking
 > is an ensemble learning technique that combines multiple models to improve predictive performance. Stacking involves training a meta-model that learns to combine the predictions of base models to make the final prediction. Stacking helps reduce bias and variance by leveraging the diversity of individual models and can be applied to various machine learning algorithms.
 
