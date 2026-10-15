@@ -1,9 +1,12 @@
 title: The Book of AI
-description: AI landscape overview and study notes
+description: AI landscape overview and practical toolkit for AI practitioners and enthusiasts.
 author: David Geeraerts
-theme: jekyll-theme-cayman
+remote_theme: just-the-docs/just-the-docs
+
+search_enabled: true
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-readme-index
   - jekyll-optional-front-matter
   - jekyll-relative-links
