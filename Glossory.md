@@ -9,6 +9,9 @@
 
 > refers to the process of removing the refusal mechanisms from an LLM. This is achieved using a technique implemented in the [remove-refusals-with-transformers project](https://github.com/Sumandora/remove-refusals-with-transformers). This project provides a proof-of-concept implementation to remove refusals from an LLM without using TransformerLens, which supports most models available on HuggingFace. The code is tested with models up to 3B, but it can work with bigger models as well. The project uses harmful and harmless instructions to remove the refusals.
 
+### Agent
+> is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
+
 ### Agentic AI
 > uses sophisticated reasoning and iterative planning to autonomously solve complex, multi-step problems.
 
@@ -738,6 +741,20 @@ gradient, aiming to minimize the cost function.
 >  refers to instances where the model generates information that is not based on the input data or real-world facts. Essentially, the AI "makes up" details or provides incorrect information confidently. This can happen for various reasons, such as limitations in the training data, the model's architecture, or the way it processes and interprets information.
 > Hallucinations can be problematic, especially in applications where accuracy is crucial, like medical diagnosis or legal advice. Researchers are continuously working on improving AI models to reduce the occurrence of hallucinations and ensure more reliable outputs.
 
+### Harness
+> is the runtime / scaffolding that turns a raw language model into a working agent.
+
+**The harness determines:**
+- How long the agent can run
+- Whether it has persistent memory and can create its own skills
+- What tools (MCP servers) it can reach
+- Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop
+- How isolated / sandboxed its actions are
+- How easy it is to observe, interrupt, or improve it
+
+A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.
+
+
 ### Hyperparameter
 
 > is a configuration setting that is external to the model and is used to control the learning process. Hyperparameters are set before the learning process begins and are not updated during training. Examples of hyperparameters include the learning rate, batch size, number of layers in a neural network, and regularization strength.
@@ -797,6 +814,13 @@ predictions (outputs) of the teacher model.
 - Variants of knowledge distillation include techniques like online distillation, mutual learning, and attention-based distillation.
 
 > In summary, knowledge distillation is a powerful technique for creating efficient, compact models that can perform nearly as well as their larger counterparts, making it an essential tool in modern AI modeling.
+
+### KV Cache (Key-Value Cache)
+> stores the attention keys and values computed for tokens in a language model's input so they can be reused as the model generates each next token, instead of recomputing the entire sequence at every step. This reduces repeated computation and speeds up text generation.
+
+The cache grows with the number of tokens and concurrent requests, using GPU memory. Serving systems manage this memory with techniques such as paged allocation, prefix caching, and lower-precision storage. Unlike prompt caching, the KV cache is normally specific to an active request and discarded when it ends.
+
+_Summary based on [What Is a KV Cache?](https://decagon.ai/glossary/what-is-a-kv-cache) by Decagon._
 
 ---
 
@@ -1149,6 +1173,9 @@ mechanisms, and reversible attention.
 
 ### (RL) Reinforcement Learning
 > is a machine learning paradigm that involves training agents to make sequential decisions in an environment to maximize a reward signal. Reinforcement learning models learn through trial and error, exploring different actions and learning from the feedback received from the environment. Reinforcement learning is used in applications such as game playing, robotics, and autonomous systems.
+
+### RLCD (Reinforcement Learning for Calibrated Decisions)
+> is a post-training method introduced by TypeSafe AI in September 2026 for training their decision model Jev. Unlike RLHF, which optimizes for answers humans prefer, or RLVR, which optimizes for answers a program can verify as correct, RLCD trains the model to output decisions whose associated probabilities accurately reflect how often those decisions turn out to be right. The goal is epistemic honesty: when the model reports 80% confidence, it should be correct roughly 80% of the time across many cases. This produces structured, machine-readable outputs (not free-form text) that software can reliably threshold and act upon, making RLCD particularly suited for automated agent workflows and decision pipelines rather than human-facing chat.
 
 ### (RLHF) Reinforcement learning from human feedback
 > is a machine learning paradigm that involves training agents to make sequential decisions in an environment based on feedback from human users. RLHF combines [reinforcement learning](#reinforcement-learning) with human feedback to improve the learning process and guide the agent's decision-making. This approach is used in interactive learning scenarios where human input is valuable for training the model.

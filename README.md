@@ -1,4 +1,5 @@
 # :open_book: The Book of AI - Mapping the Artificial Intelligence landscape
+A practical toolkit
 
 <!-- HOTPLATE:START -->
 ## :fire: Hotplate (Quarterly Release Cycle)
@@ -18,6 +19,7 @@
 - **[OpenClaw](https://github.com/openclaw)**  – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.
 - **[OpenCode](https://opencode.ai/)** - open source agent that helps you write code in your terminal, IDE, or desktop.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**  – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.
+- **[ZCode](https://zcode.z.ai/en) - harness and agent for GLM
 
 | Aspect | Hermes Agent | Agent Zero |
 | :--- | :--- | :--- |
@@ -78,6 +80,33 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 ## [Notes](Notes.md)
 
 --- 
+
+
+## Introduction
+
+- **An agent** is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
+- **A harness** is the runtime / scaffolding that turns a raw language model into a working agent.
+  - _**The harness** is the engine and chassis. **The agent** is the driver + the behavior that emerges once the model is running inside that chassis._
+
+
+### More precise breakdown
+
+| Concept | What it is | Examples |
+| :--- | :--- | :--- |
+| **Model** | The raw intelligence (weights) | Qwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc. |
+| **Harness** | The runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc. | Hermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero |
+| **Agent** | The resulting autonomous system that actually does work | Copilot, OpenCode, Agent Zero |
+
+**The harness determines:**
+- How long the agent can run
+- Whether it has persistent memory and can create its own skills
+- What tools (MCP servers) it can reach
+- Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop
+- How isolated / sandboxed its actions are
+- How easy it is to observe, interrupt, or improve it
+
+A good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages
+
 
 ## AI Model Types
 - Large Language Models (LLM)
@@ -173,7 +202,7 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 |-----------|----------------|-----------|------------|---------------|
 | **MMLU** | Saturated | Historical reference for broad knowledge | Frontier models cluster ~90%+; little differentiation; contamination risk | Mostly no (use MMLU-Pro if needed) |
 | **GSM8K** | Saturated | Simple math word problems | Top models near ceiling (~95%+); many invalid questions noted | No for frontier comparison |
-| **GPQA** (esp. Diamond) | Near-saturating | Graduate-level “Google-proof” science reasoning | Leaders pushing 90%+; small set → noise | Still decent for science reasoning, but headroom shrinking |
+| **GPQA** (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond) | Near-saturating | Challenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models | Leaders pushing 90%+; small set → noise | Still decent for science reasoning, but headroom shrinking |
 | **SWE-bench** (Verified/Pro variants) | Contested / partially saturating | Real GitHub issue resolution; strong signal for coding agents | Contamination concerns; scores climbing into high 70s–90s on easier versions | Yes for coding/agentic work (prefer newer/harder variants like Pro) |
 | **GAIA** | Active but contested | Multi-step agentic tasks (browsing, tools, files) that are easy for humans | Large score gaps depending on scaffolding/tools; some saturation reports | Yes for assistant/agent evaluation |
 | [**LiveBench**](https://livebench.ai/#/) | Highly regarded | Monthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following | Not human preference; not pure agentic long-horizon | **One of the strongest current objective capability benchmarks** |
@@ -230,6 +259,8 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 - [Perplexity](https://www.perplexity.ai/)
 - [Qwen](https://chat.qwen.ai/) (Alibaba)
 - [Together AI](https://www.together.ai/)
+- [TypeSafe](https://console.typesafe.ai/home)
+- [Z](https://chat.z.ai/) (GLM)
 
 
 ## AI [blog] Resources
@@ -243,6 +274,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 - [ApX Machine Learning](https://apxml.com/posts)
 - [Arsturn](https://www.arsturn.com/blog)
 - [Epoch AI](https://epoch.ai/)
+- [Hugging Face](https://huggingface.co/blog)
 - [Import AI](https://importai.substack.com/) (Jack Clark)
 - [Interconnects](https://www.interconnects.ai/) (Nathan Lambert)
 - [Latent Space](https://www.latent.space/)
@@ -257,6 +289,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## Prominent AI People
 (Sorted by Surname ↑)
 
+- [Diogo Almeida](https://typesafe.ai/team) - [TypeSafe](https://typesafe.ai/)
 - [Dario Amodei](https://darioamodei.com/) - [Anthropic](https://www.anthropic.com/)
 - [Sam Altman](https://openai.com/about/) - [OpenAI](https://openai.com/)
 - [AmandA Askell](https://askell.io/) - [Anthropic](https://www.anthropic.com/)
@@ -297,6 +330,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 ## Articles
 (Sorted by Publication Date ↓)
+- 2026-09-11 [Lies, Damned Lies, and Benchmarks](https://www.completeskeptic.com/p/lies-damned-lies-and-benchmarks)
+- 2026-09-09 [(KV) Cache Rules Everything Around Me](https://www.completeskeptic.com/p/kv-cache-rules-everything-around) 
 - 2025-02-12 [Unlocking the Effective Context Length: Benchmarking the Granite-3.1-8b Model](https://www.redhat.com/en/blog/unlocking-effective-context-length-benchmarking-granite-31-8b-model)
 - 2025-02-02 [A Detailed Analysis of Fine-Tuning, Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (RLVR) on the LLama3.1 405B Model](https://medium.com/@zhouboyang1983/a-detailed-analysis-of-fine-tuning-direct-preference-optimization-dpo-and-reinforcement-c24d9061cd84)
 - 2025-01-31 [DeepSeek-V3 Explained 1: Multi-head Latent Attention](https://towardsdatascience.com/deepseek-v3-explained-1-multi-head-latent-attention-ed6bee2a67c4/)
@@ -338,7 +373,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
 - [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
-
+## Quotes
+> "Not all benchmarks lie, but all liars benchmark"
 
 
 ## History
