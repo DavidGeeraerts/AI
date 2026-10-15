@@ -1,7 +1,7 @@
-# Glossary and Reference
+# Resources
 
 Use this chapter as a quick reference for concepts used throughout the book.
-The full [AI glossary](../Glossory.md) contains additional detail.
+The full [AI glossary](appendices/Glossary.qmd) contains additional detail.
 
 ## Core terms
 

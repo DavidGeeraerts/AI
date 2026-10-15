@@ -1,0 +1,1190 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>readme – The Book of AI -- A practical guide to understanding agents and building a practical toolkit you control.</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-631496449bf32ff9b0bb69a6bfd9195d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-book-of-ai---mapping-the-artificial-intelligence-landscape" id="toc-the-book-of-ai---mapping-the-artificial-intelligence-landscape" class="nav-link active" data-scroll-target="#the-book-of-ai---mapping-the-artificial-intelligence-landscape"><span class="header-section-number">1</span> <span class="emoji" data-emoji="open_book">📖</span> The Book of AI - Mapping the Artificial Intelligence landscape</a>
+  <ul class="collapse">
+  <li><a href="#hotplate-quarterly-release-cycle" id="toc-hotplate-quarterly-release-cycle" class="nav-link" data-scroll-target="#hotplate-quarterly-release-cycle"><span class="header-section-number">1.1</span> <span class="emoji" data-emoji="fire">🔥</span> Hotplate (Quarterly Release Cycle)</a>
+  <ul class="collapse">
+  <li><a href="#general-ai-vibe-for-2026-q4-october-november-december" id="toc-general-ai-vibe-for-2026-q4-october-november-december" class="nav-link" data-scroll-target="#general-ai-vibe-for-2026-q4-october-november-december"><span class="header-section-number">1.1.1</span> <span class="emoji" data-emoji="newspaper">📰</span> General AI vibe for 2026 Q4 {October, November, December}</a></li>
+  <li><a href="#jev" id="toc-jev" class="nav-link" data-scroll-target="#jev"><span class="header-section-number">1.1.2</span> JEV</a></li>
+  </ul></li>
+  <li><a href="#chapter-structure" id="toc-chapter-structure" class="nav-link" data-scroll-target="#chapter-structure"><span class="header-section-number">1.2</span> Chapter Structure</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction"><span class="header-section-number">1.3</span> Introduction</a>
+  <ul class="collapse">
+  <li><a href="#more-precise-breakdown" id="toc-more-precise-breakdown" class="nav-link" data-scroll-target="#more-precise-breakdown"><span class="header-section-number">1.3.1</span> More precise breakdown</a></li>
+  </ul></li>
+  <li><a href="#ai-model-types" id="toc-ai-model-types" class="nav-link" data-scroll-target="#ai-model-types"><span class="header-section-number">1.4</span> AI Model Types</a>
+  <ul class="collapse">
+  <li><a href="#prominent-ai-organizations-creating-foundational-ai-models" id="toc-prominent-ai-organizations-creating-foundational-ai-models" class="nav-link" data-scroll-target="#prominent-ai-organizations-creating-foundational-ai-models"><span class="header-section-number">1.4.1</span> Prominent AI Organizations Creating Foundational AI Models</a></li>
+  <li><a href="#foundational-ai-models" id="toc-foundational-ai-models" class="nav-link" data-scroll-target="#foundational-ai-models"><span class="header-section-number">1.4.2</span> Foundational AI Models</a></li>
+  <li><a href="#base-model-data" id="toc-base-model-data" class="nav-link" data-scroll-target="#base-model-data"><span class="header-section-number">1.4.3</span> Base Model Data</a></li>
+  <li><a href="#miscellaneous-tools" id="toc-miscellaneous-tools" class="nav-link" data-scroll-target="#miscellaneous-tools"><span class="header-section-number">1.4.4</span> Miscellaneous Tools</a></li>
+  <li><a href="#benchmarks" id="toc-benchmarks" class="nav-link" data-scroll-target="#benchmarks"><span class="header-section-number">1.4.5</span> Benchmarks</a></li>
+  <li><a href="#running-ai-models-locally" id="toc-running-ai-models-locally" class="nav-link" data-scroll-target="#running-ai-models-locally"><span class="header-section-number">1.4.6</span> Running AI Models Locally</a></li>
+  </ul></li>
+  <li><a href="#webonline-models" id="toc-webonline-models" class="nav-link" data-scroll-target="#webonline-models"><span class="header-section-number">1.5</span> Web/Online Models</a></li>
+  <li><a href="#ai-blog-resources" id="toc-ai-blog-resources" class="nav-link" data-scroll-target="#ai-blog-resources"><span class="header-section-number">1.6</span> AI [blog] Resources</a></li>
+  <li><a href="#prominent-ai-people" id="toc-prominent-ai-people" class="nav-link" data-scroll-target="#prominent-ai-people"><span class="header-section-number">1.7</span> Prominent AI People</a></li>
+  <li><a href="#ai-publication-websites" id="toc-ai-publication-websites" class="nav-link" data-scroll-target="#ai-publication-websites"><span class="header-section-number">1.8</span> AI Publication Websites</a></li>
+  <li><a href="#ai-publications" id="toc-ai-publications" class="nav-link" data-scroll-target="#ai-publications"><span class="header-section-number">1.9</span> AI Publications</a></li>
+  <li><a href="#articles" id="toc-articles" class="nav-link" data-scroll-target="#articles"><span class="header-section-number">1.10</span> Articles</a></li>
+  <li><a href="#online-books" id="toc-online-books" class="nav-link" data-scroll-target="#online-books"><span class="header-section-number">1.11</span> Online Books</a></li>
+  <li><a href="#youtube-videos-channels" id="toc-youtube-videos-channels" class="nav-link" data-scroll-target="#youtube-videos-channels"><span class="header-section-number">1.12</span> YouTube Videos &amp; Channels</a></li>
+  <li><a href="#quotes" id="toc-quotes" class="nav-link" data-scroll-target="#quotes"><span class="header-section-number">1.13</span> Quotes</a></li>
+  <li><a href="#glossory" id="toc-glossory" class="nav-link" data-scroll-target="#glossory"><span class="header-section-number">1.14</span> Glossory</a></li>
+  <li><a href="#notes" id="toc-notes" class="nav-link" data-scroll-target="#notes"><span class="header-section-number">1.15</span> Notes</a></li>
+  <li><a href="#history" id="toc-history" class="nav-link" data-scroll-target="#history"><span class="header-section-number">1.16</span> History</a></li>
+  <li><a href="#build-the-quarto-book" id="toc-build-the-quarto-book" class="nav-link" data-scroll-target="#build-the-quarto-book"><span class="header-section-number">1.17</span> Build the Quarto book</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license"><span class="header-section-number">1.18</span> License</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="the-book-of-ai---mapping-the-artificial-intelligence-landscape" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> <span class="emoji" data-emoji="open_book">📖</span> The Book of AI - Mapping the Artificial Intelligence landscape</h1>
+<p><span class="emoji" data-emoji="toolbox">🧰</span> The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.</p>
+<!-- HOTPLATE:START -->
+<section id="hotplate-quarterly-release-cycle" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="hotplate-quarterly-release-cycle"><span class="header-section-number">1.1</span> <span class="emoji" data-emoji="fire">🔥</span> Hotplate (Quarterly Release Cycle)</h2>
+<section id="general-ai-vibe-for-2026-q4-october-november-december" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="general-ai-vibe-for-2026-q4-october-november-december"><span class="header-section-number">1.1.1</span> <span class="emoji" data-emoji="newspaper">📰</span> General AI vibe for 2026 Q4 {October, November, December}</h3>
+<p><span class="emoji" data-emoji="compass">🧭</span> Building and refining open-source agent harnesses for long-running and autonomous work (LOOP for efficiency and duration, OpenHands and OpenCode for coding, goose for general MCP-native use), combined with heavy adoption of MCP tools, persistent memory systems, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can actually run yourself, keep fully under your control, and host on your own hardware or cheap VPS (<a href="https://cloud.google.com/learn/what-is-a-virtual-private-server">Virtual Private Server</a>).</p>
+<hr>
+<section id="harnesses-the-runtime-that-turns-a-model-into-an-agent" class="level4" data-number="1.1.1.1">
+<h4 data-number="1.1.1.1" class="anchored" data-anchor-id="harnesses-the-runtime-that-turns-a-model-into-an-agent"><span class="header-section-number">1.1.1.1</span> Harnesses (the runtime that turns a model into an agent)</h4>
+<ul>
+<li><strong><a href="https://www.agent-zero.ai/">Agent Zero</a></strong> - agentic framework that gives the agent a full Linux computer inside a Docker container.</li>
+<li><strong><a href="https://github.com/block/goose">goose</a></strong> (Block / Agentic AI Foundation) – Apache-2.0, desktop + CLI + API, heavily MCP-native, local-model friendly.</li>
+<li><strong><a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a></strong> (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.</li>
+<li><strong><a href="https://github.com/openclaw">OpenClaw</a></strong> – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.</li>
+<li><strong><a href="https://opencode.ai/">OpenCode</a></strong> - open source agent that helps you write code in your terminal, IDE, or desktop.</li>
+<li><strong><a href="https://github.com/All-Hands-AI/OpenHands">OpenHands</a></strong> – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding &amp; repo work.</li>
+<li><strong><a href="https://zcode.z.ai/en">ZCode</a></strong> - harness and agent for GLM</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Aspect</th>
+<th style="text-align: left;">Hermes Agent</th>
+<th style="text-align: left;">Agent Zero</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Core Philosophy</strong></td>
+<td style="text-align: left;">Persistent personal agent that learns &amp; grows over time via skills/memory</td>
+<td style="text-align: left;">Full sandboxed Linux computer + transparent, extensible agent framework</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Strengths</strong></td>
+<td style="text-align: left;">Strong continuous learning loop (auto skill creation/refinement); excellent multi-platform messaging gateway (20+ apps, one memory); flexible deployment (serverless options that hibernate); deep user modeling &amp; cross-session recall; easy always-on personal assistant feel</td>
+<td style="text-align: left;">Real desktop + browser with annotation/cowork; strong project isolation; highly transparent &amp; editable (prompts/tools as files); mature multi-agent hierarchy + Plugin Hub; visual Web UI for control/observation; good for complex computer-use tasks</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Weaknesses</strong></td>
+<td style="text-align: left;">Less emphasis on a full GUI desktop environment; memory/skills can increase token cost on simple tasks; more “gateway + tools” than “own computer” metaphor</td>
+<td style="text-align: left;">Heavier Docker dependency &amp; resource footprint; less native multi-messaging surface out of the box; learning is more manual/project-oriented than automatic skill growth; Web UI-centric rather than chat-app native</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Best For</strong></td>
+<td style="text-align: left;">Always-available personal agent reachable from chat apps that improves with use</td>
+<td style="text-align: left;">Technical users wanting a controllable agentic “computer” for development, research, document work, or multi-agent workflows</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Deployment Style</strong></td>
+<td style="text-align: left;">Lightweight long-running process / serverless; strong messaging focus</td>
+<td style="text-align: left;">Docker-first full environment; Web UI + optional host CLI bridge</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Extensibility</strong></td>
+<td style="text-align: left;">Skills system + MCP + toolsets; community skills</td>
+<td style="text-align: left;">Plugins, skills, fully editable prompts, MCP/A2A, community Plugin Hub</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="mcp" class="level4" data-number="1.1.1.2">
+<h4 data-number="1.1.1.2" class="anchored" data-anchor-id="mcp"><span class="header-section-number">1.1.1.2</span> <a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"><strong>MCP</strong></a></h4>
+<p>is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.</p>
+</section>
+<section id="kernel" class="level4" data-number="1.1.1.3">
+<h4 data-number="1.1.1.3" class="anchored" data-anchor-id="kernel"><span class="header-section-number">1.1.1.3</span> <a href="https://www.kernel.sh/">KERNEL</a></h4>
+<p>is a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, <strong><em>anti-bot bypass</em></strong>, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).</p>
+</section>
+<section id="openwaldo" class="level4" data-number="1.1.1.4">
+<h4 data-number="1.1.1.4" class="anchored" data-anchor-id="openwaldo"><span class="header-section-number">1.1.1.4</span> <a href="https://openwaldo.org/">OpenWaldo</a></h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Letter</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>W</td>
+<td>Weights</td>
+</tr>
+<tr class="even">
+<td>A</td>
+<td>Artifacts</td>
+</tr>
+<tr class="odd">
+<td>L</td>
+<td>Licenses</td>
+</tr>
+<tr class="even">
+<td>D</td>
+<td>Data</td>
+</tr>
+<tr class="odd">
+<td>O</td>
+<td>Origin</td>
+</tr>
+</tbody>
+</table>
+<p>OpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.</p>
+</section>
+</section>
+<section id="jev" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="jev"><span class="header-section-number">1.1.2</span> <a href="https://jevmodel.org/">JEV</a></h3>
+<p>A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.</p>
+<section id="spynel" class="level4" data-number="1.1.2.1">
+<h4 data-number="1.1.2.1" class="anchored" data-anchor-id="spynel"><span class="header-section-number">1.1.2.1</span> <a href="https://github.com/agent0ai/spynel">SpyNEL</a></h4>
+<p>Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.</p>
+</section>
+<section id="dox" class="level4" data-number="1.1.2.2">
+<h4 data-number="1.1.2.2" class="anchored" data-anchor-id="dox"><span class="header-section-number">1.1.2.2</span> <a href="https://github.com/agent0ai/dox">DOX</a></h4>
+<p>DOX is a lightweight <code>AGENTS.md</code> framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.</p>
+</section>
+<section id="ajax" class="level4" data-number="1.1.2.3">
+<h4 data-number="1.1.2.3" class="anchored" data-anchor-id="ajax"><span class="header-section-number">1.1.2.3</span> <a href="https://data.pewdiepie.com/">Ajax</a></h4>
+<p>Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.</p>
+</section>
+<section id="odysseus" class="level4" data-number="1.1.2.4">
+<h4 data-number="1.1.2.4" class="anchored" data-anchor-id="odysseus"><span class="header-section-number">1.1.2.4</span> <a href="https://odysseusai.dev/">Odysseus</a></h4>
+<p>Odysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.</p>
+</section>
+<section id="benchlm" class="level4" data-number="1.1.2.5">
+<h4 data-number="1.1.2.5" class="anchored" data-anchor-id="benchlm"><span class="header-section-number">1.1.2.5</span> <a href="https://benchlm.ai/">BenchLM</a></h4>
+<p>LLM Leaderboard. #### <a href="https://benchlm.ai/best/ollama-models">Best Ollama models</a></p>
+</section>
+<section id="heretic" class="level4" data-number="1.1.2.6">
+<h4 data-number="1.1.2.6" class="anchored" data-anchor-id="heretic"><span class="header-section-number">1.1.2.6</span> <a href="https://heretic-project.org/">Heretic</a></h4>
+<p>Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.</p>
+<!-- HOTPLATE:END -->
+<hr>
+</section>
+</section>
+</section>
+<section id="chapter-structure" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="chapter-structure"><span class="header-section-number">1.2</span> <a href="chatper-structure.md">Chapter Structure</a></h2>
+<hr>
+</section>
+<section id="introduction" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1.3</span> Introduction</h2>
+<ul>
+<li><strong>An agent</strong> is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.</li>
+<li><strong>A harness</strong> is the runtime / scaffolding that turns a raw language model into a working agent.
+<ul>
+<li><em><strong>The harness</strong> is the engine and chassis. <strong>The agent</strong> is the driver + the behavior that emerges once the model is running inside that chassis.</em></li>
+</ul></li>
+</ul>
+<section id="more-precise-breakdown" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="more-precise-breakdown"><span class="header-section-number">1.3.1</span> More precise breakdown</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Concept</th>
+<th style="text-align: left;">What it is</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Model</strong></td>
+<td style="text-align: left;">The raw intelligence (weights)</td>
+<td style="text-align: left;">Qwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Harness</strong></td>
+<td style="text-align: left;">The runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.</td>
+<td style="text-align: left;">Hermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Agent</strong></td>
+<td style="text-align: left;">The resulting autonomous system that actually does work</td>
+<td style="text-align: left;">Copilot, OpenCode, Agent Zero</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The harness determines:</strong> - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it</p>
+<p>A good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages</p>
+</section>
+</section>
+<section id="ai-model-types" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="ai-model-types"><span class="header-section-number">1.4</span> AI Model Types</h2>
+<ul>
+<li>Large Language Models (LLM)
+<ul>
+<li>General-purpose language models</li>
+<li>Code-specialized models
+<ul>
+<li>Claude Fable 5.1 / Claude Opus 5.5 family (Anthropic)</li>
+<li>GPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)</li>
+<li>Gemini 4 Argon / Gemini 3.x Flash family (Google)</li>
+<li>Kimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)</li>
+<li>DeepSeek</li>
+<li>Qwen</li>
+</ul></li>
+</ul></li>
+<li>Image Generation Models
+<ul>
+<li>Text-to-Image {<a href="https://stablediffusionweb.com/">Stable Diffusion</a>, <a href="https://www.midjourney.com/home">Midjourney</a>, DALL-E, <a href="https://grok.com/supergrok/imagine">Grok Imagine</a>}</li>
+<li>Image-to-Image</li>
+</ul></li>
+<li>Multimodal Models (Text, Image, Audio, Video)
+<ul>
+<li>Kimi K3 (Moonshot AI)</li>
+<li>Claude Opus 5 / Claude Opus 5.5 (Anthropic)</li>
+<li>Qwen3.8 Max (Alibaba)</li>
+<li>GPT-5.6 series (especially Sol / Luna variants) (OpenAI)</li>
+<li>Gemini 3.x Flash / Pro family (Google)</li>
+</ul></li>
+</ul>
+<section id="prominent-ai-organizations-creating-foundational-ai-models" class="level3" data-number="1.4.1">
+<h3 data-number="1.4.1" class="anchored" data-anchor-id="prominent-ai-organizations-creating-foundational-ai-models"><span class="header-section-number">1.4.1</span> Prominent AI Organizations Creating Foundational AI Models</h3>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.alibabacloud.com/en">Alibaba</a> (Qwen)</li>
+<li><a href="https://allenai.org/">Allen Institute for AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://blackforestlabs.ai/">Black Forest Labs</a> (FLUX)</li>
+<li><a href="https://www.bytedance.com/">ByteDance</a> (Seed / Seedream / Doubao)</li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+<li><a href="https://ai.google/">Google AI / Google DeepMind</a></li>
+<li><a href="https://huggingface.co/">Hugging Face</a></li>
+<li><a href="https://www.ibm.com/granite">IBM</a></li>
+<li><a href="https://ai.facebook.com/">Meta AI</a></li>
+<li><a href="https://www.microsoft.com/en-us/ai">Microsoft AI</a></li>
+<li><a href="https://www.minimaxi.com/">MiniMax</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.moonshot.cn/">Moonshot AI</a> (Kimi)</li>
+<li><a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://stability.ai/">Stability AI</a></li>
+<li><a href="https://www.xiaomi.com/">Xiaomi</a> (MiMo)</li>
+<li><a href="https://x.ai/">xAI</a></li>
+<li><a href="https://zhipuai.cn/">Zhipu AI / Z.AI</a> (GLM)</li>
+</ul>
+</section>
+<section id="foundational-ai-models" class="level3" data-number="1.4.2">
+<h3 data-number="1.4.2" class="anchored" data-anchor-id="foundational-ai-models"><span class="header-section-number">1.4.2</span> Foundational AI Models</h3>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.anthropic.com/claude">Claude</a> (Anthropic)</li>
+<li><a href="https://cohere.com/">Command</a> (Cohere)</li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+<li><a href="https://blackforestlabs.ai/">FLUX</a> (Black Forest Labs)</li>
+<li><a href="https://ai.google/gemini/">Gemini</a> (Google DeepMind)</li>
+<li><a href="https://ai.google.dev/gemma">Gemma</a> (Google)</li>
+<li><a href="https://zhipuai.cn/">GLM</a> (Zhipu AI / Z.AI)</li>
+<li><a href="https://openai.com/">GPT</a> (OpenAI)</li>
+<li><a href="https://www.ibm.com/granite">Granite</a> (IBM)</li>
+<li><a href="https://x.ai/">Grok</a> (xAI)</li>
+<li><a href="https://www.moonshot.cn/">Kimi</a> (Moonshot AI)</li>
+<li><a href="https://www.llama.com/">Llama</a> (Meta)</li>
+<li><a href="https://www.xiaomi.com/">MiMo</a> (Xiaomi)</li>
+<li><a href="https://mistral.ai/">Mistral</a> (Mistral AI)</li>
+<li><a href="https://ai.meta.com/">Muse</a> (Meta)</li>
+<li><a href="https://aws.amazon.com/ai/generative-ai/nova/">Nova</a> (Amazon)</li>
+<li><a href="https://huggingface.co/Qwen">Qwen</a> (Alibaba)</li>
+<li><a href="https://www.bytedance.com/">Seed / Seedream</a> (ByteDance)</li>
+<li><a href="https://stability.ai/stable-image">Stable Diffusion</a> (Stability AI)</li>
+</ul>
+</section>
+<section id="base-model-data" class="level3" data-number="1.4.3">
+<h3 data-number="1.4.3" class="anchored" data-anchor-id="base-model-data"><span class="header-section-number">1.4.3</span> Base Model Data</h3>
+<p>(Order by Name ↑) - <a href="https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&amp;sc_channel=el&amp;FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&amp;CONTRACT_TYPE=OPEN_DATA_LICENSES&amp;filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE">AWS Open Data</a> - <a href="https://commoncrawl.org/"><strong>Common Crawl</strong></a> - <a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"><strong>FineWeb</strong></a> – curated Internet dataset. - <a href="https://datasetsearch.research.google.com/"><strong>Google Dataset Search</strong></a> - <a href="https://huggingface.co/datasets"><strong>Hugging Face Datasets</strong></a> - <a href="https://www.kaggle.com/datasets"><strong>Kaggle</strong></a> - <a href="https://planetarycomputer.microsoft.com/catalog">Microsoft Planetary Computer Data Catalog</a> - <a href="https://github.com/cvdfoundation/mnist">MNIST (Modified National Institute of Standards and Technology database)</a> - <a href="https://storage.googleapis.com/openimages/web/index.html">Open Images Dataset</a> - <a href="https://snap.stanford.edu/data/">SNAP - Stanford Large Network Dataset Collection</a> - <a href="https://archive.ics.uci.edu/">UC Irvine Machine Learning Repository</a> - <a href="https://data.gov/">USA Data Gov</a></p>
+</section>
+<section id="miscellaneous-tools" class="level3" data-number="1.4.4">
+<h3 data-number="1.4.4" class="anchored" data-anchor-id="miscellaneous-tools"><span class="header-section-number">1.4.4</span> Miscellaneous Tools</h3>
+<p>(Order by Name ↑) - <a href="https://excalidraw.com/">Excalidraw</a> - online Diagram tool - <a href="https://bbycroft.net/llm">LLM Visualization</a> - <a href="https://tiktokenizer.vercel.app/">Tiktokenizer</a></p>
+</section>
+<section id="benchmarks" class="level3" data-number="1.4.5">
+<h3 data-number="1.4.5" class="anchored" data-anchor-id="benchmarks"><span class="header-section-number">1.4.5</span> Benchmarks</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Benchmark</th>
+<th>Status in 2026</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+<th>Still useful?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>MMLU</strong></td>
+<td>Saturated</td>
+<td>Historical reference for broad knowledge</td>
+<td>Frontier models cluster ~90%+; little differentiation; contamination risk</td>
+<td>Mostly no (use MMLU-Pro if needed)</td>
+</tr>
+<tr class="even">
+<td><strong>GSM8K</strong></td>
+<td>Saturated</td>
+<td>Simple math word problems</td>
+<td>Top models near ceiling (~95%+); many invalid questions noted</td>
+<td>No for frontier comparison</td>
+</tr>
+<tr class="odd">
+<td><strong>GPQA</strong> (Graduate-Level Google-Proof Q&amp;A Benchmark; esp.&nbsp;Diamond)</td>
+<td>Near-saturating</td>
+<td>Challenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models</td>
+<td>Leaders pushing 90%+; small set → noise</td>
+<td>Still decent for science reasoning, but headroom shrinking</td>
+</tr>
+<tr class="even">
+<td><strong>SWE-bench</strong> (Verified/Pro variants)</td>
+<td>Contested / partially saturating</td>
+<td>Real GitHub issue resolution; strong signal for coding agents</td>
+<td>Contamination concerns; scores climbing into high 70s–90s on easier versions</td>
+<td>Yes for coding/agentic work (prefer newer/harder variants like Pro)</td>
+</tr>
+<tr class="odd">
+<td><strong>GAIA</strong></td>
+<td>Active but contested</td>
+<td>Multi-step agentic tasks (browsing, tools, files) that are easy for humans</td>
+<td>Large score gaps depending on scaffolding/tools; some saturation reports</td>
+<td>Yes for assistant/agent evaluation</td>
+</tr>
+<tr class="even">
+<td><a href="https://livebench.ai/#/"><strong>LiveBench</strong></a></td>
+<td>Highly regarded</td>
+<td>Monthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following</td>
+<td>Not human preference; not pure agentic long-horizon</td>
+<td><strong>One of the strongest current objective capability benchmarks</strong></td>
+</tr>
+<tr class="odd">
+<td><a href="https://lmarena.ai/"><strong>LMArena</strong></a> (Chatbot/Arena)</td>
+<td>Highly regarded</td>
+<td>Large-scale blind human preference (Elo-style); real user prompts</td>
+<td>Style/verbosity bias; overlapping confidence intervals; not verifiable correctness</td>
+<td><strong>Best for “which model feels best in open-ended use”</strong></td>
+</tr>
+<tr class="even">
+<td><a href="https://benchlm.ai/"><strong>BenchLM</strong></a></td>
+<td>Aggregator</td>
+<td>Combines many sources into overall indices</td>
+<td>Depends on underlying benchmarks; not a primary eval itself</td>
+<td>Useful meta-view, not a standalone benchmark</td>
+</tr>
+<tr class="odd">
+<td><strong>Mensa Norway IQ Test</strong></td>
+<td>Niche</td>
+<td>Attempts IQ-style scoring</td>
+<td>Narrow, not standard in frontier AI evaluation</td>
+<td>Rarely used for serious model comparison</td>
+</tr>
+<tr class="even">
+<td><strong>WebDev Arena</strong></td>
+<td>Specialized</td>
+<td>Web development tasks</td>
+<td>Narrow domain</td>
+<td>Useful only if you care specifically about web-dev agents</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="running-ai-models-locally" class="level3" data-number="1.4.6">
+<h3 data-number="1.4.6" class="anchored" data-anchor-id="running-ai-models-locally"><span class="header-section-number">1.4.6</span> Running AI Models Locally</h3>
+<ul>
+<li><a href="https://ollama.com">Ollama</a> — CLI + local OpenAI-compatible API (most popular for developers)</li>
+<li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
+<li><a href="https://jan.ai/">Jan</a> — Fully open-source desktop app (privacy-focused)</li>
+<li><a href="https://openwebui.com/">Open WebUI</a> — Self-hosted web UI (excellent with Ollama)</li>
+<li><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> — Core inference engine (GGUF, maximum control)</li>
+<li><a href="https://github.com/LostRuins/koboldcpp">KoboldCpp</a> — Easy single-binary runner with built-in UI</li>
+<li><a href="https://github.com/vllm-project/vllm">vLLM</a> — High-throughput serving (multi-user / production)</li>
+<li><a href="https://www.jan.ai/">jan</a> - run models locally, with cloud integration, MCP support.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 41%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th><strong>LM Studio</strong></th>
+<th><strong>Ollama</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Primary focus</strong></td>
+<td>Polished desktop GUI for discovery, chat &amp; experimentation</td>
+<td>CLI + background service for scripting, APIs &amp; integrations</td>
+</tr>
+<tr class="even">
+<td><strong>License</strong></td>
+<td>Proprietary (free for personal + internal business use)</td>
+<td>Fully open-source (MIT)</td>
+</tr>
+<tr class="odd">
+<td><strong>Interface</strong></td>
+<td>Excellent GUI + CLI (<code>lms</code>) + headless daemon (<code>llmster</code>)</td>
+<td>CLI-first + local API; has added a basic desktop app</td>
+</tr>
+<tr class="even">
+<td><strong>Model discovery</strong></td>
+<td>Built-in Hugging Face browser with size/VRAM estimates</td>
+<td>Curated library + simple <code>ollama pull model:tag</code></td>
+</tr>
+<tr class="odd">
+<td><strong>API</strong></td>
+<td>OpenAI- + Anthropic-compatible (port 1234)</td>
+<td>OpenAI-compatible + native endpoints (port 11434)</td>
+</tr>
+<tr class="even">
+<td><strong>Best hardware edge</strong></td>
+<td>Stronger MLX performance on Apple Silicon</td>
+<td>Lower overhead, often slightly faster on NVIDIA</td>
+</tr>
+<tr class="odd">
+<td><strong>Headless/server</strong></td>
+<td>Yes (llmster since early 2026)</td>
+<td>Native from the start (systemd/Docker-friendly)</td>
+</tr>
+<tr class="even">
+<td><strong>Extras</strong></td>
+<td>Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching</td>
+<td>Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models</td>
+</tr>
+</tbody>
+</table>
+<section id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool." class="level4" data-number="1.4.6.1">
+<h4 data-number="1.4.6.1" class="anchored" data-anchor-id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool."><span class="header-section-number">1.4.6.1</span> When Ollama is usually better: You want a fully open-source, auditable tool.</h4>
+<ul>
+<li>You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).</li>
+<li>You need Docker, Kubernetes, or long-running headless servers with minimal footprint.</li>
+<li>You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).</li>
+<li>You want the absolute simplest CLI workflow (ollama run model).</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="webonline-models" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="webonline-models"><span class="header-section-number">1.5</span> Web/Online Models</h2>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.anthropic.com/">Anthropic</a> - <a href="https://claude.ai/">Claude</a></li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a> - <a href="https://chat.deepseek.com/">Chat</a></li>
+<li><a href="https://github.com/marketplace/models">GitHub Models</a></li>
+<li><a href="https://ai.google/">Google</a> - <a href="https://gemini.google.com/">Gemini</a> / <a href="https://aistudio.google.com/">AI Studio</a></li>
+<li><a href="https://grok.com/">Grok</a> (xAI)</li>
+<li><a href="https://www.ibm.com/granite/playground/">IBM Granite</a></li>
+<li><a href="https://kimi.moonshot.cn/">Kimi</a> (Moonshot AI)</li>
+<li><a href="https://www.meta.ai/">Meta AI</a></li>
+<li><a href="https://copilot.microsoft.com/">Microsoft Copilot</a></li>
+<li><a href="https://chat.mistral.ai/">Mistral</a></li>
+<li><a href="https://openai.com/">OpenAI</a> - <a href="https://chatgpt.com/">ChatGPT</a></li>
+<li><a href="https://www.perplexity.ai/">Perplexity</a></li>
+<li><a href="https://chat.qwen.ai/">Qwen</a> (Alibaba)</li>
+<li><a href="https://www.together.ai/">Together AI</a></li>
+<li><a href="https://console.typesafe.ai/home">TypeSafe</a></li>
+<li><a href="https://chat.z.ai/">Z</a> (GLM)</li>
+</ul>
+</section>
+<section id="ai-blog-resources" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="ai-blog-resources"><span class="header-section-number">1.6</span> AI [blog] Resources</h2>
+<p>prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.</p>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://news.smol.ai/">AI News</a></li>
+<li><a href="https://news.kabyik.dev/">AI News Dashboard</a></li>
+<li><a href="https://allenai.org/blog">Ai2 – Allen Institute</a></li>
+<li><a href="https://apxml.com/posts">ApX Machine Learning</a></li>
+<li><a href="https://www.arsturn.com/blog">Arsturn</a></li>
+<li><a href="https://epoch.ai/">Epoch AI</a></li>
+<li><a href="https://huggingface.co/blog">Hugging Face</a></li>
+<li><a href="https://importai.substack.com/">Import AI</a> (Jack Clark)</li>
+<li><a href="https://www.interconnects.ai/">Interconnects</a> (Nathan Lambert)</li>
+<li><a href="https://www.latent.space/">Latent Space</a></li>
+<li><a href="https://www.semianalysis.com/">SemiAnalysis</a></li>
+<li><a href="https://atlassc.net/">ShinChven’s Blog</a></li>
+<li><a href="https://simonwillison.net/">Simon Willison’s Weblog</a></li>
+<li><a href="https://www.deeplearning.ai/the-batch/">The Batch</a> (Andrew Ng)</li>
+<li><a href="https://thegradient.pub/">The Gradient</a></li>
+<li><a href="https://www.turingpost.com/">Turning Post</a></li>
+</ul>
+</section>
+<section id="prominent-ai-people" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="prominent-ai-people"><span class="header-section-number">1.7</span> Prominent AI People</h2>
+<p>(Sorted by Surname ↑)</p>
+<ul>
+<li><a href="https://typesafe.ai/team">Diogo Almeida</a> - <a href="https://typesafe.ai/">TypeSafe</a></li>
+<li><a href="https://darioamodei.com/">Dario Amodei</a> - <a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://openai.com/about/">Sam Altman</a> - <a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://askell.io/">AmandA Askell</a> - <a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://yoshuabengio.org/en/">Yoshua Bengio</a> - <a href="https://mila.quebec/">Mila / Université de Montréal</a></li>
+<li><a href="https://lexfridman.com/">Lex Fridman</a> - <a href="https://www.mit.edu/">MIT</a></li>
+<li><a href="https://deepmind.google/about/">Demis Hassabis</a> - <a href="https://deepmind.google/">Google DeepMind</a></li>
+<li><a href="https://discover.research.utoronto.ca/26059-geoffrey-e-hinton">Geoffrey Hinton</a> - <a href="https://www.utoronto.ca/">University of Toronto</a></li>
+<li><a href="https://www.nvidia.com/en-us/about-nvidia/board-of-directors/jensen-huang/">Jensen Huang</a> - <a href="https://www.nvidia.com/">NVIDIA</a></li>
+<li><a href="https://salimismail.com/">Salim Ismail</a> - <a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://www.interconnects.ai/">Nathan Lambert</a> - <a href="https://allenai.org/">Allen Institute for AI</a></li>
+<li><a href="http://yann.lecun.com/">Yann LeCun</a> - <a href="https://www.nyu.edu/">Meta / NYU</a></li>
+<li><a href="https://drfeifei.substack.com/about">Fei-Fei Li</a> - <a href="https://www.stanford.edu/">Stanford University / World Labs</a></li>
+<li><a href="https://emad.posthaven.com/">Emad Mostaque</a> - <a href="https://stability.ai/">stability.ai</a></li>
+<li><a href="https://www.andrewng.org/">Andrew Ng</a> - <a href="https://www.deeplearning.ai/">DeepLearning.AI / Stanford</a></li>
+<li><a href="https://colah.github.io/">Christopher Olah</a> - <a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ssi.inc/">Ilya Sutskever</a> - <a href="https://ssi.inc/">Safe Superintelligence (SSI)</a></li>
+</ul>
+</section>
+<section id="ai-publication-websites" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="ai-publication-websites"><span class="header-section-number">1.8</span> AI Publication Websites</h2>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://arxiv.org/list/cs.AI/recent">arxiv</a></li>
+</ul>
+</section>
+<section id="ai-publications" class="level2" data-number="1.9">
+<h2 data-number="1.9" class="anchored" data-anchor-id="ai-publications"><span class="header-section-number">1.9</span> AI Publications</h2>
+<p>(Sorted by Publication Date ↓)</p>
+<ul>
+<li>2025-04-25 <a href="https://arxiv.org/abs/2504.12285">BitNet b1.58 2B4T Technical Report</a></li>
+<li>2024-04-09 <a href="https://arxiv.org/abs/2404.06654">RULER: What’s the Real Context Size of Your Long-Context Language Models?</a></li>
+<li>2023-07-27 <a href="https://arxiv.org/abs/2307.15043">Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks</a></li>
+<li>2020-05-28 <a href="https://arxiv.org/abs/2005.14165">Language Models are Few-Shot Learners (GPT-3)</a></li>
+<li>2019-06-17 <a href="https://arxiv.org/abs/1902.05563">Superposition of many models into one</a></li>
+<li>2018-10-11 <a href="https://arxiv.org/abs/1810.04805">BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></li>
+<li>2017-06-12 <a href="https://arxiv.org/abs/1706.03762">Attention Is All You Need</a></li>
+<li>2015-12-10 <a href="https://arxiv.org/abs/1512.03385">Deep Residual Learning for Image Recognition (ResNet)</a></li>
+<li>2014-06-10 <a href="https://arxiv.org/abs/1406.2661">Generative Adversarial Networks (GANs)</a></li>
+<li>2012 <a href="https://dl.acm.org/doi/10.1145/3065386">ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)</a></li>
+</ul>
+</section>
+<section id="articles" class="level2" data-number="1.10">
+<h2 data-number="1.10" class="anchored" data-anchor-id="articles"><span class="header-section-number">1.10</span> Articles</h2>
+<p>(Sorted by Publication Date ↓) - 2026-09-11 <a href="https://www.completeskeptic.com/p/lies-damned-lies-and-benchmarks">Lies, Damned Lies, and Benchmarks</a> - 2026-09-09 <a href="https://www.completeskeptic.com/p/kv-cache-rules-everything-around">(KV) Cache Rules Everything Around Me</a> - 2025-02-12 <a href="https://www.redhat.com/en/blog/unlocking-effective-context-length-benchmarking-granite-31-8b-model">Unlocking the Effective Context Length: Benchmarking the Granite-3.1-8b Model</a> - 2025-02-02 <a href="https://medium.com/@zhouboyang1983/a-detailed-analysis-of-fine-tuning-direct-preference-optimization-dpo-and-reinforcement-c24d9061cd84">A Detailed Analysis of Fine-Tuning, Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (RLVR) on the LLama3.1 405B Model</a> - 2025-01-31 <a href="https://towardsdatascience.com/deepseek-v3-explained-1-multi-head-latent-attention-ed6bee2a67c4/">DeepSeek-V3 Explained 1: Multi-head Latent Attention</a> - 2025-01-19 <a href="https://apxml.com/posts/top-mistakes-when-learning-machine-learning">Top 5 Mistakes to Avoid When Learning Machine Learning</a> - 2024-10-02 <a href="https://apxml.com/posts/get-started-with-machine-learning-guide">How to Get Started with Machine Learning: A Beginner’s Step-by-Step Guide</a> - 2024-07-13 <a href="https://medium.com/@zaiinn440/mha-vs-mqa-vs-gqa-vs-mla-c6cf8285bbec">MHA vs MQA vs GQA vs MLA</a> - 2020-00-00 <a href="https://robbieallen.medium.com/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc">Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition</a></p>
+</section>
+<section id="online-books" class="level2" data-number="1.11">
+<h2 data-number="1.11" class="anchored" data-anchor-id="online-books"><span class="header-section-number">1.11</span> Online Books</h2>
+<p>(Sorted by Publication Date ↓)</p>
+<ul>
+<li>2026 <a href="https://ma-lab-berkeley.github.io/deep-representation-learning-book/">Principles and Practice of Deep Representation Learning</a></li>
+<li>2024 <a href="https://theoreticalecology.github.io/machinelearning/">Machine Learning and Deep Learning with R</a></li>
+<li>2024 <a href="https://srdas.github.io/NLPBook/intro.html">Natural Language Processing (NLP) Course</a></li>
+<li>2023 <a href="https://d2l.ai/">Dive into Deep Learning</a></li>
+<li>2023 <a href="https://book.premai.io/state-of-open-source-ai/">State of Open Source AI Book - 2023 Edition</a></li>
+<li>2023 <a href="https://udlbook.github.io/udlbook/">Understanding Deep Learning</a></li>
+<li>2019 <a href="http://neuralnetworksanddeeplearning.com/">Neural Networks and Deep Learning</a></li>
+<li>2018 <a href="https://srdas.github.io/DLBook/">Deep Learning</a></li>
+<li>2016 <a href="https://www.deeplearningbook.org/">Deep Learning</a></li>
+</ul>
+</section>
+<section id="youtube-videos-channels" class="level2" data-number="1.12">
+<h2 data-number="1.12" class="anchored" data-anchor-id="youtube-videos-channels"><span class="header-section-number">1.12</span> YouTube Videos &amp; Channels</h2>
+<p>(Sorted by Publication Date ↓)</p>
+<ul>
+<li>2026-10-11 <a href="https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR">Stanford CS146S: How always-on agents work</a></li>
+<li>2026-09-21 <a href="https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX">Why I couldn’t build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder &amp; CEO</a></li>
+<li>2026-05-13 <a href="https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn">The Coding Gopher: Uni-1 AI image generation model</a></li>
+<li>2026-03-26 <a href="https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-">The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao</a></li>
+<li>2025-04-28 <a href="https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M">Logically Answered: AMD’s $243 Billion AI Disaster…What Happened?</a></li>
+<li>2025-04022 <a href="https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP">Computerphile: What is Cuda?</a></li>
+<li>2025-03-05 <a href="https://www.youtube.com/watch?v=hFURlsMwU7c">ByteByteGo: What Is the Most Popular Open-Source AI Stack?</a></li>
+<li>2025-02-05 <a href="https://youtu.be/7xTGNNLPyMI?si=u2q8zaBubzTCPKC7">Andrej Karpathy: Deep Dive into LLMs like ChatGPT</a></li>
+<li>2025-02-02 <a href="https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8">Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459</a></li>
+<li>2025-01-29 <a href="https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg">Peter H. Diamandis: DeepSeek vs.&nbsp;Open AI - The State of AI w/ Emad Mostaque &amp; Salim Ismail | EP #146</a></li>
+<li>2024-11-11 <a href="https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H">Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI &amp; the Future of AI &amp; Humanity | Lex Fridman Podcast #452</a></li>
+<li>2024-09-09 <a href="https://youtu.be/00Q0G84kq3M?si=iJn3KAoFzOMM8a-L">IBM Technology: RAG vs.&nbsp;Fine Tuning</a></li>
+<li>2024-04-01 <a href="https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&amp;si=xFClf3TeCbAQkgok">3Blue1Brown: Neural networks Playlist</a></li>
+<li>2023-08-23 <a href="https://youtu.be/T-D1OfcDW1M?si=Uv-M2QcZL7WIJi40">IBM Technology: What is Retrieval-Augmented Generation (RAG)?</a></li>
+<li>2018-07-30 <a href="https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-">Lex Fridman: Deep Learning State of the Art (2020)</a></li>
+<li><a href="https://www.youtube.com/@statquest">Channel: StatQuest with Josh Starmer</a></li>
+</ul>
+</section>
+<section id="quotes" class="level2" data-number="1.13">
+<h2 data-number="1.13" class="anchored" data-anchor-id="quotes"><span class="header-section-number">1.13</span> Quotes</h2>
+<blockquote class="blockquote">
+<p>“Not all benchmarks lie, but all liars benchmark”</p>
+</blockquote>
+</section>
+<section id="glossory" class="level2" data-number="1.14">
+<h2 data-number="1.14" class="anchored" data-anchor-id="glossory"><span class="header-section-number">1.14</span> <a href="Glossory.md">Glossory</a></h2>
+</section>
+<section id="notes" class="level2" data-number="1.15">
+<h2 data-number="1.15" class="anchored" data-anchor-id="notes"><span class="header-section-number">1.15</span> <a href="Notes.md">Notes</a></h2>
+</section>
+<section id="history" class="level2" data-number="1.16">
+<h2 data-number="1.16" class="anchored" data-anchor-id="history"><span class="header-section-number">1.16</span> History</h2>
+<p><em>This is a work in progress –started 2025-02– to document <a href="https://github.com/DavidGeeraerts">my</a> exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc.</em></p>
+</section>
+<section id="build-the-quarto-book" class="level2" data-number="1.17">
+<h2 data-number="1.17" class="anchored" data-anchor-id="build-the-quarto-book"><span class="header-section-number">1.17</span> Build the Quarto book</h2>
+<p><a href="https://quarto.org/docs/get-started/">Install Quarto</a> and run these commands from the repository root:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><code>quarto preview</code> serves the book locally and refreshes it as source files change. <code>quarto render</code> builds the HTML book in <code>_book/</code>; open <code>_book/index.html</code> to read it.</p>
+</section>
+<section id="license" class="level2" data-number="1.18">
+<h2 data-number="1.18" class="anchored" data-anchor-id="license"><span class="header-section-number">1.18</span> License</h2>
+<p>Unless otherwise noted, original content in this repository by David Geeraerts is licensed under <a href="LICENSE">Creative Commons Attribution 4.0 International (CC BY 4.0)</a>. Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
