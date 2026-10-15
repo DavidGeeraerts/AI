@@ -27,13 +27,10 @@ book:
     - appendices/Glossary.qmd
     - appendices/Notes.qmd
 
+
 format:
   html:
     from: markdown+emoji
     theme: cosmo
     toc: true
     smooth-scroll: true
-
-website:
-# create llm friendly markdown 
-  llms-txt: true
