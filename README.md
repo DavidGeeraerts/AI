@@ -400,3 +400,5 @@ quarto render
 ## License
 Unless otherwise noted, original content in this repository by David Geeraerts is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
 
+## 📊 GitHub Stats
+![Alt](https://repobeats.axiom.co/api/embed/a45c742cf7979dcff3ac7e99445bc37a05abb2d0.svg "Repobeats analytics image")
