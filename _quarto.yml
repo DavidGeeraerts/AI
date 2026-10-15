@@ -23,8 +23,7 @@ book:
     - chapters/06-miscellaneous-tools.qmd
     - chapters/07-resources.qmd
     - chapters/08-keeping-the-map-alive.qmd
-
-appendices:
+  appendices:
     - appendices/Glossary.qmd
     - appendices/Notes.qmd
 
