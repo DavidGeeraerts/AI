@@ -1,5 +1,5 @@
 # :open_book: The Book of AI - Mapping the Artificial Intelligence landscape
-:toolbox: A practical toolkit
+:toolbox: The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.
 
 <!-- HOTPLATE:START -->
 ## :fire: Hotplate (Quarterly Release Cycle)
@@ -76,8 +76,7 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 
 --- 
 
-## [Glossory](Glossory.md)
-## [Notes](Notes.md)
+## [Chapter Structure](chatper-structure.md)
 
 --- 
 
@@ -376,6 +375,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## Quotes
 > "Not all benchmarks lie, but all liars benchmark"
 
+## [Glossory](Glossory.md)
+## [Notes](Notes.md)
 
 ## History
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._
