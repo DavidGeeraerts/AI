@@ -1,0 +1,25 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "The Book of AI"
+  subtitle: "Mapping the Artificial Intelligence Landscape"
+  author: "David Geeraerts"
+  chapters:
+    - index.qmd
+    - chapters/01-introduction.qmd
+    - chapters/02-models.qmd
+    - chapters/03-running-a-model.qmd
+    - chapters/04-agents-and-harnesses.qmd
+    - chapters/05-building-a-working-stack.qmd
+    - chapters/06-miscellaneous-tools.qmd
+    - chapters/07-glossary-and-reference.qmd
+    - chapters/08-keeping-the-map-alive.qmd
+
+format:
+  html:
+    from: markdown+emoji
+    theme: cosmo
+    toc: true
+    smooth-scroll: true

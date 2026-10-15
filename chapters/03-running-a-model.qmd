@@ -1,0 +1,31 @@
+# Running a Model
+
+This chapter covers local and hybrid inference: getting a model running,
+serving it, and making it available to agents.
+
+## Local-first inference
+
+- **Ollama** provides a CLI and local OpenAI-compatible API.
+- **llama.cpp** offers low-level control and GGUF support.
+- **LM Studio** provides a desktop interface and API.
+- **Jan** is an open-source desktop application.
+- **Open WebUI** provides a self-hosted web frontend.
+- **KoboldCpp** and **vLLM** support additional local and high-throughput
+  serving setups.
+
+Model management includes downloading and selecting models, quantization,
+Modelfiles, and custom system prompts. Hardware, memory requirements, and
+trade-offs vary by model and runner.
+
+## Cloud and hybrid options
+
+Hosted providers can complement local inference when a task needs a more
+capable model or additional capacity. Hybrid setups balance privacy, cost,
+latency, rate limits, and data-sovereignty requirements.
+
+## Making models usable by agents
+
+Check context length, tool-calling support, and structured-output capabilities
+when choosing an inference endpoint. The repository's
+[configuration templates](../configuration/) provide starting points for
+connecting models to tools.

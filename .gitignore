@@ -1,0 +1,5 @@
+# Quarto output and project cache
+/_book/
+/.quarto/
+
+**/*.quarto_ipynb

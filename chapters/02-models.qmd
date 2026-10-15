@@ -1,0 +1,36 @@
+# Models
+
+Choosing a model starts with understanding its capabilities, availability, and
+trade-offs.
+
+## Model categories
+
+- General-purpose and code-specialized large language models
+- Multimodal models
+- Image-generation models, including text-to-image and image-to-image systems
+- Decision or “System One” models, including calibrated-decision approaches
+
+## Model families and access
+
+The landscape includes models from Anthropic (Claude), OpenAI (GPT), Google
+DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse),
+xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and
+closed models differ in how they can be inspected, hosted, adapted, and
+accessed.
+
+## Evaluation and training data
+
+Benchmarks help compare models, but scores need context. Some benchmarks, such
+as MMLU and GSM8K, are nearing saturation; others, including SWE-bench
+variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals.
+Training data sources such as Common Crawl and FineWeb also shape model
+capabilities.
+
+## Abliteration
+
+Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can
+change how a model responds. Consider their impact on behavior and agent
+autonomy when selecting a model.
+
+See the [AI landscape overview](../README.md) for the current model lists and
+benchmark notes.

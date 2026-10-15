@@ -1,0 +1,13 @@
+# Welcome
+
+The Book of AI is a practical, evolving guide to artificial intelligence: the
+models, tools, and ideas shaping the field, with an emphasis on useful
+references and hands-on learning.
+
+This book brings together the repository's AI landscape overview, quarterly
+Hotplate snapshot, study notes, and glossary. The material is maintained as
+Markdown so it can be read on GitHub as well as rendered into a navigable book
+with [Quarto](https://quarto.org/).
+
+Use the navigation to explore the current landscape, browse the notes, or look
+up terminology in the glossary.

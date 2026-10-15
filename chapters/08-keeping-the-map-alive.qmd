@@ -1,0 +1,25 @@
+# Keeping the Map Alive
+
+AI tools and model capabilities change quickly. Treat this book as a living
+resource and revisit it as the landscape evolves.
+
+## Maintaining the quarterly Hotplate
+
+Review the landscape and update the Hotplate on its quarterly release cycle.
+Keep dated observations so readers can distinguish current signals from older
+snapshots.
+
+## Contributing and continuing
+
+Contribute useful observations and corrections, and follow the source material
+linked throughout the repository. Choose next steps that fit your role:
+
+- **Solo developers and indie builders:** assemble a small stack you can run
+  and control.
+- **Team leads:** introduce agentic workflows with clear boundaries and
+  operational visibility.
+- **Researchers and evaluators:** compare systems with appropriate benchmarks
+  and current evidence.
+
+The most valuable skill is learning to assemble and control a stack that
+serves your needs.

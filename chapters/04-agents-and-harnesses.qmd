@@ -1,0 +1,32 @@
+# Agents and Harnesses
+
+A harness is the runtime that gives a model a loop, tools, memory, and an
+environment in which to act. It determines how long an agent can run, what it
+can access, and how its work can be observed and controlled.
+
+## Modern harnesses
+
+- **Hermes Agent** provides persistent curated memory and autonomous skill
+  creation.
+- **OpenClaw** connects agents to messaging channels and supports skills and
+  sandboxes.
+- **OpenHands** focuses on autonomous coding and computer-use workflows.
+- **OpenCode** provides a terminal, IDE, and desktop coding experience.
+- **goose** offers an MCP-native desktop, CLI, and API.
+- **Agent Zero** provides an extensible agent environment with a Linux
+  computer.
+
+Compare harnesses by their philosophy, strengths, limitations, deployment
+style, and fit for the task.
+
+## Supporting infrastructure
+
+- **MCP (Model Context Protocol)** connects agents to tools and services.
+- Sandboxed execution environments such as Docker, Daytona, Modal, E2B, and
+  browser infrastructure help isolate agent actions.
+- Persistent memory and agent-written skills support longer-running work.
+- **SpyNEL** orchestrates existing coding harnesses.
+- **DOX / AGENTS.md** hierarchies give agents maintainable project context.
+
+See the repository's [landscape overview](../README.md) for current tools and
+comparisons.

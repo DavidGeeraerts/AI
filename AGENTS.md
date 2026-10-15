@@ -86,6 +86,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - `publications/` contains source research papers.
 - `tests/` contains prompt-based reasoning examples; no automated test runner is present.
 - `README.md` is the AI landscape overview; `Notes.md` and `Glossory.md` are study notes and reference material.
+- `_quarto.yml` configures the root Quarto book; its eight ordered chapter sources in `chapters/` follow `chatper-structure.md`, and render output goes to `_book/`.
 - `LICENSE` applies CC BY 4.0 to original repository content; third-party materials remain under their own terms.
 
 ## Child DOX Index

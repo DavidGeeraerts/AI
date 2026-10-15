@@ -1,14 +1,14 @@
 # [AI] Notes
 
 ## Deep Learning notes
-- [Chapter-1](/assets/images/DL_Ch-1.jpg)
-- [Chapter-2](/assets/images/DL_Ch-2.jpg)
-- [Chapter-3 & Chapter-4](/assets/images/DL_Ch-3_and_Ch-4.jpg)
-- [Chapter-5](/assets/images/DL_Ch-5.jpg)
-- [Chapter-5.1](/assets/images/DL_Ch-5.1.jpg)
-- [Chapter-6](/assets/images/DL_Ch-6.jpg)
-- [Tensor](/assets/images/DL_Tensor.jpg)
-- [RL-Strategies](/assets/images/DL_RL_Strategies.jpg)
+- [Chapter-1](assets/images/DL_Ch-1.jpg)
+- [Chapter-2](assets/images/DL_Ch-2.jpg)
+- [Chapter-3 & Chapter-4](assets/images/DL_Ch-3_and_Ch-4.jpg)
+- [Chapter-5](assets/images/DL_Ch-5.jpg)
+- [Chapter-5.1](assets/images/DL_Ch-5.1.jpg)
+- [Chapter-6](assets/images/DL_Ch-6.jpg)
+- [Tensor](assets/images/DL_Tensor.jpg)
+- [RL-Strategies](assets/images/DL_RL_Strategies.jpg)
 
 
 

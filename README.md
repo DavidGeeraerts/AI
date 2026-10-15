@@ -19,7 +19,7 @@ A practical toolkit
 - **[OpenClaw](https://github.com/openclaw)**  – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.
 - **[OpenCode](https://opencode.ai/)** - open source agent that helps you write code in your terminal, IDE, or desktop.
 - **[OpenHands](https://github.com/All-Hands-AI/OpenHands)**  – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.
-- **[ZCode](https://zcode.z.ai/en) - harness and agent for GLM
+- **[ZCode](https://zcode.z.ai/en)** - harness and agent for GLM
 
 | Aspect | Hermes Agent | Agent Zero |
 | :--- | :--- | :--- |
@@ -382,3 +382,14 @@ _This is a work in progress --started 2025-02-- to document [my](https://github.
 
 ## License
 Unless otherwise noted, original content in this repository by David Geeraerts is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
+
+## Build the Quarto book
+
+[Install Quarto](https://quarto.org/docs/get-started/) and run these commands from the repository root:
+
+```sh
+quarto preview
+quarto render
+```
+
+`quarto preview` serves the book locally and refreshes it as source files change. `quarto render` builds the HTML book in `_book/`; open `_book/index.html` to read it.

@@ -1,0 +1,25 @@
+# Glossary and Reference
+
+Use this chapter as a quick reference for concepts used throughout the book.
+The full [AI glossary](../Glossory.md) contains additional detail.
+
+## Core terms
+
+- **Abliteration** — modifying a model to reduce or remove refusal behavior.
+- **Agentic AI** — AI that plans and acts across multiple steps.
+- **Alignment** — shaping an AI system's behavior to meet intended values and
+  constraints.
+- **Attention** — a mechanism that lets a model weight relevant parts of its
+  input.
+- **Benchmark** — a standardized evaluation used to compare systems.
+- **BPE** — Byte Pair Encoding, a method used to tokenize text.
+- **MCP** — Model Context Protocol, a standard for connecting models to tools
+  and context.
+- **GRPO** — Group Relative Policy Optimization, a reinforcement-learning
+  method that compares sampled responses within a group.
+- **RLHF / RLVR / RLCD** — approaches using human feedback, verifiable rewards,
+  or calibrated decisions to shape model behavior.
+- **System One model** — a decision-focused model that returns structured
+  answers, often with calibrated probabilities.
+
+Use the full glossary for definitions of these and related terms.
