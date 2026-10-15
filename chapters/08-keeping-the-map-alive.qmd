@@ -27,7 +27,7 @@ serves your needs.
 
 ## Aggregation Projects
 - [ai-collection](https://github.com/ai-collection/ai-collection)
-- [ai-knowledge-library][(](https://ai-knowledge-library.vercel.app/))
+- [ai-knowledge-library](https://ai-knowledge-library.vercel.app/)
 - [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
 - [awesome-agent-harness](https://github.com/mahonzhan/awesome-agent-harness)
 - [Awesome Open Source AI](https://awesomeosai.com/)

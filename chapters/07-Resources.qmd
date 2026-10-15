@@ -1,25 +1,26 @@
 # Resources
 
 Use this chapter as a quick reference for concepts used throughout the book.
-The full [AI glossary](appendices/Glossary.qmd) contains additional detail.
+The full [glossary](../appendices/Glossary.qmd) contains additional details.
 
-## Core terms
+## AI [blog] Resources
+Prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
 
-- **Abliteration** — modifying a model to reduce or remove refusal behavior.
-- **Agentic AI** — AI that plans and acts across multiple steps.
-- **Alignment** — shaping an AI system's behavior to meet intended values and
-  constraints.
-- **Attention** — a mechanism that lets a model weight relevant parts of its
-  input.
-- **Benchmark** — a standardized evaluation used to compare systems.
-- **BPE** — Byte Pair Encoding, a method used to tokenize text.
-- **MCP** — Model Context Protocol, a standard for connecting models to tools
-  and context.
-- **GRPO** — Group Relative Policy Optimization, a reinforcement-learning
-  method that compares sampled responses within a group.
-- **RLHF / RLVR / RLCD** — approaches using human feedback, verifiable rewards,
-  or calibrated decisions to shape model behavior.
-- **System One model** — a decision-focused model that returns structured
-  answers, often with calibrated probabilities.
+(Order by Name ↑)
 
-Use the full glossary for definitions of these and related terms.
+- [AI News](https://news.smol.ai/)
+- [AI News Dashboard](https://news.kabyik.dev/)
+- [Ai2 – Allen Institute](https://allenai.org/blog)
+- [ApX Machine Learning](https://apxml.com/posts)
+- [Arsturn](https://www.arsturn.com/blog)
+- [Epoch AI](https://epoch.ai/)
+- [Hugging Face](https://huggingface.co/blog)
+- [Import AI](https://importai.substack.com/) (Jack Clark)
+- [Interconnects](https://www.interconnects.ai/) (Nathan Lambert)
+- [Latent Space](https://www.latent.space/)
+- [SemiAnalysis](https://www.semianalysis.com/)
+- [ShinChven's Blog](https://atlassc.net/)
+- [Simon Willison’s Weblog](https://simonwillison.net/)
+- [The Batch](https://www.deeplearning.ai/the-batch/) (Andrew Ng)
+- [The Gradient](https://thegradient.pub/)
+- [Turning Post](https://www.turingpost.com/)

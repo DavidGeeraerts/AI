@@ -1,4 +1,4 @@
-# :open_book: The Book of AI - Mapping the Artificial Intelligence landscape
+# :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
 :toolbox: The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.
 
 <!-- HOTPLATE:START -->
@@ -71,6 +71,10 @@ LLM Leaderboard.
 
 #### [Heretic](https://heretic-project.org/)
 Heretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.
+
+### [Capsem](https://docs.capsem.org/getting-started/intro/)
+is a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host.
+Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.
 
 <!-- HOTPLATE:END -->
 

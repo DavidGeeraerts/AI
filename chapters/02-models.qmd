@@ -32,5 +32,3 @@ Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can
 change how a model responds. Consider their impact on behavior and agent
 autonomy when selecting a model.
 
-See the [AI landscape overview](../README.md) for the current model lists and
-benchmark notes.

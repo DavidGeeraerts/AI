@@ -33,3 +33,7 @@ format:
     theme: cosmo
     toc: true
     smooth-scroll: true
+
+website:
+# create llm friendly markdown 
+  llms-txt: true

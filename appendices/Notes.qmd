@@ -15,7 +15,7 @@
 ## How to Train a Large Language Model
 1. **Data Collection**: Collect a large dataset of text.
 2. **Preprocessing**: Tokenize the text into subwords.
-3. **Model Architecture**: Choose a model architecture. [BPE](Glossory.md#bpe-byte-pair-encoding) algorithm for tokenization.
+3. **Model Architecture**: Choose a model architecture. [BPE](Glossary.qmd#bpe-byte-pair-encoding) algorithm for tokenization.
    1. Embedding
    2. Layer Norm
    3. Self attention
