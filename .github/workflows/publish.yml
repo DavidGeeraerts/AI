@@ -1,4 +1,4 @@
-name: Publish Quarto book
+name: Deploy repository root to GitHub Pages
 
 on:
   push:
@@ -20,14 +20,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render book
-        run: quarto render
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: .
+          destination: ./_site
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _book
+          path: _site
 
   deploy:
     needs: build
@@ -39,4 +39,4 @@ jobs:
       - id: deployment
         uses: actions/deploy-pages@v4
         with:
-          timeout: 900000
+          timeout: 600000

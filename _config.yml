@@ -1,0 +1,31 @@
+title: The Book of AI
+description: AI landscape overview and study notes
+author: David Geeraerts
+theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jemoji
+
+readme_index:
+  remove_originals: true
+
+relative_links:
+  enabled: true
+  collections: false
+
+exclude:
+  - AGENTS.md
+  - LICENSE
+  - .github
+  - .quarto
+  - _quarto.yml
+  - index.qmd
+  - chapters
+  - chatper-structure.md
+  - Gemfile
+  - vendor
