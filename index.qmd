@@ -3,10 +3,7 @@
 
 
 ## :fire: Hotplate (Quarterly Release Cycle)
-
-<!-- DISABLED 
-{{< include _hotplate-latest.qmd >}}
--->
+[Read the latest Hotplate](../hotplate/2026-Q4-hotplate.qmd) for a snapshot of the current landscape.
 
 ## Index
 
