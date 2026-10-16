@@ -1,0 +1,62 @@
+# Running a Model
+
+This chapter covers local and hybrid inference: getting a model running, serving it, and making it available to agents.
+
+## Local-first inference
+
+**RamaLama vs Ollama — key differences**
+
+Both tools let you run large language models locally, but they take different approaches.
+
+### Quick summary
+
+| Aspect | **Ollama** | **RamaLama** |
+|----|----|----|
+| **Core idea** | Simple local model runner + library | Container-native way to run models |
+| **Default execution** | Runs models directly on the host | Runs models **inside containers** (Podman/Docker) by default |
+| **Who makes it** | Ollama Inc. | containers org (Podman / Red Hat ecosystem) |
+| **Model sources** | Primarily its own library (+ limited HF) | Hugging Face, Ollama registry, ModelScope, any OCI registry, URLs, local files |
+| **Runtimes** | Built around llama.cpp | llama.cpp (default) **and** vLLM |
+| **Hardware handling** | You (or the installer) handle GPU libraries | Auto-detects GPU and pulls a matching optimized container image |
+| **Security / isolation** | Host process | Rootless containers, read-only mounts, network isolation by default |
+| **Commands feel like** | `ollama run`, `ollama pull`, etc. | Familiar container-style: `ramalama run`, `pull`, `serve`, `push` |
+| **Best for** | Easiest “just chat with a local model” experience | People who already use containers and want the same workflow + stronger isolation |
+
+### Main philosophical difference
+
+- **Ollama** optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.
+- **RamaLama** optimizes for *making AI work like containers*. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.
+
+### Practical implications
+
+- **Isolation & security**: RamaLama wins by default (models stay inside rootless containers).
+- **GPU setup**: RamaLama is often easier on Linux (especially Fedora/RHEL-style systems) because the container already contains the right CUDA/ROCm/etc. libraries.
+- **Model choice**: RamaLama is more flexible about where models come from (especially Hugging Face and OCI registries).
+- **Ecosystem fit**:
+  - Ollama → very widely supported by agents (goose, OpenCode, Hermes, etc.).\
+  - RamaLama → also usable (many tools treat it as an OpenAI-compatible endpoint or have explicit support), and it can even pull from the Ollama registry.
+
+### When to choose which
+
+- Choose **Ollama** if you want the simplest, most popular local model runner and don’t care about container isolation.
+- Choose **RamaLama** if you already live in a container world (Podman/Docker), want better isolation by default, or need to pull models from Hugging Face / OCI registries more cleanly.
+
+*Both expose OpenAI-compatible APIs, so most agents and tools can talk to either of them.*
+
+### Other local inference options
+
+- **llama.cpp** offers low-level control and GGUF support.
+- **LM Studio** provides a desktop interface and API.
+- **Jan** is an open-source desktop application.
+- **Open WebUI** provides a self-hosted web frontend.
+- **KoboldCpp** and **vLLM** support additional local and high-throughput serving setups.
+
+Model management includes downloading and selecting models, quantization, Modelfiles, and custom system prompts. Hardware, memory requirements, and trade-offs vary by model and runner.
+
+## Cloud and hybrid options
+
+Hosted providers can complement local inference when a task needs a more capable model or additional capacity. Hybrid setups balance privacy, cost, latency, rate limits, and data-sovereignty requirements.
+
+## Making models usable by agents
+
+Back to top

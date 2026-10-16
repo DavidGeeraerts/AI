@@ -1,36 +1,76 @@
 project:
-  type: book
-  output-dir: _book
-
-book:
+  type: website
   title: "The Book of AI -- A practical guide to understanding agents and building a practical toolkit you control."
-  subtitle: "Mapping the Artificial Intelligence Landscape"
-  author: "David Geeraerts"
-  date: today
-  date-format: long
-  page-navigation: true
-  page-footer:
-    right: 
-      - icon: github
-        href: https://github.com/davidgeeraerts/AI
-  chapters:
-    - index.qmd
-    - chapters/01-introduction.qmd
-    - chapters/02-models.qmd
-    - chapters/03-running-a-model.qmd
-    - chapters/04-agents-and-harnesses.qmd
-    - chapters/05-building-a-working-stack.qmd
-    - chapters/06-miscellaneous-tools.qmd
-    - chapters/07-resources.qmd
-    - chapters/08-keeping-the-map-alive.qmd
-  appendices:
-    - appendices/Glossary.qmd
-    - appendices/Notes.qmd
-
+  output-dir: docs
+  pre-render: quarto run scripts/latest-hotplate.ts
+  render:
+    - "*.qmd"
+  resources:
+    - "Chapters/*.qmd"
+    - "Appendices/*.qmd"
+  preview:
+    browser: false
 
 format:
   html:
-    from: markdown+emoji
-    theme: cosmo
+#    respect-user-color-scheme: true
+    theme: 
+      light: flatly
+      dark: darkly
+    font-size: medium
     toc: true
     smooth-scroll: true
+
+website:
+  description: "Mapping the Artificial Intelligence Landscape"
+  # create llm friendly markdown
+  llms-txt: true
+# Puts it below the TOC. Using "Tools" instead for GitHub links.
+# repo-url: https://github.com/DavidGeeraerts/AI
+# repo-actions: [source, issue]
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**INFORMATIONAL NOTICE:** This site is under active development!"
+    type: primary
+    position: below-navbar
+  back-to-top-navigation: true
+  page-footer: "Mapping the Artificial Intelligence Landscape"
+  reader-mode: true
+  page-navigation: true
+  navbar:
+    left:
+      - text: "Home"
+        href: "index.qmd"
+      - text: "Chapters" 
+        menu:
+          - text: "01 - Introduction"
+            href: "chapters/01-introduction.qmd"
+          - text: "02 - Models"
+            href: "chapters/02-models.qmd"
+          - text: "03 - Running a Model"
+            href: "chapters/03-running-a-model.qmd"
+          - text: "04 - Agents and Harnesses"
+            href: "chapters/04-agents-and-harnesses.qmd"
+          - text: "05 - Building a Working Stack"
+            href: "chapters/05-building-a-working-stack.qmd"
+          - text: "06 - Miscellaneous Tools"
+            href: "chapters/06-miscellaneous-tools.qmd"
+          - text: "07 - Resources"
+            href: "chapters/07-Resources.qmd"
+          - text: "08 - Keeping the Map Alive"
+            href: "chapters/08-keeping-the-map-alive.qmd"
+      - text: "Appendices"
+        menu:
+          - text: "Appendix A - Glossary"
+            href: "appendices/Glossary.qmd"
+          - text: "Appendix B - LLM Notes"
+            href: "appendices/Notes.qmd"
+
+
+
+
+execute:
+  freeze: auto
+  cache: false
+

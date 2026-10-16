@@ -1,0 +1,18 @@
+# The Book of AI – A practical guide to understanding agents and building a practical toolkit you control.
+
+> Mapping the Artificial Intelligence Landscape
+
+## Pages
+
+- [index](index.llms.md)
+- [08-keeping-the-map-alive](chapters/08-keeping-the-map-alive.llms.md)
+- [06-miscellaneous-tools](chapters/06-miscellaneous-tools.llms.md)
+- [04-agents-and-harnesses](chapters/04-agents-and-harnesses.llms.md)
+- [02-models](chapters/02-models.llms.md)
+- [Notes](appendices/Notes.llms.md)
+- [Glossary](appendices/Glossary.llms.md)
+- [01-introduction](chapters/01-introduction.llms.md)
+- [03-running-a-model](chapters/03-running-a-model.llms.md)
+- [05-building-a-working-stack](chapters/05-building-a-working-stack.llms.md)
+- [07-Resources](chapters/07-Resources.llms.md)
+- [2026-Q4-hotplate](hotplate/2026-Q4-hotplate.llms.md)

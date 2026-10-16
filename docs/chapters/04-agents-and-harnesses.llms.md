@@ -1,0 +1,33 @@
+# Agents and Harnesses
+
+A harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.
+
+## Modern harnesses
+
+| Name | Type | Primary Focus | Notes / Key Traits | Stars (approx, Oct 2026) |
+|----|----|----|----|----|
+| **goose** | Both | General-purpose local agent | Own harness + agent; MCP-native; desktop + CLI; AAIF | ~55k |
+| **Hermes Agent** | Both | Always-on personal agent | Own runtime; persistent memory + skill creation; messaging gateways | ~250k+ |
+| **Agent Zero** | Both | Full computer-use agent | Own Docker Linux desktop + agent; high transparency | ~19.5k |
+| **OpenClaw** | Both | Personal assistant (chat apps) | Own gateway/runtime; messaging-first | Very high (~390k+) |
+| **OpenHands** | Both | Coding / software engineering | Own multi-agent runtime; web UI + desktop | ~89k |
+| **OpenCode** | Both | Terminal coding agent | Own agent loop; model-agnostic | High |
+| **Codex** (OpenAI) | Both | Coding agent suite | Cloud + CLI + IDE; proprietary harness | N/A (product) |
+| **Claude Code** | Both | Coding agent | Anthropic harness + agent; subscription-based | N/A (product) |
+| **Cline** | Both | IDE coding agent | VS Code / JetBrains extension with own loop | — |
+| **Aider** | Both | Terminal coding agent | Own agent loop; git-aware | — |
+| **Eigent** | Both | Multi-agent desktop | Parallel agents on one task | ~15.5k |
+
+Compare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.
+
+## Supporting infrastructure
+
+- **MCP (Model Context Protocol)** connects agents to tools and services.
+- Sandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.
+- Persistent memory and agent-written skills support longer-running work.
+- **SpyNEL** orchestrates existing coding harnesses.
+- **DOX / AGENTS.md** hierarchies give agents maintainable project context.
+
+## [agents.md](https://agents.md/)
+
+Back to top

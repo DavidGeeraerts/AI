@@ -1,4 +1,12 @@
-# Index
+# :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
+:toolbox: The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.
+
+
+## :fire: Hotplate (Quarterly Release Cycle)
+
+{{< include _hotplate-latest.qmd >}}
+
+## Index
 
 [Chapter-01-Introduction](chapters/01-introduction.qmd) provides an overview of the book's purpose and structure.
 
