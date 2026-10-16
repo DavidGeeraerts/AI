@@ -4,7 +4,7 @@
 
 ## 🔥 Hotplate (Quarterly Release Cycle)
 
-[Read the latest Hotplate](../hotplate/2026-Q4-hotplate.qmd) for a snapshot of the current landscape.
+[Read the latest Hotplate](hotplate/2026-Q4-hotplate.llms.md) for a snapshot of the current landscape.
 
 ## Index
 
