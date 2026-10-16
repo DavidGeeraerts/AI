@@ -4,7 +4,9 @@
 
 ## :fire: Hotplate (Quarterly Release Cycle)
 
+<!-- DISABLED 
 {{< include _hotplate-latest.qmd >}}
+-->
 
 ## Index
 
