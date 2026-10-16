@@ -68,7 +68,11 @@ website:
           - text: "Appendix B - LLM Notes"
             href: "appendices/Notes.qmd"
 
-
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/DavidGeeraerts/AI
 
 
 execute:
