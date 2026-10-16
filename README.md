@@ -385,16 +385,6 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## History
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._
 
-## Build the Quarto book
-
-[Install Quarto](https://quarto.org/docs/get-started/) and run these commands from the repository root:
-
-```sh
-quarto preview
-quarto render
-```
-
-`quarto preview` serves the book locally and refreshes it as source files change. `quarto render` builds the HTML book in `_book/`; open `_book/index.html` to read it.
 
 
 ## License
