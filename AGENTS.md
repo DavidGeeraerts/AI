@@ -81,6 +81,7 @@ When the user requests a durable behavior change, record it here or in the relev
 ## Repository Map
 
 - `assets/images/` contains visual references used by the notes.
+- `.agents/skills/` contains reusable agent skills; each skill's `SKILL.md` defines its scope and guidance.
 - `configuration/` contains Ollama model configuration templates.
 - `hotplate/` contains quarterly AI landscape snapshots.
 - `publications/` contains source research papers.
@@ -94,4 +95,4 @@ When the user requests a durable behavior change, record it here or in the relev
 ## Child DOX Index
 
 - `configuration/AGENTS.md` — local guidance for the Ollama model configuration template.
-- No additional child AGENTS.md files are needed: the other directories are straightforward collections of reference materials without separate local workflows or contracts.
+- No other child AGENTS.md files are needed; `.agents/skills/` defines agent-specific guidance in `SKILL.md` files, while the remaining directories are straightforward collections of reference materials.
