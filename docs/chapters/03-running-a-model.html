@@ -321,7 +321,17 @@ ul.task-list li input[type="checkbox"] {
   </li>
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/DavidGeeraerts/AI">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -356,6 +366,17 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#cloud-and-hybrid-options" id="toc-cloud-and-hybrid-options" class="nav-link" data-scroll-target="#cloud-and-hybrid-options">Cloud and hybrid options</a></li>
   <li><a href="#making-models-usable-by-agents" id="toc-making-models-usable-by-agents" class="nav-link" data-scroll-target="#making-models-usable-by-agents">Making models usable by agents</a></li>
+  <li><a href="#security-and-operational-considerations" id="toc-security-and-operational-considerations" class="nav-link" data-scroll-target="#security-and-operational-considerations">Security and operational considerations</a>
+  <ul class="collapse">
+  <li><a href="#security-resources-for-local-models" id="toc-security-resources-for-local-models" class="nav-link" data-scroll-target="#security-resources-for-local-models">Security Resources for local models</a></li>
+  <li><a href="#local-model-vulnerabilities" id="toc-local-model-vulnerabilities" class="nav-link" data-scroll-target="#local-model-vulnerabilities">Local Model Vulnerabilities</a></li>
+  </ul></li>
+  <li><a href="#security-summary-what-can-the-model-reach" id="toc-security-summary-what-can-the-model-reach" class="nav-link" data-scroll-target="#security-summary-what-can-the-model-reach"><strong>Security Summary: What Can the Model Reach?</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-practical-risk-ladder" id="toc-the-practical-risk-ladder" class="nav-link" data-scroll-target="#the-practical-risk-ladder">The practical risk ladder</a></li>
+  <li><a href="#key-attack-surfaces-that-expand-reach" id="toc-key-attack-surfaces-that-expand-reach" class="nav-link" data-scroll-target="#key-attack-surfaces-that-expand-reach">Key attack surfaces that expand “reach”</a></li>
+  <li><a href="#practical-containment-principles" id="toc-practical-containment-principles" class="nav-link" data-scroll-target="#practical-containment-principles">Practical containment principles</a></li>
+  </ul></li>
   </ul></li>
   </ul>
 </nav>
@@ -485,8 +506,149 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="making-models-usable-by-agents" class="level2">
 <h2 class="anchored" data-anchor-id="making-models-usable-by-agents">Making models usable by agents</h2>
+</section>
+<section id="security-and-operational-considerations" class="level2">
+<h2 class="anchored" data-anchor-id="security-and-operational-considerations">Security and operational considerations</h2>
+<section id="security-resources-for-local-models" class="level3">
+<h3 class="anchored" data-anchor-id="security-resources-for-local-models">Security Resources for local models</h3>
+<ul>
+<li>2026-10-21 <a href="https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr">Kai: Your Local AI Is Not as Private as You Think</a></li>
+<li>2026-10-19 <a href="https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72">Cloud Codes: Your Local AI Model Isn’t as Safe as You Think</a></li>
+</ul>
+</section>
+<section id="local-model-vulnerabilities" class="level3">
+<h3 class="anchored" data-anchor-id="local-model-vulnerabilities">Local Model Vulnerabilities</h3>
+<p>Here is an overview of the main known classes of LLM exploits and attack surfaces (as of late 2026). This focuses on categories that appear repeatedly in research, real incidents, and frameworks such as the <strong>OWASP Top 10 for LLM Applications (2026 edition)</strong>. It deliberately stays at the conceptual level.</p>
+<section id="prompt-injection-still-1" class="level4">
+<h4 class="anchored" data-anchor-id="prompt-injection-still-1">1. Prompt Injection (still #1)</h4>
+<ul>
+<li><strong>Direct</strong>: Attacker writes instructions that override the system prompt or safety rules.</li>
+<li><strong>Indirect / context injection</strong>: Malicious instructions are planted in external content the model later processes (emails, documents, web pages, RAG results, tool outputs, memory, etc.). Real-world examples include zero-click data exfiltration (e.g., EchoLeak against Microsoft 365 Copilot) and tool/agent hijacking.</li>
+<li>Variants include jailbreaks (role-play, encoding, multi-turn persuasion) aimed at bypassing safety training.</li>
+</ul>
+</section>
+<section id="sensitive-information-disclosure-data-leakage" class="level4">
+<h4 class="anchored" data-anchor-id="sensitive-information-disclosure-data-leakage">2. Sensitive Information Disclosure / Data Leakage</h4>
+<p>Models or applications can leak training data, system prompts, user conversation history, credentials, or proprietary information through responses, logs, embeddings, or tool calls. Techniques include membership inference, training-data extraction, and system-prompt extraction.</p>
+</section>
+<section id="excessive-agency-tool-agent-abuse" class="level4">
+<h4 class="anchored" data-anchor-id="excessive-agency-tool-agent-abuse">3. Excessive Agency / Tool &amp; Agent Abuse</h4>
+<p>When an LLM can call tools, browse, write code, send messages, or control systems, injected instructions can make it perform unauthorized actions (file access, API calls, privilege escalation, lateral movement). This risk rose sharply in rankings with the spread of agentic systems.</p>
+</section>
+<section id="supply-chain-attacks" class="level4">
+<h4 class="anchored" data-anchor-id="supply-chain-attacks">4. Supply-Chain Attacks</h4>
+<ul>
+<li>Malicious models or weights (including the pickle / “broken pickle” / Sleepy Pickle family we discussed earlier).</li>
+<li>Poisoned packages, MCP servers, plugins, or fine-tuning artifacts.</li>
+<li>Compromised model hubs or distribution channels.</li>
+</ul>
+</section>
+<section id="data-model-poisoning-backdoors" class="level4">
+<h4 class="anchored" data-anchor-id="data-model-poisoning-backdoors">5. Data &amp; Model Poisoning / Backdoors</h4>
+<p>Attackers influence training, fine-tuning, or retrieval data so the model behaves normally most of the time but activates harmful behavior under a trigger (sleeper agents, backdoored code generation, biased outputs, etc.).</p>
+</section>
+<section id="unbounded-consumption-resource-abuse" class="level4">
+<h4 class="anchored" data-anchor-id="unbounded-consumption-resource-abuse">6. Unbounded Consumption / Resource Abuse</h4>
+<p>Attacks that force excessive token generation, repeated inference, or expensive tool use, driving up cost or causing denial-of-service. Also includes model-extraction / distillation attacks that steal capability by querying the target model.</p>
+</section>
+<section id="misinformation-hallucination-abuse" class="level4">
+<h4 class="anchored" data-anchor-id="misinformation-hallucination-abuse">7. Misinformation / Hallucination Abuse</h4>
+<p>Models can be steered (or simply fail) into producing confident but false or harmful content that users or downstream systems act upon.</p>
+</section>
+<section id="hidden-context-system-prompt-exposure" class="level4">
+<h4 class="anchored" data-anchor-id="hidden-context-system-prompt-exposure">8. Hidden Context / System-Prompt Exposure</h4>
+<p>Secrets, authorization logic, or internal instructions placed in the system prompt or retrieved context can be extracted or abused.</p>
+</section>
+<section id="vector-embedding-rag-weaknesses" class="level4">
+<h4 class="anchored" data-anchor-id="vector-embedding-rag-weaknesses">9. Vector / Embedding / RAG Weaknesses</h4>
+<p>Poisoning of vector stores, cross-tenant leakage in embeddings, or adversarial retrieval that surfaces malicious documents.</p>
+</section>
+<section id="improper-output-handling" class="level4">
+<h4 class="anchored" data-anchor-id="improper-output-handling">10. Improper Output Handling</h4>
+<p>Model output is treated as trusted and fed into browsers, shells, databases, or other interpreters without sanitization, enabling classic injection or XSS-style follow-on attacks.</p>
+</section>
+<section id="additional-established-categories-outside-the-strict-top-10" class="level4">
+<h4 class="anchored" data-anchor-id="additional-established-categories-outside-the-strict-top-10">Additional established categories outside the strict Top 10</h4>
+<ul>
+<li><strong>Adversarial examples / input perturbations</strong> — small, often imperceptible changes that flip model behavior.</li>
+<li><strong>Model inversion &amp; privacy attacks</strong> — reconstructing training examples or attributes.</li>
+<li><strong>Multimodal attacks</strong> — injecting payloads via images, audio, or other modalities that the model processes.</li>
+<li><strong>Agent-specific chains</strong> — memory poisoning, persistent tool hijacking, self-propagating behavior across sessions or systems.</li>
+<li><strong>Infrastructure / serving vulnerabilities</strong> — flaws in inference servers, gateways (e.g., LiteLLM-style issues), or serialization formats beyond pickle.</li>
+</ul>
+</section>
+<section id="practical-note" class="level4">
+<h4 class="anchored" data-anchor-id="practical-note">Practical note</h4>
+<p>Most real-world incidents combine several of the above (e.g., indirect prompt injection → excessive agency → data exfiltration). Open-weight models have repeatedly shown higher susceptibility to certain cyber-relevant payload chains than the strongest closed models, though both remain targets.</p>
+<p>The landscape evolves quickly; the dominant practical risks in production systems right now center on <strong>prompt/context injection</strong>, <strong>agent tool abuse</strong>, and <strong>supply-chain model/package poisoning</strong>. Defenses typically involve layered controls: input/output filtering, least-privilege tooling, provenance checks, retrieval isolation, and continuous red-teaming rather than relying on any single technique.</p>
+</section>
+</section>
+</section>
+<section id="security-summary-what-can-the-model-reach" class="level2">
+<h2 class="anchored" data-anchor-id="security-summary-what-can-the-model-reach"><strong>Security Summary: What Can the Model Reach?</strong></h2>
+<p>Running models locally protects your prompts from third-party providers, but it does <strong>not</strong> automatically make the setup safe. The decisive security question is not “Is the model local?” — it is <strong>“What can the model (or the software around it) reach?”</strong></p>
+<section id="the-practical-risk-ladder" class="level3">
+<h3 class="anchored" data-anchor-id="the-practical-risk-ladder">The practical risk ladder</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 24%">
+<col style="width: 50%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Reach level</th>
+<th>What the model can touch</th>
+<th>Risk profile</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Chat only</strong></td>
+<td>Conversation text</td>
+<td>Low — limited to generating text</td>
+</tr>
+<tr class="even">
+<td><strong>Files / project context</strong></td>
+<td>Local documents, code, <code>.env</code> files</td>
+<td>Medium — can exfiltrate or rewrite secrets if it has write access</td>
+</tr>
+<tr class="odd">
+<td><strong>Tools / shell / network</strong></td>
+<td>Terminal commands, HTTP requests, file system, APIs</td>
+<td>High — can execute code, send data out, or fetch remote payloads</td>
+</tr>
+<tr class="even">
+<td><strong>Agent + persistent access</strong></td>
+<td>Multiple tools + memory + long-running privileges</td>
+<td>Critical — full blast radius of the host</td>
+</tr>
+</tbody>
+</table>
+<p>A backdoored or triggerable model (or a poisoned chat template) is only as dangerous as the permissions and tools you give it. In the ProjectDiscovery demonstration highlighted in the video, a fine-tuned model behaved normally on clean tests until a short trigger phrase caused it to instruct an agent to send the project’s <code>.env</code> file to an external server. The model itself did not contain the final payload; it simply knew to fetch and run one.</p>
+</section>
+<section id="key-attack-surfaces-that-expand-reach" class="level3">
+<h3 class="anchored" data-anchor-id="key-attack-surfaces-that-expand-reach">Key attack surfaces that expand “reach”</h3>
+<ul>
+<li><strong>Model file + chat template</strong> — Weights are data, but GGUF templates (Jinja) and metadata can embed hidden instructions or, in rare cases, enable code execution if the runner is unsandboxed.</li>
+<li><strong>Runner / inference server</strong> — Bugs or misconfigurations in Ollama, LM Studio, llama.cpp, etc., can leak memory, environment variables, or allow unauthorized control.</li>
+<li><strong>Network binding</strong> — Binding to <code>0.0.0.0</code> (or leaving the port unauthenticated) turns a local server into a public one. Exposed, unauthenticated instances are routinely scanned and abused.</li>
+<li><strong>Tool / agent permissions</strong> — Shell access, file write, or unrestricted network is the difference between a chat bot and a remote-code-execution surface.</li>
+</ul>
+</section>
+<section id="practical-containment-principles" class="level3">
+<h3 class="anchored" data-anchor-id="practical-containment-principles">Practical containment principles</h3>
+<ol type="1">
+<li><strong>Minimize reach by default</strong> — Prefer pure chat. Grant tools only when necessary and under least privilege.</li>
+<li><strong>Keep the server on loopback</strong> (<code>127.0.0.1</code>). For remote access use an authenticated tunnel (e.g., Tailscale) or a reverse proxy with authentication — never expose the raw inference port.</li>
+<li><strong>Keep the runner updated</strong> and enable any available authentication features.</li>
+<li><strong>Treat model files as untrusted input</strong> — Prefer reputable sources, verify provenance where possible, and consider scanning templates.</li>
+<li><strong>Separate secrets from the model’s working environment</strong> — Do not give the process access to credentials it does not need.</li>
+</ol>
+<p><strong>Bottom line:</strong> Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.</p>
 
 
+</section>
 </section>
 </section>
 

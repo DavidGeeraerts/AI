@@ -30,4 +30,16 @@ Compare harnesses by their philosophy, strengths, limitations, deployment style,
 
 ## [agents.md](https://agents.md/)
 
+#### Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
+
+[Evaluating AGENTS.md: Are Repository-Level Context Files Helpful…](https://arxiv.org/abs/2602.11988)
+
+| Condition | Effect on success rate | Effect on cost / steps |
+|----|----|----|
+| LLM-generated context files | Slightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs) | +20–23% inference cost; +2.5–4 extra steps per task |
+| Human-written context files | Modest average gain (~ +4% on the developer-file benchmark) | Still + up to ~19% cost / more steps |
+| Overall | “Does not generally improve task success rates” | Clear, consistent cost increase |
+
+Practical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.
+
 Back to top

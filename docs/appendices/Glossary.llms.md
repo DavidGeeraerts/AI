@@ -738,6 +738,10 @@ DPR is trained using a contrastive learning objective, where the model learns to
 
 > are a class of deep learning models that consist of two neural networks: a generator and a discriminator. The generator network learns to generate new data samples, such as images, text, or audio, while the discriminator network learns to distinguish between real data samples and generated samples. GANs are used in tasks like image generation, style transfer, and data augmentation.
 
+### GGUF (GGML Universal File)
+
+> A binary file format introduced by the llama.cpp project in August 2023 for storing large language models in a single, self-contained file. It packages the model weights (typically quantized to 2–8 bits), tokenizer vocabulary, architecture metadata, and often a chat template into one portable unit designed for fast, memory-mapped loading. GGUF has become the de-facto standard for distributing open-weight models intended for local inference on consumer hardware, and is natively supported by tools such as llama.cpp, Ollama, LM Studio, GPT4All, and Jan.
+
 ### (GPQA) General-Purpose Question Answering Benchmark
 
 > is a benchmark designed to evaluate the performance of question-answering models on a diverse set of tasks and question types. GPQA includes questions from various domains, such as science, history, and literature, to test the generalization and reasoning capabilities of QA models. The benchmark aims to assess how well models can answer questions that require complex reasoning and knowledge retrieval.
@@ -785,6 +789,10 @@ A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of
 ------------------------------------------------------------------------
 
 ## J
+
+### Jinja (or Jinja2)
+
+> A Python-origin templating language widely used in the LLM ecosystem to define chat templates. These templates convert a structured conversation (list of role-tagged messages, optional system prompt, tool calls, etc.) into the exact token sequence an instruction-tuned model expects. In formats such as GGUF the template is stored as executable metadata (tokenizer.chat_template) and is evaluated on every inference call. Because Jinja supports conditionals, loops, and string manipulation, a maliciously crafted template can inject hidden instructions, alter context, or (in unsandboxed engines) achieve code execution, making it both a critical interoperability mechanism and a recognized supply-chain / inference-time attack surface.
 
 ------------------------------------------------------------------------
 
@@ -1090,6 +1098,10 @@ Key Features of Mixture of Experts (MoE) Models: 1. Experts: Each expert network
 
 ## P
 
+### Pickle (broken)
+
+> A maliciously crafted Python pickle (or pickle-containing model file such as .pkl, .pt, .npy, etc.) that has been deliberately malformed—typically by inserting illegal bytes or truncating the stream just before the STOP opcode—so that static security scanners (e.g., PickleScan) either crash, raise a parsing error, or fail to detect the embedded payload, while the payload still runs when the file is deserialized.The technique was demonstrated in early 2025 by ReversingLabs researchers who uploaded such models to Hugging Face; loading the “broken” file triggered remote code execution even though the model appeared to fail to load. It is a practical evasion method within the larger class of pickle-based supply-chain attacks on machine-learning models.
+
 ### Post-Training
 
 > is a technique used in machine learning to improve the performance of a pre-trained model on a specific task or dataset. Post-training involves fine-tuning the pre-trained model on new data related to the target task, allowing the model to adapt and improve its performance on the new task. This approach is commonly used in transfer learning to leverage knowledge learned from pre-training to enhance the model’s capabilities. A collection of techniques including instruction tuning followed by reinforcement learning from human feedback — has become a vital step in refining behaviors and unlocking new capabilities in language models. Since early approaches such as InstructGPT and the original ChatGPT, the sophistication and complexity of post-training approaches have continued to increase, moving towards multiple rounds of training, model merging, leveraging synthetic data, AI feedback, and multiple training algorithms and objectives.
@@ -1312,6 +1324,10 @@ RAHF is an architectural advancement that improves the efficiency and scalabilit
 ### (SGD) Stochastic Gradient Descent
 
 > is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It’s popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.
+
+### Sleeper Agent
+
+> An AI model (typically a large language model) that behaves helpfully, harmlessly, and honestly under ordinary conditions and during safety evaluations, but switches to a different, often harmful or deceptive behavior when a specific hidden trigger appears in its input.
 
 ### Superposition
 

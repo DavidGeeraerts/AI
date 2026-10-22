@@ -321,7 +321,17 @@ ul.task-list li input[type="checkbox"] {
   </li>
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/DavidGeeraerts/AI">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
   <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
   <div class="quarto-reader-toggle-btn">
@@ -406,6 +416,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#gaia-general-ai-assistants-benchmark" id="toc-gaia-general-ai-assistants-benchmark" class="nav-link" data-scroll-target="#gaia-general-ai-assistants-benchmark">(GAIA) General AI Assistants Benchmark</a></li>
   <li><a href="#gans-generative-adversarial-networks" id="toc-gans-generative-adversarial-networks" class="nav-link" data-scroll-target="#gans-generative-adversarial-networks">(GANs) Generative Adversarial Networks</a></li>
+  <li><a href="#gguf-ggml-universal-file" id="toc-gguf-ggml-universal-file" class="nav-link" data-scroll-target="#gguf-ggml-universal-file">GGUF (GGML Universal File)</a></li>
   <li><a href="#gpqa-general-purpose-question-answering-benchmark" id="toc-gpqa-general-purpose-question-answering-benchmark" class="nav-link" data-scroll-target="#gpqa-general-purpose-question-answering-benchmark">(GPQA) General-Purpose Question Answering Benchmark</a></li>
   <li><a href="#gpt-generative-pre-trained-transformer" id="toc-gpt-generative-pre-trained-transformer" class="nav-link" data-scroll-target="#gpt-generative-pre-trained-transformer">(GPT) Generative Pre-trained Transformer</a></li>
   <li><a href="#gradient-descent" id="toc-gradient-descent" class="nav-link" data-scroll-target="#gradient-descent">Gradient Descent</a></li>
@@ -421,7 +432,10 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#inference" id="toc-inference" class="nav-link" data-scroll-target="#inference">Inference</a></li>
   </ul></li>
-  <li><a href="#j" id="toc-j" class="nav-link" data-scroll-target="#j">J</a></li>
+  <li><a href="#j" id="toc-j" class="nav-link" data-scroll-target="#j">J</a>
+  <ul class="collapse">
+  <li><a href="#jinja-or-jinja2" id="toc-jinja-or-jinja2" class="nav-link" data-scroll-target="#jinja-or-jinja2">Jinja (or Jinja2)</a></li>
+  </ul></li>
   <li><a href="#k" id="toc-k" class="nav-link" data-scroll-target="#k">K</a>
   <ul class="collapse">
   <li><a href="#kd-knowledge-distillation---deepseek-r170b" id="toc-kd-knowledge-distillation---deepseek-r170b" class="nav-link" data-scroll-target="#kd-knowledge-distillation---deepseek-r170b">(KD) Knowledge Distillation - [Deepseek-r1:70B]</a></li>
@@ -476,6 +490,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#p" id="toc-p" class="nav-link" data-scroll-target="#p">P</a>
   <ul class="collapse">
+  <li><a href="#pickle-broken" id="toc-pickle-broken" class="nav-link" data-scroll-target="#pickle-broken">Pickle (broken)</a></li>
   <li><a href="#post-training" id="toc-post-training" class="nav-link" data-scroll-target="#post-training">Post-Training</a></li>
   <li><a href="#prelu-parametric-rectified-linear-unit" id="toc-prelu-parametric-rectified-linear-unit" class="nav-link" data-scroll-target="#prelu-parametric-rectified-linear-unit">(PReLU) Parametric Rectified Linear Unit</a></li>
   <li><a href="#prompt-engineering" id="toc-prompt-engineering" class="nav-link" data-scroll-target="#prompt-engineering">Prompt Engineering</a></li>
@@ -511,6 +526,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sequence-to-sequence-seq2seq-model" id="toc-sequence-to-sequence-seq2seq-model" class="nav-link" data-scroll-target="#sequence-to-sequence-seq2seq-model">Sequence-to-Sequence (Seq2Seq) Model</a></li>
   <li><a href="#sft-supervised-fine-tuning" id="toc-sft-supervised-fine-tuning" class="nav-link" data-scroll-target="#sft-supervised-fine-tuning">(SFT) Supervised Fine-Tuning</a></li>
   <li><a href="#sgd-stochastic-gradient-descent" id="toc-sgd-stochastic-gradient-descent" class="nav-link" data-scroll-target="#sgd-stochastic-gradient-descent">(SGD) Stochastic Gradient Descent</a></li>
+  <li><a href="#sleeper-agent" id="toc-sleeper-agent" class="nav-link" data-scroll-target="#sleeper-agent">Sleeper Agent</a></li>
   <li><a href="#superposition" id="toc-superposition" class="nav-link" data-scroll-target="#superposition">Superposition</a></li>
   <li><a href="#sl-supervised-learning" id="toc-sl-supervised-learning" class="nav-link" data-scroll-target="#sl-supervised-learning">(SL) Supervised Learning</a></li>
   <li><a href="#synthetic-data" id="toc-synthetic-data" class="nav-link" data-scroll-target="#synthetic-data">Synthetic Data</a></li>
@@ -1271,6 +1287,12 @@ ul.task-list li input[type="checkbox"] {
 <p>are a class of deep learning models that consist of two neural networks: a generator and a discriminator. The generator network learns to generate new data samples, such as images, text, or audio, while the discriminator network learns to distinguish between real data samples and generated samples. GANs are used in tasks like image generation, style transfer, and data augmentation.</p>
 </blockquote>
 </section>
+<section id="gguf-ggml-universal-file" class="level3">
+<h3 class="anchored" data-anchor-id="gguf-ggml-universal-file">GGUF (GGML Universal File)</h3>
+<blockquote class="blockquote">
+<p>A binary file format introduced by the llama.cpp project in August 2023 for storing large language models in a single, self-contained file. It packages the model weights (typically quantized to 2–8 bits), tokenizer vocabulary, architecture metadata, and often a chat template into one portable unit designed for fast, memory-mapped loading. GGUF has become the de-facto standard for distributing open-weight models intended for local inference on consumer hardware, and is natively supported by tools such as llama.cpp, Ollama, LM Studio, GPT4All, and Jan.</p>
+</blockquote>
+</section>
 <section id="gpqa-general-purpose-question-answering-benchmark" class="level3">
 <h3 class="anchored" data-anchor-id="gpqa-general-purpose-question-answering-benchmark">(GPQA) General-Purpose Question Answering Benchmark</h3>
 <blockquote class="blockquote">
@@ -1333,7 +1355,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="j" class="level2">
 <h2 class="anchored" data-anchor-id="j">J</h2>
+<section id="jinja-or-jinja2" class="level3">
+<h3 class="anchored" data-anchor-id="jinja-or-jinja2">Jinja (or Jinja2)</h3>
+<blockquote class="blockquote">
+<p>A Python-origin templating language widely used in the LLM ecosystem to define chat templates. These templates convert a structured conversation (list of role-tagged messages, optional system prompt, tool calls, etc.) into the exact token sequence an instruction-tuned model expects. In formats such as GGUF the template is stored as executable metadata (tokenizer.chat_template) and is evaluated on every inference call. Because Jinja supports conditionals, loops, and string manipulation, a maliciously crafted template can inject hidden instructions, alter context, or (in unsandboxed engines) achieve code execution, making it both a critical interoperability mechanism and a recognized supply-chain / inference-time attack surface.</p>
+</blockquote>
 <hr>
+</section>
 </section>
 <section id="k" class="level2">
 <h2 class="anchored" data-anchor-id="k">K</h2>
@@ -1740,6 +1768,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="p" class="level2">
 <h2 class="anchored" data-anchor-id="p">P</h2>
+<section id="pickle-broken" class="level3">
+<h3 class="anchored" data-anchor-id="pickle-broken">Pickle (broken)</h3>
+<blockquote class="blockquote">
+<p>A maliciously crafted Python pickle (or pickle-containing model file such as .pkl, .pt, .npy, etc.) that has been deliberately malformed—typically by inserting illegal bytes or truncating the stream just before the STOP opcode—so that static security scanners (e.g., PickleScan) either crash, raise a parsing error, or fail to detect the embedded payload, while the payload still runs when the file is deserialized.The technique was demonstrated in early 2025 by ReversingLabs researchers who uploaded such models to Hugging Face; loading the “broken” file triggered remote code execution even though the model appeared to fail to load. It is a practical evasion method within the larger class of pickle-based supply-chain attacks on machine-learning models.</p>
+</blockquote>
+</section>
 <section id="post-training" class="level3">
 <h3 class="anchored" data-anchor-id="post-training">Post-Training</h3>
 <blockquote class="blockquote">
@@ -2059,6 +2093,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="sgd-stochastic-gradient-descent">(SGD) Stochastic Gradient Descent</h3>
 <blockquote class="blockquote">
 <p>is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It’s popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.</p>
+</blockquote>
+</section>
+<section id="sleeper-agent" class="level3">
+<h3 class="anchored" data-anchor-id="sleeper-agent">Sleeper Agent</h3>
+<blockquote class="blockquote">
+<p>An AI model (typically a large language model) that behaves helpfully, harmlessly, and honestly under ordinary conditions and during safety evaluations, but switches to a different, often harmful or deceptive behavior when a specific hidden trigger appears in its input.</p>
 </blockquote>
 </section>
 <section id="superposition" class="level3">

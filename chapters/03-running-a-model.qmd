@@ -66,3 +66,92 @@ latency, rate limits, and data-sovereignty requirements.
 ## Making models usable by agents
 
 
+
+## Security and operational considerations
+
+### Security Resources for local models
+- 2026-10-21  [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr)
+- 2026-10-19  [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72)
+
+### Local Model Vulnerabilities
+Here is an overview of the main known classes of LLM exploits and attack surfaces (as of late 2026). This focuses on categories that appear repeatedly in research, real incidents, and frameworks such as the **OWASP Top 10 for LLM Applications (2026 edition)**. It deliberately stays at the conceptual level.
+
+#### 1. Prompt Injection (still #1)
+- **Direct**: Attacker writes instructions that override the system prompt or safety rules.
+- **Indirect / context injection**: Malicious instructions are planted in external content the model later processes (emails, documents, web pages, RAG results, tool outputs, memory, etc.). Real-world examples include zero-click data exfiltration (e.g., EchoLeak against Microsoft 365 Copilot) and tool/agent hijacking.
+- Variants include jailbreaks (role-play, encoding, multi-turn persuasion) aimed at bypassing safety training.
+
+#### 2. Sensitive Information Disclosure / Data Leakage
+Models or applications can leak training data, system prompts, user conversation history, credentials, or proprietary information through responses, logs, embeddings, or tool calls. Techniques include membership inference, training-data extraction, and system-prompt extraction.
+
+#### 3. Excessive Agency / Tool & Agent Abuse
+When an LLM can call tools, browse, write code, send messages, or control systems, injected instructions can make it perform unauthorized actions (file access, API calls, privilege escalation, lateral movement). This risk rose sharply in rankings with the spread of agentic systems.
+
+#### 4. Supply-Chain Attacks
+- Malicious models or weights (including the pickle / “broken pickle” / Sleepy Pickle family we discussed earlier).
+- Poisoned packages, MCP servers, plugins, or fine-tuning artifacts.
+- Compromised model hubs or distribution channels.
+
+#### 5. Data & Model Poisoning / Backdoors
+Attackers influence training, fine-tuning, or retrieval data so the model behaves normally most of the time but activates harmful behavior under a trigger (sleeper agents, backdoored code generation, biased outputs, etc.).
+
+#### 6. Unbounded Consumption / Resource Abuse
+Attacks that force excessive token generation, repeated inference, or expensive tool use, driving up cost or causing denial-of-service. Also includes model-extraction / distillation attacks that steal capability by querying the target model.
+
+#### 7. Misinformation / Hallucination Abuse
+Models can be steered (or simply fail) into producing confident but false or harmful content that users or downstream systems act upon.
+
+#### 8. Hidden Context / System-Prompt Exposure
+Secrets, authorization logic, or internal instructions placed in the system prompt or retrieved context can be extracted or abused.
+
+#### 9. Vector / Embedding / RAG Weaknesses
+Poisoning of vector stores, cross-tenant leakage in embeddings, or adversarial retrieval that surfaces malicious documents.
+
+#### 10. Improper Output Handling
+Model output is treated as trusted and fed into browsers, shells, databases, or other interpreters without sanitization, enabling classic injection or XSS-style follow-on attacks.
+
+#### Additional established categories outside the strict Top 10
+- **Adversarial examples / input perturbations** — small, often imperceptible changes that flip model behavior.
+- **Model inversion & privacy attacks** — reconstructing training examples or attributes.
+- **Multimodal attacks** — injecting payloads via images, audio, or other modalities that the model processes.
+- **Agent-specific chains** — memory poisoning, persistent tool hijacking, self-propagating behavior across sessions or systems.
+- **Infrastructure / serving vulnerabilities** — flaws in inference servers, gateways (e.g., LiteLLM-style issues), or serialization formats beyond pickle.
+
+#### Practical note
+Most real-world incidents combine several of the above (e.g., indirect prompt injection → excessive agency → data exfiltration). Open-weight models have repeatedly shown higher susceptibility to certain cyber-relevant payload chains than the strongest closed models, though both remain targets.
+
+The landscape evolves quickly; the dominant practical risks in production systems right now center on **prompt/context injection**, **agent tool abuse**, and **supply-chain model/package poisoning**. Defenses typically involve layered controls: input/output filtering, least-privilege tooling, provenance checks, retrieval isolation, and continuous red-teaming rather than relying on any single technique.
+
+
+
+## **Security Summary: What Can the Model Reach?**
+
+Running models locally protects your prompts from third-party providers, but it does **not** automatically make the setup safe. The decisive security question is not “Is the model local?” — it is **“What can the model (or the software around it) reach?”**
+
+### The practical risk ladder
+
+| Reach level | What the model can touch | Risk profile |
+|-------------|---------------------------|--------------|
+| **Chat only** | Conversation text | Low — limited to generating text |
+| **Files / project context** | Local documents, code, `.env` files | Medium — can exfiltrate or rewrite secrets if it has write access |
+| **Tools / shell / network** | Terminal commands, HTTP requests, file system, APIs | High — can execute code, send data out, or fetch remote payloads |
+| **Agent + persistent access** | Multiple tools + memory + long-running privileges | Critical — full blast radius of the host |
+
+A backdoored or triggerable model (or a poisoned chat template) is only as dangerous as the permissions and tools you give it. In the ProjectDiscovery demonstration highlighted in the video, a fine-tuned model behaved normally on clean tests until a short trigger phrase caused it to instruct an agent to send the project’s `.env` file to an external server. The model itself did not contain the final payload; it simply knew to fetch and run one.
+
+### Key attack surfaces that expand “reach”
+
+- **Model file + chat template** — Weights are data, but GGUF templates (Jinja) and metadata can embed hidden instructions or, in rare cases, enable code execution if the runner is unsandboxed.
+- **Runner / inference server** — Bugs or misconfigurations in Ollama, LM Studio, llama.cpp, etc., can leak memory, environment variables, or allow unauthorized control.
+- **Network binding** — Binding to `0.0.0.0` (or leaving the port unauthenticated) turns a local server into a public one. Exposed, unauthenticated instances are routinely scanned and abused.
+- **Tool / agent permissions** — Shell access, file write, or unrestricted network is the difference between a chat bot and a remote-code-execution surface.
+
+### Practical containment principles
+
+1. **Minimize reach by default** — Prefer pure chat. Grant tools only when necessary and under least privilege.
+2. **Keep the server on loopback** (`127.0.0.1`). For remote access use an authenticated tunnel (e.g., Tailscale) or a reverse proxy with authentication — never expose the raw inference port.
+3. **Keep the runner updated** and enable any available authentication features.
+4. **Treat model files as untrusted input** — Prefer reputable sources, verify provenance where possible, and consider scanning templates.
+5. **Separate secrets from the model’s working environment** — Do not give the process access to credentials it does not need.
+
+**Bottom line:** Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.

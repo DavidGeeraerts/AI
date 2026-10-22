@@ -368,6 +368,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
 
+- 2026-10-21  [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr)
+- 2026-10-19  [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72)
 - 2026-10-11  [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR)
 - 2026-09-21  [Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX)
 - 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
