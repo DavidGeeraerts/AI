@@ -1,8 +1,8 @@
 # Glossary
 
-[A](#a) [B](#b) [C](#c) [D](#d) [E](#e) [F](#f) [G](#g) [H](#h) [I](#i) [J](#j) [K](#k) [L](#l) [M](#m) [N](#n) [O](#o) [P](#p) [Q](#q) [R](#r) [S](#s) [T](#t) [U](#u) [V](#v) [W](#w) [X](#x) [Y](#y) [Z](#z)
+Published
 
-------------------------------------------------------------------------
+2026-10-22
 
 ## A
 
@@ -862,9 +862,9 @@ The cache grows with the number of tokens and concurrent requests, using GPU mem
 
 > are machine learning models that are designed to be small, fast, and resource-efficient, making them suitable for deployment on edge devices, mobile phones, or other resource-constrained environments. Lightweight models are optimized for low memory usage, fast inference speed, and minimal computational requirements, enabling them to perform efficiently in real-time applications.
 
-### Loss Function
+### llama.cpp
 
-> A measure of how well the model is performing during training. The loss function calculates the difference between the predicted output of the model and the actual target output. The goal of training a machine learning model is to minimize the loss function, which indicates that the model is making accurate predictions.
+> is a high-performance, open-source C/C++ inference engine originally created by Georgi Gerganov for running large language models (starting with Meta’s LLaMA) efficiently on consumer hardware. It introduced and popularized the GGUF single-file model format, supports a wide range of quantizations, and provides backends for CPU, CUDA, Metal, Vulkan, and others. Because of its speed, low overhead, and active development (including recent Mixture-of-Experts expert caching), it serves as the core engine behind many popular local runners such as Ollama, LM Studio, and others, making it one of the foundational tools for running open-weight models on personal machines.
 
 ### (LLM) Large Language Models
 
@@ -889,9 +889,17 @@ The cache grows with the number of tokens and concurrent requests, using GPU mem
 15. **Impact**: LLMs have the potential to revolutionize how we interact with technology, communicate with each other, and access information, shaping the future of AI and human-machine interaction.
 16. **Conclusion**: Large Language Models represent a significant advancement in artificial intelligence, offering powerful capabilities in natural language processing and communication. By addressing challenges and ethical considerations, LLMs can be harnessed to create positive impacts in various domains and drive innovation in AI research and development.
 
+### Loss Function
+
+> A measure of how well the model is performing during training. The loss function calculates the difference between the predicted output of the model and the actual target output. The goal of training a machine learning model is to minimize the loss function, which indicates that the model is making accurate predictions.
+
 ------------------------------------------------------------------------
 
 ## M
+
+### (MoE) Mixture of Experts
+
+> A neural network architecture, widely used in large language models, that replaces dense feed-forward layers with multiple specialized sub-networks called “experts.” A learned gating (router) network selects only a small subset of these experts for each input token, so only a fraction of the model’s total parameters are activated during inference. This sparse activation allows models to scale to very large parameter counts (e.g., tens or hundreds of billions) while keeping compute and latency closer to those of much smaller dense models. Notable examples include Mixtral, DeepSeek-V3, and various Qwen MoE variants.
 
 ### [Model Context Protocol (MCP)](https://github.com/modelcontextprotocol)
 
