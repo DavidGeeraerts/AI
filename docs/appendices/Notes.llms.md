@@ -1,3 +1,7 @@
+Published
+
+2026-10-15
+
 # \[AI\] Notes
 
 ## Deep Learning notes

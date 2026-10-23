@@ -12,9 +12,10 @@ project:
     browser: false
 glossary:
   path: appendices/glossary.yml
-  popup: hover
+  popup: click
   show: true
-
+date: last-modified
+date-format: iso
 format:
   html:
 #    respect-user-color-scheme: true

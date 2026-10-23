@@ -1,3 +1,7 @@
+Published
+
+2026-10-15
+
 # Keeping the Map Alive
 
 AI tools and model capabilities change quickly. Treat this book as a living resource and revisit it as the landscape evolves.

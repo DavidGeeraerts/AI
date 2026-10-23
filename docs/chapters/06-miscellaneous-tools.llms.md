@@ -1,3 +1,7 @@
+Published
+
+2026-10-15
+
 # Miscellaneous Tools and Supporting Infrastructure
 
 Useful supporting tools improve understanding, model selection, and day-to-day workflows.

@@ -1,3 +1,7 @@
+Published
+
+2026-10-23
+
 # 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape
 
 🧰 *The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.*

@@ -1,3 +1,7 @@
+Published
+
+2026-10-15
+
 # Resources
 
 Use this chapter as a quick reference for concepts used throughout the book. The full [glossary](../appendices/Glossary.llms.md) contains additional details.

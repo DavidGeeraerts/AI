@@ -1,3 +1,7 @@
+Published
+
+2026-10-20
+
 # Agents and Harnesses
 
 A harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.
