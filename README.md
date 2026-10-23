@@ -369,6 +369,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 (Sorted by Publication Date ↓)
 - 2026-10-21  [Kai: I Tested Every Best Local AI For GPU (8GB TO 24GB VRAM)](https://youtu.be/ugKAkCVBcz0?si=aRJ9Rx0guKR-Bls6)
 - 2026-10-21  [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr)
+- 2026-10-19  [AI Engineer: Is the Agent Harness Dead? — Jediah Katz, SpaceXA](https://www.youtube.com/watch?v=7Y4sbZgBdnc)
 - 2026-10-19  [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72)
 - 2026-10-11  [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR)
 - 2026-09-21  [Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX)

@@ -29,6 +29,10 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 > 3.  **Action**: By integrating with external tools and software via application programming interfaces, agentic AI can quickly execute tasks based on the plans it has formulated. Guardrails can be built into AI agents to help ensure they execute tasks correctly. For example, a customer service AI agent may be able to process claims up to a certain amount, while claims above the amount would have to be approved by a human.
 > 4.  **Learning**: Agentic AI continuously improves through a feedback loop, or “data flywheel,” where the data generated from its interactions is fed into the system to enhance models. This ability to adapt and become more effective over time offers businesses a powerful tool for driving better decision-making and operational efficiency.
 
+### Agentic Engineer
+
+> A software engineer who designs, builds, and operates production AI agent systems. This involves creating reliable, multi-step autonomous systems that can reason, plan, use tools, maintain state, and recover from errors, typically through iterative cycles of building, evaluating, observing, and refining non-deterministic LLM-based workflows.
+
 ### (AGI) Artificial General Intelligence
 
 > is a hypothetical AI system that possesses the ability to understand, learn, and apply knowledge across a wide range of tasks and domains, similar to human intelligence. AGI aims to replicate the general cognitive abilities of humans, such as reasoning, problem-solving, and creativity, in an artificial system. Achieving AGI is a long-term goal of AI research and development.

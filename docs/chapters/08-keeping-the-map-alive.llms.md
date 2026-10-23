@@ -1,6 +1,8 @@
+# Keeping the Map Alive
+
 Published
 
-2026-10-15
+2026-10-23
 
 # Keeping the Map Alive
 

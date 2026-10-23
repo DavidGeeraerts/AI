@@ -1,8 +1,8 @@
+# Models
+
 Published
 
-2026-10-15
-
-# Models
+2026-10-23
 
 Choosing a model starts with understanding its capabilities, availability, and trade-offs.
 

@@ -1,4 +1,14 @@
-# Models
+---
+title: "Models"
+toc: true
+toc-depth: 2
+toc-location: right
+toc-title: ""
+toc-expand: true
+page-layout: article
+date: last-modified
+date-format: iso
+---
 
 Choosing a model starts with understanding its capabilities, availability, and
 trade-offs.

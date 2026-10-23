@@ -1,10 +1,10 @@
+# Introduction
+
 Published
 
 2026-10-23
 
-# Introduction
-
-This book is a practical, control-oriented guide to exploring and using artificial intelligence. It is intended for practicing developers, indie builders, and teams interested in local-first AI stacks.
+The Book of Agentic AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.
 
 The quarterly [Hotplate](../hotplate/2026-Q4-hotplate.llms.md) offers a snapshot of the current landscape. The 2026 Q4 edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.
 

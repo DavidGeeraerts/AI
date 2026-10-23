@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-22">
+<meta name="dcterms.date" content="2026-10-23">
 
-<title>running-a-model – The Book of AI</title>
+<title>Running a Model – The Book of AI</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -350,44 +350,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#running-a-model" id="toc-running-a-model" class="nav-link active" data-scroll-target="#running-a-model">Running a Model</a>
-  <ul class="collapse">
-  <li><a href="#local-first-inference" id="toc-local-first-inference" class="nav-link" data-scroll-target="#local-first-inference">Local-first inference</a>
-  <ul class="collapse">
-  <li><a href="#quick-summary" id="toc-quick-summary" class="nav-link" data-scroll-target="#quick-summary">Quick summary</a></li>
-  <li><a href="#main-philosophical-difference" id="toc-main-philosophical-difference" class="nav-link" data-scroll-target="#main-philosophical-difference">Main philosophical difference</a></li>
-  <li><a href="#practical-implications" id="toc-practical-implications" class="nav-link" data-scroll-target="#practical-implications">Practical implications</a></li>
-  <li><a href="#when-to-choose-which" id="toc-when-to-choose-which" class="nav-link" data-scroll-target="#when-to-choose-which">When to choose which</a></li>
-  <li><a href="#other-local-inference-options" id="toc-other-local-inference-options" class="nav-link" data-scroll-target="#other-local-inference-options">Other local inference options</a></li>
-  </ul></li>
-  <li><a href="#cloud-and-hybrid-options" id="toc-cloud-and-hybrid-options" class="nav-link" data-scroll-target="#cloud-and-hybrid-options">Cloud and hybrid options</a></li>
-  <li><a href="#making-models-usable-by-agents" id="toc-making-models-usable-by-agents" class="nav-link" data-scroll-target="#making-models-usable-by-agents">Making models usable by agents</a></li>
-  <li><a href="#security-and-operational-considerations" id="toc-security-and-operational-considerations" class="nav-link" data-scroll-target="#security-and-operational-considerations">Security and operational considerations</a>
-  <ul class="collapse">
-  <li><a href="#security-resources-for-local-models" id="toc-security-resources-for-local-models" class="nav-link" data-scroll-target="#security-resources-for-local-models">Security Resources for local models</a></li>
-  <li><a href="#local-model-vulnerabilities" id="toc-local-model-vulnerabilities" class="nav-link" data-scroll-target="#local-model-vulnerabilities">Local Model Vulnerabilities</a></li>
-  </ul></li>
-  <li><a href="#security-summary-what-can-the-model-reach" id="toc-security-summary-what-can-the-model-reach" class="nav-link" data-scroll-target="#security-summary-what-can-the-model-reach"><strong>Security Summary: What Can the Model Reach?</strong></a>
-  <ul class="collapse">
-  <li><a href="#the-practical-risk-ladder" id="toc-the-practical-risk-ladder" class="nav-link" data-scroll-target="#the-practical-risk-ladder">The practical risk ladder</a></li>
-  <li><a href="#key-attack-surfaces-that-expand-reach" id="toc-key-attack-surfaces-that-expand-reach" class="nav-link" data-scroll-target="#key-attack-surfaces-that-expand-reach">Key attack surfaces that expand “reach”</a></li>
-  <li><a href="#practical-containment-principles" id="toc-practical-containment-principles" class="nav-link" data-scroll-target="#practical-containment-principles">Practical containment principles</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
+<h1 class="title">Running a Model</h1>
 </div>
 
 
@@ -398,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-22</p>
+      <p class="date">2026-10-23</p>
     </div>
   </div>
   
@@ -410,8 +380,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="running-a-model" class="level1">
-<h1>Running a Model</h1>
 <p>This chapter covers local and hybrid inference: getting a model running, serving it, and making it available to agents.</p>
 <section id="local-first-inference" class="level2">
 <h2 class="anchored" data-anchor-id="local-first-inference">Local-first inference</h2>
@@ -670,7 +638,6 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Bottom line:</strong> Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.</p>
 
 
-</section>
 </section>
 </section>
 

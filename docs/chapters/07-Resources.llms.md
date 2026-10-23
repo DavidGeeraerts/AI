@@ -1,10 +1,12 @@
 Published
 
-2026-10-15
+2026-10-23
 
 # Resources
 
-Use this chapter as a quick reference for concepts used throughout the book. The full [glossary](../appendices/Glossary.llms.md) contains additional details.
+## X Agentic-Engineering Lists
+
+- [Agentic Engineering](https://x.com/i/lists/2113733734537335167)
 
 ## AI \[blog\] Resources
 

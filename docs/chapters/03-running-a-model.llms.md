@@ -1,8 +1,8 @@
+# Running a Model
+
 Published
 
-2026-10-22
-
-# Running a Model
+2026-10-23
 
 This chapter covers local and hybrid inference: getting a model running, serving it, and making it available to agents.
 

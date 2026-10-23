@@ -1,4 +1,14 @@
-# Running a Model
+---
+title: "Running a Model"
+toc: false
+toc-depth: 3
+toc-location: right
+toc-title: "Chapter Index"
+toc-expand: true
+page-layout: article
+date: last-modified
+date-format: iso
+---
 
 This chapter covers local and hybrid inference: getting a model running,
 serving it, and making it available to agents.

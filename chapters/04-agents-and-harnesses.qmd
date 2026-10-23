@@ -1,3 +1,15 @@
+---
+title: "Agents and Harnesses"
+toc: false
+toc-depth: 3
+toc-location: right
+toc-title: "Chapter Index"
+toc-expand: true
+page-layout: article
+date: last-modified
+date-format: iso
+---
+
 # Agents and Harnesses
 
 A harness is the runtime that gives a model a loop, tools, memory, and an

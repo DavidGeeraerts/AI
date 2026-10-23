@@ -1,7 +1,8 @@
 # Resources
 
-Use this chapter as a quick reference for concepts used throughout the book.
-The full [glossary](../appendices/Glossary.qmd) contains additional details.
+## X Agentic-Engineering Lists
+- [Agentic Engineering](https://x.com/i/lists/2113733734537335167)
+
 
 ## AI [blog] Resources
 Prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
