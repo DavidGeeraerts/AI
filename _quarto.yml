@@ -1,8 +1,8 @@
 project:
   type: website
-  title: "The Book of AI -- A practical guide to understanding agents and building a practical toolkit you control."
+  title: "The Book of AI"
   output-dir: docs
-  # pre-render: quarto run scripts/latest-hotplate.ts
+  pre-render: quarto run scripts/generate-glossary.ts
   render:
     - "*.qmd"
   resources:
@@ -10,6 +10,10 @@ project:
     - "Appendices/*.qmd"
   preview:
     browser: false
+glossary:
+  path: appendices/glossary.yml
+  popup: hover
+  show: true
 
 format:
   html:
@@ -74,8 +78,6 @@ website:
           - text: Source Code
             href: https://github.com/DavidGeeraerts/AI
 
-
 execute:
   freeze: auto
   cache: false
-

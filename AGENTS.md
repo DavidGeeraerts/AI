@@ -87,7 +87,7 @@ When the user requests a durable behavior change, record it here or in the relev
 - `publications/` contains source research papers.
 - `tests/` contains prompt-based reasoning examples; no automated test runner is present.
 - `README.md` is the AI landscape overview; `Notes.md` and `Glossory.md` are study notes and reference material.
-- `_quarto.yml` configures the root Quarto website; render output goes to `docs/`. A pre-render script (`scripts/latest-hotplate.ts`) copies the newest `hotplate/YYYY-Qn-hotplate.qmd` to `_hotplate-latest.qmd`, which `index.qmd` includes; keep the generated file committed so Quarto can resolve the include.
+- `_quarto.yml` configures the root Quarto website; render output goes to `docs/`. Its pre-render hook (`scripts/generate-glossary.ts`) generates `appendices/glossary.yml` from `appendices/Glossary.qmd`; keep the generated file committed for builds outside the project render workflow. `scripts/latest-hotplate.ts` is a separate helper for copying the newest `hotplate/YYYY-Qn-hotplate.qmd` to `_hotplate-latest.qmd`.
 - `.github/workflows/publish.yml` deploys to GitHub Pages on push to `main`; it still runs Jekyll, which now finds no root `_config.yml` (archived in `archive/jekyll/`).
 - `archive/` holds retired configuration kept for reference (`archive/jekyll/_config.yml`, the former Jekyll + Just the Docs config); nothing in it is read by the build.
 - `LICENSE` applies CC BY 4.0 to original repository content; third-party materials remain under their own terms.
