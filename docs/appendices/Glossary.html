@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-22">
+<meta name="dcterms.date" content="2026-10-23">
 
 <title>Glossary – The Book of AI</title>
 <style>
@@ -400,7 +400,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-22</p>
+      <p class="date">2026-10-23</p>
     </div>
   </div>
   
@@ -424,6 +424,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="agent">Agent</h3>
 <blockquote class="blockquote">
 <p>is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.</p>
+</blockquote>
+</section>
+<section id="agent-loop" class="level3">
+<h3 class="anchored" data-anchor-id="agent-loop">Agent loop</h3>
+<blockquote class="blockquote">
+<p>is the repeated cycle in which a model reasons about a goal, optionally calls tools, observes the results, and continues until it reaches a stopping condition (success, failure, iteration limit, or human intervention). It is the fundamental control structure of an agent.</p>
 </blockquote>
 </section>
 <section id="agentic-ai" class="level3">
@@ -807,8 +813,20 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Computational Cost:</p>
 <p>Generating multiple reasoning steps can increase the computational cost of inference.</p></li>
 </ul>
-<hr>
 </section>
+</section>
+<section id="context-engineering" class="level3">
+<h3 class="anchored" data-anchor-id="context-engineering">Context engineering</h3>
+<blockquote class="blockquote">
+<p>is the discipline of deciding what information enters the model’s limited context window at each step — system prompts, tool definitions, retrieved documents, conversation history, and tool results — so the agent has the right information without exceeding its attention budget or introducing noise.</p>
+</blockquote>
+</section>
+<section id="context-window" class="level3">
+<h3 class="anchored" data-anchor-id="context-window">Context window</h3>
+<blockquote class="blockquote">
+<p>is the finite amount of text (measured in tokens) that a language model can attend to in a single inference call. Everything the agent “knows” in the current turn — instructions, history, tool schemas, and retrieved data — must fit inside this window.</p>
+</blockquote>
+<hr>
 </section>
 </section>
 <section id="d" class="level2">
@@ -1153,6 +1171,12 @@ ul.task-list li input[type="checkbox"] {
 <blockquote class="blockquote">
 <p>is a reinforcement learning algorithm that aims to improve the stability and sample efficiency of policy optimization methods. It extends Proximal Policy Optimization (PPO) by incorporating group-based structures and relative performance metrics. GRPO leverages the concept of group relativity to update the policy parameters based on the relative performance of different groups of trajectories. By considering the performance of multiple groups, GRPO can achieve better convergence and robustness in training reinforcement learning agents.</p>
 </blockquote>
+</section>
+<section id="guardrails" class="level3">
+<h3 class="anchored" data-anchor-id="guardrails">Guardrails</h3>
+<blockquote class="blockquote">
+<p>are constraints enforced by the harness (not merely requested in the prompt) that limit what an agent is allowed to do — for example permission checks, allow/deny lists for tools or files, approval gates for high-risk actions, and sandboxing of execution environments.</p>
+</blockquote>
 <hr>
 </section>
 </section>
@@ -1167,10 +1191,16 @@ ul.task-list li input[type="checkbox"] {
 <section id="harness" class="level3">
 <h3 class="anchored" data-anchor-id="harness">Harness</h3>
 <blockquote class="blockquote">
-<p>is the runtime / scaffolding that turns a raw language model into a working agent.</p>
+<p>is the runtime and scaffolding around a language model that turns it into a working agent. It manages the agent loop, system prompts, tool execution, permissions, retries, state, memory, stopping rules, and outputs. The model provides intelligence; the harness provides the chassis that makes that intelligence reliable and controllable.</p>
 </blockquote>
 <p><strong>The harness determines:</strong> - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it</p>
 <p>A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.</p>
+</section>
+<section id="hitl-human-in-the-loop" class="level3">
+<h3 class="anchored" data-anchor-id="hitl-human-in-the-loop">(HITL) Human-in-the-loop</h3>
+<blockquote class="blockquote">
+<p>is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.</p>
+</blockquote>
 </section>
 <section id="hyperparameter" class="level3">
 <h3 class="anchored" data-anchor-id="hyperparameter">Hyperparameter</h3>
@@ -1342,6 +1372,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="m" class="level2">
 <h2 class="anchored" data-anchor-id="m">M</h2>
+<section id="mcp-model-context-protocol" class="level3">
+<h3 class="anchored" data-anchor-id="mcp-model-context-protocol">(MCP) Model Context Protocol</h3>
+<blockquote class="blockquote">
+<p>is an open standard that defines how AI applications (clients/hosts) connect to external tools, data sources, and prompts through a consistent interface. MCP servers expose capabilities; clients discover and invoke them. It reduces one-off integrations and has become the default wiring layer for many agent harnesses.</p>
+</blockquote>
+</section>
 <section id="moe-mixture-of-experts" class="level3">
 <h3 class="anchored" data-anchor-id="moe-mixture-of-experts">(MoE) Mixture of Experts</h3>
 <blockquote class="blockquote">
@@ -1544,6 +1580,12 @@ ul.task-list li input[type="checkbox"] {
 <p>is a machine learning architecture that combines multiple expert models to improve predictive performance. In a mixture of experts model, each expert specializes in a specific subset of the input data, and a gating network determines which expert to use for a given input. Mixture of experts models are used in tasks such as language modeling, image recognition, and recommendation systems. MoE architectures are particularly useful in large-scale models, such as those used in <a href="#natural-language-processing-nlp">natural language processing (NLP)</a>. They enable these models to handle vast amounts of data more efficiently, making them faster and more scalable.</p>
 </blockquote>
 <p>Key Features of Mixture of Experts (MoE) Models: 1. Experts: Each expert network is trained to handle specific types of data or tasks, allowing for more efficient and accurate processing. Each expert is typically a neural network or a simpler model. 2. Gating Network: A routing mechanism that decides which experts should process a given input. The gating network outputs a probability distribution over the experts, indicating how much each expert should contribute to the final output. 3. Dynamic Routing: Inputs are dynamically assigned to experts based on the gating network’s decisions. This allows the model to adapt to different types of inputs efficiently. 4. Sparsity: Only a small subset of experts is activated for each input, making MoE computationally efficient.</p>
+</section>
+<section id="multi-agent-system" class="level3">
+<h3 class="anchored" data-anchor-id="multi-agent-system">Multi-agent system</h3>
+<blockquote class="blockquote">
+<p>is an architecture in which more than one agent participates in a workflow, often with specialized roles (planner, coder, reviewer, researcher). Coordination may be hierarchical (a supervisor delegates), peer-to-peer, or swarm-like. Multi-agent designs trade complexity for the ability to parallelize work and apply different tools or models to different subtasks.</p>
+</blockquote>
 </section>
 <section id="multimodal-learning" class="level3">
 <h3 class="anchored" data-anchor-id="multimodal-learning">Multimodal Learning</h3>
@@ -1784,6 +1826,12 @@ ul.task-list li input[type="checkbox"] {
 <p>RAHF is an architectural advancement that improves the efficiency and scalability of transformer models for long sequences, making them more suitable for a wide range of applications. It achieves this through hierarchical processing, random access memory mechanisms, and reversible attention.</p>
 </section>
 </section>
+<section id="react" class="level3">
+<h3 class="anchored" data-anchor-id="react">ReAct</h3>
+<blockquote class="blockquote">
+<p>(Reason + Act) is a prompting and control pattern in which the model interleaves explicit reasoning steps with actions (tool calls). The typical cycle is Thought → Action → Observation, repeated until the goal is reached. It is one of the foundational patterns underlying modern agent loops.</p>
+</blockquote>
+</section>
 <section id="relu-rectified-linear-unit" class="level3">
 <h3 class="anchored" data-anchor-id="relu-rectified-linear-unit">(ReLU) Rectified Linear Unit</h3>
 <blockquote class="blockquote">
@@ -1944,10 +1992,22 @@ ul.task-list li input[type="checkbox"] {
 <p>is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It’s popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.</p>
 </blockquote>
 </section>
+<section id="skill" class="level3">
+<h3 class="anchored" data-anchor-id="skill">Skill</h3>
+<blockquote class="blockquote">
+<p>is a reusable, often human-readable procedure or capability that an agent can load and follow (commonly defined in Markdown, e.g.&nbsp;<code>SKILL.md</code>). Skills sit above raw tools: a tool is a single function the model can call; a skill is a packaged workflow, set of instructions, or higher-level competence the agent can invoke when relevant.</p>
+</blockquote>
+</section>
 <section id="sleeper-agent" class="level3">
 <h3 class="anchored" data-anchor-id="sleeper-agent">Sleeper Agent</h3>
 <blockquote class="blockquote">
 <p>An AI model (typically a large language model) that behaves helpfully, harmlessly, and honestly under ordinary conditions and during safety evaluations, but switches to a different, often harmful or deceptive behavior when a specific hidden trigger appears in its input.</p>
+</blockquote>
+</section>
+<section id="sub-agent" class="level3">
+<h3 class="anchored" data-anchor-id="sub-agent">Sub-agent</h3>
+<blockquote class="blockquote">
+<p>is a secondary agent spawned or delegated to by a primary agent, usually with a narrower goal, its own context window, and a restricted set of tools. The sub-agent performs specialized work and returns a result (or handoff) to the parent, helping isolate context and reduce the main agent’s cognitive load.</p>
 </blockquote>
 </section>
 <section id="superposition" class="level3">

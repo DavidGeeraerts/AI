@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-22
+2026-10-23
 
 ## A
 
@@ -13,6 +13,10 @@ Published
 ### Agent
 
 > is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
+
+### Agent loop
+
+> is the repeated cycle in which a model reasons about a goal, optionally calls tools, observes the results, and continues until it reaches a stopping condition (success, failure, iteration limit, or human intervention). It is the fundamental control structure of an agent.
 
 ### Agentic AI
 
@@ -400,6 +404,14 @@ Constitutional AI represents a significant step forward in the development of et
 
   Generating multiple reasoning steps can increase the computational cost of inference.
 
+### Context engineering
+
+> is the discipline of deciding what information enters the model’s limited context window at each step — system prompts, tool definitions, retrieved documents, conversation history, and tool results — so the agent has the right information without exceeding its attention budget or introducing noise.
+
+### Context window
+
+> is the finite amount of text (measured in tokens) that a language model can attend to in a single inference call. Everything the agent “knows” in the current turn — instructions, history, tool schemas, and retrieved data — must fit inside this window.
+
 ------------------------------------------------------------------------
 
 ## D
@@ -758,6 +770,10 @@ DPR is trained using a contrastive learning objective, where the model learns to
 
 > is a reinforcement learning algorithm that aims to improve the stability and sample efficiency of policy optimization methods. It extends Proximal Policy Optimization (PPO) by incorporating group-based structures and relative performance metrics. GRPO leverages the concept of group relativity to update the policy parameters based on the relative performance of different groups of trajectories. By considering the performance of multiple groups, GRPO can achieve better convergence and robustness in training reinforcement learning agents.
 
+### Guardrails
+
+> are constraints enforced by the harness (not merely requested in the prompt) that limit what an agent is allowed to do — for example permission checks, allow/deny lists for tools or files, approval gates for high-risk actions, and sandboxing of execution environments.
+
 ------------------------------------------------------------------------
 
 ## H
@@ -768,11 +784,15 @@ DPR is trained using a contrastive learning objective, where the model learns to
 
 ### Harness
 
-> is the runtime / scaffolding that turns a raw language model into a working agent.
+> is the runtime and scaffolding around a language model that turns it into a working agent. It manages the agent loop, system prompts, tool execution, permissions, retries, state, memory, stopping rules, and outputs. The model provides intelligence; the harness provides the chassis that makes that intelligence reliable and controllable.
 
 **The harness determines:** - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it
 
 A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.
+
+### (HITL) Human-in-the-loop
+
+> is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.
 
 ### Hyperparameter
 
@@ -896,6 +916,10 @@ The cache grows with the number of tokens and concurrent requests, using GPU mem
 ------------------------------------------------------------------------
 
 ## M
+
+### (MCP) Model Context Protocol
+
+> is an open standard that defines how AI applications (clients/hosts) connect to external tools, data sources, and prompts through a consistent interface. MCP servers expose capabilities; clients discover and invoke them. It reduces one-off integrations and has become the default wiring layer for many agent harnesses.
 
 ### (MoE) Mixture of Experts
 
@@ -1053,6 +1077,10 @@ Key aspects of MLOps: 1. Automation: Automates various stages of the ML pipeline
 > is a machine learning architecture that combines multiple expert models to improve predictive performance. In a mixture of experts model, each expert specializes in a specific subset of the input data, and a gating network determines which expert to use for a given input. Mixture of experts models are used in tasks such as language modeling, image recognition, and recommendation systems. MoE architectures are particularly useful in large-scale models, such as those used in [natural language processing (NLP)](#natural-language-processing-nlp). They enable these models to handle vast amounts of data more efficiently, making them faster and more scalable.
 
 Key Features of Mixture of Experts (MoE) Models: 1. Experts: Each expert network is trained to handle specific types of data or tasks, allowing for more efficient and accurate processing. Each expert is typically a neural network or a simpler model. 2. Gating Network: A routing mechanism that decides which experts should process a given input. The gating network outputs a probability distribution over the experts, indicating how much each expert should contribute to the final output. 3. Dynamic Routing: Inputs are dynamically assigned to experts based on the gating network’s decisions. This allows the model to adapt to different types of inputs efficiently. 4. Sparsity: Only a small subset of experts is activated for each input, making MoE computationally efficient.
+
+### Multi-agent system
+
+> is an architecture in which more than one agent participates in a workflow, often with specialized roles (planner, coder, reviewer, researcher). Coordination may be hierarchical (a supervisor delegates), peer-to-peer, or swarm-like. Multi-agent designs trade complexity for the ability to parallelize work and apply different tools or models to different subtasks.
 
 ### Multimodal Learning
 
@@ -1230,6 +1258,10 @@ RAHF is particularly useful for tasks that involve processing long sequences, su
 
 RAHF is an architectural advancement that improves the efficiency and scalability of transformer models for long sequences, making them more suitable for a wide range of applications. It achieves this through hierarchical processing, random access memory mechanisms, and reversible attention.
 
+### ReAct
+
+> (Reason + Act) is a prompting and control pattern in which the model interleaves explicit reasoning steps with actions (tool calls). The typical cycle is Thought → Action → Observation, repeated until the goal is reached. It is one of the foundational patterns underlying modern agent loops.
+
 ### (ReLU) Rectified Linear Unit
 
 > is a popular activation function used in artificial neural networks, particularly in deep learning models. It was introduced to address the limitations of other activation functions like sigmoid and tanh. This means that if the input value (x) is positive, the output will be the same as the input; however, if the input is negative, the output will be zero. In other words, ReLU “rectifies” or sets all negative inputs to zero and passes positive inputs unchanged. \#### Advantages of ReLU: 1. **Efficiency**: ReLU is computationally efficient and easy to implement, making it a popular choice in deep learning models. 2. Mitigates vanishing gradient problem: Unlike sigmoid and tanh functions, ReLU does not saturate for large positive values, helping to prevent the vanishing gradient problem in deep networks. This enables faster training and better performance on complex tasks like image recognition. 3. **Sparsity**: ReLU introduces sparsity in the network by setting negative values to zero, which can help reduce overfitting and improve generalization. ReLU allows some neurons to deactivate completely during training (when inputs are negative), which can lead to more efficient feature representation and model interpretability. However, ReLU also has its disadvantages, such as the “dying ReLU” problem, where a large gradient flowing through a ReLU neuron can cause the weights to update in such a way that the neuron will not activate on any datapoint again. To address this issue, variants of ReLU like Leaky ReLU and Parametric ReLU have been proposed.
@@ -1333,9 +1365,17 @@ RAHF is an architectural advancement that improves the efficiency and scalabilit
 
 > is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It’s popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.
 
+### Skill
+
+> is a reusable, often human-readable procedure or capability that an agent can load and follow (commonly defined in Markdown, e.g. `SKILL.md`). Skills sit above raw tools: a tool is a single function the model can call; a skill is a packaged workflow, set of instructions, or higher-level competence the agent can invoke when relevant.
+
 ### Sleeper Agent
 
 > An AI model (typically a large language model) that behaves helpfully, harmlessly, and honestly under ordinary conditions and during safety evaluations, but switches to a different, often harmful or deceptive behavior when a specific hidden trigger appears in its input.
+
+### Sub-agent
+
+> is a secondary agent spawned or delegated to by a primary agent, usually with a narrower goal, its own context window, and a restricted set of tools. The sub-agent performs specialized work and returns a result (or handoff) to the parent, helping isolate context and reduce the main agent’s cognitive load.
 
 ### Superposition
 

@@ -4,7 +4,7 @@ This book is a practical, control-oriented guide to exploring and using
 artificial intelligence. It is intended for practicing developers, indie
 builders, and teams interested in local-first AI stacks.
 
-The quarterly [Hotplate](./hotplate/2026-Q4-hotplate.qmd) offers a snapshot of
+The quarterly [Hotplate](/hotplate/2026-Q4-hotplate.qmd) offers a snapshot of
 the current landscape. The 2026 Q4 edition highlights long-running open-source
 agent harnesses, MCP as a default integration layer, persistent memory, and
 self-hosted agents. It reflects a preference for tools readers can run and

@@ -21,6 +21,9 @@ date-format: iso
 ### Agent
 > is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
 
+### Agent loop
+> is the repeated cycle in which a model reasons about a goal, optionally calls tools, observes the results, and continues until it reaches a stopping condition (success, failure, iteration limit, or human intervention). It is the fundamental control structure of an agent.
+
 ### Agentic AI
 > uses sophisticated reasoning and iterative planning to autonomously solve complex, multi-step problems.
 
@@ -389,6 +392,12 @@ increasingly integrated into our lives, the importance of constitutional AI will
 
    Generating multiple reasoning steps can increase the computational cost of inference.
 
+### Context engineering
+> is the discipline of deciding what information enters the model’s limited context window at each step — system prompts, tool definitions, retrieved documents, conversation history, and tool results — so the agent has the right information without exceeding its attention budget or introducing noise.
+
+### Context window
+> is the finite amount of text (measured in tokens) that a language model can attend to in a single inference call. Everything the agent “knows” in the current turn — instructions, history, tool schemas, and retrieved data — must fit inside this window.
+
 ---
 
 ## D
@@ -745,6 +754,9 @@ gradient, aiming to minimize the cost function.
 ### (GRPO) Group Relative Policy Optimization
 > is a reinforcement learning algorithm that aims to improve the stability and sample efficiency of policy optimization methods. It extends Proximal Policy Optimization (PPO) by incorporating group-based structures and relative performance metrics.  GRPO leverages the concept of group relativity to update the policy parameters based on the relative performance of different groups of trajectories. By considering the performance of multiple groups, GRPO can achieve better convergence and robustness in training reinforcement learning agents.
 
+### Guardrails
+> are constraints enforced by the harness (not merely requested in the prompt) that limit what an agent is allowed to do — for example permission checks, allow/deny lists for tools or files, approval gates for high-risk actions, and sandboxing of execution environments.
+
 ---
 
 ## H
@@ -754,7 +766,7 @@ gradient, aiming to minimize the cost function.
 > Hallucinations can be problematic, especially in applications where accuracy is crucial, like medical diagnosis or legal advice. Researchers are continuously working on improving AI models to reduce the occurrence of hallucinations and ensure more reliable outputs.
 
 ### Harness
-> is the runtime / scaffolding that turns a raw language model into a working agent.
+> is the runtime and scaffolding around a language model that turns it into a working agent. It manages the agent loop, system prompts, tool execution, permissions, retries, state, memory, stopping rules, and outputs. The model provides intelligence; the harness provides the chassis that makes that intelligence reliable and controllable.
 
 **The harness determines:**
 - How long the agent can run
@@ -766,6 +778,8 @@ gradient, aiming to minimize the cost function.
 
 A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.
 
+### (HITL) Human-in-the-loop
+> is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.
 
 ### Hyperparameter
 
@@ -880,6 +894,9 @@ _Summary based on [What Is a KV Cache?](https://decagon.ai/glossary/what-is-a-kv
 ---
 
 ## M
+
+### (MCP) Model Context Protocol
+> is an open standard that defines how AI applications (clients/hosts) connect to external tools, data sources, and prompts through a consistent interface. MCP servers expose capabilities; clients discover and invoke them. It reduces one-off integrations and has become the default wiring layer for many agent harnesses.
 
 ### (MoE) Mixture of Experts
 > A neural network architecture, widely used in large language models, that replaces dense feed-forward layers with multiple specialized sub-networks called “experts.” A learned gating (router) network selects only a small subset of these experts for each input token, so only a fraction of the model’s total parameters are activated during inference. This sparse activation allows models to scale to very large parameter counts (e.g., tens or hundreds of billions) while keeping compute and latency closer to those of much smaller dense models. Notable examples include Mixtral, DeepSeek-V3, and various Qwen MoE variants.
@@ -1024,6 +1041,9 @@ Key Features of Mixture of Experts (MoE) Models:
 2. Gating Network: A routing mechanism that decides which experts should process a given input. The gating network outputs a probability distribution over the experts, indicating how much each expert should contribute to the final output.
 3. Dynamic Routing: Inputs are dynamically assigned to experts based on the gating network's decisions. This allows the model to adapt to different types of inputs efficiently.
 4. Sparsity: Only a small subset of experts is activated for each input, making MoE computationally efficient.
+
+### Multi-agent system
+> is an architecture in which more than one agent participates in a workflow, often with specialized roles (planner, coder, reviewer, researcher). Coordination may be hierarchical (a supervisor delegates), peer-to-peer, or swarm-like. Multi-agent designs trade complexity for the ability to parallelize work and apply different tools or models to different subtasks.
 
 ### Multimodal Learning
 > is a machine learning paradigm that involves processing and generating data from multiple modalities, such as text, images, audio, and video. Multimodal learning aims to leverage information from different sources to improve model performance and enable more comprehensive understanding of complex data. Multimodal models can process and generate content across multiple modalities, enabling them to perform tasks like image captioning, text-to-image generation, and multimodal translation.
@@ -1188,6 +1208,9 @@ RAHF is particularly useful for tasks that involve processing long sequences, su
 RAHF is an architectural advancement that improves the efficiency and scalability of transformer models for long sequences, making them more suitable for a wide range of applications. It achieves this through hierarchical processing, random access memory
 mechanisms, and reversible attention.
 
+### ReAct
+> (Reason + Act) is a prompting and control pattern in which the model interleaves explicit reasoning steps with actions (tool calls). The typical cycle is Thought → Action → Observation, repeated until the goal is reached. It is one of the foundational patterns underlying modern agent loops.
+
 ### (ReLU) Rectified Linear Unit
 >  is a popular activation function used in artificial neural networks, particularly in deep learning models. It was introduced to address the limitations of other activation functions like sigmoid and tanh. This means that if the input value (x) is positive, the output will be the same as the input; however, if the input is negative, the output will be zero. In other words, ReLU "rectifies" or sets all negative inputs to zero and passes positive inputs unchanged.
 #### Advantages of ReLU:
@@ -1287,8 +1310,14 @@ improvement and innovation. However, this race also raises important questions a
 ### (SGD) Stochastic Gradient Descent
 > is an iterative optimization algorithm used to minimize a function by iteratively updating parameters based on random samples from the dataset. This method was introduced as a way to handle large datasets where computing gradients using the entire dataset at each iteration would be computationally expensive or infeasible. Instead of calculating and updating parameters using the entire dataset like Batch Gradient Descent, it uses only one randomly selected data point (or mini-batch) for each update. This approach makes SGD more efficient when dealing with massive datasets since it allows for faster computation at the cost of potential increased variability in convergence compared to Batch Gradient Descent. widely used in machine learning, particularly for training large-scale models like neural networks and deep learning architectures. It's popular due to its efficiency, scalability, and ability to converge even when memory requirements for storing the entire dataset are prohibitive. However, because it relies on random sampling, SGD can sometimes exhibit noisy behavior or slow convergence compared to Batch Gradient Descent. To mitigate these issues, various enhancements have been proposed, such as Momentum and Nesterov Accelerated Gradient methods that incorporate historical gradient information to smooth out fluctuations in the optimization process. Additionally, Adaptive Learning Rate Methods (e.g., AdaGrad, RMSProp, Adam) dynamically adjust learning rates for individual parameters based on their historical gradient magnitudes, further improving convergence properties and performance.
 
+### Skill
+> is a reusable, often human-readable procedure or capability that an agent can load and follow (commonly defined in Markdown, e.g. `SKILL.md`). Skills sit above raw tools: a tool is a single function the model can call; a skill is a packaged workflow, set of instructions, or higher-level competence the agent can invoke when relevant.
+
 ### Sleeper Agent
 > An AI model (typically a large language model) that behaves helpfully, harmlessly, and honestly under ordinary conditions and during safety evaluations, but switches to a different, often harmful or deceptive behavior when a specific hidden trigger appears in its input.
+
+### Sub-agent
+> is a secondary agent spawned or delegated to by a primary agent, usually with a narrower goal, its own context window, and a restricted set of tools. The sub-agent performs specialized work and returns a result (or handoff) to the parent, helping isolate context and reduce the main agent’s cognitive load.
 
 ### Superposition
 > borrowed from quantum mechanics where particles can exist in multiple states simultaneously, in AI models refers to the ability to represent more features or concepts than the number of dimensions or neurons available. In neural networks, particularly LLMs, this means that the same set of parameters can encode multiple linguistic patterns, semantic meanings, and world knowledge, leveraging overlapping representations. This is facilitated by the nonlinear activations (e.g., ReLU) within the network, which allow for the disentanglement of these representations during inference.
