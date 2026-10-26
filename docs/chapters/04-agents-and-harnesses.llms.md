@@ -10,6 +10,12 @@ Published
 - **A harness** is the runtime / scaffolding that turns a raw language model into a working agent.
   - ***The harness** is the engine and chassis. **The agent** is the driver + the behavior that emerges once the model is running inside that chassis.*
 
+## Agent Harness Diagram
+
+![](./assets/images/agent-harness-diagram.png "Agent Harness Diagram")
+
+Agent Harness Diagram
+
 ### More precise breakdown
 
 | Concept | What it is | Examples |
