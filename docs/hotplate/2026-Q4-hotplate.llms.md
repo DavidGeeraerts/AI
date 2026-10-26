@@ -2,13 +2,24 @@ Published
 
 2026-10-26
 
-## 🔥 Hotplate (Quarterly Release Cycle)
+# 🔥 Hotplate (Quarterly Release Cycle)
 
-### 📰 General AI vibe for 2026 Q4 {October, November, December}
+## 📰 General AI vibe for 2026 Q4 {October, November, December}
 
 🧭 Building and refining open-source agent harnesses for long-running and autonomous work (LOOP for efficiency and duration, OpenHands and OpenCode for coding, goose for general MCP-native use), combined with heavy adoption of MCP tools, persistent memory systems, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can actually run yourself, keep fully under your control, and host on your own hardware or cheap VPS ([Virtual Private Server](https://cloud.google.com/learn/what-is-a-virtual-private-server)).
 
 ------------------------------------------------------------------------
+
+## [UNBROKER](https://github.com/NousResearch/hermes-agent/tree/main/optional-skills/security/unbroker)
+
+> is an optional Hermes Agent skill that autonomously finds and removes a consenting person’s personal information from data-broker and people-search sites.
+
+## NVIDIA \[OpenShell\]\[(https://www.nvidia.com/en-us/ai/openshell/)
+
+> is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.
+
+- [NVIDIA YouTube Summary](https://youtu.be/GYYP-eW58ug?si=cEg8YqMXA8lZ26c-)
+- [NVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents \| Nemotron Labs](https://www.youtube.com/live/izFGht5VDL8?si=z6VrOgSXwqWB-jZz)
 
 #### Harnesses (the runtime that turns a model into an agent)
 

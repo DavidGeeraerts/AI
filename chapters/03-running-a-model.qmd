@@ -218,3 +218,35 @@ A backdoored or triggerable model (or a poisoned chat template) is only as dange
 5. **Separate secrets from the model’s working environment** — Do not give the process access to credentials it does not need.
 
 **Bottom line:** Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.
+
+
+
+## NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.
+
+### Core Idea
+Security is enforced in the environment rather than inside the model or agent code. Nothing is allowed by default. Permissions are granted through explicit policies, and enforcement occurs outside the agent’s process so it cannot be bypassed or “prompted away.” All allow/deny decisions are fully auditable. It works with any model, agent harness, or framework across cloud, hybrid, on-premises, edge, and air-gapped environments under a single policy layer.
+
+### Key Benefits
+- **Agent governance outside the model**: Separates agent behavior from environment interactions; every action is monitored and controlled.
+- **Zero-trust access**: Deny-by-default model with intent-based permissions enforced externally.
+- **Safe operation of agent fleets**: Unified policy enforcement for open or closed models and various harnesses at scale.
+
+### Main Components
+- **Agent Sandboxes**: Isolated environments with no direct network access, privilege restrictions, file limits, and kernel-level system-call filtering. Requests are brokered through a secured channel.
+- **Policy Prover**: Formal verification engine that checks policies stay within allowed boundaries and evaluates network rules for risk.
+- **Gateway**: Control plane that authenticates users, manages sandbox lifecycles, delivers policies/credentials, and brokers access.
+- **Supervisor**: Runtime overseer outside the sandbox that evaluates network requests against policy (at binary, destination, method, and path levels), supplies credentials only when allowed, applies live policy updates, and logs every decision.
+
+### Reference Architecture
+A full-stack setup powered by the OpenShell runtime, NVIDIA Vera CPUs, Vera Rubin systems, and NVIDIA Sentry on BlueField-4 for industrial-scale safe agents in AI factories, enterprise settings, and at the edge.
+
+### Who It’s For & What It Supports
+Primarily developers building autonomous agents, platform teams, and security/IT teams that need to enable agent use without granting broad host, network, credential, or model access. It is model- and harness-agnostic (supports Claude Code, Codex, GitHub Copilot CLI, LangChain Deep Agents, custom agents, etc.) and is not itself an agent framework—it sits underneath them. It goes beyond simple containers/pods by adding agent-specific controls for lifelong governance, credential handling, egress policy, inference routing, and multi-agent workflows.
+
+OpenShell is open source (available on GitHub), runs on Docker, Podman, Kubernetes (via Helm), and experimental runtimes, works with NVIDIA DGX systems, supports cloud model endpoints via a policy-aware router, and does not require Vera CPUs (though they provide performance and efficiency gains).
+
+
+
+### Technical Resources
+- [NVIDIA YouTube Summary](https://youtu.be/GYYP-eW58ug?si=cEg8YqMXA8lZ26c-)
+- [NVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs](https://www.youtube.com/live/izFGht5VDL8?si=z6VrOgSXwqWB-jZz)

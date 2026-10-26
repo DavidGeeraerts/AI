@@ -3,7 +3,7 @@
 
 <!-- HOTPLATE:START -->
 
-Read the latest hotplate: [2026-Q4-hotplate](2026-Q4-hotplate.qmd)
+:fire: Read the latest hotplate: [2026-Q4-hotplate](2026-Q4-hotplate.qmd)
 
 <!-- HOTPLATE:END -->
 
@@ -17,9 +17,6 @@ Go to website: [Book of AI](https://davidgeeraerts.github.io/AI)
 
 ## Quotes
 > "Not all benchmarks lie, but all liars benchmark"
-
-## [Glossory](Glossory.md)
-## [Notes](Notes.md)
 
 ## History
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._

@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-23
+2026-10-26
 
 ## A
 
@@ -719,6 +719,10 @@ DPR is trained using a contrastive learning objective, where the model learns to
 ### FP{8,16,32} Training Process
 
 > is a training process that uses mixed-precision training to accelerate the training of deep learning models. Reduces memory usage and accelerates computation in deep learning, particularly beneficial for large models (e.g., transformers). FP{8,16,32} refers to the precision of floating-point numbers used to represent the model’s parameters during training. By using lower-precision floating-point numbers (e.g., FP16), the training process can be accelerated while maintaining model accuracy. This technique is particularly useful for training large models on GPUs or TPUs. FP8 training optimizes the trade-off between computational efficiency and numerical precision, making it pivotal for next-gen AI models. By integrating dynamic scaling and mixed-precision techniques, it achieves significant speed and memory gains while maintaining model accuracy. Adoption requires compatible hardware and careful implementation but offers transformative benefits for scalable AI training.
+
+### Frontier Model
+
+> is a term used to describe a cutting-edge, state-of-the-art model that pushes the boundaries of what is currently possible in artificial intelligence. Frontier models are typically large-scale, high-performance models that demonstrate advanced capabilities in natural language processing, computer vision, or other AI domains. These models often serve as benchmarks for evaluating new techniques and approaches in AI research. The term is relative and time-dependent: today’s frontier model can become mid-tier as stronger systems appear. These models are typically large-scale foundation models (often multimodal) trained with the highest compute budgets of their generation. They excel at complex reasoning, coding, multi-step tool use, and other demanding tasks that weaker or older models cannot reliably handle.
 
 ------------------------------------------------------------------------
 

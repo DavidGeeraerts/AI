@@ -126,7 +126,7 @@ autonomy when selecting a model.
 | [**BenchLM**](https://benchlm.ai/) | Aggregator | Combines many sources into overall indices | Depends on underlying benchmarks; not a primary eval itself | Useful meta-view, not a standalone benchmark |
 | **Mensa Norway IQ Test** | Niche | Attempts IQ-style scoring | Narrow, not standard in frontier AI evaluation | Rarely used for serious model comparison |
 | **WebDev Arena** | Specialized | Web development tasks | Narrow domain | Useful only if you care specifically about web-dev agents |
-
+| [**Humanity's Last Exam**](https://lastexam.ai/) (HLE) | Active frontier benchmark | Expert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom | Score variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor               | **Yes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks** |
 
 
 ## Base Model Data

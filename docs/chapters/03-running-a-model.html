@@ -736,6 +736,46 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Separate secrets from the model’s working environment</strong> — Do not give the process access to credentials it does not need.</li>
 </ol>
 <p><strong>Bottom line:</strong> Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.</p>
+</section>
+</section>
+<section id="nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application." class="level2">
+<h2 class="anchored" data-anchor-id="nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application.">NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.</h2>
+<section id="core-idea" class="level3">
+<h3 class="anchored" data-anchor-id="core-idea">Core Idea</h3>
+<p>Security is enforced in the environment rather than inside the model or agent code. Nothing is allowed by default. Permissions are granted through explicit policies, and enforcement occurs outside the agent’s process so it cannot be bypassed or “prompted away.” All allow/deny decisions are fully auditable. It works with any model, agent harness, or framework across cloud, hybrid, on-premises, edge, and air-gapped environments under a single policy layer.</p>
+</section>
+<section id="key-benefits" class="level3">
+<h3 class="anchored" data-anchor-id="key-benefits">Key Benefits</h3>
+<ul>
+<li><strong>Agent governance outside the model</strong>: Separates agent behavior from environment interactions; every action is monitored and controlled.</li>
+<li><strong>Zero-trust access</strong>: Deny-by-default model with intent-based permissions enforced externally.</li>
+<li><strong>Safe operation of agent fleets</strong>: Unified policy enforcement for open or closed models and various harnesses at scale.</li>
+</ul>
+</section>
+<section id="main-components" class="level3">
+<h3 class="anchored" data-anchor-id="main-components">Main Components</h3>
+<ul>
+<li><strong>Agent Sandboxes</strong>: Isolated environments with no direct network access, privilege restrictions, file limits, and kernel-level system-call filtering. Requests are brokered through a secured channel.</li>
+<li><strong>Policy Prover</strong>: Formal verification engine that checks policies stay within allowed boundaries and evaluates network rules for risk.</li>
+<li><strong>Gateway</strong>: Control plane that authenticates users, manages sandbox lifecycles, delivers policies/credentials, and brokers access.</li>
+<li><strong>Supervisor</strong>: Runtime overseer outside the sandbox that evaluates network requests against policy (at binary, destination, method, and path levels), supplies credentials only when allowed, applies live policy updates, and logs every decision.</li>
+</ul>
+</section>
+<section id="reference-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="reference-architecture">Reference Architecture</h3>
+<p>A full-stack setup powered by the OpenShell runtime, NVIDIA Vera CPUs, Vera Rubin systems, and NVIDIA Sentry on BlueField-4 for industrial-scale safe agents in AI factories, enterprise settings, and at the edge.</p>
+</section>
+<section id="who-its-for-what-it-supports" class="level3">
+<h3 class="anchored" data-anchor-id="who-its-for-what-it-supports">Who It’s For &amp; What It Supports</h3>
+<p>Primarily developers building autonomous agents, platform teams, and security/IT teams that need to enable agent use without granting broad host, network, credential, or model access. It is model- and harness-agnostic (supports Claude Code, Codex, GitHub Copilot CLI, LangChain Deep Agents, custom agents, etc.) and is not itself an agent framework—it sits underneath them. It goes beyond simple containers/pods by adding agent-specific controls for lifelong governance, credential handling, egress policy, inference routing, and multi-agent workflows.</p>
+<p>OpenShell is open source (available on GitHub), runs on Docker, Podman, Kubernetes (via Helm), and experimental runtimes, works with NVIDIA DGX systems, supports cloud model endpoints via a policy-aware router, and does not require Vera CPUs (though they provide performance and efficiency gains).</p>
+</section>
+<section id="technical-resources" class="level3">
+<h3 class="anchored" data-anchor-id="technical-resources">Technical Resources</h3>
+<ul>
+<li><a href="https://youtu.be/GYYP-eW58ug?si=cEg8YqMXA8lZ26c-">NVIDIA YouTube Summary</a></li>
+<li><a href="https://www.youtube.com/live/izFGht5VDL8?si=z6VrOgSXwqWB-jZz">NVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs</a></li>
+</ul>
 
 
 </section>
