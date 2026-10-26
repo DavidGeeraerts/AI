@@ -33,6 +33,10 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 
 > A software engineer who designs, builds, and operates production AI agent systems. This involves creating reliable, multi-step autonomous systems that can reason, plan, use tools, maintain state, and recover from errors, typically through iterative cycles of building, evaluating, observing, and refining non-deterministic LLM-based workflows.
 
+### Agentic engineering stack
+
+> The layered set of models, harnesses, tools, memory, orchestration, and governance required to make AI agents reliable and controllable in real work. Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.
+
 ### (AGI) Artificial General Intelligence
 
 > is a hypothetical AI system that possesses the ability to understand, learn, and apply knowledge across a wide range of tasks and domains, similar to human intelligence. AGI aims to replicate the general cognitive abilities of humans, such as reasoning, problem-solving, and creativity, in an artificial system. Achieving AGI is a long-term goal of AI research and development.

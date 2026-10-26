@@ -402,8 +402,12 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://console.typesafe.ai/home">TypeSafe</a></li>
 <li><a href="https://chat.z.ai/">Z</a> (GLM)</li>
 </ul>
-<section id="running-ai-models-locally" class="level3">
-<h3 class="anchored" data-anchor-id="running-ai-models-locally">Running AI Models Locally</h3>
+</section>
+<section id="physical-hardware" class="level2">
+<h2 class="anchored" data-anchor-id="physical-hardware">Physical Hardware</h2>
+</section>
+<section id="running-ai-models-locally" class="level2">
+<h2 class="anchored" data-anchor-id="running-ai-models-locally">Running AI Models Locally</h2>
 <ul>
 <li><a href="https://ollama.com">Ollama</a> — CLI + local OpenAI-compatible API (most popular for developers)</li>
 <li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
@@ -479,14 +483,12 @@ ul.task-list li input[type="checkbox"] {
 <li>You want the absolute simplest CLI workflow (ollama run model).</li>
 </ul>
 </section>
-</section>
-</section>
-<section id="local-first-inference" class="level2">
-<h2 class="anchored" data-anchor-id="local-first-inference">Local-first inference</h2>
+<section id="local-first-inference" class="level3">
+<h3 class="anchored" data-anchor-id="local-first-inference">Local-first inference</h3>
 <p><strong>RamaLama vs Ollama — key differences</strong></p>
 <p>Both tools let you run large language models locally, but they take different approaches.</p>
-<section id="quick-summary" class="level3">
-<h3 class="anchored" data-anchor-id="quick-summary">Quick summary</h3>
+<section id="quick-summary" class="level4">
+<h4 class="anchored" data-anchor-id="quick-summary">Quick summary</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 21%">
@@ -549,12 +551,13 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="main-philosophical-difference" class="level3">
-<h3 class="anchored" data-anchor-id="main-philosophical-difference">Main philosophical difference</h3>
+<section id="main-philosophical-difference" class="level4">
+<h4 class="anchored" data-anchor-id="main-philosophical-difference">Main philosophical difference</h4>
 <ul>
 <li><strong>Ollama</strong> optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.</li>
 <li><strong>RamaLama</strong> optimizes for <em>making AI work like containers</em>. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.</li>
 </ul>
+</section>
 </section>
 <section id="practical-implications" class="level3">
 <h3 class="anchored" data-anchor-id="practical-implications">Practical implications</h3>

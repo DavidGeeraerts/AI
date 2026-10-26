@@ -26,7 +26,9 @@ Published
 - [TypeSafe](https://console.typesafe.ai/home)
 - [Z](https://chat.z.ai/) (GLM)
 
-### Running AI Models Locally
+## Physical Hardware
+
+## Running AI Models Locally
 
 - [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
 - [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
@@ -55,13 +57,13 @@ Published
 - You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).
 - You want the absolute simplest CLI workflow (ollama run model).
 
-## Local-first inference
+### Local-first inference
 
 **RamaLama vs Ollama — key differences**
 
 Both tools let you run large language models locally, but they take different approaches.
 
-### Quick summary
+#### Quick summary
 
 | Aspect | **Ollama** | **RamaLama** |
 |----|----|----|
@@ -75,7 +77,7 @@ Both tools let you run large language models locally, but they take different ap
 | **Commands feel like** | `ollama run`, `ollama pull`, etc. | Familiar container-style: `ramalama run`, `pull`, `serve`, `push` |
 | **Best for** | Easiest “just chat with a local model” experience | People who already use containers and want the same workflow + stronger isolation |
 
-### Main philosophical difference
+#### Main philosophical difference
 
 - **Ollama** optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.
 - **RamaLama** optimizes for *making AI work like containers*. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.

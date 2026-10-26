@@ -51,6 +51,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/bootstrap/bootstrap-dark-8b348f4b4b74a528bf910da1e8c5139e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/glossary/glossary.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -380,11 +381,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The Book of Agentic AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.</p>
+<p>The Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.</p>
+<p>This book focuses on <a href="https://davidgeeraerts.github.io/AI/appendices/Glossary.html#agentic-engineer"><button class="glossary" title="">Agentic Engineer</button></a> — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the <a href="https://davidgeeraerts.github.io/AI/appendices/Glossary.html#agentic-engineering-stack"><button class="glossary" title="The layered set of models, harnesses, tools, memory, orchestration, and governance required to make AI agents reliable and controllable in real work. Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.">Agentic engineering stack</button></a>: the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.</p>
 <p>The quarterly <a href="../hotplate/2026-Q4-hotplate.html">Hotplate</a> offers a snapshot of the current landscape. The 2026 Q4 edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.</p>
 <p>Use this book as a living toolkit: consult the chapters for practical orientation, and follow the linked source materials and quarterly snapshots as the landscape changes.</p>
+<section id="the-shift-to-agentic-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="the-shift-to-agentic-engineering">The Shift to Agentic Engineering</h2>
+<p>As artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.</p>
+<p>To build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:</p>
+<p>The Reasoning Engine: The foundational models that interpret intent and drive logic.</p>
+<p>Orchestration &amp; Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).</p>
+<p>Tooling &amp; Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.</p>
+<p>Memory &amp; State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.</p>
+<p>Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
