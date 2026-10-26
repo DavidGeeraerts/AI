@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-23">
+<meta name="dcterms.date" content="2026-10-26">
 
 <title>Agents and Harnesses – The Book of AI</title>
 <style>
@@ -368,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-23</p>
+      <p class="date">2026-10-26</p>
     </div>
   </div>
   
@@ -380,9 +380,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="agents-and-harnesses" class="level1">
-<h1>Agents and Harnesses</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<ul>
+<li><strong>An agent</strong> is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.</li>
+<li><strong>A harness</strong> is the runtime / scaffolding that turns a raw language model into a working agent.
+<ul>
+<li><em><strong>The harness</strong> is the engine and chassis. <strong>The agent</strong> is the driver + the behavior that emerges once the model is running inside that chassis.</em></li>
+</ul></li>
+</ul>
+<section id="more-precise-breakdown" class="level3">
+<h3 class="anchored" data-anchor-id="more-precise-breakdown">More precise breakdown</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Concept</th>
+<th style="text-align: left;">What it is</th>
+<th style="text-align: left;">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Model</strong></td>
+<td style="text-align: left;">The raw intelligence (weights)</td>
+<td style="text-align: left;">Qwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Harness</strong></td>
+<td style="text-align: left;">The runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.</td>
+<td style="text-align: left;">Hermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Agent</strong></td>
+<td style="text-align: left;">The resulting autonomous system that actually does work</td>
+<td style="text-align: left;">Copilot, OpenCode, Agent Zero</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The harness determines:</strong> - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it</p>
+<p>A good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages</p>
 <p>A harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.</p>
+</section>
+</section>
 <section id="modern-harnesses" class="level2">
 <h2 class="anchored" data-anchor-id="modern-harnesses">Modern harnesses</h2>
 <table class="caption-top table">
@@ -533,7 +577,6 @@ ul.task-list li input[type="checkbox"] {
 <p>Practical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.</p>
 
 
-</section>
 </section>
 </section>
 

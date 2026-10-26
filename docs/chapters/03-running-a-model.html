@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-23">
+<meta name="dcterms.date" content="2026-10-26">
 
 <title>Running a Model – The Book of AI</title>
 <style>
@@ -368,7 +368,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-23</p>
+      <p class="date">2026-10-26</p>
     </div>
   </div>
   
@@ -380,7 +380,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This chapter covers local and hybrid inference: getting a model running, serving it, and making it available to agents.</p>
+<section id="webonline-models" class="level2">
+<h2 class="anchored" data-anchor-id="webonline-models">Web/Online Models</h2>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.anthropic.com/">Anthropic</a> - <a href="https://claude.ai/">Claude</a></li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a> - <a href="https://chat.deepseek.com/">Chat</a></li>
+<li><a href="https://github.com/marketplace/models">GitHub Models</a></li>
+<li><a href="https://ai.google/">Google</a> - <a href="https://gemini.google.com/">Gemini</a> / <a href="https://aistudio.google.com/">AI Studio</a></li>
+<li><a href="https://grok.com/">Grok</a> (xAI)</li>
+<li><a href="https://www.ibm.com/granite/playground/">IBM Granite</a></li>
+<li><a href="https://kimi.moonshot.cn/">Kimi</a> (Moonshot AI)</li>
+<li><a href="https://mammouth.ai/">Mammouth</a> - Multi-model selector</li>
+<li><a href="https://www.meta.ai/">Meta AI</a></li>
+<li><a href="https://copilot.microsoft.com/">Microsoft Copilot</a></li>
+<li><a href="https://chat.mistral.ai/">Mistral</a></li>
+<li><a href="https://openai.com/">OpenAI</a> - <a href="https://chatgpt.com/">ChatGPT</a></li>
+<li><a href="https://www.perplexity.ai/">Perplexity</a></li>
+<li><a href="https://chat.qwen.ai/">Qwen</a> (Alibaba)</li>
+<li><a href="https://www.together.ai/">Together AI</a></li>
+<li><a href="https://console.typesafe.ai/home">TypeSafe</a></li>
+<li><a href="https://chat.z.ai/">Z</a> (GLM)</li>
+</ul>
+<section id="running-ai-models-locally" class="level3">
+<h3 class="anchored" data-anchor-id="running-ai-models-locally">Running AI Models Locally</h3>
+<ul>
+<li><a href="https://ollama.com">Ollama</a> — CLI + local OpenAI-compatible API (most popular for developers)</li>
+<li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
+<li><a href="https://jan.ai/">Jan</a> — Fully open-source desktop app (privacy-focused)</li>
+<li><a href="https://openwebui.com/">Open WebUI</a> — Self-hosted web UI (excellent with Ollama)</li>
+<li><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> — Core inference engine (GGUF, maximum control)</li>
+<li><a href="https://github.com/LostRuins/koboldcpp">KoboldCpp</a> — Easy single-binary runner with built-in UI</li>
+<li><a href="https://github.com/vllm-project/vllm">vLLM</a> — High-throughput serving (multi-user / production)</li>
+<li><a href="https://www.jan.ai/">jan</a> - run models locally, with cloud integration, MCP support.</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 41%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th><strong>LM Studio</strong></th>
+<th><strong>Ollama</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Primary focus</strong></td>
+<td>Polished desktop GUI for discovery, chat &amp; experimentation</td>
+<td>CLI + background service for scripting, APIs &amp; integrations</td>
+</tr>
+<tr class="even">
+<td><strong>License</strong></td>
+<td>Proprietary (free for personal + internal business use)</td>
+<td>Fully open-source (MIT)</td>
+</tr>
+<tr class="odd">
+<td><strong>Interface</strong></td>
+<td>Excellent GUI + CLI (<code>lms</code>) + headless daemon (<code>llmster</code>)</td>
+<td>CLI-first + local API; has added a basic desktop app</td>
+</tr>
+<tr class="even">
+<td><strong>Model discovery</strong></td>
+<td>Built-in Hugging Face browser with size/VRAM estimates</td>
+<td>Curated library + simple <code>ollama pull model:tag</code></td>
+</tr>
+<tr class="odd">
+<td><strong>API</strong></td>
+<td>OpenAI- + Anthropic-compatible (port 1234)</td>
+<td>OpenAI-compatible + native endpoints (port 11434)</td>
+</tr>
+<tr class="even">
+<td><strong>Best hardware edge</strong></td>
+<td>Stronger MLX performance on Apple Silicon</td>
+<td>Lower overhead, often slightly faster on NVIDIA</td>
+</tr>
+<tr class="odd">
+<td><strong>Headless/server</strong></td>
+<td>Yes (llmster since early 2026)</td>
+<td>Native from the start (systemd/Docker-friendly)</td>
+</tr>
+<tr class="even">
+<td><strong>Extras</strong></td>
+<td>Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching</td>
+<td>Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models</td>
+</tr>
+</tbody>
+</table>
+<section id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool." class="level4">
+<h4 class="anchored" data-anchor-id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool.">When Ollama is usually better: You want a fully open-source, auditable tool.</h4>
+<ul>
+<li>You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).</li>
+<li>You need Docker, Kubernetes, or long-running headless servers with minimal footprint.</li>
+<li>You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).</li>
+<li>You want the absolute simplest CLI workflow (ollama run model).</li>
+</ul>
+</section>
+</section>
+</section>
 <section id="local-first-inference" class="level2">
 <h2 class="anchored" data-anchor-id="local-first-inference">Local-first inference</h2>
 <p><strong>RamaLama vs Ollama — key differences</strong></p>

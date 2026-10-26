@@ -2,9 +2,58 @@
 
 Published
 
-2026-10-23
+2026-10-26
 
-This chapter covers local and hybrid inference: getting a model running, serving it, and making it available to agents.
+## Web/Online Models
+
+(Order by Name ↑)
+
+- [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/)
+- [DeepSeek](https://www.deepseek.com/) - [Chat](https://chat.deepseek.com/)
+- [GitHub Models](https://github.com/marketplace/models)
+- [Google](https://ai.google/) - [Gemini](https://gemini.google.com/) / [AI Studio](https://aistudio.google.com/)
+- [Grok](https://grok.com/) (xAI)
+- [IBM Granite](https://www.ibm.com/granite/playground/)
+- [Kimi](https://kimi.moonshot.cn/) (Moonshot AI)
+- [Mammouth](https://mammouth.ai/) - Multi-model selector
+- [Meta AI](https://www.meta.ai/)
+- [Microsoft Copilot](https://copilot.microsoft.com/)
+- [Mistral](https://chat.mistral.ai/)
+- [OpenAI](https://openai.com/) - [ChatGPT](https://chatgpt.com/)
+- [Perplexity](https://www.perplexity.ai/)
+- [Qwen](https://chat.qwen.ai/) (Alibaba)
+- [Together AI](https://www.together.ai/)
+- [TypeSafe](https://console.typesafe.ai/home)
+- [Z](https://chat.z.ai/) (GLM)
+
+### Running AI Models Locally
+
+- [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
+- [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
+- [Jan](https://jan.ai/) — Fully open-source desktop app (privacy-focused)
+- [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
+- [KoboldCpp](https://github.com/LostRuins/koboldcpp) — Easy single-binary runner with built-in UI
+- [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving (multi-user / production)
+- [jan](https://www.jan.ai/) - run models locally, with cloud integration, MCP support.
+
+| Aspect | **LM Studio** | **Ollama** |
+|----|----|----|
+| **Primary focus** | Polished desktop GUI for discovery, chat & experimentation | CLI + background service for scripting, APIs & integrations |
+| **License** | Proprietary (free for personal + internal business use) | Fully open-source (MIT) |
+| **Interface** | Excellent GUI + CLI (`lms`) + headless daemon (`llmster`) | CLI-first + local API; has added a basic desktop app |
+| **Model discovery** | Built-in Hugging Face browser with size/VRAM estimates | Curated library + simple `ollama pull model:tag` |
+| **API** | OpenAI- + Anthropic-compatible (port 1234) | OpenAI-compatible + native endpoints (port 11434) |
+| **Best hardware edge** | Stronger MLX performance on Apple Silicon | Lower overhead, often slightly faster on NVIDIA |
+| **Headless/server** | Yes (llmster since early 2026) | Native from the start (systemd/Docker-friendly) |
+| **Extras** | Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching | Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models |
+
+#### When Ollama is usually better: You want a fully open-source, auditable tool.
+
+- You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).
+- You need Docker, Kubernetes, or long-running headless servers with minimal footprint.
+- You prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).
+- You want the absolute simplest CLI workflow (ollama run model).
 
 ## Local-first inference
 

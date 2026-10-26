@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-16">
+<meta name="dcterms.date" content="2026-10-26">
 
 <title>q4-hotplate – The Book of AI</title>
 <style>
@@ -380,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-16</p>
+      <p class="date">2026-10-26</p>
     </div>
   </div>
   
@@ -459,11 +459,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="mcp" class="level4">
 <h4 class="anchored" data-anchor-id="mcp"><a href="https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro"><strong>MCP</strong></a></h4>
+<blockquote class="blockquote">
 <p>is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.</p>
+</blockquote>
 </section>
 <section id="kernel" class="level4">
 <h4 class="anchored" data-anchor-id="kernel"><a href="https://www.kernel.sh/">KERNEL</a></h4>
+<blockquote class="blockquote">
 <p>is a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, <strong><em>anti-bot bypass</em></strong>, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).</p>
+</blockquote>
+</section>
+<section id="hermes-webui" class="level4">
+<h4 class="anchored" data-anchor-id="hermes-webui"><a href="https://github.com/nesquena/hermes-webui">HERMES WebUI</a></h4>
+<blockquote class="blockquote">
+<p>is a lightweight, dark-themed web app interface in your browser for Hermes Agent. Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS.</p>
+</blockquote>
+</section>
+<section id="honcho" class="level4">
+<h4 class="anchored" data-anchor-id="honcho"><a href="https://honcho.dev/">HONCHO</a></h4>
+<blockquote class="blockquote">
+<p>is open-source AI memory for agents. It remembers each user across sessions, tools and machines, so no session starts cold. Pairs well with <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>. <a href="https://honcho.dev/docs/v3/guides/integrations/hermes">Setup guide</a>.</p>
+</blockquote>
 </section>
 <section id="openwaldo" class="level4">
 <h4 class="anchored" data-anchor-id="openwaldo"><a href="https://openwaldo.org/">OpenWaldo</a></h4>
@@ -502,22 +518,32 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="jev" class="level3">
 <h3 class="anchored" data-anchor-id="jev"><a href="https://jevmodel.org/">JEV</a></h3>
+<blockquote class="blockquote">
 <p>A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.</p>
+</blockquote>
 <section id="spynel" class="level4">
 <h4 class="anchored" data-anchor-id="spynel"><a href="https://github.com/agent0ai/spynel">SpyNEL</a></h4>
+<blockquote class="blockquote">
 <p>Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.</p>
+</blockquote>
 </section>
 <section id="dox" class="level4">
 <h4 class="anchored" data-anchor-id="dox"><a href="https://github.com/agent0ai/dox">DOX</a></h4>
+<blockquote class="blockquote">
 <p>DOX is a lightweight <code>AGENTS.md</code> framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.</p>
+</blockquote>
 </section>
 <section id="ajax" class="level4">
 <h4 class="anchored" data-anchor-id="ajax"><a href="https://data.pewdiepie.com/">Ajax</a></h4>
+<blockquote class="blockquote">
 <p>Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.</p>
+</blockquote>
 </section>
 <section id="odysseus" class="level4">
 <h4 class="anchored" data-anchor-id="odysseus"><a href="https://odysseusai.dev/">Odysseus</a></h4>
+<blockquote class="blockquote">
 <p>Odysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.</p>
+</blockquote>
 </section>
 <section id="benchlm" class="level4">
 <h4 class="anchored" data-anchor-id="benchlm"><a href="https://benchlm.ai/">BenchLM</a></h4>
@@ -530,7 +556,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="capsem" class="level3">
 <h3 class="anchored" data-anchor-id="capsem"><a href="https://docs.capsem.org/getting-started/intro/">Capsem</a></h3>
+<blockquote class="blockquote">
 <p>is a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host. Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.</p>
+</blockquote>
 <!-- HOTPLATE:END -->
 
 

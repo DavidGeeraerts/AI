@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-23
+2026-10-26
 
 The Book of Agentic AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.
 

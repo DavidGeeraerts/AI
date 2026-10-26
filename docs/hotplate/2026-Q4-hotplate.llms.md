@@ -1,6 +1,6 @@
 Published
 
-2026-10-16
+2026-10-26
 
 ## 🔥 Hotplate (Quarterly Release Cycle)
 
@@ -31,11 +31,19 @@ Published
 
 #### [**MCP**](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
 
-is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.
+> is now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.
 
 #### [KERNEL](https://www.kernel.sh/)
 
-is a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, ***anti-bot bypass***, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).
+> is a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, ***anti-bot bypass***, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).
+
+#### [HERMES WebUI](https://github.com/nesquena/hermes-webui)
+
+> is a lightweight, dark-themed web app interface in your browser for Hermes Agent. Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS.
+
+#### [HONCHO](https://honcho.dev/)
+
+> is open-source AI memory for agents. It remembers each user across sessions, tools and machines, so no session starts cold. Pairs well with [Hermes Agent](https://github.com/NousResearch/hermes-agent). [Setup guide](https://honcho.dev/docs/v3/guides/integrations/hermes).
 
 #### [OpenWaldo](https://openwaldo.org/)
 
@@ -51,23 +59,23 @@ OpenWALDO brings everything people expect from open source to AI: a community an
 
 ### [JEV](https://jevmodel.org/)
 
-A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.
+> A (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.
 
 #### [SpyNEL](https://github.com/agent0ai/spynel)
 
-Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.
+> Lightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.
 
 #### [DOX](https://github.com/agent0ai/dox)
 
-DOX is a lightweight `AGENTS.md` framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.
+> DOX is a lightweight `AGENTS.md` framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.
 
 #### [Ajax](https://data.pewdiepie.com/)
 
-Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
+> Ajax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.
 
 #### [Odysseus](https://odysseusai.dev/)
 
-Odysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.
+> Odysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.
 
 #### [BenchLM](https://benchlm.ai/)
 
@@ -79,6 +87,6 @@ Heretic removes restrictions (abliteration parameters) from language models, mak
 
 ### [Capsem](https://docs.capsem.org/getting-started/intro/)
 
-is a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host. Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.
+> is a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host. Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.
 
 Back to top

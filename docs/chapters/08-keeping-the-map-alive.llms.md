@@ -4,10 +4,6 @@ Published
 
 2026-10-23
 
-# Keeping the Map Alive
-
-AI tools and model capabilities change quickly. Treat this book as a living resource and revisit it as the landscape evolves.
-
 ## Maintaining the quarterly Hotplate
 
 Review the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.

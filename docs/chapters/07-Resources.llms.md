@@ -1,8 +1,8 @@
+# Resources
+
 Published
 
-2026-10-23
-
-# Resources
+2026-10-26
 
 ## X Agentic-Engineering Lists
 
@@ -10,7 +10,7 @@ Published
 
 ## AI \[blog\] Resources
 
-Prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
+prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
 
 (Order by Name ↑)
 
@@ -30,5 +30,81 @@ Prioritise independent writers, technical depth, open-model communities, and low
 - [The Batch](https://www.deeplearning.ai/the-batch/) (Andrew Ng)
 - [The Gradient](https://thegradient.pub/)
 - [Turning Post](https://www.turingpost.com/)
+
+## YouTube Videos & Channels
+
+(Sorted by Publication Date ↓) - 2026-10-25 [ExplainingComputers: GPU Upgrade for Local AI](https://youtu.be/9G3d9MwKAW8?si=iGiwi8FrJnkCm2B4) - 2026-10-21 [Kai: I Tested Every Best Local AI For GPU (8GB TO 24GB VRAM)](https://youtu.be/ugKAkCVBcz0?si=aRJ9Rx0guKR-Bls6) - 2026-10-21 [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr) - 2026-10-19 [AI Engineer: Is the Agent Harness Dead? — Jediah Katz, SpaceXA](https://www.youtube.com/watch?v=7Y4sbZgBdnc) - 2026-10-19 [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72) - 2026-10-11 [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR) - 2026-09-21 [Why I couldn’t build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX) - 2026-05-13 [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) - 2026-03-26 [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-) - 2025-04-28 [Logically Answered: AMD’s \$243 Billion AI Disaster…What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M) - 2025-04022 [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP) - 2025-03-05 [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c) - 2025-02-05 [Andrej Karpathy: Deep Dive into LLMs like ChatGPT](https://youtu.be/7xTGNNLPyMI?si=u2q8zaBubzTCPKC7) - 2025-02-02 [Lex Fridman: DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters \| Lex Fridman Podcast \#459](https://youtu.be/_1f-o0nqpEI?si=b3xO1D6jP-5g06e8) - 2025-01-29 [Peter H. Diamandis: DeepSeek vs. Open AI - The State of AI w/ Emad Mostaque & Salim Ismail \| EP \#146](https://youtu.be/lY8Ja00PCQM?si=71XmR5B_VikMcYCg) - 2024-11-11 [Lex Fridman: Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity \| Lex Fridman Podcast \#452](https://youtu.be/ugvHCXCOmm4?si=QekDqk5yuNA5fR1H) - 2024-09-09 [IBM Technology: RAG vs. Fine Tuning](https://youtu.be/00Q0G84kq3M?si=iJn3KAoFzOMM8a-L) - 2024-04-01 [3Blue1Brown: Neural networks Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok) - 2023-08-23 [IBM Technology: What is Retrieval-Augmented Generation (RAG)?](https://youtu.be/T-D1OfcDW1M?si=Uv-M2QcZL7WIJi40) - 2018-07-30 [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-) - [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
+
+## Articles
+
+(Sorted by Publication Date ↓)
+
+- 2026-09-11 [Lies, Damned Lies, and Benchmarks](https://www.completeskeptic.com/p/lies-damned-lies-and-benchmarks)
+- 2026-09-09 [(KV) Cache Rules Everything Around Me](https://www.completeskeptic.com/p/kv-cache-rules-everything-around)
+- 2026-08-27 [Pivot to AI: Your AGENTS.md file doesn’t actually do anything](https://pivot-to-ai.com/2026/08/27/your-agents-md-file-doesnt-actually-do-anything/)
+- 2025-02-12 [Unlocking the Effective Context Length: Benchmarking the Granite-3.1-8b Model](https://www.redhat.com/en/blog/unlocking-effective-context-length-benchmarking-granite-31-8b-model)
+- 2025-02-02 [A Detailed Analysis of Fine-Tuning, Direct Preference Optimization (DPO), and Reinforcement Learning with Verifiable Rewards (RLVR) on the LLama3.1 405B Model](https://medium.com/@zhouboyang1983/a-detailed-analysis-of-fine-tuning-direct-preference-optimization-dpo-and-reinforcement-c24d9061cd84)
+- 2025-01-31 [DeepSeek-V3 Explained 1: Multi-head Latent Attention](https://towardsdatascience.com/deepseek-v3-explained-1-multi-head-latent-attention-ed6bee2a67c4/)
+- 2025-01-19 [Top 5 Mistakes to Avoid When Learning Machine Learning](https://apxml.com/posts/top-mistakes-when-learning-machine-learning)
+- 2024-10-02 [How to Get Started with Machine Learning: A Beginner’s Step-by-Step Guide](https://apxml.com/posts/get-started-with-machine-learning-guide)
+- 2024-07-13 [MHA vs MQA vs GQA vs MLA](https://medium.com/@zaiinn440/mha-vs-mqa-vs-gqa-vs-mla-c6cf8285bbec)
+- 2020-00-00 [Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition](https://robbieallen.medium.com/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc)
+
+## AI Publication Websites
+
+(Order by Name ↑)
+
+- [arxiv](https://arxiv.org/list/cs.AI/recent)
+
+## AI Publications
+
+(Sorted by Publication Date ↓)
+
+- 2025-04-25 [BitNet b1.58 2B4T Technical Report](https://arxiv.org/abs/2504.12285)
+- 2024-04-09 [RULER: What’s the Real Context Size of Your Long-Context Language Models?](https://arxiv.org/abs/2404.06654)
+- 2023-07-27 [Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks](https://arxiv.org/abs/2307.15043)
+- 2020-05-28 [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
+- 2019-06-17 [Superposition of many models into one](https://arxiv.org/abs/1902.05563)
+- 2018-10-11 [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
+- 2017-06-12 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- 2015-12-10 [Deep Residual Learning for Image Recognition (ResNet)](https://arxiv.org/abs/1512.03385)
+- 2014-06-10 [Generative Adversarial Networks (GANs)](https://arxiv.org/abs/1406.2661)
+- 2012 [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://dl.acm.org/doi/10.1145/3065386)
+
+## Online Books
+
+(Sorted by Publication Date ↓)
+
+- 2026 [Principles and Practice of Deep Representation Learning](https://ma-lab-berkeley.github.io/deep-representation-learning-book/)
+- 2024 [Machine Learning and Deep Learning with R](https://theoreticalecology.github.io/machinelearning/)
+- 2024 [Natural Language Processing (NLP) Course](https://srdas.github.io/NLPBook/intro.html)
+- 2023 [Dive into Deep Learning](https://d2l.ai/)
+- 2023 [State of Open Source AI Book - 2023 Edition](https://book.premai.io/state-of-open-source-ai/)
+- 2023 [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+- 2019 [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
+- 2018 [Deep Learning](https://srdas.github.io/DLBook/)
+- 2016 [Deep Learning](https://www.deeplearningbook.org/)
+
+## Prominent AI People
+
+(Sorted by Surname ↑)
+
+- [Diogo Almeida](https://typesafe.ai/team) - [TypeSafe](https://typesafe.ai/)
+- [Dario Amodei](https://darioamodei.com/) - [Anthropic](https://www.anthropic.com/)
+- [Sam Altman](https://openai.com/about/) - [OpenAI](https://openai.com/)
+- [AmandA Askell](https://askell.io/) - [Anthropic](https://www.anthropic.com/)
+- [Yoshua Bengio](https://yoshuabengio.org/en/) - [Mila / Université de Montréal](https://mila.quebec/)
+- [Lex Fridman](https://lexfridman.com/) - [MIT](https://www.mit.edu/)
+- [Demis Hassabis](https://deepmind.google/about/) - [Google DeepMind](https://deepmind.google/)
+- [Geoffrey Hinton](https://discover.research.utoronto.ca/26059-geoffrey-e-hinton) - [University of Toronto](https://www.utoronto.ca/)
+- [Jensen Huang](https://www.nvidia.com/en-us/about-nvidia/board-of-directors/jensen-huang/) - [NVIDIA](https://www.nvidia.com/)
+- [Salim Ismail](https://salimismail.com/) - [Anthropic](https://www.anthropic.com/)
+- [Nathan Lambert](https://www.interconnects.ai/) - [Allen Institute for AI](https://allenai.org/)
+- [Yann LeCun](http://yann.lecun.com/) - [Meta / NYU](https://www.nyu.edu/)
+- [Fei-Fei Li](https://drfeifei.substack.com/about) - [Stanford University / World Labs](https://www.stanford.edu/)
+- [Emad Mostaque](https://emad.posthaven.com/) - [stability.ai](https://stability.ai/)
+- [Andrew Ng](https://www.andrewng.org/) - [DeepLearning.AI / Stanford](https://www.deeplearning.ai/)
+- [Christopher Olah](https://colah.github.io/) - [Anthropic](https://www.anthropic.com/)
+- [Ilya Sutskever](https://ssi.inc/) - [Safe Superintelligence (SSI)](https://ssi.inc/)
 
 Back to top

@@ -2,9 +2,25 @@
 
 Published
 
-2026-10-23
+2026-10-26
 
-# Agents and Harnesses
+## Introduction
+
+- **An agent** is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
+- **A harness** is the runtime / scaffolding that turns a raw language model into a working agent.
+  - ***The harness** is the engine and chassis. **The agent** is the driver + the behavior that emerges once the model is running inside that chassis.*
+
+### More precise breakdown
+
+| Concept | What it is | Examples |
+|:---|:---|:---|
+| **Model** | The raw intelligence (weights) | Qwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc. |
+| **Harness** | The runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc. | Hermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero |
+| **Agent** | The resulting autonomous system that actually does work | Copilot, OpenCode, Agent Zero |
+
+**The harness determines:** - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it
+
+A good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages
 
 A harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.
 

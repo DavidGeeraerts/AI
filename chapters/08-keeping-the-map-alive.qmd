@@ -10,10 +10,6 @@ date: last-modified
 date-format: iso
 ---
 
-# Keeping the Map Alive
-
-AI tools and model capabilities change quickly. Treat this book as a living
-resource and revisit it as the landscape evolves.
 
 ## Maintaining the quarterly Hotplate
 

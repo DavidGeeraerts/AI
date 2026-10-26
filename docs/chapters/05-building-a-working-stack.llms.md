@@ -4,8 +4,6 @@ Published
 
 2026-10-23
 
-# Building a Working Stack
-
 Combine models, harnesses, tools, and operational safeguards into a stack that fits the work.
 
 ## Starting points

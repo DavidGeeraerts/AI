@@ -2,17 +2,13 @@
 
 Published
 
-2026-10-23
-
-# Miscellaneous Tools and Supporting Infrastructure
+2026-10-26
 
 Useful supporting tools improve understanding, model selection, and day-to-day workflows.
 
-## Understanding and visualization
+### Miscellaneous Tools
 
-- Tiktokenizer
-- LLM Visualization
-- Excalidraw
+(Order by Name ↑) - [Excalidraw](https://excalidraw.com/) - online Diagram tool - [LLM Visualization](https://bbycroft.net/llm) - [Tiktokenizer](https://tiktokenizer.vercel.app/)
 
 ## Model selection and modification
 

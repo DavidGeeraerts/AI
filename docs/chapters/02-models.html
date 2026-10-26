@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-23">
+<meta name="dcterms.date" content="2026-10-26">
 
 <title>Models – The Book of AI</title>
 <style>
@@ -355,9 +355,13 @@ ul.task-list li input[type="checkbox"] {
    
   <ul class="collapse">
   <li><a href="#model-categories" id="toc-model-categories" class="nav-link active" data-scroll-target="#model-categories">Model categories</a></li>
+  <li><a href="#ai-model-types" id="toc-ai-model-types" class="nav-link" data-scroll-target="#ai-model-types">AI Model Types</a></li>
   <li><a href="#model-families-and-access" id="toc-model-families-and-access" class="nav-link" data-scroll-target="#model-families-and-access">Model families and access</a></li>
   <li><a href="#evaluation-and-training-data" id="toc-evaluation-and-training-data" class="nav-link" data-scroll-target="#evaluation-and-training-data">Evaluation and training data</a></li>
   <li><a href="#abliteration" id="toc-abliteration" class="nav-link" data-scroll-target="#abliteration">Abliteration</a></li>
+  <li><a href="#prominent-ai-organizations-creating-foundational-ai-models" id="toc-prominent-ai-organizations-creating-foundational-ai-models" class="nav-link" data-scroll-target="#prominent-ai-organizations-creating-foundational-ai-models">Prominent AI Organizations Creating Foundational AI Models</a></li>
+  <li><a href="#benchmarks" id="toc-benchmarks" class="nav-link" data-scroll-target="#benchmarks">Benchmarks</a></li>
+  <li><a href="#base-model-data" id="toc-base-model-data" class="nav-link" data-scroll-target="#base-model-data">Base Model Data</a></li>
   </ul>
 </nav>
     </div>
@@ -378,7 +382,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-23</p>
+      <p class="date">2026-10-26</p>
     </div>
   </div>
   
@@ -400,6 +404,37 @@ ul.task-list li input[type="checkbox"] {
 <li>Decision or “System One” models, including calibrated-decision approaches</li>
 </ul>
 </section>
+<section id="ai-model-types" class="level2">
+<h2 class="anchored" data-anchor-id="ai-model-types">AI Model Types</h2>
+<ul>
+<li>Large Language Models (LLM)
+<ul>
+<li>General-purpose language models</li>
+<li>Code-specialized models
+<ul>
+<li>Claude Fable 5.1 / Claude Opus 5.5 family (Anthropic)</li>
+<li>GPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)</li>
+<li>Gemini 4 Argon / Gemini 3.x Flash family (Google)</li>
+<li>Kimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)</li>
+<li>DeepSeek</li>
+<li>Qwen</li>
+</ul></li>
+</ul></li>
+<li>Image Generation Models
+<ul>
+<li>Text-to-Image {<a href="https://stablediffusionweb.com/">Stable Diffusion</a>, <a href="https://www.midjourney.com/home">Midjourney</a>, DALL-E, <a href="https://grok.com/supergrok/imagine">Grok Imagine</a>}</li>
+<li>Image-to-Image</li>
+</ul></li>
+<li>Multimodal Models (Text, Image, Audio, Video)
+<ul>
+<li>Kimi K3 (Moonshot AI)</li>
+<li>Claude Opus 5 / Claude Opus 5.5 (Anthropic)</li>
+<li>Qwen3.8 Max (Alibaba)</li>
+<li>GPT-5.6 series (especially Sol / Luna variants) (OpenAI)</li>
+<li>Gemini 3.x Flash / Pro family (Google)</li>
+</ul></li>
+</ul>
+</section>
 <section id="model-families-and-access" class="level2">
 <h2 class="anchored" data-anchor-id="model-families-and-access">Model families and access</h2>
 <p>The landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.</p>
@@ -411,6 +446,66 @@ ul.task-list li input[type="checkbox"] {
 <section id="abliteration" class="level2">
 <h2 class="anchored" data-anchor-id="abliteration">Abliteration</h2>
 <p>Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.</p>
+</section>
+<section id="prominent-ai-organizations-creating-foundational-ai-models" class="level2">
+<h2 class="anchored" data-anchor-id="prominent-ai-organizations-creating-foundational-ai-models">Prominent AI Organizations Creating Foundational AI Models</h2>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.alibabacloud.com/en">Alibaba</a> (Qwen)</li>
+<li><a href="https://allenai.org/">Allen Institute for AI</a></li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon AI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://blackforestlabs.ai/">Black Forest Labs</a> (FLUX)</li>
+<li><a href="https://www.bytedance.com/">ByteDance</a> (Seed / Seedream / Doubao)</li>
+<li><a href="https://cohere.ai/">Cohere</a></li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+<li><a href="https://ai.google/">Google AI / Google DeepMind</a></li>
+<li><a href="https://huggingface.co/">Hugging Face</a></li>
+<li><a href="https://www.ibm.com/granite">IBM</a></li>
+<li><a href="https://ai.facebook.com/">Meta AI</a></li>
+<li><a href="https://www.microsoft.com/en-us/ai">Microsoft AI</a></li>
+<li><a href="https://www.minimaxi.com/">MiniMax</a></li>
+<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://www.moonshot.cn/">Moonshot AI</a> (Kimi)</li>
+<li><a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://stability.ai/">Stability AI</a></li>
+<li><a href="https://www.xiaomi.com/">Xiaomi</a> (MiMo)</li>
+<li><a href="https://x.ai/">xAI</a></li>
+<li><a href="https://zhipuai.cn/">Zhipu AI / Z.AI</a> (GLM)</li>
+</ul>
+<section id="foundational-ai-models" class="level3">
+<h3 class="anchored" data-anchor-id="foundational-ai-models">Foundational AI Models</h3>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://www.anthropic.com/claude">Claude</a> (Anthropic)</li>
+<li><a href="https://cohere.com/">Command</a> (Cohere)</li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a></li>
+<li><a href="https://blackforestlabs.ai/">FLUX</a> (Black Forest Labs)</li>
+<li><a href="https://ai.google/gemini/">Gemini</a> (Google DeepMind)</li>
+<li><a href="https://ai.google.dev/gemma">Gemma</a> (Google)</li>
+<li><a href="https://zhipuai.cn/">GLM</a> (Zhipu AI / Z.AI)</li>
+<li><a href="https://openai.com/">GPT</a> (OpenAI)</li>
+<li><a href="https://www.ibm.com/granite">Granite</a> (IBM)</li>
+<li><a href="https://x.ai/">Grok</a> (xAI)</li>
+<li><a href="https://www.moonshot.cn/">Kimi</a> (Moonshot AI)</li>
+<li><a href="https://www.llama.com/">Llama</a> (Meta)</li>
+<li><a href="https://www.xiaomi.com/">MiMo</a> (Xiaomi)</li>
+<li><a href="https://mistral.ai/">Mistral</a> (Mistral AI)</li>
+<li><a href="https://ai.meta.com/">Muse</a> (Meta)</li>
+<li><a href="https://aws.amazon.com/ai/generative-ai/nova/">Nova</a> (Amazon)</li>
+<li><a href="https://huggingface.co/Qwen">Qwen</a> (Alibaba)</li>
+<li><a href="https://www.bytedance.com/">Seed / Seedream</a> (ByteDance)</li>
+<li><a href="https://stability.ai/stable-image">Stable Diffusion</a> (Stability AI)</li>
+</ul>
+</section>
+</section>
+<section id="benchmarks" class="level2">
+<h2 class="anchored" data-anchor-id="benchmarks">Benchmarks</h2>
+<p>(“Trust me bro benchmarks”) | Benchmark | Status in 2026 | Strengths | Weaknesses | Still useful? | |———–|—————-|———–|————|—————| | <strong>MMLU</strong> | Saturated | Historical reference for broad knowledge | Frontier models cluster ~90%+; little differentiation; contamination risk | Mostly no (use MMLU-Pro if needed) | | <strong>GSM8K</strong> | Saturated | Simple math word problems | Top models near ceiling (~95%+); many invalid questions noted | No for frontier comparison | | <strong>GPQA</strong> (Graduate-Level Google-Proof Q&amp;A Benchmark; esp.&nbsp;Diamond) | Near-saturating | Challenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models | Leaders pushing 90%+; small set → noise | Still decent for science reasoning, but headroom shrinking | | <strong>SWE-bench</strong> (Verified/Pro variants) | Contested / partially saturating | Real GitHub issue resolution; strong signal for coding agents | Contamination concerns; scores climbing into high 70s–90s on easier versions | Yes for coding/agentic work (prefer newer/harder variants like Pro) | | <strong>GAIA</strong> | Active but contested | Multi-step agentic tasks (browsing, tools, files) that are easy for humans | Large score gaps depending on scaffolding/tools; some saturation reports | Yes for assistant/agent evaluation | | <a href="https://livebench.ai/#/"><strong>LiveBench</strong></a> | Highly regarded | Monthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following | Not human preference; not pure agentic long-horizon | <strong>One of the strongest current objective capability benchmarks</strong> | | <a href="https://lmarena.ai/"><strong>LMArena</strong></a> (Chatbot/Arena) | Highly regarded | Large-scale blind human preference (Elo-style); real user prompts | Style/verbosity bias; overlapping confidence intervals; not verifiable correctness | <strong>Best for “which model feels best in open-ended use”</strong> | | <a href="https://benchlm.ai/"><strong>BenchLM</strong></a> | Aggregator | Combines many sources into overall indices | Depends on underlying benchmarks; not a primary eval itself | Useful meta-view, not a standalone benchmark | | <strong>Mensa Norway IQ Test</strong> | Niche | Attempts IQ-style scoring | Narrow, not standard in frontier AI evaluation | Rarely used for serious model comparison | | <strong>WebDev Arena</strong> | Specialized | Web development tasks | Narrow domain | Useful only if you care specifically about web-dev agents |</p>
+</section>
+<section id="base-model-data" class="level2">
+<h2 class="anchored" data-anchor-id="base-model-data">Base Model Data</h2>
+<p>(Order by Name ↑) - <a href="https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&amp;sc_channel=el&amp;FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&amp;CONTRACT_TYPE=OPEN_DATA_LICENSES&amp;filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE">AWS Open Data</a> - <a href="https://commoncrawl.org/"><strong>Common Crawl</strong></a> - <a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"><strong>FineWeb</strong></a> – curated Internet dataset. - <a href="https://datasetsearch.research.google.com/"><strong>Google Dataset Search</strong></a> - <a href="https://huggingface.co/datasets"><strong>Hugging Face Datasets</strong></a> - <a href="https://www.kaggle.com/datasets"><strong>Kaggle</strong></a> - <a href="https://planetarycomputer.microsoft.com/catalog">Microsoft Planetary Computer Data Catalog</a> - <a href="https://github.com/cvdfoundation/mnist">MNIST (Modified National Institute of Standards and Technology database)</a> - <a href="https://storage.googleapis.com/openimages/web/index.html">Open Images Dataset</a> - <a href="https://snap.stanford.edu/data/">SNAP - Stanford Large Network Dataset Collection</a> - <a href="https://archive.ics.uci.edu/">UC Irvine Machine Learning Repository</a> - <a href="https://data.gov/">USA Data Gov</a></p>
 
 
 </section>

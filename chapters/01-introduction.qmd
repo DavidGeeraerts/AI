@@ -21,3 +21,7 @@ control on their own hardware or an affordable server.
 Use this book as a living toolkit: consult the chapters for practical
 orientation, and follow the linked source materials and quarterly snapshots as
 the landscape changes.
+
+
+
+
