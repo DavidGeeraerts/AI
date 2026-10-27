@@ -72,6 +72,8 @@ website:
             href: "appendices/Glossary.qmd"
           - text: "Appendix B - LLM Notes"
             href: "appendices/Notes.qmd"
+          - text: "Appendix C - Prompt Engineering Notes"
+            href: "appendices/Prompt-Engineering-Notes.qmd"
 
     tools:
       - icon: github
