@@ -12,6 +12,9 @@
 
 --- 
 
+# Resource References
+- [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+- [Quarto website](https://quarto.org/)
 
 # Quotes
 > "Not all benchmarks lie, but all liars benchmark"

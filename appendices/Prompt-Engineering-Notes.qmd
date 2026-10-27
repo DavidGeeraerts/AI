@@ -10,6 +10,53 @@ date: last-modified
 date-format: iso
 ---
 
+# Key Takeaways
+
+- [tags](https://github.com/DavidGeeraerts/AI/issues/8#issuecomment-6445792490) (especially XML-style) are a widely recommended best practice in modern prompt engineering, and prompts are commonly stored as plain Markdown (.md) files (or similar text files) for version control, readability, and maintainability.
+  - XML-style tags for unambiguous, explicit boundaries and nesting. Closing tags make it clear where a section ends
+
+## Example of a Best-Practice Prompt using XML-style tags
+```xml
+
+<role>
+expert at...
+</role>
+
+<context>
+    - The context provides the necessary background information for the prompt.
+</context>
+
+<instructions>
+1. Do this
+2. Do that
+3. Do the other thing
+</instructions>
+
+<rules>
+- Always follow the instructions.
+- Never generate text that violates the rules.
+</rules>
+
+<examples>
+    <example>
+        - This is an example of a good prompt.
+    </example>
+
+    <example>
+        - Nesting tags is possible, e.g., for a list of examples:
+    </example>
+</examples>
+
+<output_format>
+- markdown table
+
+</output_format>
+
+```
+
+
+
+
 # Resources - YouTube
 | Title | Rating | Notes |
 |-------|-------------|-------------|
