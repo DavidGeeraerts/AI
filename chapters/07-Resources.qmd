@@ -3,18 +3,19 @@ title: "Resources"
 toc: true
 toc-depth: 2
 toc-location: right
-toc-title: "Chapter Index"
+toc-title: "Index"
 toc-expand: true
 page-layout: article
 date: last-modified
 date-format: iso
 ---
 
-## X Agentic-Engineering Lists
+# X Agentic-Engineering Lists
+
 - [Agentic Engineering](https://x.com/i/lists/2113733734537335167)
 
 
-## AI [blog] Resources
+# AI [blog] Resources
 prioritise independent writers, technical depth, open-model communities, and low-hype signal over mainstream media.
 
 (Order by Name ↑)
@@ -36,8 +37,9 @@ prioritise independent writers, technical depth, open-model communities, and low
 - [The Gradient](https://thegradient.pub/)
 - [Turning Post](https://www.turingpost.com/)
 
-## YouTube Videos & Channels
+# YouTube Videos & Channels
 (Sorted by Publication Date ↓)
+
 - 2026-10-25  [ExplainingComputers: GPU Upgrade for Local AI](https://youtu.be/9G3d9MwKAW8?si=iGiwi8FrJnkCm2B4)
 - 2026-10-23  [Kai: Google's Harness² Is This the End of Harness Engineering?](https://youtu.be/yCgfyQmqhPM?si=cG_t_fwVWPzsDDl4)
 - 2026-10-21  [Kai: I Tested Every Best Local AI For GPU (8GB TO 24GB VRAM)](https://youtu.be/ugKAkCVBcz0?si=aRJ9Rx0guKR-Bls6)
@@ -48,7 +50,8 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2026-09-21  [Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX)
 - 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
 - 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
-- 2025-06-11    [Jon Krohn: Agentic AI Engineering: Complete 4-Hour Workshop feat. MCP, CrewAI and OpenAI Agents SDK](https://youtu.be/LSk5KaEGVk4?si=SP3D9HCxglZ1QdQq)
+- 2026-03-00  [Hugging Face: Agentic Evals Workshop Playlist](https://www.youtube.com/playlist?list=PLo2EIpI_JMQvQZm-kVlz4wY1vWF0LBcf5)
+- 2025-06-11  [Jon Krohn: Agentic AI Engineering: Complete 4-Hour Workshop feat. MCP, CrewAI and OpenAI Agents SDK](https://youtu.be/LSk5KaEGVk4?si=SP3D9HCxglZ1QdQq)
 - 2025-04-28  [Logically Answered: AMD's $243 Billion AI Disaster...What Happened?](https://youtu.be/SDIq26_DVLk?si=RqlxfKt6Gff-IG4M)
 - 2025-04022  [Computerphile: What is Cuda?](https://youtu.be/K9anz4aB0S0?si=VO5Uy9iJ5AKajEnP)
 - 2025-03-05  [ByteByteGo: What Is the Most Popular Open-Source AI Stack?](https://www.youtube.com/watch?v=hFURlsMwU7c)
@@ -62,9 +65,10 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
 - [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
-## Articles
+# Articles
 (Sorted by Publication Date ↓)
 
+- 2026-10-21 [Grading the Graders: Gaming Benchmarks and Making Your Own](https://interestingengineering.substack.com/p/grading-the-graders-gaming-benchmarks)
 - 2026-09-11 [Lies, Damned Lies, and Benchmarks](https://www.completeskeptic.com/p/lies-damned-lies-and-benchmarks)
 - 2026-09-09 [(KV) Cache Rules Everything Around Me](https://www.completeskeptic.com/p/kv-cache-rules-everything-around)
 - 2026-08-27 [Pivot to AI: Your AGENTS.md file doesn’t actually do anything](https://pivot-to-ai.com/2026/08/27/your-agents-md-file-doesnt-actually-do-anything/)
@@ -76,7 +80,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2024-07-13  [MHA vs MQA vs GQA vs MLA](https://medium.com/@zaiinn440/mha-vs-mqa-vs-gqa-vs-mla-c6cf8285bbec)
 - 2020-00-00  [Over 200 of the Best Machine Learning, NLP, and Python Tutorials — 2018 Edition](https://robbieallen.medium.com/over-200-of-the-best-machine-learning-nlp-and-python-tutorials-2018-edition-dd8cf53cb7dc)
 
-## AI Publication Websites
+# AI Publication Websites
 (Order by Name ↑)
 
 - [arxiv](https://arxiv.org/list/cs.AI/recent)
@@ -95,7 +99,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2014-06-10 [Generative Adversarial Networks (GANs)](https://arxiv.org/abs/1406.2661)
 - 2012 [ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)](https://dl.acm.org/doi/10.1145/3065386)
 
-## Online Books
+# Online Books
 (Sorted by Publication Date ↓)
 
 - 2026  [Principles and Practice of Deep Representation Learning](https://ma-lab-berkeley.github.io/deep-representation-learning-book/)
@@ -109,7 +113,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2016  [Deep Learning](https://www.deeplearningbook.org/)
 
 
-## Prominent AI People
+# Prominent AI People
 (Sorted by Surname ↑)
 
 - [Diogo Almeida](https://typesafe.ai/team) - [TypeSafe](https://typesafe.ai/)

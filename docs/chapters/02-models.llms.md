@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-26
+2026-10-27
 
 Choosing a model starts with understanding its capabilities, availability, and trade-offs.
 
@@ -112,6 +112,10 @@ Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can chang
 | **WebDev Arena** | Specialized | Web development tasks | Narrow domain | Useful only if you care specifically about web-dev agents |
 | [**Humanity’s Last Exam**](https://lastexam.ai/) (HLE) | Active frontier benchmark | Expert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom | Score variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor | **Yes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks** |
 | [**WorkBuddy Bench**](https://github.com/Tencent/workbuddy-bench) (Tencent) | Active / Research Preview (v1.2, Oct 2026) | Multi-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns) | No suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks | **Yes — one of the strongest current multi-domain agentic coding benchmarks**, especially for real-world role-played work beyond pure SWE-bench-style issue fixing |
+
+### Benchmark Articles
+
+- [Grading the Graders: Gaming Benchmarks and Making Your Own](https://interestingengineering.substack.com/p/grading-the-graders-gaming-benchmarks)
 
 ## Base Model Data
 

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-10-27">
+
+<title>Prompt Engineering Notes – The Book of AI</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-8b348f4b4b74a528bf910da1e8c5139e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+</head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">The Book of AI</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chapters" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Chapters</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-chapters">    
+        <li>
+    <a class="dropdown-item" href="../chapters/01-introduction.html">
+ <span class="dropdown-text">01 - Introduction</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/02-models.html">
+ <span class="dropdown-text">02 - Models</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/03-running-a-model.html">
+ <span class="dropdown-text">03 - Running a Model</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/04-agents-and-harnesses.html">
+ <span class="dropdown-text">04 - Agents and Harnesses</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/05-building-a-working-stack.html">
+ <span class="dropdown-text">05 - Building a Working Stack</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/06-miscellaneous-tools.html">
+ <span class="dropdown-text">06 - Miscellaneous Tools</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/07-Resources.html">
+ <span class="dropdown-text">07 - Resources</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/08-keeping-the-map-alive.html">
+ <span class="dropdown-text">08 - Keeping the Map Alive</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appendices" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Appendices</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-appendices">    
+        <li>
+    <a class="dropdown-item" href="../appendices/Glossary.html">
+ <span class="dropdown-text">Appendix A - Glossary</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../appendices/Notes.html">
+ <span class="dropdown-text">Appendix B - LLM Notes</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/DavidGeeraerts/AI">
+            Source Code
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="37915a2dd6460b52fe9d14bcb149d4b7" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>INFORMATIONAL NOTICE:</strong> This site is under active development!</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Index</h2>
+   
+  <ul class="collapse">
+  <li><a href="#resources---youtube" id="toc-resources---youtube" class="nav-link active" data-scroll-target="#resources---youtube">Resources - YouTube</a>
+  <ul class="collapse">
+  <li><a href="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny" id="toc-anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="nav-link" data-scroll-target="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny">Anthropic: Mastering Claude Code in 30 minutes Boris Cherny</a></li>
+  <li><a href="#claude-the-prompting-playbook-margot-van-laar" id="toc-claude-the-prompting-playbook-margot-van-laar" class="nav-link" data-scroll-target="#claude-the-prompting-playbook-margot-van-laar">Claude: The prompting playbook [Margot van Laar]</a></li>
+  <li><a href="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" id="toc-tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="nav-link" data-scroll-target="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang">Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes Tina Huang</a></li>
+  <li><a href="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" id="toc-deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="nav-link" data-scroll-target="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng">DeepLearningAI: Prompt Engineering for Developers DeepLearningAI Andrew Ng</a></li>
+  </ul></li>
+  <li><a href="#articles-blogs" id="toc-articles-blogs" class="nav-link" data-scroll-target="#articles-blogs">Articles &amp; Blogs</a>
+  <ul class="collapse">
+  <li><a href="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" id="toc-the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="nav-link" data-scroll-target="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons (Interesting Engineering, 2026-05-23)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Prompt Engineering Notes</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-10-27</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="resources---youtube" class="level1">
+<h1>Resources - YouTube</h1>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Title</th>
+<th>Rating</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH">Mastering Claude Code in 30 minutes</a></td>
+<td>Low</td>
+<td>High noise low signal. Infomercial.</td>
+</tr>
+<tr class="even">
+<td><a href="https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS">The prompting playbook</a></td>
+<td>Medium</td>
+<td>Good for understanding the fundamentals of prompting.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK">Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes</a></td>
+<td>medium</td>
+<td>A good overview of the basics of prompt engineering.</td>
+</tr>
+<tr class="even">
+<td><a href="https://youtu.be/8ib4Qnh2HFE?si=QULwzDGBp30T7-Jr">DeepLearningAI</a></td>
+<td>High</td>
+<td>A comprehensive course on prompt engineering.</td>
+</tr>
+</tbody>
+</table>
+<section id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="level2">
+<h2 class="anchored" data-anchor-id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny"><a href="https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH">Anthropic: Mastering Claude Code in 30 minutes</a> <a href="https://borischerny.com/">Boris Cherny</a></h2>
+<ul>
+<li>create an AGENTS.md file to give the agent context about the project, including instructions, constraints, and goals.</li>
+</ul>
+</section>
+<section id="claude-the-prompting-playbook-margot-van-laar" class="level2">
+<h2 class="anchored" data-anchor-id="claude-the-prompting-playbook-margot-van-laar"><a href="https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS">Claude: The prompting playbook</a> [Margot van Laar]</h2>
+<ul>
+<li>Use XML tags to structure prompts for clarity and consistency.</li>
+<li>Be clear and direct in your instructions, avoiding ambiguity.</li>
+<li>Curate the information you provide to the model, focusing on relevant details.</li>
+<li>Start with an evaluation suite before changing any prompt. Cover three types of cases: control cases (should always pass), edge cases (previous failures you want to prevent), and capability-boundary cases (when the model should escalate, refuse, or hand off to a human).</li>
+<li>Apply prompt hygiene first: remove redundant or outdated content (e.g., website copy, cookie notices, “you are a human” statements) and separate role, guidelines, policy, tone, and data with clear structure (XML tags work especially well).</li>
+<li>If a human cannot distinguish guidelines from policy from data while reading the prompt, the model almost certainly cannot either.</li>
+<li>Create an explicit output contract (e.g., wrap the response in specific XML tags) and reinforce it at the harness level with stop sequences so the model knows exactly when to stop.</li>
+<li>Treat old defensive patches as technical debt. Instructions written for a previous model’s weaknesses often cause new failures (including the opposite of hallucination: withholding information the model actually has). Version-control the <em>reason</em> for every instruction so you can remove it when the model improves.</li>
+<li>Instructions do not add capability. Telling the model “calculate correctly” or “this is critical” does not improve arithmetic. Give it a reliable tool (with proper API declaration, schema, and implementation) instead, and let the model reason about when to use it.</li>
+<li>When the model must make a trade-off (e.g., escalate a billing error vs.&nbsp;keep handling the conversation), state <em>both</em> sides of the cost/benefit clearly. Stronger models will otherwise overfit to whichever side you emphasize.</li>
+<li>When building a new agentic system, optimize the combination of model × prompt × harness (tools, structured outputs, stop sequences, adaptive thinking, etc.), not the prompt in isolation.</li>
+<li>For multi-step or constrained generation tasks, prefer a generate → evaluate → repair loop with several simple, focused prompts over one giant monolithic prompt.</li>
+</ul>
+</section>
+<section id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="level2">
+<h2 class="anchored" data-anchor-id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang"><a href="https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK">Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes</a> <a href="https://www.linkedin.com/in/tinahuang/">Tina Huang</a></h2>
+<ul>
+<li>Use the five-step TCREI framework for every prompt: <strong>Task</strong> (what to do, plus persona + desired format), <strong>Context</strong> (background, audience, constraints), <strong>References</strong> (examples / few-shot), <strong>Evaluate</strong> (does the output meet the need?), <strong>Iterate</strong> (refine and retry). Mnemonic: “Tiny crabs ride enormous iguanas” (or Google’s “Thoughtfully Create Really Excellent Inputs”).</li>
+<li>Always be iterating (“ABI”). Four practical iteration methods: (1) revisit the full TCREI framework and add missing pieces, (2) break long prompts into shorter, clearer sentences, (3) rephrase or try an analogous task, (4) add constraints to narrow the solution space.</li>
+<li>Specify persona and output format early in the Task step—they dramatically improve relevance and usability.</li>
+<li>Provide rich context and concrete references/examples; more relevant detail almost always beats a sparse prompt.</li>
+<li>Multimodal prompting follows the same principles: clearly state what the inputs are (text, image, audio, etc.) and what form the output should take.</li>
+<li>Watch for hallucinations and inherited biases. Keep a human-in-the-loop: always verify important outputs before using or sharing them. Avoid feeding sensitive data into public models.</li>
+<li>For everyday work: build and maintain a personal prompt library of reusable, high-performing prompts (emails, summaries, tables, brainstorming, etc.).</li>
+<li>For data analysis &amp; presentations: prompt for insights, formulas, patterns, and slide structures, but treat generated numbers and claims with extra scrutiny.</li>
+<li>Advanced techniques:
+<ul>
+<li><strong>Prompt chaining</strong> — break a complex goal into a sequence of linked prompts, feeding each output into the next (e.g., manuscript → summaries → taglines → full marketing plan).</li>
+<li><strong>Chain-of-Thought (CoT)</strong> — explicitly ask the model to show its step-by-step reasoning.</li>
+<li><strong>Tree-of-Thought (ToT)</strong> — ask the model to explore multiple reasoning paths / options in parallel and evaluate them.</li>
+<li><strong>Meta-prompting</strong> — ask the AI to help write or improve the prompt itself when you are stuck.</li>
+</ul></li>
+<li>Create lightweight AI agents by defining a clear persona, context, conversation rules, and a stop phrase. Two useful patterns: simulation agents (role-play / practice interviews) and expert-feedback agents (critique pitches, drafts, etc.).</li>
+<li>Responsible use checklist: verify accuracy, check for bias, protect sensitive information, and treat AI as a collaborator rather than an infallible authority.</li>
+</ul>
+</section>
+<section id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="level2">
+<h2 class="anchored" data-anchor-id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng"><a href="https://youtu.be/8ib4Qnh2HFE?si=QULwzDGBp30T7-Jr">DeepLearningAI: Prompt Engineering for Developers</a> <a href="https://www.deeplearning.ai/">DeepLearningAI</a> <a href="https://x.com/AndrewYNg">Andrew Ng</a></h2>
+<ul>
+<li>Treat the AI like a smart, highly motivated fresh college graduate who knows nothing about you yet. Give it the context a new hire would need (documents, screenshots, project trackers, voice memos, past work) instead of short Google-style queries.</li>
+<li>Provide rich, relevant context. Modern models can handle very large context windows (~750k words). Start a new chat for unrelated topics so stale context does not degrade performance.</li>
+<li>Understand the three knowledge sources and when to use each:
+<ul>
+<li>Pre-trained knowledge (good for general/common facts; limited by training cutoff and data frequency).</li>
+<li>Web search (real-time info; note that the main model often only sees summaries produced by a helper model, not the full pages).</li>
+<li>Deep research / agentic modes (many parallel searches, iterative evaluation, synthesized cited reports—for complex, multi-source questions).</li>
+</ul></li>
+<li>Defeat sycophancy (the model’s tendency to please you). Ask neutral questions that do not hint at your preferred answer. Use objective rubrics with clear scoring criteria <em>before</em> asking for a score or judgment.</li>
+<li>Use AI as a thought partner, not a one-shot answer machine. For brainstorming: supply context → request multiple options → give feedback → iterate. Feedback on options often matters more than more upfront context.</li>
+<li>Prefer progressive outlining for writing: outline → critique/refine the outline → expand to bullet points → iterate → only then draft full text. This avoids generic “AI slop” and makes structural changes easy.</li>
+<li>For complex reasoning tasks, explicitly cue longer thinking (“think hard,” “ultra think,” or enable reasoning/thinking mode). Classic “think step by step” is largely obsolete on modern models.</li>
+<li>When editing or evaluating work, give the model a clear rubric first; then ask it to apply the rubric. This produces more objective, useful feedback.</li>
+<li>Leverage multimodal and tool-using capabilities: upload images/files, generate images, analyze data/spreadsheets, write and run code, and build simple websites/apps with natural-language instructions (no coding background required).</li>
+<li>Desktop/agentic AI apps can explore local files (with permission). Best practice: state the overall task, let the model propose a plan, then approve execution.</li>
+<li>Power-user habits: iterate aggressively, request multiple options, keep conversations focused, verify important claims (especially from search/deep research), and continually give the model harder, more context-rich tasks.</li>
+</ul>
+</section>
+</section>
+<section id="articles-blogs" class="level1">
+<h1>Articles &amp; Blogs</h1>
+<ul>
+<li><a href="https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons</a></li>
+</ul>
+<section id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="level2">
+<h2 class="anchored" data-anchor-id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23"><a href="https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons</a> (Interesting Engineering, 2026-05-23)</h2>
+<ul>
+<li>The prompt is not the architecture, but it still governs <em>how</em> the system reasons. Architecture (harness, tools, gates, loops, meta-observation) determines what the system can see and do; the prompt/spec governs reasoning style and action selection.</li>
+<li>Prompting has fragmented into four distinct disciplines (per Nate B Jones). Most people only practice the first:
+<ol type="1">
+<li>Prompt craft (structure, XML, role, output format)</li>
+<li>Context engineering (domain facts, background, memory tiers)</li>
+<li>Intent engineering (state the desired outcome / what “good” looks like, not just the task)</li>
+<li>Specification engineering (acceptance criteria, constraints, ordering, trade-off framings)</li>
+</ol></li>
+<li>A strong single structured system prompt that embeds all four disciplines can outperform multi-agent swarms on single-turn, well-scoped document tasks (H2 scored α = 1.000; five-agent swarm scored 0.625).</li>
+<li>Brownfield (existing, messy production systems) vs greenfield (clean-slate tasks) matters. Complex constraint-satisfaction or continuous operational systems usually need correction loops or adaptive architectures, not just a bigger prompt.</li>
+<li>Generate → Evaluate → Repair (GER) loops are often more reliable and cheaper than relying solely on the model’s adaptive/extended thinking for hard constraint tasks.</li>
+<li>Instructions do not add capability. Arithmetic, deterministic calculations, and similar tasks should be offloaded to tools/functions rather than instructed in natural language.</li>
+<li>Legacy defensive patches written for older, weaker models can actively harm performance on newer models (e.g., causing the model to withhold information it actually has). Audit and remove outdated guardrails on model upgrades.</li>
+<li>Prefer trade-off framings over rigid binary rules for judgment calls (state both sides of the cost/benefit). Keep hard binary checks only at verification gates.</li>
+<li>Use API-level stop sequences / output contracts (not just prompt text) to enforce structured endings and reduce padding or runaway generation.</li>
+<li>Ordering of instructions matters: place steps in the same sequence a competent human would reason through the problem.</li>
+<li>The “35-minute wall”: once agents run autonomously for roughly that long without check-ins, chat-style prompting assumptions break. Everything critical must be pre-encoded in the specification before launch.</li>
+<li>Intent engineering (closing the loop between predicted outcomes and actual results, then calibrating future behavior) is often the missing operational discipline, not a pure engineering problem.</li>
+<li>Meta-harness / meta-observation layers that read execution traces across runs can surface failure modes that pure pre-specification cannot anticipate.</li>
+<li>Architecture choices should match the problem type: high-density single prompt for greenfield document tasks; correction loops + tools + meta-observation for brownfield continuous operations.</li>
+</ul>
+
+
+</section>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>Mapping the Artificial Intelligence Landscape</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -129,6 +129,12 @@ autonomy when selecting a model.
 | [**Humanity's Last Exam**](https://lastexam.ai/) (HLE) | Active frontier benchmark | Expert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom | Score variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor               | **Yes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks** |
 | [**WorkBuddy Bench**](https://github.com/Tencent/workbuddy-bench) (Tencent) | Active / Research Preview (v1.2, Oct 2026) | Multi-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns) | No suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks | **Yes — one of the strongest current multi-domain agentic coding benchmarks**, especially for real-world role-played work beyond pure SWE-bench-style issue fixing |
 
+
+### Benchmark Articles
+
+- [Grading the Graders: Gaming Benchmarks and Making Your Own](https://interestingengineering.substack.com/p/grading-the-graders-gaming-benchmarks)
+
+
 ## Base Model Data
 (Order by Name ↑)
 - [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE)
