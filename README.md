@@ -6,7 +6,7 @@
 
 <!-- HOTPLATE:START -->
 
-:fire: Read the latest hotplate: [2026-10-October-Hotplate](/hotplate/2026-10-October-hotplate.qmd)
+:fire: Read the latest hotplate: [2026-10-October-Hotplate](https://davidgeeraerts.github.io/AI/hotplate/2026-10-October-hotplate.html)
 
 <!-- HOTPLATE:END -->
 
