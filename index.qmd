@@ -6,26 +6,3 @@ page-layout: full
 ## :fire: Hotplate (Monthly Release Cycle) {.unnumbered}
 [Read the latest Hotplate](/hotplate/2026-10-October-hotplate.qmd) for a snapshot of the current landscape.
 
-## Index {.unnumbered}
-
-[Chapter-01-Introduction](chapters/01-introduction.qmd) provides an overview of the book's purpose and structure.
-
-[Chapter-02-Models](chapters/02-models.qmd) covers the fundamental models in AI.
-
-[Chapter-03-Running-a-Model](chapters/03-running-a-model.qmd) explains how to run and use these models.
-
-[Chapter-04-Agents-and-Harnesses](chapters/04-agents-and-harnesses.qmd) discusses the role of agents and harnesses in AI.
-
-[Chapter-05-Building-a-Working-Stack](chapters/05-building-a-working-stack.qmd) guides you through building a functional AI stack.
-
-[Chapter-06-Miscellaneous-Tools](chapters/06-miscellaneous-tools.qmd) lists various tools that are useful in AI development.
-
-[Chapter-07-Resources](chapters/07-resources.qmd) provides a collection of resources for further learning.
-
-[Chapter-08-Keeping-the-Map-Alive](chapters/08-keeping-the-map-alive.qmd) offers tips for maintaining and updating your AI knowledge base.
-
-[Appendix-Glossary](appendices/glossary.qmd) contains definitions of key terms used throughout the book.
-
-[Appendix-Notes](appendices/notes.qmd) includes additional notes and references for deeper understanding.
-
-[Appendix-Prompt-Engineering-Notes](appendices/prompt-engineering-notes.qmd) provides insights into effective prompt engineering techniques.

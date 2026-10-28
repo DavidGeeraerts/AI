@@ -6,7 +6,9 @@ project:
   render:
     - "*.qmd"
   preview:
-    browser: true
+    browser: false
+    watch-inputs: true
+    navigate: true
 glossary:
   path: appendices/glossary.yml
   popup: click
@@ -40,6 +42,7 @@ book:
   repo-url: https://github.com/davidgeeraerts/AI
   repo-branch: main
   repo-actions: [edit, issue]
+  search: true
   chapters:
     - index.qmd
     - chapters/01-introduction.qmd
@@ -54,7 +57,8 @@ book:
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
-  
+  downloads: [pdf, epub]
+  sharing: [twitter]
 
 execute:
   freeze: auto
