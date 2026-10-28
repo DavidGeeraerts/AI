@@ -1,8 +1,8 @@
 # :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
 :toolbox: _The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control._
 
-## :fire: Hotplate (Quarterly Release Cycle)
-[Read the latest Hotplate](hotplate/2026-Q4-hotplate.qmd) for a snapshot of the current landscape.
+## :fire: Hotplate (Monthly Release Cycle)
+[Read the latest Hotplate](hotplate/2026-10-October-Hotplate.qmd) for a snapshot of the current landscape.
 
 ## Index
 

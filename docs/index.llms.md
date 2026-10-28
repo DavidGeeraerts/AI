@@ -1,14 +1,14 @@
 Published
 
-2026-10-23
+2026-10-28
 
 # 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape
 
 🧰 *The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.*
 
-## 🔥 Hotplate (Quarterly Release Cycle)
+## 🔥 Hotplate (Monthly Release Cycle)
 
-[Read the latest Hotplate](hotplate/2026-Q4-hotplate.llms.md) for a snapshot of the current landscape.
+[Read the latest Hotplate](hotplate/2026-10-October-Hotplate.qmd) for a snapshot of the current landscape.
 
 ## Index
 

@@ -6,7 +6,7 @@
 
 <!-- HOTPLATE:START -->
 
-:fire: Read the latest hotplate: [2026-Q4-hotplate](2026-Q4-hotplate.qmd)
+:fire: Read the latest hotplate: [2026-10-October-Hotplate.qmd](hotplate/2026-10-October-Hotplate.qmd)
 
 <!-- HOTPLATE:END -->
 
