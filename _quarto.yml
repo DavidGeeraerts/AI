@@ -11,7 +11,7 @@ glossary:
   path: appendices/glossary.yml
   popup: click
   show: true
-date: today
+date: last-modified  
 date-format: iso
 
 
@@ -42,7 +42,6 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - chapters/00-cover.qmd
     - chapters/01-introduction.qmd
     - chapters/02-models.qmd
     - chapters/03-running-a-model.qmd

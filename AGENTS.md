@@ -22,7 +22,7 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 - never edit or change content in ./docs directory, only edit content in the root directory or subdirectories outside of ./docs
 - never edit ./_extensions
 - ignore .quarto directory and its contents
-- don't edit appendices/glossary.yml; edit appendices/Glossary.qmd instead.
+- don't edit appendices/glossary.yml; edit appendices/glossary.qmd instead.
 
 </rules>
 

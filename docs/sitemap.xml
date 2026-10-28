@@ -2,15 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://davidgeeraerts.github.io/AI/index.html</loc>
-    <lastmod>2026-10-28T21:00:23.663Z</lastmod>
-  </url>
-  <url>
-    <loc>https://davidgeeraerts.github.io/AI/chapters/00-cover.html</loc>
-    <lastmod>2026-10-28T21:03:45.534Z</lastmod>
+    <lastmod>2026-10-28T22:04:27.727Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/01-introduction.html</loc>
-    <lastmod>2026-10-28T21:31:32.013Z</lastmod>
+    <lastmod>2026-10-28T22:04:27.629Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/02-models.html</loc>
@@ -54,6 +50,6 @@
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/AI.epub</loc>
-    <lastmod>2026-10-28T21:41:05.695Z</lastmod>
+    <lastmod>2026-10-28T22:04:52.889Z</lastmod>
   </url>
 </urlset>

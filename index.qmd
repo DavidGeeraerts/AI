@@ -24,8 +24,8 @@ page-layout: full
 
 [Chapter-08-Keeping-the-Map-Alive](chapters/08-keeping-the-map-alive.qmd) offers tips for maintaining and updating your AI knowledge base.
 
-[Appendix-Glossary](appendices/Glossary.qmd) contains definitions of key terms used throughout the book.
+[Appendix-Glossary](appendices/glossary.qmd) contains definitions of key terms used throughout the book.
 
-[Appendix-Notes](appendices/Notes.qmd) includes additional notes and references for deeper understanding.
+[Appendix-Notes](appendices/notes.qmd) includes additional notes and references for deeper understanding.
 
-[Appendix-Prompt-Engineering-Notes](appendices/Prompt-Engineering-Notes.qmd) provides insights into effective prompt engineering techniques.
+[Appendix-Prompt-Engineering-Notes](appendices/prompt-engineering-notes.qmd) provides insights into effective prompt engineering techniques.
