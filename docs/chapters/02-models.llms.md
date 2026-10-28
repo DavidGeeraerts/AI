@@ -119,6 +119,19 @@ Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can chang
 
 ## Base Model Data
 
-(Order by Name ↑) - [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE) - [**Common Crawl**](https://commoncrawl.org/) - [**FineWeb**](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) – curated Internet dataset. - [**Google Dataset Search**](https://datasetsearch.research.google.com/) - [**Hugging Face Datasets**](https://huggingface.co/datasets) - [**Kaggle**](https://www.kaggle.com/datasets) - [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog) - [MNIST (Modified National Institute of Standards and Technology database)](https://github.com/cvdfoundation/mnist) - [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html) - [SNAP - Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/) - [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/) - [USA Data Gov](https://data.gov/)
+(Order by Name ↑)
+
+- [AWS Open Data](https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&sc_channel=el&FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&CONTRACT_TYPE=OPEN_DATA_LICENSES&filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE)
+- [**Common Crawl**](https://commoncrawl.org/)
+- [**FineWeb**](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1) – curated Internet dataset.
+- [**Google Dataset Search**](https://datasetsearch.research.google.com/)
+- [**Hugging Face Datasets**](https://huggingface.co/datasets)
+- [**Kaggle**](https://www.kaggle.com/datasets)
+- [Microsoft Planetary Computer Data Catalog](https://planetarycomputer.microsoft.com/catalog)
+- [MNIST (Modified National Institute of Standards and Technology database)](https://github.com/cvdfoundation/mnist)
+- [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html)
+- [SNAP - Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+- [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/)
+- [USA Data Gov](https://data.gov/)
 
 Back to top

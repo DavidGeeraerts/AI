@@ -1,6 +1,6 @@
 Published
 
-2026-10-26
+2026-10-28
 
 # 🔥 Hotplate (Quarterly Release Cycle)
 
@@ -14,7 +14,7 @@ Published
 
 > is an optional Hermes Agent skill that autonomously finds and removes a consenting person’s personal information from data-broker and people-search sites.
 
-## NVIDIA \[OpenShell\]\[(https://www.nvidia.com/en-us/ai/openshell/)
+## NVIDIA [OpenShell](https://www.nvidia.com/en-us/ai/openshell/)
 
 > is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.
 
