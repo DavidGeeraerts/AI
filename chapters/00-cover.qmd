@@ -1,0 +1,1 @@
+[![](/assets/images/Book-Cover.jpg "The Book of AI"){fig-align="center"}](/index.qmd)

@@ -2,9 +2,7 @@ Published
 
 2026-10-28
 
-# 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape
-
-🧰 *The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control.*
+![](./assets/images/Book-Cover.jpg "The Book of AI")
 
 ## 🔥 Hotplate (Monthly Release Cycle)
 
@@ -24,12 +22,14 @@ Published
 
 [Chapter-06-Miscellaneous-Tools](chapters/06-miscellaneous-tools.llms.md) lists various tools that are useful in AI development.
 
-[Chapter-07-Resources](chapters/07-resources.qmd) provides a collection of resources for further learning.
+[Chapter-07-Resources](chapters/07-resources.llms.md) provides a collection of resources for further learning.
 
 [Chapter-08-Keeping-the-Map-Alive](chapters/08-keeping-the-map-alive.llms.md) offers tips for maintaining and updating your AI knowledge base.
 
 [Appendix-Glossary](appendices/Glossary.llms.md) contains definitions of key terms used throughout the book.
 
 [Appendix-Notes](appendices/Notes.llms.md) includes additional notes and references for deeper understanding.
+
+[Appendix-Prompt-Engineering-Notes](appendices/Prompt-Engineering-Notes.llms.md) provides insights into effective prompt engineering techniques.
 
 Back to top

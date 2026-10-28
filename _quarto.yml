@@ -9,7 +9,7 @@ project:
     - "Chapters/*.qmd"
     - "Appendices/*.qmd"
   preview:
-    browser: false
+    browser: true
 glossary:
   path: appendices/glossary.yml
   popup: click
@@ -28,6 +28,7 @@ format:
     from: markdown+emoji
 
 website:
+  image: /assets/images/Book-Cover-Banner.jpg
   description: "Mapping the Artificial Intelligence Landscape"
   # create llm friendly markdown
   llms-txt: true
@@ -45,11 +46,15 @@ website:
   reader-mode: true
   page-navigation: true
   navbar:
+    search: true
+    logo: /assets/images/Book-Cover-Banner.jpg
     left:
       - text: "Home"
         href: "index.qmd"
       - text: "Chapters" 
         menu:
+          - text: "00 - Index"
+            href: "index.qmd"
           - text: "01 - Introduction"
             href: "chapters/01-introduction.qmd"
           - text: "02 - Models"

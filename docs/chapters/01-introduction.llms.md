@@ -4,6 +4,10 @@ Published
 
 2026-10-28
 
+# 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape
+
+🧰 *The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit.*
+
 The Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.
 
 This book focuses on [Agentic Engineer](https://davidgeeraerts.github.io/AI/appendices/Glossary.html#agentic-engineer) — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the [Agentic engineering stack](https://davidgeeraerts.github.io/AI/appendices/Glossary.html#agentic-engineering-stack): the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.

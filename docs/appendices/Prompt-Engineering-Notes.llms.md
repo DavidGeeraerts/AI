@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-27
+2026-10-28
 
 # Key Takeaways
 
@@ -47,6 +47,71 @@ expert at...
 
 </output_format>
 ```
+
+## Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting
+
+``` xml
+
+<role>
+
+# Role
+expert at...
+
+</role>
+
+<context>
+
+# Context
+    - The context provides the necessary background information for the prompt.
+
+</context>
+
+<instructions>
+
+# Instructions
+1. Do this
+2. Do that
+3. Do the other thing
+
+</instructions>
+
+<rules>
+
+#Rules
+- Always follow the instructions.
+- Never generate text that violates the rules.
+
+</rules>
+
+<examples>
+
+# Examples
+    
+    <example>
+
+    # Example
+        - This is an example of a good prompt.
+    
+    </example>
+
+    <example>
+
+    # Example
+        - Nesting tags is possible, e.g., for a list of examples:
+    
+    </example>
+
+</examples>
+
+<output_format>
+
+# Output Format
+- markdown table
+
+</output_format>
+```
+
+[project agents file](../AGENTS.md)
 
 # Resources - YouTube
 

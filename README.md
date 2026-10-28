@@ -1,3 +1,7 @@
+<div align="center">
+<img src="/assets/images/Book-Cover-Banner.jpg" alt="The Book of AI Banner"/>
+</div>
+
 # :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
 
 :notebook: [The Book of Agentic AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.

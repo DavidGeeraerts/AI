@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-27
+2026-10-28
 
 # X Agentic-Engineering Lists
 
@@ -37,6 +37,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 
 - 2026-10-25 [ExplainingComputers: GPU Upgrade for Local AI](https://youtu.be/9G3d9MwKAW8?si=iGiwi8FrJnkCm2B4)
 - 2026-10-23 [Kai: Google’s Harness² Is This the End of Harness Engineering?](https://youtu.be/yCgfyQmqhPM?si=cG_t_fwVWPzsDDl4)
+- 2026-10-22 [Kai: llama.cpp Just Made 125B MoE Models 4× Faster!](https://www.youtube.com/watch?v=shl8FFSoANE)
 - 2026-10-21 [Kai: I Tested Every Best Local AI For GPU (8GB TO 24GB VRAM)](https://youtu.be/ugKAkCVBcz0?si=aRJ9Rx0guKR-Bls6)
 - 2026-10-21 [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr)
 - 2026-10-19 [AI Engineer: Is the Agent Harness Dead? — Jediah Katz, SpaceXA](https://www.youtube.com/watch?v=7Y4sbZgBdnc)
