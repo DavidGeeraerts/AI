@@ -1,18 +1,10 @@
 ---
-title: "Agents and Harnesses"
-toc: false
-toc-depth: 3
-toc-location: right
-toc-title: "Chapter Index"
-toc-expand: true
-page-layout: article
-date: last-modified
-date-format: iso
+page-layout: full
 ---
 
 
 
-## Introduction
+# Agents and Harnesses
 
 - **An agent** is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
 - **A harness** is the runtime / scaffolding that turns a raw language model into a working agent.

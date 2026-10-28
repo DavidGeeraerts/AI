@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -301,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/01-introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><span class="emoji" data-emoji="open_book">📖</span> The Book of AI - Mapping the practical Artificial Intelligence landscape</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -380,9 +380,50 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#webonline-models" id="toc-webonline-models" class="nav-link active" data-scroll-target="#webonline-models"><span class="header-section-number">3.1</span> Web/Online Models</a></li>
+  <li><a href="#physical-hardware" id="toc-physical-hardware" class="nav-link" data-scroll-target="#physical-hardware"><span class="header-section-number">3.2</span> Physical Hardware</a></li>
+  <li><a href="#running-ai-models-locally" id="toc-running-ai-models-locally" class="nav-link" data-scroll-target="#running-ai-models-locally"><span class="header-section-number">3.3</span> Running AI Models Locally</a>
+  <ul class="collapse">
+  <li><a href="#local-first-inference" id="toc-local-first-inference" class="nav-link" data-scroll-target="#local-first-inference"><span class="header-section-number">3.3.1</span> Local-first inference</a></li>
+  <li><a href="#practical-implications" id="toc-practical-implications" class="nav-link" data-scroll-target="#practical-implications"><span class="header-section-number">3.3.2</span> Practical implications</a></li>
+  <li><a href="#when-to-choose-which" id="toc-when-to-choose-which" class="nav-link" data-scroll-target="#when-to-choose-which"><span class="header-section-number">3.3.3</span> When to choose which</a></li>
+  <li><a href="#other-local-inference-options" id="toc-other-local-inference-options" class="nav-link" data-scroll-target="#other-local-inference-options"><span class="header-section-number">3.3.4</span> Other local inference options</a></li>
+  </ul></li>
+  <li><a href="#cloud-and-hybrid-options" id="toc-cloud-and-hybrid-options" class="nav-link" data-scroll-target="#cloud-and-hybrid-options"><span class="header-section-number">3.4</span> Cloud and hybrid options</a>
+  <ul class="collapse">
+  <li><a href="#neoclouds-also-neoclouds-or-neo-clouds" id="toc-neoclouds-also-neoclouds-or-neo-clouds" class="nav-link" data-scroll-target="#neoclouds-also-neoclouds-or-neo-clouds"><span class="header-section-number">3.4.1</span> <strong>NeoClouds</strong> (also <em>neoclouds</em> or <em>neo-clouds</em>)</a></li>
+  </ul></li>
+  <li><a href="#making-models-usable-by-agents" id="toc-making-models-usable-by-agents" class="nav-link" data-scroll-target="#making-models-usable-by-agents"><span class="header-section-number">3.5</span> Making models usable by agents</a></li>
+  <li><a href="#security-and-operational-considerations" id="toc-security-and-operational-considerations" class="nav-link" data-scroll-target="#security-and-operational-considerations"><span class="header-section-number">3.6</span> Security and operational considerations</a>
+  <ul class="collapse">
+  <li><a href="#security-resources-for-local-models" id="toc-security-resources-for-local-models" class="nav-link" data-scroll-target="#security-resources-for-local-models"><span class="header-section-number">3.6.1</span> Security Resources for local models</a></li>
+  <li><a href="#local-model-vulnerabilities" id="toc-local-model-vulnerabilities" class="nav-link" data-scroll-target="#local-model-vulnerabilities"><span class="header-section-number">3.6.2</span> Local Model Vulnerabilities</a></li>
+  </ul></li>
+  <li><a href="#security-summary-what-can-the-model-reach" id="toc-security-summary-what-can-the-model-reach" class="nav-link" data-scroll-target="#security-summary-what-can-the-model-reach"><span class="header-section-number">3.7</span> <strong>Security Summary: What Can the Model Reach?</strong></a>
+  <ul class="collapse">
+  <li><a href="#the-practical-risk-ladder" id="toc-the-practical-risk-ladder" class="nav-link" data-scroll-target="#the-practical-risk-ladder"><span class="header-section-number">3.7.1</span> The practical risk ladder</a></li>
+  <li><a href="#key-attack-surfaces-that-expand-reach" id="toc-key-attack-surfaces-that-expand-reach" class="nav-link" data-scroll-target="#key-attack-surfaces-that-expand-reach"><span class="header-section-number">3.7.2</span> Key attack surfaces that expand “reach”</a></li>
+  <li><a href="#practical-containment-principles" id="toc-practical-containment-principles" class="nav-link" data-scroll-target="#practical-containment-principles"><span class="header-section-number">3.7.3</span> Practical containment principles</a></li>
+  </ul></li>
+  <li><a href="#nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application." id="toc-nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application." class="nav-link" data-scroll-target="#nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application."><span class="header-section-number">3.8</span> NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.</a>
+  <ul class="collapse">
+  <li><a href="#core-idea" id="toc-core-idea" class="nav-link" data-scroll-target="#core-idea"><span class="header-section-number">3.8.1</span> Core Idea</a></li>
+  <li><a href="#key-benefits" id="toc-key-benefits" class="nav-link" data-scroll-target="#key-benefits"><span class="header-section-number">3.8.2</span> Key Benefits</a></li>
+  <li><a href="#main-components" id="toc-main-components" class="nav-link" data-scroll-target="#main-components"><span class="header-section-number">3.8.3</span> Main Components</a></li>
+  <li><a href="#reference-architecture" id="toc-reference-architecture" class="nav-link" data-scroll-target="#reference-architecture"><span class="header-section-number">3.8.4</span> Reference Architecture</a></li>
+  <li><a href="#who-its-for-what-it-supports" id="toc-who-its-for-what-it-supports" class="nav-link" data-scroll-target="#who-its-for-what-it-supports"><span class="header-section-number">3.8.5</span> Who It’s For &amp; What It Supports</a></li>
+  <li><a href="#technical-resources" id="toc-technical-resources" class="nav-link" data-scroll-target="#technical-resources"><span class="header-section-number">3.8.6</span> Technical Resources</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/03-running-a-model.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -392,7 +433,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
     <div>
@@ -1246,7 +1287,7 @@ NeoClouds address the compute bottleneck that constrains both frontier model dev
     }
   });
   </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../chapters/02-models.html" class="pagination-link" aria-label="Models">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Models</span></span>
@@ -1263,5 +1304,5 @@ NeoClouds address the compute bottleneck that constrains both frontier model dev
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/03-running-a-model.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/03-running-a-model.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

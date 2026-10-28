@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -267,7 +267,7 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
@@ -301,7 +301,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/01-introduction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><span class="emoji" data-emoji="open_book">📖</span> The Book of AI - Mapping the practical Artificial Intelligence landscape</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -380,9 +380,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#agent-harness-diagram" id="toc-agent-harness-diagram" class="nav-link active" data-scroll-target="#agent-harness-diagram"><span class="header-section-number">4.1</span> Agent Harness Diagram</a>
+  <ul class="collapse">
+  <li><a href="#more-precise-breakdown" id="toc-more-precise-breakdown" class="nav-link" data-scroll-target="#more-precise-breakdown"><span class="header-section-number">4.1.1</span> More precise breakdown</a></li>
+  </ul></li>
+  <li><a href="#modern-harnesses" id="toc-modern-harnesses" class="nav-link" data-scroll-target="#modern-harnesses"><span class="header-section-number">4.2</span> Modern harnesses</a></li>
+  <li><a href="#supporting-infrastructure" id="toc-supporting-infrastructure" class="nav-link" data-scroll-target="#supporting-infrastructure"><span class="header-section-number">4.3</span> Supporting infrastructure</a></li>
+  <li><a href="#agents.md" id="toc-agents.md" class="nav-link" data-scroll-target="#agents.md"><span class="header-section-number">4.4</span> agents.md</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/04-agents-and-harnesses.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -392,7 +406,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
     <div>
@@ -410,8 +424,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level2" data-number="4.1">
-<h2 data-number="4.1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">4.1</span> Introduction</h2>
 <ul>
 <li><strong>An agent</strong> is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.</li>
 <li><strong>A harness</strong> is the runtime / scaffolding that turns a raw language model into a working agent.
@@ -419,17 +431,16 @@ ul.task-list li input[type="checkbox"] {
 <li><em><strong>The harness</strong> is the engine and chassis. <strong>The agent</strong> is the driver + the behavior that emerges once the model is running inside that chassis.</em></li>
 </ul></li>
 </ul>
-</section>
-<section id="agent-harness-diagram" class="level2" data-number="4.2">
-<h2 data-number="4.2" class="anchored" data-anchor-id="agent-harness-diagram"><span class="header-section-number">4.2</span> Agent Harness Diagram</h2>
+<section id="agent-harness-diagram" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="agent-harness-diagram"><span class="header-section-number">4.1</span> Agent Harness Diagram</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/images/agent-harness-diagram.png" title="Agent Harness Diagram" class="img-fluid figure-img"></p>
 <figcaption>Agent Harness Diagram</figcaption>
 </figure>
 </div>
-<section id="more-precise-breakdown" class="level3" data-number="4.2.1">
-<h3 data-number="4.2.1" class="anchored" data-anchor-id="more-precise-breakdown"><span class="header-section-number">4.2.1</span> More precise breakdown</h3>
+<section id="more-precise-breakdown" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="more-precise-breakdown"><span class="header-section-number">4.1.1</span> More precise breakdown</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -466,8 +477,8 @@ ul.task-list li input[type="checkbox"] {
 <p>A harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.</p>
 </section>
 </section>
-<section id="modern-harnesses" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="modern-harnesses"><span class="header-section-number">4.3</span> Modern harnesses</h2>
+<section id="modern-harnesses" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="modern-harnesses"><span class="header-section-number">4.2</span> Modern harnesses</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 14%">
@@ -567,8 +578,8 @@ ul.task-list li input[type="checkbox"] {
 </table>
 <p>Compare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.</p>
 </section>
-<section id="supporting-infrastructure" class="level2" data-number="4.4">
-<h2 data-number="4.4" class="anchored" data-anchor-id="supporting-infrastructure"><span class="header-section-number">4.4</span> Supporting infrastructure</h2>
+<section id="supporting-infrastructure" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="supporting-infrastructure"><span class="header-section-number">4.3</span> Supporting infrastructure</h2>
 <ul>
 <li><strong>MCP (Model Context Protocol)</strong> connects agents to tools and services.</li>
 <li>Sandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.</li>
@@ -577,10 +588,10 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>DOX / AGENTS.md</strong> hierarchies give agents maintainable project context.</li>
 </ul>
 </section>
-<section id="agents.md" class="level2" data-number="4.5">
-<h2 data-number="4.5" class="anchored" data-anchor-id="agents.md"><span class="header-section-number">4.5</span> <a href="https://agents.md/">agents.md</a></h2>
-<section id="evaluating-agents.md-are-repository-level-context-files-helpful-for-coding-agents" class="level4" data-number="4.5.0.1">
-<h4 data-number="4.5.0.1" class="anchored" data-anchor-id="evaluating-agents.md-are-repository-level-context-files-helpful-for-coding-agents"><span class="header-section-number">4.5.0.1</span> Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?</h4>
+<section id="agents.md" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="agents.md"><span class="header-section-number">4.4</span> <a href="https://agents.md/">agents.md</a></h2>
+<section id="evaluating-agents.md-are-repository-level-context-files-helpful-for-coding-agents" class="level4" data-number="4.4.0.1">
+<h4 data-number="4.4.0.1" class="anchored" data-anchor-id="evaluating-agents.md-are-repository-level-context-files-helpful-for-coding-agents"><span class="header-section-number">4.4.0.1</span> Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?</h4>
 <p><a href="https://arxiv.org/abs/2602.11988">Evaluating AGENTS.md: Are Repository-Level Context Files Helpful…</a></p>
 <table class="caption-top table">
 <colgroup>
@@ -1033,7 +1044,7 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
       <a href="../chapters/03-running-a-model.html" class="pagination-link" aria-label="Running a Model">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Running a Model</span></span>
@@ -1050,5 +1061,5 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/04-agents-and-harnesses.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/04-agents-and-harnesses.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

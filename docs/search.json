@@ -22,21 +22,11 @@
   {
     "objectID": "chapters/01-introduction.html",
     "href": "chapters/01-introduction.html",
-    "title": "1  Introduction",
+    "title": "1  :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape",
     "section": "",
-    "text": "2 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape\n🧰 The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit.\nThe Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.\nThis book focuses on Agentic Engineer — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the Agentic engineering stack: the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.\nThe monthly Hotplate offers a snapshot of the current landscape. The 2026 October edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.\nUse this book as a living toolkit: consult the chapters for practical orientation, and follow the linked source materials and quarterly snapshots as the landscape changes.",
+    "text": "1.1 The Shift to Agentic Engineering\n🧰 The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit.\nThe Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.\nThis book focuses on Agentic Engineer — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the Agentic engineering stack: the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.\nThe monthly Hotplate offers a snapshot of the current landscape. The 2026 October edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.\nUse this book as a living toolkit: consult the chapters for practical orientation, and follow the linked source materials and quarterly snapshots as the landscape changes.\nAs artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.\nTo build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:\nThe Reasoning Engine: The foundational models that interpret intent and drive logic.\nOrchestration & Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).\nTooling & Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.\nMemory & State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.\nMastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/01-introduction.html#the-shift-to-agentic-engineering",
-    "href": "chapters/01-introduction.html#the-shift-to-agentic-engineering",
-    "title": "1  Introduction",
-    "section": "2.1 The Shift to Agentic Engineering",
-    "text": "2.1 The Shift to Agentic Engineering\nAs artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.\nTo build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:\nThe Reasoning Engine: The foundational models that interpret intent and drive logic.\nOrchestration & Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).\nTooling & Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.\nMemory & State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.\nMastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>:open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape</span>"
     ]
   },
   {
@@ -44,17 +34,7 @@
     "href": "chapters/02-models.html",
     "title": "2  Models",
     "section": "",
-    "text": "2.1 Model categories\nChoosing a model starts with understanding its capabilities, availability, and trade-offs.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/02-models.html#model-categories",
-    "href": "chapters/02-models.html#model-categories",
-    "title": "2  Models",
-    "section": "",
-    "text": "General-purpose and code-specialized large language models\nMultimodal models\nImage-generation models, including text-to-image and image-to-image systems\nDecision or “System One” models, including calibrated-decision approaches",
+    "text": "2.1 AI Model Types",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -63,8 +43,8 @@
     "objectID": "chapters/02-models.html#ai-model-types",
     "href": "chapters/02-models.html#ai-model-types",
     "title": "2  Models",
-    "section": "2.2 AI Model Types",
-    "text": "2.2 AI Model Types\n\nLarge Language Models (LLM)\n\nGeneral-purpose language models\nCode-specialized models\n\nClaude Fable 5.1 / Claude Opus 5.5 family (Anthropic)\nGPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)\nGemini 4 Argon / Gemini 3.x Flash family (Google)\nKimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)\nDeepSeek\nQwen\n\n\nImage Generation Models\n\nText-to-Image {Stable Diffusion, Midjourney, DALL-E, Grok Imagine}\nImage-to-Image\n\nMultimodal Models (Text, Image, Audio, Video)\n\nKimi K3 (Moonshot AI)\nClaude Opus 5 / Claude Opus 5.5 (Anthropic)\nQwen3.8 Max (Alibaba)\nGPT-5.6 series (especially Sol / Luna variants) (OpenAI)\nGemini 3.x Flash / Pro family (Google)",
+    "section": "",
+    "text": "Large Language Models (LLM)\n\nGeneral-purpose language models\nCode-specialized models\n\nClaude Fable 5.1 / Claude Opus 5.5 family (Anthropic)\nGPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)\nGemini 4 Argon / Gemini 3.x Flash family (Google)\nKimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)\nDeepSeek\nQwen\n\n\nImage Generation Models\n\nText-to-Image {Stable Diffusion, Midjourney, DALL-E, Grok Imagine}\nImage-to-Image\n\nMultimodal Models (Text, Image, Audio, Video)\n\nKimi K3 (Moonshot AI)\nClaude Opus 5 / Claude Opus 5.5 (Anthropic)\nQwen3.8 Max (Alibaba)\nGPT-5.6 series (especially Sol / Luna variants) (OpenAI)\nGemini 3.x Flash / Pro family (Google)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -73,8 +53,8 @@
     "objectID": "chapters/02-models.html#model-families-and-access",
     "href": "chapters/02-models.html#model-families-and-access",
     "title": "2  Models",
-    "section": "2.3 Model families and access",
-    "text": "2.3 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
+    "section": "2.2 Model families and access",
+    "text": "2.2 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -83,8 +63,8 @@
     "objectID": "chapters/02-models.html#evaluation-and-training-data",
     "href": "chapters/02-models.html#evaluation-and-training-data",
     "title": "2  Models",
-    "section": "2.4 Evaluation and training data",
-    "text": "2.4 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
+    "section": "2.3 Evaluation and training data",
+    "text": "2.3 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -93,8 +73,8 @@
     "objectID": "chapters/02-models.html#abliteration",
     "href": "chapters/02-models.html#abliteration",
     "title": "2  Models",
-    "section": "2.5 Abliteration",
-    "text": "2.5 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
+    "section": "2.4 Abliteration",
+    "text": "2.4 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -103,8 +83,8 @@
     "objectID": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
     "href": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
     "title": "2  Models",
-    "section": "2.6 Prominent AI Organizations Creating Foundational AI Models",
-    "text": "2.6 Prominent AI Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAlibaba (Qwen)\nAllen Institute for AI\nAmazon AI\nAnthropic\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere\nDeepSeek\nGoogle AI / Google DeepMind\nHugging Face\nIBM\nMeta AI\nMicrosoft AI\nMiniMax\nMistral AI\nMoonshot AI (Kimi)\nOpenAI\nStability AI\nXiaomi (MiMo)\nxAI\nZhipu AI / Z.AI (GLM)\n\n\n2.6.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nKimi (Moonshot AI)\nLlama (Meta)\nMiMo (Xiaomi)\nMistral (Mistral AI)\nMuse (Meta)\nNova (Amazon)\nQwen (Alibaba)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)",
+    "section": "2.5 Prominent AI Organizations Creating Foundational AI Models",
+    "text": "2.5 Prominent AI Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAlibaba (Qwen)\nAllen Institute for AI\nAmazon AI\nAnthropic\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere\nDeepSeek\nGoogle AI / Google DeepMind\nHugging Face\nIBM\nMeta AI\nMicrosoft AI\nMiniMax\nMistral AI\nMoonshot AI (Kimi)\nOpenAI\nStability AI\nXiaomi (MiMo)\nxAI\nZhipu AI / Z.AI (GLM)\n\n\n2.5.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nKimi (Moonshot AI)\nLlama (Meta)\nMiMo (Xiaomi)\nMistral (Mistral AI)\nMuse (Meta)\nNova (Amazon)\nQwen (Alibaba)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -113,8 +93,8 @@
     "objectID": "chapters/02-models.html#benchmarks",
     "href": "chapters/02-models.html#benchmarks",
     "title": "2  Models",
-    "section": "2.7 Benchmarks",
-    "text": "2.7 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\n\n\n2.7.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
+    "section": "2.6 Benchmarks",
+    "text": "2.6 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\n\n\n2.6.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -123,8 +103,8 @@
     "objectID": "chapters/02-models.html#base-model-data",
     "href": "chapters/02-models.html#base-model-data",
     "title": "2  Models",
-    "section": "2.8 Base Model Data",
-    "text": "2.8 Base Model Data\n(Order by Name ↑)\n\nAWS Open Data\nCommon Crawl\nFineWeb – curated Internet dataset.\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
+    "section": "2.7 Base Model Data",
+    "text": "2.7 Base Model Data\n(Order by Name ↑)\n\nAWS Open Data\nCommon Crawl\nFineWeb – curated Internet dataset.\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -224,17 +204,7 @@
     "href": "chapters/04-agents-and-harnesses.html",
     "title": "4  Agents and Harnesses",
     "section": "",
-    "text": "4.1 Introduction",
-    "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
-    ]
-  },
-  {
-    "objectID": "chapters/04-agents-and-harnesses.html#introduction",
-    "href": "chapters/04-agents-and-harnesses.html#introduction",
-    "title": "4  Agents and Harnesses",
-    "section": "",
-    "text": "An agent is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.\nA harness is the runtime / scaffolding that turns a raw language model into a working agent.\n\nThe harness is the engine and chassis. The agent is the driver + the behavior that emerges once the model is running inside that chassis.",
+    "text": "4.1 Agent Harness Diagram",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
@@ -243,8 +213,8 @@
     "objectID": "chapters/04-agents-and-harnesses.html#agent-harness-diagram",
     "href": "chapters/04-agents-and-harnesses.html#agent-harness-diagram",
     "title": "4  Agents and Harnesses",
-    "section": "4.2 Agent Harness Diagram",
-    "text": "4.2 Agent Harness Diagram\n\n\n\nAgent Harness Diagram\n\n\n\n4.2.1 More precise breakdown\n\n\n\n\n\n\n\n\nConcept\nWhat it is\nExamples\n\n\n\n\nModel\nThe raw intelligence (weights)\nQwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.\n\n\nHarness\nThe runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.\nHermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero\n\n\nAgent\nThe resulting autonomous system that actually does work\nCopilot, OpenCode, Agent Zero\n\n\n\nThe harness determines: - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it\nA good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages\nA harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.",
+    "section": "",
+    "text": "Agent Harness Diagram\n\n\n\n4.1.1 More precise breakdown\n\n\n\n\n\n\n\n\nConcept\nWhat it is\nExamples\n\n\n\n\nModel\nThe raw intelligence (weights)\nQwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.\n\n\nHarness\nThe runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.\nHermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero\n\n\nAgent\nThe resulting autonomous system that actually does work\nCopilot, OpenCode, Agent Zero\n\n\n\nThe harness determines: - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it\nA good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages\nA harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
@@ -253,8 +223,8 @@
     "objectID": "chapters/04-agents-and-harnesses.html#modern-harnesses",
     "href": "chapters/04-agents-and-harnesses.html#modern-harnesses",
     "title": "4  Agents and Harnesses",
-    "section": "4.3 Modern harnesses",
-    "text": "4.3 Modern harnesses\n\n\n\n\n\n\n\n\n\n\nName\nType\nPrimary Focus\nNotes / Key Traits\nStars (approx, Oct 2026)\n\n\n\n\ngoose\nBoth\nGeneral-purpose local agent\nOwn harness + agent; MCP-native; desktop + CLI; AAIF\n~55k\n\n\nHermes Agent\nBoth\nAlways-on personal agent\nOwn runtime; persistent memory + skill creation; messaging gateways\n~250k+\n\n\nAgent Zero\nBoth\nFull computer-use agent\nOwn Docker Linux desktop + agent; high transparency\n~19.5k\n\n\nOpenClaw\nBoth\nPersonal assistant (chat apps)\nOwn gateway/runtime; messaging-first\nVery high (~390k+)\n\n\nOpenHands\nBoth\nCoding / software engineering\nOwn multi-agent runtime; web UI + desktop\n~89k\n\n\nOpenCode\nBoth\nTerminal coding agent\nOwn agent loop; model-agnostic\nHigh\n\n\nCodex (OpenAI)\nBoth\nCoding agent suite\nCloud + CLI + IDE; proprietary harness\nN/A (product)\n\n\nClaude Code\nBoth\nCoding agent\nAnthropic harness + agent; subscription-based\nN/A (product)\n\n\nCline\nBoth\nIDE coding agent\nVS Code / JetBrains extension with own loop\n—\n\n\nAider\nBoth\nTerminal coding agent\nOwn agent loop; git-aware\n—\n\n\nEigent\nBoth\nMulti-agent desktop\nParallel agents on one task\n~15.5k\n\n\n\nCompare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.",
+    "section": "4.2 Modern harnesses",
+    "text": "4.2 Modern harnesses\n\n\n\n\n\n\n\n\n\n\nName\nType\nPrimary Focus\nNotes / Key Traits\nStars (approx, Oct 2026)\n\n\n\n\ngoose\nBoth\nGeneral-purpose local agent\nOwn harness + agent; MCP-native; desktop + CLI; AAIF\n~55k\n\n\nHermes Agent\nBoth\nAlways-on personal agent\nOwn runtime; persistent memory + skill creation; messaging gateways\n~250k+\n\n\nAgent Zero\nBoth\nFull computer-use agent\nOwn Docker Linux desktop + agent; high transparency\n~19.5k\n\n\nOpenClaw\nBoth\nPersonal assistant (chat apps)\nOwn gateway/runtime; messaging-first\nVery high (~390k+)\n\n\nOpenHands\nBoth\nCoding / software engineering\nOwn multi-agent runtime; web UI + desktop\n~89k\n\n\nOpenCode\nBoth\nTerminal coding agent\nOwn agent loop; model-agnostic\nHigh\n\n\nCodex (OpenAI)\nBoth\nCoding agent suite\nCloud + CLI + IDE; proprietary harness\nN/A (product)\n\n\nClaude Code\nBoth\nCoding agent\nAnthropic harness + agent; subscription-based\nN/A (product)\n\n\nCline\nBoth\nIDE coding agent\nVS Code / JetBrains extension with own loop\n—\n\n\nAider\nBoth\nTerminal coding agent\nOwn agent loop; git-aware\n—\n\n\nEigent\nBoth\nMulti-agent desktop\nParallel agents on one task\n~15.5k\n\n\n\nCompare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
@@ -263,8 +233,8 @@
     "objectID": "chapters/04-agents-and-harnesses.html#supporting-infrastructure",
     "href": "chapters/04-agents-and-harnesses.html#supporting-infrastructure",
     "title": "4  Agents and Harnesses",
-    "section": "4.4 Supporting infrastructure",
-    "text": "4.4 Supporting infrastructure\n\nMCP (Model Context Protocol) connects agents to tools and services.\nSandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.\nPersistent memory and agent-written skills support longer-running work.\nSpyNEL orchestrates existing coding harnesses.\nDOX / AGENTS.md hierarchies give agents maintainable project context.",
+    "section": "4.3 Supporting infrastructure",
+    "text": "4.3 Supporting infrastructure\n\nMCP (Model Context Protocol) connects agents to tools and services.\nSandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.\nPersistent memory and agent-written skills support longer-running work.\nSpyNEL orchestrates existing coding harnesses.\nDOX / AGENTS.md hierarchies give agents maintainable project context.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
@@ -273,8 +243,8 @@
     "objectID": "chapters/04-agents-and-harnesses.html#agents.md",
     "href": "chapters/04-agents-and-harnesses.html#agents.md",
     "title": "4  Agents and Harnesses",
-    "section": "4.5 agents.md",
-    "text": "4.5 agents.md\n\n4.5.0.1 Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?\nEvaluating AGENTS.md: Are Repository-Level Context Files Helpful…\n\n\n\n\n\n\n\n\nCondition\nEffect on success rate\nEffect on cost / steps\n\n\n\n\nLLM-generated context files\nSlightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs)\n+20–23% inference cost; +2.5–4 extra steps per task\n\n\nHuman-written context files\nModest average gain (~ +4% on the developer-file benchmark)\nStill + up to ~19% cost / more steps\n\n\nOverall\n“Does not generally improve task success rates”\nClear, consistent cost increase\n\n\n\nPractical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.",
+    "section": "4.4 agents.md",
+    "text": "4.4 agents.md\n\n4.4.0.1 Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?\nEvaluating AGENTS.md: Are Repository-Level Context Files Helpful…\n\n\n\n\n\n\n\n\nCondition\nEffect on success rate\nEffect on cost / steps\n\n\n\n\nLLM-generated context files\nSlightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs)\n+20–23% inference cost; +2.5–4 extra steps per task\n\n\nHuman-written context files\nModest average gain (~ +4% on the developer-file benchmark)\nStill + up to ~19% cost / more steps\n\n\nOverall\n“Does not generally improve task success rates”\nClear, consistent cost increase\n\n\n\nPractical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
@@ -314,7 +284,7 @@
     "href": "chapters/06-miscellaneous-tools.html",
     "title": "6  Miscellaneous Tools and Supporting Infrastructure",
     "section": "",
-    "text": "6.0.1 Miscellaneous Tools\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
+    "text": "6.0.1 Miscellaneous Tools\npage-layout: full\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
     ]
@@ -344,7 +314,17 @@
     "href": "chapters/07-resources.html",
     "title": "7  Resources",
     "section": "",
-    "text": "8 X Agentic-Engineering Lists",
+    "text": "7.1 X Agentic-Engineering Lists",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/07-resources.html#x-agentic-engineering-lists",
+    "href": "chapters/07-resources.html#x-agentic-engineering-lists",
+    "title": "7  Resources",
+    "section": "",
+    "text": "Agentic Engineering",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -353,8 +333,8 @@
     "objectID": "chapters/07-resources.html#ai-publications",
     "href": "chapters/07-resources.html#ai-publications",
     "title": "7  Resources",
-    "section": "12.1 AI Publications",
-    "text": "12.1 AI Publications\n(Sorted by Publication Date ↓)\n\n2025-04-25 BitNet b1.58 2B4T Technical Report\n2024-04-09 RULER: What’s the Real Context Size of Your Long-Context Language Models?\n2023-07-27 Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks\n2020-05-28 Language Models are Few-Shot Learners (GPT-3)\n2019-06-17 Superposition of many models into one\n2018-10-11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\n2017-06-12 Attention Is All You Need\n2015-12-10 Deep Residual Learning for Image Recognition (ResNet)\n2014-06-10 Generative Adversarial Networks (GANs)\n2012 ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+    "section": "11.1 AI Publications",
+    "text": "11.1 AI Publications\n(Sorted by Publication Date ↓)\n\n2025-04-25 BitNet b1.58 2B4T Technical Report\n2024-04-09 RULER: What’s the Real Context Size of Your Long-Context Language Models?\n2023-07-27 Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks\n2020-05-28 Language Models are Few-Shot Learners (GPT-3)\n2019-06-17 Superposition of many models into one\n2018-10-11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\n2017-06-12 Attention Is All You Need\n2015-12-10 Deep Residual Learning for Image Recognition (ResNet)\n2014-06-10 Generative Adversarial Networks (GANs)\n2012 ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
@@ -364,7 +344,7 @@
     "href": "chapters/08-keeping-the-map-alive.html",
     "title": "8  Keeping the Map Alive",
     "section": "",
-    "text": "8.1 Maintaining the quarterly Hotplate\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
+    "text": "8.1 Maintaining the quarterly Hotplate\npage-layout: full\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]

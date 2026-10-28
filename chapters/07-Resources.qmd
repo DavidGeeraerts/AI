@@ -1,16 +1,11 @@
 ---
-title: "Resources"
-toc: true
-toc-depth: 2
-toc-location: right
-toc-title: "Index"
-toc-expand: true
-page-layout: article
-date: last-modified
-date-format: iso
+page-layout: full
+
 ---
 
-# X Agentic-Engineering Lists
+# Resources
+
+## X Agentic-Engineering Lists
 
 - [Agentic Engineering](https://x.com/i/lists/2113733734537335167)
 

@@ -1,15 +1,10 @@
 ---
-title: "Miscellaneous Tools and Supporting Infrastructure"
-toc: false
-toc-depth: 3
-toc-location: right
-toc-title: "Chapter Index"
-toc-expand: true
-page-layout: article
-date: last-modified
-date-format: iso
+
+page-layout: full
+
 ---
 
+# Miscellaneous Tools and Supporting Infrastructure
 
 Useful supporting tools improve understanding, model selection, and day-to-day
 workflows.

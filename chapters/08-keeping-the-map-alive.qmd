@@ -1,15 +1,10 @@
 ---
-title: "Keeping the Map Alive"
-toc: true
-toc-depth: 2
-toc-location: right
-toc-title: "Chapter Index"
-toc-expand: true
-page-layout: article
-date: last-modified
-date-format: iso
+
+page-layout: full
+
 ---
 
+# Keeping the Map Alive
 
 ## Maintaining the quarterly Hotplate
 
