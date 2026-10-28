@@ -10,8 +10,6 @@ date: last-modified
 date-format: iso
 ---
 
-![](/assets/images/Book-Cover.jpg "The Book of AI")
-
 
 ## :fire: Hotplate (Monthly Release Cycle)
 [Read the latest Hotplate](/hotplate/2026-10-October-hotplate.qmd) for a snapshot of the current landscape.

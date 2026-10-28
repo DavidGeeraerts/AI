@@ -20,7 +20,7 @@ date-format: iso
 
 
 ## Agent Harness Diagram
-![Agent Harness Diagram](./assets/images/agent-harness-diagram.png "Agent Harness Diagram")
+![Agent Harness Diagram](/assets/images/agent-harness-diagram.png "Agent Harness Diagram")
 
 
 

@@ -1,0 +1,91 @@
+project:
+  type: website
+  title: "The Book of AI"
+  output-dir: docs
+  pre-render: quarto run scripts/generate-glossary.ts
+  render:
+    - "*.qmd"
+  resources:
+    - "Chapters/*.qmd"
+    - "Appendices/*.qmd"
+  preview:
+    browser: true
+glossary:
+  path: appendices/glossary.yml
+  popup: click
+  show: true
+date: last-modified
+date-format: iso
+format:
+  html:
+#    respect-user-color-scheme: true
+    theme: 
+      light: flatly
+      dark: darkly
+    font-size: medium
+    toc: true
+    smooth-scroll: true
+    from: markdown+emoji
+
+website:
+  image: /assets/images/Book-Cover-Banner.jpg
+  description: "Mapping the Artificial Intelligence Landscape"
+  # create llm friendly markdown
+  llms-txt: true
+# Puts it below the TOC. Using "Tools" instead for GitHub links.
+# repo-url: https://github.com/DavidGeeraerts/AI
+# repo-actions: [source, issue]
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "**INFORMATIONAL NOTICE:** This site is under active development!"
+    type: primary
+    position: below-navbar
+  back-to-top-navigation: true
+  page-footer: "Mapping the Artificial Intelligence Landscape"
+  reader-mode: true
+  page-navigation: true
+  navbar:
+    search: true
+    logo: /assets/images/Book-Cover-Banner.jpg
+    left:
+      - text: "Home"
+        href: "index.qmd"
+      - text: "Chapters" 
+        menu:
+          - text: "00 - Index"
+            href: "index.qmd"
+          - text: "01 - Introduction"
+            href: "chapters/01-introduction.qmd"
+          - text: "02 - Models"
+            href: "chapters/02-models.qmd"
+          - text: "03 - Running a Model"
+            href: "chapters/03-running-a-model.qmd"
+          - text: "04 - Agents and Harnesses"
+            href: "chapters/04-agents-and-harnesses.qmd"
+          - text: "05 - Building a Working Stack"
+            href: "chapters/05-building-a-working-stack.qmd"
+          - text: "06 - Miscellaneous Tools"
+            href: "chapters/06-miscellaneous-tools.qmd"
+          - text: "07 - Resources"
+            href: "chapters/07-Resources.qmd"
+          - text: "08 - Keeping the Map Alive"
+            href: "chapters/08-keeping-the-map-alive.qmd"
+      - text: "Appendices"
+        menu:
+          - text: "Appendix A - Glossary"
+            href: "appendices/Glossary.qmd"
+          - text: "Appendix B - LLM Notes"
+            href: "appendices/Notes.qmd"
+          - text: "Appendix C - Prompt Engineering Notes"
+            href: "appendices/Prompt-Engineering-Notes.qmd"
+
+    tools:
+      - icon: github
+        menu:
+          - text: Source Code
+            href: https://github.com/DavidGeeraerts/AI
+
+execute:
+  freeze: auto
+  cache: false
