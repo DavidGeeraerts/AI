@@ -284,7 +284,7 @@
     "href": "chapters/06-miscellaneous-tools.html",
     "title": "6  Miscellaneous Tools and Supporting Infrastructure",
     "section": "",
-    "text": "6.0.1 Miscellaneous Tools\npage-layout: full\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
+    "text": "6.0.1 Miscellaneous Tools\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
     ]
@@ -344,7 +344,7 @@
     "href": "chapters/08-keeping-the-map-alive.html",
     "title": "8  Keeping the Map Alive",
     "section": "",
-    "text": "8.1 Maintaining the quarterly Hotplate\npage-layout: full\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
+    "text": "8.1 Maintaining the quarterly Hotplate\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]

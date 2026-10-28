@@ -1,5 +1,5 @@
 ---
-page-layout: full
+
 ---
 
 # Building a Working Stack

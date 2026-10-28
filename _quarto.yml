@@ -17,12 +17,12 @@ date-format: iso
 
 format:
   html:
+    page-layout: full
 #    respect-user-color-scheme: true
     theme: 
       light: flatly
       dark: darkly
     font-size: medium
-    toc: true
     smooth-scroll: true
     from: markdown+emoji
   epub:

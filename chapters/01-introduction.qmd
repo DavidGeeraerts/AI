@@ -1,5 +1,5 @@
 ---
-page-layout: full
+
 ---
 
 # :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
