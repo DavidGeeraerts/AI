@@ -1060,6 +1060,9 @@ Key Features of Mixture of Experts (MoE) Models:
 
 ## N
 
+### NeoClouds
+> (also *neoclouds* or *neo-clouds*) Specialized, AI-first cloud providers built primarily around high-performance GPU (and other accelerator) infrastructure for AI training, fine-tuning, and inference.
+
 ### Neural Network
 > is a computational model inspired by the structure and function of the human brain. Neural networks consist of interconnected nodes (neurons) organized in layers. Each neuron processes input data, applies an activation function, and passes the output to the next layer. Neural networks are used in various machine learning tasks, such as image recognition, natural language processing, and reinforcement learning.
 

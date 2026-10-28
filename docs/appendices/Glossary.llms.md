@@ -2,7 +2,7 @@
 
 Published
 
-2026-10-26
+2026-10-28
 
 ## A
 
@@ -1101,6 +1101,10 @@ Key Features of Mixture of Experts (MoE) Models: 1. Experts: Each expert network
 ------------------------------------------------------------------------
 
 ## N
+
+### NeoClouds
+
+> (also *neoclouds* or *neo-clouds*) Specialized, AI-first cloud providers built primarily around high-performance GPU (and other accelerator) infrastructure for AI training, fine-tuning, and inference.
 
 ### Neural Network
 

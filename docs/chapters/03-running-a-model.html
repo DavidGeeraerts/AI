@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-26">
+<meta name="dcterms.date" content="2026-10-28">
 
 <title>Running a Model – The Book of AI</title>
 <style>
@@ -380,7 +380,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-26</p>
+      <p class="date">2026-10-28</p>
     </div>
   </div>
   
@@ -608,6 +608,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="cloud-and-hybrid-options" class="level2">
 <h2 class="anchored" data-anchor-id="cloud-and-hybrid-options">Cloud and hybrid options</h2>
 <p>Hosted providers can complement local inference when a task needs a more capable model or additional capacity. Hybrid setups balance privacy, cost, latency, rate limits, and data-sovereignty requirements.</p>
+<section id="neoclouds-also-neoclouds-or-neo-clouds" class="level3">
+<h3 class="anchored" data-anchor-id="neoclouds-also-neoclouds-or-neo-clouds"><strong>NeoClouds</strong> (also <em>neoclouds</em> or <em>neo-clouds</em>)</h3>
+<p>Specialized, AI-first cloud providers built primarily around high-performance GPU (and other accelerator) infrastructure for AI training, fine-tuning, and inference.</p>
+<p>Unlike traditional hyperscalers (AWS, Microsoft Azure, Google Cloud), which offer a broad catalog of general-purpose services and later added GPU support, NeoClouds are designed from the ground up for dense GPU clusters, high-bandwidth low-latency networking, and the power/cooling demands of modern AI workloads. Their core offering is typically <strong>GPU-as-a-Service (GPUaaS)</strong>—renting accelerator capacity by the hour, reservation, or longer contract—often with thinner virtualization layers or bare-metal access.</p>
+<p><strong>Key characteristics</strong> - GPU-centric architecture and capacity - Optimized networking and storage for large-scale model training and inference - Narrower service surface focused on AI rather than general IT - Frequently more competitive pricing or faster access to the latest accelerators than hyperscalers - Serve AI labs, startups, enterprises, and sometimes other cloud providers</p>
+<p><strong>Notable examples</strong> (as of late 2026): CoreWeave, Nebius, Lambda, Crusoe, and a growing long tail of regional and specialized operators.</p>
+<p><strong>Why it matters in the agentic / practical AI landscape</strong><br>
+NeoClouds address the compute bottleneck that constrains both frontier model development and self-hosted or production agent systems. They expand the set of places you can actually rent serious GPU capacity outside the major hyperscalers.</p>
+</section>
 </section>
 <section id="making-models-usable-by-agents" class="level2">
 <h2 class="anchored" data-anchor-id="making-models-usable-by-agents">Making models usable by agents</h2>
