@@ -1,8 +1,14 @@
-# Prompt Engineering Notes
-
-Published
-
-2026-10-28
+---
+title: "Prompt Engineering Notes"
+toc: true
+toc-depth: 2
+toc-location: right
+toc-title: "Index"
+toc-expand: true
+page-layout: full
+date: last-modified
+date-format: iso
+---
 
 # Key Takeaways
 
@@ -10,8 +16,7 @@ Published
   - XML-style tags for unambiguous, explicit boundaries and nesting. Closing tags make it clear where a section ends
 
 ## Example of a Best-Practice Prompt using XML-style tags
-
-``` xml
+```xml
 
 <role>
 expert at...
@@ -46,11 +51,12 @@ expert at...
 - markdown table
 
 </output_format>
+
 ```
 
-## Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting
 
-``` xml
+## Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting
+```xml
 
 <role>
 
@@ -109,24 +115,28 @@ expert at...
 - markdown table
 
 </output_format>
+
 ```
 
-[project agents file](../AGENTS.md)
+
+
+[project agents file](/AGENTS.md)
+
+
+
 
 # Resources - YouTube
-
 | Title | Rating | Notes |
-|----|----|----|
+|-------|-------------|-------------|
 | [Mastering Claude Code in 30 minutes](https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH) | Low | High noise low signal. Infomercial. |
 | [The prompting playbook](https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS) | Medium | Good for understanding the fundamentals of prompting. |
-| [Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK) | medium | A good overview of the basics of prompt engineering. |
+| [Google's 9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK) | medium | A good overview of the basics of prompt engineering. |
 | [DeepLearningAI](https://youtu.be/8ib4Qnh2HFE?si=QULwzDGBp30T7-Jr) | High | A comprehensive course on prompt engineering. |
 
 ## [Anthropic: Mastering Claude Code in 30 minutes](https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH) [Boris Cherny](https://borischerny.com/)
-
 - create an AGENTS.md file to give the agent context about the project, including instructions, constraints, and goals.
 
-## [Claude: The prompting playbook](https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS) \[Margot van Laar\]
+## [Claude: The prompting playbook](https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS) [Margot van Laar]
 
 - Use XML tags to structure prompts for clarity and consistency.
 - Be clear and direct in your instructions, avoiding ambiguity.
@@ -137,11 +147,11 @@ expert at...
 - Create an explicit output contract (e.g., wrap the response in specific XML tags) and reinforce it at the harness level with stop sequences so the model knows exactly when to stop.
 - Treat old defensive patches as technical debt. Instructions written for a previous model’s weaknesses often cause new failures (including the opposite of hallucination: withholding information the model actually has). Version-control the *reason* for every instruction so you can remove it when the model improves.
 - Instructions do not add capability. Telling the model “calculate correctly” or “this is critical” does not improve arithmetic. Give it a reliable tool (with proper API declaration, schema, and implementation) instead, and let the model reason about when to use it.
-- When the model must make a trade-off (e.g., escalate a billing error vs. keep handling the conversation), state *both* sides of the cost/benefit clearly. Stronger models will otherwise overfit to whichever side you emphasize.
+- When the model must make a trade-off (e.g., escalate a billing error vs. keep handling the conversation), state *both* sides of the cost/benefit clearly. Stronger models will otherwise overfit to whichever side you emphasize.
 - When building a new agentic system, optimize the combination of model × prompt × harness (tools, structured outputs, stop sequences, adaptive thinking, etc.), not the prompt in isolation.
 - For multi-step or constrained generation tasks, prefer a generate → evaluate → repair loop with several simple, focused prompts over one giant monolithic prompt.
 
-## [Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK) [Tina Huang](https://www.linkedin.com/in/tinahuang/)
+## [Tina Huang: Google's 9 Hour AI Prompt Engineering Course In 20 Minutes](https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK) [Tina Huang](https://www.linkedin.com/in/tinahuang/)
 
 - Use the five-step TCREI framework for every prompt: **Task** (what to do, plus persona + desired format), **Context** (background, audience, constraints), **References** (examples / few-shot), **Evaluate** (does the output meet the need?), **Iterate** (refine and retry). Mnemonic: “Tiny crabs ride enormous iguanas” (or Google’s “Thoughtfully Create Really Excellent Inputs”).
 - Always be iterating (“ABI”). Four practical iteration methods: (1) revisit the full TCREI framework and add missing pieces, (2) break long prompts into shorter, clearer sentences, (3) rephrase or try an analogous task, (4) add constraints to narrow the solution space.
@@ -176,6 +186,7 @@ expert at...
 - Desktop/agentic AI apps can explore local files (with permission). Best practice: state the overall task, let the model propose a plan, then approve execution.
 - Power-user habits: iterate aggressively, request multiple options, keep conversations focused, verify important claims (especially from search/deep research), and continually give the model harder, more context-rich tasks.
 
+
 # Articles & Blogs
 
 - [The Prompt Is Not the Architecture — But It Still Governs How the System Reasons](https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture)
@@ -184,10 +195,10 @@ expert at...
 
 - The prompt is not the architecture, but it still governs *how* the system reasons. Architecture (harness, tools, gates, loops, meta-observation) determines what the system can see and do; the prompt/spec governs reasoning style and action selection.
 - Prompting has fragmented into four distinct disciplines (per Nate B Jones). Most people only practice the first:
-  1.  Prompt craft (structure, XML, role, output format)
-  2.  Context engineering (domain facts, background, memory tiers)
-  3.  Intent engineering (state the desired outcome / what “good” looks like, not just the task)
-  4.  Specification engineering (acceptance criteria, constraints, ordering, trade-off framings)
+  1. Prompt craft (structure, XML, role, output format)
+  2. Context engineering (domain facts, background, memory tiers)
+  3. Intent engineering (state the desired outcome / what “good” looks like, not just the task)
+  4. Specification engineering (acceptance criteria, constraints, ordering, trade-off framings)
 - A strong single structured system prompt that embeds all four disciplines can outperform multi-agent swarms on single-turn, well-scoped document tasks (H2 scored α = 1.000; five-agent swarm scored 0.625).
 - Brownfield (existing, messy production systems) vs greenfield (clean-slate tasks) matters. Complex constraint-satisfaction or continuous operational systems usually need correction loops or adaptive architectures, not just a bigger prompt.
 - Generate → Evaluate → Repair (GER) loops are often more reliable and cheaper than relying solely on the model’s adaptive/extended thinking for hard constraint tasks.
@@ -200,5 +211,3 @@ expert at...
 - Intent engineering (closing the loop between predicted outcomes and actual results, then calibrating future behavior) is often the missing operational discipline, not a pure engineering problem.
 - Meta-harness / meta-observation layers that read execution traces across runs can surface failure modes that pure pre-specification cannot anticipate.
 - Architecture choices should match the problem type: high-density single prompt for greenfield document tasks; correction loops + tools + meta-observation for brownfield continuous operations.
-
-Back to top

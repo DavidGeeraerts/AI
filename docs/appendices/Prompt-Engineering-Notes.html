@@ -8,7 +8,7 @@
 
 <meta name="dcterms.date" content="2026-10-28">
 
-<title>Prompt Engineering Notes – The Book of AI</title>
+<title>Appendix C — Prompt Engineering Notes – The Book of AI</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -72,6 +72,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../appendices/notes.html" rel="prev">
+<link href="../assets/images/Book-Cover.jpg" rel="icon" type="image/jpeg">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -83,15 +85,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-8b348f4b4b74a528bf910da1e8c5139e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-92404dd89b1444827012a9e3a58cda88.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f07248834697d125d844cdaf4174b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a64f2b92d8b4b45ab5f5d9261e8b8c9d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-f07248834697d125d844cdaf4174b45d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
+  "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
+  "panel-placement": "start",
+  "type": "textbox",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -118,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -284,155 +286,170 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/images/Book-Cover-Banner.jpg" alt="" class="navbar-logo light-content">
-    <img src="../assets/images/Book-Cover-Banner.jpg" alt="" class="navbar-logo dark-content">
-    </a>
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">The Book of AI</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-chapters" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Chapters</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-chapters">    
-        <li>
-    <a class="dropdown-item" href="../index.html">
- <span class="dropdown-text">00 - Index</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/01-introduction.html">
- <span class="dropdown-text">01 - Introduction</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/02-models.html">
- <span class="dropdown-text">02 - Models</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/03-running-a-model.html">
- <span class="dropdown-text">03 - Running a Model</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/04-agents-and-harnesses.html">
- <span class="dropdown-text">04 - Agents and Harnesses</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/05-building-a-working-stack.html">
- <span class="dropdown-text">05 - Building a Working Stack</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/06-miscellaneous-tools.html">
- <span class="dropdown-text">06 - Miscellaneous Tools</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/07-Resources.qmd">
- <span class="dropdown-text">07 - Resources</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../chapters/08-keeping-the-map-alive.html">
- <span class="dropdown-text">08 - Keeping the Map Alive</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-appendices" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Appendices</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-appendices">    
-        <li>
-    <a class="dropdown-item" href="../appendices/Glossary.html">
- <span class="dropdown-text">Appendix A - Glossary</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../appendices/Notes.html">
- <span class="dropdown-text">Appendix B - LLM Notes</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../appendices/Prompt-Engineering-Notes.html">
- <span class="dropdown-text">Appendix C - Prompt Engineering Notes</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/DavidGeeraerts/AI">
-            Source Code
-            </a>
-          </li>
-      </ul>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/glossary.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/prompt-engineering-notes.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Prompt Engineering Notes</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
     </div>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-  <div id="quarto-announcement" data-announcement-id="37915a2dd6460b52fe9d14bcb149d4b7" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>INFORMATIONAL NOTICE:</strong> This site is under active development!</p>
-</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">The Book of AI</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/davidgeeraerts/AI" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title"><span class="emoji" data-emoji="fire">🔥</span> Hotplate (Monthly Release Cycle)</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/00-cover.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">00-cover.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02-models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Models</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03-running-a-model.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Running a Model</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04-agents-and-harnesses.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Agents and Harnesses</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05-building-a-working-stack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Building a Working Stack</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06-miscellaneous-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Miscellaneous Tools and Supporting Infrastructure</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Resources</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08-keeping-the-map-alive.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Keeping the Map Alive</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">[AI] Notes</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/prompt-engineering-notes.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Prompt Engineering Notes</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Index</h2>
    
   <ul class="collapse">
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link active" data-scroll-target="#key-takeaways">Key Takeaways</a>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link active" data-scroll-target="#key-takeaways"><span class="header-section-number">D</span> Key Takeaways</a>
   <ul class="collapse">
-  <li><a href="#example-of-a-best-practice-prompt-using-xml-style-tags" id="toc-example-of-a-best-practice-prompt-using-xml-style-tags" class="nav-link" data-scroll-target="#example-of-a-best-practice-prompt-using-xml-style-tags">Example of a Best-Practice Prompt using XML-style tags</a></li>
-  <li><a href="#example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" id="toc-example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" class="nav-link" data-scroll-target="#example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting">Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting</a></li>
+  <li><a href="#example-of-a-best-practice-prompt-using-xml-style-tags" id="toc-example-of-a-best-practice-prompt-using-xml-style-tags" class="nav-link" data-scroll-target="#example-of-a-best-practice-prompt-using-xml-style-tags"><span class="header-section-number">D.1</span> Example of a Best-Practice Prompt using XML-style tags</a></li>
+  <li><a href="#example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" id="toc-example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" class="nav-link" data-scroll-target="#example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting"><span class="header-section-number">D.2</span> Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting</a></li>
   </ul></li>
-  <li><a href="#resources---youtube" id="toc-resources---youtube" class="nav-link" data-scroll-target="#resources---youtube">Resources - YouTube</a>
+  <li><a href="#resources---youtube" id="toc-resources---youtube" class="nav-link" data-scroll-target="#resources---youtube"><span class="header-section-number">E</span> Resources - YouTube</a>
   <ul class="collapse">
-  <li><a href="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny" id="toc-anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="nav-link" data-scroll-target="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny">Anthropic: Mastering Claude Code in 30 minutes Boris Cherny</a></li>
-  <li><a href="#claude-the-prompting-playbook-margot-van-laar" id="toc-claude-the-prompting-playbook-margot-van-laar" class="nav-link" data-scroll-target="#claude-the-prompting-playbook-margot-van-laar">Claude: The prompting playbook [Margot van Laar]</a></li>
-  <li><a href="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" id="toc-tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="nav-link" data-scroll-target="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang">Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes Tina Huang</a></li>
-  <li><a href="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" id="toc-deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="nav-link" data-scroll-target="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng">DeepLearningAI: Prompt Engineering for Developers DeepLearningAI Andrew Ng</a></li>
+  <li><a href="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny" id="toc-anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="nav-link" data-scroll-target="#anthropic-mastering-claude-code-in-30-minutes-boris-cherny"><span class="header-section-number">E.1</span> Anthropic: Mastering Claude Code in 30 minutes Boris Cherny</a></li>
+  <li><a href="#claude-the-prompting-playbook-margot-van-laar" id="toc-claude-the-prompting-playbook-margot-van-laar" class="nav-link" data-scroll-target="#claude-the-prompting-playbook-margot-van-laar"><span class="header-section-number">E.2</span> Claude: The prompting playbook [Margot van Laar]</a></li>
+  <li><a href="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" id="toc-tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="nav-link" data-scroll-target="#tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang"><span class="header-section-number">E.3</span> Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes Tina Huang</a></li>
+  <li><a href="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" id="toc-deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="nav-link" data-scroll-target="#deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng"><span class="header-section-number">E.4</span> DeepLearningAI: Prompt Engineering for Developers DeepLearningAI Andrew Ng</a></li>
   </ul></li>
-  <li><a href="#articles-blogs" id="toc-articles-blogs" class="nav-link" data-scroll-target="#articles-blogs">Articles &amp; Blogs</a>
+  <li><a href="#articles-blogs" id="toc-articles-blogs" class="nav-link" data-scroll-target="#articles-blogs"><span class="header-section-number">F</span> Articles &amp; Blogs</a>
   <ul class="collapse">
-  <li><a href="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" id="toc-the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="nav-link" data-scroll-target="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons (Interesting Engineering, 2026-05-23)</a></li>
+  <li><a href="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" id="toc-the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="nav-link" data-scroll-target="#the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23"><span class="header-section-number">F.1</span> The Prompt Is Not the Architecture — But It Still Governs How the System Reasons (Interesting Engineering, 2026-05-23)</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/davidgeeraerts/AI/edit/main/appendices/prompt-engineering-notes.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../appendices/glossary.html">Appendices</a></li><li class="breadcrumb-item"><a href="../appendices/prompt-engineering-notes.html"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Prompt Engineering Notes</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Prompt Engineering Notes</h1>
+<h1 class="title">Appendix C — Prompt Engineering Notes</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-body">
 
     
     <div>
@@ -450,16 +467,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="key-takeaways" class="level1">
-<h1>Key Takeaways</h1>
+<section id="key-takeaways" class="level1" data-number="D">
+<h1 data-number="D"><span class="header-section-number">D</span> Key Takeaways</h1>
 <ul>
 <li><a href="https://github.com/DavidGeeraerts/AI/issues/8#issuecomment-6445792490">tags</a> (especially XML-style) are a widely recommended best practice in modern prompt engineering, and prompts are commonly stored as plain Markdown (.md) files (or similar text files) for version control, readability, and maintainability.
 <ul>
 <li>XML-style tags for unambiguous, explicit boundaries and nesting. Closing tags make it clear where a section ends</li>
 </ul></li>
 </ul>
-<section id="example-of-a-best-practice-prompt-using-xml-style-tags" class="level2">
-<h2 class="anchored" data-anchor-id="example-of-a-best-practice-prompt-using-xml-style-tags">Example of a Best-Practice Prompt using XML-style tags</h2>
+<section id="example-of-a-best-practice-prompt-using-xml-style-tags" class="level2" data-number="D.1">
+<h2 data-number="D.1" class="anchored" data-anchor-id="example-of-a-best-practice-prompt-using-xml-style-tags"><span class="header-section-number">D.1</span> Example of a Best-Practice Prompt using XML-style tags</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">role</span>&gt;</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>expert at...</span>
@@ -495,8 +512,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">output_format</span>&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" class="level2">
-<h2 class="anchored" data-anchor-id="example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting">Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting</h2>
+<section id="example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting" class="level2" data-number="D.2">
+<h2 data-number="D.2" class="anchored" data-anchor-id="example-of-a-best-practice-prompt-using-hybrid-xml-style-tags-and-markdown-style-formatting"><span class="header-section-number">D.2</span> Example of a Best-Practice Prompt using hybrid XML-style tags and Markdown-style formatting</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode xml code-with-copy"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">role</span>&gt;</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -558,8 +575,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><a href="../AGENTS.md">project agents file</a></p>
 </section>
 </section>
-<section id="resources---youtube" class="level1">
-<h1>Resources - YouTube</h1>
+<section id="resources---youtube" class="level1" data-number="E">
+<h1 data-number="E"><span class="header-section-number">E</span> Resources - YouTube</h1>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -591,14 +608,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<section id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="level2">
-<h2 class="anchored" data-anchor-id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny"><a href="https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH">Anthropic: Mastering Claude Code in 30 minutes</a> <a href="https://borischerny.com/">Boris Cherny</a></h2>
+<section id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny" class="level2" data-number="E.1">
+<h2 data-number="E.1" class="anchored" data-anchor-id="anthropic-mastering-claude-code-in-30-minutes-boris-cherny"><span class="header-section-number">E.1</span> <a href="https://www.youtube.com/live/6eBSHbLKuN0?si=wN2J_RYKiefkdcMH">Anthropic: Mastering Claude Code in 30 minutes</a> <a href="https://borischerny.com/">Boris Cherny</a></h2>
 <ul>
 <li>create an AGENTS.md file to give the agent context about the project, including instructions, constraints, and goals.</li>
 </ul>
 </section>
-<section id="claude-the-prompting-playbook-margot-van-laar" class="level2">
-<h2 class="anchored" data-anchor-id="claude-the-prompting-playbook-margot-van-laar"><a href="https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS">Claude: The prompting playbook</a> [Margot van Laar]</h2>
+<section id="claude-the-prompting-playbook-margot-van-laar" class="level2" data-number="E.2">
+<h2 data-number="E.2" class="anchored" data-anchor-id="claude-the-prompting-playbook-margot-van-laar"><span class="header-section-number">E.2</span> <a href="https://youtu.be/G2B0YWuJUgI?si=SCAOnfZsPJBtr3QS">Claude: The prompting playbook</a> [Margot van Laar]</h2>
 <ul>
 <li>Use XML tags to structure prompts for clarity and consistency.</li>
 <li>Be clear and direct in your instructions, avoiding ambiguity.</li>
@@ -614,8 +631,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>For multi-step or constrained generation tasks, prefer a generate → evaluate → repair loop with several simple, focused prompts over one giant monolithic prompt.</li>
 </ul>
 </section>
-<section id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="level2">
-<h2 class="anchored" data-anchor-id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang"><a href="https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK">Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes</a> <a href="https://www.linkedin.com/in/tinahuang/">Tina Huang</a></h2>
+<section id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang" class="level2" data-number="E.3">
+<h2 data-number="E.3" class="anchored" data-anchor-id="tina-huang-googles-9-hour-ai-prompt-engineering-course-in-20-minutes-tina-huang"><span class="header-section-number">E.3</span> <a href="https://youtu.be/p09yRj47kNM?si=YCaSduB3VAEhvqSK">Tina Huang: Google’s 9 Hour AI Prompt Engineering Course In 20 Minutes</a> <a href="https://www.linkedin.com/in/tinahuang/">Tina Huang</a></h2>
 <ul>
 <li>Use the five-step TCREI framework for every prompt: <strong>Task</strong> (what to do, plus persona + desired format), <strong>Context</strong> (background, audience, constraints), <strong>References</strong> (examples / few-shot), <strong>Evaluate</strong> (does the output meet the need?), <strong>Iterate</strong> (refine and retry). Mnemonic: “Tiny crabs ride enormous iguanas” (or Google’s “Thoughtfully Create Really Excellent Inputs”).</li>
 <li>Always be iterating (“ABI”). Four practical iteration methods: (1) revisit the full TCREI framework and add missing pieces, (2) break long prompts into shorter, clearer sentences, (3) rephrase or try an analogous task, (4) add constraints to narrow the solution space.</li>
@@ -636,8 +653,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Responsible use checklist: verify accuracy, check for bias, protect sensitive information, and treat AI as a collaborator rather than an infallible authority.</li>
 </ul>
 </section>
-<section id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="level2">
-<h2 class="anchored" data-anchor-id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng"><a href="https://youtu.be/8ib4Qnh2HFE?si=QULwzDGBp30T7-Jr">DeepLearningAI: Prompt Engineering for Developers</a> <a href="https://www.deeplearning.ai/">DeepLearningAI</a> <a href="https://x.com/AndrewYNg">Andrew Ng</a></h2>
+<section id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng" class="level2" data-number="E.4">
+<h2 data-number="E.4" class="anchored" data-anchor-id="deeplearningai-prompt-engineering-for-developers-deeplearningai-andrew-ng"><span class="header-section-number">E.4</span> <a href="https://youtu.be/8ib4Qnh2HFE?si=QULwzDGBp30T7-Jr">DeepLearningAI: Prompt Engineering for Developers</a> <a href="https://www.deeplearning.ai/">DeepLearningAI</a> <a href="https://x.com/AndrewYNg">Andrew Ng</a></h2>
 <ul>
 <li>Treat the AI like a smart, highly motivated fresh college graduate who knows nothing about you yet. Give it the context a new hire would need (documents, screenshots, project trackers, voice memos, past work) instead of short Google-style queries.</li>
 <li>Provide rich, relevant context. Modern models can handle very large context windows (~750k words). Start a new chat for unrelated topics so stale context does not degrade performance.</li>
@@ -658,13 +675,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-<section id="articles-blogs" class="level1">
-<h1>Articles &amp; Blogs</h1>
+<section id="articles-blogs" class="level1" data-number="F">
+<h1 data-number="F"><span class="header-section-number">F</span> Articles &amp; Blogs</h1>
 <ul>
 <li><a href="https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons</a></li>
 </ul>
-<section id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="level2">
-<h2 class="anchored" data-anchor-id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23"><a href="https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons</a> (Interesting Engineering, 2026-05-23)</h2>
+<section id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23" class="level2" data-number="F.1">
+<h2 data-number="F.1" class="anchored" data-anchor-id="the-prompt-is-not-the-architecture-but-it-still-governs-how-the-system-reasons-interesting-engineering-2026-05-23"><span class="header-section-number">F.1</span> <a href="https://interestingengineering.substack.com/p/the-prompt-is-not-the-architecture">The Prompt Is Not the Architecture — But It Still Governs How the System Reasons</a> (Interesting Engineering, 2026-05-23)</h2>
 <ul>
 <li>The prompt is not the architecture, but it still governs <em>how</em> the system reasons. Architecture (harness, tools, gates, loops, meta-observation) determines what the system can see and do; the prompt/spec governs reasoning style and action selection.</li>
 <li>Prompting has fragmented into four distinct disciplines (per Nate B Jones). Most people only practice the first:
@@ -692,7 +709,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -779,7 +796,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/davidgeeraerts\.github\.io\/AI");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1106,23 +1123,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Mapping the Artificial Intelligence Landscape</p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
+<nav class="page-navigation column-body">
+  <div class="nav-page nav-page-previous">
+      <a href="../appendices/notes.html" class="pagination-link" aria-label="[AI] Notes">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">[AI] Notes</span></span>
+      </a>          
   </div>
-</footer>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
 
 
 
 
-<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/appendices/prompt-engineering-notes.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
