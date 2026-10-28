@@ -8,7 +8,7 @@ Published
 
 ## 🔥 Hotplate (Monthly Release Cycle)
 
-[Read the latest Hotplate](hotplate/2026-10-October-Hotplate.qmd) for a snapshot of the current landscape.
+[Read the latest Hotplate](hotplate/2026-10-October-hotplate.llms.md) for a snapshot of the current landscape.
 
 ## Index
 

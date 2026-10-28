@@ -2,7 +2,7 @@
 :toolbox: _The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit you control._
 
 ## :fire: Hotplate (Monthly Release Cycle)
-[Read the latest Hotplate](hotplate/2026-10-October-Hotplate.qmd) for a snapshot of the current landscape.
+[Read the latest Hotplate](/hotplate/2026-10-October-hotplate.qmd) for a snapshot of the current landscape.
 
 ## Index
 
