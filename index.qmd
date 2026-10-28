@@ -1,20 +1,12 @@
 ---
-title: ""
-toc: false
-toc-depth: 2
-toc-location: right
-toc-title: ""
-toc-expand: true
 page-layout: full
-date: last-modified
-date-format: iso
 ---
 
 
-## :fire: Hotplate (Monthly Release Cycle)
+## :fire: Hotplate (Monthly Release Cycle) {.unnumbered}
 [Read the latest Hotplate](/hotplate/2026-10-October-hotplate.qmd) for a snapshot of the current landscape.
 
-## Index
+## Index {.unnumbered}
 
 [Chapter-01-Introduction](chapters/01-introduction.qmd) provides an overview of the book's purpose and structure.
 

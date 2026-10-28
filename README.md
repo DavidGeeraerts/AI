@@ -22,6 +22,8 @@
 
 # Quotes
 > "Not all benchmarks lie, but all liars benchmark"
+> "GPU sovereignty is the new second amendment" ~DHH
+
 
 # History
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), etc._

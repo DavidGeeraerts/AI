@@ -4,389 +4,389 @@
     "href": "index.html",
     "title": "The Book of AI",
     "section": "",
-    "text": "0.1 🔥 Hotplate (Monthly Release Cycle)\nRead the latest Hotplate for a snapshot of the current landscape.",
+    "text": "🔥 Hotplate (Monthly Release Cycle)\nRead the latest Hotplate for a snapshot of the current landscape.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>:fire: Hotplate (Monthly Release Cycle)</span>"
+      ":fire: Hotplate (Monthly Release Cycle)"
     ]
   },
   {
     "objectID": "index.html#index",
     "href": "index.html#index",
     "title": "The Book of AI",
-    "section": "0.2 Index",
-    "text": "0.2 Index\nChapter-01-Introduction provides an overview of the book’s purpose and structure.\nChapter-02-Models covers the fundamental models in AI.\nChapter-03-Running-a-Model explains how to run and use these models.\nChapter-04-Agents-and-Harnesses discusses the role of agents and harnesses in AI.\nChapter-05-Building-a-Working-Stack guides you through building a functional AI stack.\nChapter-06-Miscellaneous-Tools lists various tools that are useful in AI development.\nChapter-07-Resources provides a collection of resources for further learning.\nChapter-08-Keeping-the-Map-Alive offers tips for maintaining and updating your AI knowledge base.\nAppendix-Glossary contains definitions of key terms used throughout the book.\nAppendix-Notes includes additional notes and references for deeper understanding.\nAppendix-Prompt-Engineering-Notes provides insights into effective prompt engineering techniques.",
+    "section": "Index",
+    "text": "Index\nChapter-01-Introduction provides an overview of the book’s purpose and structure.\nChapter-02-Models covers the fundamental models in AI.\nChapter-03-Running-a-Model explains how to run and use these models.\nChapter-04-Agents-and-Harnesses discusses the role of agents and harnesses in AI.\nChapter-05-Building-a-Working-Stack guides you through building a functional AI stack.\nChapter-06-Miscellaneous-Tools lists various tools that are useful in AI development.\nChapter-07-Resources provides a collection of resources for further learning.\nChapter-08-Keeping-the-Map-Alive offers tips for maintaining and updating your AI knowledge base.\nAppendix-Glossary contains definitions of key terms used throughout the book.\nAppendix-Notes includes additional notes and references for deeper understanding.\nAppendix-Prompt-Engineering-Notes provides insights into effective prompt engineering techniques.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>:fire: Hotplate (Monthly Release Cycle)</span>"
+      ":fire: Hotplate (Monthly Release Cycle)"
     ]
   },
   {
     "objectID": "chapters/01-introduction.html",
     "href": "chapters/01-introduction.html",
-    "title": "3  Introduction",
+    "title": "1  Introduction",
     "section": "",
-    "text": "4 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape\n🧰 The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit.\nThe Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.\nThis book focuses on Agentic Engineer — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the Agentic engineering stack: the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.\nThe monthly Hotplate offers a snapshot of the current landscape. The 2026 October edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.\nUse this book as a living toolkit: consult the chapters for practical orientation, and follow the linked source materials and quarterly snapshots as the landscape changes.",
+    "text": "2 📖 The Book of AI - Mapping the practical Artificial Intelligence landscape\n🧰 The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit.\nThe Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.\nThis book focuses on Agentic Engineer — the disciplined practice of designing, orchestrating, and governing systems of AI agents that plan, act, observe, and iterate — and on the Agentic engineering stack: the layered set of models, harnesses, tools, memory, orchestration, and governance required to make those agents reliable and controllable in real work.\nThe monthly Hotplate offers a snapshot of the current landscape. The 2026 October edition highlights long-running open-source agent harnesses, MCP as a default integration layer, persistent memory, and self-hosted agents. It reflects a preference for tools readers can run and control on their own hardware or an affordable server.\nUse this book as a living toolkit: consult the chapters for practical orientation, and follow the linked source materials and quarterly snapshots as the landscape changes.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "chapters/01-introduction.html#the-shift-to-agentic-engineering",
     "href": "chapters/01-introduction.html#the-shift-to-agentic-engineering",
-    "title": "3  Introduction",
-    "section": "4.1 The Shift to Agentic Engineering",
-    "text": "4.1 The Shift to Agentic Engineering\nAs artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.\nTo build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:\nThe Reasoning Engine: The foundational models that interpret intent and drive logic.\nOrchestration & Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).\nTooling & Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.\nMemory & State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.\nMastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.",
+    "title": "1  Introduction",
+    "section": "2.1 The Shift to Agentic Engineering",
+    "text": "2.1 The Shift to Agentic Engineering\nAs artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.\nTo build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:\nThe Reasoning Engine: The foundational models that interpret intent and drive logic.\nOrchestration & Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).\nTooling & Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.\nMemory & State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.\nMastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html",
     "href": "chapters/02-models.html",
-    "title": "4  Models",
+    "title": "2  Models",
     "section": "",
-    "text": "4.1 Model categories\nChoosing a model starts with understanding its capabilities, availability, and trade-offs.",
+    "text": "2.1 Model categories\nChoosing a model starts with understanding its capabilities, availability, and trade-offs.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#model-categories",
     "href": "chapters/02-models.html#model-categories",
-    "title": "4  Models",
+    "title": "2  Models",
     "section": "",
     "text": "General-purpose and code-specialized large language models\nMultimodal models\nImage-generation models, including text-to-image and image-to-image systems\nDecision or “System One” models, including calibrated-decision approaches",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#ai-model-types",
     "href": "chapters/02-models.html#ai-model-types",
-    "title": "4  Models",
-    "section": "4.2 AI Model Types",
-    "text": "4.2 AI Model Types\n\nLarge Language Models (LLM)\n\nGeneral-purpose language models\nCode-specialized models\n\nClaude Fable 5.1 / Claude Opus 5.5 family (Anthropic)\nGPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)\nGemini 4 Argon / Gemini 3.x Flash family (Google)\nKimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)\nDeepSeek\nQwen\n\n\nImage Generation Models\n\nText-to-Image {Stable Diffusion, Midjourney, DALL-E, Grok Imagine}\nImage-to-Image\n\nMultimodal Models (Text, Image, Audio, Video)\n\nKimi K3 (Moonshot AI)\nClaude Opus 5 / Claude Opus 5.5 (Anthropic)\nQwen3.8 Max (Alibaba)\nGPT-5.6 series (especially Sol / Luna variants) (OpenAI)\nGemini 3.x Flash / Pro family (Google)",
+    "title": "2  Models",
+    "section": "2.2 AI Model Types",
+    "text": "2.2 AI Model Types\n\nLarge Language Models (LLM)\n\nGeneral-purpose language models\nCode-specialized models\n\nClaude Fable 5.1 / Claude Opus 5.5 family (Anthropic)\nGPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)\nGemini 4 Argon / Gemini 3.x Flash family (Google)\nKimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)\nDeepSeek\nQwen\n\n\nImage Generation Models\n\nText-to-Image {Stable Diffusion, Midjourney, DALL-E, Grok Imagine}\nImage-to-Image\n\nMultimodal Models (Text, Image, Audio, Video)\n\nKimi K3 (Moonshot AI)\nClaude Opus 5 / Claude Opus 5.5 (Anthropic)\nQwen3.8 Max (Alibaba)\nGPT-5.6 series (especially Sol / Luna variants) (OpenAI)\nGemini 3.x Flash / Pro family (Google)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#model-families-and-access",
     "href": "chapters/02-models.html#model-families-and-access",
-    "title": "4  Models",
-    "section": "4.3 Model families and access",
-    "text": "4.3 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
+    "title": "2  Models",
+    "section": "2.3 Model families and access",
+    "text": "2.3 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#evaluation-and-training-data",
     "href": "chapters/02-models.html#evaluation-and-training-data",
-    "title": "4  Models",
-    "section": "4.4 Evaluation and training data",
-    "text": "4.4 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
+    "title": "2  Models",
+    "section": "2.4 Evaluation and training data",
+    "text": "2.4 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#abliteration",
     "href": "chapters/02-models.html#abliteration",
-    "title": "4  Models",
-    "section": "4.5 Abliteration",
-    "text": "4.5 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
+    "title": "2  Models",
+    "section": "2.5 Abliteration",
+    "text": "2.5 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
     "href": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
-    "title": "4  Models",
-    "section": "4.6 Prominent AI Organizations Creating Foundational AI Models",
-    "text": "4.6 Prominent AI Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAlibaba (Qwen)\nAllen Institute for AI\nAmazon AI\nAnthropic\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere\nDeepSeek\nGoogle AI / Google DeepMind\nHugging Face\nIBM\nMeta AI\nMicrosoft AI\nMiniMax\nMistral AI\nMoonshot AI (Kimi)\nOpenAI\nStability AI\nXiaomi (MiMo)\nxAI\nZhipu AI / Z.AI (GLM)\n\n\n4.6.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nKimi (Moonshot AI)\nLlama (Meta)\nMiMo (Xiaomi)\nMistral (Mistral AI)\nMuse (Meta)\nNova (Amazon)\nQwen (Alibaba)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)",
+    "title": "2  Models",
+    "section": "2.6 Prominent AI Organizations Creating Foundational AI Models",
+    "text": "2.6 Prominent AI Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAlibaba (Qwen)\nAllen Institute for AI\nAmazon AI\nAnthropic\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere\nDeepSeek\nGoogle AI / Google DeepMind\nHugging Face\nIBM\nMeta AI\nMicrosoft AI\nMiniMax\nMistral AI\nMoonshot AI (Kimi)\nOpenAI\nStability AI\nXiaomi (MiMo)\nxAI\nZhipu AI / Z.AI (GLM)\n\n\n2.6.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nKimi (Moonshot AI)\nLlama (Meta)\nMiMo (Xiaomi)\nMistral (Mistral AI)\nMuse (Meta)\nNova (Amazon)\nQwen (Alibaba)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#benchmarks",
     "href": "chapters/02-models.html#benchmarks",
-    "title": "4  Models",
-    "section": "4.7 Benchmarks",
-    "text": "4.7 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\n\n\n4.7.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
+    "title": "2  Models",
+    "section": "2.7 Benchmarks",
+    "text": "2.7 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\n\n\n2.7.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/02-models.html#base-model-data",
     "href": "chapters/02-models.html#base-model-data",
-    "title": "4  Models",
-    "section": "4.8 Base Model Data",
-    "text": "4.8 Base Model Data\n(Order by Name ↑)\n\nAWS Open Data\nCommon Crawl\nFineWeb – curated Internet dataset.\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
+    "title": "2  Models",
+    "section": "2.8 Base Model Data",
+    "text": "2.8 Base Model Data\n(Order by Name ↑)\n\nAWS Open Data\nCommon Crawl\nFineWeb – curated Internet dataset.\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Models</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html",
     "href": "chapters/03-running-a-model.html",
-    "title": "5  Running a Model",
+    "title": "3  Running a Model",
     "section": "",
-    "text": "5.1 Web/Online Models\n(Order by Name ↑)",
+    "text": "3.1 Web/Online Models\n(Order by Name ↑)",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#webonline-models",
     "href": "chapters/03-running-a-model.html#webonline-models",
-    "title": "5  Running a Model",
+    "title": "3  Running a Model",
     "section": "",
     "text": "Anthropic - Claude\nDeepSeek - Chat\nGitHub Models\nGoogle - Gemini / AI Studio\nGrok (xAI)\nIBM Granite\nKimi (Moonshot AI)\nMammouth - Multi-model selector\nMeta AI\nMicrosoft Copilot\nMistral\nOpenAI - ChatGPT\nPerplexity\nQwen (Alibaba)\nTogether AI\nTypeSafe\nZ (GLM)",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#physical-hardware",
     "href": "chapters/03-running-a-model.html#physical-hardware",
-    "title": "5  Running a Model",
-    "section": "5.2 Physical Hardware",
-    "text": "5.2 Physical Hardware",
+    "title": "3  Running a Model",
+    "section": "3.2 Physical Hardware",
+    "text": "3.2 Physical Hardware",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#running-ai-models-locally",
     "href": "chapters/03-running-a-model.html#running-ai-models-locally",
-    "title": "5  Running a Model",
-    "section": "5.3 Running AI Models Locally",
-    "text": "5.3 Running AI Models Locally\n\nOllama — CLI + local OpenAI-compatible API (most popular for developers)\nLM Studio — Polished desktop GUI\nJan — Fully open-source desktop app (privacy-focused)\nOpen WebUI — Self-hosted web UI (excellent with Ollama)\nllama.cpp — Core inference engine (GGUF, maximum control)\nKoboldCpp — Easy single-binary runner with built-in UI\nvLLM — High-throughput serving (multi-user / production)\njan - run models locally, with cloud integration, MCP support.\n\n\n\n\n\n\n\n\n\nAspect\nLM Studio\nOllama\n\n\n\n\nPrimary focus\nPolished desktop GUI for discovery, chat & experimentation\nCLI + background service for scripting, APIs & integrations\n\n\nLicense\nProprietary (free for personal + internal business use)\nFully open-source (MIT)\n\n\nInterface\nExcellent GUI + CLI (lms) + headless daemon (llmster)\nCLI-first + local API; has added a basic desktop app\n\n\nModel discovery\nBuilt-in Hugging Face browser with size/VRAM estimates\nCurated library + simple ollama pull model:tag\n\n\nAPI\nOpenAI- + Anthropic-compatible (port 1234)\nOpenAI-compatible + native endpoints (port 11434)\n\n\nBest hardware edge\nStronger MLX performance on Apple Silicon\nLower overhead, often slightly faster on NVIDIA\n\n\nHeadless/server\nYes (llmster since early 2026)\nNative from the start (systemd/Docker-friendly)\n\n\nExtras\nBuilt-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching\nExcellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models\n\n\n\n\n5.3.0.1 When Ollama is usually better: You want a fully open-source, auditable tool.\n\nYou are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).\nYou need Docker, Kubernetes, or long-running headless servers with minimal footprint.\nYou prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).\nYou want the absolute simplest CLI workflow (ollama run model).\n\n\n\n5.3.1 Local-first inference\nRamaLama vs Ollama — key differences\nBoth tools let you run large language models locally, but they take different approaches.\n\n5.3.1.1 Quick summary\n\n\n\n\n\n\n\n\nAspect\nOllama\nRamaLama\n\n\n\n\nCore idea\nSimple local model runner + library\nContainer-native way to run models\n\n\nDefault execution\nRuns models directly on the host\nRuns models inside containers (Podman/Docker) by default\n\n\nWho makes it\nOllama Inc.\ncontainers org (Podman / Red Hat ecosystem)\n\n\nModel sources\nPrimarily its own library (+ limited HF)\nHugging Face, Ollama registry, ModelScope, any OCI registry, URLs, local files\n\n\nRuntimes\nBuilt around llama.cpp\nllama.cpp (default) and vLLM\n\n\nHardware handling\nYou (or the installer) handle GPU libraries\nAuto-detects GPU and pulls a matching optimized container image\n\n\nSecurity / isolation\nHost process\nRootless containers, read-only mounts, network isolation by default\n\n\nCommands feel like\nollama run, ollama pull, etc.\nFamiliar container-style: ramalama run, pull, serve, push\n\n\nBest for\nEasiest “just chat with a local model” experience\nPeople who already use containers and want the same workflow + stronger isolation\n\n\n\n\n\n5.3.1.2 Main philosophical difference\n\nOllama optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.\nRamaLama optimizes for making AI work like containers. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.\n\n\n\n\n5.3.2 Practical implications\n\nIsolation & security: RamaLama wins by default (models stay inside rootless containers).\nGPU setup: RamaLama is often easier on Linux (especially Fedora/RHEL-style systems) because the container already contains the right CUDA/ROCm/etc. libraries.\nModel choice: RamaLama is more flexible about where models come from (especially Hugging Face and OCI registries).\nEcosystem fit:\n\nOllama → very widely supported by agents (goose, OpenCode, Hermes, etc.).\n\nRamaLama → also usable (many tools treat it as an OpenAI-compatible endpoint or have explicit support), and it can even pull from the Ollama registry.\n\n\n\n\n5.3.3 When to choose which\n\nChoose Ollama if you want the simplest, most popular local model runner and don’t care about container isolation.\nChoose RamaLama if you already live in a container world (Podman/Docker), want better isolation by default, or need to pull models from Hugging Face / OCI registries more cleanly.\n\nBoth expose OpenAI-compatible APIs, so most agents and tools can talk to either of them.\n\n\n5.3.4 Other local inference options\n\nllama.cpp offers low-level control and GGUF support.\nLM Studio provides a desktop interface and API.\nJan is an open-source desktop application.\nOpen WebUI provides a self-hosted web frontend.\nKoboldCpp and vLLM support additional local and high-throughput serving setups.\n\nModel management includes downloading and selecting models, quantization, Modelfiles, and custom system prompts. Hardware, memory requirements, and trade-offs vary by model and runner.",
+    "title": "3  Running a Model",
+    "section": "3.3 Running AI Models Locally",
+    "text": "3.3 Running AI Models Locally\n\nOllama — CLI + local OpenAI-compatible API (most popular for developers)\nLM Studio — Polished desktop GUI\nJan — Fully open-source desktop app (privacy-focused)\nOpen WebUI — Self-hosted web UI (excellent with Ollama)\nllama.cpp — Core inference engine (GGUF, maximum control)\nKoboldCpp — Easy single-binary runner with built-in UI\nvLLM — High-throughput serving (multi-user / production)\njan - run models locally, with cloud integration, MCP support.\n\n\n\n\n\n\n\n\n\nAspect\nLM Studio\nOllama\n\n\n\n\nPrimary focus\nPolished desktop GUI for discovery, chat & experimentation\nCLI + background service for scripting, APIs & integrations\n\n\nLicense\nProprietary (free for personal + internal business use)\nFully open-source (MIT)\n\n\nInterface\nExcellent GUI + CLI (lms) + headless daemon (llmster)\nCLI-first + local API; has added a basic desktop app\n\n\nModel discovery\nBuilt-in Hugging Face browser with size/VRAM estimates\nCurated library + simple ollama pull model:tag\n\n\nAPI\nOpenAI- + Anthropic-compatible (port 1234)\nOpenAI-compatible + native endpoints (port 11434)\n\n\nBest hardware edge\nStronger MLX performance on Apple Silicon\nLower overhead, often slightly faster on NVIDIA\n\n\nHeadless/server\nYes (llmster since early 2026)\nNative from the start (systemd/Docker-friendly)\n\n\nExtras\nBuilt-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching\nExcellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models\n\n\n\n\n3.3.0.1 When Ollama is usually better: You want a fully open-source, auditable tool.\n\nYou are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).\nYou need Docker, Kubernetes, or long-running headless servers with minimal footprint.\nYou prefer the lowest idle RAM and fastest cold-start times (especially on NVIDIA GPUs).\nYou want the absolute simplest CLI workflow (ollama run model).\n\n\n\n3.3.1 Local-first inference\nRamaLama vs Ollama — key differences\nBoth tools let you run large language models locally, but they take different approaches.\n\n3.3.1.1 Quick summary\n\n\n\n\n\n\n\n\nAspect\nOllama\nRamaLama\n\n\n\n\nCore idea\nSimple local model runner + library\nContainer-native way to run models\n\n\nDefault execution\nRuns models directly on the host\nRuns models inside containers (Podman/Docker) by default\n\n\nWho makes it\nOllama Inc.\ncontainers org (Podman / Red Hat ecosystem)\n\n\nModel sources\nPrimarily its own library (+ limited HF)\nHugging Face, Ollama registry, ModelScope, any OCI registry, URLs, local files\n\n\nRuntimes\nBuilt around llama.cpp\nllama.cpp (default) and vLLM\n\n\nHardware handling\nYou (or the installer) handle GPU libraries\nAuto-detects GPU and pulls a matching optimized container image\n\n\nSecurity / isolation\nHost process\nRootless containers, read-only mounts, network isolation by default\n\n\nCommands feel like\nollama run, ollama pull, etc.\nFamiliar container-style: ramalama run, pull, serve, push\n\n\nBest for\nEasiest “just chat with a local model” experience\nPeople who already use containers and want the same workflow + stronger isolation\n\n\n\n\n\n3.3.1.2 Main philosophical difference\n\nOllama optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.\nRamaLama optimizes for making AI work like containers. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.\n\n\n\n\n3.3.2 Practical implications\n\nIsolation & security: RamaLama wins by default (models stay inside rootless containers).\nGPU setup: RamaLama is often easier on Linux (especially Fedora/RHEL-style systems) because the container already contains the right CUDA/ROCm/etc. libraries.\nModel choice: RamaLama is more flexible about where models come from (especially Hugging Face and OCI registries).\nEcosystem fit:\n\nOllama → very widely supported by agents (goose, OpenCode, Hermes, etc.).\n\nRamaLama → also usable (many tools treat it as an OpenAI-compatible endpoint or have explicit support), and it can even pull from the Ollama registry.\n\n\n\n\n3.3.3 When to choose which\n\nChoose Ollama if you want the simplest, most popular local model runner and don’t care about container isolation.\nChoose RamaLama if you already live in a container world (Podman/Docker), want better isolation by default, or need to pull models from Hugging Face / OCI registries more cleanly.\n\nBoth expose OpenAI-compatible APIs, so most agents and tools can talk to either of them.\n\n\n3.3.4 Other local inference options\n\nllama.cpp offers low-level control and GGUF support.\nLM Studio provides a desktop interface and API.\nJan is an open-source desktop application.\nOpen WebUI provides a self-hosted web frontend.\nKoboldCpp and vLLM support additional local and high-throughput serving setups.\n\nModel management includes downloading and selecting models, quantization, Modelfiles, and custom system prompts. Hardware, memory requirements, and trade-offs vary by model and runner.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#cloud-and-hybrid-options",
     "href": "chapters/03-running-a-model.html#cloud-and-hybrid-options",
-    "title": "5  Running a Model",
-    "section": "5.4 Cloud and hybrid options",
-    "text": "5.4 Cloud and hybrid options\nHosted providers can complement local inference when a task needs a more capable model or additional capacity. Hybrid setups balance privacy, cost, latency, rate limits, and data-sovereignty requirements.\n\n5.4.1 NeoClouds (also neoclouds or neo-clouds)\nSpecialized, AI-first cloud providers built primarily around high-performance GPU (and other accelerator) infrastructure for AI training, fine-tuning, and inference.\nUnlike traditional hyperscalers (AWS, Microsoft Azure, Google Cloud), which offer a broad catalog of general-purpose services and later added GPU support, NeoClouds are designed from the ground up for dense GPU clusters, high-bandwidth low-latency networking, and the power/cooling demands of modern AI workloads. Their core offering is typically GPU-as-a-Service (GPUaaS)—renting accelerator capacity by the hour, reservation, or longer contract—often with thinner virtualization layers or bare-metal access.\n\n5.4.1.1 Key characteristics\n\nGPU-centric architecture and capacity\nOptimized networking and storage for large-scale model training and inference\nNarrower service surface focused on AI rather than general IT\nFrequently more competitive pricing or faster access to the latest accelerators than hyperscalers\nServe AI labs, startups, enterprises, and sometimes other cloud providers\n\nNotable examples (as of late 2026): CoreWeave, Nebius, Lambda, Crusoe, and a growing long tail of regional and specialized operators.\nWhy it matters in the agentic / practical AI landscape\nNeoClouds address the compute bottleneck that constrains both frontier model development and self-hosted or production agent systems. They expand the set of places you can actually rent serious GPU capacity outside the major hyperscalers.",
+    "title": "3  Running a Model",
+    "section": "3.4 Cloud and hybrid options",
+    "text": "3.4 Cloud and hybrid options\nHosted providers can complement local inference when a task needs a more capable model or additional capacity. Hybrid setups balance privacy, cost, latency, rate limits, and data-sovereignty requirements.\n\n3.4.1 NeoClouds (also neoclouds or neo-clouds)\nSpecialized, AI-first cloud providers built primarily around high-performance GPU (and other accelerator) infrastructure for AI training, fine-tuning, and inference.\nUnlike traditional hyperscalers (AWS, Microsoft Azure, Google Cloud), which offer a broad catalog of general-purpose services and later added GPU support, NeoClouds are designed from the ground up for dense GPU clusters, high-bandwidth low-latency networking, and the power/cooling demands of modern AI workloads. Their core offering is typically GPU-as-a-Service (GPUaaS)—renting accelerator capacity by the hour, reservation, or longer contract—often with thinner virtualization layers or bare-metal access.\n\n3.4.1.1 Key characteristics\n\nGPU-centric architecture and capacity\nOptimized networking and storage for large-scale model training and inference\nNarrower service surface focused on AI rather than general IT\nFrequently more competitive pricing or faster access to the latest accelerators than hyperscalers\nServe AI labs, startups, enterprises, and sometimes other cloud providers\n\nNotable examples (as of late 2026): CoreWeave, Nebius, Lambda, Crusoe, and a growing long tail of regional and specialized operators.\nWhy it matters in the agentic / practical AI landscape\nNeoClouds address the compute bottleneck that constrains both frontier model development and self-hosted or production agent systems. They expand the set of places you can actually rent serious GPU capacity outside the major hyperscalers.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#making-models-usable-by-agents",
     "href": "chapters/03-running-a-model.html#making-models-usable-by-agents",
-    "title": "5  Running a Model",
-    "section": "5.5 Making models usable by agents",
-    "text": "5.5 Making models usable by agents",
+    "title": "3  Running a Model",
+    "section": "3.5 Making models usable by agents",
+    "text": "3.5 Making models usable by agents",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#security-and-operational-considerations",
     "href": "chapters/03-running-a-model.html#security-and-operational-considerations",
-    "title": "5  Running a Model",
-    "section": "5.6 Security and operational considerations",
-    "text": "5.6 Security and operational considerations\n\n5.6.1 Security Resources for local models\n\n2026-10-21 Kai: Your Local AI Is Not as Private as You Think\n2026-10-19 Cloud Codes: Your Local AI Model Isn’t as Safe as You Think\n\n\n\n5.6.2 Local Model Vulnerabilities\nHere is an overview of the main known classes of LLM exploits and attack surfaces (as of late 2026). This focuses on categories that appear repeatedly in research, real incidents, and frameworks such as the OWASP Top 10 for LLM Applications (2026 edition). It deliberately stays at the conceptual level.\n\n5.6.2.1 1. Prompt Injection (still #1)\n\nDirect: Attacker writes instructions that override the system prompt or safety rules.\nIndirect / context injection: Malicious instructions are planted in external content the model later processes (emails, documents, web pages, RAG results, tool outputs, memory, etc.). Real-world examples include zero-click data exfiltration (e.g., EchoLeak against Microsoft 365 Copilot) and tool/agent hijacking.\nVariants include jailbreaks (role-play, encoding, multi-turn persuasion) aimed at bypassing safety training.\n\n\n\n5.6.2.2 2. Sensitive Information Disclosure / Data Leakage\nModels or applications can leak training data, system prompts, user conversation history, credentials, or proprietary information through responses, logs, embeddings, or tool calls. Techniques include membership inference, training-data extraction, and system-prompt extraction.\n\n\n5.6.2.3 3. Excessive Agency / Tool & Agent Abuse\nWhen an LLM can call tools, browse, write code, send messages, or control systems, injected instructions can make it perform unauthorized actions (file access, API calls, privilege escalation, lateral movement). This risk rose sharply in rankings with the spread of agentic systems.\n\n\n5.6.2.4 4. Supply-Chain Attacks\n\nMalicious models or weights (including the pickle / “broken pickle” / Sleepy Pickle family we discussed earlier).\nPoisoned packages, MCP servers, plugins, or fine-tuning artifacts.\nCompromised model hubs or distribution channels.\n\n\n\n5.6.2.5 5. Data & Model Poisoning / Backdoors\nAttackers influence training, fine-tuning, or retrieval data so the model behaves normally most of the time but activates harmful behavior under a trigger (sleeper agents, backdoored code generation, biased outputs, etc.).\n\n\n5.6.2.6 6. Unbounded Consumption / Resource Abuse\nAttacks that force excessive token generation, repeated inference, or expensive tool use, driving up cost or causing denial-of-service. Also includes model-extraction / distillation attacks that steal capability by querying the target model.\n\n\n5.6.2.7 7. Misinformation / Hallucination Abuse\nModels can be steered (or simply fail) into producing confident but false or harmful content that users or downstream systems act upon.\n\n\n5.6.2.8 8. Hidden Context / System-Prompt Exposure\nSecrets, authorization logic, or internal instructions placed in the system prompt or retrieved context can be extracted or abused.\n\n\n5.6.2.9 9. Vector / Embedding / RAG Weaknesses\nPoisoning of vector stores, cross-tenant leakage in embeddings, or adversarial retrieval that surfaces malicious documents.\n\n\n5.6.2.10 10. Improper Output Handling\nModel output is treated as trusted and fed into browsers, shells, databases, or other interpreters without sanitization, enabling classic injection or XSS-style follow-on attacks.\n\n\n5.6.2.11 Additional established categories outside the strict Top 10\n\nAdversarial examples / input perturbations — small, often imperceptible changes that flip model behavior.\nModel inversion & privacy attacks — reconstructing training examples or attributes.\nMultimodal attacks — injecting payloads via images, audio, or other modalities that the model processes.\nAgent-specific chains — memory poisoning, persistent tool hijacking, self-propagating behavior across sessions or systems.\nInfrastructure / serving vulnerabilities — flaws in inference servers, gateways (e.g., LiteLLM-style issues), or serialization formats beyond pickle.\n\n\n\n5.6.2.12 Practical note\nMost real-world incidents combine several of the above (e.g., indirect prompt injection → excessive agency → data exfiltration). Open-weight models have repeatedly shown higher susceptibility to certain cyber-relevant payload chains than the strongest closed models, though both remain targets.\nThe landscape evolves quickly; the dominant practical risks in production systems right now center on prompt/context injection, agent tool abuse, and supply-chain model/package poisoning. Defenses typically involve layered controls: input/output filtering, least-privilege tooling, provenance checks, retrieval isolation, and continuous red-teaming rather than relying on any single technique.",
+    "title": "3  Running a Model",
+    "section": "3.6 Security and operational considerations",
+    "text": "3.6 Security and operational considerations\n\n3.6.1 Security Resources for local models\n\n2026-10-21 Kai: Your Local AI Is Not as Private as You Think\n2026-10-19 Cloud Codes: Your Local AI Model Isn’t as Safe as You Think\n\n\n\n3.6.2 Local Model Vulnerabilities\nHere is an overview of the main known classes of LLM exploits and attack surfaces (as of late 2026). This focuses on categories that appear repeatedly in research, real incidents, and frameworks such as the OWASP Top 10 for LLM Applications (2026 edition). It deliberately stays at the conceptual level.\n\n3.6.2.1 1. Prompt Injection (still #1)\n\nDirect: Attacker writes instructions that override the system prompt or safety rules.\nIndirect / context injection: Malicious instructions are planted in external content the model later processes (emails, documents, web pages, RAG results, tool outputs, memory, etc.). Real-world examples include zero-click data exfiltration (e.g., EchoLeak against Microsoft 365 Copilot) and tool/agent hijacking.\nVariants include jailbreaks (role-play, encoding, multi-turn persuasion) aimed at bypassing safety training.\n\n\n\n3.6.2.2 2. Sensitive Information Disclosure / Data Leakage\nModels or applications can leak training data, system prompts, user conversation history, credentials, or proprietary information through responses, logs, embeddings, or tool calls. Techniques include membership inference, training-data extraction, and system-prompt extraction.\n\n\n3.6.2.3 3. Excessive Agency / Tool & Agent Abuse\nWhen an LLM can call tools, browse, write code, send messages, or control systems, injected instructions can make it perform unauthorized actions (file access, API calls, privilege escalation, lateral movement). This risk rose sharply in rankings with the spread of agentic systems.\n\n\n3.6.2.4 4. Supply-Chain Attacks\n\nMalicious models or weights (including the pickle / “broken pickle” / Sleepy Pickle family we discussed earlier).\nPoisoned packages, MCP servers, plugins, or fine-tuning artifacts.\nCompromised model hubs or distribution channels.\n\n\n\n3.6.2.5 5. Data & Model Poisoning / Backdoors\nAttackers influence training, fine-tuning, or retrieval data so the model behaves normally most of the time but activates harmful behavior under a trigger (sleeper agents, backdoored code generation, biased outputs, etc.).\n\n\n3.6.2.6 6. Unbounded Consumption / Resource Abuse\nAttacks that force excessive token generation, repeated inference, or expensive tool use, driving up cost or causing denial-of-service. Also includes model-extraction / distillation attacks that steal capability by querying the target model.\n\n\n3.6.2.7 7. Misinformation / Hallucination Abuse\nModels can be steered (or simply fail) into producing confident but false or harmful content that users or downstream systems act upon.\n\n\n3.6.2.8 8. Hidden Context / System-Prompt Exposure\nSecrets, authorization logic, or internal instructions placed in the system prompt or retrieved context can be extracted or abused.\n\n\n3.6.2.9 9. Vector / Embedding / RAG Weaknesses\nPoisoning of vector stores, cross-tenant leakage in embeddings, or adversarial retrieval that surfaces malicious documents.\n\n\n3.6.2.10 10. Improper Output Handling\nModel output is treated as trusted and fed into browsers, shells, databases, or other interpreters without sanitization, enabling classic injection or XSS-style follow-on attacks.\n\n\n3.6.2.11 Additional established categories outside the strict Top 10\n\nAdversarial examples / input perturbations — small, often imperceptible changes that flip model behavior.\nModel inversion & privacy attacks — reconstructing training examples or attributes.\nMultimodal attacks — injecting payloads via images, audio, or other modalities that the model processes.\nAgent-specific chains — memory poisoning, persistent tool hijacking, self-propagating behavior across sessions or systems.\nInfrastructure / serving vulnerabilities — flaws in inference servers, gateways (e.g., LiteLLM-style issues), or serialization formats beyond pickle.\n\n\n\n3.6.2.12 Practical note\nMost real-world incidents combine several of the above (e.g., indirect prompt injection → excessive agency → data exfiltration). Open-weight models have repeatedly shown higher susceptibility to certain cyber-relevant payload chains than the strongest closed models, though both remain targets.\nThe landscape evolves quickly; the dominant practical risks in production systems right now center on prompt/context injection, agent tool abuse, and supply-chain model/package poisoning. Defenses typically involve layered controls: input/output filtering, least-privilege tooling, provenance checks, retrieval isolation, and continuous red-teaming rather than relying on any single technique.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#security-summary-what-can-the-model-reach",
     "href": "chapters/03-running-a-model.html#security-summary-what-can-the-model-reach",
-    "title": "5  Running a Model",
-    "section": "5.7 Security Summary: What Can the Model Reach?",
-    "text": "5.7 Security Summary: What Can the Model Reach?\nRunning models locally protects your prompts from third-party providers, but it does not automatically make the setup safe. The decisive security question is not “Is the model local?” — it is “What can the model (or the software around it) reach?”\n\n5.7.1 The practical risk ladder\n\n\n\n\n\n\n\n\nReach level\nWhat the model can touch\nRisk profile\n\n\n\n\nChat only\nConversation text\nLow — limited to generating text\n\n\nFiles / project context\nLocal documents, code, .env files\nMedium — can exfiltrate or rewrite secrets if it has write access\n\n\nTools / shell / network\nTerminal commands, HTTP requests, file system, APIs\nHigh — can execute code, send data out, or fetch remote payloads\n\n\nAgent + persistent access\nMultiple tools + memory + long-running privileges\nCritical — full blast radius of the host\n\n\n\nA backdoored or triggerable model (or a poisoned chat template) is only as dangerous as the permissions and tools you give it. In the ProjectDiscovery demonstration highlighted in the video, a fine-tuned model behaved normally on clean tests until a short trigger phrase caused it to instruct an agent to send the project’s .env file to an external server. The model itself did not contain the final payload; it simply knew to fetch and run one.\n\n\n5.7.2 Key attack surfaces that expand “reach”\n\nModel file + chat template — Weights are data, but GGUF templates (Jinja) and metadata can embed hidden instructions or, in rare cases, enable code execution if the runner is unsandboxed.\nRunner / inference server — Bugs or misconfigurations in Ollama, LM Studio, llama.cpp, etc., can leak memory, environment variables, or allow unauthorized control.\nNetwork binding — Binding to 0.0.0.0 (or leaving the port unauthenticated) turns a local server into a public one. Exposed, unauthenticated instances are routinely scanned and abused.\nTool / agent permissions — Shell access, file write, or unrestricted network is the difference between a chat bot and a remote-code-execution surface.\n\n\n\n5.7.3 Practical containment principles\n\nMinimize reach by default — Prefer pure chat. Grant tools only when necessary and under least privilege.\nKeep the server on loopback (127.0.0.1). For remote access use an authenticated tunnel (e.g., Tailscale) or a reverse proxy with authentication — never expose the raw inference port.\nKeep the runner updated and enable any available authentication features.\nTreat model files as untrusted input — Prefer reputable sources, verify provenance where possible, and consider scanning templates.\nSeparate secrets from the model’s working environment — Do not give the process access to credentials it does not need.\n\nBottom line: Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.",
+    "title": "3  Running a Model",
+    "section": "3.7 Security Summary: What Can the Model Reach?",
+    "text": "3.7 Security Summary: What Can the Model Reach?\nRunning models locally protects your prompts from third-party providers, but it does not automatically make the setup safe. The decisive security question is not “Is the model local?” — it is “What can the model (or the software around it) reach?”\n\n3.7.1 The practical risk ladder\n\n\n\n\n\n\n\n\nReach level\nWhat the model can touch\nRisk profile\n\n\n\n\nChat only\nConversation text\nLow — limited to generating text\n\n\nFiles / project context\nLocal documents, code, .env files\nMedium — can exfiltrate or rewrite secrets if it has write access\n\n\nTools / shell / network\nTerminal commands, HTTP requests, file system, APIs\nHigh — can execute code, send data out, or fetch remote payloads\n\n\nAgent + persistent access\nMultiple tools + memory + long-running privileges\nCritical — full blast radius of the host\n\n\n\nA backdoored or triggerable model (or a poisoned chat template) is only as dangerous as the permissions and tools you give it. In the ProjectDiscovery demonstration highlighted in the video, a fine-tuned model behaved normally on clean tests until a short trigger phrase caused it to instruct an agent to send the project’s .env file to an external server. The model itself did not contain the final payload; it simply knew to fetch and run one.\n\n\n3.7.2 Key attack surfaces that expand “reach”\n\nModel file + chat template — Weights are data, but GGUF templates (Jinja) and metadata can embed hidden instructions or, in rare cases, enable code execution if the runner is unsandboxed.\nRunner / inference server — Bugs or misconfigurations in Ollama, LM Studio, llama.cpp, etc., can leak memory, environment variables, or allow unauthorized control.\nNetwork binding — Binding to 0.0.0.0 (or leaving the port unauthenticated) turns a local server into a public one. Exposed, unauthenticated instances are routinely scanned and abused.\nTool / agent permissions — Shell access, file write, or unrestricted network is the difference between a chat bot and a remote-code-execution surface.\n\n\n\n3.7.3 Practical containment principles\n\nMinimize reach by default — Prefer pure chat. Grant tools only when necessary and under least privilege.\nKeep the server on loopback (127.0.0.1). For remote access use an authenticated tunnel (e.g., Tailscale) or a reverse proxy with authentication — never expose the raw inference port.\nKeep the runner updated and enable any available authentication features.\nTreat model files as untrusted input — Prefer reputable sources, verify provenance where possible, and consider scanning templates.\nSeparate secrets from the model’s working environment — Do not give the process access to credentials it does not need.\n\nBottom line: Local inference removes the cloud provider from the trust boundary, but it transfers the entire security responsibility to you. The model is only as private and safe as the smallest set of resources you allow it to reach.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/03-running-a-model.html#nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application.",
     "href": "chapters/03-running-a-model.html#nvidia-openshellhttpswww.nvidia.comen-usaiopenshell-is-an-open-secure-runtime-designed-for-ai-agents.-it-provides-a-governed-environment-that-controls-agent-execution-access-and-inference-routing-independent-of-the-underlying-model-or-application.",
-    "title": "5  Running a Model",
-    "section": "5.8 NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.",
-    "text": "5.8 NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.\n\n5.8.1 Core Idea\nSecurity is enforced in the environment rather than inside the model or agent code. Nothing is allowed by default. Permissions are granted through explicit policies, and enforcement occurs outside the agent’s process so it cannot be bypassed or “prompted away.” All allow/deny decisions are fully auditable. It works with any model, agent harness, or framework across cloud, hybrid, on-premises, edge, and air-gapped environments under a single policy layer.\n\n\n5.8.2 Key Benefits\n\nAgent governance outside the model: Separates agent behavior from environment interactions; every action is monitored and controlled.\nZero-trust access: Deny-by-default model with intent-based permissions enforced externally.\nSafe operation of agent fleets: Unified policy enforcement for open or closed models and various harnesses at scale.\n\n\n\n5.8.3 Main Components\n\nAgent Sandboxes: Isolated environments with no direct network access, privilege restrictions, file limits, and kernel-level system-call filtering. Requests are brokered through a secured channel.\nPolicy Prover: Formal verification engine that checks policies stay within allowed boundaries and evaluates network rules for risk.\nGateway: Control plane that authenticates users, manages sandbox lifecycles, delivers policies/credentials, and brokers access.\nSupervisor: Runtime overseer outside the sandbox that evaluates network requests against policy (at binary, destination, method, and path levels), supplies credentials only when allowed, applies live policy updates, and logs every decision.\n\n\n\n5.8.4 Reference Architecture\nA full-stack setup powered by the OpenShell runtime, NVIDIA Vera CPUs, Vera Rubin systems, and NVIDIA Sentry on BlueField-4 for industrial-scale safe agents in AI factories, enterprise settings, and at the edge.\n\n\n5.8.5 Who It’s For & What It Supports\nPrimarily developers building autonomous agents, platform teams, and security/IT teams that need to enable agent use without granting broad host, network, credential, or model access. It is model- and harness-agnostic (supports Claude Code, Codex, GitHub Copilot CLI, LangChain Deep Agents, custom agents, etc.) and is not itself an agent framework—it sits underneath them. It goes beyond simple containers/pods by adding agent-specific controls for lifelong governance, credential handling, egress policy, inference routing, and multi-agent workflows.\nOpenShell is open source (available on GitHub), runs on Docker, Podman, Kubernetes (via Helm), and experimental runtimes, works with NVIDIA DGX systems, supports cloud model endpoints via a policy-aware router, and does not require Vera CPUs (though they provide performance and efficiency gains).\n\n\n5.8.6 Technical Resources\n\nNVIDIA YouTube Summary\nNVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs",
+    "title": "3  Running a Model",
+    "section": "3.8 NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.",
+    "text": "3.8 NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.\n\n3.8.1 Core Idea\nSecurity is enforced in the environment rather than inside the model or agent code. Nothing is allowed by default. Permissions are granted through explicit policies, and enforcement occurs outside the agent’s process so it cannot be bypassed or “prompted away.” All allow/deny decisions are fully auditable. It works with any model, agent harness, or framework across cloud, hybrid, on-premises, edge, and air-gapped environments under a single policy layer.\n\n\n3.8.2 Key Benefits\n\nAgent governance outside the model: Separates agent behavior from environment interactions; every action is monitored and controlled.\nZero-trust access: Deny-by-default model with intent-based permissions enforced externally.\nSafe operation of agent fleets: Unified policy enforcement for open or closed models and various harnesses at scale.\n\n\n\n3.8.3 Main Components\n\nAgent Sandboxes: Isolated environments with no direct network access, privilege restrictions, file limits, and kernel-level system-call filtering. Requests are brokered through a secured channel.\nPolicy Prover: Formal verification engine that checks policies stay within allowed boundaries and evaluates network rules for risk.\nGateway: Control plane that authenticates users, manages sandbox lifecycles, delivers policies/credentials, and brokers access.\nSupervisor: Runtime overseer outside the sandbox that evaluates network requests against policy (at binary, destination, method, and path levels), supplies credentials only when allowed, applies live policy updates, and logs every decision.\n\n\n\n3.8.4 Reference Architecture\nA full-stack setup powered by the OpenShell runtime, NVIDIA Vera CPUs, Vera Rubin systems, and NVIDIA Sentry on BlueField-4 for industrial-scale safe agents in AI factories, enterprise settings, and at the edge.\n\n\n3.8.5 Who It’s For & What It Supports\nPrimarily developers building autonomous agents, platform teams, and security/IT teams that need to enable agent use without granting broad host, network, credential, or model access. It is model- and harness-agnostic (supports Claude Code, Codex, GitHub Copilot CLI, LangChain Deep Agents, custom agents, etc.) and is not itself an agent framework—it sits underneath them. It goes beyond simple containers/pods by adding agent-specific controls for lifelong governance, credential handling, egress policy, inference routing, and multi-agent workflows.\nOpenShell is open source (available on GitHub), runs on Docker, Podman, Kubernetes (via Helm), and experimental runtimes, works with NVIDIA DGX systems, supports cloud model endpoints via a policy-aware router, and does not require Vera CPUs (though they provide performance and efficiency gains).\n\n\n3.8.6 Technical Resources\n\nNVIDIA YouTube Summary\nNVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Running a Model</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Running a Model</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html",
     "href": "chapters/04-agents-and-harnesses.html",
-    "title": "6  Agents and Harnesses",
+    "title": "4  Agents and Harnesses",
     "section": "",
-    "text": "6.1 Introduction",
+    "text": "4.1 Introduction",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html#introduction",
     "href": "chapters/04-agents-and-harnesses.html#introduction",
-    "title": "6  Agents and Harnesses",
+    "title": "4  Agents and Harnesses",
     "section": "",
     "text": "An agent is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.\nA harness is the runtime / scaffolding that turns a raw language model into a working agent.\n\nThe harness is the engine and chassis. The agent is the driver + the behavior that emerges once the model is running inside that chassis.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html#agent-harness-diagram",
     "href": "chapters/04-agents-and-harnesses.html#agent-harness-diagram",
-    "title": "6  Agents and Harnesses",
-    "section": "6.2 Agent Harness Diagram",
-    "text": "6.2 Agent Harness Diagram\n\n\n\nAgent Harness Diagram\n\n\n\n6.2.1 More precise breakdown\n\n\n\n\n\n\n\n\nConcept\nWhat it is\nExamples\n\n\n\n\nModel\nThe raw intelligence (weights)\nQwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.\n\n\nHarness\nThe runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.\nHermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero\n\n\nAgent\nThe resulting autonomous system that actually does work\nCopilot, OpenCode, Agent Zero\n\n\n\nThe harness determines: - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it\nA good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages\nA harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.",
+    "title": "4  Agents and Harnesses",
+    "section": "4.2 Agent Harness Diagram",
+    "text": "4.2 Agent Harness Diagram\n\n\n\nAgent Harness Diagram\n\n\n\n4.2.1 More precise breakdown\n\n\n\n\n\n\n\n\nConcept\nWhat it is\nExamples\n\n\n\n\nModel\nThe raw intelligence (weights)\nQwen, DeepSeek, Claude, Llama, Ajax (abliterated), etc.\n\n\nHarness\nThe runtime that gives the model a loop, tools, memory, sandboxes, skills, messaging, persistence, etc.\nHermes, OpenClaw, goose, OpenHands, OpenCode, Agent Zero\n\n\nAgent\nThe resulting autonomous system that actually does work\nCopilot, OpenCode, Agent Zero\n\n\n\nThe harness determines: - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it\nA good harness {Hermes, OPenCode, Agent Zero, OpenClaw, goose, etc.} dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages\nA harness is the runtime that gives a model a loop, tools, memory, and an environment in which to act. It determines how long an agent can run, what it can access, and how its work can be observed and controlled.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html#modern-harnesses",
     "href": "chapters/04-agents-and-harnesses.html#modern-harnesses",
-    "title": "6  Agents and Harnesses",
-    "section": "6.3 Modern harnesses",
-    "text": "6.3 Modern harnesses\n\n\n\n\n\n\n\n\n\n\nName\nType\nPrimary Focus\nNotes / Key Traits\nStars (approx, Oct 2026)\n\n\n\n\ngoose\nBoth\nGeneral-purpose local agent\nOwn harness + agent; MCP-native; desktop + CLI; AAIF\n~55k\n\n\nHermes Agent\nBoth\nAlways-on personal agent\nOwn runtime; persistent memory + skill creation; messaging gateways\n~250k+\n\n\nAgent Zero\nBoth\nFull computer-use agent\nOwn Docker Linux desktop + agent; high transparency\n~19.5k\n\n\nOpenClaw\nBoth\nPersonal assistant (chat apps)\nOwn gateway/runtime; messaging-first\nVery high (~390k+)\n\n\nOpenHands\nBoth\nCoding / software engineering\nOwn multi-agent runtime; web UI + desktop\n~89k\n\n\nOpenCode\nBoth\nTerminal coding agent\nOwn agent loop; model-agnostic\nHigh\n\n\nCodex (OpenAI)\nBoth\nCoding agent suite\nCloud + CLI + IDE; proprietary harness\nN/A (product)\n\n\nClaude Code\nBoth\nCoding agent\nAnthropic harness + agent; subscription-based\nN/A (product)\n\n\nCline\nBoth\nIDE coding agent\nVS Code / JetBrains extension with own loop\n—\n\n\nAider\nBoth\nTerminal coding agent\nOwn agent loop; git-aware\n—\n\n\nEigent\nBoth\nMulti-agent desktop\nParallel agents on one task\n~15.5k\n\n\n\nCompare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.",
+    "title": "4  Agents and Harnesses",
+    "section": "4.3 Modern harnesses",
+    "text": "4.3 Modern harnesses\n\n\n\n\n\n\n\n\n\n\nName\nType\nPrimary Focus\nNotes / Key Traits\nStars (approx, Oct 2026)\n\n\n\n\ngoose\nBoth\nGeneral-purpose local agent\nOwn harness + agent; MCP-native; desktop + CLI; AAIF\n~55k\n\n\nHermes Agent\nBoth\nAlways-on personal agent\nOwn runtime; persistent memory + skill creation; messaging gateways\n~250k+\n\n\nAgent Zero\nBoth\nFull computer-use agent\nOwn Docker Linux desktop + agent; high transparency\n~19.5k\n\n\nOpenClaw\nBoth\nPersonal assistant (chat apps)\nOwn gateway/runtime; messaging-first\nVery high (~390k+)\n\n\nOpenHands\nBoth\nCoding / software engineering\nOwn multi-agent runtime; web UI + desktop\n~89k\n\n\nOpenCode\nBoth\nTerminal coding agent\nOwn agent loop; model-agnostic\nHigh\n\n\nCodex (OpenAI)\nBoth\nCoding agent suite\nCloud + CLI + IDE; proprietary harness\nN/A (product)\n\n\nClaude Code\nBoth\nCoding agent\nAnthropic harness + agent; subscription-based\nN/A (product)\n\n\nCline\nBoth\nIDE coding agent\nVS Code / JetBrains extension with own loop\n—\n\n\nAider\nBoth\nTerminal coding agent\nOwn agent loop; git-aware\n—\n\n\nEigent\nBoth\nMulti-agent desktop\nParallel agents on one task\n~15.5k\n\n\n\nCompare harnesses by their philosophy, strengths, limitations, deployment style, and fit for the task.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html#supporting-infrastructure",
     "href": "chapters/04-agents-and-harnesses.html#supporting-infrastructure",
-    "title": "6  Agents and Harnesses",
-    "section": "6.4 Supporting infrastructure",
-    "text": "6.4 Supporting infrastructure\n\nMCP (Model Context Protocol) connects agents to tools and services.\nSandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.\nPersistent memory and agent-written skills support longer-running work.\nSpyNEL orchestrates existing coding harnesses.\nDOX / AGENTS.md hierarchies give agents maintainable project context.",
+    "title": "4  Agents and Harnesses",
+    "section": "4.4 Supporting infrastructure",
+    "text": "4.4 Supporting infrastructure\n\nMCP (Model Context Protocol) connects agents to tools and services.\nSandboxed execution environments such as Docker, Daytona, Modal, E2B, and browser infrastructure help isolate agent actions.\nPersistent memory and agent-written skills support longer-running work.\nSpyNEL orchestrates existing coding harnesses.\nDOX / AGENTS.md hierarchies give agents maintainable project context.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/04-agents-and-harnesses.html#agents.md",
     "href": "chapters/04-agents-and-harnesses.html#agents.md",
-    "title": "6  Agents and Harnesses",
-    "section": "6.5 agents.md",
-    "text": "6.5 agents.md\n\n6.5.0.1 Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?\nEvaluating AGENTS.md: Are Repository-Level Context Files Helpful…\n\n\n\n\n\n\n\n\nCondition\nEffect on success rate\nEffect on cost / steps\n\n\n\n\nLLM-generated context files\nSlightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs)\n+20–23% inference cost; +2.5–4 extra steps per task\n\n\nHuman-written context files\nModest average gain (~ +4% on the developer-file benchmark)\nStill + up to ~19% cost / more steps\n\n\nOverall\n“Does not generally improve task success rates”\nClear, consistent cost increase\n\n\n\nPractical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.",
+    "title": "4  Agents and Harnesses",
+    "section": "4.5 agents.md",
+    "text": "4.5 agents.md\n\n4.5.0.1 Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?\nEvaluating AGENTS.md: Are Repository-Level Context Files Helpful…\n\n\n\n\n\n\n\n\nCondition\nEffect on success rate\nEffect on cost / steps\n\n\n\n\nLLM-generated context files\nSlightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs)\n+20–23% inference cost; +2.5–4 extra steps per task\n\n\nHuman-written context files\nModest average gain (~ +4% on the developer-file benchmark)\nStill + up to ~19% cost / more steps\n\n\nOverall\n“Does not generally improve task success rates”\nClear, consistent cost increase\n\n\n\nPractical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Agents and Harnesses</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Agents and Harnesses</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html",
     "href": "chapters/05-building-a-working-stack.html",
-    "title": "7  Building a Working Stack",
+    "title": "5  Building a Working Stack",
     "section": "",
-    "text": "7.1 Starting points\nCombine models, harnesses, tools, and operational safeguards into a stack that fits the work.",
+    "text": "5.1 Starting points\nCombine models, harnesses, tools, and operational safeguards into a stack that fits the work.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html#starting-points",
     "href": "chapters/05-building-a-working-stack.html#starting-points",
-    "title": "7  Building a Working Stack",
+    "title": "5  Building a Working Stack",
     "section": "",
     "text": "A minimal personal agent stack can pair a local model such as Ollama or Jan with a harness, MCP tools, and memory.\nAn always-on personal agent can combine a workspace such as Odysseus or Ajax with a messaging gateway such as OpenClaw or Hermes.\nA coding stack can combine OpenHands or OpenCode with repository context (DOX) and sandboxed execution.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html#practical-considerations",
     "href": "chapters/05-building-a-working-stack.html#practical-considerations",
-    "title": "7  Building a Working Stack",
-    "section": "7.2 Practical considerations",
-    "text": "7.2 Practical considerations\n\nIncorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.\nDefine containment and permission models.\nUnderstand the cost and token economics of long-running agents.\nObserve and debug multi-step runs.\nUpdate skills and memory without destabilizing the system.",
+    "title": "5  Building a Working Stack",
+    "section": "5.2 Practical considerations",
+    "text": "5.2 Practical considerations\n\nIncorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.\nDefine containment and permission models.\nUnderstand the cost and token economics of long-running agents.\nObserve and debug multi-step runs.\nUpdate skills and memory without destabilizing the system.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/06-miscellaneous-tools.html",
     "href": "chapters/06-miscellaneous-tools.html",
-    "title": "8  Miscellaneous Tools and Supporting Infrastructure",
+    "title": "6  Miscellaneous Tools and Supporting Infrastructure",
     "section": "",
-    "text": "8.0.1 Miscellaneous Tools\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
+    "text": "6.0.1 Miscellaneous Tools\nUseful supporting tools improve understanding, model selection, and day-to-day workflows.\n(Order by Name ↑) - Excalidraw - online Diagram tool - LLM Visualization - Tiktokenizer",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
     ]
   },
   {
     "objectID": "chapters/06-miscellaneous-tools.html#model-selection-and-modification",
     "href": "chapters/06-miscellaneous-tools.html#model-selection-and-modification",
-    "title": "8  Miscellaneous Tools and Supporting Infrastructure",
-    "section": "8.1 Model selection and modification",
-    "text": "8.1 Model selection and modification\n\nBenchLM and Best Ollama Models lists\nHeretic and related model-modification tools",
+    "title": "6  Miscellaneous Tools and Supporting Infrastructure",
+    "section": "6.1 Model selection and modification",
+    "text": "6.1 Model selection and modification\n\nBenchLM and Best Ollama Models lists\nHeretic and related model-modification tools",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
     ]
   },
   {
     "objectID": "chapters/06-miscellaneous-tools.html#open-source-principles-and-sources",
     "href": "chapters/06-miscellaneous-tools.html#open-source-principles-and-sources",
-    "title": "8  Miscellaneous Tools and Supporting Infrastructure",
-    "section": "8.2 Open-source principles and sources",
-    "text": "8.2 Open-source principles and sources\nOpenWALDO organizes AI openness around Weights, Artifacts, Licenses, Data, and Origin. Independent blogs, technical writing, research papers, and historical milestones provide context for following the field.",
+    "title": "6  Miscellaneous Tools and Supporting Infrastructure",
+    "section": "6.2 Open-source principles and sources",
+    "text": "6.2 Open-source principles and sources\nOpenWALDO organizes AI openness around Weights, Artifacts, Licenses, Data, and Origin. Independent blogs, technical writing, research papers, and historical milestones provide context for following the field.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Miscellaneous Tools and Supporting Infrastructure</span>"
     ]
   },
   {
     "objectID": "chapters/07-resources.html",
     "href": "chapters/07-resources.html",
-    "title": "9  Resources",
+    "title": "7  Resources",
     "section": "",
-    "text": "10 X Agentic-Engineering Lists",
+    "text": "8 X Agentic-Engineering Lists",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "chapters/07-resources.html#ai-publications",
     "href": "chapters/07-resources.html#ai-publications",
-    "title": "9  Resources",
-    "section": "14.1 AI Publications",
-    "text": "14.1 AI Publications\n(Sorted by Publication Date ↓)\n\n2025-04-25 BitNet b1.58 2B4T Technical Report\n2024-04-09 RULER: What’s the Real Context Size of Your Long-Context Language Models?\n2023-07-27 Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks\n2020-05-28 Language Models are Few-Shot Learners (GPT-3)\n2019-06-17 Superposition of many models into one\n2018-10-11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\n2017-06-12 Attention Is All You Need\n2015-12-10 Deep Residual Learning for Image Recognition (ResNet)\n2014-06-10 Generative Adversarial Networks (GANs)\n2012 ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
+    "title": "7  Resources",
+    "section": "12.1 AI Publications",
+    "text": "12.1 AI Publications\n(Sorted by Publication Date ↓)\n\n2025-04-25 BitNet b1.58 2B4T Technical Report\n2024-04-09 RULER: What’s the Real Context Size of Your Long-Context Language Models?\n2023-07-27 Universal and Transferable Adversarial Attacks on Aligned Language Models - LLM Attacks\n2020-05-28 Language Models are Few-Shot Learners (GPT-3)\n2019-06-17 Superposition of many models into one\n2018-10-11 BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding\n2017-06-12 Attention Is All You Need\n2015-12-10 Deep Residual Learning for Image Recognition (ResNet)\n2014-06-10 Generative Adversarial Networks (GANs)\n2012 ImageNet Classification with Deep Convolutional Neural Networks (AlexNet)",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Resources</span>"
     ]
   },
   {
     "objectID": "chapters/08-keeping-the-map-alive.html",
     "href": "chapters/08-keeping-the-map-alive.html",
-    "title": "10  Keeping the Map Alive",
+    "title": "8  Keeping the Map Alive",
     "section": "",
-    "text": "10.1 Maintaining the quarterly Hotplate\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
+    "text": "8.1 Maintaining the quarterly Hotplate\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]
   },
   {
     "objectID": "chapters/08-keeping-the-map-alive.html#contributing-and-continuing",
     "href": "chapters/08-keeping-the-map-alive.html#contributing-and-continuing",
-    "title": "10  Keeping the Map Alive",
-    "section": "10.2 Contributing and continuing",
-    "text": "10.2 Contributing and continuing\nContribute useful observations and corrections, and follow the source material linked throughout the repository. Choose next steps that fit your role:\n\nSolo developers and indie builders: assemble a small stack you can run and control.\nTeam leads: introduce agentic workflows with clear boundaries and operational visibility.\nResearchers and evaluators: compare systems with appropriate benchmarks and current evidence.\n\nThe most valuable skill is learning to assemble and control a stack that serves your needs.",
+    "title": "8  Keeping the Map Alive",
+    "section": "8.2 Contributing and continuing",
+    "text": "8.2 Contributing and continuing\nContribute useful observations and corrections, and follow the source material linked throughout the repository. Choose next steps that fit your role:\n\nSolo developers and indie builders: assemble a small stack you can run and control.\nTeam leads: introduce agentic workflows with clear boundaries and operational visibility.\nResearchers and evaluators: compare systems with appropriate benchmarks and current evidence.\n\nThe most valuable skill is learning to assemble and control a stack that serves your needs.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]
   },
   {
     "objectID": "chapters/08-keeping-the-map-alive.html#aggregation-projects",
     "href": "chapters/08-keeping-the-map-alive.html#aggregation-projects",
-    "title": "10  Keeping the Map Alive",
-    "section": "10.3 Aggregation Projects",
-    "text": "10.3 Aggregation Projects\n\nai-collection\nai-knowledge-library\nAwesome Agents\nawesome-agent-harness\nAwesome Open Source AI",
+    "title": "8  Keeping the Map Alive",
+    "section": "8.3 Aggregation Projects",
+    "text": "8.3 Aggregation Projects\n\nai-collection\nai-knowledge-library\nAwesome Agents\nawesome-agent-harness\nAwesome Open Source AI",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]
   },
   {
