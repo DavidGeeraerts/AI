@@ -1,10 +1,9 @@
 project:
   type: book
-  title: "The Book of AI"
   output-dir: docs
   pre-render: quarto run scripts/generate-glossary.ts
   render:
-    - "**/*.qmd"
+    - "*.qmd"
   preview:
     browser: false
     watch-inputs: true
@@ -13,8 +12,7 @@ glossary:
   path: appendices/glossary.yml
   popup: click
   show: true
-date: last-modified  
-date-format: iso
+
 
 
 format:
@@ -27,22 +25,33 @@ format:
     font-size: medium
     smooth-scroll: true
     from: markdown+emoji
+    toc: true
+    code-copy: true
+    code-link: true
   epub:
     title-page: true
     toc: true
     toc-depth: 2
     font-size: medium
     from: markdown+emoji
+  pdf: default
 
 book:
+  title: "The Book of AI"
+  subtitle: "Mapping the practical Artificial Intelligence landscape"
+  description: "A practical guide to understanding agentic engineering and building a practical toolkit."
+  author: "David Geeraerts"
+  abstract: "This book is a practical guide to understanding agentic engineering and building a practical toolkit."
   date: last-modified
+  date-format: iso
   cover-image: assets/images/Book-Cover.jpg
-  favicon: assets/images/Book-Cover.jpg
+  favicon: assets/images/Book-Cover-Banner.jpg
   site-url: https://davidgeeraerts.github.io/AI
   repo-url: https://github.com/davidgeeraerts/AI
   repo-branch: main
   repo-actions: [edit, issue]
   search: true
+  language: en
   chapters:
     - index.qmd
     - chapters/01-introduction.qmd
