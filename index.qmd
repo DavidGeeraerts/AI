@@ -2,7 +2,7 @@
 page-layout: full
 ---
 
-# Introduction {.unnumbered}
+# Main Page {.unnumbered}
 
 ## :fire: Hotplate (Monthly Release)
 [Read the latest Hotplate](/hotplate/2026-10-October-hotplate.html) for a snapshot of the current landscape.

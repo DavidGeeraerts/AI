@@ -43,7 +43,7 @@ book:
   date: last-modified
   date-format: iso
   cover-image: assets/images/Book-Cover.jpg
-  favicon: assets/images/Book-Cover-Banner.jpg
+  favicon: assets/images/favorite_icon.jpg
   site-url: https://davidgeeraerts.github.io/AI
   repo-url: https://github.com/davidgeeraerts/AI
   repo-branch: main
