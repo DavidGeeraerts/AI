@@ -45,8 +45,14 @@
 | active      | Currently being worked on                    | Highlight current focus            |
 
 
+## Glossary technical reference
 
+Examples of how to link to glossary terms in the text:
 
+``` 
+[{{< glossary "(AI) Artificial Intelligence" display="AI" popup="hover" >}}](https://davidgeeraerts.github.io/AI/appendices/glossary.html#ai-artificial-intelligence)
+
+```
 
 # Resource References
 - [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
