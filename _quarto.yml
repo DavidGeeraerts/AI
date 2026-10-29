@@ -4,7 +4,7 @@ project:
   output-dir: docs
   pre-render: quarto run scripts/generate-glossary.ts
   render:
-    - "*.qmd"
+    - "**/*.qmd"
   preview:
     browser: false
     watch-inputs: true
@@ -54,6 +54,7 @@ book:
     - chapters/07-resources.qmd
     - chapters/08-keeping-the-map-alive.qmd
   appendices:
+    - hotplate/hotplate_index.qmd
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd

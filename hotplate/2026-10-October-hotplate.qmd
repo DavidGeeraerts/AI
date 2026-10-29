@@ -6,7 +6,6 @@
 
 :compass: Building and refining open-source agent harnesses for long-running autonomous work—OpenHands and OpenCode for coding, goose for general MCP-native use—alongside heavy adoption of MCP tools, persistent memory, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can run yourself, keep fully under your control, and host on your own hardware or a cheap [Virtual Private Server](https://cloud.google.com/learn/what-is-a-virtual-private-server).
 
----
 
 ## Agent Skills → Agentic AI Foundation (AAIF)
 > Anthropic donated the SKILL.md standard (folder + SKILL.md + scripts) to the Linux Foundation’s AAIF on ~22 Oct (alongside MCP, goose, AGENTS.md). ~1M skills published / hundreds of millions installed; now under neutral governance with maintainers from multiple orgs.

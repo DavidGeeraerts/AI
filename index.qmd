@@ -2,7 +2,8 @@
 page-layout: full
 ---
 
+# Introduction {.unnumbered}
 
-## :fire: Hotplate (Monthly Release Cycle) {.unnumbered}
-[Read the latest Hotplate](/hotplate/2026-10-October-hotplate.qmd) for a snapshot of the current landscape.
+## :fire: Hotplate (Monthly Release)
+[Read the latest Hotplate](/hotplate/2026-10-October-hotplate.html) for a snapshot of the current landscape.
 

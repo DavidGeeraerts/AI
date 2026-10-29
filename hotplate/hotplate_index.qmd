@@ -1,4 +1,4 @@
-# :fire: Hotplate
+# Hotplate Index
 
 ## :date: Checked daily
 
@@ -14,4 +14,7 @@
 
 
 
-## Hotplate Index
+## Hotplate Catalog
+
+- [2026-10](/hotplate/2026-10-October-hotplate.qmd)
+- 

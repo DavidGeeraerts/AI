@@ -6,3 +6,27 @@
 /_site/
 
 /.luarc.json
+
+
+# =========================
+# VS Code Core & User State
+# =========================
+.vscode/*
+
+# Retain shared team configuration if present
+#   !.vscode/settings.json
+#   !.vscode/tasks.json
+#   !.vscode/launch.json
+#   !.vscode/extensions.json
+#   !.vscode/*.code-snippets
+
+# Always ignore local user overrides, workspace state, and secrets
+.vscode/*?user*
+.vscode/*.log
+.vscode/.ropeproject
+.vscode/history/
+
+# Local workspace storage and history
+*.code-workspace
+.history/
+.ionide/
