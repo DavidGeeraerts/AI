@@ -18,17 +18,33 @@
 
 ## Book Progress
 
-| Chapters  | Title                    | Status     |
-|-----------|--------------------------|------------|
-| [Chapter 0](/hotplate/2026-10-October-hotplate.qmd) | Hotplate                 | active     |
-| Chapter 1 | Introduction             | just notes |
-| Chapter 2 | Models                   | draft      |
-| Chapter 3 | Running local models     | draft      |
-| Chapter 4 | Agents and Harnesses     | draft      |
-| Chapter 5 | Building a working stack | just notes |
-| Chapter 6 | Miscellaneous Tools      | just notes |
-| Chapter 7 | Resources                | active     |
-| Chapter 8 | Keeping the map alive    | just notes |
+| Chapters                                            | Title                    | Status     | Active |
+|-----------------------------------------------------|--------------------------|------------|--------|
+| [Chapter 0](/hotplate/2026-10-October-hotplate.qmd) | Hotplate                 | final      | X      |
+| Chapter 1                                           | Introduction             | just notes |        |
+| Chapter 2                                           | Models                   | draft      |        |
+| Chapter 3                                           | Running local models     | draft      |        |
+| Chapter 4                                           | Agents and Harnesses     | draft      |        |
+| Chapter 5                                           | Building a working stack | just notes |        |
+| Chapter 6                                           | Miscellaneous Tools      | just notes |        |
+| Chapter 7                                           | Resources                | active     |        |
+| Chapter 8                                           | Keeping the map alive    | just notes |        |
+
+
+### Status key
+
+| Status      | Meaning                                      | Description                        |
+|-------------|----------------------------------------------|------------------------------------|
+| notes       | Scattered notes / outline only               | Pre-writing                        |
+| outline     | Structured outline exists                    | Ready to start drafting            |
+| rough draft | rough draft written                          | some Content is there but rough    |
+| draft       | First full draft written                     | Content is there but needs editing |
+| revising    | Actively editing / rewriting                 | Working on it                      |
+| review      | Ready for feedback or self-review            | Polishing stage                    |
+| final       | Considered done (may still get minor tweaks) | Chapter is solid                   |
+| active      | Currently being worked on                    | Highlight current focus            |
+
+
 
 
 
