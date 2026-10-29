@@ -16,12 +16,29 @@
 
 --- 
 
+## Book Progress
+
+| Chapters  | Title                    | Status     |
+|-----------|--------------------------|------------|
+| [Chapter 0](/hotplate/2026-10-October-hotplate.qmd) | Hotplate                 | active     |
+| Chapter 1 | Introduction             | just notes |
+| Chapter 2 | Models                   | draft      |
+| Chapter 3 | Running local models     | draft      |
+| Chapter 4 | Agents and Harnesses     | draft      |
+| Chapter 5 | Building a working stack | just notes |
+| Chapter 6 | Miscellaneous Tools      | just notes |
+| Chapter 7 | Resources                | active     |
+| Chapter 8 | Keeping the map alive    | just notes |
+
+
+
 # Resource References
 - [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 - [Quarto website](https://quarto.org/)
 
 # Quotes
 > "Not all benchmarks lie, but all liars benchmark"
+
 > "GPU sovereignty is the new second amendment" ~DHH
 
 
