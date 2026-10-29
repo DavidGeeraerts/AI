@@ -2,8 +2,6 @@ project:
   type: book
   output-dir: docs
   pre-render: quarto run scripts/generate-glossary.ts
-  render:
-    - "*.qmd"
   preview:
     browser: false
     watch-inputs: true
@@ -54,6 +52,7 @@ book:
   language: en
   chapters:
     - index.qmd
+    - hotplate/2026-10-October-hotplate.qmd
     - chapters/01-introduction.qmd
     - chapters/02-models.qmd
     - chapters/03-running-a-model.qmd
