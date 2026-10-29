@@ -18,17 +18,20 @@
 
 ## Book Progress
 
-| Chapters                                            | Title                    | Status     | Active |
-|-----------------------------------------------------|--------------------------|------------|--------|
-| [Chapter 0](/hotplate/2026-10-October-hotplate.qmd) | Hotplate                 | final      | X      |
-| Chapter 1                                           | Introduction             | just notes |        |
-| Chapter 2                                           | Models                   | draft      |        |
-| Chapter 3                                           | Running local models     | draft      |        |
-| Chapter 4                                           | Agents and Harnesses     | draft      |        |
-| Chapter 5                                           | Building a working stack | just notes |        |
-| Chapter 6                                           | Miscellaneous Tools      | just notes |        |
-| Chapter 7                                           | Resources                | active     |        |
-| Chapter 8                                           | Keeping the map alive    | just notes |        |
+| Chapters                 | Title                    | Status     | Active |
+|--------------------------|--------------------------|------------|--------|
+| Index                    | Main page                | notes      | X      |
+| Chapter 1                | Introduction             | just notes |        |
+| Chapter 2                | Models                   | draft      |        |
+| Chapter 3                | Running local models     | draft      |        |
+| Chapter 4                | Agents and Harnesses     | draft      |        |
+| Chapter 5                | Building a working stack | notes      |        |
+| Chapter 6                | Miscellaneous Tools      | notes      |        |
+| Chapter 7                | Resources                | active     |        |
+| Chapter 8                | Keeping the map alive    | notes      |        |
+| Hotplate                 | Hotplate                 | final      | X      |
+| Glossary                 | Glossary                 | revising   | X      |
+| Prompt Engineering Notes | Prompt Engineering Notes | final      | X      |
 
 
 ### Status key

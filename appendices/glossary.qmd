@@ -1141,6 +1141,9 @@ Key Features of Mixture of Experts (MoE) Models:
 
 ## Q
 
+### Quantization
+> is a model compression technique that reduces the numerical precision of a neural network’s weights, activations, or both—typically converting them from high-precision floating-point formats (e.g., FP32 or FP16) to lower-precision formats such as INT8, INT4, or even binary/ternary representations. It is one of the most practical and widely used methods for making large AI models smaller, faster, and more efficient without retraining from scratch.
+
 ---
 
 ## R

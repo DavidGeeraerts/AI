@@ -35,6 +35,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 # YouTube Videos & Channels
 (Sorted by Publication Date ↓)
 
+- 2026-10-29  [Kai: Every Way to Get 256 GB of VRAM for Local AI at Full Context](https://www.youtube.com/watch?v=JPHT9AvoPSA)
 - 2026-10-25  [ExplainingComputers: GPU Upgrade for Local AI](https://youtu.be/9G3d9MwKAW8?si=iGiwi8FrJnkCm2B4)
 - 2026-10-23  [Kai: Google's Harness² Is This the End of Harness Engineering?](https://youtu.be/yCgfyQmqhPM?si=cG_t_fwVWPzsDDl4)
 - 2026-10-22  [Kai: llama.cpp Just Made 125B MoE Models 4× Faster!](https://www.youtube.com/watch?v=shl8FFSoANE)
