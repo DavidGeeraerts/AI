@@ -35,16 +35,14 @@ prioritise independent writers, technical depth, open-model communities, and low
 # YouTube Videos & Channels
 (Sorted by Publication Date ↓)
 
-- 2026-10-29  [Kai: Every Way to Get 256 GB of VRAM for Local AI at Full Context](https://www.youtube.com/watch?v=JPHT9AvoPSA)
-- 2026-10-25  [ExplainingComputers: GPU Upgrade for Local AI](https://youtu.be/9G3d9MwKAW8?si=iGiwi8FrJnkCm2B4)
-- 2026-10-23  [Kai: Google's Harness² Is This the End of Harness Engineering?](https://youtu.be/yCgfyQmqhPM?si=cG_t_fwVWPzsDDl4)
-- 2026-10-22  [Kai: llama.cpp Just Made 125B MoE Models 4× Faster!](https://www.youtube.com/watch?v=shl8FFSoANE)
-- 2026-10-21  [Kai: I Tested Every Best Local AI For GPU (8GB TO 24GB VRAM)](https://youtu.be/ugKAkCVBcz0?si=aRJ9Rx0guKR-Bls6)
-- 2026-10-21  [Kai: Your Local AI Is Not as Private as You Think](https://youtu.be/3mx84MRj8lY?si=ffjk7oazRh3vbYrr)
+- 2026-10-30  [Kai: Bytes Is This The End of Token?](https://www.youtube.com/watch?v=PfR4S3Zzdoo)
+- 2026-10-29  [Chris Titus Tech: You're Using AI Skills Wrong (I Was Too)](https://www.youtube.com/watch?v=TpYBwkhy9JY)
+- 2026-10-22  [ByteByteGo: Top 5 AI Building Blocks Every Engineer Should Know](https://www.youtube.com/watch?v=Dddv7P_k60o)
 - 2026-10-19  [AI Engineer: Is the Agent Harness Dead? — Jediah Katz, SpaceXA](https://www.youtube.com/watch?v=7Y4sbZgBdnc)
 - 2026-10-19  [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72)
 - 2026-10-11  [Stanford CS146S: How always-on agents work](https://youtu.be/L1OBRtfPS34?si=oejX5mZMiLUkk0rR)
 - 2026-09-21  [Why I couldn't build Jev at OpenAI — Diogo Almeida, TypeSafe Co-founder & CEO](https://youtu.be/cFx9Z3ZXca0?si=qHXpijFYS21TGtHX)
+- 2026-06-10  [ByteByteGo: How to Run LLMs Locally (Great For Learning and Privacy)](https://youtu.be/U8lGbSaCCYI?si=anfJL6PqQIxiVZwn)
 - 2026-05-13  [The Coding Gopher: Uni-1 AI image generation model](https://youtu.be/xhaE2sUnUZE?si=otuy7ytKM3nXzbFn) 
 - 2026-03-26  [The Diary of a CEO: AI Whistleblower: We Are Being Gaslit By AI Companies, They’re Hiding The Truth! - Karen Hao](https://youtu.be/Cn8HBj8QAbk?si=1CGH8ELHuUwIP39-)
 - 2026-03-00  [Hugging Face: Agentic Evals Workshop Playlist](https://www.youtube.com/playlist?list=PLo2EIpI_JMQvQZm-kVlz4wY1vWF0LBcf5)
@@ -60,7 +58,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 - 2024-04-01  [3Blue1Brown: Neural networks Playlist](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=xFClf3TeCbAQkgok)
 - 2023-08-23  [IBM Technology: What is Retrieval-Augmented Generation (RAG)?](https://youtu.be/T-D1OfcDW1M?si=Uv-M2QcZL7WIJi40)
 - 2018-07-30  [Lex Fridman: Deep Learning State of the Art (2020)](https://youtu.be/0VH1Lim8gL8?si=84lMRmcAPNYN6Lm-)
-- [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
+- 0000-00-00  [Channel: StatQuest with Josh Starmer](https://www.youtube.com/@statquest)
 
 # Articles
 (Sorted by Publication Date ↓)

@@ -4,6 +4,74 @@
 
 # Introduction
 
+## From Chatbots to Agentic Engineering
+
+### What changes when AI systems can use tools and work across multiple steps
+
+A chatbot usually responds to one request at a time: you ask, it answers, and
+you decide what to do next. An agentic workflow extends that interaction into a
+loop. Given a goal, an AI system can break the work into steps, use tools, check
+the results, and decide what to do next. A coding agent, for example, might
+inspect a repository, change a file, run its tests, and use the test results to
+guide another change.
+
+The important distinction is not that an agent is a model with human-like
+independence. The model proposes actions, while the surrounding software
+determines which actions are available, how they are carried out, and whether
+the system can continue without approval. Connecting a model to tools can make
+it more useful, but it also means that mistakes can have consequences beyond a
+poor answer.
+
+Agentic systems therefore need boundaries as well as capabilities. Useful
+designs make actions visible, limit access to what the task requires, define
+when a person must approve consequential steps, and provide a way to stop or
+recover from a failure. The goal is not autonomy for its own sake; it is
+reliable work that people can understand and control.
+
+### The agentic engineering stack: models, harnesses, tools, memory, and governance
+
+Building such systems means working with more than a model. The **model**
+interprets input and proposes responses or actions. A **harness** supplies the
+runtime loop that calls the model, manages the task, and decides how to handle
+its proposed actions. **Tools** connect that loop to services and information,
+while an **execution environment** determines where code or other operations
+run and what they can access.
+
+Longer-running work may also need **memory and state** so the system can retain
+relevant information between steps or sessions. **Orchestration** coordinates
+steps, tools, or multiple agents. **Governance and observability**—including
+permissions, approval points, logs, and evaluation—help people understand and
+constrain the system's behavior. These layers can overlap in a particular
+product, but separating them is a useful way to reason about how a system is
+built and where to improve it.
+
+This is the book's practical point of departure: choose and connect components
+to fit a real task, then make the resulting workflow dependable and
+controllable. The chapters that follow examine these layers in turn, from
+models and local inference to harnesses and complete working stacks.
+
+## What This Book Is For
+### A practical, control-oriented guide
+### Local-first and self-hosted options
+### What the book covers—and what it leaves to later chapters
+
+## Who This Book Is For
+### Practicing developers and indie builders
+### Teams exploring agentic workflows
+
+## The 2026 Q4 Reality Check
+### What the current Hotplate snapshot suggests
+### Why this landscape is changing—and how to read time-sensitive guidance
+
+## How to Use This Book as a Living Toolkit
+### Chapters, references, and linked sources
+### Quarterly Hotplate snapshots and updates
+
+## A Map of the Book
+### Models and running them
+### Agents, harnesses, and building a working stack
+### Supporting tools, resources, and keeping the map alive
+
 :toolbox: _The Book of Agentic AI — A practical guide to understanding agents and building a practical toolkit._
 
 The Book of AI is an attempt to be a practical guide to understanding agents and building an AI toolkit you control. It is a living document, and the landscape is changing rapidly. The book is structured to provide both a high-level overview and practical guidance for building and using agentic AI systems.
@@ -13,20 +81,3 @@ This book focuses on [{{< glossary "Agentic Engineer" popup="hover" >}}](https:/
 Use this book as a living toolkit: consult the chapters for practical
 orientation, and follow the linked source materials and quarterly snapshots as
 the landscape changes.
-
-
-## The Shift to Agentic Engineering
-As artificial intelligence moves beyond single-turn conversational models, the focus of development has shifted toward agentic engineering—the discipline of designing, orchestrating, and deploying autonomous AI systems capable of complex reasoning, tool use, and multi-step execution.
-
-To build and scale these systems, developers rely on the agentic engineering stack. This stack transitions AI from monolithic applications into a modular, highly configurable ecosystem, typically comprising:
-
-The Reasoning Engine: The foundational models that interpret intent and drive logic.
-
-Orchestration & Frameworks: The control layer for planning, multi-agent delegation, and context efficiency (utilizing paradigms found in tools like Agent Zero, SpyNEL, or AGENTS.md).
-
-Tooling & Execution Environments: Sandboxed, terminal-first execution layers (such as Podman containers) that allow agents to safely run scripts, manipulate files, and interface with external APIs.
-
-Memory & State Management: The infrastructure for maintaining both short-term working context and long-term persistent data retrieval.
-
-Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.
-

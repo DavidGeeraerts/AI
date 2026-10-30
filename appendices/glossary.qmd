@@ -158,6 +158,11 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 ### Boosting
 > is an ensemble learning technique that combines multiple weak learners to create a strong learner. Boosting works by training each model sequentially, where each subsequent model focuses on correcting the errors made by the previous models. The final prediction is made by aggregating the predictions of all models, such as taking a weighted sum of the predictions. Boosting helps improve the accuracy and generalization of the model by reducing bias and variance.
 
+### (BLT) Byte Latent Transformer
+> is a tokenizer-free, byte-level large language model that operates directly on raw bytes. It dynamically groups bytes into variable-length “patches” using an entropy-based segmentation strategy, then processes those patches with a hierarchical design (local encoder → global latent transformer → local decoder).
+
+
+
 ---
 
 ## C
@@ -785,6 +790,11 @@ gradient, aiming to minimize the cost function.
 - How easy it is to observe, interrupt, or improve it
 
 A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.
+
+### (H-Net) Hierarchical Network
+> is a fully end-to-end hierarchical sequence modeling architecture introduced in 2025 by Sukjun Hwang, Brandon Wang, and Albert Gu. It replaces the traditional tokenization → language-model → detokenization pipeline with a single model that learns content- and context-dependent segmentation directly from raw data (typically bytes).
+
+- The core mechanism is dynamic chunking (DC): a routing module predicts boundaries between adjacent elements via similarity scores, and a smoothing module (often using an exponential moving average) stabilizes training and softens uncertain boundaries. The architecture follows a recursive U-Net-style design—encoder(s) process the high-resolution input, a main network operates on the compressed chunks, and decoder(s) reconstruct the original resolution—with optional multi-stage nesting so that higher levels operate on even coarser abstractions.
 
 ### (HITL) Human-in-the-loop
 > is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.

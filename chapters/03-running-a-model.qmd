@@ -4,6 +4,9 @@
 
 # Running a Model
 
+[ByteByteGo: How to Run LLMs Locally (Great For Learning and Privacy)](https://youtu.be/U8lGbSaCCYI?si=anfJL6PqQIxiVZwn)
+
+
 ## Web/Online Models
 (Order by Name ↑)
 
@@ -33,14 +36,32 @@
 
 ## Running AI Models Locally
 
+- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
 - [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
 - [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
-- [Jan](https://jan.ai/) — Fully open-source desktop app (privacy-focused)
+- [Jan](https://jan.ai/) — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)
 - [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp) — Easy single-binary runner with built-in UI
 - [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving (multi-user / production)
-- [jan](https://www.jan.ai/) - run models locally, with cloud integration, MCP support.
+- [SGLang](https://www.sglang.io/) -- SGLang powers fast large scale production large language and multimodal models.
+
+### Comparing Local Model Runners
+
+| Aspect                  | **llama.cpp**                                      | **Ollama**                                              | **LM Studio**                                              | **Jan**                                                    | **Open WebUI**                                            | **KoboldCpp**                                              | **vLLM**                                                   | **SGLang**                                                 |
+|-------------------------|----------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|
+| **Primary focus**      | Core low-level inference engine (GGUF, max control) | Easy CLI + local OpenAI-compatible API (developer-friendly) | Polished desktop GUI for chat, discovery & experimentation | Fully open-source desktop app (privacy-first, local + cloud) | Self-hosted web UI (pairs excellently with Ollama/vLLM)   | Easy single-binary runner with built-in creative UI       | High-throughput multi-user / production serving            | High-performance large-scale serving (esp. agents & multimodal) |
+| **License**            | MIT                                                | MIT                                                     | Proprietary (free for personal + internal business)       | Apache 2.0                                                 | Custom (permissive with branding requirements for large deployments) | AGPL-3.0 (llama.cpp core is MIT)                          | Apache 2.0                                                 | Apache 2.0                                                 |
+| **Interface**          | CLI + optional simple web UI / server              | CLI-first + basic desktop app + API                     | Excellent GUI + CLI (`lms`) + headless daemon             | Desktop app (macOS/Windows/Linux) + local API server      | Full web UI (browser)                                     | Single executable + built-in KoboldAI Lite web UI         | CLI / Python server                                        | CLI / Python server                                        |
+| **Model discovery**    | Manual GGUF download (Hugging Face, etc.)          | Curated library + simple `ollama pull`                  | Built-in Hugging Face browser with size/VRAM estimates    | Jan Hub + Hugging Face integration                         | Via connected backend (Ollama/vLLM/etc.)                  | Manual GGUF load                                           | Hugging Face / local models                                | Hugging Face / local models                                |
+| **API**                | OpenAI-compatible (`llama-server`)                 | OpenAI-compatible + native (port 11434)                 | OpenAI- + Anthropic-compatible (port 1234)                | OpenAI-compatible (port 1337)                              | Connects to any OpenAI-compatible backend                 | OpenAI-compatible + KoboldAI + others (port 5001)         | OpenAI-compatible (+ Anthropic Messages)                   | OpenAI-compatible (+ Anthropic/Ollama-style)               |
+| **Best hardware edge** | Broadest support (CPU, Metal, CUDA, ROCm, Vulkan, etc.) | Lower overhead; strong on NVIDIA & Apple Silicon        | Strong MLX performance on Apple Silicon                    | llama.cpp + MLX; good cross-platform                       | Depends on backend                                        | llama.cpp backends (CUDA/Vulkan/ROCm/CPU)                 | NVIDIA/AMD focused; excellent multi-GPU throughput         | NVIDIA/AMD + strong prefix caching for agents              |
+| **Headless/server**    | Yes (native `llama-server`)                        | Native from the start (systemd/Docker-friendly)         | Yes (`llmster` since early 2026)                           | Yes (local API server)                                     | Yes (Docker-first)                                        | Yes (single binary server)                                 | Native high-performance server                             | Native high-performance server                             |
+| **Extras / Strengths** | Maximum control, quantizations (GGUF), minimal deps, hybrid CPU+GPU | Excellent ecosystem, Modelfiles, Docker, optional cloud | Document chat (RAG), MCP client, continuous batching, remote sharing | MCP support, agents, cloud model integration, privacy focus | Built-in RAG, multi-user auth, pipelines/plugins, image/voice | Story/roleplay tools, image gen, TTS/STT, world info       | Continuous batching, PagedAttention, multi-LoRA, production scale | RadixAttention (prefix reuse), speculative decoding, multimodal, agent-optimized |
+
+
+
+
+#### Developer-focused comparison: LM Studio vs Ollama
 
 | Aspect              | **LM Studio**                                      | **Ollama**                                          |
 |---------------------|----------------------------------------------------|-----------------------------------------------------|

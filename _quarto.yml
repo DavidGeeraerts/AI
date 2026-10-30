@@ -5,7 +5,7 @@ project:
   preview:
     browser: false
     watch-inputs: true
-    navigate: true
+    navigate: false
 glossary:
   path: appendices/glossary.yml
   popup: click

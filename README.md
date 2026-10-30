@@ -18,20 +18,20 @@
 
 ## Book Progress
 
-| Chapters                 | Title                    | Status     | Active |
-|--------------------------|--------------------------|------------|--------|
-| Index                    | Main page                | notes      | X      |
-| Chapter 1                | Introduction             | just notes |        |
-| Chapter 2                | Models                   | draft      |        |
-| Chapter 3                | Running local models     | draft      |        |
-| Chapter 4                | Agents and Harnesses     | draft      |        |
-| Chapter 5                | Building a working stack | notes      |        |
-| Chapter 6                | Miscellaneous Tools      | notes      |        |
-| Chapter 7                | Resources                | active     |        |
-| Chapter 8                | Keeping the map alive    | notes      |        |
-| Hotplate                 | Hotplate                 | final      | X      |
-| Glossary                 | Glossary                 | revising   | X      |
-| Prompt Engineering Notes | Prompt Engineering Notes | final      | X      |
+| Chapters                 | Title                    | Status   | Active          |
+|--------------------------|--------------------------|----------|-----------------|
+| Index                    | Main page                | notes    | :green_circle:  |
+| Chapter 1                | Introduction             | notes    | :yellow_circle: |
+| Chapter 2                | Models                   | draft    | :red_circle:    |
+| Chapter 3                | Running local models     | draft    | :red_circle:    |
+| Chapter 4                | Agents and Harnesses     | draft    | :red_circle:    |
+| Chapter 5                | Building a working stack | notes    | :red_circle:    |
+| Chapter 6                | Miscellaneous Tools      | notes    | :red_circle:    |
+| Chapter 7                | Resources                | active   | :red_circle:    |
+| Chapter 8                | Keeping the map alive    | notes    | :red_circle:    |
+| Hotplate                 | Hotplate                 | final    | :green_circle:  |
+| Glossary                 | Glossary                 | revising | :green_circle:  |
+| Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
 
 
 ### Status key

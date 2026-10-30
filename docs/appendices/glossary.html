@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-29">
+<meta name="dcterms.date" content="2026-10-30">
 <meta name="description" content="A practical guide to understanding agentic engineering and building a practical toolkit.">
 
 <title>Appendix B — Glossary – The Book of AI</title>
@@ -455,7 +455,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-29</p>
+      <p class="date">2026-10-30</p>
     </div>
   </div>
   
@@ -646,6 +646,12 @@ ul.task-list li input[type="checkbox"] {
 <h3 data-number="B.2.8" class="anchored" data-anchor-id="boosting"><span class="header-section-number">B.2.8</span> Boosting</h3>
 <blockquote class="blockquote">
 <p>is an ensemble learning technique that combines multiple weak learners to create a strong learner. Boosting works by training each model sequentially, where each subsequent model focuses on correcting the errors made by the previous models. The final prediction is made by aggregating the predictions of all models, such as taking a weighted sum of the predictions. Boosting helps improve the accuracy and generalization of the model by reducing bias and variance.</p>
+</blockquote>
+</section>
+<section id="blt-byte-latent-transformer" class="level3" data-number="B.2.9">
+<h3 data-number="B.2.9" class="anchored" data-anchor-id="blt-byte-latent-transformer"><span class="header-section-number">B.2.9</span> (BLT) Byte Latent Transformer</h3>
+<blockquote class="blockquote">
+<p>is a tokenizer-free, byte-level large language model that operates directly on raw bytes. It dynamically groups bytes into variable-length “patches” using an entropy-based segmentation strategy, then processes those patches with a hierarchical design (local encoder → global latent transformer → local decoder).</p>
 </blockquote>
 <hr>
 </section>
@@ -1269,14 +1275,23 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>The harness determines:</strong> - How long the agent can run - Whether it has persistent memory and can create its own skills - What tools (MCP servers) it can reach - Whether it lives in messaging apps, a terminal, a web UI, or a full Linux desktop - How isolated / sandboxed its actions are - How easy it is to observe, interrupt, or improve it</p>
 <p>A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of agent you can actually have. A weak or missing harness leaves you with just a chatbot that forgets everything between messages.</p>
 </section>
-<section id="hitl-human-in-the-loop" class="level3" data-number="B.8.3">
-<h3 data-number="B.8.3" class="anchored" data-anchor-id="hitl-human-in-the-loop"><span class="header-section-number">B.8.3</span> (HITL) Human-in-the-loop</h3>
+<section id="h-net-hierarchical-network" class="level3" data-number="B.8.3">
+<h3 data-number="B.8.3" class="anchored" data-anchor-id="h-net-hierarchical-network"><span class="header-section-number">B.8.3</span> (H-Net) Hierarchical Network</h3>
+<blockquote class="blockquote">
+<p>is a fully end-to-end hierarchical sequence modeling architecture introduced in 2025 by Sukjun Hwang, Brandon Wang, and Albert Gu. It replaces the traditional tokenization → language-model → detokenization pipeline with a single model that learns content- and context-dependent segmentation directly from raw data (typically bytes).</p>
+</blockquote>
+<ul>
+<li>The core mechanism is dynamic chunking (DC): a routing module predicts boundaries between adjacent elements via similarity scores, and a smoothing module (often using an exponential moving average) stabilizes training and softens uncertain boundaries. The architecture follows a recursive U-Net-style design—encoder(s) process the high-resolution input, a main network operates on the compressed chunks, and decoder(s) reconstruct the original resolution—with optional multi-stage nesting so that higher levels operate on even coarser abstractions.</li>
+</ul>
+</section>
+<section id="hitl-human-in-the-loop" class="level3" data-number="B.8.4">
+<h3 data-number="B.8.4" class="anchored" data-anchor-id="hitl-human-in-the-loop"><span class="header-section-number">B.8.4</span> (HITL) Human-in-the-loop</h3>
 <blockquote class="blockquote">
 <p>is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.</p>
 </blockquote>
 </section>
-<section id="hyperparameter" class="level3" data-number="B.8.4">
-<h3 data-number="B.8.4" class="anchored" data-anchor-id="hyperparameter"><span class="header-section-number">B.8.4</span> Hyperparameter</h3>
+<section id="hyperparameter" class="level3" data-number="B.8.5">
+<h3 data-number="B.8.5" class="anchored" data-anchor-id="hyperparameter"><span class="header-section-number">B.8.5</span> Hyperparameter</h3>
 <blockquote class="blockquote">
 <p>is a configuration setting that is external to the model and is used to control the learning process. Hyperparameters are set before the learning process begins and are not updated during training. Examples of hyperparameters include the learning rate, batch size, number of layers in a neural network, and regularization strength.</p>
 </blockquote>
