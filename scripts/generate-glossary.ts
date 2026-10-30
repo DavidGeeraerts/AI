@@ -81,5 +81,19 @@ const yaml = [...glossary.entries()]
   })
   .join("\n") + "\n";
 
-Deno.writeTextFileSync(outputPath, yaml);
-console.log(`Generated ${glossary.size} glossary entries in ${outputPath}`);
+// Skip identical writes so preview file watchers don't see a change.
+let existing: string | undefined;
+try {
+  existing = Deno.readTextFileSync(outputPath);
+} catch (error) {
+  if (!(error instanceof Deno.errors.NotFound)) {
+    throw error;
+  }
+}
+
+if (existing === yaml) {
+  console.log(`Glossary unchanged (${glossary.size} entries) in ${outputPath}`);
+} else {
+  Deno.writeTextFileSync(outputPath, yaml);
+  console.log(`Generated ${glossary.size} glossary entries in ${outputPath}`);
+}

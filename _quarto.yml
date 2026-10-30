@@ -3,8 +3,8 @@ project:
   output-dir: docs
   pre-render: quarto run scripts/generate-glossary.ts
   preview:
-    browser: false
-    watch-inputs: true
+    browser: true
+    watch-inputs: false
     navigate: false
 glossary:
   path: appendices/glossary.yml
