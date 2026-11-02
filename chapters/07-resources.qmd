@@ -36,7 +36,9 @@ prioritise independent writers, technical depth, open-model communities, and low
 (Sorted by Publication Date ↓)
 
 - 2026-10-30  [Kai: Bytes Is This The End of Token?](https://www.youtube.com/watch?v=PfR4S3Zzdoo)
+- 2026-10-29  [IBM Technology: What Is Quantization? How AI Models Get Smaller & Faster](https://www.youtube.com/watch?v=mmns33BsBcY)
 - 2026-10-29  [Chris Titus Tech: You're Using AI Skills Wrong (I Was Too)](https://www.youtube.com/watch?v=TpYBwkhy9JY)
+- 2026-10-26  [IBM Technology and IBM Developer: Agentic Engineering: 5 Terms Every AI Developer Should Know](https://www.youtube.com/watch?v=SIZsFGvtClM)
 - 2026-10-22  [ByteByteGo: Top 5 AI Building Blocks Every Engineer Should Know](https://www.youtube.com/watch?v=Dddv7P_k60o)
 - 2026-10-19  [AI Engineer: Is the Agent Harness Dead? — Jediah Katz, SpaceXA](https://www.youtube.com/watch?v=7Y4sbZgBdnc)
 - 2026-10-19  [Cloud Codes: Your Local AI Model Isn’t as Safe as You Think](https://youtu.be/7S3kCU1tXcA?si=ABvWS3BS3Og4Va72)

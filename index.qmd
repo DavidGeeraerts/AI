@@ -4,6 +4,5 @@ page-layout: full
 
 # Main Page {.unnumbered}
 
-## :fire: Hotplate (Monthly Release)
-[Read the latest Hotplate](/hotplate/2026-10-October-hotplate.html) for a snapshot of the current landscape.
-
+## :fire: Digest (Monthly Release)
+[Read the latest Digest](/digest/2026-10-October-digest.html) for a snapshot of the current landscape.

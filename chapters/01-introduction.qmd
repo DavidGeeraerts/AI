@@ -60,12 +60,12 @@ models and local inference to harnesses and complete working stacks.
 ### Teams exploring agentic workflows
 
 ## The 2026 Q4 Reality Check
-### What the current Hotplate snapshot suggests
+### What the current Digest snapshot suggests
 ### Why this landscape is changing—and how to read time-sensitive guidance
 
 ## How to Use This Book as a Living Toolkit
 ### Chapters, references, and linked sources
-### Quarterly Hotplate snapshots and updates
+### Quarterly Digest snapshots and updates
 
 ## A Map of the Book
 ### Models and running them

@@ -8,11 +8,11 @@
 
 - [Chapter Overview](chatper-structure.md)
 
-<!-- HOTPLATE:START -->
+<!-- DIGEST:START -->
 
-:fire: Read the latest hotplate: [2026-10-October-Hotplate](https://davidgeeraerts.github.io/AI/hotplate/2026-10-October-hotplate.html)
+:fire: Read the latest digest: [2026-10-October-Digest](https://davidgeeraerts.github.io/AI/digest/2026-10-October-digest.html)
 
-<!-- HOTPLATE:END -->
+<!-- DIGEST:END -->
 
 --- 
 
@@ -29,7 +29,7 @@
 | Chapter 6                | Miscellaneous Tools      | notes    | :red_circle:    |
 | Chapter 7                | Resources                | active   | :red_circle:    |
 | Chapter 8                | Keeping the map alive    | notes    | :red_circle:    |
-| Hotplate                 | Hotplate                 | final    | :green_circle:  |
+| Digest                   | Digest                   | final    | :green_circle:  |
 | Glossary                 | Glossary                 | revising | :green_circle:  |
 | Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
 

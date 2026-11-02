@@ -4,10 +4,10 @@
 **Goal**: Orient the reader and set the practical, control-oriented tone of the book.
 
 - Purpose of the book and the repository  
-- The 2026 Q4 “Hotplate” reality check  
+- The 2026 Q4 “Digest” reality check
   - Dominant themes: long-running open-source agent harnesses, MCP as default wiring, persistent memory, self-hosted personal agents living in messaging apps  
   - Strong bias toward tools you can run yourself, keep under your control, and host on your own hardware or cheap VPS  
-- How the quarterly Hotplate system works  
+- How the quarterly Digest system works
 - Who this book is for (practicing developers, indie builders, teams that want local-first stacks)  
 - How to use the book as a living toolkit rather than a static textbook  
 - Quick map of the rest of the chapters  
@@ -67,7 +67,7 @@
 **Goal**: Explain the runtime layer that turns a model into something that can do useful, long-running work.
 
 - What a harness is (and why “just calling the model” is no longer enough)  
-- Core modern harnesses (Hotplate focus)  
+- Core modern harnesses (Digest focus)
   - **Hermes Agent** (Nous Research) — persistent curated memory, autonomous skill creation, multi-backend  
   - **OpenClaw** — TypeScript gateway, 20–30 messaging channels, skills registry, Docker sandboxes  
   - **OpenHands** — Agent Canvas, scoped MCP profiles, strong for autonomous coding & repo work  
@@ -126,7 +126,7 @@
 ## 8. Keeping the Map Alive (Appendix / Closing)
 **Goal**: Make the book a living resource rather than a snapshot that ages quickly.
 
-- How the Hotplate is maintained and released quarterly  
+- How the Digest is maintained and released quarterly
 - Suggested process for keeping your own local copy current  
 - How to contribute observations or corrections  
 - Recommended next steps by persona  

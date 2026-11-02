@@ -10,63 +10,63 @@
     ]
   },
   {
-    "objectID": "index.html#hotplate-monthly-release",
-    "href": "index.html#hotplate-monthly-release",
+    "objectID": "index.html#digest-monthly-release",
+    "href": "index.html#digest-monthly-release",
     "title": "The Book of AI",
-    "section": "🔥 Hotplate (Monthly Release)",
-    "text": "🔥 Hotplate (Monthly Release)\nRead the latest Hotplate for a snapshot of the current landscape.",
+    "section": "🔥 Digest (Monthly Release)",
+    "text": "🔥 Digest (Monthly Release)\nRead the latest Digest for a snapshot of the current landscape.",
     "crumbs": [
       "Main Page"
     ]
   },
   {
-    "objectID": "hotplate/2026-10-October-hotplate.html",
-    "href": "hotplate/2026-10-October-hotplate.html",
-    "title": "October 2026 Hotplate",
+    "objectID": "digest/2026-10-October-digest.html",
+    "href": "digest/2026-10-October-digest.html",
+    "title": "October 2026 Digest",
     "section": "",
     "text": "📰 Summary: General AI vibe for October 2026\n🧭 Building and refining open-source agent harnesses for long-running autonomous work—OpenHands and OpenCode for coding, goose for general MCP-native use—alongside heavy adoption of MCP tools, persistent memory, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can run yourself, keep fully under your control, and host on your own hardware or a cheap Virtual Private Server.",
     "crumbs": [
-      "October 2026 Hotplate"
+      "October 2026 Digest"
     ]
   },
   {
-    "objectID": "hotplate/2026-10-October-hotplate.html#agent-skills-agentic-ai-foundation-aaif",
-    "href": "hotplate/2026-10-October-hotplate.html#agent-skills-agentic-ai-foundation-aaif",
-    "title": "October 2026 Hotplate",
+    "objectID": "digest/2026-10-October-digest.html#agent-skills-agentic-ai-foundation-aaif",
+    "href": "digest/2026-10-October-digest.html#agent-skills-agentic-ai-foundation-aaif",
+    "title": "October 2026 Digest",
     "section": "Agent Skills → Agentic AI Foundation (AAIF)",
     "text": "Agent Skills → Agentic AI Foundation (AAIF)\n\nAnthropic donated the SKILL.md standard (folder + SKILL.md + scripts) to the Linux Foundation’s AAIF on ~22 Oct (alongside MCP, goose, AGENTS.md). ~1M skills published / hundreds of millions installed; now under neutral governance with maintainers from multiple orgs.",
     "crumbs": [
-      "October 2026 Hotplate"
+      "October 2026 Digest"
     ]
   },
   {
-    "objectID": "hotplate/2026-10-October-hotplate.html#workbuddy-bench-tencent",
-    "href": "hotplate/2026-10-October-hotplate.html#workbuddy-bench-tencent",
-    "title": "October 2026 Hotplate",
+    "objectID": "digest/2026-10-October-digest.html#workbuddy-bench-tencent",
+    "href": "digest/2026-10-October-digest.html#workbuddy-bench-tencent",
+    "title": "October 2026 Digest",
     "section": "WorkBuddy Bench (Tencent)",
     "text": "WorkBuddy Bench (Tencent)\n\nMulti-domain coding-agent benchmark (Code / Web / Office / Security, ~260 tasks) reverse-engineered from real work, with contamination-resistant construction and dual-harness evaluation (CodeBuddy Code + Claude Code). Open evaluation framework + leaderboard.",
     "crumbs": [
-      "October 2026 Hotplate"
+      "October 2026 Digest"
     ]
   },
   {
-    "objectID": "hotplate/2026-10-October-hotplate.html#unbroker",
-    "href": "hotplate/2026-10-October-hotplate.html#unbroker",
-    "title": "October 2026 Hotplate",
+    "objectID": "digest/2026-10-October-digest.html#unbroker",
+    "href": "digest/2026-10-October-digest.html#unbroker",
+    "title": "October 2026 Digest",
     "section": "UNBROKER",
     "text": "UNBROKER\n\nis an optional Hermes Agent skill that autonomously finds and removes a consenting person’s personal information from data-broker and people-search sites.",
     "crumbs": [
-      "October 2026 Hotplate"
+      "October 2026 Digest"
     ]
   },
   {
-    "objectID": "hotplate/2026-10-October-hotplate.html#nvidia-openshell",
-    "href": "hotplate/2026-10-October-hotplate.html#nvidia-openshell",
-    "title": "October 2026 Hotplate",
+    "objectID": "digest/2026-10-October-digest.html#nvidia-openshell",
+    "href": "digest/2026-10-October-digest.html#nvidia-openshell",
+    "title": "October 2026 Digest",
     "section": "NVIDIA OpenShell",
     "text": "NVIDIA OpenShell\n\nis an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.\n\n\nNVIDIA YouTube Summary\nNVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs\n\n\nHarnesses (the runtime that turns a model into an agent)\n\nAgent Zero - agentic framework that gives the agent a full Linux computer inside a Docker container.\ngoose (Block / Agentic AI Foundation) – Apache-2.0, desktop + CLI + API, heavily MCP-native, local-model friendly.\nHermes Agent (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.\nOpenClaw – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.\nOpenCode - open source agent that helps you write code in your terminal, IDE, or desktop.\nOpenHands – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.\nZCode - harness and agent for GLM\n\n\n\n\n\n\n\n\n\nAspect\nHermes Agent\nAgent Zero\n\n\n\n\nCore Philosophy\nPersistent personal agent that learns & grows over time via skills/memory\nFull sandboxed Linux computer + transparent, extensible agent framework\n\n\nStrengths\nStrong continuous learning loop (auto skill creation/refinement); excellent multi-platform messaging gateway (20+ apps, one memory); flexible deployment (serverless options that hibernate); deep user modeling & cross-session recall; easy always-on personal assistant feel\nReal desktop + browser with annotation/cowork; strong project isolation; highly transparent & editable (prompts/tools as files); mature multi-agent hierarchy + Plugin Hub; visual Web UI for control/observation; good for complex computer-use tasks\n\n\nWeaknesses\nLess emphasis on a full GUI desktop environment; memory/skills can increase token cost on simple tasks; more “gateway + tools” than “own computer” metaphor\nHeavier Docker dependency & resource footprint; less native multi-messaging surface out of the box; learning is more manual/project-oriented than automatic skill growth; Web UI-centric rather than chat-app native\n\n\nBest For\nAlways-available personal agent reachable from chat apps that improves with use\nTechnical users wanting a controllable agentic “computer” for development, research, document work, or multi-agent workflows\n\n\nDeployment Style\nLightweight long-running process / serverless; strong messaging focus\nDocker-first full environment; Web UI + optional host CLI bridge\n\n\nExtensibility\nSkills system + MCP + toolsets; community skills\nPlugins, skills, fully editable prompts, MCP/A2A, community Plugin Hub\n\n\n\n\n\nMCP\n\nis now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.\n\n\n\nKERNEL\n\nis a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, anti-bot bypass, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).\n\n\n\nHERMES WebUI\n\nis a lightweight, dark-themed web app interface in your browser for Hermes Agent. Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS.\n\n\n\nHONCHO\n\nis open-source AI memory for agents. It remembers each user across sessions, tools and machines, so no session starts cold. Pairs well with Hermes Agent. Setup guide.\n\n\n\nOpenWaldo\n\n\n\nLetter\nMeaning\n\n\n\n\nW\nWeights\n\n\nA\nArtifacts\n\n\nL\nLicenses\n\n\nD\nData\n\n\nO\nOrigin\n\n\n\nOpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.\n\n\nJEV\n\nA (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.\n\n\nSpyNEL\n\nLightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.\n\n\n\nDOX\n\nDOX is a lightweight AGENTS.md framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.\n\n\n\nAjax\n\nAjax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.\n\n\n\nOdysseus\n\nOdysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.\n\n\n\nBenchLM\nLLM Leaderboard. #### Best Ollama models\n\n\nHeretic\nHeretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.\n\n\n\nCapsem\n\nis a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host. Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.",
     "crumbs": [
-      "October 2026 Hotplate"
+      "October 2026 Digest"
     ]
   },
   {
@@ -114,7 +114,7 @@
     "href": "chapters/01-introduction.html#the-2026-q4-reality-check",
     "title": "1  Introduction",
     "section": "1.4 The 2026 Q4 Reality Check",
-    "text": "1.4 The 2026 Q4 Reality Check\n\n1.4.1 What the current Hotplate snapshot suggests\n\n\n1.4.2 Why this landscape is changing—and how to read time-sensitive guidance",
+    "text": "1.4 The 2026 Q4 Reality Check\n\n1.4.1 What the current Digest snapshot suggests\n\n\n1.4.2 Why this landscape is changing—and how to read time-sensitive guidance",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "chapters/01-introduction.html#how-to-use-this-book-as-a-living-toolkit",
     "title": "1  Introduction",
     "section": "1.5 How to Use This Book as a Living Toolkit",
-    "text": "1.5 How to Use This Book as a Living Toolkit\n\n1.5.1 Chapters, references, and linked sources\n\n\n1.5.2 Quarterly Hotplate snapshots and updates",
+    "text": "1.5 How to Use This Book as a Living Toolkit\n\n1.5.1 Chapters, references, and linked sources\n\n\n1.5.2 Quarterly Digest snapshots and updates",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -454,7 +454,7 @@
     "href": "chapters/08-keeping-the-map-alive.html",
     "title": "8  Keeping the Map Alive",
     "section": "",
-    "text": "8.1 Maintaining the quarterly Hotplate\nReview the landscape and update the Hotplate on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
+    "text": "8.1 Maintaining the quarterly Digest\nReview the landscape and update the Digest on its quarterly release cycle. Keep dated observations so readers can distinguish current signals from older snapshots.",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Keeping the Map Alive</span>"
     ]
@@ -480,58 +480,58 @@
     ]
   },
   {
-    "objectID": "hotplate/hotplate_index.html",
-    "href": "hotplate/hotplate_index.html",
-    "title": "Appendix A — Hotplate Index",
+    "objectID": "digest/digest_index.html",
+    "href": "digest/digest_index.html",
+    "title": "Appendix A — Digest Index",
     "section": "",
     "text": "A.1 📅 Checked daily",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Hotplate Index</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Digest Index</span>"
     ]
   },
   {
-    "objectID": "hotplate/hotplate_index.html#checked-daily",
-    "href": "hotplate/hotplate_index.html#checked-daily",
-    "title": "Appendix A — Hotplate Index",
+    "objectID": "digest/digest_index.html#checked-daily",
+    "href": "digest/digest_index.html#checked-daily",
+    "title": "Appendix A — Digest Index",
     "section": "",
     "text": "X List for Agentic Engineering",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Hotplate Index</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Digest Index</span>"
     ]
   },
   {
-    "objectID": "hotplate/hotplate_index.html#checked-weekly",
-    "href": "hotplate/hotplate_index.html#checked-weekly",
-    "title": "Appendix A — Hotplate Index",
+    "objectID": "digest/digest_index.html#checked-weekly",
+    "href": "digest/digest_index.html#checked-weekly",
+    "title": "Appendix A — Digest Index",
     "section": "A.2 📆 Checked weekly",
     "text": "A.2 📆 Checked weekly\n\nYoutube",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Hotplate Index</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Digest Index</span>"
     ]
   },
   {
-    "objectID": "hotplate/hotplate_index.html#checked-monthly",
-    "href": "hotplate/hotplate_index.html#checked-monthly",
-    "title": "Appendix A — Hotplate Index",
+    "objectID": "digest/digest_index.html#checked-monthly",
+    "href": "digest/digest_index.html#checked-monthly",
+    "title": "Appendix A — Digest Index",
     "section": "A.3 🗓️ Checked monthly",
     "text": "A.3 🗓️ Checked monthly",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Hotplate Index</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Digest Index</span>"
     ]
   },
   {
-    "objectID": "hotplate/hotplate_index.html#hotplate-catalog",
-    "href": "hotplate/hotplate_index.html#hotplate-catalog",
-    "title": "Appendix A — Hotplate Index",
-    "section": "A.4 Hotplate Catalog",
-    "text": "A.4 Hotplate Catalog\n\n2026-10",
+    "objectID": "digest/digest_index.html#digest-catalog",
+    "href": "digest/digest_index.html#digest-catalog",
+    "title": "Appendix A — Digest Index",
+    "section": "A.4 Digest Catalog",
+    "text": "A.4 Digest Catalog\n\n2026-11\n2026-10",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Hotplate Index</span>"
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Digest Index</span>"
     ]
   },
   {
@@ -715,7 +715,7 @@
     "href": "appendices/glossary.html#p",
     "title": "Appendix B — Glossary",
     "section": "B.16 P",
-    "text": "B.16 P\n\nB.16.1 Pickle (broken)\n\nA maliciously crafted Python pickle (or pickle-containing model file such as .pkl, .pt, .npy, etc.) that has been deliberately malformed—typically by inserting illegal bytes or truncating the stream just before the STOP opcode—so that static security scanners (e.g., PickleScan) either crash, raise a parsing error, or fail to detect the embedded payload, while the payload still runs when the file is deserialized.The technique was demonstrated in early 2025 by ReversingLabs researchers who uploaded such models to Hugging Face; loading the “broken” file triggered remote code execution even though the model appeared to fail to load. It is a practical evasion method within the larger class of pickle-based supply-chain attacks on machine-learning models.\n\n\n\nB.16.2 Post-Training\n\nis a technique used in machine learning to improve the performance of a pre-trained model on a specific task or dataset. Post-training involves fine-tuning the pre-trained model on new data related to the target task, allowing the model to adapt and improve its performance on the new task. This approach is commonly used in transfer learning to leverage knowledge learned from pre-training to enhance the model’s capabilities. A collection of techniques including instruction tuning followed by reinforcement learning from human feedback — has become a vital step in refining behaviors and unlocking new capabilities in language models. Since early approaches such as InstructGPT and the original ChatGPT, the sophistication and complexity of post-training approaches have continued to increase, moving towards multiple rounds of training, model merging, leveraging synthetic data, AI feedback, and multiple training algorithms and objectives.\n\n\n\nB.16.3 (PReLU) Parametric Rectified Linear Unit\n\nis a variant of the standard ReLU activation function used in artificial neural networks, particularly in deep learning models. PReLU was introduced to address some limitations of traditional ReLU, such as the “dying ReLU” problem, where some neurons may not activate for any input due to weight updates during training. In PReLU, the slope of negative inputs is a learnable parameter (α) instead of being fixed at zero, as in traditional ReLU. This allows PReLU neurons to have a small positive gradient for negative inputs during the initial stages of training, preventing them from “dying” and ensuring that they remain active and contribute to the model’s learning process.\n\n\nB.16.3.1 Advantages of PReLU:\n\nMitigates dying ReLU problem: By allowing a small positive slope for negative inputs, PReLU prevents neurons from becoming completely inactive during training.\nImproved performance: PReLU can lead to better model performance compared to traditional ReLU on certain tasks due to its adaptability to the data distribution.\nFlexibility: The learnable parameter (α) in PReLU enables the network to adjust the slope for negative inputs, providing more flexibility than traditional ReLU.\n\n\n\nB.16.3.2 Disadvantages of PReLU:\n\nIncreased computational complexity: Since PReLU involves a learnable parameter (α), it introduces additional parameters that need to be optimized during training, potentially increasing computational complexity and memory requirements.\nTraining instability: In some cases, the optimization of α during training might lead to unstable learning dynamics or slow convergence.\n\n\n\n\nB.16.4 Prompt Engineering\n\nis a technique used in large language models (LLMs) to guide the generation of text by providing specific instructions or examples to the model. Prompt engineering involves designing prompts that elicit the desired responses from the model, such as generating text in a particular style, answering questions, or completing tasks. By carefully crafting prompts, users can control the output of LLMs and improve their performance on specific tasks.\n\n\n\nB.16.5 Pre-trained Model\n\nis a machine learning model that has been trained on a large dataset to learn general patterns and features. Pre-trained models are used as a starting point for specific tasks, allowing developers to fine-tune the model on a smaller dataset for a particular application. Pre-trained models are commonly used in transfer learning to leverage knowledge learned from one task to improve performance on another task.\n\n\n\nB.16.6 Privacy-Preserving AI\n\nis an approach to artificial intelligence that focuses on protecting user data and maintaining privacy while developing and deploying AI systems. Privacy-preserving AI techniques include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption. These methods help ensure that sensitive data is not exposed or misused during AI training or inference.\n\n\n\nB.16.7 Probabilistic Programming\n\nis a programming paradigm that allows developers to build probabilistic models using code. Probabilistic programming languages enable users to define complex probabilistic models, perform Bayesian inference, and make predictions based on uncertain data. These languages are used in machine learning, statistics, and artificial intelligence to model uncertainty and make decisions under uncertainty.\n\n\n\nB.16.8 Progressive Learning\n\nis a machine learning technique that involves training a model on a sequence of tasks or datasets in a continuous learning process. Progressive learning aims to improve the model’s performance over time by adapting to new data and tasks without forgetting previously learned information. This approach is used in lifelong learning, continual learning, and adaptive learning scenarios.\n\n\n\nB.16.9 PyTorch\n\nis an open-source machine learning library developed by Facebook’s AI Research lab. PyTorch provides a flexible and dynamic framework for building and training deep learning models. It supports automatic differentiation, GPU acceleration, and a wide range of neural network architectures. PyTorch is widely used in research and industry for natural language processing, computer vision, and other machine learning tasks.",
+    "text": "B.16 P\n\nB.16.1 Pickle (broken)\n\nA maliciously crafted Python pickle (or pickle-containing model file such as .pkl, .pt, .npy, etc.) that has been deliberately malformed—typically by inserting illegal bytes or truncating the stream just before the STOP opcode—so that static security scanners (e.g., PickleScan) either crash, raise a parsing error, or fail to detect the embedded payload, while the payload still runs when the file is deserialized.The technique was demonstrated in early 2025 by ReversingLabs researchers who uploaded such models to Hugging Face; loading the “broken” file triggered remote code execution even though the model appeared to fail to load. It is a practical evasion method within the larger class of pickle-based supply-chain attacks on machine-learning models.\n\n\n\nB.16.2 Post-Training\n\nis a technique used in machine learning to improve the performance of a pre-trained model on a specific task or dataset. Post-training involves fine-tuning the pre-trained model on new data related to the target task, allowing the model to adapt and improve its performance on the new task. This approach is commonly used in transfer learning to leverage knowledge learned from pre-training to enhance the model’s capabilities. A collection of techniques including instruction tuning followed by reinforcement learning from human feedback — has become a vital step in refining behaviors and unlocking new capabilities in language models. Since early approaches such as InstructGPT and the original ChatGPT, the sophistication and complexity of post-training approaches have continued to increase, moving towards multiple rounds of training, model merging, leveraging synthetic data, AI feedback, and multiple training algorithms and objectives.\n\n\n\nB.16.3 (PTQ) Post Training Quantization\n\nis a model compression technique that reduces the numerical precision of a neural network’s weights, activations, or both after the model has been trained. PTQ is typically applied to convert high-precision floating-point formats (e.g., FP32 or FP16) to lower-precision formats such as INT8, INT4, or even binary/ternary representations. PTQ is used to make large AI models smaller, faster, and more efficient without retraining from scratch.\n\n\n\nB.16.4 (PReLU) Parametric Rectified Linear Unit\n\nis a variant of the standard ReLU activation function used in artificial neural networks, particularly in deep learning models. PReLU was introduced to address some limitations of traditional ReLU, such as the “dying ReLU” problem, where some neurons may not activate for any input due to weight updates during training. In PReLU, the slope of negative inputs is a learnable parameter (α) instead of being fixed at zero, as in traditional ReLU. This allows PReLU neurons to have a small positive gradient for negative inputs during the initial stages of training, preventing them from “dying” and ensuring that they remain active and contribute to the model’s learning process.\n\n\nB.16.4.1 Advantages of PReLU:\n\nMitigates dying ReLU problem: By allowing a small positive slope for negative inputs, PReLU prevents neurons from becoming completely inactive during training.\nImproved performance: PReLU can lead to better model performance compared to traditional ReLU on certain tasks due to its adaptability to the data distribution.\nFlexibility: The learnable parameter (α) in PReLU enables the network to adjust the slope for negative inputs, providing more flexibility than traditional ReLU.\n\n\n\nB.16.4.2 Disadvantages of PReLU:\n\nIncreased computational complexity: Since PReLU involves a learnable parameter (α), it introduces additional parameters that need to be optimized during training, potentially increasing computational complexity and memory requirements.\nTraining instability: In some cases, the optimization of α during training might lead to unstable learning dynamics or slow convergence.\n\n\n\n\nB.16.5 Prompt Engineering\n\nis a technique used in large language models (LLMs) to guide the generation of text by providing specific instructions or examples to the model. Prompt engineering involves designing prompts that elicit the desired responses from the model, such as generating text in a particular style, answering questions, or completing tasks. By carefully crafting prompts, users can control the output of LLMs and improve their performance on specific tasks.\n\n\n\nB.16.6 Pre-trained Model\n\nis a machine learning model that has been trained on a large dataset to learn general patterns and features. Pre-trained models are used as a starting point for specific tasks, allowing developers to fine-tune the model on a smaller dataset for a particular application. Pre-trained models are commonly used in transfer learning to leverage knowledge learned from one task to improve performance on another task.\n\n\n\nB.16.7 Privacy-Preserving AI\n\nis an approach to artificial intelligence that focuses on protecting user data and maintaining privacy while developing and deploying AI systems. Privacy-preserving AI techniques include federated learning, differential privacy, secure multi-party computation, and homomorphic encryption. These methods help ensure that sensitive data is not exposed or misused during AI training or inference.\n\n\n\nB.16.8 Probabilistic Programming\n\nis a programming paradigm that allows developers to build probabilistic models using code. Probabilistic programming languages enable users to define complex probabilistic models, perform Bayesian inference, and make predictions based on uncertain data. These languages are used in machine learning, statistics, and artificial intelligence to model uncertainty and make decisions under uncertainty.\n\n\n\nB.16.9 Progressive Learning\n\nis a machine learning technique that involves training a model on a sequence of tasks or datasets in a continuous learning process. Progressive learning aims to improve the model’s performance over time by adapting to new data and tasks without forgetting previously learned information. This approach is used in lifelong learning, continual learning, and adaptive learning scenarios.\n\n\n\nB.16.10 PyTorch\n\nis an open-source machine learning library developed by Facebook’s AI Research lab. PyTorch provides a flexible and dynamic framework for building and training deep learning models. It supports automatic differentiation, GPU acceleration, and a wide range of neural network architectures. PyTorch is widely used in research and industry for natural language processing, computer vision, and other machine learning tasks.",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Glossary</span>"
@@ -726,7 +726,7 @@
     "href": "appendices/glossary.html#q",
     "title": "Appendix B — Glossary",
     "section": "B.17 Q",
-    "text": "B.17 Q\n\nB.17.1 Quantization\n\nis a model compression technique that reduces the numerical precision of a neural network’s weights, activations, or both—typically converting them from high-precision floating-point formats (e.g., FP32 or FP16) to lower-precision formats such as INT8, INT4, or even binary/ternary representations. It is one of the most practical and widely used methods for making large AI models smaller, faster, and more efficient without retraining from scratch.",
+    "text": "B.17 Q\n\nB.17.1 (QAT) Quantization-Aware Training\n\nis a model compression technique that simulates the effects of quantization during the training process. QAT allows the model to learn to adapt to lower-precision representations, such as INT8 or INT4, while maintaining accuracy. By incorporating quantization into the training phase, QAT helps mitigate the loss of performance that can occur when applying post-training quantization (PTQ) to a pre-trained model. This approach is particularly useful for deploying large AI models on resource-constrained devices, as it enables them to run efficiently with reduced memory and computational requirements. “Train while pretending the model is already quantized” (slower but preserves accuracy better). QAT is often used when PTQ alone causes too much accuracy degradation, especially for aggressive quantization (INT4, mixed precision, etc.).\n\n\n\nB.17.2 Quantization\n\nis a model compression technique that reduces the numerical precision of a neural network’s weights, activations, or both—typically converting them from high-precision floating-point formats (e.g., FP32 or FP16) to lower-precision formats such as INT8, INT4, or even binary/ternary representations. It is one of the most practical and widely used methods for making large AI models smaller, faster, and more efficient without retraining from scratch.\n\n\nDeep dive: 2026-10-29 IBM Technology: What Is Quantization? How AI Models Get Smaller & Faster",
     "crumbs": [
       "Appendices",
       "<span class='chapter-number'>B</span>  <span class='chapter-title'>Glossary</span>"

@@ -52,7 +52,7 @@ book:
   language: en
   chapters:
     - index.qmd
-    - hotplate/2026-10-October-hotplate.qmd
+    - digest/2026-10-October-digest.qmd
     - chapters/01-introduction.qmd
     - chapters/02-models.qmd
     - chapters/03-running-a-model.qmd
@@ -62,7 +62,7 @@ book:
     - chapters/07-resources.qmd
     - chapters/08-keeping-the-map-alive.qmd
   appendices:
-    - hotplate/hotplate_index.qmd
+    - digest/digest_index.qmd
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd

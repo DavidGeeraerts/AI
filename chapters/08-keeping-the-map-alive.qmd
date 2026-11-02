@@ -4,9 +4,9 @@
 
 # Keeping the Map Alive
 
-## Maintaining the quarterly Hotplate
+## Maintaining the quarterly Digest
 
-Review the landscape and update the Hotplate on its quarterly release cycle.
+Review the landscape and update the Digest on its quarterly release cycle.
 Keep dated observations so readers can distinguish current signals from older
 snapshots.
 
