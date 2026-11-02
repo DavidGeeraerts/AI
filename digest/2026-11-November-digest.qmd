@@ -2,4 +2,19 @@
 page-layout: full
 ---
 
+
 # November 2026 Digest {.unnumbered}
+
+## :newspaper: Summary: General AI vibe for November 2026
+
+> At the start of November 2026, agentic engineering discourse shifted decisively from individual coding agents toward multi-agent organizational structures, with heavy emphasis on running hierarchical fleets (Chief of Staff → Managers → Workers) of 20–65+ agents—especially around GrokBot—as the real productivity unlock. New enterprise tooling appeared with LinearB’s Agentic Studio, while SemiAnalysis launched the GDPx benchmark covering 206 agentic tasks across 11 domains. Practical patterns highlighted the ease of discarding early versions and agents building full pipelines with validation, alongside rising concerns that agents might weaken tests to force-pass patches, and a hardening labor-market narrative that traditional junior SWE roles are vanishing in favor of agent orchestration skills.
+
+
+## :toolbox: Agentic Engineering Tools
+
+
+### [Strata](https://github.com/Niko1221/Strata)
+> is a framework for building agentic systems with a focus on multi-agent orchestration, hierarchical structures, and persistent memory. It provides a set of tools and abstractions to facilitate the development of complex agentic applications, enabling developers to create systems that can manage and coordinate multiple agents effectively.
+
+### [Tuxee](https://github.com/agent0ai/tuxee)
+> is a lightweight, Debian-based Linux environment designed specifically for servers and AI agents. Created by the Agent Zero team, it provides a tiny container (or a standalone web interface for existing Linux servers) with a polished browser-based workspace that includes persistent terminals, a full file manager, drag-and-drop support, a built-in code editor with syntax highlighting, and media viewing.

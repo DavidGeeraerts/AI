@@ -9,6 +9,14 @@ page-layout: full
 :compass: Building and refining open-source agent harnesses for long-running autonomous work—OpenHands and OpenCode for coding, goose for general MCP-native use—alongside heavy adoption of MCP tools, persistent memory, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can run yourself, keep fully under your control, and host on your own hardware or a cheap [Virtual Private Server](https://cloud.google.com/learn/what-is-a-virtual-private-server).
 
 
+## Benchmarks
+
+| Benchmark | Status in 2026 | Strengths | Weaknesses | Still useful? |
+|-----------|----------------|-----------|------------|---------------|
+| [**Artificial Analysis Intelligence Index v5**](https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index) | Active frontier composite (launched Oct 2026) | Independent composite of 9 hard evaluations (Knowledge Work / Coding / Science / General at 25% each); 60% private or held-out data to resist contamination; strong agentic emphasis (FrontierCode 2.0, Terminal-Bench-Science, AA-Briefcase); no single model dominates all components | Version scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly | **Yes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding** |
+
+
+
 ## Agent Skills → Agentic AI Foundation (AAIF)
 > Anthropic donated the SKILL.md standard (folder + SKILL.md + scripts) to the Linux Foundation’s AAIF on ~22 Oct (alongside MCP, goose, AGENTS.md). ~1M skills published / hundreds of millions installed; now under neutral governance with maintainers from multiple orgs.
 
