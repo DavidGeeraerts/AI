@@ -1,7 +1,9 @@
 project:
   type: book
   output-dir: docs
-  pre-render: quarto run scripts/generate-glossary.ts
+  pre-render:
+    - quarto run scripts/generate-glossary.ts
+    - quarto run scripts/latest-digest.ts
   preview:
     browser: true
     watch-inputs: false
