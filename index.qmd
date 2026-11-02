@@ -5,4 +5,5 @@ page-layout: full
 # Main Page {.unnumbered}
 
 ## :fire: Digest (Monthly Release)
-[Read the latest Digest](/digest/2026-11-November-digest.html) for a snapshot of the current landscape.
+- [Read the latest Digest](/digest/2026-11-November-digest.html).
+- [Digest Catalog](/digest/digest_index.qmd#digest-catalog).

@@ -54,7 +54,7 @@ book:
   language: en
   chapters:
     - index.qmd
-    - digest/2026-10-October-digest.qmd
+    - digest/2026-11-November-digest.qmd
     - chapters/01-introduction.qmd
     - chapters/02-models.qmd
     - chapters/03-running-a-model.qmd

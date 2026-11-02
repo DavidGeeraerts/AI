@@ -1,5 +1,0 @@
----
-page-layout: full
----
-
-# November 2026 Digest {.unnumbered}
