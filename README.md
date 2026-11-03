@@ -20,7 +20,7 @@
 
 | Chapters                          | Title                    | Status   | Active          |
 |-----------------------------------|--------------------------|----------|-----------------|
-| Index                             | Main page                | notes    | :green_circle:  |
+| Index                             | Main page                | draft    | :green_circle:  |
 | Chapter 1                         | Introduction             | notes    | :yellow_circle: |
 | Chapter 2                         | Models                   | draft    | :red_circle:    |
 | Chapter 3                         | Running local models     | draft    | :red_circle:    |
