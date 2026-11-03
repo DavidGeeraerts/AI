@@ -2,8 +2,6 @@
 
 ---
 
-
-
 # Agents and Harnesses
 
 - **An agent** is the autonomous actor — the thing that reasons, plans, uses tools, remembers, and pursues goals over multiple steps.
@@ -84,3 +82,19 @@ style, and fit for the task.
 
 
 Practical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.
+
+
+
+## Enterprise-level agentic engineering
+
+### [Kortix CompanyOS](https://kortix.com/)
+> is an open-source, cloud-native agent harness designed to run a company’s work as code.
+> Kortix sits above personal coding or messaging agents. It is the operating system layer for teams that want agents doing real, ongoing company work (sales, support, engineering triage, marketing loops, ops, etc.) while keeping configuration, memory, and outcomes reviewable, versioned, and human-gated.
+
+| Aspect | Kortix CompanyOS | Personal harnesses |
+|---|---|---|
+| Core idea | Company as code; agents + skills + memory in one git repo | Personal agent that lives with you (messaging, coding, memory) |
+| Scale | Team / organization, swarms, event-driven | Individual or small-team |
+| Governance | Change requests, permissions-as-code, agent principals | Lighter or tool-level permissions |
+| State | Shared company memory + per-session computers | Per-user curated memory + skills |
+| Best fit | Internal tooling, ops, multi-agent company workflows | Daily personal leverage, coding, always-on assistant |

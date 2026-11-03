@@ -28,13 +28,13 @@ format:
     toc: true
     code-copy: true
     code-link: true
-  epub:
-    title-page: true
-    toc: true
-    toc-depth: 2
-    font-size: medium
-    from: markdown+emoji
-  pdf: default
+#  epub:      # disable for now
+#    title-page: true
+#    toc: true
+#    toc-depth: 2
+#    font-size: medium
+#    from: markdown+emoji
+  # pdf: default  # disable for now
 
 book:
   title: "The Book of AI"
@@ -68,6 +68,7 @@ book:
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
+    - appendices\Book-Review-AI_Agents_The_Definitive_Guide.qmd
   downloads: [pdf, epub]
   sharing: [twitter]
 

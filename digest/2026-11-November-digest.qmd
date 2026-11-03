@@ -13,6 +13,26 @@ page-layout: full
 ## :toolbox: Agentic Engineering Tools
 
 
+### [Orgo](https://orgo.dev/)
+ > is a cloud computing platform that provides secure, persistent virtual desktops specifically designed for AI agents to operate across browsers, command lines, and desktop applications purpose-built for AI agents (especially computer-use agents). It is not an agent itself—you bring the model/agent. Orgo supplies the machine the agent drives.
+
+- Early users and builders treat it as useful infrastructure for always-on agents that need a real desktop (not just a browser or code sandbox). People run Hermes, Claude Code, custom agents, etc., and keep them working after their laptop is closed.
+- Comparisons position it as one of the cleaner “persistent desktop for computer-use” options—simpler monthly pricing and true persistence vs pure usage-based sandboxes.
+
+
+
+### [Kortix CompanyOS](https://kortix.com/)
+> is an open-source, cloud-native agent harness designed to run a company’s work as code.
+> Kortix sits above personal coding or messaging agents. It is the operating system layer for teams that want agents doing real, ongoing company work (sales, support, engineering triage, marketing loops, ops, etc.) while keeping configuration, memory, and outcomes reviewable, versioned, and human-gated.
+
+| Aspect | Kortix CompanyOS | Personal harnesses |
+|---|---|---|
+| Core idea | Company as code; agents + skills + memory in one git repo | Personal agent that lives with you (messaging, coding, memory) |
+| Scale | Team / organization, swarms, event-driven | Individual or small-team |
+| Governance | Change requests, permissions-as-code, agent principals | Lighter or tool-level permissions |
+| State | Shared company memory + per-session computers | Per-user curated memory + skills |
+| Best fit | Internal tooling, ops, multi-agent company workflows | Daily personal leverage, coding, always-on assistant |
+
 ### [Strata](https://github.com/Niko1221/Strata)
 > is a framework for building agentic systems with a focus on multi-agent orchestration, hierarchical structures, and persistent memory. It provides a set of tools and abstractions to facilitate the development of complex agentic applications, enabling developers to create systems that can manage and coordinate multiple agents effectively.
 

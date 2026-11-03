@@ -397,6 +397,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Prompt Engineering Notes</span></span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../appendices/Book-Review-AI_Agents_The_Definitive_Guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title"></span></span></a><a href="https://www.oreilly.com/library/view/ai-agents-the/0642572247775/">AI Agents: The Definitive Guide</a> – September 2026
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -416,6 +422,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#modern-harnesses" id="toc-modern-harnesses" class="nav-link" data-scroll-target="#modern-harnesses"><span class="header-section-number">4.2</span> Modern harnesses</a></li>
   <li><a href="#supporting-infrastructure" id="toc-supporting-infrastructure" class="nav-link" data-scroll-target="#supporting-infrastructure"><span class="header-section-number">4.3</span> Supporting infrastructure</a></li>
   <li><a href="#agents.md" id="toc-agents.md" class="nav-link" data-scroll-target="#agents.md"><span class="header-section-number">4.4</span> agents.md</a></li>
+  <li><a href="#enterprise-level-agentic-engineering" id="toc-enterprise-level-agentic-engineering" class="nav-link" data-scroll-target="#enterprise-level-agentic-engineering"><span class="header-section-number">4.5</span> Enterprise-level agentic engineering</a>
+  <ul class="collapse">
+  <li><a href="#kortix-companyos" id="toc-kortix-companyos" class="nav-link" data-scroll-target="#kortix-companyos"><span class="header-section-number">4.5.1</span> Kortix CompanyOS</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/04-agents-and-harnesses.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -645,6 +655,56 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 <p>Practical takeaway that matches the evidence: Keep any AGENTS.md / CLAUDE.md extremely short. Prefer only non-discoverable facts (exact test/build commands that differ from the obvious, hard “never touch X”, unusual tooling). Long files that restate what is already in the code, README, or package.json are the ones most likely to waste tokens for little or no gain.</p>
+</section>
+</section>
+<section id="enterprise-level-agentic-engineering" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="enterprise-level-agentic-engineering"><span class="header-section-number">4.5</span> Enterprise-level agentic engineering</h2>
+<section id="kortix-companyos" class="level3" data-number="4.5.1">
+<h3 data-number="4.5.1" class="anchored" data-anchor-id="kortix-companyos"><span class="header-section-number">4.5.1</span> <a href="https://kortix.com/">Kortix CompanyOS</a></h3>
+<blockquote class="blockquote">
+<p>is an open-source, cloud-native agent harness designed to run a company’s work as code. Kortix sits above personal coding or messaging agents. It is the operating system layer for teams that want agents doing real, ongoing company work (sales, support, engineering triage, marketing loops, ops, etc.) while keeping configuration, memory, and outcomes reviewable, versioned, and human-gated.</p>
+</blockquote>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Aspect</th>
+<th>Kortix CompanyOS</th>
+<th>Personal harnesses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Core idea</td>
+<td>Company as code; agents + skills + memory in one git repo</td>
+<td>Personal agent that lives with you (messaging, coding, memory)</td>
+</tr>
+<tr class="even">
+<td>Scale</td>
+<td>Team / organization, swarms, event-driven</td>
+<td>Individual or small-team</td>
+</tr>
+<tr class="odd">
+<td>Governance</td>
+<td>Change requests, permissions-as-code, agent principals</td>
+<td>Lighter or tool-level permissions</td>
+</tr>
+<tr class="even">
+<td>State</td>
+<td>Shared company memory + per-session computers</td>
+<td>Per-user curated memory + skills</td>
+</tr>
+<tr class="odd">
+<td>Best fit</td>
+<td>Internal tooling, ops, multi-agent company workflows</td>
+<td>Daily personal leverage, coding, always-on assistant</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
