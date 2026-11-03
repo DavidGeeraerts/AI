@@ -38,9 +38,9 @@ This book is for people who want to **assemble and control** that stack rather t
 | [5. Building a Working Stack](chapters/05-building-a-working-stack.qmd) | Minimal viable personal agents, always-on patterns, coding stacks, containment |
 | [6. Miscellaneous Tools](chapters/06-miscellaneous-tools.qmd) | Supporting tools, visualization, abliteration, signal sources |
 | [7. Resources](chapters/07-resources.qmd) | Curated links, papers, and further reading |
-| [Appendix-Glossary](appendices/glossary.qmd) | Glossary, prompt engineering notes, and Digest catalog |
-| [Appendix-Prompt Engineering Notes](appendices/prompt-engineering-notes.qmd) | Practical prompt engineering notes and patterns |
-| [Appendix-Digest Catalog](digest/digest_index.qmd) | Catalog of all Digests, with links to each snapshot |
+| [Glossary](appendices/glossary.qmd) | High-signal practitioner definitions |
+| [Prompt Engineering Notes](appendices/prompt-engineering-notes.qmd) | Practical patterns and notes |
+| [Digest Catalog](digest/digest_index.qmd) | All dated snapshots |
 
 
 ## How to keep the map alive
@@ -48,7 +48,3 @@ This book is for people who want to **assemble and control** that stack rather t
 The landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.
 
 - Check the [Digest Index](digest/digest_index.qmd) for update workflow.
-
----
-
-*Work in progress.

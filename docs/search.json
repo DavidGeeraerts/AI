@@ -24,7 +24,7 @@
     "href": "index.html#map-of-the-book",
     "title": "The Book of AI",
     "section": "0.2 Map of the book",
-    "text": "0.2 Map of the book\n\n\n\nChapter\nFocus\n\n\n\n\n1. Introduction\nAgentic engineering, the stack layers, and how to use this as a living toolkit\n\n\n2. Models\nModel landscape, open-weight vs closed, benchmarks that still matter\n\n\n3. Running a Model\nLocal-first inference (Ollama, llama.cpp, LM Studio, Jan…) and hybrid patterns\n\n\n4. Agents and Harnesses\nRuntime layer: Hermes, OpenClaw, OpenHands, goose, Agent Zero, MCP, sandboxes\n\n\n5. Building a Working Stack\nMinimal viable personal agents, always-on patterns, coding stacks, containment\n\n\n6. Miscellaneous Tools\nSupporting tools, visualization, abliteration, signal sources\n\n\n7. Resources\nCurated links, papers, and further reading\n\n\nAppendix-Glossary\nGlossary, prompt engineering notes, and Digest catalog\n\n\nAppendix-Prompt Engineering Notes\nPractical prompt engineering notes and patterns\n\n\nAppendix-Digest Catalog\nCatalog of all Digests, with links to each snapshot",
+    "text": "0.2 Map of the book\n\n\n\nChapter\nFocus\n\n\n\n\n1. Introduction\nAgentic engineering, the stack layers, and how to use this as a living toolkit\n\n\n2. Models\nModel landscape, open-weight vs closed, benchmarks that still matter\n\n\n3. Running a Model\nLocal-first inference (Ollama, llama.cpp, LM Studio, Jan…) and hybrid patterns\n\n\n4. Agents and Harnesses\nRuntime layer: Hermes, OpenClaw, OpenHands, goose, Agent Zero, MCP, sandboxes\n\n\n5. Building a Working Stack\nMinimal viable personal agents, always-on patterns, coding stacks, containment\n\n\n6. Miscellaneous Tools\nSupporting tools, visualization, abliteration, signal sources\n\n\n7. Resources\nCurated links, papers, and further reading\n\n\nGlossary\nHigh-signal practitioner definitions\n\n\nPrompt Engineering Notes\nPractical patterns and notes\n\n\nDigest Catalog\nAll dated snapshots",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Book of AI</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "index.html#how-to-keep-the-map-alive",
     "title": "The Book of AI",
     "section": "0.3 How to keep the map alive",
-    "text": "0.3 How to keep the map alive\nThe landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.\n\nCheck the Digest Index for update workflow.\n\n\n*Work in progress.",
+    "text": "0.3 How to keep the map alive\nThe landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.\n\nCheck the Digest Index for update workflow.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Book of AI</span>"
     ]

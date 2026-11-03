@@ -10,7 +10,7 @@
 
 <!-- DIGEST:START -->
 
-:fire: Read the latest digest: [2026-10-October-Digest](https://davidgeeraerts.github.io/AI/digest/2026-10-October-digest.html)
+:fire: Read the latest digest: [/digest/digest_index.qmd](digest/digest_index.qmd) — current snapshot of the landscape.
 
 <!-- DIGEST:END -->
 
@@ -18,20 +18,19 @@
 
 ## Book Progress
 
-| Chapters                 | Title                    | Status   | Active          |
-|--------------------------|--------------------------|----------|-----------------|
-| Index                    | Main page                | notes    | :green_circle:  |
-| Chapter 1                | Introduction             | notes    | :yellow_circle: |
-| Chapter 2                | Models                   | draft    | :red_circle:    |
-| Chapter 3                | Running local models     | draft    | :red_circle:    |
-| Chapter 4                | Agents and Harnesses     | draft    | :red_circle:    |
-| Chapter 5                | Building a working stack | notes    | :red_circle:    |
-| Chapter 6                | Miscellaneous Tools      | notes    | :red_circle:    |
-| Chapter 7                | Resources                | active   | :red_circle:    |
-| Chapter 8                | Keeping the map alive    | notes    | :red_circle:    |
-| Digest                   | Digest                   | final    | :green_circle:  |
-| Glossary                 | Glossary                 | revising | :green_circle:  |
-| Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
+| Chapters                          | Title                    | Status   | Active          |
+|-----------------------------------|--------------------------|----------|-----------------|
+| Index                             | Main page                | notes    | :green_circle:  |
+| Chapter 1                         | Introduction             | notes    | :yellow_circle: |
+| Chapter 2                         | Models                   | draft    | :red_circle:    |
+| Chapter 3                         | Running local models     | draft    | :red_circle:    |
+| Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
+| Chapter 5                         | Building a working stack | notes    | :red_circle:    |
+| Chapter 6                         | Miscellaneous Tools      | notes    | :red_circle:    |
+| Chapter 7                         | Resources                | active   | :red_circle:    |
+| Appendix-Glossary                 | Glossary                 | revising | :green_circle:  |
+| Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
+| Appendix-Digest Catalog           | Digest Catalog           | final    | :green_circle:  |
 
 
 ### Status key
