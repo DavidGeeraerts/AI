@@ -67,7 +67,7 @@ book:
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
-    - appendices\Book-Review-AI_Agents_The_Definitive_Guide.qmd
+    - appendices/Book-Review-AI_Agents_The_Definitive_Guide.qmd
   downloads: [pdf, epub]
   sharing: [twitter]
 

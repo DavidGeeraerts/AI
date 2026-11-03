@@ -7,7 +7,7 @@ date: 2026-09
 ---
 
 
-# [AI Agents: The Definitive Guide](https://www.oreilly.com/library/view/ai-agents-the/0642572247775/) -- September 2026
+# [AI Agents: The Definitive Guide](https://www.oreilly.com/library/view/ai-agents-the/0642572247775/) -- September 2026 {.unnumbered}
 
 Part 1: Summary of AI Agents: The Definitive Guide (September 2026)
 Author: Nicole Koenigstein

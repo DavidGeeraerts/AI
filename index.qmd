@@ -1,42 +1,54 @@
 ---
 page-layout: full
+title: "The Book of AI"
 ---
 
-# Main Page {.unnumbered}
+# The Book of AI {.unnumbered}
 
-## :fire: Digest (Monthly Release)
-- [Read the latest Digest](/digest/2026-11-November-digest.html).
-- [Digest Catalog](/digest/digest_index.qmd#digest-catalog).
+**Mapping the practical Artificial Intelligence landscape**  
+*A practical guide to agentic engineering and building a toolkit you control.*
 
-
-
-# Keeping the Map Alive
-
-## Maintaining the quarterly Digest
-
-Review the landscape and update the Digest on its quarterly release cycle.
-Keep dated observations so readers can distinguish current signals from older
-snapshots.
-
-## Contributing and continuing
-
-Contribute useful observations and corrections, and follow the source material
-linked throughout the repository. Choose next steps that fit your role:
-
-- **Solo developers and indie builders:** assemble a small stack you can run
-  and control.
-- **Team leads:** introduce agentic workflows with clear boundaries and
-  operational visibility.
-- **Researchers and evaluators:** compare systems with appropriate benchmarks
-  and current evidence.
-
-The most valuable skill is learning to assemble and control a stack that
-serves your needs.
+This is a living map of the tools, models, harnesses, and practices that matter for building reliable agentic systems. It favors things you can run yourself, keep under your control, and host on your own hardware or a cheap [{{< glossary "(VPS) Virtual Private Server" display="VPS" popup="hover" >}}](https://davidgeeraerts.github.io/AI/appendices/glossary.html#vps-virtual-private-server).
 
 
-## Aggregation Projects
-- [ai-collection](https://github.com/ai-collection/ai-collection)
-- [ai-knowledge-library](https://ai-knowledge-library.vercel.app/)
-- [Awesome Agents](https://github.com/kyrolabs/awesome-agents)
-- [awesome-agent-harness](https://github.com/mahonzhan/awesome-agent-harness)
-- [Awesome Open Source AI](https://awesomeosai.com/)
+::: {.callout-important}
+## :fire: Latest Digest
+- [Read the latest Digest](/digest/2026-11-November-digest.html) — current snapshot of the landscape.
+- [Browse the full Digest catalog](digest/digest_index.qmd)
+:::
+
+## What this book is for
+
+Most writing about AI agents still treats the model as the system. In practice the model is only one layer. What determines whether an agent is useful or fragile is the surrounding stack: the harness that drives the loop, the tools and sandboxes it can reach, the memory it retains, and the governance that keeps it from doing damage.
+
+This book is for people who want to **assemble and control** that stack rather than just call an API.
+
+- Solo developers and indie builders who want a personal agent they can actually trust
+- Teams introducing agentic workflows with clear boundaries and observability
+- Practitioners who prefer local-first and self-hosted options when they are viable
+
+## Map of the book
+
+| Chapter | Focus |
+|---------|-------|
+| [1. Introduction](chapters/01-introduction.qmd) | Agentic engineering, the stack layers, and how to use this as a living toolkit |
+| [2. Models](chapters/02-models.qmd) | Model landscape, open-weight vs closed, benchmarks that still matter |
+| [3. Running a Model](chapters/03-running-a-model.qmd) | Local-first inference (Ollama, llama.cpp, LM Studio, Jan…) and hybrid patterns |
+| [4. Agents and Harnesses](chapters/04-agents-and-harnesses.qmd) | Runtime layer: Hermes, OpenClaw, OpenHands, goose, Agent Zero, MCP, sandboxes |
+| [5. Building a Working Stack](chapters/05-building-a-working-stack.qmd) | Minimal viable personal agents, always-on patterns, coding stacks, containment |
+| [6. Miscellaneous Tools](chapters/06-miscellaneous-tools.qmd) | Supporting tools, visualization, abliteration, signal sources |
+| [7. Resources](chapters/07-resources.qmd) | Curated links, papers, and further reading |
+| [Appendix-Glossary](appendices/glossary.qmd) | Glossary, prompt engineering notes, and Digest catalog |
+| [Appendix-Prompt Engineering Notes](appendices/prompt-engineering-notes.qmd) | Practical prompt engineering notes and patterns |
+| [Appendix-Digest Catalog](digest/digest_index.qmd) | Catalog of all Digests, with links to each snapshot |
+
+
+## How to keep the map alive
+
+The landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.
+
+- Check the [Digest Index](digest/digest_index.qmd) for update workflow.
+
+---
+
+*Work in progress.
