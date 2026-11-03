@@ -38,6 +38,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## YouTube Videos & Channels
 (Sorted by Publication Date ↓)
 
+- 2026-11-03  [Kai: Deepseek Just Drops a Claude Code Rival (Super Agent)](https://www.youtube.com/watch?v=hwRu-ehkzCw)
 - 2026-11-02  [Kai: What AI You Can Run at Every VRAM Size, From 16GB to 1TB](https://www.youtube.com/watch?v=kTmUbRVsamo)
 - 2026-11-02  [Bruno Vega and Kai: NVIDIA Just Built an Ollama Killer](https://www.youtube.com/watch?v=QrQruGQscrA)
 - 2026-10-30  [Kai: Bytes Is This The End of Token?](https://www.youtube.com/watch?v=PfR4S3Zzdoo)

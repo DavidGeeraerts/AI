@@ -12,6 +12,8 @@ page-layout: full
 
 ## :toolbox: Agentic Engineering Tools
 
+### [dsh-superagent](https://github.com/deepseek-ai/dsh-superagent-prototype)
+> is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person.
 
 ### [Orgo](https://orgo.dev/)
  > is a cloud computing platform that provides secure, persistent virtual desktops specifically designed for AI agents to operate across browsers, command lines, and desktop applications purpose-built for AI agents (especially computer-use agents). It is not an agent itself—you bring the model/agent. Orgo supplies the machine the agent drives.

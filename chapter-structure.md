@@ -123,16 +123,4 @@
   - Abliteration, Agentic AI, Alignment, Attention, Benchmarks, BPE, MCP, RLHF, RLVR, RLCD, GRPO, System One models, etc.  
 - Cross-references back to the chapters where the concepts are used in practice  
 
-## 8. Keeping the Map Alive (Appendix / Closing)
-**Goal**: Make the book a living resource rather than a snapshot that ages quickly.
 
-- How the Digest is maintained and released quarterly
-- Suggested process for keeping your own local copy current  
-- How to contribute observations or corrections  
-- Recommended next steps by persona  
-  - Solo developer / indie hacker  
-  - Team lead introducing agentic workflows  
-  - Researcher or evaluator  
-- Final encouragement: the highest-leverage skill is the ability to assemble and control your own stack  
-
----
