@@ -47,32 +47,32 @@
 
 ### Comparing Local Model Runners
 
-| Aspect                  | **llama.cpp**                                      | **Ollama**                                              | **LM Studio**                                              | **Jan**                                                    | **Open WebUI**                                            | **KoboldCpp**                                              | **vLLM**                                                   | **SGLang**                                                 |
-|-------------------------|----------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|------------------------------------------------------------|
-| **Primary focus**      | Core low-level inference engine (GGUF, max control) | Easy CLI + local OpenAI-compatible API (developer-friendly) | Polished desktop GUI for chat, discovery & experimentation | Fully open-source desktop app (privacy-first, local + cloud) | Self-hosted web UI (pairs excellently with Ollama/vLLM)   | Easy single-binary runner with built-in creative UI       | High-throughput multi-user / production serving            | High-performance large-scale serving (esp. agents & multimodal) |
-| **License**            | MIT                                                | MIT                                                     | Proprietary (free for personal + internal business)       | Apache 2.0                                                 | Custom (permissive with branding requirements for large deployments) | AGPL-3.0 (llama.cpp core is MIT)                          | Apache 2.0                                                 | Apache 2.0                                                 |
-| **Interface**          | CLI + optional simple web UI / server              | CLI-first + basic desktop app + API                     | Excellent GUI + CLI (`lms`) + headless daemon             | Desktop app (macOS/Windows/Linux) + local API server      | Full web UI (browser)                                     | Single executable + built-in KoboldAI Lite web UI         | CLI / Python server                                        | CLI / Python server                                        |
-| **Model discovery**    | Manual GGUF download (Hugging Face, etc.)          | Curated library + simple `ollama pull`                  | Built-in Hugging Face browser with size/VRAM estimates    | Jan Hub + Hugging Face integration                         | Via connected backend (Ollama/vLLM/etc.)                  | Manual GGUF load                                           | Hugging Face / local models                                | Hugging Face / local models                                |
-| **API**                | OpenAI-compatible (`llama-server`)                 | OpenAI-compatible + native (port 11434)                 | OpenAI- + Anthropic-compatible (port 1234)                | OpenAI-compatible (port 1337)                              | Connects to any OpenAI-compatible backend                 | OpenAI-compatible + KoboldAI + others (port 5001)         | OpenAI-compatible (+ Anthropic Messages)                   | OpenAI-compatible (+ Anthropic/Ollama-style)               |
-| **Best hardware edge** | Broadest support (CPU, Metal, CUDA, ROCm, Vulkan, etc.) | Lower overhead; strong on NVIDIA & Apple Silicon        | Strong MLX performance on Apple Silicon                    | llama.cpp + MLX; good cross-platform                       | Depends on backend                                        | llama.cpp backends (CUDA/Vulkan/ROCm/CPU)                 | NVIDIA/AMD focused; excellent multi-GPU throughput         | NVIDIA/AMD + strong prefix caching for agents              |
-| **Headless/server**    | Yes (native `llama-server`)                        | Native from the start (systemd/Docker-friendly)         | Yes (`llmster` since early 2026)                           | Yes (local API server)                                     | Yes (Docker-first)                                        | Yes (single binary server)                                 | Native high-performance server                             | Native high-performance server                             |
-| **Extras / Strengths** | Maximum control, quantizations (GGUF), minimal deps, hybrid CPU+GPU | Excellent ecosystem, Modelfiles, Docker, optional cloud | Document chat (RAG), MCP client, continuous batching, remote sharing | MCP support, agents, cloud model integration, privacy focus | Built-in RAG, multi-user auth, pipelines/plugins, image/voice | Story/roleplay tools, image gen, TTS/STT, world info       | Continuous batching, PagedAttention, multi-LoRA, production scale | RadixAttention (prefix reuse), speculative decoding, multimodal, agent-optimized |
+| Aspect                 | **llama.cpp**                                                       | **Ollama**                                                  | **LM Studio**                                                        | **Jan**                                                      | **Open WebUI**                                                       | **KoboldCpp**                                        | **vLLM**                                                          | **SGLang**                                                                       |
+|------------------------|---------------------------------------------------------------------|-------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| **Primary focus**      | Core low-level inference engine (GGUF, max control)                 | Easy CLI + local OpenAI-compatible API (developer-friendly) | Polished desktop GUI for chat, discovery & experimentation           | Fully open-source desktop app (privacy-first, local + cloud) | Self-hosted web UI (pairs excellently with Ollama/vLLM)              | Easy single-binary runner with built-in creative UI  | High-throughput multi-user / production serving                   | High-performance large-scale serving (esp. agents & multimodal)                  |
+| **License**            | MIT                                                                 | MIT                                                         | Proprietary (free for personal + internal business)                  | Apache 2.0                                                   | Custom (permissive with branding requirements for large deployments) | AGPL-3.0 (llama.cpp core is MIT)                     | Apache 2.0                                                        | Apache 2.0                                                                       |
+| **Interface**          | CLI + optional simple web UI / server                               | CLI-first + basic desktop app + API                         | Excellent GUI + CLI (`lms`) + headless daemon                        | Desktop app (macOS/Windows/Linux) + local API server         | Full web UI (browser)                                                | Single executable + built-in KoboldAI Lite web UI    | CLI / Python server                                               | CLI / Python server                                                              |
+| **Model discovery**    | Manual GGUF download (Hugging Face, etc.)                           | Curated library + simple `ollama pull`                      | Built-in Hugging Face browser with size/VRAM estimates               | Jan Hub + Hugging Face integration                           | Via connected backend (Ollama/vLLM/etc.)                             | Manual GGUF load                                     | Hugging Face / local models                                       | Hugging Face / local models                                                      |
+| **API**                | OpenAI-compatible (`llama-server`)                                  | OpenAI-compatible + native (port 11434)                     | OpenAI- + Anthropic-compatible (port 1234)                           | OpenAI-compatible (port 1337)                                | Connects to any OpenAI-compatible backend                            | OpenAI-compatible + KoboldAI + others (port 5001)    | OpenAI-compatible (+ Anthropic Messages)                          | OpenAI-compatible (+ Anthropic/Ollama-style)                                     |
+| **Best hardware edge** | Broadest support (CPU, Metal, CUDA, ROCm, Vulkan, etc.)             | Lower overhead; strong on NVIDIA & Apple Silicon            | Strong MLX performance on Apple Silicon                              | llama.cpp + MLX; good cross-platform                         | Depends on backend                                                   | llama.cpp backends (CUDA/Vulkan/ROCm/CPU)            | NVIDIA/AMD focused; excellent multi-GPU throughput                | NVIDIA/AMD + strong prefix caching for agents                                    |
+| **Headless/server**    | Yes (native `llama-server`)                                         | Native from the start (systemd/Docker-friendly)             | Yes (`llmster` since early 2026)                                     | Yes (local API server)                                       | Yes (Docker-first)                                                   | Yes (single binary server)                           | Native high-performance server                                    | Native high-performance server                                                   |
+| **Extras / Strengths** | Maximum control, quantizations (GGUF), minimal deps, hybrid CPU+GPU | Excellent ecosystem, Modelfiles, Docker, optional cloud     | Document chat (RAG), MCP client, continuous batching, remote sharing | MCP support, agents, cloud model integration, privacy focus  | Built-in RAG, multi-user auth, pipelines/plugins, image/voice        | Story/roleplay tools, image gen, TTS/STT, world info | Continuous batching, PagedAttention, multi-LoRA, production scale | RadixAttention (prefix reuse), speculative decoding, multimodal, agent-optimized |
 
 
 
 
 #### Developer-focused comparison: LM Studio vs Ollama
 
-| Aspect              | **LM Studio**                                      | **Ollama**                                          |
-|---------------------|----------------------------------------------------|-----------------------------------------------------|
-| **Primary focus**   | Polished desktop GUI for discovery, chat & experimentation | CLI + background service for scripting, APIs & integrations |
-| **License**         | Proprietary (free for personal + internal business use) | Fully open-source (MIT)                             |
-| **Interface**       | Excellent GUI + CLI (`lms`) + headless daemon (`llmster`) | CLI-first + local API; has added a basic desktop app |
-| **Model discovery** | Built-in Hugging Face browser with size/VRAM estimates | Curated library + simple `ollama pull model:tag`    |
-| **API**             | OpenAI- + Anthropic-compatible (port 1234)         | OpenAI-compatible + native endpoints (port 11434)   |
-| **Best hardware edge** | Stronger MLX performance on Apple Silicon         | Lower overhead, often slightly faster on NVIDIA    |
-| **Headless/server** | Yes (llmster since early 2026)                     | Native from the start (systemd/Docker-friendly)     |
-| **Extras**          | Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching | Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models |
+| Aspect                 | **LM Studio**                                                                                  | **Ollama**                                                                                 |
+|------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Primary focus**      | Polished desktop GUI for discovery, chat & experimentation                                     | CLI + background service for scripting, APIs & integrations                                |
+| **License**            | Proprietary (free for personal + internal business use)                                        | Fully open-source (MIT)                                                                    |
+| **Interface**          | Excellent GUI + CLI (`lms`) + headless daemon (`llmster`)                                      | CLI-first + local API; has added a basic desktop app                                       |
+| **Model discovery**    | Built-in Hugging Face browser with size/VRAM estimates                                         | Curated library + simple `ollama pull model:tag`                                           |
+| **API**                | OpenAI- + Anthropic-compatible (port 1234)                                                     | OpenAI-compatible + native endpoints (port 11434)                                          |
+| **Best hardware edge** | Stronger MLX performance on Apple Silicon                                                      | Lower overhead, often slightly faster on NVIDIA                                            |
+| **Headless/server**    | Yes (llmster since early 2026)                                                                 | Native from the start (systemd/Docker-friendly)                                            |
+| **Extras**             | Built-in document chat (RAG), MCP client, LM Link (remote device sharing), continuous batching | Excellent ecosystem integrations, Modelfiles, official Docker image, optional cloud models |
 
 
 #### When Ollama is usually better: You want a fully open-source, auditable tool.
@@ -89,17 +89,17 @@ Both tools let you run large language models locally, but they take different ap
 
 #### Quick summary
 
-| Aspect                    | **Ollama**                                      | **RamaLama**                                      |
-|---------------------------|--------------------------------------------------|---------------------------------------------------|
-| **Core idea**             | Simple local model runner + library             | Container-native way to run models                |
-| **Default execution**     | Runs models directly on the host                | Runs models **inside containers** (Podman/Docker) by default |
-| **Who makes it**          | Ollama Inc.                                     | containers org (Podman / Red Hat ecosystem)       |
-| **Model sources**         | Primarily its own library (+ limited HF)        | Hugging Face, Ollama registry, ModelScope, any OCI registry, URLs, local files |
-| **Runtimes**              | Built around llama.cpp                          | llama.cpp (default) **and** vLLM                  |
-| **Hardware handling**     | You (or the installer) handle GPU libraries     | Auto-detects GPU and pulls a matching optimized container image |
-| **Security / isolation**  | Host process                                    | Rootless containers, read-only mounts, network isolation by default |
-| **Commands feel like**    | `ollama run`, `ollama pull`, etc.               | Familiar container-style: `ramalama run`, `pull`, `serve`, `push` |
-| **Best for**              | Easiest “just chat with a local model” experience | People who already use containers and want the same workflow + stronger isolation |
+| Aspect                   | **Ollama**                                        | **RamaLama**                                                                      |
+|--------------------------|---------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Core idea**            | Simple local model runner + library               | Container-native way to run models                                                |
+| **Default execution**    | Runs models directly on the host                  | Runs models **inside containers** (Podman/Docker) by default                      |
+| **Who makes it**         | Ollama Inc.                                       | containers org (Podman / Red Hat ecosystem)                                       |
+| **Model sources**        | Primarily its own library (+ limited HF)          | Hugging Face, Ollama registry, ModelScope, any OCI registry, URLs, local files    |
+| **Runtimes**             | Built around llama.cpp                            | llama.cpp (default) **and** vLLM                                                  |
+| **Hardware handling**    | You (or the installer) handle GPU libraries       | Auto-detects GPU and pulls a matching optimized container image                   |
+| **Security / isolation** | Host process                                      | Rootless containers, read-only mounts, network isolation by default               |
+| **Commands feel like**   | `ollama run`, `ollama pull`, etc.                 | Familiar container-style: `ramalama run`, `pull`, `serve`, `push`                 |
+| **Best for**             | Easiest “just chat with a local model” experience | People who already use containers and want the same workflow + stronger isolation |
 
 #### Main philosophical difference
 
@@ -237,12 +237,12 @@ Running models locally protects your prompts from third-party providers, but it 
 
 ### The practical risk ladder
 
-| Reach level | What the model can touch | Risk profile |
-|-------------|---------------------------|--------------|
-| **Chat only** | Conversation text | Low — limited to generating text |
-| **Files / project context** | Local documents, code, `.env` files | Medium — can exfiltrate or rewrite secrets if it has write access |
-| **Tools / shell / network** | Terminal commands, HTTP requests, file system, APIs | High — can execute code, send data out, or fetch remote payloads |
-| **Agent + persistent access** | Multiple tools + memory + long-running privileges | Critical — full blast radius of the host |
+| Reach level                   | What the model can touch                            | Risk profile                                                      |
+|-------------------------------|-----------------------------------------------------|-------------------------------------------------------------------|
+| **Chat only**                 | Conversation text                                   | Low — limited to generating text                                  |
+| **Files / project context**   | Local documents, code, `.env` files                 | Medium — can exfiltrate or rewrite secrets if it has write access |
+| **Tools / shell / network**   | Terminal commands, HTTP requests, file system, APIs | High — can execute code, send data out, or fetch remote payloads  |
+| **Agent + persistent access** | Multiple tools + memory + long-running privileges   | Critical — full blast radius of the host                          |
 
 A backdoored or triggerable model (or a poisoned chat template) is only as dangerous as the permissions and tools you give it. In the ProjectDiscovery demonstration highlighted in the video, a fine-tuned model behaved normally on clean tests until a short trigger phrase caused it to instruct an agent to send the project’s `.env` file to an external server. The model itself did not contain the final payload; it simply knew to fetch and run one.
 
@@ -265,7 +265,7 @@ A backdoored or triggerable model (or a poisoned chat template) is only as dange
 
 
 
-## NVIDIA [OpenShell][(https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.
+## NVIDIA [OpenShell](https://www.nvidia.com/en-us/ai/openshell/) is an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.
 
 ### Core Idea
 Security is enforced in the environment rather than inside the model or agent code. Nothing is allowed by default. Permissions are granted through explicit policies, and enforcement occurs outside the agent’s process so it cannot be bypassed or “prompted away.” All allow/deny decisions are fully auditable. It works with any model, agent harness, or framework across cloud, hybrid, on-premises, edge, and air-gapped environments under a single policy layer.
