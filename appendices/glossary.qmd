@@ -1638,6 +1638,10 @@ Transformers have revolutionized AI by enabling efficient and scalable processin
 ### Unsupervised Learning
 > is a machine learning paradigm where a model learns to find patterns and structure in data without explicit supervision. Unsupervised learning algorithms aim to discover hidden relationships or clusters in the data without labeled examples. This approach is used in tasks such as clustering, dimensionality reduction, and anomaly detection.
 
+### (UTCP) Universal Tool Calling Protocol
+> A lightweight, secure, open standard (v1.1) that lets AI agents and applications discover and invoke tools/APIs directly via their native protocols (HTTP, CLI, gRPC, MCP, Server-Sent Events, etc.)—without requiring wrapper servers, proxy layers, or reimplemented authentication.
+
+
 ---
 
 ## V
