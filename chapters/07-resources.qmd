@@ -8,6 +8,7 @@
 ## X Agentic-Engineering Lists
 
 - [Agentic Engineering](https://x.com/i/lists/2113733734537335167)
+- [Agentic Brew](https://www.agenticbrew.ai)
 
 ## Agentic Engineering Digest
  - [Best of Agent Harness](https://ryanalberts.github.io/best-of-Agent-Harnesses/)

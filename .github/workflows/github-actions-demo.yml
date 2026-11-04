@@ -1,0 +1,51 @@
+name: Repo Report
+
+run-name: Repo report by ${{ github.actor }}
+
+on:
+  push:
+    branches: [main, master]   # only on main branches (optional)
+  workflow_dispatch:           # allows manual run from the Actions tab
+
+jobs:
+  report:
+    name: Generate Repository Report
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4   # or @v6 / @v7
+
+      - name: Generate report
+        run: |
+          echo "# 📊 Repository Report" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Repository:** \`${{ github.repository }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Branch:** \`${{ github.ref_name }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Triggered by:** \`${{ github.event_name }}\` (actor: \`${{ github.actor }}\`)" >> $GITHUB_STEP_SUMMARY
+          echo "**Runner:** \`${{ runner.os }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          echo "## 📁 File Structure" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          # Nice tree-like listing (falls back to ls if tree is not available)
+          if command -v tree &> /dev/null; then
+            tree -a -I '.git' --dirsfirst
+          else
+            find . -not -path '*/.git*' | sort | sed 's|[^/]*/| |g'
+          fi >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          echo "## 📈 Quick Stats" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total files:** $(find . -type f -not -path '*/.git/*' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Total directories:** $(find . -type d -not -path '*/.git/*' | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Largest files:**" >> $GITHUB_STEP_SUMMARY
+          find . -type f -not -path '*/.git/*' -printf '%s %p\n' | sort -nr | head -5 | while read size file; do
+            echo "  - \`$file\` ($(numfmt --to=iec $size))" >> $GITHUB_STEP_SUMMARY
+          done
+
+      - name: List files in the logs (for debugging)
+        run: |
+          echo "=== Full listing ==="
+          ls -la ${{ github.workspace }}
