@@ -102,25 +102,14 @@
   - Updating skills and memory without breaking the system  
 
 ## 6. Miscellaneous Tools & Supporting Infrastructure
-**Goal**: Cover the useful secondary tools that make daily work smoother.
 
-- Understanding and visualization  
-  - Tiktokenizer, LLM Visualization, Excalidraw  
-- Model selection and comparison  
-  - BenchLM, Best Ollama models lists  
-- Abliteration and model modification  
-  - Heretic and related tooling  
-- Open-source principles for AI  
-  - OpenWALDO (Weights, Artifacts, Licenses, Data, Origin)  
-- Signal sources worth following  
-  - Independent blogs and technical writing prioritized by the repo (Interconnects, Latent Space, Simon Willison, SemiAnalysis, etc.)  
-  - Key papers and historical milestones listed in the repo  
 
-## 7. Glossary & Reference
-**Goal**: Provide a quick, practitioner-focused reference.
+## 7. Resources
 
-- Condensed, high-signal entries drawn from the repo’s Glossory.md  
-  - Abliteration, Agentic AI, Alignment, Attention, Benchmarks, BPE, MCP, RLHF, RLVR, RLCD, GRPO, System One models, etc.  
-- Cross-references back to the chapters where the concepts are used in practice  
+
+
+## Appendices 
+### Glossary
+
 
 

@@ -6,11 +6,11 @@
 
 :notebook: [The Book of Agentic AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
-- [Chapter Overview](chatper-structure.md)
+- [Chapter Overview](chatper-structure.qmd)
 
 <!-- DIGEST:START -->
 
-:fire: Read the latest digest: [/digest/digest_index.qmd](digest/digest_index.qmd) — current snapshot of the landscape.
+:fire: Read the latest [digest](digest/digest_index.html) — current snapshot of the landscape.
 
 <!-- DIGEST:END -->
 

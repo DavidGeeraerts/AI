@@ -67,6 +67,7 @@ book:
     - appendices/glossary.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
+    - appendices/SOURCES.qmd
   downloads: [pdf, epub]
   sharing: [twitter]
 
