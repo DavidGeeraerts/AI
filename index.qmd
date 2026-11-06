@@ -1,12 +1,8 @@
 ---
 page-layout: full
-title: "The Book of AI"
 ---
 
-# The Book of AI {.unnumbered}
-
-**Mapping the practical Artificial Intelligence landscape**  
-*A practical guide to agentic engineering and building a toolkit you control.*
+# Main Page {.unnumbered}
 
 This is a living map of the tools, models, harnesses, and practices that matter for building reliable agentic systems. It favors things you can run yourself, keep under your control, and host on your own hardware or a cheap [{{< glossary "(VPS) Virtual Private Server" display="VPS" popup="hover" >}}](https://davidgeeraerts.github.io/AI/appendices/glossary.html#vps-virtual-private-server).
 

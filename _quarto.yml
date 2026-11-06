@@ -40,8 +40,8 @@ book:
   title: "The Book of AI"
   subtitle: "Mapping the Artificial Intelligence landscape"
   description: "A practical guide to understanding agentic engineering and building a practical toolkit."
-  author: "David Geeraerts"
   abstract: "This book is a practical guide to understanding agentic engineering and building a practical toolkit."
+  author: "David Geeraerts"
   date: last-modified
   date-format: iso
   cover-image: assets/images/Book-Cover.jpg
