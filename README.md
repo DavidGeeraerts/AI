@@ -20,11 +20,11 @@
 ---
 
 ## The Why
-| W's  |                                                                                              |
-|------|----------------------------------------------------------------------------------------------|
-| Who  | Practitioners of agentic engineering                                                         |
-| What | A comprehensive, reference manual and architecture handbook for agentic systems engineering. |
-| Why  | curated single source of knowledge for practitioner of agentic engineering                   |
+| W's                |                                                                                                                  |
+|--------------------|------------------------------------------------------------------------------------------------------------------|
+| **Who** it’s for:  | Engineers and technical practitioners building and working with AI agents.                                       |
+| **What** it is:    | A curated comprehensive, reference and architecture book for agentic systems engineering.                        |
+| **Why** it exists: | A single, maintained source of knowledge instead of scattered resources for practitioners of agentic engineering |
 
 --- 
 

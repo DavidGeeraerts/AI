@@ -749,728 +749,728 @@ This is the public source library. Company sources, independent blogs, AI news s
 
 ### X (722)
 
-- [@jason](https://x.com/Jason): @Jason — Jason Calacanis, investor and host of This Week in AI, covers AI founders and trends.
-- [@levelsio](https://x.com/levelsio): @levelsio — indie hacker building AI products (PhotoAI, InteriorAI), shares building-in-public AI and startup insight.
-- [a16z](https://x.com/a16z): @a16z — Andreessen Horowitz, major VC firm with a heavy AI investment thesis and commentary.
+- [\@jason](https://x.com/Jason): \@Jason — Jason Calacanis, investor and host of This Week in AI, covers AI founders and trends.
+- [\@levelsio](https://x.com/levelsio): \@levelsio — indie hacker building AI products (PhotoAI, InteriorAI), shares building-in-public AI and startup insight.
+- [a16z](https://x.com/a16z): \@a16z — Andreessen Horowitz, major VC firm with a heavy AI investment thesis and commentary.
 - [Aadit Sheth](https://x.com/aaditsh): X account tracked for AI commentary, launches, and technical signal.
-- [Aakash Gupta](https://x.com/aakashgupta): @aakashgupta — widely-followed product-management voice covering AI product strategy and AI-PM career content.
-- [Aakrit Vaish](https://x.com/aakrit): @aakrit — Haptik founder, leading voice in India's AI ecosystem and IndiaAI Mission.
+- [Aakash Gupta](https://x.com/aakashgupta): \@aakashgupta — widely-followed product-management voice covering AI product strategy and AI-PM career content.
+- [Aakrit Vaish](https://x.com/aakrit): \@aakrit — Haptik founder, leading voice in India's AI ecosystem and IndiaAI Mission.
 - [Aaron Levie](https://x.com/levie): Box CEO tracked for enterprise AI adoption, agent workflows, and software strategy commentary.
-- [Abacus.AI](https://x.com/abacusai): @abacusai — Abacus.AI, enterprise AI/ML platform and LLM product company.
-- [adammaj](https://x.com/MajmudarAdam): @MajmudarAdam — adammaj, OpenAI researcher, deep technical AI/hardware explainers and deep-learning history dives.
-- [Addy Osmani](https://x.com/addyosmani): @addyosmani — Addy Osmani, Google engineer writing on AI coding tools and developer productivity.
-- [aden barton](https://x.com/aden_barton): @aden_barton — AI economics researcher at Mercor, writes on AI's labor-market and productivity impact.
-- [Adrien Grondin](https://x.com/adrgrondin): @adrgrondin — Builds Locally AI app, shares on-device LLM performance benchmarks.
-- [AGIHound](https://x.com/TrueAIHound): @TrueAIHound — AGIHound, posts regular critical commentary on AGI, LLM limitations, and intelligence research.
-- [Ahmad](https://x.com/TheAhmadOsman): @TheAhmadOsman — AI/infra engineer, r/LocalLLaMA mod, posts on local AI deployment and hardware.
-- [AI at Meta](https://x.com/AIatMeta): @AIatMeta — Meta's official account for Llama models and FAIR research updates.
-- [AI Evolution](https://x.com/AiEvolutio58513): @AiEvolutio58513 — AI Evolution, curates AI model/tool news (ChatGPT, Claude) and industry commentary.
-- [AI Highlight](https://x.com/AIHighlight): @AIHighlight — curates daily AI news highlights, model releases, and notable AI industry developments.
-- [AI Notkilleveryoneism Memes ⏸️](https://x.com/AISafetyMemes): @AISafetyMemes — AI Notkilleveryoneism Memes, focus on AI safety/x-risk commentary via memes and threads.
-- [AI Security Institute](https://x.com/AISecurityInst): @AISecurityInst — AI Security Institute, UK government body focused on frontier AI safety evaluation.
-- [Aidan Gomez](https://x.com/aidangomez): @aidangomez — Aidan Gomez, co-founder and CEO of Cohere, Transformer paper co-author.
-- [AiMind](https://x.com/AIMind_Ai): @AIMind_Ai — AI-focused publication/commentary account.
-- [aipulsedaily](https://x.com/aipulseda1ly): @aipulseda1ly — tracks AI model releases, benchmark leaks, and AI lab moves.
-- [Ajeya Cotra](https://x.com/ajeya_cotra): @ajeya_cotra — Ajeya Cotra, Open Philanthropy researcher, focus on AI timelines and safety forecasting.
-- [Akshay Kothari](https://x.com/akothari): @akothari — Akshay Kothari, Notion co-founder & COO, focus on AI-native product and agent strategy.
-- [Akshay 🚀](https://x.com/akshay_pachaar): @akshay_pachaar — Akshay Pachaar, ML content creator, focus on practical AI/ML tutorials and tools.
-- [Albert Jiang](https://x.com/AlbertQJiang): @AlbertQJiang — Albert Jiang, AI researcher focused on formal reasoning and LLM mathematics.
-- [Aleksa Gordić (水平问题)](https://x.com/gordic_aleksa): @gordic_aleksa — AI researcher/YouTuber (ex-DeepMind), well known for deep learning research content.
-- [Aleph Alpha](https://x.com/Aleph__Alpha): @Aleph__Alpha — German sovereign AI lab building foundation models for enterprise.
+- [Abacus.AI](https://x.com/abacusai): \@abacusai — Abacus.AI, enterprise AI/ML platform and LLM product company.
+- [adammaj](https://x.com/MajmudarAdam): \@MajmudarAdam — adammaj, OpenAI researcher, deep technical AI/hardware explainers and deep-learning history dives.
+- [Addy Osmani](https://x.com/addyosmani): \@addyosmani — Addy Osmani, Google engineer writing on AI coding tools and developer productivity.
+- [aden barton](https://x.com/aden_barton): \@aden_barton — AI economics researcher at Mercor, writes on AI's labor-market and productivity impact.
+- [Adrien Grondin](https://x.com/adrgrondin): \@adrgrondin — Builds Locally AI app, shares on-device LLM performance benchmarks.
+- [AGIHound](https://x.com/TrueAIHound): \@TrueAIHound — AGIHound, posts regular critical commentary on AGI, LLM limitations, and intelligence research.
+- [Ahmad](https://x.com/TheAhmadOsman): \@TheAhmadOsman — AI/infra engineer, r/LocalLLaMA mod, posts on local AI deployment and hardware.
+- [AI at Meta](https://x.com/AIatMeta): \@AIatMeta — Meta's official account for Llama models and FAIR research updates.
+- [AI Evolution](https://x.com/AiEvolutio58513): \@AiEvolutio58513 — AI Evolution, curates AI model/tool news (ChatGPT, Claude) and industry commentary.
+- [AI Highlight](https://x.com/AIHighlight): \@AIHighlight — curates daily AI news highlights, model releases, and notable AI industry developments.
+- [AI Notkilleveryoneism Memes ⏸️](https://x.com/AISafetyMemes): \@AISafetyMemes — AI Notkilleveryoneism Memes, focus on AI safety/x-risk commentary via memes and threads.
+- [AI Security Institute](https://x.com/AISecurityInst): \@AISecurityInst — AI Security Institute, UK government body focused on frontier AI safety evaluation.
+- [Aidan Gomez](https://x.com/aidangomez): \@aidangomez — Aidan Gomez, co-founder and CEO of Cohere, Transformer paper co-author.
+- [AiMind](https://x.com/AIMind_Ai): \@AIMind_Ai — AI-focused publication/commentary account.
+- [aipulsedaily](https://x.com/aipulseda1ly): \@aipulseda1ly — tracks AI model releases, benchmark leaks, and AI lab moves.
+- [Ajeya Cotra](https://x.com/ajeya_cotra): \@ajeya_cotra — Ajeya Cotra, Open Philanthropy researcher, focus on AI timelines and safety forecasting.
+- [Akshay Kothari](https://x.com/akothari): \@akothari — Akshay Kothari, Notion co-founder & COO, focus on AI-native product and agent strategy.
+- [Akshay 🚀](https://x.com/akshay_pachaar): \@akshay_pachaar — Akshay Pachaar, ML content creator, focus on practical AI/ML tutorials and tools.
+- [Albert Jiang](https://x.com/AlbertQJiang): \@AlbertQJiang — Albert Jiang, AI researcher focused on formal reasoning and LLM mathematics.
+- [Aleksa Gordić (水平问题)](https://x.com/gordic_aleksa): \@gordic_aleksa — AI researcher/YouTuber (ex-DeepMind), well known for deep learning research content.
+- [Aleph Alpha](https://x.com/Aleph__Alpha): \@Aleph__Alpha — German sovereign AI lab building foundation models for enterprise.
 - [Alex Albert](https://x.com/alexalbert__): Anthropic researcher tracked for Claude, applied AI research, evals, and model behavior signal.
-- [Alex Atallah](https://x.com/alexatallah): @alexatallah — OpenRouter co-founder, commentary on LLM routing and AI infrastructure.
-- [Alex Cheema](https://x.com/alexocheema): @alexocheema — EXO Labs co-founder, work on distributed local AI inference.
+- [Alex Atallah](https://x.com/alexatallah): \@alexatallah — OpenRouter co-founder, commentary on LLM routing and AI infrastructure.
+- [Alex Cheema](https://x.com/alexocheema): \@alexocheema — EXO Labs co-founder, work on distributed local AI inference.
 - [Alex Finn](https://x.com/AlexFinn): X account tracked for AI commentary, launches, and technical signal.
-- [Alex Imas](https://x.com/alexolegimas): @alexolegimas — Chicago Booth economics professor, focus on the economics of AI and labor markets.
-- [Alex Prompter](https://x.com/alex_prompter): @alex_prompter — shares AI prompt-engineering tips, tool roundups, and generative-AI workflow content.
-- [Alex Rives](https://x.com/alexrives): @alexrives — cofounder of EvolutionaryScale, builds protein language models (ESM), ex Meta AI researcher.
-- [Alex Veremeyenko](https://x.com/alex_verem): @alex_verem — Alex Veremeyenko, curates open-source and applied AI research with wide following.
-- [Alex Wiltschko](https://x.com/awiltschko): @awiltschko — CEO of Osmo, ex-Google Brain researcher, AI for digitizing the sense of smell.
-- [Alex Zhavoronkov, PhD (aka Aleksandrs Zavoronkovs)](https://x.com/biogerontology): @biogerontology — CEO of Insilico Medicine, AI drug discovery and longevity research.
-- [Alex 🧩 Scaling Video GenAI](https://x.com/alexmashrabov): @alexmashrabov — Alex, focused on scaling video generative AI, posts on video-gen model progress.
-- [Alexander Koch](https://x.com/alexkoch_ai): @alexkoch_ai — founder of Tau Robotics, shares AI robot-arm training and humanoid robotics work.
-- [Alexander Panfilov](https://x.com/kotekjedi_ml): @kotekjedi_ml — ML researcher.
+- [Alex Imas](https://x.com/alexolegimas): \@alexolegimas — Chicago Booth economics professor, focus on the economics of AI and labor markets.
+- [Alex Prompter](https://x.com/alex_prompter): \@alex_prompter — shares AI prompt-engineering tips, tool roundups, and generative-AI workflow content.
+- [Alex Rives](https://x.com/alexrives): \@alexrives — cofounder of EvolutionaryScale, builds protein language models (ESM), ex Meta AI researcher.
+- [Alex Veremeyenko](https://x.com/alex_verem): \@alex_verem — Alex Veremeyenko, curates open-source and applied AI research with wide following.
+- [Alex Wiltschko](https://x.com/awiltschko): \@awiltschko — CEO of Osmo, ex-Google Brain researcher, AI for digitizing the sense of smell.
+- [Alex Zhavoronkov, PhD (aka Aleksandrs Zavoronkovs)](https://x.com/biogerontology): \@biogerontology — CEO of Insilico Medicine, AI drug discovery and longevity research.
+- [Alex 🧩 Scaling Video GenAI](https://x.com/alexmashrabov): \@alexmashrabov — Alex, focused on scaling video generative AI, posts on video-gen model progress.
+- [Alexander Koch](https://x.com/alexkoch_ai): \@alexkoch_ai — founder of Tau Robotics, shares AI robot-arm training and humanoid robotics work.
+- [Alexander Panfilov](https://x.com/kotekjedi_ml): \@kotekjedi_ml — ML researcher.
 - [Alexandr Wang](https://x.com/alexandr_wang): X account tracked for AI commentary, launches, and technical signal.
-- [Alexey Fateev](https://x.com/superalesha): @superalesha — Alexey Fateev, posts deep technical content on local LLM inference, quantization, and model internals.
-- [Alexia Jolicoeur-Martineau](https://x.com/jm_alexia): @jm_alexia — Alexia Jolicoeur-Martineau, AI researcher known for diffusion model research.
-- [Ali Ghodsi](https://x.com/alighodsi): @alighodsi — Ali Ghodsi, Databricks CEO, focus on enterprise AI, data platforms, and lakehouse strategy.
-- [Alibaba Cloud](https://x.com/alibaba_cloud): @alibaba_cloud — Alibaba Cloud, official account, focus on Qwen models and enterprise cloud AI services.
-- [alphaXiv](https://x.com/askalphaxiv): @askalphaxiv (alphaXiv) — AI research paper discovery platform surfacing and discussing new ML papers.
-- [Alvaro Cintas](https://x.com/dr_cintas): @dr_cintas — curates daily AI tools, research, and industry news roundups.
-- [am.will](https://x.com/LLMJunky): @LLMJunky — shares curated commentary and news on LLMs and generative AI developments.
+- [Alexey Fateev](https://x.com/superalesha): \@superalesha — Alexey Fateev, posts deep technical content on local LLM inference, quantization, and model internals.
+- [Alexia Jolicoeur-Martineau](https://x.com/jm_alexia): \@jm_alexia — Alexia Jolicoeur-Martineau, AI researcher known for diffusion model research.
+- [Ali Ghodsi](https://x.com/alighodsi): \@alighodsi — Ali Ghodsi, Databricks CEO, focus on enterprise AI, data platforms, and lakehouse strategy.
+- [Alibaba Cloud](https://x.com/alibaba_cloud): \@alibaba_cloud — Alibaba Cloud, official account, focus on Qwen models and enterprise cloud AI services.
+- [alphaXiv](https://x.com/askalphaxiv): \@askalphaxiv (alphaXiv) — AI research paper discovery platform surfacing and discussing new ML papers.
+- [Alvaro Cintas](https://x.com/dr_cintas): \@dr_cintas — curates daily AI tools, research, and industry news roundups.
+- [am.will](https://x.com/LLMJunky): \@LLMJunky — shares curated commentary and news on LLMs and generative AI developments.
 - [Amanda Askell](https://x.com/AmandaAskell): Anthropic researcher tracked for model behavior, alignment, and frontier AI research commentary.
-- [AMD](https://x.com/AMD): @AMD — major semiconductor company powering AI compute (GPUs/accelerators) industry-wide.
-- [American Optimist](https://x.com/AmOptimistShow): @AmOptimistShow — Joe Lonsdale's podcast covering tech, startups, and AI industry trends.
+- [AMD](https://x.com/AMD): \@AMD — major semiconductor company powering AI compute (GPUs/accelerators) industry-wide.
+- [American Optimist](https://x.com/AmOptimistShow): \@AmOptimistShow — Joe Lonsdale's podcast covering tech, startups, and AI industry trends.
 - [Amjad Masad](https://x.com/amasad): Replit CEO tracked for agentic coding, AI developer tools, and builder ecosystem commentary.
-- [anand iyer](https://x.com/ai): @ai — Anand Iyer, founder of Canonical and Lightspeed venture partner, discusses open-source AI.
-- [Anatoli Kopadze](https://x.com/AnatoliKopadze): @AnatoliKopadze — posts frequently on AI agents, Claude Code, and AI-driven productivity strategies.
-- [Andon Labs](https://x.com/andonlabs): @andonlabs — Andon Labs, AI safety and evals startup known for agentic model benchmarks like Vending-Bench.
+- [anand iyer](https://x.com/ai): \@ai — Anand Iyer, founder of Canonical and Lightspeed venture partner, discusses open-source AI.
+- [Anatoli Kopadze](https://x.com/AnatoliKopadze): \@AnatoliKopadze — posts frequently on AI agents, Claude Code, and AI-driven productivity strategies.
+- [Andon Labs](https://x.com/andonlabs): \@andonlabs — Andon Labs, AI safety and evals startup known for agentic model benchmarks like Vending-Bench.
 - [Andrej Karpathy](https://x.com/karpathy): Andrej Karpathy's account, tracked for model intuition, coding, and research commentary.
-- [Andrew Carr 🤸](https://x.com/andrew_n_carr): @andrew_n_carr — AI/ML researcher known for RL, generative modeling, and open research posts.
-- [andrew chen](https://x.com/andrewchen): @andrewchen — a16z general partner writing on growth, startups, and AI product trends.
-- [Andrew Curran](https://x.com/AndrewCurran_): @AndrewCurran_ — Andrew Curran, curates breaking AI news, model releases, and policy developments.
-- [Andrew M. Dai](https://x.com/AndrewDai): @AndrewDai — Andrew M. Dai, Google Brain/DeepMind researcher (GShard, PaLM) and Elorian AI co-founder.
+- [Andrew Carr 🤸](https://x.com/andrew_n_carr): \@andrew_n_carr — AI/ML researcher known for RL, generative modeling, and open research posts.
+- [andrew chen](https://x.com/andrewchen): \@andrewchen — a16z general partner writing on growth, startups, and AI product trends.
+- [Andrew Curran](https://x.com/AndrewCurran_): \@AndrewCurran_ — Andrew Curran, curates breaking AI news, model releases, and policy developments.
+- [Andrew M. Dai](https://x.com/AndrewDai): \@AndrewDai — Andrew M. Dai, Google Brain/DeepMind researcher (GShard, PaLM) and Elorian AI co-founder.
 - [Andrew Ng](https://x.com/AndrewYNg): X account tracked for AI commentary, launches, and technical signal.
-- [Andrey Styskin](https://x.com/styskin): @styskin — CEO/cofounder of Keenable, ex-Yandex Search, focus on AI-native web search infrastructure.
-- [Anissa Gardizy](https://x.com/anissagardizy8): @anissagardizy8 — The Information reporter covering AI infrastructure, data centers, and compute buildouts.
-- [Anjney Midha](https://x.com/AnjneyMidha): @AnjneyMidha — a16z general partner, focus on AI infrastructure and open-source AI investing.
-- [Anna Goldie](https://x.com/annadgoldie): @annadgoldie — Google DeepMind researcher (RL for chip design).
+- [Andrey Styskin](https://x.com/styskin): \@styskin — CEO/cofounder of Keenable, ex-Yandex Search, focus on AI-native web search infrastructure.
+- [Anissa Gardizy](https://x.com/anissagardizy8): \@anissagardizy8 — The Information reporter covering AI infrastructure, data centers, and compute buildouts.
+- [Anjney Midha](https://x.com/AnjneyMidha): \@AnjneyMidha — a16z general partner, focus on AI infrastructure and open-source AI investing.
+- [Anna Goldie](https://x.com/annadgoldie): \@annadgoldie — Google DeepMind researcher (RL for chip design).
 - [Anthropic](https://x.com/AnthropicAI): Official Anthropic account monitored for Claude releases, research, and safety updates.
-- [Anton Obukhov](https://x.com/AntonObukhov1): @AntonObukhov1 — Anton Obukhov, computer vision researcher at ETH Zurich (Marigold depth model).
-- [Apodex](https://x.com/Apodex_AI): @Apodex_AI — AI-focused product/company account.
-- [Aravind](https://x.com/aravind): @aravind — Aravind Srinivas, CEO of Perplexity AI.
-- [Aravind Srinivas](https://x.com/AravSrinivas): @AravSrinivas — Perplexity AI CEO, commentary on AI search and product development.
-- [Arc Institute](https://x.com/arcinstitute): @arcinstitute — biomedical research institute building AI models (Evo) for genomics and biological discovery.
-- [ARC Prize](https://x.com/arcprize): @arcprize — official account for the ARC-AGI benchmark, tracks progress toward general AI reasoning.
-- [Architect Labs](https://x.com/architectlabs): @architectlabs — Architect Labs, AI system for automated chip design and verification.
-- [Arena.ai](https://x.com/arena): @arena — Arena.ai (formerly LMArena/Chatbot Arena), the leading public LLM evaluation platform.
-- [Arthur Mensch](https://x.com/arthurmensch): @arthurmensch — Arthur Mensch, CEO and co-founder of Mistral AI.
-- [Artificial Analysis](https://x.com/ArtificialAnlys): @ArtificialAnlys — Artificial Analysis, widely cited independent AI model benchmarking and analysis account.
-- [Arvind Narayanan](https://x.com/random_walker): @random_walker — Arvind Narayanan, Princeton CS professor, AI research and critique (AI Snake Oil).
-- [Ashish Kushwaha](https://x.com/ashishllm): @ashishllm — Generative AI engineer/consultant, posts on RAG and AI engineering practice.
-- [Ashpreet Bedi](https://x.com/ashpreetbedi): @ashpreetbedi — Creator of Agno (Phidata), an AI agent framework.
-- [AshutoshShrivastava](https://x.com/ai_for_success): @ai_for_success — widely-followed AI news curator covering model releases and industry developments daily.
-- [Assaf Elovic](https://x.com/assaf_elovic): @assaf_elovic — Creator of GPT Researcher, popular open-source AI research agent.
-- [Atai Barkai](https://x.com/ataiiam): @ataiiam — CEO of CopilotKit, focus on AI agent frontends (AG-UI).
-- [atomic.chat](https://x.com/atomic_chat_hq): @atomic_chat_hq — atomic.chat, local-AI inference app posting model benchmarks and local LLM releases.
-- [Austen Allred](https://x.com/Austen): @Austen — Austen Allred, co-founder of Gauntlet AI, focus on AI-driven coding education and hiring.
-- [AVB](https://x.com/neural_avb): @neural_avb — creates AI research breakdowns covering RLHF, DPO, and synthetic data methods.
-- [Avi Chawla](https://x.com/_avichawla): @_avichawla — Avi Chawla, co-founder Daily Dose of Data Science, focus on practical ML/AI tutorials.
-- [Awni Hannun](https://x.com/awnihannun): @awnihannun — Apple ML researcher, creator of the MLX on-device ML framework.
-- [AYi](https://x.com/AYi_AInotes): @AYi_AInotes — AYi, practical AI applications, prompt engineering, and AIGC workplace insights.
-- [Azalia Mirhoseini](https://x.com/Azaliamirh): @Azaliamirh — Azalia Mirhoseini, Google DeepMind/Stanford researcher known for AlphaChip and RL for hardware design.
-- [Azeem Azhar](https://x.com/azeem): @azeem — Azeem Azhar, Exponential View author, prominent AI and exponential-tech analyst.
-- [Bad theory labs](https://x.com/Badtheorylabs): @Badtheorylabs — Bad Theory Labs, builds open-weight efficient AI coding/agent models.
-- [Baidu Inc.](https://x.com/Baidu_Inc): @Baidu_Inc — official account of Baidu, major AI company behind the Ernie model family and AI cloud services.
-- [Barry McCardel](https://x.com/barrald): @barrald — Cofounder/CEO of Hex, focus on AI-assisted data science tooling.
-- [Bartosz Naskręcki](https://x.com/nasqret): @nasqret — Mathematician researching AI/LLM applications in math and formal proof systems.
-- [Bearly AI](https://x.com/bearlyai): @bearlyai — Bearly AI, AI-powered writing and summarization tool.
-- [Beff (e/acc)](https://x.com/beffjezos): @beffjezos — Guillaume Verdon, e/acc founder and Extropic AI founder.
-- [Behnam Neyshabur](https://x.com/bneyshabur): @bneyshabur — DeepMind/Google research scientist, publishes deep-learning theory and generalization research.
-- [ben](https://x.com/contraben): @contraben — Contra co-founder/CEO, building creative-AI evals and AI-agent commerce infra.
-- [Ben Buchanan](https://x.com/BuchananBen): @BuchananBen — Former White House AI advisor, author on AI and national security policy.
-- [Ben Burtenshaw](https://x.com/ben_burtenshaw): @ben_burtenshaw — Hugging Face community team, focus on open-source AI agents and courses.
-- [Ben Cera](https://x.com/Bencera): @Bencera — Ben Cera, solo founder of Polsia, an AI system that autonomously runs companies.
-- [Ben Dickson](https://x.com/bendee983): @bendee983 — Ben Dickson, AI technology journalist covering machine learning and industry trends.
-- [ben hylak](https://x.com/benhylak): @benhylak — AI product builder (Dawn, ex-Raycast/Apple) known for sharp AI agent/tool commentary.
-- [Ben Lang](https://x.com/benln): @benln — Cursor team member and tech curator, covers AI tools, startups, and products.
-- [Ben Poole](https://x.com/poolio): @poolio — Ben Poole, Google DeepMind/Stanford researcher known for DreamFusion and generative modeling.
-- [benahorowitz.eth](https://x.com/bhorowitz): @bhorowitz — Ben Horowitz, a16z co-founder, major VC voice on AI startups and industry strategy.
-- [Bernt Bornich](https://x.com/BerntBornich): @BerntBornich — 1X Technologies CEO, updates on humanoid robots and embodied AI.
-- [bg2clips](https://x.com/bg2clips): @bg2clips — fan-run clips from the BG2 Pod (Gerstner/Gurley), covering AI industry strategy, models, and compute.
-- [Big Brain AI](https://x.com/realBigBrainAI): @realBigBrainAI — Big Brain AI, curates AI industry commentary and expert takes on AI's workforce/societal impact.
-- [bilal 🔶](https://x.com/bilalchughtai_): @bilalchughtai_ — Bilal Chughtai, ex-DeepMind AGI safety researcher, now at BlueDot Impact.
-- [Bindu Reddy](https://x.com/bindureddy): @bindureddy — Abacus.AI CEO, frequent commentary on LLMs and AI industry developments.
-- [Black Forest Labs](https://x.com/bfl_ai): @bfl_ai — Black Forest Labs, AI image-generation lab behind the FLUX model family.
-- [Bland](https://x.com/usebland): @usebland — Bland AI, voice AI agent platform for phone calls.
-- [Bo Wang](https://x.com/BoWang87): @BoWang87 — ML researcher (Vector Institute/UHN) focused on biomedical and genomics AI models.
-- [Bojan Tunguz](https://x.com/tunguz): @tunguz — Bojan Tunguz, ex-NVIDIA ML engineer & Kaggle Grandmaster, AI/ML industry commentary.
-- [Boris Cherny](https://x.com/bcherny): @bcherny — creator of Claude Code at Anthropic, shares insight on agentic coding tools and AI developer workflows.
-- [Brendan (can/do)](https://x.com/BrendanFoody): @BrendanFoody — CEO of Mercor, AI talent matching and model evaluation startup.
-- [Bret Taylor](https://x.com/btaylor): @btaylor — Sierra AI co-founder/CEO and OpenAI chairman, prominent AI industry voice.
-- [Brett Adcock](https://x.com/adcock_brett): @adcock_brett — Figure AI founder/CEO, updates on humanoid robotics and embodied AI.
-- [Brett Harrison](https://x.com/BrettHarrison): @BrettHarrison — CEO of Architect Financial Technologies, building derivatives markets for AI compute and the AI economy.
-- [Brian Chau](https://x.com/brianchau57): @brianchau57 — AI policy commentator, founder of Alliance for the Future, writes on AI regulation.
-- [Brian Hall](https://x.com/IsForAt): @IsForAt — CMO of Mistral AI, ex Google Cloud/AWS/Microsoft exec, shares open-weight AI and industry strategy takes.
-- [Brian Roemmele](https://x.com/BrianRoemmele): @BrianRoemmele — prominent AI commentator on prompting techniques and AI industry trends.
-- [Bridgebench](https://x.com/bridgebench): @bridgebench — Benchmarks frontier AI coding models, publishes vibe-coding leaderboard results.
-- [Brivael Le Pogam](https://x.com/brivael): @brivael — Brivael Le Pogam, AI researcher/entrepreneur, co-founder of Argil AI (YC S24), French voice on AI and techno-optimism.
-- [BURKOV](https://x.com/burkov): @burkov — Andriy Burkov, ML author, focus on machine learning fundamentals and AI industry commentary.
-- [Caitlin Kalinowski](https://x.com/kalinowski007): @kalinowski007 — Caitlin Kalinowski, robotics and AI hardware leader (OpenAI robotics, ex-Meta AR/VR).
-- [Cameron R. Wolfe, Ph.D.](https://x.com/cwolferesearch): @cwolferesearch — Cameron R. Wolfe, ML researcher and educator, writes the Deep Learning Focus newsletter.
-- [Carlo Edoardo Ferraris](https://x.com/carloAI): @carloAI — Carlo Edoardo Ferraris, building hardware interfaces for AI agents at Natura.
-- [Carlos E. Perez](https://x.com/IntuitMachine): @IntuitMachine — Carlos E. Perez, author writing on deep learning theory and AI cognition.
+- [Anton Obukhov](https://x.com/AntonObukhov1): \@AntonObukhov1 — Anton Obukhov, computer vision researcher at ETH Zurich (Marigold depth model).
+- [Apodex](https://x.com/Apodex_AI): \@Apodex_AI — AI-focused product/company account.
+- [Aravind](https://x.com/aravind): \@aravind — Aravind Srinivas, CEO of Perplexity AI.
+- [Aravind Srinivas](https://x.com/AravSrinivas): \@AravSrinivas — Perplexity AI CEO, commentary on AI search and product development.
+- [Arc Institute](https://x.com/arcinstitute): \@arcinstitute — biomedical research institute building AI models (Evo) for genomics and biological discovery.
+- [ARC Prize](https://x.com/arcprize): \@arcprize — official account for the ARC-AGI benchmark, tracks progress toward general AI reasoning.
+- [Architect Labs](https://x.com/architectlabs): \@architectlabs — Architect Labs, AI system for automated chip design and verification.
+- [Arena.ai](https://x.com/arena): \@arena — Arena.ai (formerly LMArena/Chatbot Arena), the leading public LLM evaluation platform.
+- [Arthur Mensch](https://x.com/arthurmensch): \@arthurmensch — Arthur Mensch, CEO and co-founder of Mistral AI.
+- [Artificial Analysis](https://x.com/ArtificialAnlys): \@ArtificialAnlys — Artificial Analysis, widely cited independent AI model benchmarking and analysis account.
+- [Arvind Narayanan](https://x.com/random_walker): \@random_walker — Arvind Narayanan, Princeton CS professor, AI research and critique (AI Snake Oil).
+- [Ashish Kushwaha](https://x.com/ashishllm): \@ashishllm — Generative AI engineer/consultant, posts on RAG and AI engineering practice.
+- [Ashpreet Bedi](https://x.com/ashpreetbedi): \@ashpreetbedi — Creator of Agno (Phidata), an AI agent framework.
+- [AshutoshShrivastava](https://x.com/ai_for_success): \@ai_for_success — widely-followed AI news curator covering model releases and industry developments daily.
+- [Assaf Elovic](https://x.com/assaf_elovic): \@assaf_elovic — Creator of GPT Researcher, popular open-source AI research agent.
+- [Atai Barkai](https://x.com/ataiiam): \@ataiiam — CEO of CopilotKit, focus on AI agent frontends (AG-UI).
+- [atomic.chat](https://x.com/atomic_chat_hq): \@atomic_chat_hq — atomic.chat, local-AI inference app posting model benchmarks and local LLM releases.
+- [Austen Allred](https://x.com/Austen): \@Austen — Austen Allred, co-founder of Gauntlet AI, focus on AI-driven coding education and hiring.
+- [AVB](https://x.com/neural_avb): \@neural_avb — creates AI research breakdowns covering RLHF, DPO, and synthetic data methods.
+- [Avi Chawla](https://x.com/_avichawla): \@_avichawla — Avi Chawla, co-founder Daily Dose of Data Science, focus on practical ML/AI tutorials.
+- [Awni Hannun](https://x.com/awnihannun): \@awnihannun — Apple ML researcher, creator of the MLX on-device ML framework.
+- [AYi](https://x.com/AYi_AInotes): \@AYi_AInotes — AYi, practical AI applications, prompt engineering, and AIGC workplace insights.
+- [Azalia Mirhoseini](https://x.com/Azaliamirh): \@Azaliamirh — Azalia Mirhoseini, Google DeepMind/Stanford researcher known for AlphaChip and RL for hardware design.
+- [Azeem Azhar](https://x.com/azeem): \@azeem — Azeem Azhar, Exponential View author, prominent AI and exponential-tech analyst.
+- [Bad theory labs](https://x.com/Badtheorylabs): \@Badtheorylabs — Bad Theory Labs, builds open-weight efficient AI coding/agent models.
+- [Baidu Inc.](https://x.com/Baidu_Inc): \@Baidu_Inc — official account of Baidu, major AI company behind the Ernie model family and AI cloud services.
+- [Barry McCardel](https://x.com/barrald): \@barrald — Cofounder/CEO of Hex, focus on AI-assisted data science tooling.
+- [Bartosz Naskręcki](https://x.com/nasqret): \@nasqret — Mathematician researching AI/LLM applications in math and formal proof systems.
+- [Bearly AI](https://x.com/bearlyai): \@bearlyai — Bearly AI, AI-powered writing and summarization tool.
+- [Beff (e/acc)](https://x.com/beffjezos): \@beffjezos — Guillaume Verdon, e/acc founder and Extropic AI founder.
+- [Behnam Neyshabur](https://x.com/bneyshabur): \@bneyshabur — DeepMind/Google research scientist, publishes deep-learning theory and generalization research.
+- [ben](https://x.com/contraben): \@contraben — Contra co-founder/CEO, building creative-AI evals and AI-agent commerce infra.
+- [Ben Buchanan](https://x.com/BuchananBen): \@BuchananBen — Former White House AI advisor, author on AI and national security policy.
+- [Ben Burtenshaw](https://x.com/ben_burtenshaw): \@ben_burtenshaw — Hugging Face community team, focus on open-source AI agents and courses.
+- [Ben Cera](https://x.com/Bencera): \@Bencera — Ben Cera, solo founder of Polsia, an AI system that autonomously runs companies.
+- [Ben Dickson](https://x.com/bendee983): \@bendee983 — Ben Dickson, AI technology journalist covering machine learning and industry trends.
+- [ben hylak](https://x.com/benhylak): \@benhylak — AI product builder (Dawn, ex-Raycast/Apple) known for sharp AI agent/tool commentary.
+- [Ben Lang](https://x.com/benln): \@benln — Cursor team member and tech curator, covers AI tools, startups, and products.
+- [Ben Poole](https://x.com/poolio): \@poolio — Ben Poole, Google DeepMind/Stanford researcher known for DreamFusion and generative modeling.
+- [benahorowitz.eth](https://x.com/bhorowitz): \@bhorowitz — Ben Horowitz, a16z co-founder, major VC voice on AI startups and industry strategy.
+- [Bernt Bornich](https://x.com/BerntBornich): \@BerntBornich — 1X Technologies CEO, updates on humanoid robots and embodied AI.
+- [bg2clips](https://x.com/bg2clips): \@bg2clips — fan-run clips from the BG2 Pod (Gerstner/Gurley), covering AI industry strategy, models, and compute.
+- [Big Brain AI](https://x.com/realBigBrainAI): \@realBigBrainAI — Big Brain AI, curates AI industry commentary and expert takes on AI's workforce/societal impact.
+- [bilal 🔶](https://x.com/bilalchughtai_): \@bilalchughtai_ — Bilal Chughtai, ex-DeepMind AGI safety researcher, now at BlueDot Impact.
+- [Bindu Reddy](https://x.com/bindureddy): \@bindureddy — Abacus.AI CEO, frequent commentary on LLMs and AI industry developments.
+- [Black Forest Labs](https://x.com/bfl_ai): \@bfl_ai — Black Forest Labs, AI image-generation lab behind the FLUX model family.
+- [Bland](https://x.com/usebland): \@usebland — Bland AI, voice AI agent platform for phone calls.
+- [Bo Wang](https://x.com/BoWang87): \@BoWang87 — ML researcher (Vector Institute/UHN) focused on biomedical and genomics AI models.
+- [Bojan Tunguz](https://x.com/tunguz): \@tunguz — Bojan Tunguz, ex-NVIDIA ML engineer & Kaggle Grandmaster, AI/ML industry commentary.
+- [Boris Cherny](https://x.com/bcherny): \@bcherny — creator of Claude Code at Anthropic, shares insight on agentic coding tools and AI developer workflows.
+- [Brendan (can/do)](https://x.com/BrendanFoody): \@BrendanFoody — CEO of Mercor, AI talent matching and model evaluation startup.
+- [Bret Taylor](https://x.com/btaylor): \@btaylor — Sierra AI co-founder/CEO and OpenAI chairman, prominent AI industry voice.
+- [Brett Adcock](https://x.com/adcock_brett): \@adcock_brett — Figure AI founder/CEO, updates on humanoid robotics and embodied AI.
+- [Brett Harrison](https://x.com/BrettHarrison): \@BrettHarrison — CEO of Architect Financial Technologies, building derivatives markets for AI compute and the AI economy.
+- [Brian Chau](https://x.com/brianchau57): \@brianchau57 — AI policy commentator, founder of Alliance for the Future, writes on AI regulation.
+- [Brian Hall](https://x.com/IsForAt): \@IsForAt — CMO of Mistral AI, ex Google Cloud/AWS/Microsoft exec, shares open-weight AI and industry strategy takes.
+- [Brian Roemmele](https://x.com/BrianRoemmele): \@BrianRoemmele — prominent AI commentator on prompting techniques and AI industry trends.
+- [Bridgebench](https://x.com/bridgebench): \@bridgebench — Benchmarks frontier AI coding models, publishes vibe-coding leaderboard results.
+- [Brivael Le Pogam](https://x.com/brivael): \@brivael — Brivael Le Pogam, AI researcher/entrepreneur, co-founder of Argil AI (YC S24), French voice on AI and techno-optimism.
+- [BURKOV](https://x.com/burkov): \@burkov — Andriy Burkov, ML author, focus on machine learning fundamentals and AI industry commentary.
+- [Caitlin Kalinowski](https://x.com/kalinowski007): \@kalinowski007 — Caitlin Kalinowski, robotics and AI hardware leader (OpenAI robotics, ex-Meta AR/VR).
+- [Cameron R. Wolfe, Ph.D.](https://x.com/cwolferesearch): \@cwolferesearch — Cameron R. Wolfe, ML researcher and educator, writes the Deep Learning Focus newsletter.
+- [Carlo Edoardo Ferraris](https://x.com/carloAI): \@carloAI — Carlo Edoardo Ferraris, building hardware interfaces for AI agents at Natura.
+- [Carlos E. Perez](https://x.com/IntuitMachine): \@IntuitMachine — Carlos E. Perez, author writing on deep learning theory and AI cognition.
 - [Cat Wu](https://x.com/_catwu): Anthropic Claude Code product and engineering voice tracked for AI coding, agents, and developer workflow signal.
-- [Cerebras](https://x.com/cerebras): @cerebras — official account of Cerebras Systems, maker of wafer-scale AI chips for large model training and inference.
-- [Chad Jones](https://x.com/ChadJonesEcon): @ChadJonesEcon — Stanford economist researching AI's impact on economic growth.
-- [Chamath Palihapitiya](https://x.com/chamath): @chamath — Chamath Palihapitiya, VC and All-In Podcast host, frequent AI industry commentary.
-- [Charles Liang](https://x.com/charlesliang): @charlesliang — CEO of Supermicro, builds AI infrastructure and server hardware.
-- [Charles Rollet](https://x.com/CharlesRollet1): @CharlesRollet1 — Tech journalist (Business Insider/TechCrunch), covers AI, surveillance, and industry policy.
-- [Charly Wargnier](https://x.com/DataChaz): @DataChaz — Charly Wargnier, data science content creator, focus on AI/ML tools and workflows.
-- [ChatCut](https://x.com/chatcutapp): @chatcutapp — AI video editor (ChatCut) for prompt-driven editing, captions, and motion graphics.
-- [ChatGPT](https://x.com/ChatGPTapp): @ChatGPTapp — OpenAI's official ChatGPT product account, sharing feature launches and updates.
-- [Chayakrit Krittanawong, MD, FACC, FSCAI](https://x.com/KrittanawongMD): @KrittanawongMD — cardiologist and AI-in-medicine researcher, active commentary on AI's role in healthcare.
-- [Chayenne Zhao](https://x.com/GenAI_is_real): @GenAI_is_real — Chayenne Zhao, SGLang founding member covering LLM scaling and reinforcement-learning research.
-- [Chief Nerd](https://x.com/TheChiefNerd): @TheChiefNerd — high-volume AI model/news aggregator account.
-- [Chris](https://x.com/ChrisGPT): @ChrisGPT — AI industry reporter covering frontier labs, featured in Axios and The Information.
-- [Chris Laub](https://x.com/ChrisLaubAI): @ChrisLaubAI — Chris Laub, shares AI adoption trends, prompts, and model comparisons across OpenAI, Gemini, and Claude.
-- [Chris Painter](https://x.com/ChrisPainterYup): @ChrisPainterYup — Chris Painter, President of METR, works on AI model evaluation and safety.
-- [Christian Miele](https://x.com/christianmiele): @christianmiele — Christian Miele, Headline VC General Partner backing European AI/deep-tech startups (incl. Mistral AI).
-- [christina](https://x.com/luoluo_ai): @luoluo_ai — MIT student and xAI Grok reasoning team contributor, focus on multimodal AI reasoning.
-- [Chubby♨️](https://x.com/kimmonismus): @kimmonismus (Chubby) — widely-followed account tracking frontier AI model releases and research.
-- [Clara Bennett](https://x.com/CodeswithClara): @CodeswithClara — Clara Bennett, AI & tech educator, focus on AI tool reviews and no-code workflows.
+- [Cerebras](https://x.com/cerebras): \@cerebras — official account of Cerebras Systems, maker of wafer-scale AI chips for large model training and inference.
+- [Chad Jones](https://x.com/ChadJonesEcon): \@ChadJonesEcon — Stanford economist researching AI's impact on economic growth.
+- [Chamath Palihapitiya](https://x.com/chamath): \@chamath — Chamath Palihapitiya, VC and All-In Podcast host, frequent AI industry commentary.
+- [Charles Liang](https://x.com/charlesliang): \@charlesliang — CEO of Supermicro, builds AI infrastructure and server hardware.
+- [Charles Rollet](https://x.com/CharlesRollet1): \@CharlesRollet1 — Tech journalist (Business Insider/TechCrunch), covers AI, surveillance, and industry policy.
+- [Charly Wargnier](https://x.com/DataChaz): \@DataChaz — Charly Wargnier, data science content creator, focus on AI/ML tools and workflows.
+- [ChatCut](https://x.com/chatcutapp): \@chatcutapp — AI video editor (ChatCut) for prompt-driven editing, captions, and motion graphics.
+- [ChatGPT](https://x.com/ChatGPTapp): \@ChatGPTapp — OpenAI's official ChatGPT product account, sharing feature launches and updates.
+- [Chayakrit Krittanawong, MD, FACC, FSCAI](https://x.com/KrittanawongMD): \@KrittanawongMD — cardiologist and AI-in-medicine researcher, active commentary on AI's role in healthcare.
+- [Chayenne Zhao](https://x.com/GenAI_is_real): \@GenAI_is_real — Chayenne Zhao, SGLang founding member covering LLM scaling and reinforcement-learning research.
+- [Chief Nerd](https://x.com/TheChiefNerd): \@TheChiefNerd — high-volume AI model/news aggregator account.
+- [Chris](https://x.com/ChrisGPT): \@ChrisGPT — AI industry reporter covering frontier labs, featured in Axios and The Information.
+- [Chris Laub](https://x.com/ChrisLaubAI): \@ChrisLaubAI — Chris Laub, shares AI adoption trends, prompts, and model comparisons across OpenAI, Gemini, and Claude.
+- [Chris Painter](https://x.com/ChrisPainterYup): \@ChrisPainterYup — Chris Painter, President of METR, works on AI model evaluation and safety.
+- [Christian Miele](https://x.com/christianmiele): \@christianmiele — Christian Miele, Headline VC General Partner backing European AI/deep-tech startups (incl. Mistral AI).
+- [christina](https://x.com/luoluo_ai): \@luoluo_ai — MIT student and xAI Grok reasoning team contributor, focus on multimodal AI reasoning.
+- [Chubby♨️](https://x.com/kimmonismus): \@kimmonismus (Chubby) — widely-followed account tracking frontier AI model releases and research.
+- [Clara Bennett](https://x.com/CodeswithClara): \@CodeswithClara — Clara Bennett, AI & tech educator, focus on AI tool reviews and no-code workflows.
 - [Claude](https://x.com/claudeai): Official Claude account monitored for product updates, feature launches, and Claude ecosystem signal.
-- [ClaudeDevs](https://x.com/ClaudeDevs): @ClaudeDevs — community account for Claude developers sharing agent-building tips and use cases.
-- [clem 🤗](https://x.com/ClementDelangue): @ClementDelangue — Hugging Face co-founder/CEO, leading open-source AI voice.
-- [Cline](https://x.com/cline): @cline — Cline, popular open-source AI coding agent for VS Code.
-- [Codez](https://x.com/0xCodez): @0xCodez — Codez, AI researcher and builder, focus on AI agents and applied AI engineering.
-- [Cognition](https://x.com/cognition): @cognition — official account of Cognition AI, maker of the Devin autonomous software engineer.
-- [Cohere](https://x.com/cohere): @cohere — official account of Cohere, major enterprise LLM company.
-- [Colaboratory](https://x.com/GoogleColab): @GoogleColab — Official Google Colaboratory account for ML/AI notebook development.
-- [Composio](https://x.com/composio): @composio — Composio, integration/tooling platform for AI agents.
-- [Computer](https://x.com/AskPerplexity): @AskPerplexity — official Perplexity AI answer bot account.
-- [Cory Weinberg](https://x.com/coryweinberg): @coryweinberg — The Information reporter covering Anthropic and the AI industry.
-- [Cristóbal Valenzuela](https://x.com/c_valenzuelab): @c_valenzuelab — Cristóbal Valenzuela, co-founder/CEO of Runway, a leading generative AI company.
-- [Cursor](https://x.com/cursor_ai): @cursor_ai — Cursor, official account for the AI-powered code editor, focus on AI coding tools.
-- [Curtis G. Northcutt](https://x.com/cgnorthcutt): @cgnorthcutt — MIT PhD, co-founder/CEO of Cleanlab, data-centric AI quality tools.
-- [Daily Dose of Data Science](https://x.com/DailyDoseOfDS_): @DailyDoseOfDS_ — Daily Dose of Data Science, focus on practical machine learning and AI content.
-- [DAIR.AI](https://x.com/dair_ai): @dair_ai — DAIR.AI, well-known AI research and education account behind a widely read ML/NLP newsletter.
-- [Dan Hendrycks](https://x.com/hendrycks): @hendrycks — Director of the Center for AI Safety, leading AI safety and alignment researcher.
-- [Dan Kondratyuk](https://x.com/hyperparticle): @hyperparticle — Dan Kondratyuk, AI researcher building self-improving AI research agents.
-- [Dan Kornas](https://x.com/DanKornas): @DanKornas — Dan Kornas, ML engineer, focus on AI agent tooling, MLOps, and AI engineering newsletter.
+- [ClaudeDevs](https://x.com/ClaudeDevs): \@ClaudeDevs — community account for Claude developers sharing agent-building tips and use cases.
+- [clem 🤗](https://x.com/ClementDelangue): \@ClementDelangue — Hugging Face co-founder/CEO, leading open-source AI voice.
+- [Cline](https://x.com/cline): \@cline — Cline, popular open-source AI coding agent for VS Code.
+- [Codez](https://x.com/0xCodez): \@0xCodez — Codez, AI researcher and builder, focus on AI agents and applied AI engineering.
+- [Cognition](https://x.com/cognition): \@cognition — official account of Cognition AI, maker of the Devin autonomous software engineer.
+- [Cohere](https://x.com/cohere): \@cohere — official account of Cohere, major enterprise LLM company.
+- [Colaboratory](https://x.com/GoogleColab): \@GoogleColab — Official Google Colaboratory account for ML/AI notebook development.
+- [Composio](https://x.com/composio): \@composio — Composio, integration/tooling platform for AI agents.
+- [Computer](https://x.com/AskPerplexity): \@AskPerplexity — official Perplexity AI answer bot account.
+- [Cory Weinberg](https://x.com/coryweinberg): \@coryweinberg — The Information reporter covering Anthropic and the AI industry.
+- [Cristóbal Valenzuela](https://x.com/c_valenzuelab): \@c_valenzuelab — Cristóbal Valenzuela, co-founder/CEO of Runway, a leading generative AI company.
+- [Cursor](https://x.com/cursor_ai): \@cursor_ai — Cursor, official account for the AI-powered code editor, focus on AI coding tools.
+- [Curtis G. Northcutt](https://x.com/cgnorthcutt): \@cgnorthcutt — MIT PhD, co-founder/CEO of Cleanlab, data-centric AI quality tools.
+- [Daily Dose of Data Science](https://x.com/DailyDoseOfDS_): \@DailyDoseOfDS_ — Daily Dose of Data Science, focus on practical machine learning and AI content.
+- [DAIR.AI](https://x.com/dair_ai): \@dair_ai — DAIR.AI, well-known AI research and education account behind a widely read ML/NLP newsletter.
+- [Dan Hendrycks](https://x.com/hendrycks): \@hendrycks — Director of the Center for AI Safety, leading AI safety and alignment researcher.
+- [Dan Kondratyuk](https://x.com/hyperparticle): \@hyperparticle — Dan Kondratyuk, AI researcher building self-improving AI research agents.
+- [Dan Kornas](https://x.com/DanKornas): \@DanKornas — Dan Kornas, ML engineer, focus on AI agent tooling, MLOps, and AI engineering newsletter.
 - [Dan Shipper](https://x.com/danshipper): Every CEO tracked for AI writing, agents, product experiments, and practical AI adoption.
-- [Daniel Heinen](https://x.com/heinenbros): @heinenbros — Founder/CEO of GeoSpy AI (Raven), builds geospatial intelligence AI models.
-- [Daniel Jeffries](https://x.com/Dan_Jeffries1): @Dan_Jeffries1 — Daniel Jeffries, prolific AI industry commentator and former AI executive.
-- [Daniel Kokotajlo](https://x.com/DKokotajlo): @DKokotajlo — Daniel Kokotajlo, ex-OpenAI researcher, focus on AI safety forecasting and AI 2027 scenario.
-- [Daniel Levy](https://x.com/daniellevy__): @daniellevy__ — Cofounder/President of Safe Superintelligence (SSI), ex-OpenAI optimization lead.
-- [Daniel Privitera](https://x.com/privitera_): @privitera_ — Daniel Privitera, AI policy researcher, lead writer of the International AI Safety Report.
-- [Daniel Roberts](https://x.com/danroberts0101): @danroberts0101 — Daniel Roberts, Co-CEO of IREN, focus on AI data center and GPU cloud infrastructure.
-- [Daniel San](https://x.com/dani_avila7): @dani_avila7 — Creator of CodeGPT, builds AI developer tooling and Claude Code subagents.
-- [Dario Amodei](https://x.com/DarioAmodei): @DarioAmodei — Dario Amodei, Anthropic CEO, focus on frontier AI safety and model development.
-- [Daron Acemoglu](https://x.com/DAcemogluMIT): @DAcemogluMIT — MIT economist and Nobel laureate, writes on AI's economic and labor impact.
-- [David](https://x.com/dzhng): @dzhng — Builder of the open-source deep-research AI agent project.
-- [David Ondrej](https://x.com/DavidOndrej1): @DavidOndrej1 — AI YouTuber/creator covering AI agents, automation, and practical build tutorials.
-- [David Roberts](https://x.com/recap_david): @recap_david — builds and shares practical AI agents/automations (email triage, AI newsletters) for businesses.
-- [David Sacks](https://x.com/DavidSacks): @DavidSacks — VC (Craft Ventures), All-In podcast host, US government AI & crypto policy lead.
-- [Dawn Song](https://x.com/dawnsongtweets): @dawnsongtweets — Dawn Song, UC Berkeley professor and leading researcher in AI security and blockchain.
-- [dax](https://x.com/thdxr): @thdxr — SST/OpenCode founder, builds and writes about AI coding agent tooling.
-- [Dean W. Ball](https://x.com/deanwball): @deanwball — Dean W. Ball, AI policy researcher, focus on US AI regulation and governance debates.
-- [Decart](https://x.com/DecartAI): @DecartAI — AI company building real-time generative video and world models (Oasis).
-- [Deedy](https://x.com/deedydas): @deedydas — Menlo Ventures investor, active commentary on AI research and industry trends.
-- [DeepLearning.AI](https://x.com/DeepLearningAI): @DeepLearningAI — DeepLearning.AI, Andrew Ng's company, focus on AI/ML education and industry news.
-- [DeepSeek](https://x.com/deepseek_ai): @deepseek_ai — official account of DeepSeek, major frontier AI lab.
-- [DeepSeek Harness](https://x.com/DeepSeekHarness): @DeepSeekHarness — Official account for DeepSeek Harness, open-source AI agent framework.
-- [Demis Hassabis](https://x.com/demishassabis): @demishassabis — Demis Hassabis, CEO of Google DeepMind, focus on frontier AI research and AGI strategy.
-- [Deni](https://x.com/plazined): @plazined — Founder building AI superforecasters, CS PhD from Brown, posts AI safety takes.
-- [Derya Unutmaz, MD](https://x.com/DeryaTR_): @DeryaTR_ — Derya Unutmaz, MD, active commentator on AI progress and its implications.
-- [dex](https://x.com/dexhorthy): @dexhorthy — HumanLayer founder, prominent voice in AI agent engineering.
-- [Diogo Almeida](https://x.com/CompleteSkeptic): @CompleteSkeptic — Diogo Almeida, ex-OpenAI (InstructGPT co-author), now CEO of TypeSafe AI.
-- [Director Michael Kratsios](https://x.com/mkratsios47): @mkratsios47 — Michael Kratsios, White House tech and AI policy official shaping US AI strategy.
-- [Diyi Yang](https://x.com/Diyi_Yang): @Diyi_Yang — Diyi Yang, Stanford professor researching NLP and human-centered AI.
-- [DoorDash AI Research](https://x.com/AIatDoorDash): @AIatDoorDash — DoorDash's official AI Research team account.
-- [Dr Alexander D. Kalian](https://x.com/AlexanderKalian): @AlexanderKalian — AI PhD scientist at King's College London, contrarian AI-hype commentary.
-- [Dr Heidy Khlaaf (هايدي خلاف)](https://x.com/HeidyKhlaaf): @HeidyKhlaaf — AI safety researcher focused on safety-critical systems and AI risk assessment.
-- [Dr. Alex Wissner-Gross](https://x.com/alexwg): @alexwg — MIT scientist and entrepreneur, known for AI and complex systems research.
-- [Dr. Eli David](https://x.com/DrEliDavid): @DrEliDavid — Deep learning expert, co-founder of Deep Instinct, AI cybersecurity.
-- [Dreamina AI](https://x.com/dreamina_ai): @dreamina_ai — Dreamina AI, AI image/video generation product.
-- [Dustin](https://x.com/r0ck3t23): @r0ck3t23 — Dustin, AI commentator analyzing frontier lab news and industry trends.
-- [Dwarkesh Patel](https://x.com/dwarkesh_sp): @dwarkesh_sp — Dwarkesh Patel, host of the Dwarkesh Podcast, focus on in-depth AI researcher interviews.
-- [Dylan Foster 🐢](https://x.com/canondetortugas): @canondetortugas — Dylan Foster, MSR/incoming UC Berkeley professor, posts RL theory and LLM reasoning research.
-- [Dylan Patel](https://x.com/dylan522p): @dylan522p — SemiAnalysis founder, in-depth analysis of AI chips and compute infrastructure.
-- [dylan ツ](https://x.com/demian_ai): @demian_ai — AI-focused commentary account.
-- [Ed Newton-Rex](https://x.com/ednewtonrex): @ednewtonrex — Ed Newton-Rex, founder of Fairly Trained, focus on ethical AI training data & policy.
-- [Ed Zitron](https://x.com/edzitron): @edzitron — journalist known for pointed critical commentary on the AI industry and hype cycle.
-- [el.cine](https://x.com/EHuanglu): @EHuanglu — AI filmmaking creator showcasing generative video and image tools like Midjourney and Runway.
-- [ElevenLabs](https://x.com/ElevenLabs): @ElevenLabs — official account of ElevenLabs, leading AI voice synthesis company.
-- [Eli Lifland](https://x.com/eli_lifland): @eli_lifland — AI Futures Project researcher, co-author of the AI 2027 forecasting report.
-- [elie](https://x.com/eliebakouch): @eliebakouch — Hugging Face researcher, active in open-source LLM training community.
-- [Eliezer Yudkowsky](https://x.com/allTheYud): @allTheYud — Eliezer Yudkowsky, AI safety researcher and MIRI cofounder, focus on AI alignment/x-risk.
-- [Eliezer Yudkowsky ⏹️](https://x.com/ESYudkowsky): @ESYudkowsky — Eliezer Yudkowsky, prominent AI safety researcher and rationalist thinker.
-- [Elon Musk](https://x.com/elonmusk): @elonmusk — founder of xAI/Grok, a major AI lab, occasionally posts on AI development.
-- [Elorian AI](https://x.com/ElorianAI): @ElorianAI — funded multimodal reasoning AI lab building visual-AGI foundation models (Glimpse).
+- [Daniel Heinen](https://x.com/heinenbros): \@heinenbros — Founder/CEO of GeoSpy AI (Raven), builds geospatial intelligence AI models.
+- [Daniel Jeffries](https://x.com/Dan_Jeffries1): \@Dan_Jeffries1 — Daniel Jeffries, prolific AI industry commentator and former AI executive.
+- [Daniel Kokotajlo](https://x.com/DKokotajlo): \@DKokotajlo — Daniel Kokotajlo, ex-OpenAI researcher, focus on AI safety forecasting and AI 2027 scenario.
+- [Daniel Levy](https://x.com/daniellevy__): \@daniellevy__ — Cofounder/President of Safe Superintelligence (SSI), ex-OpenAI optimization lead.
+- [Daniel Privitera](https://x.com/privitera_): \@privitera_ — Daniel Privitera, AI policy researcher, lead writer of the International AI Safety Report.
+- [Daniel Roberts](https://x.com/danroberts0101): \@danroberts0101 — Daniel Roberts, Co-CEO of IREN, focus on AI data center and GPU cloud infrastructure.
+- [Daniel San](https://x.com/dani_avila7): \@dani_avila7 — Creator of CodeGPT, builds AI developer tooling and Claude Code subagents.
+- [Dario Amodei](https://x.com/DarioAmodei): \@DarioAmodei — Dario Amodei, Anthropic CEO, focus on frontier AI safety and model development.
+- [Daron Acemoglu](https://x.com/DAcemogluMIT): \@DAcemogluMIT — MIT economist and Nobel laureate, writes on AI's economic and labor impact.
+- [David](https://x.com/dzhng): \@dzhng — Builder of the open-source deep-research AI agent project.
+- [David Ondrej](https://x.com/DavidOndrej1): \@DavidOndrej1 — AI YouTuber/creator covering AI agents, automation, and practical build tutorials.
+- [David Roberts](https://x.com/recap_david): \@recap_david — builds and shares practical AI agents/automations (email triage, AI newsletters) for businesses.
+- [David Sacks](https://x.com/DavidSacks): \@DavidSacks — VC (Craft Ventures), All-In podcast host, US government AI & crypto policy lead.
+- [Dawn Song](https://x.com/dawnsongtweets): \@dawnsongtweets — Dawn Song, UC Berkeley professor and leading researcher in AI security and blockchain.
+- [dax](https://x.com/thdxr): \@thdxr — SST/OpenCode founder, builds and writes about AI coding agent tooling.
+- [Dean W. Ball](https://x.com/deanwball): \@deanwball — Dean W. Ball, AI policy researcher, focus on US AI regulation and governance debates.
+- [Decart](https://x.com/DecartAI): \@DecartAI — AI company building real-time generative video and world models (Oasis).
+- [Deedy](https://x.com/deedydas): \@deedydas — Menlo Ventures investor, active commentary on AI research and industry trends.
+- [DeepLearning.AI](https://x.com/DeepLearningAI): \@DeepLearningAI — DeepLearning.AI, Andrew Ng's company, focus on AI/ML education and industry news.
+- [DeepSeek](https://x.com/deepseek_ai): \@deepseek_ai — official account of DeepSeek, major frontier AI lab.
+- [DeepSeek Harness](https://x.com/DeepSeekHarness): \@DeepSeekHarness — Official account for DeepSeek Harness, open-source AI agent framework.
+- [Demis Hassabis](https://x.com/demishassabis): \@demishassabis — Demis Hassabis, CEO of Google DeepMind, focus on frontier AI research and AGI strategy.
+- [Deni](https://x.com/plazined): \@plazined — Founder building AI superforecasters, CS PhD from Brown, posts AI safety takes.
+- [Derya Unutmaz, MD](https://x.com/DeryaTR_): \@DeryaTR_ — Derya Unutmaz, MD, active commentator on AI progress and its implications.
+- [dex](https://x.com/dexhorthy): \@dexhorthy — HumanLayer founder, prominent voice in AI agent engineering.
+- [Diogo Almeida](https://x.com/CompleteSkeptic): \@CompleteSkeptic — Diogo Almeida, ex-OpenAI (InstructGPT co-author), now CEO of TypeSafe AI.
+- [Director Michael Kratsios](https://x.com/mkratsios47): \@mkratsios47 — Michael Kratsios, White House tech and AI policy official shaping US AI strategy.
+- [Diyi Yang](https://x.com/Diyi_Yang): \@Diyi_Yang — Diyi Yang, Stanford professor researching NLP and human-centered AI.
+- [DoorDash AI Research](https://x.com/AIatDoorDash): \@AIatDoorDash — DoorDash's official AI Research team account.
+- [Dr Alexander D. Kalian](https://x.com/AlexanderKalian): \@AlexanderKalian — AI PhD scientist at King's College London, contrarian AI-hype commentary.
+- [Dr Heidy Khlaaf (هايدي خلاف)](https://x.com/HeidyKhlaaf): \@HeidyKhlaaf — AI safety researcher focused on safety-critical systems and AI risk assessment.
+- [Dr. Alex Wissner-Gross](https://x.com/alexwg): \@alexwg — MIT scientist and entrepreneur, known for AI and complex systems research.
+- [Dr. Eli David](https://x.com/DrEliDavid): \@DrEliDavid — Deep learning expert, co-founder of Deep Instinct, AI cybersecurity.
+- [Dreamina AI](https://x.com/dreamina_ai): \@dreamina_ai — Dreamina AI, AI image/video generation product.
+- [Dustin](https://x.com/r0ck3t23): \@r0ck3t23 — Dustin, AI commentator analyzing frontier lab news and industry trends.
+- [Dwarkesh Patel](https://x.com/dwarkesh_sp): \@dwarkesh_sp — Dwarkesh Patel, host of the Dwarkesh Podcast, focus on in-depth AI researcher interviews.
+- [Dylan Foster 🐢](https://x.com/canondetortugas): \@canondetortugas — Dylan Foster, MSR/incoming UC Berkeley professor, posts RL theory and LLM reasoning research.
+- [Dylan Patel](https://x.com/dylan522p): \@dylan522p — SemiAnalysis founder, in-depth analysis of AI chips and compute infrastructure.
+- [dylan ツ](https://x.com/demian_ai): \@demian_ai — AI-focused commentary account.
+- [Ed Newton-Rex](https://x.com/ednewtonrex): \@ednewtonrex — Ed Newton-Rex, founder of Fairly Trained, focus on ethical AI training data & policy.
+- [Ed Zitron](https://x.com/edzitron): \@edzitron — journalist known for pointed critical commentary on the AI industry and hype cycle.
+- [el.cine](https://x.com/EHuanglu): \@EHuanglu — AI filmmaking creator showcasing generative video and image tools like Midjourney and Runway.
+- [ElevenLabs](https://x.com/ElevenLabs): \@ElevenLabs — official account of ElevenLabs, leading AI voice synthesis company.
+- [Eli Lifland](https://x.com/eli_lifland): \@eli_lifland — AI Futures Project researcher, co-author of the AI 2027 forecasting report.
+- [elie](https://x.com/eliebakouch): \@eliebakouch — Hugging Face researcher, active in open-source LLM training community.
+- [Eliezer Yudkowsky](https://x.com/allTheYud): \@allTheYud — Eliezer Yudkowsky, AI safety researcher and MIRI cofounder, focus on AI alignment/x-risk.
+- [Eliezer Yudkowsky ⏹️](https://x.com/ESYudkowsky): \@ESYudkowsky — Eliezer Yudkowsky, prominent AI safety researcher and rationalist thinker.
+- [Elon Musk](https://x.com/elonmusk): \@elonmusk — founder of xAI/Grok, a major AI lab, occasionally posts on AI development.
+- [Elorian AI](https://x.com/ElorianAI): \@ElorianAI — funded multimodal reasoning AI lab building visual-AGI foundation models (Glimpse).
 - [elvis](https://x.com/omarsar0): X account tracked for AI commentary, launches, and technical signal.
-- [Emad](https://x.com/EMostaque): @EMostaque — former Stability AI CEO, prominent generative AI industry commentator.
-- [engineer cat 🐈](https://x.com/MLCatttt): @MLCatttt — Co-founder of Banbury Road, multi-agent AI research lab, posts AI research updates.
-- [Epoch AI](https://x.com/EpochAIResearch): @EpochAIResearch — AI research org tracking compute trends, benchmarks, and forecasts of frontier AI progress.
-- [Eric Ciarla (hiring)](https://x.com/ericciarla): @ericciarla — Cofounder of Firecrawl, focus on AI web-scraping infrastructure for LLMs.
-- [Eric Jang](https://x.com/ericjang11): @ericjang11 — robotics/AI researcher (ex-Google Brain, 1X) writing on embodied AI and robot learning.
-- [eric provencher](https://x.com/pvncher): @pvncher — Eric Provencher, works on Codex DX at OpenAI, founder of RepoPrompt AI coding tool.
-- [Eric Xing](https://x.com/ericxing): @ericxing — Eric Xing, prominent ML researcher and professor.
-- [eric zakariasson](https://x.com/ericzakariasson): @ericzakariasson — Engineer at Cursor, shares AI-native dev tooling insights.
-- [Erik Brynjolfsson](https://x.com/erikbryn): @erikbryn — Erik Brynjolfsson, Stanford HAI economist and leading researcher on AI's economic impact.
-- [Ethan Mollick](https://x.com/emollick): @emollick — Ethan Mollick, Wharton professor and widely followed voice on practical AI use in business and education.
-- [Evan Hubinger](https://x.com/EvanHub): @EvanHub — Anthropic AI safety researcher known for deceptive-alignment research.
-- [Evan Otero](https://x.com/EvanOtero): @EvanOtero — Evan Otero, technical staff at Google DeepMind / AI Studio on the Gemini API team.
-- [Ewan Morrison](https://x.com/MrEwanMorrison): @MrEwanMorrison — Scottish novelist and outspoken AI critic/commentator on AI's impact on creative work.
-- [Exa](https://x.com/ExaAILabs): @ExaAILabs — official account of Exa, AI-native search and retrieval company.
-- [EXO Labs](https://x.com/exolabs): @exolabs — EXO Labs, focus on distributed AI inference across consumer devices.
-- [Extropic](https://x.com/extropic): @extropic — thermodynamic computing startup building hardware for probabilistic AI.
-- [Factory](https://x.com/FactoryAI): @FactoryAI — official account of Factory, builder of autonomous AI coding agents.
-- [Farzad 🇺🇸 🇮🇷](https://x.com/farzyness): @farzyness — tech analyst covering AI, autonomy, and automation trends.
+- [Emad](https://x.com/EMostaque): \@EMostaque — former Stability AI CEO, prominent generative AI industry commentator.
+- [engineer cat 🐈](https://x.com/MLCatttt): \@MLCatttt — Co-founder of Banbury Road, multi-agent AI research lab, posts AI research updates.
+- [Epoch AI](https://x.com/EpochAIResearch): \@EpochAIResearch — AI research org tracking compute trends, benchmarks, and forecasts of frontier AI progress.
+- [Eric Ciarla (hiring)](https://x.com/ericciarla): \@ericciarla — Cofounder of Firecrawl, focus on AI web-scraping infrastructure for LLMs.
+- [Eric Jang](https://x.com/ericjang11): \@ericjang11 — robotics/AI researcher (ex-Google Brain, 1X) writing on embodied AI and robot learning.
+- [eric provencher](https://x.com/pvncher): \@pvncher — Eric Provencher, works on Codex DX at OpenAI, founder of RepoPrompt AI coding tool.
+- [Eric Xing](https://x.com/ericxing): \@ericxing — Eric Xing, prominent ML researcher and professor.
+- [eric zakariasson](https://x.com/ericzakariasson): \@ericzakariasson — Engineer at Cursor, shares AI-native dev tooling insights.
+- [Erik Brynjolfsson](https://x.com/erikbryn): \@erikbryn — Erik Brynjolfsson, Stanford HAI economist and leading researcher on AI's economic impact.
+- [Ethan Mollick](https://x.com/emollick): \@emollick — Ethan Mollick, Wharton professor and widely followed voice on practical AI use in business and education.
+- [Evan Hubinger](https://x.com/EvanHub): \@EvanHub — Anthropic AI safety researcher known for deceptive-alignment research.
+- [Evan Otero](https://x.com/EvanOtero): \@EvanOtero — Evan Otero, technical staff at Google DeepMind / AI Studio on the Gemini API team.
+- [Ewan Morrison](https://x.com/MrEwanMorrison): \@MrEwanMorrison — Scottish novelist and outspoken AI critic/commentator on AI's impact on creative work.
+- [Exa](https://x.com/ExaAILabs): \@ExaAILabs — official account of Exa, AI-native search and retrieval company.
+- [EXO Labs](https://x.com/exolabs): \@exolabs — EXO Labs, focus on distributed AI inference across consumer devices.
+- [Extropic](https://x.com/extropic): \@extropic — thermodynamic computing startup building hardware for probabilistic AI.
+- [Factory](https://x.com/FactoryAI): \@FactoryAI — official account of Factory, builder of autonomous AI coding agents.
+- [Farzad 🇺🇸 🇮🇷](https://x.com/farzyness): \@farzyness — tech analyst covering AI, autonomy, and automation trends.
 - [Fei-Fei Li](https://x.com/drfeifei): Fei-Fei Li's account, tracked for research, policy, and academic AI signal.
-- [Femke Plantinga](https://x.com/femke_plantinga): @femke_plantinga — AI infra educator (ex-Weaviate) writing clear breakdowns on RAG and AI agents.
-- [Feryal](https://x.com/FeryalMP): @FeryalMP — DeepMind research scientist known for work on Genie world models and generative AI research.
-- [Fidji Simo](https://x.com/fidjissimo): @fidjissimo — OpenAI CEO of Applications, ex-Instacart CEO, major AI industry executive.
-- [Finely Tuned](https://x.com/finelytunedai): @finelytunedai — AI-focused commentary/tools account.
-- [Fish Audio](https://x.com/FishAudio): @FishAudio — AI speech/TTS company behind Fish Speech models.
-- [FlashLabs](https://x.com/flashlabsdotai): @flashlabsdotai — FlashLabs, AI agent/voice startup behind SuperAgent and the open-source Chroma speech-to-speech model.
-- [Florian Brand](https://x.com/xeophon): @xeophon — AI researcher/evals at Prime Intellect.
-- [Forward Future Brian](https://x.com/ForwardEditor): @ForwardEditor — editor at Forward Future, an AI news/media outlet covering frontier AI.
-- [Francois Chaubard](https://x.com/FrancoisChauba1): @FrancoisChauba1 — Francois Chaubard, Stanford AI researcher and YC partner, posts on LLM research.
-- [François Chollet](https://x.com/fchollet): @fchollet — François Chollet, Keras creator and ARC-AGI benchmark author.
-- [François Fleuret](https://x.com/francoisfleuret): @francoisfleuret — ML professor (Univ. of Geneva) known for deep learning research commentary.
-- [Freda Duan](https://x.com/FredaDuan): @FredaDuan — Altimeter Capital investor, sharp analysis on enterprise AI and AI agents.
-- [Freehand.ai](https://x.com/freehand_ai): @freehand_ai — AI startup/product account.
-- [Furkan Gözükara](https://x.com/FurkanGozukara): @FurkanGozukara — prolific tutorial creator for Stable Diffusion and open-source generative AI tooling.
-- [Gabriele Corso](https://x.com/GabriCorso): @GabriCorso — Gabriele Corso, MIT researcher known for diffusion model and molecular ML work.
-- [Garry Tan](https://x.com/garrytan): @garrytan — Y Combinator president, frequent commentary on AI startups and industry trends.
-- [Gary Marcus](https://x.com/GaryMarcus): @GaryMarcus — Gary Marcus, cognitive scientist, focus on AI capability limits and critical AI commentary.
-- [Gavin Baker](https://x.com/GavinSBaker): @GavinSBaker — Gavin Baker, Atreides Capital CIO, focus on AI compute, semiconductors, and market trends.
-- [Gemini Notebook](https://x.com/Gemini_Notebook): @Gemini_Notebook — Official Google account for NotebookLM / Gemini Notebook AI research tool.
-- [Generalist](https://x.com/GeneralistAI): @GeneralistAI — AI robotics company (ex-DeepMind/OpenAI/Boston Dynamics team) building general-purpose robot models.
-- [Genesis AI](https://x.com/gs_ai_): @gs_ai_ — official account of Genesis AI, an embodied-AI and robotics foundation model company.
-- [Genspark](https://x.com/genspark_ai): @genspark_ai — Genspark, AI search and agent startup.
-- [Geoffrey Hinton](https://x.com/geoffreyhinton): @geoffreyhinton — Geoffrey Hinton, Nobel laureate and deep learning pioneer, focus on AI safety and research.
-- [Georgi Gerganov](https://x.com/ggerganov): @ggerganov — creator of llama.cpp/whisper.cpp, influential open-source local-AI tooling.
-- [Georgia Channing](https://x.com/cgeorgiaw): @cgeorgiaw — AI4Science researcher/team lead at Hugging Face, focus on AI for scientific discovery.
-- [Gioele Zardini](https://x.com/GioeleZardini): @GioeleZardini — MIT assistant professor researching AI-driven autonomy, robotics, and complex systems.
-- [Goodfire](https://x.com/GoodfireAI): @GoodfireAI — Goodfire, AI startup focused on mechanistic interpretability and model understanding.
-- [Google AI](https://x.com/GoogleAI): @GoogleAI — official Google AI account covering research and product announcements.
-- [Google AI Developers](https://x.com/googleaidevs): @googleaidevs — Google's official account for AI developer tools and updates.
-- [Google AI Studio](https://x.com/GoogleAIStudio): @GoogleAIStudio — official Google AI Studio account for Gemini API and developer tooling updates.
-- [Google Antigravity](https://x.com/antigravity): @antigravity — official account for Google Antigravity, Google's agentic coding platform.
+- [Femke Plantinga](https://x.com/femke_plantinga): \@femke_plantinga — AI infra educator (ex-Weaviate) writing clear breakdowns on RAG and AI agents.
+- [Feryal](https://x.com/FeryalMP): \@FeryalMP — DeepMind research scientist known for work on Genie world models and generative AI research.
+- [Fidji Simo](https://x.com/fidjissimo): \@fidjissimo — OpenAI CEO of Applications, ex-Instacart CEO, major AI industry executive.
+- [Finely Tuned](https://x.com/finelytunedai): \@finelytunedai — AI-focused commentary/tools account.
+- [Fish Audio](https://x.com/FishAudio): \@FishAudio — AI speech/TTS company behind Fish Speech models.
+- [FlashLabs](https://x.com/flashlabsdotai): \@flashlabsdotai — FlashLabs, AI agent/voice startup behind SuperAgent and the open-source Chroma speech-to-speech model.
+- [Florian Brand](https://x.com/xeophon): \@xeophon — AI researcher/evals at Prime Intellect.
+- [Forward Future Brian](https://x.com/ForwardEditor): \@ForwardEditor — editor at Forward Future, an AI news/media outlet covering frontier AI.
+- [Francois Chaubard](https://x.com/FrancoisChauba1): \@FrancoisChauba1 — Francois Chaubard, Stanford AI researcher and YC partner, posts on LLM research.
+- [François Chollet](https://x.com/fchollet): \@fchollet — François Chollet, Keras creator and ARC-AGI benchmark author.
+- [François Fleuret](https://x.com/francoisfleuret): \@francoisfleuret — ML professor (Univ. of Geneva) known for deep learning research commentary.
+- [Freda Duan](https://x.com/FredaDuan): \@FredaDuan — Altimeter Capital investor, sharp analysis on enterprise AI and AI agents.
+- [Freehand.ai](https://x.com/freehand_ai): \@freehand_ai — AI startup/product account.
+- [Furkan Gözükara](https://x.com/FurkanGozukara): \@FurkanGozukara — prolific tutorial creator for Stable Diffusion and open-source generative AI tooling.
+- [Gabriele Corso](https://x.com/GabriCorso): \@GabriCorso — Gabriele Corso, MIT researcher known for diffusion model and molecular ML work.
+- [Garry Tan](https://x.com/garrytan): \@garrytan — Y Combinator president, frequent commentary on AI startups and industry trends.
+- [Gary Marcus](https://x.com/GaryMarcus): \@GaryMarcus — Gary Marcus, cognitive scientist, focus on AI capability limits and critical AI commentary.
+- [Gavin Baker](https://x.com/GavinSBaker): \@GavinSBaker — Gavin Baker, Atreides Capital CIO, focus on AI compute, semiconductors, and market trends.
+- [Gemini Notebook](https://x.com/Gemini_Notebook): \@Gemini_Notebook — Official Google account for NotebookLM / Gemini Notebook AI research tool.
+- [Generalist](https://x.com/GeneralistAI): \@GeneralistAI — AI robotics company (ex-DeepMind/OpenAI/Boston Dynamics team) building general-purpose robot models.
+- [Genesis AI](https://x.com/gs_ai_): \@gs_ai_ — official account of Genesis AI, an embodied-AI and robotics foundation model company.
+- [Genspark](https://x.com/genspark_ai): \@genspark_ai — Genspark, AI search and agent startup.
+- [Geoffrey Hinton](https://x.com/geoffreyhinton): \@geoffreyhinton — Geoffrey Hinton, Nobel laureate and deep learning pioneer, focus on AI safety and research.
+- [Georgi Gerganov](https://x.com/ggerganov): \@ggerganov — creator of llama.cpp/whisper.cpp, influential open-source local-AI tooling.
+- [Georgia Channing](https://x.com/cgeorgiaw): \@cgeorgiaw — AI4Science researcher/team lead at Hugging Face, focus on AI for scientific discovery.
+- [Gioele Zardini](https://x.com/GioeleZardini): \@GioeleZardini — MIT assistant professor researching AI-driven autonomy, robotics, and complex systems.
+- [Goodfire](https://x.com/GoodfireAI): \@GoodfireAI — Goodfire, AI startup focused on mechanistic interpretability and model understanding.
+- [Google AI](https://x.com/GoogleAI): \@GoogleAI — official Google AI account covering research and product announcements.
+- [Google AI Developers](https://x.com/googleaidevs): \@googleaidevs — Google's official account for AI developer tools and updates.
+- [Google AI Studio](https://x.com/GoogleAIStudio): \@GoogleAIStudio — official Google AI Studio account for Gemini API and developer tooling updates.
+- [Google Antigravity](https://x.com/antigravity): \@antigravity — official account for Google Antigravity, Google's agentic coding platform.
 - [Google DeepMind](https://x.com/GoogleDeepMind): Official DeepMind account monitored for launches, papers, demos, and model updates.
-- [Google Gemini](https://x.com/GeminiApp): @GeminiApp — official Google Gemini account for product updates, feature launches, and model news.
-- [Google Gemma](https://x.com/googlegemma): @googlegemma — official account for Google's Gemma open-weight model family.
+- [Google Gemini](https://x.com/GeminiApp): \@GeminiApp — official Google Gemini account for product updates, feature launches, and model news.
+- [Google Gemma](https://x.com/googlegemma): \@googlegemma — official account for Google's Gemma open-weight model family.
 - [Google Labs](https://x.com/GoogleLabs): Official Google Labs account monitored for experimental AI products, demos, and consumer AI launches.
 - [Google Research](https://x.com/GoogleResearch): X account tracked for AI commentary, launches, and technical signal.
-- [Grady Booch](https://x.com/Grady_Booch): @Grady_Booch — computer science pioneer, prolific commentator on AI and computing history.
-- [Graham Neubig](https://x.com/gneubig): @gneubig — CMU professor, AI researcher and co-founder of All Hands AI/OpenHands.
-- [Grant Lee](https://x.com/thisisgrantlee): @thisisgrantlee — Grant Lee, co-founder/CEO of Gamma, AI-native presentation platform.
-- [Greg Brockman](https://x.com/gdb): @gdb — Greg Brockman, OpenAI co-founder & President, focus on frontier model development.
-- [GREG ISENBERG](https://x.com/gregisenberg): @gregisenberg — startup community builder focused heavily on AI product and business ideas.
-- [Gregory M. Kurtzer](https://x.com/gmkurtzer): @gmkurtzer — Gregory Kurtzer, CEO of Ctrl IQ, founder of Rocky Linux/Apptainer, posts on AI/HPC infrastructure and open foundation models.
-- [Grok](https://x.com/grok): @grok — Official account for Grok, xAI's AI chatbot.
+- [Grady Booch](https://x.com/Grady_Booch): \@Grady_Booch — computer science pioneer, prolific commentator on AI and computing history.
+- [Graham Neubig](https://x.com/gneubig): \@gneubig — CMU professor, AI researcher and co-founder of All Hands AI/OpenHands.
+- [Grant Lee](https://x.com/thisisgrantlee): \@thisisgrantlee — Grant Lee, co-founder/CEO of Gamma, AI-native presentation platform.
+- [Greg Brockman](https://x.com/gdb): \@gdb — Greg Brockman, OpenAI co-founder & President, focus on frontier model development.
+- [GREG ISENBERG](https://x.com/gregisenberg): \@gregisenberg — startup community builder focused heavily on AI product and business ideas.
+- [Gregory M. Kurtzer](https://x.com/gmkurtzer): \@gmkurtzer — Gregory Kurtzer, CEO of Ctrl IQ, founder of Rocky Linux/Apptainer, posts on AI/HPC infrastructure and open foundation models.
+- [Grok](https://x.com/grok): \@grok — Official account for Grok, xAI's AI chatbot.
 - [Guillermo Rauch](https://x.com/rauchg): Vercel CEO tracked for AI application infrastructure, web development, security, and product platform signal.
-- [Hamid Maei](https://x.com/HamidMaei): @HamidMaei — ML/reinforcement-learning researcher, ex-Snorkel AI, shares AI research commentary.
-- [Han Xiao ✈️ ICML 2026](https://x.com/hxiao): @hxiao — CEO of Jina AI, builds open-source search and embedding infrastructure, shares AI engineering insight.
-- [hardmaru](https://x.com/hardmaru): @hardmaru — David Ha, Sakana AI co-founder, widely-followed AI research commentary.
-- [Harrison Kinsley](https://x.com/Sentdex): @Sentdex (Harrison Kinsley) — well-known ML/Python educator and YouTuber.
-- [Harveen Singh Chadha](https://x.com/HarveenChadha): @HarveenChadha — Harveen Singh Chadha, ML engineer, focus on speech recognition and applied AI research.
-- [Hassaan Raza](https://x.com/hassaanraza): @hassaanraza — CEO of Hume AI, building voice and emotion-aware AI models.
-- [Hassan](https://x.com/nutlope): @nutlope — Together AI builder known for viral open-source generative AI projects.
-- [Healthcare AI Guy](https://x.com/HealthcareAIGuy): @HealthcareAIGuy — covers healthcare AI industry news, tools, and market trends.
-- [HeyBrain](https://x.com/Heybrainio): @Heybrainio — Enterprise AI workspace platform unifying agents, models, and company knowledge.
-- [HeyPCB](https://x.com/heypcbai): @heypcbai — AI-powered PCB design platform, posts product and hardware collaboration updates.
-- [Hieu Pham](https://x.com/hyhieu226): @hyhieu226 — AI researcher (ex-Google Brain), co-author of AutoAugment, ENAS and other ML papers.
-- [Higgsfield AI 🧩](https://x.com/higgsfield): @higgsfield — Higgsfield AI, AI-powered video/image generation platform.
-- [How To Prompt](https://x.com/HowToPrompt__): @HowToPrompt__ — AI education account covering prompt engineering and practical AI tool breakdowns.
-- [Hugging Face](https://x.com/huggingface): @huggingface — leading open-source AI/ML model hub and platform.
-- [Hugging Models](https://x.com/HuggingModels): @HuggingModels — Curates and explains open-source AI models.
-- [humans&](https://x.com/humansand): @humansand — humans&, human-centric frontier AI lab building multi-agent and memory models.
-- [Hume AI](https://x.com/hume_ai): @hume_ai — Hume AI, company building emotionally intelligent voice AI and empathic models.
-- [Ideogram](https://x.com/ideogram_ai): @ideogram_ai — official account for Ideogram, AI image generation platform.
-- [Igor Babuschkin](https://x.com/ibab): @ibab — xAI co-founder, AI research and infrastructure commentary.
-- [Illia (root.near) (🇺🇦, ⋈)](https://x.com/ilblackdragon): @ilblackdragon — Illia, NEAR co-founder, posts on open-source and user-owned AI.
-- [Induction Labs](https://x.com/induction_labs): @induction_labs — Induction Labs, focus on foundation models learned from video (imagination models).
-- [Inherent](https://x.com/inherent_labs): @inherent_labs — AI lab building agents for scientific discovery.
-- [Inworld AI](https://x.com/inworld_ai): @inworld_ai — Inworld AI, builder of AI character and NPC engines for games and interactive media.
-- [IREN](https://x.com/IREN_Ltd): @IREN_Ltd — data-center operator pivoting from Bitcoin mining to AI cloud and GPU infrastructure at scale.
-- [ITmedia AI＋](https://x.com/itm_aiplus): @itm_aiplus — ITmedia AI+, Japanese AI-focused tech media outlet.
-- [Ivan Fioravanti](https://x.com/ivanfioravanti): @ivanfioravanti — Local AI/MLX builder, posts Apple Silicon LLM benchmarks and quantization work.
-- [Ivan Kirigin](https://x.com/ikirigin): @ikirigin — AI and robotics investor at Tango.vc, builds and shares AI startup ideas.
-- [Ivan Landabaso](https://x.com/IvanLandabaso): @IvanLandabaso — VC at JME Ventures, shares in-depth AI startup, funding, and venture-capital market analysis.
-- [Jack Morris](https://x.com/jxmnop): @jxmnop — Jack Morris, AI researcher known for embedding inversion and privacy research.
-- [Jacob Coxon](https://x.com/hilbertspaess): @hilbertspaess — Jacob Coxon, ex-OpenAI/Anthropic pretraining researcher, AI safety commentary.
-- [Jacob Posel](https://x.com/jacob_posel): @jacob_posel — founder building HQ, an AI context/ops layer for companies, focus on AI agent workflows.
-- [Jakub Pachocki](https://x.com/merettm): @merettm — Jakub Pachocki, Chief Scientist at OpenAI.
-- [James Wang](https://x.com/draecomino): @draecomino — a16z American Dynamism partner, recognizable VC voice on AI/deep-tech investing.
-- [James Zou](https://x.com/james_y_zou): @james_y_zou — Stanford professor, prominent AI/ML researcher (biomedical ML, foundation models).
-- [Jamie Simon](https://x.com/learning_mech): @learning_mech — Deep learning theory researcher.
-- [jasmine sun](https://x.com/jasminewsun): @jasminewsun — writer covering AI industry, policy, and tech culture.
-- [Jason Zhou](https://x.com/jasonzhou1993): @jasonzhou1993 — AI YouTuber (AI Jason) making practical tutorials on AI agents, tools, and workflows.
-- [Jay](https://x.com/jayair): @jayair — CEO of Anomaly, maker of the opencode AI coding agent.
-- [Jeff Dean](https://x.com/JeffDean): @JeffDean — Google Chief Scientist, updates on Google AI research and infrastructure.
-- [Jeffrey Emanuel](https://x.com/doodlestein): @doodlestein — Jeffrey Emanuel, AI commentator known for deep-dive analyses on AI economics and labs.
-- [Jeffrey Ladish](https://x.com/JeffLadish): @JeffLadish — AI safety researcher at Palisade Research, focuses on AI risk, security, and misuse evaluations.
-- [Jensen Huang](https://x.com/JensenHuang): @JensenHuang — Jensen Huang, CEO of NVIDIA.
-- [Jerry Liu](https://x.com/jerryjliu0): @jerryjliu0 — Jerry Liu, founder of LlamaIndex, focus on RAG, agents, and LLM data frameworks.
-- [Jiao Sun](https://x.com/sunjiao123sun_): @sunjiao123sun_ — Jiao Sun, AI researcher at Google working on responsible AI and NLP.
-- [jietang](https://x.com/jietang): @jietang — Jie Tang, Tsinghua professor and co-founder of Zhipu AI (GLM/ChatGLM).
-- [Jim Fan](https://x.com/DrJimFan): @DrJimFan — Jim Fan, NVIDIA senior research scientist, focus on embodied AI and robot foundation models.
-- [Jim Liu](https://x.com/jiahanjimliu): @jiahanjimliu — Jim Liu, analysis on AI infrastructure spend, compute, and open-source models.
-- [jinjingliang](https://x.com/JinjingLiang): @JinjingLiang — Jinjing Liang, ex-Google/YC engineer building open-source AI dev tooling (Orca), posts on AI-assisted engineering.
-- [Jino Rohit](https://x.com/jino_rohit): @jino_rohit — ML engineer sharing LLM systems/inference optimization work.
-- [Jochen Madler](https://x.com/jochenmadler): @jochenmadler — Jochen Madler, founder of Sitefire, building marketing tools for the agentic AI web.
-- [Joe Benton](https://x.com/JoeJBenton): @JoeJBenton — Anthropic alignment and safety researcher, works on AI model evaluations.
-- [Joe Lonsdale](https://x.com/JTLonsdale): @JTLonsdale — Joe Lonsdale, 8VC founder/VC investing heavily in AI, posts on AI industrial policy and regulation.
-- [John Carmack](https://x.com/ID_AA_Carmack): @ID_AA_Carmack — John Carmack, working on AGI research at Keen Technologies.
-- [John Jumper](https://x.com/JohnJumperSci): @JohnJumperSci — Nobel laureate, DeepMind scientist behind AlphaFold, shares AI-for-science research updates.
-- [John Schulman](https://x.com/johnschulman2): @johnschulman2 — OpenAI co-founder, RL and post-training research commentary.
-- [Jon Hernandez](https://x.com/JonhernandezIA): @JonhernandezIA — AI communicator with 800k+ YouTube following, covers AI news and policy in Spanish.
-- [Jon Lai](https://x.com/Tocelot): @Tocelot — a16z speedrun GP investing across AI x creative tooling, recognizable VC voice.
-- [Joscha Bach](https://x.com/Plinz): @Plinz — Joscha Bach, cognitive scientist and AI theorist on mind and AGI.
-- [Josh Engels](https://x.com/JoshAEngels): @JoshAEngels — MIT PhD researcher working on AI interpretability.
+- [Hamid Maei](https://x.com/HamidMaei): \@HamidMaei — ML/reinforcement-learning researcher, ex-Snorkel AI, shares AI research commentary.
+- [Han Xiao ✈️ ICML 2026](https://x.com/hxiao): \@hxiao — CEO of Jina AI, builds open-source search and embedding infrastructure, shares AI engineering insight.
+- [hardmaru](https://x.com/hardmaru): \@hardmaru — David Ha, Sakana AI co-founder, widely-followed AI research commentary.
+- [Harrison Kinsley](https://x.com/Sentdex): \@Sentdex (Harrison Kinsley) — well-known ML/Python educator and YouTuber.
+- [Harveen Singh Chadha](https://x.com/HarveenChadha): \@HarveenChadha — Harveen Singh Chadha, ML engineer, focus on speech recognition and applied AI research.
+- [Hassaan Raza](https://x.com/hassaanraza): \@hassaanraza — CEO of Hume AI, building voice and emotion-aware AI models.
+- [Hassan](https://x.com/nutlope): \@nutlope — Together AI builder known for viral open-source generative AI projects.
+- [Healthcare AI Guy](https://x.com/HealthcareAIGuy): \@HealthcareAIGuy — covers healthcare AI industry news, tools, and market trends.
+- [HeyBrain](https://x.com/Heybrainio): \@Heybrainio — Enterprise AI workspace platform unifying agents, models, and company knowledge.
+- [HeyPCB](https://x.com/heypcbai): \@heypcbai — AI-powered PCB design platform, posts product and hardware collaboration updates.
+- [Hieu Pham](https://x.com/hyhieu226): \@hyhieu226 — AI researcher (ex-Google Brain), co-author of AutoAugment, ENAS and other ML papers.
+- [Higgsfield AI 🧩](https://x.com/higgsfield): \@higgsfield — Higgsfield AI, AI-powered video/image generation platform.
+- [How To Prompt](https://x.com/HowToPrompt__): \@HowToPrompt__ — AI education account covering prompt engineering and practical AI tool breakdowns.
+- [Hugging Face](https://x.com/huggingface): \@huggingface — leading open-source AI/ML model hub and platform.
+- [Hugging Models](https://x.com/HuggingModels): \@HuggingModels — Curates and explains open-source AI models.
+- [humans&](https://x.com/humansand): \@humansand — humans&, human-centric frontier AI lab building multi-agent and memory models.
+- [Hume AI](https://x.com/hume_ai): \@hume_ai — Hume AI, company building emotionally intelligent voice AI and empathic models.
+- [Ideogram](https://x.com/ideogram_ai): \@ideogram_ai — official account for Ideogram, AI image generation platform.
+- [Igor Babuschkin](https://x.com/ibab): \@ibab — xAI co-founder, AI research and infrastructure commentary.
+- [Illia (root.near) (🇺🇦, ⋈)](https://x.com/ilblackdragon): \@ilblackdragon — Illia, NEAR co-founder, posts on open-source and user-owned AI.
+- [Induction Labs](https://x.com/induction_labs): \@induction_labs — Induction Labs, focus on foundation models learned from video (imagination models).
+- [Inherent](https://x.com/inherent_labs): \@inherent_labs — AI lab building agents for scientific discovery.
+- [Inworld AI](https://x.com/inworld_ai): \@inworld_ai — Inworld AI, builder of AI character and NPC engines for games and interactive media.
+- [IREN](https://x.com/IREN_Ltd): \@IREN_Ltd — data-center operator pivoting from Bitcoin mining to AI cloud and GPU infrastructure at scale.
+- [ITmedia AI＋](https://x.com/itm_aiplus): \@itm_aiplus — ITmedia AI+, Japanese AI-focused tech media outlet.
+- [Ivan Fioravanti](https://x.com/ivanfioravanti): \@ivanfioravanti — Local AI/MLX builder, posts Apple Silicon LLM benchmarks and quantization work.
+- [Ivan Kirigin](https://x.com/ikirigin): \@ikirigin — AI and robotics investor at Tango.vc, builds and shares AI startup ideas.
+- [Ivan Landabaso](https://x.com/IvanLandabaso): \@IvanLandabaso — VC at JME Ventures, shares in-depth AI startup, funding, and venture-capital market analysis.
+- [Jack Morris](https://x.com/jxmnop): \@jxmnop — Jack Morris, AI researcher known for embedding inversion and privacy research.
+- [Jacob Coxon](https://x.com/hilbertspaess): \@hilbertspaess — Jacob Coxon, ex-OpenAI/Anthropic pretraining researcher, AI safety commentary.
+- [Jacob Posel](https://x.com/jacob_posel): \@jacob_posel — founder building HQ, an AI context/ops layer for companies, focus on AI agent workflows.
+- [Jakub Pachocki](https://x.com/merettm): \@merettm — Jakub Pachocki, Chief Scientist at OpenAI.
+- [James Wang](https://x.com/draecomino): \@draecomino — a16z American Dynamism partner, recognizable VC voice on AI/deep-tech investing.
+- [James Zou](https://x.com/james_y_zou): \@james_y_zou — Stanford professor, prominent AI/ML researcher (biomedical ML, foundation models).
+- [Jamie Simon](https://x.com/learning_mech): \@learning_mech — Deep learning theory researcher.
+- [jasmine sun](https://x.com/jasminewsun): \@jasminewsun — writer covering AI industry, policy, and tech culture.
+- [Jason Zhou](https://x.com/jasonzhou1993): \@jasonzhou1993 — AI YouTuber (AI Jason) making practical tutorials on AI agents, tools, and workflows.
+- [Jay](https://x.com/jayair): \@jayair — CEO of Anomaly, maker of the opencode AI coding agent.
+- [Jeff Dean](https://x.com/JeffDean): \@JeffDean — Google Chief Scientist, updates on Google AI research and infrastructure.
+- [Jeffrey Emanuel](https://x.com/doodlestein): \@doodlestein — Jeffrey Emanuel, AI commentator known for deep-dive analyses on AI economics and labs.
+- [Jeffrey Ladish](https://x.com/JeffLadish): \@JeffLadish — AI safety researcher at Palisade Research, focuses on AI risk, security, and misuse evaluations.
+- [Jensen Huang](https://x.com/JensenHuang): \@JensenHuang — Jensen Huang, CEO of NVIDIA.
+- [Jerry Liu](https://x.com/jerryjliu0): \@jerryjliu0 — Jerry Liu, founder of LlamaIndex, focus on RAG, agents, and LLM data frameworks.
+- [Jiao Sun](https://x.com/sunjiao123sun_): \@sunjiao123sun_ — Jiao Sun, AI researcher at Google working on responsible AI and NLP.
+- [jietang](https://x.com/jietang): \@jietang — Jie Tang, Tsinghua professor and co-founder of Zhipu AI (GLM/ChatGLM).
+- [Jim Fan](https://x.com/DrJimFan): \@DrJimFan — Jim Fan, NVIDIA senior research scientist, focus on embodied AI and robot foundation models.
+- [Jim Liu](https://x.com/jiahanjimliu): \@jiahanjimliu — Jim Liu, analysis on AI infrastructure spend, compute, and open-source models.
+- [jinjingliang](https://x.com/JinjingLiang): \@JinjingLiang — Jinjing Liang, ex-Google/YC engineer building open-source AI dev tooling (Orca), posts on AI-assisted engineering.
+- [Jino Rohit](https://x.com/jino_rohit): \@jino_rohit — ML engineer sharing LLM systems/inference optimization work.
+- [Jochen Madler](https://x.com/jochenmadler): \@jochenmadler — Jochen Madler, founder of Sitefire, building marketing tools for the agentic AI web.
+- [Joe Benton](https://x.com/JoeJBenton): \@JoeJBenton — Anthropic alignment and safety researcher, works on AI model evaluations.
+- [Joe Lonsdale](https://x.com/JTLonsdale): \@JTLonsdale — Joe Lonsdale, 8VC founder/VC investing heavily in AI, posts on AI industrial policy and regulation.
+- [John Carmack](https://x.com/ID_AA_Carmack): \@ID_AA_Carmack — John Carmack, working on AGI research at Keen Technologies.
+- [John Jumper](https://x.com/JohnJumperSci): \@JohnJumperSci — Nobel laureate, DeepMind scientist behind AlphaFold, shares AI-for-science research updates.
+- [John Schulman](https://x.com/johnschulman2): \@johnschulman2 — OpenAI co-founder, RL and post-training research commentary.
+- [Jon Hernandez](https://x.com/JonhernandezIA): \@JonhernandezIA — AI communicator with 800k+ YouTube following, covers AI news and policy in Spanish.
+- [Jon Lai](https://x.com/Tocelot): \@Tocelot — a16z speedrun GP investing across AI x creative tooling, recognizable VC voice.
+- [Joscha Bach](https://x.com/Plinz): \@Plinz — Joscha Bach, cognitive scientist and AI theorist on mind and AGI.
+- [Josh Engels](https://x.com/JoshAEngels): \@JoshAEngels — MIT PhD researcher working on AI interpretability.
 - [Josh Woodward](https://x.com/joshwoodward): Google and Google Labs product leader tracked for Gemini, AI Studio, and AI product launch signal.
-- [Jude Gomila](https://x.com/judegomila): @judegomila — Jude Gomila, AI entrepreneur and investor, comments on frontier AI research.
-- [Julian Schrittwieser](https://x.com/Mononofu): @Mononofu — Julian Schrittwieser, AI researcher (ex-DeepMind AlphaGo/MuZero, now Anthropic), posts on RL and frontier model research.
-- [Jun Song](https://x.com/jun_song): @jun_song — Founder of 0xSupergemma, focus on local LLMs and open-source AI.
-- [Justin Poehnelt](https://x.com/JPoehnelt): @JPoehnelt — engineer building AI-agent-first developer tooling (Google Workspace CLI/MCP server), shares agent infra insight.
-- [Justine Moore](https://x.com/venturetwins): @venturetwins — a16z partner covering consumer AI trends, apps, and generative AI product analysis.
-- [Jürgen Schmidhuber](https://x.com/SchmidhuberAI): @SchmidhuberAI — Jurgen Schmidhuber, LSTM co-inventor and pioneering deep learning researcher.
-- [kache](https://x.com/yacineMTB): @yacineMTB — AI engineer known for open-source AI tooling and commentary.
-- [Kaggle](https://x.com/kaggle): @kaggle — official Kaggle account, Google's ML competition and data science platform.
-- [Karan🧋](https://x.com/kmeanskaran): @kmeanskaran — ML-focused handle/commentary.
-- [Karl Mehta](https://x.com/karlmehta): @karlmehta — 3x AI founder/author, focus on AI policy and digital public infrastructure.
-- [Keerthana Gopalakrishnan](https://x.com/keerthanpg): @keerthanpg — AI/robotics researcher (ex-Google Brain), posts on embodied AI and ML research.
-- [Keith Woods](https://x.com/KeithWoodsYT): @KeithWoodsYT — AI YouTuber building and explaining AI agents, automation, and LLM tooling tutorials.
-- [Kelsey Piper](https://x.com/KelseyTuoc): @KelseyTuoc — Journalist (ex-Vox), covers AI safety, alignment, and AI lab accountability closely.
-- [Kevin A. Bryan](https://x.com/Afinetheorem): @Afinetheorem — Kevin A. Bryan, economist publishing widely-followed research and commentary on the economics of AI.
-- [Kevin Kwok](https://x.com/kevinakwok): @kevinakwok — VC at Khosla Ventures focused on AI, developer tools; writes tech strategy essays (Kwokchain).
-- [Kevin Liu](https://x.com/kliu128): @kliu128 — Kevin Liu, known for AI prompt-injection research and LLM security commentary.
-- [Kevin Patrick Murphy](https://x.com/sirbayes): @sirbayes — Google DeepMind researcher and author of the Probabilistic Machine Learning textbooks.
+- [Jude Gomila](https://x.com/judegomila): \@judegomila — Jude Gomila, AI entrepreneur and investor, comments on frontier AI research.
+- [Julian Schrittwieser](https://x.com/Mononofu): \@Mononofu — Julian Schrittwieser, AI researcher (ex-DeepMind AlphaGo/MuZero, now Anthropic), posts on RL and frontier model research.
+- [Jun Song](https://x.com/jun_song): \@jun_song — Founder of 0xSupergemma, focus on local LLMs and open-source AI.
+- [Justin Poehnelt](https://x.com/JPoehnelt): \@JPoehnelt — engineer building AI-agent-first developer tooling (Google Workspace CLI/MCP server), shares agent infra insight.
+- [Justine Moore](https://x.com/venturetwins): \@venturetwins — a16z partner covering consumer AI trends, apps, and generative AI product analysis.
+- [Jürgen Schmidhuber](https://x.com/SchmidhuberAI): \@SchmidhuberAI — Jurgen Schmidhuber, LSTM co-inventor and pioneering deep learning researcher.
+- [kache](https://x.com/yacineMTB): \@yacineMTB — AI engineer known for open-source AI tooling and commentary.
+- [Kaggle](https://x.com/kaggle): \@kaggle — official Kaggle account, Google's ML competition and data science platform.
+- [Karan🧋](https://x.com/kmeanskaran): \@kmeanskaran — ML-focused handle/commentary.
+- [Karl Mehta](https://x.com/karlmehta): \@karlmehta — 3x AI founder/author, focus on AI policy and digital public infrastructure.
+- [Keerthana Gopalakrishnan](https://x.com/keerthanpg): \@keerthanpg — AI/robotics researcher (ex-Google Brain), posts on embodied AI and ML research.
+- [Keith Woods](https://x.com/KeithWoodsYT): \@KeithWoodsYT — AI YouTuber building and explaining AI agents, automation, and LLM tooling tutorials.
+- [Kelsey Piper](https://x.com/KelseyTuoc): \@KelseyTuoc — Journalist (ex-Vox), covers AI safety, alignment, and AI lab accountability closely.
+- [Kevin A. Bryan](https://x.com/Afinetheorem): \@Afinetheorem — Kevin A. Bryan, economist publishing widely-followed research and commentary on the economics of AI.
+- [Kevin Kwok](https://x.com/kevinakwok): \@kevinakwok — VC at Khosla Ventures focused on AI, developer tools; writes tech strategy essays (Kwokchain).
+- [Kevin Liu](https://x.com/kliu128): \@kliu128 — Kevin Liu, known for AI prompt-injection research and LLM security commentary.
+- [Kevin Patrick Murphy](https://x.com/sirbayes): \@sirbayes — Google DeepMind researcher and author of the Probabilistic Machine Learning textbooks.
 - [Kevin Weil](https://x.com/kevinweil): OpenAI product leader tracked for frontier AI product direction, launches, and platform signal.
-- [Kevin Xu](https://x.com/kevinxu): @kevinxu — Writes Interconnected newsletter covering China tech and AI developments.
-- [Khairallah AL-Awady](https://x.com/eng_khairallah1): @eng_khairallah1 — angel investor covering AI and onchain research, shares AI tool and skill roundups.
-- [Kilo](https://x.com/kilocode): @kilocode — official account for Kilo Code, an open-source AI coding agent and VS Code extension.
-- [Kimi Developers](https://x.com/KimiDevs): @KimiDevs — official developer account for Kimi AI (Moonshot AI), shares model releases and technical updates.
-- [Kimi.ai](https://x.com/Kimi_Moonshot): @Kimi_Moonshot — Kimi.ai / Moonshot AI, focus on Kimi large language model releases and research.
-- [Kirk Borne](https://x.com/KirkDBorne): @KirkDBorne — Kirk Borne, prominent AI and data science commentator and educator.
-- [Kol Tregaskes](https://x.com/koltregaskes): @koltregaskes — UK-based AI news curator covering model releases, tools, and AI industry developments.
-- [Konstantine Buhler](https://x.com/Konstantine): @Konstantine — Sequoia Capital partner, AI engineer, posts on AI investing and the agent economy.
-- [koray kavukcuoglu](https://x.com/koraykv): @koraykv — Koray Kavukcuoglu, senior Google DeepMind AI researcher/CTO.
-- [Krea](https://x.com/krea_ai): @krea_ai — AI image and video generation company shipping creative-generation tools and models.
-- [Kumail Sikandar](https://x.com/Aiwithkumail): @Aiwithkumail — AI-focused content creator and educator.
-- [Kumesh Aroomoogan](https://x.com/kumesh_a): @kumesh_a — Serial AI entrepreneur, founder/CEO of ZeroDrift, compliance for AI agents.
-- [Kun Chen](https://x.com/kunchenguid): @kunchenguid — Ex-Meta/Microsoft engineering leader turned solo AI agent builder, focus on AI agent tooling.
-- [Kush](https://x.com/kushbhuwalka): @kushbhuwalka — Builds AI agent harnesses, shares coding-agent tooling commentary.
-- [Kyle Chan](https://x.com/kyleichan): @kyleichan — Brookings research fellow, focus on China's AI and tech industrial policy.
-- [kyutai](https://x.com/kyutai_labs): @kyutai_labs — Kyutai, open AI research lab focused on voice and multimodal models.
-- [lauren](https://x.com/poteto): @poteto — React compiler engineer (ex-Cursor, Meta), shares commentary on AI coding tools like Cursor/Claude Code.
-- [Lee Robinson](https://x.com/leerob): @leerob — Lee Robinson, VP at Vercel, writes on AI coding tools and developer workflows.
+- [Kevin Xu](https://x.com/kevinxu): \@kevinxu — Writes Interconnected newsletter covering China tech and AI developments.
+- [Khairallah AL-Awady](https://x.com/eng_khairallah1): \@eng_khairallah1 — angel investor covering AI and onchain research, shares AI tool and skill roundups.
+- [Kilo](https://x.com/kilocode): \@kilocode — official account for Kilo Code, an open-source AI coding agent and VS Code extension.
+- [Kimi Developers](https://x.com/KimiDevs): \@KimiDevs — official developer account for Kimi AI (Moonshot AI), shares model releases and technical updates.
+- [Kimi.ai](https://x.com/Kimi_Moonshot): \@Kimi_Moonshot — Kimi.ai / Moonshot AI, focus on Kimi large language model releases and research.
+- [Kirk Borne](https://x.com/KirkDBorne): \@KirkDBorne — Kirk Borne, prominent AI and data science commentator and educator.
+- [Kol Tregaskes](https://x.com/koltregaskes): \@koltregaskes — UK-based AI news curator covering model releases, tools, and AI industry developments.
+- [Konstantine Buhler](https://x.com/Konstantine): \@Konstantine — Sequoia Capital partner, AI engineer, posts on AI investing and the agent economy.
+- [koray kavukcuoglu](https://x.com/koraykv): \@koraykv — Koray Kavukcuoglu, senior Google DeepMind AI researcher/CTO.
+- [Krea](https://x.com/krea_ai): \@krea_ai — AI image and video generation company shipping creative-generation tools and models.
+- [Kumail Sikandar](https://x.com/Aiwithkumail): \@Aiwithkumail — AI-focused content creator and educator.
+- [Kumesh Aroomoogan](https://x.com/kumesh_a): \@kumesh_a — Serial AI entrepreneur, founder/CEO of ZeroDrift, compliance for AI agents.
+- [Kun Chen](https://x.com/kunchenguid): \@kunchenguid — Ex-Meta/Microsoft engineering leader turned solo AI agent builder, focus on AI agent tooling.
+- [Kush](https://x.com/kushbhuwalka): \@kushbhuwalka — Builds AI agent harnesses, shares coding-agent tooling commentary.
+- [Kyle Chan](https://x.com/kyleichan): \@kyleichan — Brookings research fellow, focus on China's AI and tech industrial policy.
+- [kyutai](https://x.com/kyutai_labs): \@kyutai_labs — Kyutai, open AI research lab focused on voice and multimodal models.
+- [lauren](https://x.com/poteto): \@poteto — React compiler engineer (ex-Cursor, Meta), shares commentary on AI coding tools like Cursor/Claude Code.
+- [Lee Robinson](https://x.com/leerob): \@leerob — Lee Robinson, VP at Vercel, writes on AI coding tools and developer workflows.
 - [Lenny Rachitsky](https://x.com/lennysan): X account tracked for AI commentary, launches, and technical signal.
-- [leo 🐾](https://x.com/synthwavedd): @synthwavedd — AI/tech commentator known for AI industry scoops.
-- [leonie](https://x.com/helloiamleonie): @helloiamleonie — ML engineer/DevRel known for practical RAG, LLM, and ML-engineering explainers.
-- [Leonie](https://x.com/helloiamleonie): @helloiamleonie — Leonie, AI/ML content creator, focus on RAG, vector databases, and applied AI.
+- [leo 🐾](https://x.com/synthwavedd): \@synthwavedd — AI/tech commentator known for AI industry scoops.
+- [leonie](https://x.com/helloiamleonie): \@helloiamleonie — ML engineer/DevRel known for practical RAG, LLM, and ML-engineering explainers.
+- [Leonie](https://x.com/helloiamleonie): \@helloiamleonie — Leonie, AI/ML content creator, focus on RAG, vector databases, and applied AI.
 - [Lex Fridman](https://x.com/lexfridman): Lex Fridman's account tracked for interviews and AI conversation signal.
-- [Lian Lim | Dashboard & AI Automation Expert](https://x.com/dashboardlim): @dashboardlim — Dashboard & AI automation expert sharing AI agent-building and automation workflow content.
-- [Lilian Weng](https://x.com/lilianweng): @lilianweng — renowned AI safety researcher (ex-OpenAI VP of Research), major technical AI voice.
-- [Limestone Digital](https://x.com/LimestoneHQ): @LimestoneHQ — AI transformation consultancy, shares production AI agent engineering insights.
-- [Lior Alexander](https://x.com/LiorOnAI): @LiorOnAI — Lior Alexander, curates and explains daily AI news, models, and product launches.
-- [Liquid AI](https://x.com/liquidai): @liquidai — official account of Liquid AI, maker of Liquid Foundation Models (LFMs) for efficient on-device AI.
-- [Lisa Su](https://x.com/LisaSu): @LisaSu — AMD CEO, central figure in AI chips and compute infrastructure.
-- [Lisan al Gaib](https://x.com/scaling01): @scaling01 — well-known AI Twitter analyst tracking frontier model releases, benchmarks, and scaling laws.
-- [Liv Boeree](https://x.com/Liv_Boeree): @Liv_Boeree — poker champion turned science communicator, known for AI existential-risk commentary.
-- [LM Studio](https://x.com/lmstudio): @lmstudio — official account of LM Studio, desktop app for running local LLMs.
-- [Logan Kilpatrick](https://x.com/OfficialLoganK): @OfficialLoganK — Logan Kilpatrick, leads Google AI Studio and Gemini API developer platform.
-- [Luiza Jarovsky, PhD](https://x.com/LuizaJarovsky): @LuizaJarovsky — Luiza Jarovsky, PhD, AI governance and privacy law researcher, focus on AI regulation.
-- [Lukas Ziegler](https://x.com/lukas_m_ziegler): @lukas_m_ziegler — Lukas Ziegler, robotics/AI media founder and evangelist, covers robotics+AI developments (World Labs, Skild AI).
-- [Lumina](https://x.com/LuminaBench): @LuminaBench — Publishes AI model benchmark leaderboards.
-- [Lydia Hallie ✨](https://x.com/lydiahallie): @lydiahallie — Lydia Hallie, on the Claude Code team at Anthropic, posts on AI dev tooling.
-- [Maggie Harrison Dupré](https://x.com/mags_h11): @mags_h11 — Futurism journalist covering the AI industry beat.
-- [Magic](https://x.com/magicailabs): @magicailabs — Magic, AI lab building long-context coding models.
-- [Manus](https://x.com/ManusAI): @ManusAI — official account of Manus, an AI agent product.
-- [Maor Shlomo](https://x.com/MaorShlomo): @MaorShlomo — founder of Base44, an AI app-building platform acquired by Wix.
-- [Marc Andreessen 🇺🇸](https://x.com/pmarca): @pmarca — Marc Andreessen, a16z co-founder, extensive commentary on AI and tech policy.
-- [Marco](https://x.com/maarcoofdezz): @maarcoofdezz — AI builder posting tutorials on LLM engineering, agents, and generative video tools.
-- [Mark Ajzenstadt](https://x.com/mardehaym): @mardehaym — Founder of Limestone HQ, focus on embedding AI engineers into enterprise teams.
-- [Mark Chen](https://x.com/markchen90): @markchen90 — Mark Chen, Chief Research Officer at OpenAI, leading its research organization.
-- [Mark Zuckerberg](https://x.com/finkd): @finkd — Mark Zuckerberg, Meta CEO driving major AI product and research announcements.
-- [Markus J. Buehler](https://x.com/ProfBuehlerMIT): @ProfBuehlerMIT — Markus J. Buehler, MIT professor applying AI to materials science and biology.
-- [martin_casado](https://x.com/martin_casado): @martin_casado — a16z general partner, prominent VC commentary on AI and infrastructure.
-- [Matan Grinberg](https://x.com/matanSF): @matanSF — Co-founder of Factory AI, building agentic coding software.
-- [Matei Zaharia](https://x.com/matei_zaharia): @matei_zaharia — Databricks CTO and cofounder, creator of Apache Spark, writes on AI/ML systems and data infrastructure.
-- [MATS Research](https://x.com/MATSprogram): @MATSprogram — MATS, an AI alignment research training program.
-- [Matt Clifford](https://x.com/matthewclifford): @matthewclifford — UK government AI advisor and Entrepreneur First co-founder, voice on AI policy/startups.
-- [Matt Dancho (Business Science)](https://x.com/mdancho84): @mdancho84 — Business Science founder, data science/ML educator covering applied forecasting and R/Python tooling.
-- [Matt Shumer](https://x.com/mattshumer_): @mattshumer_ — AI founder (OthersideAI/HyperWrite) sharing model releases and applied-AI build commentary.
+- [Lian Lim | Dashboard & AI Automation Expert](https://x.com/dashboardlim): \@dashboardlim — Dashboard & AI automation expert sharing AI agent-building and automation workflow content.
+- [Lilian Weng](https://x.com/lilianweng): \@lilianweng — renowned AI safety researcher (ex-OpenAI VP of Research), major technical AI voice.
+- [Limestone Digital](https://x.com/LimestoneHQ): \@LimestoneHQ — AI transformation consultancy, shares production AI agent engineering insights.
+- [Lior Alexander](https://x.com/LiorOnAI): \@LiorOnAI — Lior Alexander, curates and explains daily AI news, models, and product launches.
+- [Liquid AI](https://x.com/liquidai): \@liquidai — official account of Liquid AI, maker of Liquid Foundation Models (LFMs) for efficient on-device AI.
+- [Lisa Su](https://x.com/LisaSu): \@LisaSu — AMD CEO, central figure in AI chips and compute infrastructure.
+- [Lisan al Gaib](https://x.com/scaling01): \@scaling01 — well-known AI Twitter analyst tracking frontier model releases, benchmarks, and scaling laws.
+- [Liv Boeree](https://x.com/Liv_Boeree): \@Liv_Boeree — poker champion turned science communicator, known for AI existential-risk commentary.
+- [LM Studio](https://x.com/lmstudio): \@lmstudio — official account of LM Studio, desktop app for running local LLMs.
+- [Logan Kilpatrick](https://x.com/OfficialLoganK): \@OfficialLoganK — Logan Kilpatrick, leads Google AI Studio and Gemini API developer platform.
+- [Luiza Jarovsky, PhD](https://x.com/LuizaJarovsky): \@LuizaJarovsky — Luiza Jarovsky, PhD, AI governance and privacy law researcher, focus on AI regulation.
+- [Lukas Ziegler](https://x.com/lukas_m_ziegler): \@lukas_m_ziegler — Lukas Ziegler, robotics/AI media founder and evangelist, covers robotics+AI developments (World Labs, Skild AI).
+- [Lumina](https://x.com/LuminaBench): \@LuminaBench — Publishes AI model benchmark leaderboards.
+- [Lydia Hallie ✨](https://x.com/lydiahallie): \@lydiahallie — Lydia Hallie, on the Claude Code team at Anthropic, posts on AI dev tooling.
+- [Maggie Harrison Dupré](https://x.com/mags_h11): \@mags_h11 — Futurism journalist covering the AI industry beat.
+- [Magic](https://x.com/magicailabs): \@magicailabs — Magic, AI lab building long-context coding models.
+- [Manus](https://x.com/ManusAI): \@ManusAI — official account of Manus, an AI agent product.
+- [Maor Shlomo](https://x.com/MaorShlomo): \@MaorShlomo — founder of Base44, an AI app-building platform acquired by Wix.
+- [Marc Andreessen 🇺🇸](https://x.com/pmarca): \@pmarca — Marc Andreessen, a16z co-founder, extensive commentary on AI and tech policy.
+- [Marco](https://x.com/maarcoofdezz): \@maarcoofdezz — AI builder posting tutorials on LLM engineering, agents, and generative video tools.
+- [Mark Ajzenstadt](https://x.com/mardehaym): \@mardehaym — Founder of Limestone HQ, focus on embedding AI engineers into enterprise teams.
+- [Mark Chen](https://x.com/markchen90): \@markchen90 — Mark Chen, Chief Research Officer at OpenAI, leading its research organization.
+- [Mark Zuckerberg](https://x.com/finkd): \@finkd — Mark Zuckerberg, Meta CEO driving major AI product and research announcements.
+- [Markus J. Buehler](https://x.com/ProfBuehlerMIT): \@ProfBuehlerMIT — Markus J. Buehler, MIT professor applying AI to materials science and biology.
+- [martin_casado](https://x.com/martin_casado): \@martin_casado — a16z general partner, prominent VC commentary on AI and infrastructure.
+- [Matan Grinberg](https://x.com/matanSF): \@matanSF — Co-founder of Factory AI, building agentic coding software.
+- [Matei Zaharia](https://x.com/matei_zaharia): \@matei_zaharia — Databricks CTO and cofounder, creator of Apache Spark, writes on AI/ML systems and data infrastructure.
+- [MATS Research](https://x.com/MATSprogram): \@MATSprogram — MATS, an AI alignment research training program.
+- [Matt Clifford](https://x.com/matthewclifford): \@matthewclifford — UK government AI advisor and Entrepreneur First co-founder, voice on AI policy/startups.
+- [Matt Dancho (Business Science)](https://x.com/mdancho84): \@mdancho84 — Business Science founder, data science/ML educator covering applied forecasting and R/Python tooling.
+- [Matt Shumer](https://x.com/mattshumer_): \@mattshumer_ — AI founder (OthersideAI/HyperWrite) sharing model releases and applied-AI build commentary.
 - [Matt Turck](https://x.com/mattturck): FirstMark investor and MAD landscape author tracked for AI, data infrastructure, and market structure analysis.
-- [Matthew Berman](https://x.com/MatthewBerman): @MatthewBerman — Matthew Berman, popular AI YouTuber covering LLMs and AI tools.
-- [Matthew Botvinick](https://x.com/mattbotvinick): @mattbotvinick — Matthew Botvinick, DeepMind research lead at the intersection of neuroscience and AI.
-- [Max Jaderberg](https://x.com/maxjaderberg): @maxjaderberg — DeepMind/Isomorphic Labs researcher, prominent reinforcement learning voice.
-- [Max Zeff](https://x.com/ZeffMax): @ZeffMax — TechCrunch journalist covering AI industry news and startups.
-- [Maziyar PANAHI](https://x.com/MaziyarPanahi): @MaziyarPanahi — ML engineer, active in open-source LLM quantization and fine-tuning community.
-- [Meituan LongCat](https://x.com/Meituan_LongCat): @Meituan_LongCat — official account for Meituan's LongCat AI model family, shares releases and benchmarks.
-- [METR](https://x.com/METR_Evals): @METR_Evals — METR, research org focused on rigorous frontier AI model evaluations.
-- [Michael Mignano](https://x.com/mignano): @mignano — a16z partner, former Spotify exec, writes on AI products and consumer tech.
-- [Michael Truell](https://x.com/mntruell): @mntruell — Michael Truell, CEO/co-founder of Cursor (Anysphere), a leading AI coding tool.
-- [Michał Podlewski](https://x.com/trajektoriePL): @trajektoriePL — Polish AI, ML, and robotics commentator, writes the Trajektorie newsletter.
-- [Microsoft AI](https://x.com/MicrosoftAI): @MicrosoftAI — Microsoft's official AI product and research account.
-- [Midjourney](https://x.com/midjourney): @midjourney — leading AI image-generation company and one of the most-followed AI product accounts.
-- [Mihail Eric](https://x.com/mihail_eric): @mihail_eric — AI/ML writer and engineer covering conversational AI and LLM research.
-- [Mike Bradley](https://x.com/MikeBradleyAI): @MikeBradleyAI — Mike Bradley, focus on GPU inference benchmarking and open-source AI model security.
-- [Min Choi](https://x.com/minchoi): @minchoi — popular AI content creator covering daily AI tool news and tutorials.
-- [Minh Nhat Nguyen 🦭](https://x.com/menhguin): @menhguin — Minh Nhat Nguyen, AI agents builder (AIHubCentral) posting AI capability commentary.
-- [MiniMax (official)](https://x.com/MiniMax_AI): @MiniMax_AI — official account of Chinese AI lab MiniMax, posting model releases and research updates.
-- [Mira Murati](https://x.com/miramurati): @miramurati — Mira Murati, CEO of Thinking Machines Lab, former OpenAI CTO, focus on frontier AI research.
-- [Mirage](https://x.com/trymirage): @trymirage — Mirage, AI company building audio-to-video and avatar generation foundation models.
-- [Misha Laskin](https://x.com/MishaLaskin): @MishaLaskin — Misha Laskin, co-founder of Reflection AI, ex-DeepMind RL researcher.
-- [Mistral AI](https://x.com/MistralAI): @MistralAI — official account of Mistral AI, developer of open-weight frontier models.
-- [ModelScope](https://x.com/ModelScope2022): @ModelScope2022 — Alibaba's ModelScope, open-source AI model hub and community.
-- [monokern](https://x.com/monokern): @monokern — posts on AI coding tools and agent workflows (Claude Code, NotebookLM, AI productivity).
-- [Motionfly](https://x.com/Motionfly_co): @Motionfly_co — AI video generator for product launch and app demo videos.
-- [Muratcan Koylan](https://x.com/koylanai): @koylanai — Muratcan Koylan, context engineering researcher, focus on multi-agent AI systems.
-- [Mustafa Suleyman](https://x.com/mustafasuleyman): @mustafasuleyman — CEO of Microsoft AI and DeepMind co-founder, AI policy and product commentary.
-- [Nabeel S. Qureshi](https://x.com/nabeelqu): @nabeelqu — Nabeel Qureshi, tech essayist writing on AI progress, startups, and technology strategy.
-- [Nace AI](https://x.com/NaceAI): @NaceAI — AI startup building small, task-specific decision models for enterprises.
-- [nader dabit](https://x.com/dabit3): @dabit3 — Active commentator/builder on AI agents and dev tooling.
-- [Nat Friedman](https://x.com/natfriedman): @natfriedman — Former GitHub CEO, prominent AI investor via AI Grant and NFDG.
-- [Natasha Jaques](https://x.com/natashajaques): @natashajaques — AI researcher at University of Washington, focus on RL and human-AI interaction.
-- [Nathan Benaich](https://x.com/nathanbenaich): @nathanbenaich — Nathan Benaich, Air Street Capital, co-author of the annual State of AI Report.
-- [Nathan Lambert](https://x.com/natolambert): @natolambert — Allen Institute for AI researcher, RLHF and post-training expert.
-- [Nav Toor](https://x.com/heynavtoor): @heynavtoor — Nav Toor, AI education creator sharing practical AI guides, prompts, and tool workflows.
-- [Neel Nanda](https://x.com/NeelNanda5): @NeelNanda5 — DeepMind mechanistic interpretability researcher, writes on AI interpretability.
-- [Neil Chowdhury](https://x.com/ChowdhuryNeil): @ChowdhuryNeil — Neil Chowdhury, AI safety researcher at Thinking Machines Lab, ex-OpenAI Preparedness.
-- [Neuralink](https://x.com/neuralink): @neuralink — Elon Musk's brain-computer interface company, AI-adjacent neurotech research.
-- [Nicholas Charriere](https://x.com/nichochar): @nichochar — founder building an AI-powered website builder (Mocha), posts on AI dev tooling.
-- [Nick](https://x.com/nickcammarata): @nickcammarata — Ex-OpenAI mechanistic interpretability researcher, now at Goodfire AI.
-- [Nick Dobos](https://x.com/NickADobos): @NickADobos — Nick Dobos, indie developer, focus on AI coding tools and product experimentation.
-- [Nick St. Pierre](https://x.com/nickfloats): @nickfloats — prominent commentator tracking AI image/video generation (Midjourney, DALLE, etc).
-- [Nicolas Bustamante](https://x.com/nicbstme): @nicbstme — AI product lead at Microsoft (ex-Fintool CEO), writes influential AI industry analysis.
-- [Niels Rogge](https://x.com/NielsRogge): @NielsRogge — well-known HuggingFace/Transformers contributor and computer-vision ML researcher.
-- [NIK](https://x.com/ns123abc): @ns123abc — NIK, closely-followed AI commentator covering OpenAI, Meta, Google, and xAI strategy.
-- [Nina Schick](https://x.com/NinaDSchick): @NinaDSchick — Nina Schick, author and speaker on generative AI and synthetic media.
-- [Ning](https://x.com/totheagi): @totheagi — AI/AGI-focused commentary account.
-- [Noam Brown](https://x.com/polynoamial): @polynoamial — OpenAI researcher behind the o-series reasoning models, technical AI voice.
-- [Nous Research](https://x.com/NousResearch): @NousResearch — official account of Nous Research, open-source LLM research lab.
-- [NVIDIA](https://x.com/nvidia): @nvidia — official NVIDIA account covering GPU and AI computing platform announcements.
-- [NVIDIA AI](https://x.com/NVIDIAAI): @NVIDIAAI — official NVIDIA AI account covering GPU/AI platform announcements.
-- [NVIDIA AI Developer](https://x.com/NVIDIAAIDev): @NVIDIAAIDev — NVIDIA's official developer account for AI tooling, CUDA, and model deployment.
-- [NVIDIA AI Infrastructure](https://x.com/NVIDIAAIInfra): @NVIDIAAIInfra — Official NVIDIA account covering AI infrastructure and data center news.
-- [NVIDIA Healthcare](https://x.com/NVIDIAHealth): @NVIDIAHealth — NVIDIA's official healthcare AI account covering medical imaging and genomics AI.
-- [NVIDIA HPC Developer](https://x.com/NVIDIAHPCDev): @NVIDIAHPCDev — NVIDIA's official HPC developer account, covering GPU computing and AI infrastructure.
-- [NVIDIA Newsroom](https://x.com/nvidianewsroom): @nvidianewsroom — NVIDIA's official newsroom, focus on AI hardware, chips, and platform announcements.
-- [NVIDIA Robotics](https://x.com/NVIDIARobotics): @NVIDIARobotics — NVIDIA's official robotics + AI account.
-- [nxthompson](https://x.com/nxthompson): @nxthompson — Nicholas Thompson, Atlantic CEO, hosts an AI-focused podcast and interviews AI leaders like Sam Altman.
-- [Odyssey](https://x.com/odysseyml): @odysseyml — Odyssey, AI startup building interactive world models and generative video.
-- [Ole Lehmann](https://x.com/itsolelehmann): @itsolelehmann — AI creator/solopreneur sharing practical AI workflows and robotics commentary.
-- [Oliver Prompts](https://x.com/oliviscusAI): @oliviscusAI — Oliver Prompts, shares open-source AI tools, red-teaming projects, and prompt techniques.
-- [Olivia Moore](https://x.com/omooretweets): @omooretweets — Olivia Moore, a16z partner focused on AI, posts consumer AI trend analysis and app rankings.
-- [ollama](https://x.com/ollama): @ollama — official account for Ollama, the local LLM runtime and model hub.
-- [Omar Sanseviero](https://x.com/osanseviero): @osanseviero — Google DeepMind/Hugging Face ML engineer, prominent open-source AI advocate and educator.
+- [Matthew Berman](https://x.com/MatthewBerman): \@MatthewBerman — Matthew Berman, popular AI YouTuber covering LLMs and AI tools.
+- [Matthew Botvinick](https://x.com/mattbotvinick): \@mattbotvinick — Matthew Botvinick, DeepMind research lead at the intersection of neuroscience and AI.
+- [Max Jaderberg](https://x.com/maxjaderberg): \@maxjaderberg — DeepMind/Isomorphic Labs researcher, prominent reinforcement learning voice.
+- [Max Zeff](https://x.com/ZeffMax): \@ZeffMax — TechCrunch journalist covering AI industry news and startups.
+- [Maziyar PANAHI](https://x.com/MaziyarPanahi): \@MaziyarPanahi — ML engineer, active in open-source LLM quantization and fine-tuning community.
+- [Meituan LongCat](https://x.com/Meituan_LongCat): \@Meituan_LongCat — official account for Meituan's LongCat AI model family, shares releases and benchmarks.
+- [METR](https://x.com/METR_Evals): \@METR_Evals — METR, research org focused on rigorous frontier AI model evaluations.
+- [Michael Mignano](https://x.com/mignano): \@mignano — a16z partner, former Spotify exec, writes on AI products and consumer tech.
+- [Michael Truell](https://x.com/mntruell): \@mntruell — Michael Truell, CEO/co-founder of Cursor (Anysphere), a leading AI coding tool.
+- [Michał Podlewski](https://x.com/trajektoriePL): \@trajektoriePL — Polish AI, ML, and robotics commentator, writes the Trajektorie newsletter.
+- [Microsoft AI](https://x.com/MicrosoftAI): \@MicrosoftAI — Microsoft's official AI product and research account.
+- [Midjourney](https://x.com/midjourney): \@midjourney — leading AI image-generation company and one of the most-followed AI product accounts.
+- [Mihail Eric](https://x.com/mihail_eric): \@mihail_eric — AI/ML writer and engineer covering conversational AI and LLM research.
+- [Mike Bradley](https://x.com/MikeBradleyAI): \@MikeBradleyAI — Mike Bradley, focus on GPU inference benchmarking and open-source AI model security.
+- [Min Choi](https://x.com/minchoi): \@minchoi — popular AI content creator covering daily AI tool news and tutorials.
+- [Minh Nhat Nguyen 🦭](https://x.com/menhguin): \@menhguin — Minh Nhat Nguyen, AI agents builder (AIHubCentral) posting AI capability commentary.
+- [MiniMax (official)](https://x.com/MiniMax_AI): \@MiniMax_AI — official account of Chinese AI lab MiniMax, posting model releases and research updates.
+- [Mira Murati](https://x.com/miramurati): \@miramurati — Mira Murati, CEO of Thinking Machines Lab, former OpenAI CTO, focus on frontier AI research.
+- [Mirage](https://x.com/trymirage): \@trymirage — Mirage, AI company building audio-to-video and avatar generation foundation models.
+- [Misha Laskin](https://x.com/MishaLaskin): \@MishaLaskin — Misha Laskin, co-founder of Reflection AI, ex-DeepMind RL researcher.
+- [Mistral AI](https://x.com/MistralAI): \@MistralAI — official account of Mistral AI, developer of open-weight frontier models.
+- [ModelScope](https://x.com/ModelScope2022): \@ModelScope2022 — Alibaba's ModelScope, open-source AI model hub and community.
+- [monokern](https://x.com/monokern): \@monokern — posts on AI coding tools and agent workflows (Claude Code, NotebookLM, AI productivity).
+- [Motionfly](https://x.com/Motionfly_co): \@Motionfly_co — AI video generator for product launch and app demo videos.
+- [Muratcan Koylan](https://x.com/koylanai): \@koylanai — Muratcan Koylan, context engineering researcher, focus on multi-agent AI systems.
+- [Mustafa Suleyman](https://x.com/mustafasuleyman): \@mustafasuleyman — CEO of Microsoft AI and DeepMind co-founder, AI policy and product commentary.
+- [Nabeel S. Qureshi](https://x.com/nabeelqu): \@nabeelqu — Nabeel Qureshi, tech essayist writing on AI progress, startups, and technology strategy.
+- [Nace AI](https://x.com/NaceAI): \@NaceAI — AI startup building small, task-specific decision models for enterprises.
+- [nader dabit](https://x.com/dabit3): \@dabit3 — Active commentator/builder on AI agents and dev tooling.
+- [Nat Friedman](https://x.com/natfriedman): \@natfriedman — Former GitHub CEO, prominent AI investor via AI Grant and NFDG.
+- [Natasha Jaques](https://x.com/natashajaques): \@natashajaques — AI researcher at University of Washington, focus on RL and human-AI interaction.
+- [Nathan Benaich](https://x.com/nathanbenaich): \@nathanbenaich — Nathan Benaich, Air Street Capital, co-author of the annual State of AI Report.
+- [Nathan Lambert](https://x.com/natolambert): \@natolambert — Allen Institute for AI researcher, RLHF and post-training expert.
+- [Nav Toor](https://x.com/heynavtoor): \@heynavtoor — Nav Toor, AI education creator sharing practical AI guides, prompts, and tool workflows.
+- [Neel Nanda](https://x.com/NeelNanda5): \@NeelNanda5 — DeepMind mechanistic interpretability researcher, writes on AI interpretability.
+- [Neil Chowdhury](https://x.com/ChowdhuryNeil): \@ChowdhuryNeil — Neil Chowdhury, AI safety researcher at Thinking Machines Lab, ex-OpenAI Preparedness.
+- [Neuralink](https://x.com/neuralink): \@neuralink — Elon Musk's brain-computer interface company, AI-adjacent neurotech research.
+- [Nicholas Charriere](https://x.com/nichochar): \@nichochar — founder building an AI-powered website builder (Mocha), posts on AI dev tooling.
+- [Nick](https://x.com/nickcammarata): \@nickcammarata — Ex-OpenAI mechanistic interpretability researcher, now at Goodfire AI.
+- [Nick Dobos](https://x.com/NickADobos): \@NickADobos — Nick Dobos, indie developer, focus on AI coding tools and product experimentation.
+- [Nick St. Pierre](https://x.com/nickfloats): \@nickfloats — prominent commentator tracking AI image/video generation (Midjourney, DALLE, etc).
+- [Nicolas Bustamante](https://x.com/nicbstme): \@nicbstme — AI product lead at Microsoft (ex-Fintool CEO), writes influential AI industry analysis.
+- [Niels Rogge](https://x.com/NielsRogge): \@NielsRogge — well-known HuggingFace/Transformers contributor and computer-vision ML researcher.
+- [NIK](https://x.com/ns123abc): \@ns123abc — NIK, closely-followed AI commentator covering OpenAI, Meta, Google, and xAI strategy.
+- [Nina Schick](https://x.com/NinaDSchick): \@NinaDSchick — Nina Schick, author and speaker on generative AI and synthetic media.
+- [Ning](https://x.com/totheagi): \@totheagi — AI/AGI-focused commentary account.
+- [Noam Brown](https://x.com/polynoamial): \@polynoamial — OpenAI researcher behind the o-series reasoning models, technical AI voice.
+- [Nous Research](https://x.com/NousResearch): \@NousResearch — official account of Nous Research, open-source LLM research lab.
+- [NVIDIA](https://x.com/nvidia): \@nvidia — official NVIDIA account covering GPU and AI computing platform announcements.
+- [NVIDIA AI](https://x.com/NVIDIAAI): \@NVIDIAAI — official NVIDIA AI account covering GPU/AI platform announcements.
+- [NVIDIA AI Developer](https://x.com/NVIDIAAIDev): \@NVIDIAAIDev — NVIDIA's official developer account for AI tooling, CUDA, and model deployment.
+- [NVIDIA AI Infrastructure](https://x.com/NVIDIAAIInfra): \@NVIDIAAIInfra — Official NVIDIA account covering AI infrastructure and data center news.
+- [NVIDIA Healthcare](https://x.com/NVIDIAHealth): \@NVIDIAHealth — NVIDIA's official healthcare AI account covering medical imaging and genomics AI.
+- [NVIDIA HPC Developer](https://x.com/NVIDIAHPCDev): \@NVIDIAHPCDev — NVIDIA's official HPC developer account, covering GPU computing and AI infrastructure.
+- [NVIDIA Newsroom](https://x.com/nvidianewsroom): \@nvidianewsroom — NVIDIA's official newsroom, focus on AI hardware, chips, and platform announcements.
+- [NVIDIA Robotics](https://x.com/NVIDIARobotics): \@NVIDIARobotics — NVIDIA's official robotics + AI account.
+- [nxthompson](https://x.com/nxthompson): \@nxthompson — Nicholas Thompson, Atlantic CEO, hosts an AI-focused podcast and interviews AI leaders like Sam Altman.
+- [Odyssey](https://x.com/odysseyml): \@odysseyml — Odyssey, AI startup building interactive world models and generative video.
+- [Ole Lehmann](https://x.com/itsolelehmann): \@itsolelehmann — AI creator/solopreneur sharing practical AI workflows and robotics commentary.
+- [Oliver Prompts](https://x.com/oliviscusAI): \@oliviscusAI — Oliver Prompts, shares open-source AI tools, red-teaming projects, and prompt techniques.
+- [Olivia Moore](https://x.com/omooretweets): \@omooretweets — Olivia Moore, a16z partner focused on AI, posts consumer AI trend analysis and app rankings.
+- [ollama](https://x.com/ollama): \@ollama — official account for Ollama, the local LLM runtime and model hub.
+- [Omar Sanseviero](https://x.com/osanseviero): \@osanseviero — Google DeepMind/Hugging Face ML engineer, prominent open-source AI advocate and educator.
 - [OpenAI](https://x.com/OpenAI): Official OpenAI account monitored for launches, model updates, and platform signal.
 - [OpenAI Developers](https://x.com/OpenAIDevs): Developer-facing OpenAI account for API releases, tooling changes, and examples.
-- [OpenAI Newsroom](https://x.com/OpenAINewsroom): @OpenAINewsroom — official OpenAI announcements and product news account.
-- [OpenBMB](https://x.com/OpenBMB): @OpenBMB — Open-source LLM lab behind the MiniCPM model family, AI research and releases.
-- [OpenClaw🦞](https://x.com/openclaw): @openclaw — OpenClaw, self-hosted personal AI agent assistant.
-- [OpenCode](https://x.com/opencode): @opencode — official account for the OpenCode AI coding agent, shares releases and agentic coding updates.
-- [OpenMed](https://x.com/OpenMed_AI): @OpenMed_AI — open-source AI models and tools for healthcare/medicine.
-- [OpenRouter](https://x.com/OpenRouter): @OpenRouter — official account of the unified API for accessing hundreds of AI models.
-- [OrcaRouter 🐳](https://x.com/OrcaRouter): @OrcaRouter — AI gateway company: adaptive LLM routing, guardrails, and observability across 200+ models.
-- [Osaurus](https://x.com/OsaurusAI): @OsaurusAI — AI-focused product/company account.
-- [Ostris](https://x.com/ostrisai): @ostrisai — Ostris, maker of ai-toolkit, open-source tools for training diffusion/image-gen models.
-- [Oswald | Tech, Law, AI](https://x.com/oswaldwedam): @oswaldwedam — Commentary at the intersection of tech, law, and AI.
-- [Owain Evans](https://x.com/OwainEvans_UK): @OwainEvans_UK — AI safety researcher known for work on emergent misalignment in LLMs.
-- [P-Zero Research](https://x.com/pzeroresearch): @pzeroresearch — P-Zero Research, studies AI research-automation capability and risk forecasting.
-- [Palantir](https://x.com/PalantirTech): @PalantirTech — Palantir, official account, focus on AI-powered data analytics platforms (AIP).
-- [Palisade Research](https://x.com/PalisadeAI): @PalisadeAI — Palisade Research, AI safety research org studying offensive AI capabilities.
-- [Paras Chopra](https://x.com/paraschopra): @paraschopra — Paras Chopra, founder & AI thinker, focus on generative AI products and startup building.
-- [Pascal Bornet](https://x.com/pascal_bornet): @pascal_bornet — AI/automation author and keynote speaker on intelligent agents and AI adoption.
-- [Pat Grady](https://x.com/gradypb): @gradypb — Pat Grady, Sequoia Capital partner focused on AI investments and commentary.
-- [Paul Couvert](https://x.com/itsPaulAi): @itsPaulAi (Paul Couvert) — well-known AI news account covering daily model/product updates.
-- [Paul Graham](https://x.com/paulg): @paulg — Paul Graham, Y Combinator co-founder and essayist, frequent commentary on startups and AI.
-- [Paul Klein IV](https://x.com/pk_iv): @pk_iv — Paul Klein IV, CEO of Browserbase, focus on browser infrastructure for AI agents.
-- [Pedro Domingos](https://x.com/pmddomingos): @pmddomingos — Pedro Domingos, UW professor and AI researcher, author of The Master Algorithm.
-- [Pengchuan Zhang](https://x.com/PengchuanZ): @PengchuanZ — Pengchuan Zhang, AI researcher focused on computer vision and machine learning.
-- [Perplexity](https://x.com/perplexity_ai): @perplexity_ai — Perplexity, official account for the AI-powered answer engine and search assistant.
-- [Perry E. Metzger](https://x.com/perrymetzger): @perrymetzger — tech veteran posting frequent substantive commentary on AI safety/regulation/coding.
-- [Peter Gostev](https://x.com/petergostev): @petergostev — Head of AI at Moonpig, writes a widely-read AI newsletter with sharp, practical industry analysis.
-- [Peter H. Diamandis, MD](https://x.com/PeterDiamandis): @PeterDiamandis — XPRIZE founder and futurist, covers exponential tech and AI's impact on abundance and longevity.
-- [Peter Wildeford🇺🇸🚀](https://x.com/peterwildeford): @peterwildeford — Peter Wildeford, AI policy researcher, focus on AI safety and governance strategy.
+- [OpenAI Newsroom](https://x.com/OpenAINewsroom): \@OpenAINewsroom — official OpenAI announcements and product news account.
+- [OpenBMB](https://x.com/OpenBMB): \@OpenBMB — Open-source LLM lab behind the MiniCPM model family, AI research and releases.
+- [OpenClaw🦞](https://x.com/openclaw): \@openclaw — OpenClaw, self-hosted personal AI agent assistant.
+- [OpenCode](https://x.com/opencode): \@opencode — official account for the OpenCode AI coding agent, shares releases and agentic coding updates.
+- [OpenMed](https://x.com/OpenMed_AI): \@OpenMed_AI — open-source AI models and tools for healthcare/medicine.
+- [OpenRouter](https://x.com/OpenRouter): \@OpenRouter — official account of the unified API for accessing hundreds of AI models.
+- [OrcaRouter 🐳](https://x.com/OrcaRouter): \@OrcaRouter — AI gateway company: adaptive LLM routing, guardrails, and observability across 200+ models.
+- [Osaurus](https://x.com/OsaurusAI): \@OsaurusAI — AI-focused product/company account.
+- [Ostris](https://x.com/ostrisai): \@ostrisai — Ostris, maker of ai-toolkit, open-source tools for training diffusion/image-gen models.
+- [Oswald | Tech, Law, AI](https://x.com/oswaldwedam): \@oswaldwedam — Commentary at the intersection of tech, law, and AI.
+- [Owain Evans](https://x.com/OwainEvans_UK): \@OwainEvans_UK — AI safety researcher known for work on emergent misalignment in LLMs.
+- [P-Zero Research](https://x.com/pzeroresearch): \@pzeroresearch — P-Zero Research, studies AI research-automation capability and risk forecasting.
+- [Palantir](https://x.com/PalantirTech): \@PalantirTech — Palantir, official account, focus on AI-powered data analytics platforms (AIP).
+- [Palisade Research](https://x.com/PalisadeAI): \@PalisadeAI — Palisade Research, AI safety research org studying offensive AI capabilities.
+- [Paras Chopra](https://x.com/paraschopra): \@paraschopra — Paras Chopra, founder & AI thinker, focus on generative AI products and startup building.
+- [Pascal Bornet](https://x.com/pascal_bornet): \@pascal_bornet — AI/automation author and keynote speaker on intelligent agents and AI adoption.
+- [Pat Grady](https://x.com/gradypb): \@gradypb — Pat Grady, Sequoia Capital partner focused on AI investments and commentary.
+- [Paul Couvert](https://x.com/itsPaulAi): \@itsPaulAi (Paul Couvert) — well-known AI news account covering daily model/product updates.
+- [Paul Graham](https://x.com/paulg): \@paulg — Paul Graham, Y Combinator co-founder and essayist, frequent commentary on startups and AI.
+- [Paul Klein IV](https://x.com/pk_iv): \@pk_iv — Paul Klein IV, CEO of Browserbase, focus on browser infrastructure for AI agents.
+- [Pedro Domingos](https://x.com/pmddomingos): \@pmddomingos — Pedro Domingos, UW professor and AI researcher, author of The Master Algorithm.
+- [Pengchuan Zhang](https://x.com/PengchuanZ): \@PengchuanZ — Pengchuan Zhang, AI researcher focused on computer vision and machine learning.
+- [Perplexity](https://x.com/perplexity_ai): \@perplexity_ai — Perplexity, official account for the AI-powered answer engine and search assistant.
+- [Perry E. Metzger](https://x.com/perrymetzger): \@perrymetzger — tech veteran posting frequent substantive commentary on AI safety/regulation/coding.
+- [Peter Gostev](https://x.com/petergostev): \@petergostev — Head of AI at Moonpig, writes a widely-read AI newsletter with sharp, practical industry analysis.
+- [Peter H. Diamandis, MD](https://x.com/PeterDiamandis): \@PeterDiamandis — XPRIZE founder and futurist, covers exponential tech and AI's impact on abundance and longevity.
+- [Peter Wildeford🇺🇸🚀](https://x.com/peterwildeford): \@peterwildeford — Peter Wildeford, AI policy researcher, focus on AI safety and governance strategy.
 - [Peter Yang](https://x.com/petergyang): AI product writer and operator tracked for practical AI workflows, product strategy, and builder commentary.
-- [Peyman Milanfar](https://x.com/docmilanfar): @docmilanfar — Peyman Milanfar, computational imaging and computer vision researcher at Google.
-- [PhAI Labs](https://x.com/PhAILabs): @PhAILabs — AI lab building discovery foundation models and agents for scientific research.
-- [Phil Trubey](https://x.com/PTrubey): @PTrubey — San Diego AI watcher analyzing robotics, neuromorphic computing, and AI research talks.
-- [Philip Johnston](https://x.com/PhilipJohnston): @PhilipJohnston — Cofounder/CEO of Starcloud, focus on orbital data centers for AI compute.
-- [Philip Kiely](https://x.com/philipkiely): @philipkiely — Baseten leader writing on AI model inference infrastructure and LLM deployment.
-- [Philipp Schmid](https://x.com/_philschmid): @_philschmid — well-known AI/ML technical educator (Google DeepMind, ex-Hugging Face).
-- [Phillip Isola](https://x.com/phillip_isola): @phillip_isola — MIT professor, computer vision/generative AI researcher (pix2pix, CycleGAN).
-- [Physical Intelligence](https://x.com/physical_int): @physical_int — Physical Intelligence, AI robotics lab building general-purpose robot foundation models.
-- [Pierrick Chevallier | IA](https://x.com/CharaspowerAI): @CharaspowerAI — French AI (IA) content creator.
-- [Pietro Schirano](https://x.com/skirano): @skirano — Pietro Schirano, well-known AI builder and designer sharing hands-on AI product demos.
-- [Piotr Sankowski](https://x.com/piotrsankowski): @piotrsankowski — professor and AI research institute director (IDEAS NCBR/ELLIS Warsaw), algorithms and AI.
-- [Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭](https://x.com/elder_plinius): @elder_plinius — Pliny the Liberator, prominent AI jailbreak/red-teaming figure closely followed in AI Twitter.
-- [Pokee AI](https://x.com/Pokee_AI): @Pokee_AI — Pokee AI, AI agent startup.
-- [Prajwal Tomar](https://x.com/PrajwalTomar_): @PrajwalTomar_ — no-code/AI educator sharing tutorials on building apps with AI tools and agents.
-- [Pratyush Kumar](https://x.com/pratykumar): @pratykumar — cofounder of Sarvam AI, builds foundation models for Indian languages, shares AI research insight.
-- [Prime Intellect](https://x.com/PrimeIntellect): @PrimeIntellect — decentralized/open AI training company building distributed compute infrastructure.
-- [PrismML](https://x.com/PrismML): @PrismML — AI lab (Caltech origins) building efficient small/on-device models like Bonsai.
-- [Prof. Anima Anandkumar](https://x.com/AnimaAnandkumar): @AnimaAnandkumar — Bren Professor at Caltech and NVIDIA AI research director, focus on ML for science.
-- [Psyho](https://x.com/FakePsyho): @FakePsyho — Psyho, ex-OpenAI, top competitive programmer commentating on AI vs human coding competitions.
-- [Pushmeet Kohli](https://x.com/pushmeet): @pushmeet — Pushmeet Kohli, VP of Research at Google DeepMind, focus on AI safety and science.
-- [Quanquan Gu](https://x.com/QuanquanGu): @QuanquanGu — Quanquan Gu, UCLA professor researching machine learning theory.
-- [Qwen](https://x.com/Alibaba_Qwen): @Alibaba_Qwen — official account for Alibaba's Qwen open-weight LLM family and releases.
-- [Rachel Metz](https://x.com/rachelmetz): @rachelmetz — Rachel Metz, Bloomberg journalist, focus on AI industry news and analysis.
-- [RadixArk](https://x.com/radixark): @radixark — AI infrastructure startup building large-scale inference/training systems, founded by SGLang core devs.
-- [Rahul](https://x.com/sairahul1): @sairahul1 — AI educator posting practical tool breakdowns and analysis of AI lab strategy shifts.
-- [Rajesh Thallam](https://x.com/rajesh_thallam): @rajesh_thallam — AI infrastructure engineer (ex-Google Cloud), building EnsureCare, focus on agentic AI systems.
-- [Ravi Gupta](https://x.com/GuptaRK22): @GuptaRK22 — Ravi Gupta, Sequoia Capital partner, posts commentary on AI-driven business transformation.
-- [Ravid Shwartz Ziv](https://x.com/ziv_ravid): @ziv_ravid — Ravid Shwartz-Ziv, NYU AI/ML researcher known for information-theoretic deep learning work.
-- [Ray Fernando](https://x.com/RayFernando1337): @RayFernando1337 — Ex-Apple engineer turned AI builder, livestreams AI coding and tool-building.
-- [Reflection](https://x.com/reflection_ai): @reflection_ai — Reflection AI, frontier AI research lab building autonomous coding agents.
-- [Reid Southen](https://x.com/Rahll): @Rahll — Reid Southen, VFX artist and prominent commentator on generative AI art/copyright issues.
-- [Remi Cadene](https://x.com/RemiCadene): @RemiCadene — Hugging Face robotics lead, creator of the LeRobot project.
-- [Reward AI](https://x.com/RewardAI_): @RewardAI_ — Reward AI, builds robot foundation models (OM-1) for general-purpose manipulation.
-- [Richard Ngo](https://x.com/RichardMCNgo): @RichardMCNgo — AI safety researcher, ex-OpenAI, writes on alignment and AI governance.
-- [Richard Sutton](https://x.com/RichardSSutton): @RichardSSutton — legendary RL researcher (co-author of Sutton & Barto), foundational voice in AI.
-- [Ritwik Pavan](https://x.com/ritwikpavan): @ritwikpavan — SF-based AI/robotics founder covering consumer AI hardware and gadget launches.
-- [rob - comfyui](https://x.com/hellorob): @hellorob — Rob, associated with ComfyUI, posts on AI image/video generation workflows.
-- [Rob Bensinger ⏹️](https://x.com/robbensinger): @robbensinger — AI safety researcher at MIRI, writes on AI risk, alignment, and agent foundations.
-- [Rob Miles](https://x.com/robertskmiles): @robertskmiles — AI safety researcher and educator known for accessible alignment explainers.
-- [Robert Scoble](https://x.com/Scobleizer): @Scobleizer — veteran tech blogger covering AI, robotics, and emerging tech trends with hands-on commentary.
+- [Peyman Milanfar](https://x.com/docmilanfar): \@docmilanfar — Peyman Milanfar, computational imaging and computer vision researcher at Google.
+- [PhAI Labs](https://x.com/PhAILabs): \@PhAILabs — AI lab building discovery foundation models and agents for scientific research.
+- [Phil Trubey](https://x.com/PTrubey): \@PTrubey — San Diego AI watcher analyzing robotics, neuromorphic computing, and AI research talks.
+- [Philip Johnston](https://x.com/PhilipJohnston): \@PhilipJohnston — Cofounder/CEO of Starcloud, focus on orbital data centers for AI compute.
+- [Philip Kiely](https://x.com/philipkiely): \@philipkiely — Baseten leader writing on AI model inference infrastructure and LLM deployment.
+- [Philipp Schmid](https://x.com/_philschmid): \@_philschmid — well-known AI/ML technical educator (Google DeepMind, ex-Hugging Face).
+- [Phillip Isola](https://x.com/phillip_isola): \@phillip_isola — MIT professor, computer vision/generative AI researcher (pix2pix, CycleGAN).
+- [Physical Intelligence](https://x.com/physical_int): \@physical_int — Physical Intelligence, AI robotics lab building general-purpose robot foundation models.
+- [Pierrick Chevallier | IA](https://x.com/CharaspowerAI): \@CharaspowerAI — French AI (IA) content creator.
+- [Pietro Schirano](https://x.com/skirano): \@skirano — Pietro Schirano, well-known AI builder and designer sharing hands-on AI product demos.
+- [Piotr Sankowski](https://x.com/piotrsankowski): \@piotrsankowski — professor and AI research institute director (IDEAS NCBR/ELLIS Warsaw), algorithms and AI.
+- [Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭](https://x.com/elder_plinius): \@elder_plinius — Pliny the Liberator, prominent AI jailbreak/red-teaming figure closely followed in AI Twitter.
+- [Pokee AI](https://x.com/Pokee_AI): \@Pokee_AI — Pokee AI, AI agent startup.
+- [Prajwal Tomar](https://x.com/PrajwalTomar_): \@PrajwalTomar_ — no-code/AI educator sharing tutorials on building apps with AI tools and agents.
+- [Pratyush Kumar](https://x.com/pratykumar): \@pratykumar — cofounder of Sarvam AI, builds foundation models for Indian languages, shares AI research insight.
+- [Prime Intellect](https://x.com/PrimeIntellect): \@PrimeIntellect — decentralized/open AI training company building distributed compute infrastructure.
+- [PrismML](https://x.com/PrismML): \@PrismML — AI lab (Caltech origins) building efficient small/on-device models like Bonsai.
+- [Prof. Anima Anandkumar](https://x.com/AnimaAnandkumar): \@AnimaAnandkumar — Bren Professor at Caltech and NVIDIA AI research director, focus on ML for science.
+- [Psyho](https://x.com/FakePsyho): \@FakePsyho — Psyho, ex-OpenAI, top competitive programmer commentating on AI vs human coding competitions.
+- [Pushmeet Kohli](https://x.com/pushmeet): \@pushmeet — Pushmeet Kohli, VP of Research at Google DeepMind, focus on AI safety and science.
+- [Quanquan Gu](https://x.com/QuanquanGu): \@QuanquanGu — Quanquan Gu, UCLA professor researching machine learning theory.
+- [Qwen](https://x.com/Alibaba_Qwen): \@Alibaba_Qwen — official account for Alibaba's Qwen open-weight LLM family and releases.
+- [Rachel Metz](https://x.com/rachelmetz): \@rachelmetz — Rachel Metz, Bloomberg journalist, focus on AI industry news and analysis.
+- [RadixArk](https://x.com/radixark): \@radixark — AI infrastructure startup building large-scale inference/training systems, founded by SGLang core devs.
+- [Rahul](https://x.com/sairahul1): \@sairahul1 — AI educator posting practical tool breakdowns and analysis of AI lab strategy shifts.
+- [Rajesh Thallam](https://x.com/rajesh_thallam): \@rajesh_thallam — AI infrastructure engineer (ex-Google Cloud), building EnsureCare, focus on agentic AI systems.
+- [Ravi Gupta](https://x.com/GuptaRK22): \@GuptaRK22 — Ravi Gupta, Sequoia Capital partner, posts commentary on AI-driven business transformation.
+- [Ravid Shwartz Ziv](https://x.com/ziv_ravid): \@ziv_ravid — Ravid Shwartz-Ziv, NYU AI/ML researcher known for information-theoretic deep learning work.
+- [Ray Fernando](https://x.com/RayFernando1337): \@RayFernando1337 — Ex-Apple engineer turned AI builder, livestreams AI coding and tool-building.
+- [Reflection](https://x.com/reflection_ai): \@reflection_ai — Reflection AI, frontier AI research lab building autonomous coding agents.
+- [Reid Southen](https://x.com/Rahll): \@Rahll — Reid Southen, VFX artist and prominent commentator on generative AI art/copyright issues.
+- [Remi Cadene](https://x.com/RemiCadene): \@RemiCadene — Hugging Face robotics lead, creator of the LeRobot project.
+- [Reward AI](https://x.com/RewardAI_): \@RewardAI_ — Reward AI, builds robot foundation models (OM-1) for general-purpose manipulation.
+- [Richard Ngo](https://x.com/RichardMCNgo): \@RichardMCNgo — AI safety researcher, ex-OpenAI, writes on alignment and AI governance.
+- [Richard Sutton](https://x.com/RichardSSutton): \@RichardSSutton — legendary RL researcher (co-author of Sutton & Barto), foundational voice in AI.
+- [Ritwik Pavan](https://x.com/ritwikpavan): \@ritwikpavan — SF-based AI/robotics founder covering consumer AI hardware and gadget launches.
+- [rob - comfyui](https://x.com/hellorob): \@hellorob — Rob, associated with ComfyUI, posts on AI image/video generation workflows.
+- [Rob Bensinger ⏹️](https://x.com/robbensinger): \@robbensinger — AI safety researcher at MIRI, writes on AI risk, alignment, and agent foundations.
+- [Rob Miles](https://x.com/robertskmiles): \@robertskmiles — AI safety researcher and educator known for accessible alignment explainers.
+- [Robert Scoble](https://x.com/Scobleizer): \@Scobleizer — veteran tech blogger covering AI, robotics, and emerging tech trends with hands-on commentary.
 - [Robert Youssef](https://x.com/rryssf_): X account tracked for AI commentary, launches, and technical signal.
 - [Rohan Paul](https://x.com/rohanpaul_ai): X account tracked for AI commentary, launches, and technical signal.
-- [roon](https://x.com/tszzl): @tszzl — roon, OpenAI-affiliated commentator widely followed for AI industry takes.
-- [Rowan Cheung](https://x.com/rowancheung): @rowancheung — Rowan Cheung, founder of The Rundown AI, focus on daily AI news and product coverage.
-- [Ruben Hassid](https://x.com/rubenhassid): @rubenhassid — widely followed AI educator/creator covering AI tools, workflows, and industry trends.
-- [Russ Salakhutdinov](https://x.com/rsalakhu): @rsalakhu — Russ Salakhutdinov, CMU professor, focus on deep learning research and AI safety.
-- [Ryan Carson](https://x.com/ryancarson): @ryancarson — founder of Untangle (AI for family law), shares AI coding workflows and agent-building tips for founders.
-- [Ryan Greenblatt](https://x.com/RyanGreenblatt): @RyanGreenblatt — AI safety researcher at Redwood Research, writes on AI alignment, scheming, and model evaluations.
-- [Rylan Schaeffer](https://x.com/RylanSchaeffer): @RylanSchaeffer — Stanford PhD researcher working on AI safety and alignment.
-- [Ryo Lu](https://x.com/ryolu_): @ryolu_ — design lead at Cursor, prominent voice in AI coding tool design.
-- [Ryohei Sasaki@engineer](https://x.com/rsasaki0109): @rsasaki0109 — Robotics/localization engineer at MAP IV (TIER IV), focus on SLAM and autonomous-driving AI research.
-- [Sakana AI](https://x.com/SakanaAILabs): @SakanaAILabs — official account of Sakana AI, research lab known for evolutionary/nature-inspired AI.
+- [roon](https://x.com/tszzl): \@tszzl — roon, OpenAI-affiliated commentator widely followed for AI industry takes.
+- [Rowan Cheung](https://x.com/rowancheung): \@rowancheung — Rowan Cheung, founder of The Rundown AI, focus on daily AI news and product coverage.
+- [Ruben Hassid](https://x.com/rubenhassid): \@rubenhassid — widely followed AI educator/creator covering AI tools, workflows, and industry trends.
+- [Russ Salakhutdinov](https://x.com/rsalakhu): \@rsalakhu — Russ Salakhutdinov, CMU professor, focus on deep learning research and AI safety.
+- [Ryan Carson](https://x.com/ryancarson): \@ryancarson — founder of Untangle (AI for family law), shares AI coding workflows and agent-building tips for founders.
+- [Ryan Greenblatt](https://x.com/RyanGreenblatt): \@RyanGreenblatt — AI safety researcher at Redwood Research, writes on AI alignment, scheming, and model evaluations.
+- [Rylan Schaeffer](https://x.com/RylanSchaeffer): \@RylanSchaeffer — Stanford PhD researcher working on AI safety and alignment.
+- [Ryo Lu](https://x.com/ryolu_): \@ryolu_ — design lead at Cursor, prominent voice in AI coding tool design.
+- [Ryohei Sasaki@engineer](https://x.com/rsasaki0109): \@rsasaki0109 — Robotics/localization engineer at MAP IV (TIER IV), focus on SLAM and autonomous-driving AI research.
+- [Sakana AI](https://x.com/SakanaAILabs): \@SakanaAILabs — official account of Sakana AI, research lab known for evolutionary/nature-inspired AI.
 - [Sam Altman](https://x.com/sama): Sam Altman's account, tracked for company direction, launches, and ecosystem commentary.
-- [Sam Hogan 🇺🇸](https://x.com/samhogan): @samhogan — CEO of Inference.net, focus on AI inference infrastructure.
-- [sam lessin 🏴‍☠️](https://x.com/lessin): @lessin — Slow Ventures partner, former Facebook VP Product, writes on tech and AI trends.
-- [Sam Padilla](https://x.com/theSamPadilla): @theSamPadilla — Co-founder of Eidon AI, works on applied AI and robotics data.
-- [Samuel Marks](https://x.com/saprmarks): @saprmarks — Samuel Marks, AI safety and interpretability researcher at Anthropic.
-- [Samuel Sokota](https://x.com/ssokota): @ssokota — Samuel Sokota, AI researcher working on multi-agent reinforcement learning.
-- [Samuel Zeng](https://x.com/SamuelZengML): @SamuelZengML — Machine learning researcher/engineer sharing ML research commentary.
-- [Santiago](https://x.com/svpino): @svpino — Santiago Valdarrama, ML educator, focus on practical machine learning and AI engineering.
-- [Sanyam Jain (sanyam-ai.in)](https://x.com/Sanyam0605): @Sanyam0605 — AI/ML engineer and researcher at IIT Delhi DAIR, shares AI research notes.
-- [Saoud Rizwan](https://x.com/sdrzn): @sdrzn — Saoud Rizwan, founder of Cline, a popular open-source AI coding agent.
-- [sarah guo](https://x.com/saranormous): @saranormous — Sarah Guo, founder of Conviction, co-host of No Priors, focus on AI startup investing.
-- [Sarvam](https://x.com/SarvamAI): @SarvamAI — Indian AI lab building sovereign LLMs for Indian languages.
-- [Satya Nadella](https://x.com/satyanadella): @satyanadella — Satya Nadella, Microsoft CEO, focus on enterprise AI strategy and Copilot/Azure AI.
-- [Saurabh Kumar](https://x.com/drummatick): @drummatick — AI agents engineer building Adora, focus on LLM finetuning and agent harnesses.
-- [Sawyer Merritt](https://x.com/SawyerMerritt): @SawyerMerritt — tech journalist tracking Tesla, xAI, and AI robotics/Optimus developments with frequent breaking updates.
-- [Scott Stevenson](https://x.com/scottastevenson): @scottastevenson — founder of Spellbook, a generative-AI copilot for lawyers, writing on applied AI.
+- [Sam Hogan 🇺🇸](https://x.com/samhogan): \@samhogan — CEO of Inference.net, focus on AI inference infrastructure.
+- [sam lessin 🏴‍☠️](https://x.com/lessin): \@lessin — Slow Ventures partner, former Facebook VP Product, writes on tech and AI trends.
+- [Sam Padilla](https://x.com/theSamPadilla): \@theSamPadilla — Co-founder of Eidon AI, works on applied AI and robotics data.
+- [Samuel Marks](https://x.com/saprmarks): \@saprmarks — Samuel Marks, AI safety and interpretability researcher at Anthropic.
+- [Samuel Sokota](https://x.com/ssokota): \@ssokota — Samuel Sokota, AI researcher working on multi-agent reinforcement learning.
+- [Samuel Zeng](https://x.com/SamuelZengML): \@SamuelZengML — Machine learning researcher/engineer sharing ML research commentary.
+- [Santiago](https://x.com/svpino): \@svpino — Santiago Valdarrama, ML educator, focus on practical machine learning and AI engineering.
+- [Sanyam Jain (sanyam-ai.in)](https://x.com/Sanyam0605): \@Sanyam0605 — AI/ML engineer and researcher at IIT Delhi DAIR, shares AI research notes.
+- [Saoud Rizwan](https://x.com/sdrzn): \@sdrzn — Saoud Rizwan, founder of Cline, a popular open-source AI coding agent.
+- [sarah guo](https://x.com/saranormous): \@saranormous — Sarah Guo, founder of Conviction, co-host of No Priors, focus on AI startup investing.
+- [Sarvam](https://x.com/SarvamAI): \@SarvamAI — Indian AI lab building sovereign LLMs for Indian languages.
+- [Satya Nadella](https://x.com/satyanadella): \@satyanadella — Satya Nadella, Microsoft CEO, focus on enterprise AI strategy and Copilot/Azure AI.
+- [Saurabh Kumar](https://x.com/drummatick): \@drummatick — AI agents engineer building Adora, focus on LLM finetuning and agent harnesses.
+- [Sawyer Merritt](https://x.com/SawyerMerritt): \@SawyerMerritt — tech journalist tracking Tesla, xAI, and AI robotics/Optimus developments with frequent breaking updates.
+- [Scott Stevenson](https://x.com/scottastevenson): \@scottastevenson — founder of Spellbook, a generative-AI copilot for lawyers, writing on applied AI.
 - [Sebastian Raschka](https://x.com/rasbt): Sebastian Raschka's account, tracked for tutorials, model notes, and practical ML signal.
-- [SemiAnalysis](https://x.com/SemiAnalysis_): @SemiAnalysis_ — leading semiconductor and AI infrastructure industry analysis.
-- [Sergey Karayev](https://x.com/sergeykarayev): @sergeykarayev — Sergey Karayev, ML researcher and co-founder working on AI products and education.
-- [Sergii Makarevych](https://x.com/sermakarevich): @sermakarevich — Kaggle Grandmaster and machine learning engineer sharing ML insights.
-- [Shannon Sands](https://x.com/max_paperclips): @max_paperclips — Shannon Sands, AI researcher affiliated with Nous Research, focus on open AI models & alignment.
-- [Sharon Goldman](https://x.com/sharongoldman): @sharongoldman — senior AI writer at VentureBeat covering AI industry/research news.
-- [Shaun Maguire](https://x.com/shaunmmaguire): @shaunmmaguire — Shaun Maguire, Sequoia Capital partner and prominent AI investor/commentator.
-- [Shawn Presser](https://x.com/theshawwn): @theshawwn — Shawn Presser, known open-source AI/ML community figure.
-- [Shield AI](https://x.com/shieldaitech): @shieldaitech — Shield AI, defense technology company building autonomous AI systems.
-- [Shirin Ghaffary](https://x.com/shiringhaffary): @shiringhaffary — Bloomberg journalist covering the AI industry and major labs.
-- [Shital Shah](https://x.com/sytelus): @sytelus — Shital Shah, Microsoft Research engineer, focus on efficient LLM training and architecture search.
-- [Sholto Douglas](https://x.com/_sholtodouglas): @_sholtodouglas — AI researcher (Anthropic, ex-DeepMind/Physical Intelligence), deep technical AI commentary.
-- [Shruti](https://x.com/heyshrutimishra): @heyshrutimishra — Shruti, AI and robotics content creator curating daily AI developments.
-- [Shubham Saboo](https://x.com/Saboo_Shubham_): @Saboo_Shubham_ — Shubham Saboo, author on building LLM apps, focus on generative AI engineering content.
-- [Shuo Yang](https://x.com/Andy_ShuoYang): @Andy_ShuoYang — Berkeley PhD student, focus on efficient ML systems and LLM serving.
-- [signüll](https://x.com/signulll): @signulll — sharp, contrarian commentary on AI industry dynamics, model releases, and tech trends.
-- [Simo Ryu](https://x.com/cloneofsimo): @cloneofsimo — Simo Ryu, AI/ML engineer known for LoRA and diffusion-model research.
-- [Simon Willison](https://x.com/simonw): @simonw — creator of Datasette, prolific and sharp commentator on LLMs, coding agents, and AI tooling.
-- [Simplifying AI](https://x.com/simplifyinAI): @simplifyinAI — Simplifying AI, newsletter account with daily AI tool tutorials and trending news.
-- [SkalskiP](https://x.com/skalskip92): @skalskip92 — Piotr Skalski, computer-vision engineer at Roboflow known for practical CV/AI tutorials.
-- [Skild AI](https://x.com/SkildAI): @SkildAI — Skild AI, focus on general-purpose robot foundation models.
-- [Solvaix](https://x.com/Solvaix): @Solvaix — Showcases real-world AI application case studies.
-- [Sonya Huang 🐥](https://x.com/sonyatweetybird): @sonyatweetybird — Sonya Huang, Sequoia Capital partner, focus on AI startup investing and trends.
-- [Soumith Chintala](https://x.com/soumithchintala): @soumithchintala — Soumith Chintala, co-creator of PyTorch.
-- [SpaceXAI](https://x.com/SpaceXAI): @SpaceXAI — Official account for SpaceXAI (xAI/Grok, now under SpaceX).
-- [Sridhar Vembu](https://x.com/svembu): @svembu — Zoho CEO with substantive recurring commentary on AI's impact on coding and productivity.
-- [Sriram Krishnan](https://x.com/sriramk): @sriramk — Sriram Krishnan, White House AI advisor, commentary on AI policy and industry.
-- [Srishti](https://x.com/srishticodes): @srishticodes — shares AI coding tools, ML/AI learning resources, and technical education content.
-- [Standard Intelligence](https://x.com/si_pbc): @si_pbc — Standard Intelligence, AI research startup building foundation models for robotics/agents.
-- [Stefan 3D AI](https://x.com/Stefan_3D_AI): @Stefan_3D_AI — AI 3D engineer and content creator, builds games using AI tooling.
-- [StepFun](https://x.com/StepFun_ai): @StepFun_ai — StepFun, Chinese AI lab building frontier large language and multimodal models.
-- [Stephanie Palazzolo](https://x.com/steph_palazzolo): @steph_palazzolo — The Information's AI reporter breaking news on frontier labs and AI industry deals.
-- [Stephen McAleer](https://x.com/McaleerStephen): @McaleerStephen — Stephen McAleer, AI safety researcher at OpenAI.
-- [Stephen Wolfram](https://x.com/stephen_wolfram): @stephen_wolfram — Wolfram Research founder, writes extensively on AI, LLMs, and computation.
-- [Steve (Builder.io)](https://x.com/Steve8708): @Steve8708 — Builder.io CEO, active AI coding agent builder and commentator.
-- [steve hsu](https://x.com/hsu_steve): @hsu_steve — Steve Hsu, physicist and AI founder commenting on frontier AI progress and economics.
-- [Steve Jurvetson](https://x.com/FutureJurvetson): @FutureJurvetson — VC (Future Ventures/DFJ), posts thoughtful commentary on AI research and risk.
-- [Steve Yegge](https://x.com/Steve_Yegge): @Steve_Yegge — Steve Yegge, engineer at Sourcegraph, focus on AI coding agents and developer tooling.
-- [Steven Cheng](https://x.com/stevencheng): @stevencheng — Steven Cheng, builds computer-vision and physical-AI robotics projects.
-- [Sudo su](https://x.com/sudoingX): @sudoingX — Sudo su, builds and shares tools for running local LLMs on consumer GPUs.
-- [Suhail](https://x.com/Suhail): @Suhail — Suhail Doshi, founder of Playground AI, a prominent generative-AI builder.
-- [Sumanth](https://x.com/Sumanth_077): @Sumanth_077 — shares practical AI/LLM tutorials, RAG pipelines, and hands-on AI engineering content.
-- [Sundar Pichai](https://x.com/sundarpichai): @sundarpichai — Google CEO, major source of Gemini and AI product/research announcements.
-- [Swapna Kumar Panda](https://x.com/swapnakpanda): @swapnakpanda — tech educator sharing AI/ML courses, resources, and programming content.
+- [SemiAnalysis](https://x.com/SemiAnalysis_): \@SemiAnalysis_ — leading semiconductor and AI infrastructure industry analysis.
+- [Sergey Karayev](https://x.com/sergeykarayev): \@sergeykarayev — Sergey Karayev, ML researcher and co-founder working on AI products and education.
+- [Sergii Makarevych](https://x.com/sermakarevich): \@sermakarevich — Kaggle Grandmaster and machine learning engineer sharing ML insights.
+- [Shannon Sands](https://x.com/max_paperclips): \@max_paperclips — Shannon Sands, AI researcher affiliated with Nous Research, focus on open AI models & alignment.
+- [Sharon Goldman](https://x.com/sharongoldman): \@sharongoldman — senior AI writer at VentureBeat covering AI industry/research news.
+- [Shaun Maguire](https://x.com/shaunmmaguire): \@shaunmmaguire — Shaun Maguire, Sequoia Capital partner and prominent AI investor/commentator.
+- [Shawn Presser](https://x.com/theshawwn): \@theshawwn — Shawn Presser, known open-source AI/ML community figure.
+- [Shield AI](https://x.com/shieldaitech): \@shieldaitech — Shield AI, defense technology company building autonomous AI systems.
+- [Shirin Ghaffary](https://x.com/shiringhaffary): \@shiringhaffary — Bloomberg journalist covering the AI industry and major labs.
+- [Shital Shah](https://x.com/sytelus): \@sytelus — Shital Shah, Microsoft Research engineer, focus on efficient LLM training and architecture search.
+- [Sholto Douglas](https://x.com/_sholtodouglas): \@_sholtodouglas — AI researcher (Anthropic, ex-DeepMind/Physical Intelligence), deep technical AI commentary.
+- [Shruti](https://x.com/heyshrutimishra): \@heyshrutimishra — Shruti, AI and robotics content creator curating daily AI developments.
+- [Shubham Saboo](https://x.com/Saboo_Shubham_): \@Saboo_Shubham_ — Shubham Saboo, author on building LLM apps, focus on generative AI engineering content.
+- [Shuo Yang](https://x.com/Andy_ShuoYang): \@Andy_ShuoYang — Berkeley PhD student, focus on efficient ML systems and LLM serving.
+- [signüll](https://x.com/signulll): \@signulll — sharp, contrarian commentary on AI industry dynamics, model releases, and tech trends.
+- [Simo Ryu](https://x.com/cloneofsimo): \@cloneofsimo — Simo Ryu, AI/ML engineer known for LoRA and diffusion-model research.
+- [Simon Willison](https://x.com/simonw): \@simonw — creator of Datasette, prolific and sharp commentator on LLMs, coding agents, and AI tooling.
+- [Simplifying AI](https://x.com/simplifyinAI): \@simplifyinAI — Simplifying AI, newsletter account with daily AI tool tutorials and trending news.
+- [SkalskiP](https://x.com/skalskip92): \@skalskip92 — Piotr Skalski, computer-vision engineer at Roboflow known for practical CV/AI tutorials.
+- [Skild AI](https://x.com/SkildAI): \@SkildAI — Skild AI, focus on general-purpose robot foundation models.
+- [Solvaix](https://x.com/Solvaix): \@Solvaix — Showcases real-world AI application case studies.
+- [Sonya Huang 🐥](https://x.com/sonyatweetybird): \@sonyatweetybird — Sonya Huang, Sequoia Capital partner, focus on AI startup investing and trends.
+- [Soumith Chintala](https://x.com/soumithchintala): \@soumithchintala — Soumith Chintala, co-creator of PyTorch.
+- [SpaceXAI](https://x.com/SpaceXAI): \@SpaceXAI — Official account for SpaceXAI (xAI/Grok, now under SpaceX).
+- [Sridhar Vembu](https://x.com/svembu): \@svembu — Zoho CEO with substantive recurring commentary on AI's impact on coding and productivity.
+- [Sriram Krishnan](https://x.com/sriramk): \@sriramk — Sriram Krishnan, White House AI advisor, commentary on AI policy and industry.
+- [Srishti](https://x.com/srishticodes): \@srishticodes — shares AI coding tools, ML/AI learning resources, and technical education content.
+- [Standard Intelligence](https://x.com/si_pbc): \@si_pbc — Standard Intelligence, AI research startup building foundation models for robotics/agents.
+- [Stefan 3D AI](https://x.com/Stefan_3D_AI): \@Stefan_3D_AI — AI 3D engineer and content creator, builds games using AI tooling.
+- [StepFun](https://x.com/StepFun_ai): \@StepFun_ai — StepFun, Chinese AI lab building frontier large language and multimodal models.
+- [Stephanie Palazzolo](https://x.com/steph_palazzolo): \@steph_palazzolo — The Information's AI reporter breaking news on frontier labs and AI industry deals.
+- [Stephen McAleer](https://x.com/McaleerStephen): \@McaleerStephen — Stephen McAleer, AI safety researcher at OpenAI.
+- [Stephen Wolfram](https://x.com/stephen_wolfram): \@stephen_wolfram — Wolfram Research founder, writes extensively on AI, LLMs, and computation.
+- [Steve (Builder.io)](https://x.com/Steve8708): \@Steve8708 — Builder.io CEO, active AI coding agent builder and commentator.
+- [steve hsu](https://x.com/hsu_steve): \@hsu_steve — Steve Hsu, physicist and AI founder commenting on frontier AI progress and economics.
+- [Steve Jurvetson](https://x.com/FutureJurvetson): \@FutureJurvetson — VC (Future Ventures/DFJ), posts thoughtful commentary on AI research and risk.
+- [Steve Yegge](https://x.com/Steve_Yegge): \@Steve_Yegge — Steve Yegge, engineer at Sourcegraph, focus on AI coding agents and developer tooling.
+- [Steven Cheng](https://x.com/stevencheng): \@stevencheng — Steven Cheng, builds computer-vision and physical-AI robotics projects.
+- [Sudo su](https://x.com/sudoingX): \@sudoingX — Sudo su, builds and shares tools for running local LLMs on consumer GPUs.
+- [Suhail](https://x.com/Suhail): \@Suhail — Suhail Doshi, founder of Playground AI, a prominent generative-AI builder.
+- [Sumanth](https://x.com/Sumanth_077): \@Sumanth_077 — shares practical AI/LLM tutorials, RAG pipelines, and hands-on AI engineering content.
+- [Sundar Pichai](https://x.com/sundarpichai): \@sundarpichai — Google CEO, major source of Gemini and AI product/research announcements.
+- [Swapna Kumar Panda](https://x.com/swapnakpanda): \@swapnakpanda — tech educator sharing AI/ML courses, resources, and programming content.
 - [swyx](https://x.com/swyx): swyx's account, tracked for developer-centric commentary on AI products and tooling.
-- [Synthetic Sciences (YC W26)](https://x.com/SynScience): @SynScience — YC-backed startup applying AI to synthetic biology and scientific discovery.
-- [Syzygy Research](https://x.com/syzygyeng): @syzygyeng — Syzygy Research, builds low-bit/addition-only inference compression for LLMs.
-- [Séb Krier](https://x.com/sebkrier): @sebkrier — Google DeepMind AI policy lead, commentary on AI governance and safety.
-- [Taelin](https://x.com/VictorTaelin): @VictorTaelin — creator of HVM/Bend, known for parallel computing and AI-adjacent PL research.
-- [Tanishq Mathew Abraham, Ph.D.](https://x.com/iScienceLuvr): @iScienceLuvr — AI researcher (PhD) and prolific curator of cutting-edge ML/AI research papers and breakthroughs.
-- [Tapa Ghosh](https://x.com/semiDL): @semiDL — Tapa Ghosh, founder of Volantis Semiconductor, posts on AI chips and deep learning.
-- [Tareq Amin](https://x.com/TareqAmin_): @TareqAmin_ — CEO of HUMAIN, building a full AI stack (infra, models, apps).
-- [Tatsunori Hashimoto](https://x.com/tatsu_hashimoto): @tatsu_hashimoto — Stanford AI professor, NLP/ML research and model alignment commentary.
-- [Tavus](https://x.com/tavus): @tavus — Tavus, AI company building realistic video/avatar generation APIs.
-- [Teamily AI](https://x.com/Teamily_AI): @Teamily_AI — Teamily AI, human+agent social platform where AI agents join team chats.
-- [Tech with Mak](https://x.com/techNmak): @techNmak — AI/tech account covering ML system design and AI engineering career content.
-- [Teknium (e/λ)](https://x.com/Teknium): @Teknium — Nous Research co-founder, open-source LLM fine-tuning and model releases.
-- [Tencent AI](https://x.com/TencentAI_News): @TencentAI_News — Tencent's AI lab account posting AI product and research updates.
-- [Tencent Hy](https://x.com/TencentHunyuan): @TencentHunyuan — official account for Tencent's Hunyuan AI model family, shares releases and benchmarks.
-- [Teng Yan](https://x.com/tengyanAI): @tengyanAI — Teng Yan, writer on Chain of Thought AI covering crypto x AI research and agent trends.
-- [Teortaxes▶️ (DeepSeek 推特🐋铁粉 2023 – ∞)](https://x.com/teortaxesTex): @teortaxesTex — Prominent AI commentator known for in-depth DeepSeek and frontier model analysis.
-- [Tesla AI](https://x.com/Tesla_AI): @Tesla_AI — Tesla's official AI account, focus on Full Self-Driving, Optimus robot, and AI training.
-- [Tesla Optimus](https://x.com/Tesla_Optimus): @Tesla_Optimus — official account for Tesla's Optimus humanoid robot program.
-- [Thariq](https://x.com/trq212): @trq212 — Thariq Shihipar, OpenAI team member, focus on model product development and AI research.
-- [The AI Colony](https://x.com/TheAIColony): @TheAIColony — AI news and commentary account.
-- [The Humanoid Hub](https://x.com/TheHumanoidHub): @TheHumanoidHub — curates humanoid robotics and embodied-AI news, demos, and industry updates.
-- [the tiny corp](https://x.com/__tinygrad__): @__tinygrad__ — the tiny corp, maker of the tinygrad deep-learning framework and AI hardware.
-- [thebes](https://x.com/voooooogel): @voooooogel — 'thebes', AI interpretability researcher working on activation/representation steering.
-- [Theo - t3.gg](https://x.com/theo): @theo — Theo (t3.gg), popular developer YouTuber covering AI coding tools and LLM developer experience.
-- [Theo Jaffee](https://x.com/theojaffee): @theojaffee — Co-founder of Monitoring The Situation, an AI-focused media/interview outlet.
-- [Thinking Machines](https://x.com/thinkymachines): @thinkymachines — Thinking Machines Lab, frontier AI research startup founded by Mira Murati.
-- [Thomas Dohmke](https://x.com/ashtom): @ashtom — Thomas Dohmke, GitHub CEO, focus on AI-assisted software development and Copilot.
-- [Thomas Larsen](https://x.com/thlarsen): @thlarsen — Thomas Larsen, research lead at AI Futures Project, AI safety and policy research.
-- [Thomas Wolf](https://x.com/Thom_Wolf): @Thom_Wolf — Thomas Wolf, co-founder and chief science officer of Hugging Face.
-- [Ti Morse](https://x.com/ti_morse): @ti_morse — Forward Deployed Podcaster interviewing AI industry founders (OpenAI, Hugging Face) on building and scaling AI companies.
-- [Tianqi Chen](https://x.com/tqchenml): @tqchenml — Tianqi Chen, ML systems researcher known for XGBoost, TVM, and MLC-LLM.
-- [Tibo](https://x.com/thsottiaux): @thsottiaux — Lindy AI co-founder/CEO, posts on AI agents and startup building.
-- [Tibor Blaho](https://x.com/btibor91): @btibor91 — well-known AI leak/news account surfacing unreleased features in AI apps' code.
-- [Tim Dettmers](https://x.com/Tim_Dettmers): @Tim_Dettmers — ML researcher known for QLoRA/bitsandbytes and LLM quantization research.
-- [tobi lutke](https://x.com/tobi): @tobi — Tobi Lütke, Shopify CEO, frequently posts on AI tools, prompting, and building with AI.
-- [Tom Dörr](https://x.com/tom_doerr): @tom_doerr — curates daily open-source AI tools and GitHub project roundups.
-- [Tom Yeh](https://x.com/ProfTomYeh): @ProfTomYeh — AI professor (CU Boulder) known for the viral 'AI by Hand' hands-on teaching series.
-- [Tomek Korbak](https://x.com/tomekkorbak): @tomekkorbak — Tomek Korbak, AI safety researcher working on LLM alignment.
-- [Tongyi Lab](https://x.com/Ali_TongyiLab): @Ali_TongyiLab — Alibaba Tongyi Lab, developers of the Qwen model family.
-- [Tristan Harris](https://x.com/tristanharris): @tristanharris — Tristan Harris, co-founder of Center for Humane Technology, AI ethics commentator.
-- [Tuo Liu](https://x.com/Robo_Tuo): @Robo_Tuo — Tuo Liu, founder in physical AI and robotics hardware.
-- [TypeSafe AI](https://x.com/typesafeai): @typesafeai — well-funded AI lab (a16z/Sequoia backed) building Jev, a structured-decision AI model.
-- [Ujjwal Chadha](https://x.com/ujjwalscript): @ujjwalscript — AI engineering lead sharing practical RAG, vector database, and AI-engineer career content.
-- [Unsloth AI](https://x.com/UnslothAI): @UnslothAI — official account for Unsloth, fast LLM fine-tuning and optimization toolkit.
-- [Utkarsh Sharma](https://x.com/techxutkarsh): @techxutkarsh — posts daily AI tools, prompts, guides, and AI industry news.
-- [Vaibhav (VB) Srivastav](https://x.com/reach_vb): @reach_vb — Vaibhav Srivastav, leads open-source AI at Hugging Face.
-- [Vaibhav Sisinty](https://x.com/VaibhavSisinty): @VaibhavSisinty — AI educator, shares AI tools, workflows, and industry news.
-- [Vaidehi](https://x.com/Ai_Vaidehi): @Ai_Vaidehi — shares AI tools, agent news, ML resources, and emerging AI trends.
-- [Vaishnavi](https://x.com/_vmlops): @_vmlops — Vaishnavi, MLOps engineer posting on AI infrastructure, agent tooling, and ML pipelines.
-- [Valerio Capraro](https://x.com/ValerioCapraro): @ValerioCapraro — professor researching human-AI interaction and judgment, shares AI findings on X.
-- [Vals AI](https://x.com/ValsAI): @ValsAI — AI model benchmarking/evals company, recognizable in the AI evaluation space.
-- [Varun Mayya](https://x.com/waitin4agi_): @waitin4agi_ — Varun Mayya, entrepreneur and creator, focus on AI/AGI trends and startup commentary.
-- [Varun Mohan](https://x.com/_mohansolo): @_mohansolo — CEO of Windsurf (Codeium), AI coding tools and agentic software engineering.
-- [Venky Ganesan](https://x.com/venkyganesan): @venkyganesan — VC at Foundation Capital, writes on AI investing trends and startups.
-- [Victor M](https://x.com/victormustar): @victormustar — Hugging Face product lead, posts on open-source AI models and tools.
-- [vik](https://x.com/vikhyatk): @vikhyatk — creator of Moondream, a small vision-language AI model; active AI research commentary.
-- [Vik Paruchuri](https://x.com/VikParuchuri): @VikParuchuri — founder of Datalab, builds open-source OCR and document AI models (Surya, Marker), shares ML engineering insight.
-- [Vincent Weisser](https://x.com/vincentweisser): @vincentweisser — CEO/co-founder of Prime Intellect, open/decentralized AI infrastructure.
-- [Vincent Zhong](https://x.com/vincentzed_cuda): @vincentzed_cuda — Vincent Zhong, GPU inference engineer at Liquid AI, CUDA kernel optimization for LLMs.
-- [Vinod Khosla](https://x.com/vkhosla): @vkhosla — Vinod Khosla, Khosla Ventures founder, prominent AI investor and commentator.
-- [Vishal Maini](https://x.com/v_maini): @v_maini — Vishal Maini, ex-DeepMind/Google AI product lead, AI and decentralized-AI commentator.
-- [Vishal Sikka](https://x.com/vsikka): @vsikka — founder of Vianai Systems, former Infosys/SAP CEO, focuses on enterprise AI strategy and adoption.
-- [Vitto Rivabella](https://x.com/VittoStack): @VittoStack — AI Coordinator at Ethereum Foundation, works on AI-agent security and trust layers (ERC-8004) and LLM red-teaming.
-- [Vivix.AI](https://x.com/VivixLabs_HQ): @VivixLabs_HQ — Vivix.AI, builds real-time interactive multimodal AI character models.
-- [Vocal Bridge](https://x.com/VocalBridge): @VocalBridge — AI voice-agent platform (AI Fund portfolio company) for adding voice to LLM agents.
-- [VraserX e/acc](https://x.com/VraserX): @VraserX — e/acc AI commentator, posts frequently on AGI race, AI safety, and model releases.
-- [Vyom](https://x.com/HelloVyom): @HelloVyom — Engineer posting AI market analysis and coding-agent/product commentary.
-- [wafer](https://x.com/wafer_ai): @wafer_ai — YC startup using AI to optimize LLM inference across silicon/hardware.
-- [will brown](https://x.com/willccbb): @willccbb — Will Brown, AI researcher at Prime Intellect known for RL and agents work.
-- [Will Bryk](https://x.com/WilliamBryk): @WilliamBryk — CEO/founder of Exa, an AI search API company.
-- [will depue](https://x.com/willdepue): @willdepue — will depue, OpenAI team member, focus on frontier model research and product development.
-- [Wise](https://x.com/trikcode): @trikcode — Wise, co-founder of ship_together, posts about building AI voice agents and dev/AI tooling.
-- [World Labs](https://x.com/theworldlabs): @theworldlabs — Fei-Fei Li's AI startup building spatial intelligence / world models.
-- [Xenova](https://x.com/xenovacom): @xenovacom — creator of Transformers.js, builds in-browser ML tooling and shares open-source AI/ONNX updates.
-- [Xiaomi MiMo](https://x.com/XiaomiMiMo): @XiaomiMiMo — official account of Xiaomi's MiMo AI model team, posts open model releases.
-- [Xiaoyin Qu](https://x.com/quxiaoyin): @quxiaoyin — founder of Heyboss.ai (OpenAI-backed AI app builder), writes sharp commentary on AI-driven org design and China AI.
-- [Xin Eric Wang](https://x.com/xwang_lk): @xwang_lk — Xin Eric Wang, AI professor (UC Santa Cruz), research on multimodal agents & LLMs.
-- [Y Combinator](https://x.com/ycombinator): @ycombinator — official Y Combinator account, shares startup and AI ecosystem news, funding, and founder advice.
-- [Yacine Mahdid](https://x.com/yacinelearning): @yacinelearning — Yacine Mahdid, creator of deep-learning and neuro-AI educational content and newsletter.
-- [Yafeng Deng](https://x.com/LongTermMemoryE): @LongTermMemoryE — CEO of EverMind AI, researches long-term memory systems for LLMs.
-- [Yann LeCun](https://x.com/ylecun): @ylecun — Yann LeCun, Meta Chief AI Scientist, focus on deep learning research and AI architecture debates.
-- [Yarchi](https://x.com/undefinedKi): @undefinedKi — AI/tech content creator, shares AI agent guides, RAG and coding-assistant breakdowns.
-- [Yi Ma](https://x.com/YiMaTweets): @YiMaTweets — renowned AI/ML researcher (UC Berkeley) known for deep-learning theory and representation learning.
-- [Yoshua Bengio](https://x.com/Yoshua_Bengio): @Yoshua_Bengio — Yoshua Bengio, Turing Award-winning deep learning pioneer and AI safety advocate.
-- [Yu Su](https://x.com/ysu_nlp): @ysu_nlp — Yu Su, Ohio State NLP/agents researcher with widely-followed research commentary.
-- [Yuandong Tian](https://x.com/tydsh): @tydsh — Yuandong Tian, Meta AI research scientist known for reinforcement learning and LLM research.
-- [Yuchen Jin](https://x.com/Yuchenj_UW): @Yuchenj_UW — Yuchen Jin, co-founder of Hyperbolic, a well-known AI infrastructure voice.
-- [Yun-Ta Tsai](https://x.com/yunta_tsai): @yunta_tsai — Tesla AI senior staff engineer sharing insight on real-world AI/robotics engineering.
-- [Z.ai](https://x.com/Zai_org): @Zai_org — Z.ai (Zhipu AI's global brand), maker of the GLM family of open frontier LLMs.
-- [Z.ai for Startups](https://x.com/ZaiforStartups): @ZaiforStartups — Z.ai (Zhipu AI) startup program, major AI lab.
-- [Zach Lloyd](https://x.com/zachlloydtweets): @zachlloydtweets — CEO of Warp, an AI agent-powered dev terminal.
-- [Zara Zhang](https://x.com/zarazhangrui): @zarazhangrui — builds AI products at ByteDance, writes and posts about generative AI tools and building in the AI era.
-- [Zhean Xu](https://x.com/zheanxu): @zheanxu — AI infrastructure engineer at DeepSeek, posts on frontier model releases.
-- [Zixuan Li](https://x.com/ZixuanLi_): @ZixuanLi_ — Zixuan Li, Head of Z.ai Global Ecosystem, focus on GLM models and LLM ecosystem.
-- [Zvi Mowshowitz](https://x.com/TheZvi): @TheZvi — prominent AI commentator/analyst writing deep weekly roundups on AI progress and policy.
-- [ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️](https://x.com/DanielMiessler): @DanielMiessler — security researcher and AI commentator behind Unsupervised Learning, covering the AI/security intersection.
-- [ℏεsam](https://x.com/Hesamation): @Hesamation — hesam, breaks down AI/ML research papers and concepts for a technical audience.
-- [⿻ Andrew Trask](https://x.com/iamtrask): @iamtrask — OpenMined founder, AI researcher and author focused on privacy-preserving and federated machine learning.
-- [智东西China AI News](https://x.com/Chinazhidx): @Chinazhidx — Zhidongxi (智东西), Chinese tech media covering AI industry news.
-- [🚨 AI News | TestingCatalog](https://x.com/testingcatalog): @testingcatalog — well-known AI news account surfacing unreleased AI product features early.
+- [Synthetic Sciences (YC W26)](https://x.com/SynScience): \@SynScience — YC-backed startup applying AI to synthetic biology and scientific discovery.
+- [Syzygy Research](https://x.com/syzygyeng): \@syzygyeng — Syzygy Research, builds low-bit/addition-only inference compression for LLMs.
+- [Séb Krier](https://x.com/sebkrier): \@sebkrier — Google DeepMind AI policy lead, commentary on AI governance and safety.
+- [Taelin](https://x.com/VictorTaelin): \@VictorTaelin — creator of HVM/Bend, known for parallel computing and AI-adjacent PL research.
+- [Tanishq Mathew Abraham, Ph.D.](https://x.com/iScienceLuvr): \@iScienceLuvr — AI researcher (PhD) and prolific curator of cutting-edge ML/AI research papers and breakthroughs.
+- [Tapa Ghosh](https://x.com/semiDL): \@semiDL — Tapa Ghosh, founder of Volantis Semiconductor, posts on AI chips and deep learning.
+- [Tareq Amin](https://x.com/TareqAmin_): \@TareqAmin_ — CEO of HUMAIN, building a full AI stack (infra, models, apps).
+- [Tatsunori Hashimoto](https://x.com/tatsu_hashimoto): \@tatsu_hashimoto — Stanford AI professor, NLP/ML research and model alignment commentary.
+- [Tavus](https://x.com/tavus): \@tavus — Tavus, AI company building realistic video/avatar generation APIs.
+- [Teamily AI](https://x.com/Teamily_AI): \@Teamily_AI — Teamily AI, human+agent social platform where AI agents join team chats.
+- [Tech with Mak](https://x.com/techNmak): \@techNmak — AI/tech account covering ML system design and AI engineering career content.
+- [Teknium (e/λ)](https://x.com/Teknium): \@Teknium — Nous Research co-founder, open-source LLM fine-tuning and model releases.
+- [Tencent AI](https://x.com/TencentAI_News): \@TencentAI_News — Tencent's AI lab account posting AI product and research updates.
+- [Tencent Hy](https://x.com/TencentHunyuan): \@TencentHunyuan — official account for Tencent's Hunyuan AI model family, shares releases and benchmarks.
+- [Teng Yan](https://x.com/tengyanAI): \@tengyanAI — Teng Yan, writer on Chain of Thought AI covering crypto x AI research and agent trends.
+- [Teortaxes▶️ (DeepSeek 推特🐋铁粉 2023 – ∞)](https://x.com/teortaxesTex): \@teortaxesTex — Prominent AI commentator known for in-depth DeepSeek and frontier model analysis.
+- [Tesla AI](https://x.com/Tesla_AI): \@Tesla_AI — Tesla's official AI account, focus on Full Self-Driving, Optimus robot, and AI training.
+- [Tesla Optimus](https://x.com/Tesla_Optimus): \@Tesla_Optimus — official account for Tesla's Optimus humanoid robot program.
+- [Thariq](https://x.com/trq212): \@trq212 — Thariq Shihipar, OpenAI team member, focus on model product development and AI research.
+- [The AI Colony](https://x.com/TheAIColony): \@TheAIColony — AI news and commentary account.
+- [The Humanoid Hub](https://x.com/TheHumanoidHub): \@TheHumanoidHub — curates humanoid robotics and embodied-AI news, demos, and industry updates.
+- [the tiny corp](https://x.com/__tinygrad__): \@__tinygrad__ — the tiny corp, maker of the tinygrad deep-learning framework and AI hardware.
+- [thebes](https://x.com/voooooogel): \@voooooogel — 'thebes', AI interpretability researcher working on activation/representation steering.
+- [Theo - t3.gg](https://x.com/theo): \@theo — Theo (t3.gg), popular developer YouTuber covering AI coding tools and LLM developer experience.
+- [Theo Jaffee](https://x.com/theojaffee): \@theojaffee — Co-founder of Monitoring The Situation, an AI-focused media/interview outlet.
+- [Thinking Machines](https://x.com/thinkymachines): \@thinkymachines — Thinking Machines Lab, frontier AI research startup founded by Mira Murati.
+- [Thomas Dohmke](https://x.com/ashtom): \@ashtom — Thomas Dohmke, GitHub CEO, focus on AI-assisted software development and Copilot.
+- [Thomas Larsen](https://x.com/thlarsen): \@thlarsen — Thomas Larsen, research lead at AI Futures Project, AI safety and policy research.
+- [Thomas Wolf](https://x.com/Thom_Wolf): \@Thom_Wolf — Thomas Wolf, co-founder and chief science officer of Hugging Face.
+- [Ti Morse](https://x.com/ti_morse): \@ti_morse — Forward Deployed Podcaster interviewing AI industry founders (OpenAI, Hugging Face) on building and scaling AI companies.
+- [Tianqi Chen](https://x.com/tqchenml): \@tqchenml — Tianqi Chen, ML systems researcher known for XGBoost, TVM, and MLC-LLM.
+- [Tibo](https://x.com/thsottiaux): \@thsottiaux — Lindy AI co-founder/CEO, posts on AI agents and startup building.
+- [Tibor Blaho](https://x.com/btibor91): \@btibor91 — well-known AI leak/news account surfacing unreleased features in AI apps' code.
+- [Tim Dettmers](https://x.com/Tim_Dettmers): \@Tim_Dettmers — ML researcher known for QLoRA/bitsandbytes and LLM quantization research.
+- [tobi lutke](https://x.com/tobi): \@tobi — Tobi Lütke, Shopify CEO, frequently posts on AI tools, prompting, and building with AI.
+- [Tom Dörr](https://x.com/tom_doerr): \@tom_doerr — curates daily open-source AI tools and GitHub project roundups.
+- [Tom Yeh](https://x.com/ProfTomYeh): \@ProfTomYeh — AI professor (CU Boulder) known for the viral 'AI by Hand' hands-on teaching series.
+- [Tomek Korbak](https://x.com/tomekkorbak): \@tomekkorbak — Tomek Korbak, AI safety researcher working on LLM alignment.
+- [Tongyi Lab](https://x.com/Ali_TongyiLab): \@Ali_TongyiLab — Alibaba Tongyi Lab, developers of the Qwen model family.
+- [Tristan Harris](https://x.com/tristanharris): \@tristanharris — Tristan Harris, co-founder of Center for Humane Technology, AI ethics commentator.
+- [Tuo Liu](https://x.com/Robo_Tuo): \@Robo_Tuo — Tuo Liu, founder in physical AI and robotics hardware.
+- [TypeSafe AI](https://x.com/typesafeai): \@typesafeai — well-funded AI lab (a16z/Sequoia backed) building Jev, a structured-decision AI model.
+- [Ujjwal Chadha](https://x.com/ujjwalscript): \@ujjwalscript — AI engineering lead sharing practical RAG, vector database, and AI-engineer career content.
+- [Unsloth AI](https://x.com/UnslothAI): \@UnslothAI — official account for Unsloth, fast LLM fine-tuning and optimization toolkit.
+- [Utkarsh Sharma](https://x.com/techxutkarsh): \@techxutkarsh — posts daily AI tools, prompts, guides, and AI industry news.
+- [Vaibhav (VB) Srivastav](https://x.com/reach_vb): \@reach_vb — Vaibhav Srivastav, leads open-source AI at Hugging Face.
+- [Vaibhav Sisinty](https://x.com/VaibhavSisinty): \@VaibhavSisinty — AI educator, shares AI tools, workflows, and industry news.
+- [Vaidehi](https://x.com/Ai_Vaidehi): \@Ai_Vaidehi — shares AI tools, agent news, ML resources, and emerging AI trends.
+- [Vaishnavi](https://x.com/_vmlops): \@_vmlops — Vaishnavi, MLOps engineer posting on AI infrastructure, agent tooling, and ML pipelines.
+- [Valerio Capraro](https://x.com/ValerioCapraro): \@ValerioCapraro — professor researching human-AI interaction and judgment, shares AI findings on X.
+- [Vals AI](https://x.com/ValsAI): \@ValsAI — AI model benchmarking/evals company, recognizable in the AI evaluation space.
+- [Varun Mayya](https://x.com/waitin4agi_): \@waitin4agi_ — Varun Mayya, entrepreneur and creator, focus on AI/AGI trends and startup commentary.
+- [Varun Mohan](https://x.com/_mohansolo): \@_mohansolo — CEO of Windsurf (Codeium), AI coding tools and agentic software engineering.
+- [Venky Ganesan](https://x.com/venkyganesan): \@venkyganesan — VC at Foundation Capital, writes on AI investing trends and startups.
+- [Victor M](https://x.com/victormustar): \@victormustar — Hugging Face product lead, posts on open-source AI models and tools.
+- [vik](https://x.com/vikhyatk): \@vikhyatk — creator of Moondream, a small vision-language AI model; active AI research commentary.
+- [Vik Paruchuri](https://x.com/VikParuchuri): \@VikParuchuri — founder of Datalab, builds open-source OCR and document AI models (Surya, Marker), shares ML engineering insight.
+- [Vincent Weisser](https://x.com/vincentweisser): \@vincentweisser — CEO/co-founder of Prime Intellect, open/decentralized AI infrastructure.
+- [Vincent Zhong](https://x.com/vincentzed_cuda): \@vincentzed_cuda — Vincent Zhong, GPU inference engineer at Liquid AI, CUDA kernel optimization for LLMs.
+- [Vinod Khosla](https://x.com/vkhosla): \@vkhosla — Vinod Khosla, Khosla Ventures founder, prominent AI investor and commentator.
+- [Vishal Maini](https://x.com/v_maini): \@v_maini — Vishal Maini, ex-DeepMind/Google AI product lead, AI and decentralized-AI commentator.
+- [Vishal Sikka](https://x.com/vsikka): \@vsikka — founder of Vianai Systems, former Infosys/SAP CEO, focuses on enterprise AI strategy and adoption.
+- [Vitto Rivabella](https://x.com/VittoStack): \@VittoStack — AI Coordinator at Ethereum Foundation, works on AI-agent security and trust layers (ERC-8004) and LLM red-teaming.
+- [Vivix.AI](https://x.com/VivixLabs_HQ): \@VivixLabs_HQ — Vivix.AI, builds real-time interactive multimodal AI character models.
+- [Vocal Bridge](https://x.com/VocalBridge): \@VocalBridge — AI voice-agent platform (AI Fund portfolio company) for adding voice to LLM agents.
+- [VraserX e/acc](https://x.com/VraserX): \@VraserX — e/acc AI commentator, posts frequently on AGI race, AI safety, and model releases.
+- [Vyom](https://x.com/HelloVyom): \@HelloVyom — Engineer posting AI market analysis and coding-agent/product commentary.
+- [wafer](https://x.com/wafer_ai): \@wafer_ai — YC startup using AI to optimize LLM inference across silicon/hardware.
+- [will brown](https://x.com/willccbb): \@willccbb — Will Brown, AI researcher at Prime Intellect known for RL and agents work.
+- [Will Bryk](https://x.com/WilliamBryk): \@WilliamBryk — CEO/founder of Exa, an AI search API company.
+- [will depue](https://x.com/willdepue): \@willdepue — will depue, OpenAI team member, focus on frontier model research and product development.
+- [Wise](https://x.com/trikcode): \@trikcode — Wise, co-founder of ship_together, posts about building AI voice agents and dev/AI tooling.
+- [World Labs](https://x.com/theworldlabs): \@theworldlabs — Fei-Fei Li's AI startup building spatial intelligence / world models.
+- [Xenova](https://x.com/xenovacom): \@xenovacom — creator of Transformers.js, builds in-browser ML tooling and shares open-source AI/ONNX updates.
+- [Xiaomi MiMo](https://x.com/XiaomiMiMo): \@XiaomiMiMo — official account of Xiaomi's MiMo AI model team, posts open model releases.
+- [Xiaoyin Qu](https://x.com/quxiaoyin): \@quxiaoyin — founder of Heyboss.ai (OpenAI-backed AI app builder), writes sharp commentary on AI-driven org design and China AI.
+- [Xin Eric Wang](https://x.com/xwang_lk): \@xwang_lk — Xin Eric Wang, AI professor (UC Santa Cruz), research on multimodal agents & LLMs.
+- [Y Combinator](https://x.com/ycombinator): \@ycombinator — official Y Combinator account, shares startup and AI ecosystem news, funding, and founder advice.
+- [Yacine Mahdid](https://x.com/yacinelearning): \@yacinelearning — Yacine Mahdid, creator of deep-learning and neuro-AI educational content and newsletter.
+- [Yafeng Deng](https://x.com/LongTermMemoryE): \@LongTermMemoryE — CEO of EverMind AI, researches long-term memory systems for LLMs.
+- [Yann LeCun](https://x.com/ylecun): \@ylecun — Yann LeCun, Meta Chief AI Scientist, focus on deep learning research and AI architecture debates.
+- [Yarchi](https://x.com/undefinedKi): \@undefinedKi — AI/tech content creator, shares AI agent guides, RAG and coding-assistant breakdowns.
+- [Yi Ma](https://x.com/YiMaTweets): \@YiMaTweets — renowned AI/ML researcher (UC Berkeley) known for deep-learning theory and representation learning.
+- [Yoshua Bengio](https://x.com/Yoshua_Bengio): \@Yoshua_Bengio — Yoshua Bengio, Turing Award-winning deep learning pioneer and AI safety advocate.
+- [Yu Su](https://x.com/ysu_nlp): \@ysu_nlp — Yu Su, Ohio State NLP/agents researcher with widely-followed research commentary.
+- [Yuandong Tian](https://x.com/tydsh): \@tydsh — Yuandong Tian, Meta AI research scientist known for reinforcement learning and LLM research.
+- [Yuchen Jin](https://x.com/Yuchenj_UW): \@Yuchenj_UW — Yuchen Jin, co-founder of Hyperbolic, a well-known AI infrastructure voice.
+- [Yun-Ta Tsai](https://x.com/yunta_tsai): \@yunta_tsai — Tesla AI senior staff engineer sharing insight on real-world AI/robotics engineering.
+- [Z.ai](https://x.com/Zai_org): \@Zai_org — Z.ai (Zhipu AI's global brand), maker of the GLM family of open frontier LLMs.
+- [Z.ai for Startups](https://x.com/ZaiforStartups): \@ZaiforStartups — Z.ai (Zhipu AI) startup program, major AI lab.
+- [Zach Lloyd](https://x.com/zachlloydtweets): \@zachlloydtweets — CEO of Warp, an AI agent-powered dev terminal.
+- [Zara Zhang](https://x.com/zarazhangrui): \@zarazhangrui — builds AI products at ByteDance, writes and posts about generative AI tools and building in the AI era.
+- [Zhean Xu](https://x.com/zheanxu): \@zheanxu — AI infrastructure engineer at DeepSeek, posts on frontier model releases.
+- [Zixuan Li](https://x.com/ZixuanLi_): \@ZixuanLi_ — Zixuan Li, Head of Z.ai Global Ecosystem, focus on GLM models and LLM ecosystem.
+- [Zvi Mowshowitz](https://x.com/TheZvi): \@TheZvi — prominent AI commentator/analyst writing deep weekly roundups on AI progress and policy.
+- [ᴅᴀɴɪᴇʟ ᴍɪᴇssʟᴇʀ 🛡️](https://x.com/DanielMiessler): \@DanielMiessler — security researcher and AI commentator behind Unsupervised Learning, covering the AI/security intersection.
+- [ℏεsam](https://x.com/Hesamation): \@Hesamation — hesam, breaks down AI/ML research papers and concepts for a technical audience.
+- [⿻ Andrew Trask](https://x.com/iamtrask): \@iamtrask — OpenMined founder, AI researcher and author focused on privacy-preserving and federated machine learning.
+- [智东西China AI News](https://x.com/Chinazhidx): \@Chinazhidx — Zhidongxi (智东西), Chinese tech media covering AI industry news.
+- [🚨 AI News | TestingCatalog](https://x.com/testingcatalog): \@testingcatalog — well-known AI news account surfacing unreleased AI product features early.
 
 ### YouTube (141)
 

@@ -12,7 +12,9 @@ glossary:
   path: appendices/glossary.yml
   popup: click
   show: true
-
+bibliography: references.bib
+csl: ieee.csl
+link-citations: true
 
 
 format:
@@ -63,8 +65,9 @@ book:
     - chapters/06-miscellaneous-tools.qmd
     - chapters/07-resources.qmd
   appendices:
-    - digest/digest_index.qmd
     - appendices/glossary.qmd
+    - appendices/references.qmd
+    - digest/digest_index.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
     - appendices/SOURCES.qmd
