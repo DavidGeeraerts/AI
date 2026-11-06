@@ -435,8 +435,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#starting-points" id="toc-starting-points" class="nav-link active" data-scroll-target="#starting-points"><span class="header-section-number">5.1</span> Starting points</a></li>
-  <li><a href="#practical-considerations" id="toc-practical-considerations" class="nav-link" data-scroll-target="#practical-considerations"><span class="header-section-number">5.2</span> Practical considerations</a></li>
+  <li><a href="#nvidia-working-stack" id="toc-nvidia-working-stack" class="nav-link active" data-scroll-target="#nvidia-working-stack"><span class="header-section-number">5.1</span> NVIDIA Working Stack</a>
+  <ul class="collapse">
+  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components"><span class="header-section-number">5.1.1</span> Components</a></li>
+  </ul></li>
+  <li><a href="#starting-points" id="toc-starting-points" class="nav-link" data-scroll-target="#starting-points"><span class="header-section-number">5.2</span> Starting points</a></li>
+  <li><a href="#practical-considerations" id="toc-practical-considerations" class="nav-link" data-scroll-target="#practical-considerations"><span class="header-section-number">5.3</span> Practical considerations</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/05-building-a-working-stack.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -466,16 +470,29 @@ ul.task-list li input[type="checkbox"] {
 <hr>
 <hr>
 <p>Combine models, harnesses, tools, and operational safeguards into a stack that fits the work.</p>
-<section id="starting-points" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="starting-points"><span class="header-section-number">5.1</span> Starting points</h2>
+<section id="nvidia-working-stack" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="nvidia-working-stack"><span class="header-section-number">5.1</span> NVIDIA Working Stack</h2>
+<p>Describe the NVIDIA-based stack here.</p>
+<section id="components" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="components"><span class="header-section-number">5.1.1</span> Components</h3>
+<ul>
+<li>Model</li>
+<li>Inference runtime</li>
+<li>Agent harness</li>
+<li>Security and governance</li>
+</ul>
+</section>
+</section>
+<section id="starting-points" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="starting-points"><span class="header-section-number">5.2</span> Starting points</h2>
 <ul>
 <li>A minimal personal agent stack can pair a local model such as Ollama or Jan with a harness, MCP tools, and memory.</li>
 <li>An always-on personal agent can combine a workspace such as Odysseus or Ajax with a messaging gateway such as OpenClaw or Hermes.</li>
 <li>A coding stack can combine OpenHands or OpenCode with repository context (DOX) and sandboxed execution.</li>
 </ul>
 </section>
-<section id="practical-considerations" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="practical-considerations"><span class="header-section-number">5.2</span> Practical considerations</h2>
+<section id="practical-considerations" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="practical-considerations"><span class="header-section-number">5.3</span> Practical considerations</h2>
 <ul>
 <li>Incorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.</li>
 <li>Define containment and permission models.</li>

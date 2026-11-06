@@ -1,0 +1,10 @@
+## NVIDIA Working Stack
+
+Describe the NVIDIA-based stack here.
+
+### Components
+
+- Model
+- Inference runtime
+- Agent harness
+- Security and governance

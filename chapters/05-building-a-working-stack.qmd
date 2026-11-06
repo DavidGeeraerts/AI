@@ -7,6 +7,9 @@
 Combine models, harnesses, tools, and operational safeguards into a stack that
 fits the work.
 
+{{< include _05.1-nvidia-working-stack.qmd >}}
+
+
 ## Starting points
 
 - A minimal personal agent stack can pair a local model such as Ollama or Jan

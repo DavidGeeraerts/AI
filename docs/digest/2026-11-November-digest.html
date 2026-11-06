@@ -438,6 +438,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary-general-ai-vibe-for-november-2026" id="toc-summary-general-ai-vibe-for-november-2026" class="nav-link active" data-scroll-target="#summary-general-ai-vibe-for-november-2026"><span class="emoji" data-emoji="newspaper">📰</span> Summary: General AI vibe for November 2026</a></li>
   <li><a href="#agentic-engineering-tools" id="toc-agentic-engineering-tools" class="nav-link" data-scroll-target="#agentic-engineering-tools"><span class="emoji" data-emoji="toolbox">🧰</span> Agentic Engineering Tools</a>
   <ul class="collapse">
+  <li><a href="#nvidia-nemoclaw" id="toc-nvidia-nemoclaw" class="nav-link" data-scroll-target="#nvidia-nemoclaw">NVIDIA NemoClaw</a></li>
   <li><a href="#dsh-superagent" id="toc-dsh-superagent" class="nav-link" data-scroll-target="#dsh-superagent">dsh-superagent</a></li>
   <li><a href="#orgo" id="toc-orgo" class="nav-link" data-scroll-target="#orgo">Orgo</a></li>
   <li><a href="#kortix-companyos" id="toc-kortix-companyos" class="nav-link" data-scroll-target="#kortix-companyos">Kortix CompanyOS</a></li>
@@ -478,6 +479,24 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="agentic-engineering-tools" class="level2">
 <h2 class="anchored" data-anchor-id="agentic-engineering-tools"><span class="emoji" data-emoji="toolbox">🧰</span> Agentic Engineering Tools</h2>
+<section id="nvidia-nemoclaw" class="level3">
+<h3 class="anchored" data-anchor-id="nvidia-nemoclaw"><a href="https://github.com/NVIDIA/NemoClaw">NVIDIA NemoClaw</a></h3>
+<blockquote class="blockquote">
+<p>is a framework for building and deploying multi-agent systems with a focus on natural language processing and reinforcement learning. It provides tools for training, evaluating, and deploying agents in various environments, enabling developers to create complex agentic applications that can interact with humans and other agents effectively. NemoClaw supplies the opinionated, repeatable way to put them together with models, routing, policies, and operational controls so you can move from “interesting prototype” to “governed, specialized, always-on agent” without reinventing the packaging and security each time.</p>
+</blockquote>
+<section id="what-nemoclaw-actually-provides-in-the-agentic-engineering-stack" class="level4">
+<h4 class="anchored" data-anchor-id="what-nemoclaw-actually-provides-in-the-agentic-engineering-stack">What NemoClaw actually provides in the agentic engineering stack:</h4>
+<ul>
+<li><strong>Guided onboarding &amp; CLI</strong> — single installer flows (<code>NEMOCLAW_AGENT=hermes</code>, <code>nemohermes</code> alias, etc.) that create the sandbox, configure inference, apply network policy, and start the agent. You do not have to wire OpenShell, providers, policies, and the harness yourself.</li>
+<li><strong>Agent-specific integration layer</strong> — for Hermes this includes a manifest, runtime config guards, start scripts, and health probes so Hermes runs cleanly inside the sandbox and routes through OpenShell’s proxy.</li>
+<li><strong>Versioned YAML blueprints</strong> — declare sandbox image, policies, inference profiles, and compatibility constraints. The host CLI resolves, verifies, plans, and applies them via the OpenShell CLI.</li>
+<li><strong>Managed inference routing</strong> — traffic goes through OpenShell’s gateway/L7 proxy or attached provider profiles. Real credentials never enter the sandbox.</li>
+<li><strong>Policy &amp; security packaging</strong> — deny-by-default egress, operator approval, credential injection at the boundary, filesystem/process confinement, all pre-tuned for the supported harnesses.</li>
+<li><strong>Lifecycle &amp; state</strong> — sandbox create/start/stop, OpenShell-backed persistence, status, rollback.</li>
+<li><strong>Optimization &amp; telemetry hooks</strong> — integration points for NeMo Relay so you can observe and improve agent trajectories.</li>
+</ul>
+</section>
+</section>
 <section id="dsh-superagent" class="level3">
 <h3 class="anchored" data-anchor-id="dsh-superagent"><a href="https://github.com/deepseek-ai/dsh-superagent-prototype">dsh-superagent</a></h3>
 <blockquote class="blockquote">
