@@ -2,11 +2,14 @@
 <img src="/assets/images/Book-Cover-Banner.jpg" alt="The Book of AI Banner"/>
 </div>
 
-# :open_book: The Book of AI - Mapping the practical Artificial Intelligence landscape
+# :open_book: The Book of AI
+## Mapping the Artificial Intelligence landscape for agentic engineering.
 
-:notebook: [The Book of Agentic AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
+:notebook: [The Book of AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
-- [Chapter Overview](chatper-structure.qmd)
+- [Chapter Overview](chapter-structure.qmd)
+
+## Monthly Digest
 
 <!-- DIGEST:START -->
 
@@ -14,13 +17,22 @@
 
 <!-- DIGEST:END -->
 
+---
+
+## The Why
+| W's  |                                                                                              |
+|------|----------------------------------------------------------------------------------------------|
+| Who  | Practitioners of agentic engineering                                                         |
+| What | A comprehensive, reference manual and architecture handbook for agentic systems engineering. |
+| Why  | curated single source of knowledge for practitioner of agentic engineering                   |
+
 --- 
 
 ## Book Progress
 
 | Chapters                          | Title                    | Status   | Active          |
 |-----------------------------------|--------------------------|----------|-----------------|
-| Index                             | Main page                | draft    | :green_circle:  |
+| Index                             | Main page                | revising | :green_circle:  |
 | Chapter 1                         | Introduction             | notes    | :yellow_circle: |
 | Chapter 2                         | Models                   | draft    | :red_circle:    |
 | Chapter 3                         | Running local models     | draft    | :red_circle:    |
