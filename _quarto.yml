@@ -56,7 +56,6 @@ book:
   language: en
   chapters:
     - index.qmd
-    - digest/2026-11-November-digest.qmd
     - chapters/01-introduction.qmd
     - chapters/02-models.qmd
     - chapters/03-running-a-model.qmd
@@ -68,7 +67,11 @@ book:
     - appendices/glossary.qmd
     - appendices/references.qmd
     - appendices/SOURCES.qmd
+    - part: "Digests"
     - digest/digest_index.qmd
+    - digest/2026-11-November-digest.qmd
+    - digest/2026-10-October-digest.qmd
+    - part: "Notes"
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
 

@@ -40,36 +40,6 @@
     ]
   },
   {
-    "objectID": "digest/2026-11-November-digest.html",
-    "href": "digest/2026-11-November-digest.html",
-    "title": "November 2026 Digest",
-    "section": "",
-    "text": "📰 Summary: General AI vibe for November 2026",
-    "crumbs": [
-      "November 2026 Digest"
-    ]
-  },
-  {
-    "objectID": "digest/2026-11-November-digest.html#summary-general-ai-vibe-for-november-2026",
-    "href": "digest/2026-11-November-digest.html#summary-general-ai-vibe-for-november-2026",
-    "title": "November 2026 Digest",
-    "section": "",
-    "text": "At the start of November 2026, agentic engineering discourse shifted decisively from individual coding agents toward multi-agent organizational structures, with heavy emphasis on running hierarchical fleets (Chief of Staff → Managers → Workers) of 20–65+ agents—especially around GrokBot—as the real productivity unlock. New enterprise tooling appeared with LinearB’s Agentic Studio, while SemiAnalysis launched the GDPx benchmark covering 206 agentic tasks across 11 domains. Practical patterns highlighted the ease of discarding early versions and agents building full pipelines with validation, alongside rising concerns that agents might weaken tests to force-pass patches, and a hardening labor-market narrative that traditional junior SWE roles are vanishing in favor of agent orchestration skills.",
-    "crumbs": [
-      "November 2026 Digest"
-    ]
-  },
-  {
-    "objectID": "digest/2026-11-November-digest.html#agentic-engineering-tools",
-    "href": "digest/2026-11-November-digest.html#agentic-engineering-tools",
-    "title": "November 2026 Digest",
-    "section": "🧰 Agentic Engineering Tools",
-    "text": "🧰 Agentic Engineering Tools\n\ndsh-superagent\n\nis a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person.\n\n\n\nOrgo\n\nis a cloud computing platform that provides secure, persistent virtual desktops specifically designed for AI agents to operate across browsers, command lines, and desktop applications purpose-built for AI agents (especially computer-use agents). It is not an agent itself—you bring the model/agent. Orgo supplies the machine the agent drives.\n\n\nEarly users and builders treat it as useful infrastructure for always-on agents that need a real desktop (not just a browser or code sandbox). People run Hermes, Claude Code, custom agents, etc., and keep them working after their laptop is closed.\nComparisons position it as one of the cleaner “persistent desktop for computer-use” options—simpler monthly pricing and true persistence vs pure usage-based sandboxes.\n\n\n\nKortix CompanyOS\n\nis an open-source, cloud-native agent harness designed to run a company’s work as code. Kortix sits above personal coding or messaging agents. It is the operating system layer for teams that want agents doing real, ongoing company work (sales, support, engineering triage, marketing loops, ops, etc.) while keeping configuration, memory, and outcomes reviewable, versioned, and human-gated.\n\n\n\n\n\n\n\n\n\nAspect\nKortix CompanyOS\nPersonal harnesses\n\n\n\n\nCore idea\nCompany as code; agents + skills + memory in one git repo\nPersonal agent that lives with you (messaging, coding, memory)\n\n\nScale\nTeam / organization, swarms, event-driven\nIndividual or small-team\n\n\nGovernance\nChange requests, permissions-as-code, agent principals\nLighter or tool-level permissions\n\n\nState\nShared company memory + per-session computers\nPer-user curated memory + skills\n\n\nBest fit\nInternal tooling, ops, multi-agent company workflows\nDaily personal leverage, coding, always-on assistant\n\n\n\n\n\nStrata\n\nis a framework for building agentic systems with a focus on multi-agent orchestration, hierarchical structures, and persistent memory. It provides a set of tools and abstractions to facilitate the development of complex agentic applications, enabling developers to create systems that can manage and coordinate multiple agents effectively.\n\n\n\nTuxee\n\nis a lightweight, Debian-based Linux environment designed specifically for servers and AI agents. Created by the Agent Zero team, it provides a tiny container (or a standalone web interface for existing Linux servers) with a polished browser-based workspace that includes persistent terminals, a full file manager, drag-and-drop support, a built-in code editor with syntax highlighting, and media viewing.",
-    "crumbs": [
-      "November 2026 Digest"
-    ]
-  },
-  {
     "objectID": "chapters/01-introduction.html",
     "href": "chapters/01-introduction.html",
     "title": "1  Introduction",
@@ -948,69 +918,168 @@
     ]
   },
   {
+    "objectID": "digest/2026-11-November-digest.html",
+    "href": "digest/2026-11-November-digest.html",
+    "title": "November 2026 Digest",
+    "section": "",
+    "text": "📰 Summary: General AI vibe for November 2026",
+    "crumbs": [
+      "Appendices",
+      "November 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-11-November-digest.html#summary-general-ai-vibe-for-november-2026",
+    "href": "digest/2026-11-November-digest.html#summary-general-ai-vibe-for-november-2026",
+    "title": "November 2026 Digest",
+    "section": "",
+    "text": "At the start of November 2026, agentic engineering discourse shifted decisively from individual coding agents toward multi-agent organizational structures, with heavy emphasis on running hierarchical fleets (Chief of Staff → Managers → Workers) of 20–65+ agents—especially around GrokBot—as the real productivity unlock. New enterprise tooling appeared with LinearB’s Agentic Studio, while SemiAnalysis launched the GDPx benchmark covering 206 agentic tasks across 11 domains. Practical patterns highlighted the ease of discarding early versions and agents building full pipelines with validation, alongside rising concerns that agents might weaken tests to force-pass patches, and a hardening labor-market narrative that traditional junior SWE roles are vanishing in favor of agent orchestration skills.",
+    "crumbs": [
+      "Appendices",
+      "November 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-11-November-digest.html#agentic-engineering-tools",
+    "href": "digest/2026-11-November-digest.html#agentic-engineering-tools",
+    "title": "November 2026 Digest",
+    "section": "🧰 Agentic Engineering Tools",
+    "text": "🧰 Agentic Engineering Tools\n\ndsh-superagent\n\nis a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness. It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request. A web panel shows what needs a person.\n\n\n\nOrgo\n\nis a cloud computing platform that provides secure, persistent virtual desktops specifically designed for AI agents to operate across browsers, command lines, and desktop applications purpose-built for AI agents (especially computer-use agents). It is not an agent itself—you bring the model/agent. Orgo supplies the machine the agent drives.\n\n\nEarly users and builders treat it as useful infrastructure for always-on agents that need a real desktop (not just a browser or code sandbox). People run Hermes, Claude Code, custom agents, etc., and keep them working after their laptop is closed.\nComparisons position it as one of the cleaner “persistent desktop for computer-use” options—simpler monthly pricing and true persistence vs pure usage-based sandboxes.\n\n\n\nKortix CompanyOS\n\nis an open-source, cloud-native agent harness designed to run a company’s work as code. Kortix sits above personal coding or messaging agents. It is the operating system layer for teams that want agents doing real, ongoing company work (sales, support, engineering triage, marketing loops, ops, etc.) while keeping configuration, memory, and outcomes reviewable, versioned, and human-gated.\n\n\n\n\n\n\n\n\n\nAspect\nKortix CompanyOS\nPersonal harnesses\n\n\n\n\nCore idea\nCompany as code; agents + skills + memory in one git repo\nPersonal agent that lives with you (messaging, coding, memory)\n\n\nScale\nTeam / organization, swarms, event-driven\nIndividual or small-team\n\n\nGovernance\nChange requests, permissions-as-code, agent principals\nLighter or tool-level permissions\n\n\nState\nShared company memory + per-session computers\nPer-user curated memory + skills\n\n\nBest fit\nInternal tooling, ops, multi-agent company workflows\nDaily personal leverage, coding, always-on assistant\n\n\n\n\n\nStrata\n\nis a framework for building agentic systems with a focus on multi-agent orchestration, hierarchical structures, and persistent memory. It provides a set of tools and abstractions to facilitate the development of complex agentic applications, enabling developers to create systems that can manage and coordinate multiple agents effectively.\n\n\n\nTuxee\n\nis a lightweight, Debian-based Linux environment designed specifically for servers and AI agents. Created by the Agent Zero team, it provides a tiny container (or a standalone web interface for existing Linux servers) with a polished browser-based workspace that includes persistent terminals, a full file manager, drag-and-drop support, a built-in code editor with syntax highlighting, and media viewing.",
+    "crumbs": [
+      "Appendices",
+      "November 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html",
+    "href": "digest/2026-10-October-digest.html",
+    "title": "October 2026 Digest",
+    "section": "",
+    "text": "📰 Summary: General AI vibe for October 2026\n🧭 Building and refining open-source agent harnesses for long-running autonomous work—OpenHands and OpenCode for coding, goose for general MCP-native use—alongside heavy adoption of MCP tools, persistent memory, and self-hosted personal agents that live in messaging apps (OpenClaw and Hermes Agent leading). Strong bias toward tools you can run yourself, keep fully under your control, and host on your own hardware or a cheap Virtual Private Server.",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html#benchmarks",
+    "href": "digest/2026-10-October-digest.html#benchmarks",
+    "title": "October 2026 Digest",
+    "section": "Benchmarks",
+    "text": "Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nArtificial Analysis Intelligence Index v5\nActive frontier composite (launched Oct 2026)\nIndependent composite of 9 hard evaluations (Knowledge Work / Coding / Science / General at 25% each); 60% private or held-out data to resist contamination; strong agentic emphasis (FrontierCode 2.0, Terminal-Bench-Science, AA-Briefcase); no single model dominates all components\nVersion scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly\nYes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html#agent-skills-agentic-ai-foundation-aaif",
+    "href": "digest/2026-10-October-digest.html#agent-skills-agentic-ai-foundation-aaif",
+    "title": "October 2026 Digest",
+    "section": "Agent Skills → Agentic AI Foundation (AAIF)",
+    "text": "Agent Skills → Agentic AI Foundation (AAIF)\n\nAnthropic donated the SKILL.md standard (folder + SKILL.md + scripts) to the Linux Foundation’s AAIF on ~22 Oct (alongside MCP, goose, AGENTS.md). ~1M skills published / hundreds of millions installed; now under neutral governance with maintainers from multiple orgs.",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html#workbuddy-bench-tencent",
+    "href": "digest/2026-10-October-digest.html#workbuddy-bench-tencent",
+    "title": "October 2026 Digest",
+    "section": "WorkBuddy Bench (Tencent)",
+    "text": "WorkBuddy Bench (Tencent)\n\nMulti-domain coding-agent benchmark (Code / Web / Office / Security, ~260 tasks) reverse-engineered from real work, with contamination-resistant construction and dual-harness evaluation (CodeBuddy Code + Claude Code). Open evaluation framework + leaderboard.",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html#unbroker",
+    "href": "digest/2026-10-October-digest.html#unbroker",
+    "title": "October 2026 Digest",
+    "section": "UNBROKER",
+    "text": "UNBROKER\n\nis an optional Hermes Agent skill that autonomously finds and removes a consenting person’s personal information from data-broker and people-search sites.",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
+    "objectID": "digest/2026-10-October-digest.html#nvidia-openshell",
+    "href": "digest/2026-10-October-digest.html#nvidia-openshell",
+    "title": "October 2026 Digest",
+    "section": "NVIDIA OpenShell",
+    "text": "NVIDIA OpenShell\n\nis an open, secure runtime designed for AI agents. It provides a governed environment that controls agent execution, access, and inference routing, independent of the underlying model or application.\n\n\nNVIDIA YouTube Summary\nNVIDIA Developer: How NVIDIA OpenShell Secures Autonomous Agents | Nemotron Labs\n\n\nHarnesses (the runtime that turns a model into an agent)\n\nAgent Zero - agentic framework that gives the agent a full Linux computer inside a Docker container.\ngoose (Block / Agentic AI Foundation) – Apache-2.0, desktop + CLI + API, heavily MCP-native, local-model friendly.\nHermes Agent (Nous Research) – Python, persistent curated memory, autonomous skill creation, multiple backends (local/Docker/Modal/Daytona). Best long-term accumulation.\nOpenClaw – TypeScript gateway + 20–30 messaging channels, skills registry (ClawHub / SKILL.md), Docker sandboxes, cron, voice. Best reach.\nOpenCode - open source agent that helps you write code in your terminal, IDE, or desktop.\nOpenHands – Agent Canvas control center, scoped MCP profiles, isolated Docker runtimes, strong for autonomous coding & repo work.\nZCode - harness and agent for GLM\n\n\n\n\n\n\n\n\n\nAspect\nHermes Agent\nAgent Zero\n\n\n\n\nCore Philosophy\nPersistent personal agent that learns & grows over time via skills/memory\nFull sandboxed Linux computer + transparent, extensible agent framework\n\n\nStrengths\nStrong continuous learning loop (auto skill creation/refinement); excellent multi-platform messaging gateway (20+ apps, one memory); flexible deployment (serverless options that hibernate); deep user modeling & cross-session recall; easy always-on personal assistant feel\nReal desktop + browser with annotation/cowork; strong project isolation; highly transparent & editable (prompts/tools as files); mature multi-agent hierarchy + Plugin Hub; visual Web UI for control/observation; good for complex computer-use tasks\n\n\nWeaknesses\nLess emphasis on a full GUI desktop environment; memory/skills can increase token cost on simple tasks; more “gateway + tools” than “own computer” metaphor\nHeavier Docker dependency & resource footprint; less native multi-messaging surface out of the box; learning is more manual/project-oriented than automatic skill growth; Web UI-centric rather than chat-app native\n\n\nBest For\nAlways-available personal agent reachable from chat apps that improves with use\nTechnical users wanting a controllable agentic “computer” for development, research, document work, or multi-agent workflows\n\n\nDeployment Style\nLightweight long-running process / serverless; strong messaging focus\nDocker-first full environment; Web UI + optional host CLI bridge\n\n\nExtensibility\nSkills system + MCP + toolsets; community skills\nPlugins, skills, fully editable prompts, MCP/A2A, community Plugin Hub\n\n\n\n\n\nMCP\n\nis now the default wiring layer (thousands of servers, tool search to keep context clean, permission-aware patterns). Sandboxed runtimes (Docker, E2B, Daytona, Modal, Kernel-style browser infra) and curated persistent memory + agent-written skills are table stakes for anything that runs longer than a single prompt.\n\n\n\nKERNEL\n\nis a specialized cloud browser infrastructure and “Browser-as-a-Service” platform built specifically for AI web agents and high-scale browser automation. While traditional cloud browsers (like Browserless or standard headless Chrome containers) are designed for traditional web scraping or end-to-end testing, Kernel is engineered around the speed, scale, anti-bot bypass, and execution hurdles inherent to autonomous AI agents (using frameworks like Browser Use, Playwright, Puppeteer, or Stagehand).\n\n\n\nHERMES WebUI\n\nis a lightweight, dark-themed web app interface in your browser for Hermes Agent. Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS.\n\n\n\nHONCHO\n\nis open-source AI memory for agents. It remembers each user across sessions, tools and machines, so no session starts cold. Pairs well with Hermes Agent. Setup guide.\n\n\n\nOpenWaldo\n\n\n\nLetter\nMeaning\n\n\n\n\nW\nWeights\n\n\nA\nArtifacts\n\n\nL\nLicenses\n\n\nD\nData\n\n\nO\nOrigin\n\n\n\nOpenWALDO brings everything people expect from open source to AI: a community anyone can join; source code and training data anyone can contribute to and audit; open tools; public governance and trust earned through transparency; and models anyone can compose, train, validate, reproduce, extend, and improve.\n\n\nJEV\n\nA (machine native) decision-focused “System One” model that answers fixed, typed questions with probabilities so your code (or an agent) can act on the result directly, to be consumed by code. It is not a language model. Takes unstructured state + your pre-defined questions and returns reliable, probabilistic decisions that code can immediately branch on.\n\n\nSpyNEL\n\nLightweight agent orchestration that uses existing coding harnesses rather than bundling its own AI, with a single communication interface, durable Markdown task management, and autonomous agentic loops.\n\n\n\nDOX\n\nDOX is a lightweight AGENTS.md framework that gives AI agents precise project context through a maintained hierarchy of project-wide and area-specific instructions. Agents read the relevant guidance before editing and update it when meaningful changes affect the documented rules or structure.\n\n\n\nAjax\n\nAjax is a fine-tuned (abliterated) Qwen 3.5 9B model, trained for Odysseus to be your always on agent. It handles your daily tasks from search to browse web to email to your calendar - all your daily tasks completely privately. Ajax’s refusal has been ablated for a freer, less restricted AI experience. Please use responsibly.\n\n\n\nOdysseus\n\nOdysseus is a self-hosted AI workspace for chat, agents, deep research, email, calendar, and local/API model backends. It is local-first and privacy-first when you run local models on your own machine.\n\n\n\nBenchLM\nLLM Leaderboard. #### Best Ollama models\n\n\nHeretic\nHeretic removes restrictions (abliteration parameters) from language models, making sure they always follow your instructions.\n\n\n\nCapsem\n\nis a secure runtime / hypervisor for AI agents. It gives each agent its own isolated Linux VM, inspects everything it tries to do on the network or with tools, and logs the activity — so you can run powerful coding agents with much tighter control and visibility than running them directly on your host. Choose Capsem when your top priority is security and control — you want to run powerful coding agents (or any agent) with strong isolation, network inspection, and auditability.",
+    "crumbs": [
+      "Appendices",
+      "October 2026 Digest"
+    ]
+  },
+  {
     "objectID": "appendices/notes.html",
     "href": "appendices/notes.html",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "",
     "text": "E.1 Deep Learning notes",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
     "objectID": "appendices/notes.html#deep-learning-notes",
     "href": "appendices/notes.html#deep-learning-notes",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "",
     "text": "Chapter-1\nChapter-2\nChapter-3 & Chapter-4\nChapter-5\nChapter-5.1\nChapter-6\nTensor\nRL-Strategies",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
     "objectID": "appendices/notes.html#how-to-train-a-large-language-model",
     "href": "appendices/notes.html#how-to-train-a-large-language-model",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "E.2 How to Train a Large Language Model",
     "text": "E.2 How to Train a Large Language Model\n\nData Collection: Collect a large dataset of text.\nPreprocessing: Tokenize the text into subwords.\nModel Architecture: Choose a model architecture. BPE algorithm for tokenization.\n\nEmbedding\nLayer Norm\nSelf attention\nProjection\nMLP\nTransformer\nSoftmax\nOutput\n\nInference: Train the model on the dataset. Data splitting and training strategies.\n\nHuman Training\n(SFT) Supervised Fine Tuning\n\n(RL) Reinforced Learning\n\n(RLHF) Reinforcement Learning with Human Feedback\nPractice problems\nFine-tune the model on a smaller dataset.\n\nOutput",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
     "objectID": "appendices/notes.html#training-process-example-with-deepseek",
     "href": "appendices/notes.html#training-process-example-with-deepseek",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "E.3 Training Process (example with Deepseek)",
     "text": "E.3 Training Process (example with Deepseek)\n\nTrain V3-Base with RL for reasoning -&gt; R1-Zero\nCreate SFT data from R1-Zero using rejection sampling + synthetic data from V3.\nRe-train V3-Base from scratch on SFT data., followed by RL (reasoning + human prefs.)\n\n\nE.3.1 GRPO: Group Relative Policy Optimization\n\nFor each input question, sample mulitple responses\nCompute reward for each, and calculate its group-normailzed advantage\nNo need for critic model (answers are rewarded compared to the group)",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
     "objectID": "appendices/notes.html#deepseek-evolution",
     "href": "appendices/notes.html#deepseek-evolution",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "E.4 Deepseek Evolution",
     "text": "E.4 Deepseek Evolution\nFoundational Models | Model | Parameters | Methods | Notes | |———|————|————————————————————————————————————————————————|————————————| | V1 | 67B | Traditional Transformer | | | V2 | 236B | (MHLA) Multi-head latent Attention; (MoE) Mixture of Experts | made the model fast | | V3 | 671B | (RL) Reinforcement Learning; (MHLA) Multi-head latent Attention; (MoE) Mixture of Experts | Balance load amongst many GPU’s | | R1-Zero | 671B | (RL) Reinforcement Learning; (MHLA) Multi-head latent Attention; (MoE) Mixture of Experts; (CoT) Chain of Thougt | Reasoning model | | R1 | 671B | (RL) Reinforcement Learning; (SPT) Supervised Fine-Tuning; (MHLA) Multi-head latent Attention; (MoE) Mixture of Experts; (CoT) Chain of Thougt | Reasoning model; Human preferences |",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
     "objectID": "appendices/notes.html#transformer-based-language-models",
     "href": "appendices/notes.html#transformer-based-language-models",
-    "title": "Appendix E — [AI] Notes",
+    "title": "Appendix E — LLM Notes",
     "section": "E.5 Transformer-Based Language Models",
     "text": "E.5 Transformer-Based Language Models\n\n\n\n\n\n\n\n\nModel\nFull Name\nOrganization\n\n\n\n\nBERT\nBidirectional Encoder Representations from Transformers\nGoogle\n\n\nXLNet\nGeneralized Autoregressive Pretraining for Language Understanding\nGoogle/CMU\n\n\nRoBERTa\nA Robustly Optimized BERT Approach\nFacebook\n\n\nDistilBERT\nDistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter\nHugging Face\n\n\nCTRL\nConditional Transformer Language Model for Controllable Generation\nSalesforce\n\n\nGPT-2\nGenerative Pre-trained Transformer\nOpenAI\n\n\nALBERT\nA Lite BERT for Self-supervised Learning of Language Representations\nGoogle\n\n\nMegatron\nMegatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism\nNVIDIA",
     "crumbs": [
       "Appendices",
-      "<span class='chapter-number'>E</span>  <span class='chapter-title'>[AI] Notes</span>"
+      "<span class='chapter-number'>E</span>  <span class='chapter-title'>LLM Notes</span>"
     ]
   },
   {
