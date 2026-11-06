@@ -67,10 +67,11 @@ book:
   appendices:
     - appendices/glossary.qmd
     - appendices/references.qmd
+    - appendices/SOURCES.qmd
     - digest/digest_index.qmd
     - appendices/notes.qmd
     - appendices/prompt-engineering-notes.qmd
-    - appendices/SOURCES.qmd
+
   downloads: [pdf, epub]
   sharing: [twitter]
 

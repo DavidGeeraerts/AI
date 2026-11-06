@@ -74,6 +74,8 @@ style, and fit for the task.
 #### Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?
 [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful...](https://arxiv.org/abs/2602.11988)
 
+Repository context files can affect coding-agent performance [@gloaguen2026agentsmd].
+
 | Condition | Effect on success rate | Effect on cost / steps |
 |---|---|---|
 | LLM-generated context files | Slightly worse on average (~ –0.5% on SWE-bench Lite, ~ –2% to –3% on the new bench; negative in most configs) | +20–23% inference cost; +2.5–4 extra steps per task |
