@@ -36,7 +36,19 @@ prioritise independent writers, technical depth, open-model communities, and low
 - [The Gradient](https://thegradient.pub/)
 - [Turning Post](https://www.turingpost.com/)
 
-## YouTube Videos & Channels
+
+## Youtube Channels XML Feeds
+(Order by Name ↑)
+
+- [Agent Zero](https://www.youtube.com/feeds/videos.xml?channel_id=UCm4Sy7W36u_ZFOZWX9cd07w)
+- [Agentic AI Foundation](https://www.youtube.com/feeds/videos.xml?channel_id=UCgkApalw5crKXOtr_mqtPQg)
+- [AI Engineer](https://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA)
+- [Andrej Karpathy](https://www.youtube.com/feeds/videos.xml?channel_id=UCXUPKJO5MZQN11PqgIvyuvQ)
+- [IBM Technology](https://www.youtube.com/feeds/videos.xml?channel_id=UCKWaEZ-_VweaEx1j62do_vQ)
+- [Kai](https://www.youtube.com/feeds/videos.xml?channel_id=UCgUfJoPtkt7-RiiuYh4vmGA)
+
+
+## YouTube Videos
 (Sorted by Publication Date ↓)
 
 - 2026-11-05  [IBM Technology: Are Vector Databases Still Needed? RAG, AI Agents & Search](https://youtu.be/rXFV1ivDe6c?si=flBU6waLyJvn1y3H)

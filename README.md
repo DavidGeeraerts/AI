@@ -10,7 +10,7 @@
 
 <!-- DIGEST:START -->
 
-:fire: Read the latest [digest](digest/digest_index.html) — current snapshot of the landscape.
+:fire: Read the latest [digest](https://davidgeeraerts.github.io/AI/digest/2026-11-November-digest.html) — current snapshot of the landscape.
 
 <!-- DIGEST:END -->
 
