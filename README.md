@@ -39,7 +39,7 @@
 | Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
 | Chapter 5                         | Building a working stack | notes    | :red_circle:    |
 | Chapter 6                         | Miscellaneous Tools      | notes    | :red_circle:    |
-| Chapter 7                         | Resources                | active   | :red_circle:    |
+| Chapter 7                         | Resources                | active   | :green_circle:  |
 | Appendix-Glossary                 | Glossary                 | revising | :green_circle:  |
 | Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
 | Appendix-Digest Catalog           | Digest Catalog           | final    | :green_circle:  |
