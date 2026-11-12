@@ -54,6 +54,7 @@ prioritise independent writers, technical depth, open-model communities, and low
 ## YouTube Videos
 (Sorted by Publication Date ↓)
 
+- 2026-11-07  [Kai: The Local AI Hardware Mistake Almost Everyone Makes](https://www.youtube.com/watch?v=F7qf5Mibgu4)
 - 2026-11-05  [IBM Technology: Are Vector Databases Still Needed? RAG, AI Agents & Search](https://youtu.be/rXFV1ivDe6c?si=flBU6waLyJvn1y3H)
 - 2026-11-03  [Kai: Deepseek Just Drops a Claude Code Rival (Super Agent)](https://www.youtube.com/watch?v=hwRu-ehkzCw)
 - 2026-11-02  [Kai: What AI You Can Run at Every VRAM Size, From 16GB to 1TB](https://www.youtube.com/watch?v=kTmUbRVsamo)

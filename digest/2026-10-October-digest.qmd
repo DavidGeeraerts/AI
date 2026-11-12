@@ -94,6 +94,7 @@ OpenWALDO brings everything people expect from open source to AI: a community an
 
 #### [BenchLM](https://benchlm.ai/)
 LLM Leaderboard.
+
 #### [Best Ollama models](https://benchlm.ai/best/ollama-models)
 
 #### [Heretic](https://heretic-project.org/)

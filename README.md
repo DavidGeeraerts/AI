@@ -28,7 +28,7 @@
 
 --- 
 
-## Book Progress
+## :snail: Book Progress
 
 | Chapters                          | Title                    | Status   | Active          |
 |-----------------------------------|--------------------------|----------|-----------------|
