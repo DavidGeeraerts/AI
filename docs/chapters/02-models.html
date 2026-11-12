@@ -435,19 +435,33 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#ai-model-types" id="toc-ai-model-types" class="nav-link active" data-scroll-target="#ai-model-types"><span class="header-section-number">2.1</span> AI Model Types</a></li>
-  <li><a href="#model-families-and-access" id="toc-model-families-and-access" class="nav-link" data-scroll-target="#model-families-and-access"><span class="header-section-number">2.2</span> Model families and access</a></li>
-  <li><a href="#evaluation-and-training-data" id="toc-evaluation-and-training-data" class="nav-link" data-scroll-target="#evaluation-and-training-data"><span class="header-section-number">2.3</span> Evaluation and training data</a></li>
-  <li><a href="#abliteration" id="toc-abliteration" class="nav-link" data-scroll-target="#abliteration"><span class="header-section-number">2.4</span> Abliteration</a></li>
-  <li><a href="#prominent-ai-organizations-creating-foundational-ai-models" id="toc-prominent-ai-organizations-creating-foundational-ai-models" class="nav-link" data-scroll-target="#prominent-ai-organizations-creating-foundational-ai-models"><span class="header-section-number">2.5</span> Prominent AI Organizations Creating Foundational AI Models</a>
+  <li><a href="#choosing-a-model-for-agents.-tool-and-function-calling-quality-instruction-following-context-length-speed-and-cost-per-task." id="toc-choosing-a-model-for-agents.-tool-and-function-calling-quality-instruction-following-context-length-speed-and-cost-per-task." class="nav-link active" data-scroll-target="#choosing-a-model-for-agents.-tool-and-function-calling-quality-instruction-following-context-length-speed-and-cost-per-task."><span class="header-section-number">2.1</span> Choosing a model for agents. Tool and function calling quality, instruction following, context length, speed, and cost per task.</a></li>
+  <li><a href="#context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens." id="toc-context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens." class="nav-link" data-scroll-target="#context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens."><span class="header-section-number">2.2</span> Context windows and token economics. Pricing, caching, and how long-running agents use up tokens.</a></li>
+  <li><a href="#reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost." id="toc-reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost." class="nav-link" data-scroll-target="#reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost."><span class="header-section-number">2.3</span> Reasoning modes and effort settings. When thinking models are worth the extra time and cost.</a></li>
+  <li><a href="#access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally." id="toc-access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally." class="nav-link" data-scroll-target="#access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally."><span class="header-section-number">2.4</span> Access and hosting. Direct APIs, model routers like OpenRouter, cloud platforms like Bedrock, Vertex and Azure, and running models locally.</a></li>
+  <li><a href="#running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark." id="toc-running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark." class="nav-link" data-scroll-target="#running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark."><span class="header-section-number">2.5</span> Running models locally. Quantization, file formats like GGUF and MLX, and hardware sizing, which builds on what we covered about the 5090 and DGX Spark.</a></li>
+  <li><a href="#licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas." id="toc-licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas." class="nav-link" data-scroll-target="#licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas."><span class="header-section-number">2.6</span> Licensing. The difference between open weights and fully open models like Olmo, plus Apache-style licenses versus custom ones like Llama’s.</a></li>
+  <li><a href="#fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it." id="toc-fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it." class="nav-link" data-scroll-target="#fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it."><span class="header-section-number">2.7</span> Fine-tuning and distillation. LoRA and when adapting a model beats prompting it.</a></li>
+  <li><a href="#model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time." id="toc-model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time." class="nav-link" data-scroll-target="#model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time."><span class="header-section-number">2.8</span> Model lifecycle. Versioning, deprecations, and pinning a model version so an agent behaves the same over time.</a></li>
+  <li><a href="#types-of-ai-models" id="toc-types-of-ai-models" class="nav-link" data-scroll-target="#types-of-ai-models"><span class="header-section-number">2.9</span> Types of AI Models</a></li>
+  <li><a href="#ai-model-types" id="toc-ai-model-types" class="nav-link" data-scroll-target="#ai-model-types"><span class="header-section-number">2.10</span> AI Model Types</a></li>
+  <li><a href="#model-families-and-access" id="toc-model-families-and-access" class="nav-link" data-scroll-target="#model-families-and-access"><span class="header-section-number">2.11</span> Model families and access</a></li>
+  <li><a href="#evaluation-and-training-data" id="toc-evaluation-and-training-data" class="nav-link" data-scroll-target="#evaluation-and-training-data"><span class="header-section-number">2.12</span> Evaluation and training data</a></li>
+  <li><a href="#abliteration" id="toc-abliteration" class="nav-link" data-scroll-target="#abliteration"><span class="header-section-number">2.13</span> Abliteration</a></li>
+  <li><a href="#prominent-ai-labsorganizations-creating-foundational-ai-models" id="toc-prominent-ai-labsorganizations-creating-foundational-ai-models" class="nav-link" data-scroll-target="#prominent-ai-labsorganizations-creating-foundational-ai-models"><span class="header-section-number">2.14</span> Prominent AI Labs/Organizations Creating Foundational AI Models</a>
   <ul class="collapse">
-  <li><a href="#foundational-ai-models" id="toc-foundational-ai-models" class="nav-link" data-scroll-target="#foundational-ai-models"><span class="header-section-number">2.5.1</span> Foundational AI Models</a></li>
+  <li><a href="#foundational-ai-models" id="toc-foundational-ai-models" class="nav-link" data-scroll-target="#foundational-ai-models"><span class="header-section-number">2.14.1</span> Foundational AI Models</a></li>
   </ul></li>
-  <li><a href="#benchmarks" id="toc-benchmarks" class="nav-link" data-scroll-target="#benchmarks"><span class="header-section-number">2.6</span> Benchmarks</a>
+  <li><a href="#benchmarks" id="toc-benchmarks" class="nav-link" data-scroll-target="#benchmarks"><span class="header-section-number">2.15</span> Benchmarks</a>
   <ul class="collapse">
-  <li><a href="#benchmark-articles" id="toc-benchmark-articles" class="nav-link" data-scroll-target="#benchmark-articles"><span class="header-section-number">2.6.1</span> Benchmark Articles</a></li>
+  <li><a href="#benchmark-articles" id="toc-benchmark-articles" class="nav-link" data-scroll-target="#benchmark-articles"><span class="header-section-number">2.15.1</span> Benchmark Articles</a></li>
   </ul></li>
-  <li><a href="#base-model-data" id="toc-base-model-data" class="nav-link" data-scroll-target="#base-model-data"><span class="header-section-number">2.7</span> Base Model Data</a></li>
+  <li><a href="#model-training-data" id="toc-model-training-data" class="nav-link" data-scroll-target="#model-training-data"><span class="header-section-number">2.16</span> Model Training Data</a>
+  <ul class="collapse">
+  <li><a href="#pretraining-corpora" id="toc-pretraining-corpora" class="nav-link" data-scroll-target="#pretraining-corpora"><span class="header-section-number">2.16.1</span> Pretraining Corpora</a></li>
+  <li><a href="#post-training-and-agent-datasets" id="toc-post-training-and-agent-datasets" class="nav-link" data-scroll-target="#post-training-and-agent-datasets"><span class="header-section-number">2.16.2</span> Post-Training and Agent Datasets</a></li>
+  <li><a href="#general-dataset-sources" id="toc-general-dataset-sources" class="nav-link" data-scroll-target="#general-dataset-sources"><span class="header-section-number">2.16.3</span> General Dataset Sources</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/02-models.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -476,83 +490,159 @@ ul.task-list li input[type="checkbox"] {
 
 <hr>
 <hr>
+<p>Sections</p>
+<section id="choosing-a-model-for-agents.-tool-and-function-calling-quality-instruction-following-context-length-speed-and-cost-per-task." class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="choosing-a-model-for-agents.-tool-and-function-calling-quality-instruction-following-context-length-speed-and-cost-per-task."><span class="header-section-number">2.1</span> Choosing a model for agents. Tool and function calling quality, instruction following, context length, speed, and cost per task.</h2>
+</section>
+<section id="context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens." class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens."><span class="header-section-number">2.2</span> Context windows and token economics. Pricing, caching, and how long-running agents use up tokens.</h2>
+</section>
+<section id="reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost." class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost."><span class="header-section-number">2.3</span> Reasoning modes and effort settings. When thinking models are worth the extra time and cost.</h2>
+</section>
+<section id="access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally." class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally."><span class="header-section-number">2.4</span> Access and hosting. Direct APIs, model routers like OpenRouter, cloud platforms like Bedrock, Vertex and Azure, and running models locally.</h2>
+</section>
+<section id="running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark." class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark."><span class="header-section-number">2.5</span> Running models locally. Quantization, file formats like GGUF and MLX, and hardware sizing, which builds on what we covered about the 5090 and DGX Spark.</h2>
+</section>
+<section id="licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas." class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas."><span class="header-section-number">2.6</span> Licensing. The difference between open weights and fully open models like Olmo, plus Apache-style licenses versus custom ones like Llama’s.</h2>
+</section>
+<section id="fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it." class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it."><span class="header-section-number">2.7</span> Fine-tuning and distillation. LoRA and when adapting a model beats prompting it.</h2>
+</section>
+<section id="model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time." class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time."><span class="header-section-number">2.8</span> Model lifecycle. Versioning, deprecations, and pinning a model version so an agent behaves the same over time.</h2>
+</section>
+<section id="types-of-ai-models" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="types-of-ai-models"><span class="header-section-number">2.9</span> Types of AI Models</h2>
 <ul>
 <li>General-purpose and code-specialized large language models</li>
 <li>Multimodal models</li>
 <li>Image-generation models, including text-to-image and image-to-image systems</li>
 <li>Decision or “System One” models, including calibrated-decision approaches</li>
 </ul>
-<section id="ai-model-types" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="ai-model-types"><span class="header-section-number">2.1</span> AI Model Types</h2>
+</section>
+<section id="ai-model-types" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="ai-model-types"><span class="header-section-number">2.10</span> AI Model Types</h2>
 <ul>
 <li>Large Language Models (LLM)
 <ul>
-<li>General-purpose language models</li>
+<li>General-purpose language models
+<ul>
+<li>Claude (Anthropic)</li>
+<li>GPT (OpenAI)</li>
+<li>Gemini (Google DeepMind)</li>
+<li>Grok (xAI)</li>
+<li>Open-weight leaders: Kimi (Moonshot AI), DeepSeek, Qwen (Alibaba), MiMo (Xiaomi), GLM (Zhipu AI / Z.AI)</li>
+</ul></li>
 <li>Code-specialized models
 <ul>
-<li>Claude Fable 5.1 / Claude Opus 5.5 family (Anthropic)</li>
-<li>GPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)</li>
-<li>Gemini 4 Argon / Gemini 3.x Flash family (Google)</li>
-<li>Kimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)</li>
-<li>DeepSeek</li>
-<li>Qwen</li>
+<li>Codex models (OpenAI)</li>
+<li>Qwen3-Coder (Alibaba)</li>
+<li>Codestral / Devstral (Mistral AI)</li>
 </ul></li>
 </ul></li>
 <li>Image Generation Models
 <ul>
-<li>Text-to-Image {<a href="https://stablediffusionweb.com/">Stable Diffusion</a>, <a href="https://www.midjourney.com/home">Midjourney</a>, DALL-E, <a href="https://grok.com/supergrok/imagine">Grok Imagine</a>}</li>
-<li>Image-to-Image</li>
+<li>Text-to-Image
+<ul>
+<li><a href="https://blackforestlabs.ai/">FLUX</a></li>
+<li><a href="https://openai.com/">GPT Image</a> (successor to DALL-E)</li>
+<li><a href="https://grok.com/supergrok/imagine">Grok Imagine</a></li>
+<li><a href="https://ideogram.ai/">Ideogram</a></li>
+<li><a href="https://deepmind.google/models/imagen/">Imagen</a></li>
+<li><a href="https://www.midjourney.com/home">Midjourney</a></li>
+<li><a href="https://www.bytedance.com/">Seedream</a></li>
+<li><a href="https://stablediffusionweb.com/">Stable Diffusion</a></li>
+</ul></li>
+<li>Image-to-Image
+<ul>
+<li><a href="https://blackforestlabs.ai/">FLUX Kontext</a>, Gemini image editing (Google), GPT Image editing (OpenAI)</li>
+</ul></li>
+</ul></li>
+<li>Video Generation Models
+<ul>
+<li><a href="https://grok.com/supergrok/imagine">Grok Imagine</a></li>
+<li><a href="https://klingai.com/">Kling</a></li>
+<li><a href="https://runwayml.com/">Runway Gen</a></li>
+<li>Sora (OpenAI)</li>
+<li><a href="https://deepmind.google/models/veo/">Veo</a></li>
+</ul></li>
+<li>Speech and Audio Models
+<ul>
+<li>Speech-to-Text {Whisper (OpenAI)}</li>
+<li>Text-to-Speech / Voice {<a href="https://elevenlabs.io/">ElevenLabs</a>}</li>
+</ul></li>
+<li>Embedding Models
+<ul>
+<li><a href="https://cohere.com/">Cohere Embed</a></li>
+<li>Gemini embeddings (Google)</li>
+<li><a href="https://www.voyageai.com/">Voyage</a></li>
 </ul></li>
 <li>Multimodal Models (Text, Image, Audio, Video)
 <ul>
-<li>Kimi K3 (Moonshot AI)</li>
-<li>Claude Opus 5 / Claude Opus 5.5 (Anthropic)</li>
-<li>Qwen3.8 Max (Alibaba)</li>
-<li>GPT-5.6 series (especially Sol / Luna variants) (OpenAI)</li>
-<li>Gemini 3.x Flash / Pro family (Google)</li>
+<li>Claude (Anthropic)</li>
+<li>Gemini (Google DeepMind)</li>
+<li>GPT (OpenAI)</li>
+<li>Grok (xAI)</li>
+<li>Kimi (Moonshot AI)</li>
+<li>Llama / Muse (Meta)</li>
+<li>Qwen (Alibaba)</li>
 </ul></li>
 </ul>
 </section>
-<section id="model-families-and-access" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="model-families-and-access"><span class="header-section-number">2.2</span> Model families and access</h2>
+<section id="model-families-and-access" class="level2" data-number="2.11">
+<h2 data-number="2.11" class="anchored" data-anchor-id="model-families-and-access"><span class="header-section-number">2.11</span> Model families and access</h2>
 <p>The landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.</p>
 </section>
-<section id="evaluation-and-training-data" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="evaluation-and-training-data"><span class="header-section-number">2.3</span> Evaluation and training data</h2>
+<section id="evaluation-and-training-data" class="level2" data-number="2.12">
+<h2 data-number="2.12" class="anchored" data-anchor-id="evaluation-and-training-data"><span class="header-section-number">2.12</span> Evaluation and training data</h2>
 <p>Benchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.</p>
 </section>
-<section id="abliteration" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="abliteration"><span class="header-section-number">2.4</span> Abliteration</h2>
+<section id="abliteration" class="level2" data-number="2.13">
+<h2 data-number="2.13" class="anchored" data-anchor-id="abliteration"><span class="header-section-number">2.13</span> Abliteration</h2>
 <p>Refusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.</p>
 </section>
-<section id="prominent-ai-organizations-creating-foundational-ai-models" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="prominent-ai-organizations-creating-foundational-ai-models"><span class="header-section-number">2.5</span> Prominent AI Organizations Creating Foundational AI Models</h2>
+<section id="prominent-ai-labsorganizations-creating-foundational-ai-models" class="level2" data-number="2.14">
+<h2 data-number="2.14" class="anchored" data-anchor-id="prominent-ai-labsorganizations-creating-foundational-ai-models"><span class="header-section-number">2.14</span> Prominent AI Labs/Organizations Creating Foundational AI Models</h2>
 <p>(Order by Name ↑)</p>
 <ul>
+<li><a href="https://www.ai21.com/">AI21 Labs</a> (Jamba)</li>
 <li><a href="https://www.alibabacloud.com/en">Alibaba</a> (Qwen)</li>
-<li><a href="https://allenai.org/">Allen Institute for AI</a></li>
-<li><a href="https://aws.amazon.com/machine-learning/">Amazon AI</a></li>
-<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://allenai.org/">Allen Institute for AI</a> (Olmo)</li>
+<li><a href="https://aws.amazon.com/machine-learning/">Amazon AI</a> (Nova)</li>
+<li><a href="https://www.anthropic.com/">Anthropic</a> (Claude)</li>
+<li><a href="https://yiyan.baidu.com/">Baidu</a> (ERNIE)</li>
 <li><a href="https://blackforestlabs.ai/">Black Forest Labs</a> (FLUX)</li>
 <li><a href="https://www.bytedance.com/">ByteDance</a> (Seed / Seedream / Doubao)</li>
-<li><a href="https://cohere.ai/">Cohere</a></li>
-<li><a href="https://www.deepseek.com/">DeepSeek</a></li>
-<li><a href="https://ai.google/">Google AI / Google DeepMind</a></li>
-<li><a href="https://huggingface.co/">Hugging Face</a></li>
-<li><a href="https://www.ibm.com/granite">IBM</a></li>
-<li><a href="https://ai.facebook.com/">Meta AI</a></li>
-<li><a href="https://www.microsoft.com/en-us/ai">Microsoft AI</a></li>
-<li><a href="https://www.minimaxi.com/">MiniMax</a></li>
-<li><a href="https://mistral.ai/">Mistral AI</a></li>
+<li><a href="https://cohere.com/">Cohere</a> (Command)</li>
+<li><a href="https://www.deepseek.com/">DeepSeek</a> (DeepSeek)</li>
+<li><a href="https://ai.google/">Google AI / Google DeepMind</a> (Gemini / Gemma / Veo / Imagen)</li>
+<li><a href="https://huggingface.co/">Hugging Face</a> (model hub; builds SmolLM)</li>
+<li><a href="https://www.ibm.com/granite">IBM</a> (Granite)</li>
+<li><a href="https://ideogram.ai/">Ideogram</a> (Ideogram)</li>
+<li><a href="https://klingai.com/">Kuaishou</a> (Kling)</li>
+<li><a href="https://www.liquid.ai/">Liquid AI</a> (LFM)</li>
+<li><a href="https://ai.meta.com/">Meta AI</a> (Llama / Muse)</li>
+<li><a href="https://www.microsoft.com/en-us/ai">Microsoft AI</a> (Phi)</li>
+<li><a href="https://www.midjourney.com/">Midjourney</a> (Midjourney)</li>
+<li><a href="https://www.minimax.io/">MiniMax</a> (MiniMax)</li>
+<li><a href="https://mistral.ai/">Mistral AI</a> (Mistral)</li>
 <li><a href="https://www.moonshot.cn/">Moonshot AI</a> (Kimi)</li>
-<li><a href="https://openai.com/">OpenAI</a></li>
-<li><a href="https://stability.ai/">Stability AI</a></li>
+<li><a href="https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/">NVIDIA</a> (Nemotron)</li>
+<li><a href="https://openai.com/">OpenAI</a> (GPT)</li>
+<li><a href="https://runwayml.com/">Runway</a> (Runway Gen)</li>
+<li><a href="https://stability.ai/">Stability AI</a> (Stable Diffusion)</li>
+<li><a href="https://www.tii.ae/">Technology Innovation Institute</a> (Falcon)</li>
+<li><a href="https://hunyuan.tencent.com/">Tencent</a> (Hunyuan)</li>
 <li><a href="https://www.xiaomi.com/">Xiaomi</a> (MiMo)</li>
-<li><a href="https://x.ai/">xAI</a></li>
+<li><a href="https://x.ai/">xAI</a> (Grok)</li>
 <li><a href="https://zhipuai.cn/">Zhipu AI / Z.AI</a> (GLM)</li>
 </ul>
-<section id="foundational-ai-models" class="level3" data-number="2.5.1">
-<h3 data-number="2.5.1" class="anchored" data-anchor-id="foundational-ai-models"><span class="header-section-number">2.5.1</span> Foundational AI Models</h3>
+<section id="foundational-ai-models" class="level3" data-number="2.14.1">
+<h3 data-number="2.14.1" class="anchored" data-anchor-id="foundational-ai-models"><span class="header-section-number">2.14.1</span> Foundational AI Models</h3>
 <p>(Order by Name ↑)</p>
 <ul>
 <li><a href="https://www.anthropic.com/claude">Claude</a> (Anthropic)</li>
@@ -591,8 +681,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="benchmarks" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="benchmarks"><span class="header-section-number">2.6</span> Benchmarks</h2>
+<section id="benchmarks" class="level2" data-number="2.15">
+<h2 data-number="2.15" class="anchored" data-anchor-id="benchmarks"><span class="header-section-number">2.15</span> Benchmarks</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -695,25 +785,107 @@ ul.task-list li input[type="checkbox"] {
 <td>Version scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly</td>
 <td><strong>Yes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding</strong></td>
 </tr>
+<tr class="even">
+<td><a href="https://www.tbench.ai/"><strong>Terminal-Bench</strong></a></td>
+<td>Active (2.x line)</td>
+<td>Real command-line tasks in sandboxed containers (builds, debugging, sysadmin, data work); tests end-to-end agent behavior, not just code output; open tasks and harness; widely cited by labs and composite indices</td>
+<td>Results depend heavily on the agent harness; tasks vary in difficulty and flakiness; long-running and compute-heavy</td>
+<td><strong>Yes — a core benchmark for terminal and coding agents</strong></td>
+</tr>
+<tr class="odd">
+<td><a href="https://github.com/sierra-research/tau2-bench"><strong>τ-bench / τ²-bench</strong></a> (Sierra)</td>
+<td>Active</td>
+<td>Tool-using agents in multi-turn conversations with a simulated user under domain policies (retail, airline, telecom); pass^k metric measures consistency across repeated runs</td>
+<td>Simulated-user behavior adds noise; narrow customer-service domains; some task and label errors reported</td>
+<td><strong>Yes — one of the best tests of policy-following, reliability, and tool use in conversation</strong></td>
+</tr>
+<tr class="even">
+<td><a href="https://os-world.github.io/"><strong>OSWorld</strong></a> (incl.&nbsp;OSWorld-Verified)</td>
+<td>Active, scores rising fast</td>
+<td>Agents operate real desktop operating systems and apps (Ubuntu, Windows, macOS) through screenshots and mouse/keyboard; execution-based checking; human baseline about 72%</td>
+<td>Slow and costly to run; environment setup and flaky tasks; scores sensitive to screenshot resolution and step limits</td>
+<td><strong>Yes — the standard benchmark for computer-use agents</strong></td>
+</tr>
+<tr class="odd">
+<td><a href="https://openai.com/index/browsecomp/"><strong>BrowseComp</strong></a> (OpenAI)</td>
+<td>Active, climbing</td>
+<td>1,266 hard-to-find but easy-to-verify questions that need persistent, creative web browsing; short answers allow objective grading</td>
+<td>Answers can leak onto the web over time; measures finding facts, not synthesis or report quality; English-centric (BrowseComp-ZH covers Chinese)</td>
+<td><strong>Yes — the go-to benchmark for deep-research and web-browsing agents</strong></td>
+</tr>
+<tr class="even">
+<td><a href="https://mcp-universe.github.io/"><strong>MCP-Universe</strong></a> (Salesforce) and other MCP benchmarks (MCP-Bench, MCPMark)</td>
+<td>Emerging</td>
+<td>Agents use real Model Context Protocol servers (GitHub, maps, finance, browser, etc.) on multi-step tasks; execution-based checking; directly mirrors how modern agents connect to tools</td>
+<td>Young and fragmented, with no single standard; depends on live third-party services that change; long-context and unfamiliar-tool challenges skew results</td>
+<td><strong>Yes, if you build MCP-based agents</strong> — watch for consolidation</td>
+</tr>
+<tr class="odd">
+<td><a href="https://metr.org/"><strong>METR Time Horizons</strong></a></td>
+<td>Active, widely cited</td>
+<td>Measures the length of tasks (in human expert time) an agent completes with 50% reliability; tracks the trend over time (roughly doubling every ~7 months); grounded in software and research tasks</td>
+<td>Wide confidence intervals; task suite skews toward software and ML; 50% reliability is far below production needs; not a leaderboard of everyday performance</td>
+<td><strong>Yes — the best single measure of how autonomous agents are becoming</strong></td>
+</tr>
+<tr class="even">
+<td><a href="https://arcprize.org/"><strong>ARC-AGI</strong></a> (ARC-AGI-2 / ARC-AGI-3)</td>
+<td>Active, far from saturated on newer versions</td>
+<td>Novel visual grid puzzles that test abstraction and skill acquisition on unseen problems; easy for humans, hard for models; cost-per-task reported alongside scores; ARC-AGI-3 adds interactive game-like environments</td>
+<td>Narrow puzzle domain; results swing with test-time compute budgets; limited direct transfer to agentic work</td>
+<td><strong>Yes — the leading test of genuine novel reasoning rather than memorization</strong></td>
+</tr>
+<tr class="odd">
+<td><a href="https://aider.chat/docs/leaderboards/"><strong>Aider Polyglot</strong></a></td>
+<td>Near-saturating at the top</td>
+<td>225 hard Exercism exercises across C++, Go, Java, JavaScript, Python, and Rust; tests the model’s ability to make correct edits in a real coding workflow; reports cost and edit-format compliance</td>
+<td>Exercise-style problems, not real repositories; public exercises raise contamination risk; top models cluster high</td>
+<td>Somewhat — useful for comparing code-editing reliability and cost; less so at the frontier</td>
+</tr>
 </tbody>
 </table>
-<section id="benchmark-articles" class="level3" data-number="2.6.1">
-<h3 data-number="2.6.1" class="anchored" data-anchor-id="benchmark-articles"><span class="header-section-number">2.6.1</span> Benchmark Articles</h3>
+<section id="benchmark-articles" class="level3" data-number="2.15.1">
+<h3 data-number="2.15.1" class="anchored" data-anchor-id="benchmark-articles"><span class="header-section-number">2.15.1</span> Benchmark Articles</h3>
 <ul>
 <li><a href="https://interestingengineering.substack.com/p/grading-the-graders-gaming-benchmarks">Grading the Graders: Gaming Benchmarks and Making Your Own</a></li>
 </ul>
 </section>
 </section>
-<section id="base-model-data" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="base-model-data"><span class="header-section-number">2.7</span> Base Model Data</h2>
+<section id="model-training-data" class="level2" data-number="2.16">
+<h2 data-number="2.16" class="anchored" data-anchor-id="model-training-data"><span class="header-section-number">2.16</span> Model Training Data</h2>
+<section id="pretraining-corpora" class="level3" data-number="2.16.1">
+<h3 data-number="2.16.1" class="anchored" data-anchor-id="pretraining-corpora"><span class="header-section-number">2.16.1</span> Pretraining Corpora</h3>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://huggingface.co/datasets/allenai/c4">C4 (Colossal Clean Crawled Corpus)</a> – cleaned Common Crawl text used to train T5 and many later models.</li>
+<li><a href="https://commoncrawl.org/">Common Crawl</a> – the raw open web crawl underlying most pretraining datasets.</li>
+<li><a href="https://huggingface.co/datasets/allenai/dolma">Dolma</a> (Ai2) – fully open pretraining corpus behind the Olmo models.</li>
+<li><a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1">FineWeb</a> – curated, deduplicated Common Crawl dataset.</li>
+<li><a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu">FineWeb-Edu</a> – educational-quality subset of FineWeb.</li>
+<li><a href="https://huggingface.co/datasets/HuggingFaceFW/fineweb-2">FineWeb 2</a> – multilingual extension of FineWeb.</li>
+<li><a href="https://laion.ai/">LAION / Re-LAION-5B</a> – large image-text pair dataset used to train image models such as Stable Diffusion.</li>
+<li><a href="https://www.together.ai/blog/redpajama-data-v2">RedPajama</a> (Together AI) – open reproduction of the LLaMA training data mix.</li>
+<li><a href="https://pile.eleuther.ai/">The Pile</a> (EleutherAI) – diverse 800 GB English text corpus from 22 sources.</li>
+<li><a href="https://huggingface.co/datasets/bigcode/the-stack-v2">The Stack v2</a> (BigCode) – large permissively licensed source-code dataset; key for code and agentic models.</li>
+</ul>
+</section>
+<section id="post-training-and-agent-datasets" class="level3" data-number="2.16.2">
+<h3 data-number="2.16.2" class="anchored" data-anchor-id="post-training-and-agent-datasets"><span class="header-section-number">2.16.2</span> Post-Training and Agent Datasets</h3>
+<p>(Order by Name ↑)</p>
+<ul>
+<li><a href="https://huggingface.co/collections/allenai/olmo-hybrid">Dolci</a> (Ai2) – supervised fine-tuning data for Olmo Think and Instruct models, including tool-use sets.</li>
+<li><a href="https://github.com/SWE-Gym/SWE-Gym">SWE-Gym</a> – environment and agent trajectories for training software-engineering agents on real GitHub tasks.</li>
+<li><a href="https://github.com/SWE-bench/SWE-smith">SWE-smith</a> – toolkit and dataset for generating software-engineering tasks and coding-agent trajectories at scale.</li>
+<li><a href="https://huggingface.co/collections/allenai/tulu-3-datasets">Tulu 3</a> (Ai2) – open instruction-tuning and preference data, with recipes.</li>
+</ul>
+</section>
+<section id="general-dataset-sources" class="level3" data-number="2.16.3">
+<h3 data-number="2.16.3" class="anchored" data-anchor-id="general-dataset-sources"><span class="header-section-number">2.16.3</span> General Dataset Sources</h3>
 <p>(Order by Name ↑)</p>
 <ul>
 <li><a href="https://aws.amazon.com/marketplace/search/results?trk=8384929b-0eb1-4af3-8996-07aa409646bc&amp;sc_channel=el&amp;FULFILLMENT_OPTION_TYPE=DATA_EXCHANGE&amp;CONTRACT_TYPE=OPEN_DATA_LICENSES&amp;filters=FULFILLMENT_OPTION_TYPE%2CCONTRACT_TYPE">AWS Open Data</a></li>
-<li><a href="https://commoncrawl.org/"><strong>Common Crawl</strong></a></li>
-<li><a href="https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1"><strong>FineWeb</strong></a> – curated Internet dataset.</li>
-<li><a href="https://datasetsearch.research.google.com/"><strong>Google Dataset Search</strong></a></li>
-<li><a href="https://huggingface.co/datasets"><strong>Hugging Face Datasets</strong></a></li>
-<li><a href="https://www.kaggle.com/datasets"><strong>Kaggle</strong></a></li>
+<li><a href="https://datasetsearch.research.google.com/">Google Dataset Search</a></li>
+<li><a href="https://huggingface.co/datasets">Hugging Face Datasets</a></li>
+<li><a href="https://www.kaggle.com/datasets">Kaggle</a></li>
 <li><a href="https://planetarycomputer.microsoft.com/catalog">Microsoft Planetary Computer Data Catalog</a></li>
 <li><a href="https://github.com/cvdfoundation/mnist">MNIST (Modified National Institute of Standards and Technology database)</a></li>
 <li><a href="https://storage.googleapis.com/openimages/web/index.html">Open Images Dataset</a></li>
@@ -723,6 +895,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

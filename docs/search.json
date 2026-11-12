@@ -114,7 +114,87 @@
     "href": "chapters/02-models.html",
     "title": "2  Models",
     "section": "",
-    "text": "2.1 AI Model Types",
+    "text": "2.1 Choosing a model for agents. Tool and function calling quality, instruction following, context length, speed, and cost per task.\nSections",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens.",
+    "href": "chapters/02-models.html#context-windows-and-token-economics.-pricing-caching-and-how-long-running-agents-use-up-tokens.",
+    "title": "2  Models",
+    "section": "2.2 Context windows and token economics. Pricing, caching, and how long-running agents use up tokens.",
+    "text": "2.2 Context windows and token economics. Pricing, caching, and how long-running agents use up tokens.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost.",
+    "href": "chapters/02-models.html#reasoning-modes-and-effort-settings.-when-thinking-models-are-worth-the-extra-time-and-cost.",
+    "title": "2  Models",
+    "section": "2.3 Reasoning modes and effort settings. When thinking models are worth the extra time and cost.",
+    "text": "2.3 Reasoning modes and effort settings. When thinking models are worth the extra time and cost.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally.",
+    "href": "chapters/02-models.html#access-and-hosting.-direct-apis-model-routers-like-openrouter-cloud-platforms-like-bedrock-vertex-and-azure-and-running-models-locally.",
+    "title": "2  Models",
+    "section": "2.4 Access and hosting. Direct APIs, model routers like OpenRouter, cloud platforms like Bedrock, Vertex and Azure, and running models locally.",
+    "text": "2.4 Access and hosting. Direct APIs, model routers like OpenRouter, cloud platforms like Bedrock, Vertex and Azure, and running models locally.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark.",
+    "href": "chapters/02-models.html#running-models-locally.-quantization-file-formats-like-gguf-and-mlx-and-hardware-sizing-which-builds-on-what-we-covered-about-the-5090-and-dgx-spark.",
+    "title": "2  Models",
+    "section": "2.5 Running models locally. Quantization, file formats like GGUF and MLX, and hardware sizing, which builds on what we covered about the 5090 and DGX Spark.",
+    "text": "2.5 Running models locally. Quantization, file formats like GGUF and MLX, and hardware sizing, which builds on what we covered about the 5090 and DGX Spark.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas.",
+    "href": "chapters/02-models.html#licensing.-the-difference-between-open-weights-and-fully-open-models-like-olmo-plus-apache-style-licenses-versus-custom-ones-like-llamas.",
+    "title": "2  Models",
+    "section": "2.6 Licensing. The difference between open weights and fully open models like Olmo, plus Apache-style licenses versus custom ones like Llama’s.",
+    "text": "2.6 Licensing. The difference between open weights and fully open models like Olmo, plus Apache-style licenses versus custom ones like Llama’s.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it.",
+    "href": "chapters/02-models.html#fine-tuning-and-distillation.-lora-and-when-adapting-a-model-beats-prompting-it.",
+    "title": "2  Models",
+    "section": "2.7 Fine-tuning and distillation. LoRA and when adapting a model beats prompting it.",
+    "text": "2.7 Fine-tuning and distillation. LoRA and when adapting a model beats prompting it.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time.",
+    "href": "chapters/02-models.html#model-lifecycle.-versioning-deprecations-and-pinning-a-model-version-so-an-agent-behaves-the-same-over-time.",
+    "title": "2  Models",
+    "section": "2.8 Model lifecycle. Versioning, deprecations, and pinning a model version so an agent behaves the same over time.",
+    "text": "2.8 Model lifecycle. Versioning, deprecations, and pinning a model version so an agent behaves the same over time.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/02-models.html#types-of-ai-models",
+    "href": "chapters/02-models.html#types-of-ai-models",
+    "title": "2  Models",
+    "section": "2.9 Types of AI Models",
+    "text": "2.9 Types of AI Models\n\nGeneral-purpose and code-specialized large language models\nMultimodal models\nImage-generation models, including text-to-image and image-to-image systems\nDecision or “System One” models, including calibrated-decision approaches",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -123,8 +203,8 @@
     "objectID": "chapters/02-models.html#ai-model-types",
     "href": "chapters/02-models.html#ai-model-types",
     "title": "2  Models",
-    "section": "",
-    "text": "Large Language Models (LLM)\n\nGeneral-purpose language models\nCode-specialized models\n\nClaude Fable 5.1 / Claude Opus 5.5 family (Anthropic)\nGPT-6 Astra / GPT-5.6 Sol / GPT-6.1 Sol series (OpenAI)\nGemini 4 Argon / Gemini 3.x Flash family (Google)\nKimi K3 / DeepSeek V4.1 Flash / MiMo-V2.6-Pro (open-weight leaders)\nDeepSeek\nQwen\n\n\nImage Generation Models\n\nText-to-Image {Stable Diffusion, Midjourney, DALL-E, Grok Imagine}\nImage-to-Image\n\nMultimodal Models (Text, Image, Audio, Video)\n\nKimi K3 (Moonshot AI)\nClaude Opus 5 / Claude Opus 5.5 (Anthropic)\nQwen3.8 Max (Alibaba)\nGPT-5.6 series (especially Sol / Luna variants) (OpenAI)\nGemini 3.x Flash / Pro family (Google)",
+    "section": "2.10 AI Model Types",
+    "text": "2.10 AI Model Types\n\nLarge Language Models (LLM)\n\nGeneral-purpose language models\n\nClaude (Anthropic)\nGPT (OpenAI)\nGemini (Google DeepMind)\nGrok (xAI)\nOpen-weight leaders: Kimi (Moonshot AI), DeepSeek, Qwen (Alibaba), MiMo (Xiaomi), GLM (Zhipu AI / Z.AI)\n\nCode-specialized models\n\nCodex models (OpenAI)\nQwen3-Coder (Alibaba)\nCodestral / Devstral (Mistral AI)\n\n\nImage Generation Models\n\nText-to-Image\n\nFLUX\nGPT Image (successor to DALL-E)\nGrok Imagine\nIdeogram\nImagen\nMidjourney\nSeedream\nStable Diffusion\n\nImage-to-Image\n\nFLUX Kontext, Gemini image editing (Google), GPT Image editing (OpenAI)\n\n\nVideo Generation Models\n\nGrok Imagine\nKling\nRunway Gen\nSora (OpenAI)\nVeo\n\nSpeech and Audio Models\n\nSpeech-to-Text {Whisper (OpenAI)}\nText-to-Speech / Voice {ElevenLabs}\n\nEmbedding Models\n\nCohere Embed\nGemini embeddings (Google)\nVoyage\n\nMultimodal Models (Text, Image, Audio, Video)\n\nClaude (Anthropic)\nGemini (Google DeepMind)\nGPT (OpenAI)\nGrok (xAI)\nKimi (Moonshot AI)\nLlama / Muse (Meta)\nQwen (Alibaba)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -133,8 +213,8 @@
     "objectID": "chapters/02-models.html#model-families-and-access",
     "href": "chapters/02-models.html#model-families-and-access",
     "title": "2  Models",
-    "section": "2.2 Model families and access",
-    "text": "2.2 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
+    "section": "2.11 Model families and access",
+    "text": "2.11 Model families and access\nThe landscape includes models from Anthropic (Claude), OpenAI (GPT), Google DeepMind (Gemini and Gemma), DeepSeek, Alibaba (Qwen), Meta (Llama and Muse), xAI (Grok), Moonshot (Kimi), Mistral, and Zhipu (GLM). Open-weight and closed models differ in how they can be inspected, hosted, adapted, and accessed.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -143,8 +223,8 @@
     "objectID": "chapters/02-models.html#evaluation-and-training-data",
     "href": "chapters/02-models.html#evaluation-and-training-data",
     "title": "2  Models",
-    "section": "2.3 Evaluation and training data",
-    "text": "2.3 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
+    "section": "2.12 Evaluation and training data",
+    "text": "2.12 Evaluation and training data\nBenchmarks help compare models, but scores need context. Some benchmarks, such as MMLU and GSM8K, are nearing saturation; others, including SWE-bench variants, LiveBench, LMArena, GAIA, and BenchLM, provide different signals. Training data sources such as Common Crawl and FineWeb also shape model capabilities.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -153,18 +233,18 @@
     "objectID": "chapters/02-models.html#abliteration",
     "href": "chapters/02-models.html#abliteration",
     "title": "2  Models",
-    "section": "2.4 Abliteration",
-    "text": "2.4 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
+    "section": "2.13 Abliteration",
+    "text": "2.13 Abliteration\nRefusal-removal techniques and fine-tunes, including Heretic and Ajax, can change how a model responds. Consider their impact on behavior and agent autonomy when selecting a model.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
-    "objectID": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
-    "href": "chapters/02-models.html#prominent-ai-organizations-creating-foundational-ai-models",
+    "objectID": "chapters/02-models.html#prominent-ai-labsorganizations-creating-foundational-ai-models",
+    "href": "chapters/02-models.html#prominent-ai-labsorganizations-creating-foundational-ai-models",
     "title": "2  Models",
-    "section": "2.5 Prominent AI Organizations Creating Foundational AI Models",
-    "text": "2.5 Prominent AI Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAlibaba (Qwen)\nAllen Institute for AI\nAmazon AI\nAnthropic\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere\nDeepSeek\nGoogle AI / Google DeepMind\nHugging Face\nIBM\nMeta AI\nMicrosoft AI\nMiniMax\nMistral AI\nMoonshot AI (Kimi)\nOpenAI\nStability AI\nXiaomi (MiMo)\nxAI\nZhipu AI / Z.AI (GLM)\n\n\n2.5.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek (DeepSeek)\nERNIE (Baidu)\nFalcon (Technology Innovation Institute)\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nHunyuan (Tencent)\nIdeogram (Ideogram)\nJamba (AI21 Labs)\nKimi (Moonshot AI)\nKling (Kuaishou)\nLFM (Liquid AI)\nLlama (Meta)\nMidjourney (Midjourney)\nMiMo (Xiaomi)\nMiniMax (MiniMax)\nMistral (Mistral AI)\nMuse (Meta)\nNemotron (NVIDIA)\nNova (Amazon)\nOlmo (Allen Institute for AI)\nPhi (Microsoft)\nQwen (Alibaba)\nRunway Gen (Runway)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)\nVeo / Imagen (Google DeepMind)",
+    "section": "2.14 Prominent AI Labs/Organizations Creating Foundational AI Models",
+    "text": "2.14 Prominent AI Labs/Organizations Creating Foundational AI Models\n(Order by Name ↑)\n\nAI21 Labs (Jamba)\nAlibaba (Qwen)\nAllen Institute for AI (Olmo)\nAmazon AI (Nova)\nAnthropic (Claude)\nBaidu (ERNIE)\nBlack Forest Labs (FLUX)\nByteDance (Seed / Seedream / Doubao)\nCohere (Command)\nDeepSeek (DeepSeek)\nGoogle AI / Google DeepMind (Gemini / Gemma / Veo / Imagen)\nHugging Face (model hub; builds SmolLM)\nIBM (Granite)\nIdeogram (Ideogram)\nKuaishou (Kling)\nLiquid AI (LFM)\nMeta AI (Llama / Muse)\nMicrosoft AI (Phi)\nMidjourney (Midjourney)\nMiniMax (MiniMax)\nMistral AI (Mistral)\nMoonshot AI (Kimi)\nNVIDIA (Nemotron)\nOpenAI (GPT)\nRunway (Runway Gen)\nStability AI (Stable Diffusion)\nTechnology Innovation Institute (Falcon)\nTencent (Hunyuan)\nXiaomi (MiMo)\nxAI (Grok)\nZhipu AI / Z.AI (GLM)\n\n\n2.14.1 Foundational AI Models\n(Order by Name ↑)\n\nClaude (Anthropic)\nCommand (Cohere)\nDeepSeek (DeepSeek)\nERNIE (Baidu)\nFalcon (Technology Innovation Institute)\nFLUX (Black Forest Labs)\nGemini (Google DeepMind)\nGemma (Google)\nGLM (Zhipu AI / Z.AI)\nGPT (OpenAI)\nGranite (IBM)\nGrok (xAI)\nHunyuan (Tencent)\nIdeogram (Ideogram)\nJamba (AI21 Labs)\nKimi (Moonshot AI)\nKling (Kuaishou)\nLFM (Liquid AI)\nLlama (Meta)\nMidjourney (Midjourney)\nMiMo (Xiaomi)\nMiniMax (MiniMax)\nMistral (Mistral AI)\nMuse (Meta)\nNemotron (NVIDIA)\nNova (Amazon)\nOlmo (Allen Institute for AI)\nPhi (Microsoft)\nQwen (Alibaba)\nRunway Gen (Runway)\nSeed / Seedream (ByteDance)\nStable Diffusion (Stability AI)\nVeo / Imagen (Google DeepMind)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
@@ -173,18 +253,18 @@
     "objectID": "chapters/02-models.html#benchmarks",
     "href": "chapters/02-models.html#benchmarks",
     "title": "2  Models",
-    "section": "2.6 Benchmarks",
-    "text": "2.6 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\nArtificial Analysis Intelligence Index v5\nActive frontier composite (launched Oct 2026)\nIndependent composite of 9 hard evaluations (Knowledge Work / Coding / Science / General at 25% each); 60% private or held-out data to resist contamination; strong agentic emphasis (FrontierCode 2.0, Terminal-Bench-Science, AA-Briefcase); no single model dominates all components\nVersion scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly\nYes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding\n\n\n\n\n2.6.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
+    "section": "2.15 Benchmarks",
+    "text": "2.15 Benchmarks\n\n\n\nBenchmark\nStatus in 2026\nStrengths\nWeaknesses\nStill useful?\n\n\n\n\nMMLU\nSaturated\nHistorical reference for broad knowledge\nFrontier models cluster ~90%+; little differentiation; contamination risk\nMostly no (use MMLU-Pro if needed)\n\n\nGSM8K\nSaturated\nSimple math word problems\nTop models near ceiling (~95%+); many invalid questions noted\nNo for frontier comparison\n\n\nGPQA (Graduate-Level Google-Proof Q&A Benchmark; esp. Diamond)\nNear-saturating\nChallenging multiple-choice benchmark evaluating advanced scientific reasoning and deep domain understanding in large language models\nLeaders pushing 90%+; small set → noise\nStill decent for science reasoning, but headroom shrinking\n\n\nSWE-bench (Verified/Pro variants)\nContested / partially saturating\nReal GitHub issue resolution; strong signal for coding agents\nContamination concerns; scores climbing into high 70s–90s on easier versions\nYes for coding/agentic work (prefer newer/harder variants like Pro)\n\n\nGAIA\nActive but contested\nMulti-step agentic tasks (browsing, tools, files) that are easy for humans\nLarge score gaps depending on scaffolding/tools; some saturation reports\nYes for assistant/agent evaluation\n\n\nLiveBench\nHighly regarded\nMonthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following\nNot human preference; not pure agentic long-horizon\nOne of the strongest current objective capability benchmarks\n\n\nLMArena (Chatbot/Arena)\nHighly regarded\nLarge-scale blind human preference (Elo-style); real user prompts\nStyle/verbosity bias; overlapping confidence intervals; not verifiable correctness\nBest for “which model feels best in open-ended use”\n\n\nBenchLM\nAggregator\nCombines many sources into overall indices\nDepends on underlying benchmarks; not a primary eval itself\nUseful meta-view, not a standalone benchmark\n\n\nMensa Norway IQ Test\nNiche\nAttempts IQ-style scoring\nNarrow, not standard in frontier AI evaluation\nRarely used for serious model comparison\n\n\nWebDev Arena\nSpecialized\nWeb development tasks\nNarrow domain\nUseful only if you care specifically about web-dev agents\n\n\nHumanity’s Last Exam (HLE)\nActive frontier benchmark\nExpert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond & Rolling variants for continued headroom\nScore variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp. chem/bio); calibration remains poor\nYes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks\n\n\nWorkBuddy Bench (Tencent)\nActive / Research Preview (v1.2, Oct 2026)\nMulti-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)\nNo suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks\nYes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing\n\n\nArtificial Analysis Intelligence Index v5\nActive frontier composite (launched Oct 2026)\nIndependent composite of 9 hard evaluations (Knowledge Work / Coding / Science / General at 25% each); 60% private or held-out data to resist contamination; strong agentic emphasis (FrontierCode 2.0, Terminal-Bench-Science, AA-Briefcase); no single model dominates all components\nVersion scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly\nYes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding\n\n\nTerminal-Bench\nActive (2.x line)\nReal command-line tasks in sandboxed containers (builds, debugging, sysadmin, data work); tests end-to-end agent behavior, not just code output; open tasks and harness; widely cited by labs and composite indices\nResults depend heavily on the agent harness; tasks vary in difficulty and flakiness; long-running and compute-heavy\nYes — a core benchmark for terminal and coding agents\n\n\nτ-bench / τ²-bench (Sierra)\nActive\nTool-using agents in multi-turn conversations with a simulated user under domain policies (retail, airline, telecom); pass^k metric measures consistency across repeated runs\nSimulated-user behavior adds noise; narrow customer-service domains; some task and label errors reported\nYes — one of the best tests of policy-following, reliability, and tool use in conversation\n\n\nOSWorld (incl. OSWorld-Verified)\nActive, scores rising fast\nAgents operate real desktop operating systems and apps (Ubuntu, Windows, macOS) through screenshots and mouse/keyboard; execution-based checking; human baseline about 72%\nSlow and costly to run; environment setup and flaky tasks; scores sensitive to screenshot resolution and step limits\nYes — the standard benchmark for computer-use agents\n\n\nBrowseComp (OpenAI)\nActive, climbing\n1,266 hard-to-find but easy-to-verify questions that need persistent, creative web browsing; short answers allow objective grading\nAnswers can leak onto the web over time; measures finding facts, not synthesis or report quality; English-centric (BrowseComp-ZH covers Chinese)\nYes — the go-to benchmark for deep-research and web-browsing agents\n\n\nMCP-Universe (Salesforce) and other MCP benchmarks (MCP-Bench, MCPMark)\nEmerging\nAgents use real Model Context Protocol servers (GitHub, maps, finance, browser, etc.) on multi-step tasks; execution-based checking; directly mirrors how modern agents connect to tools\nYoung and fragmented, with no single standard; depends on live third-party services that change; long-context and unfamiliar-tool challenges skew results\nYes, if you build MCP-based agents — watch for consolidation\n\n\nMETR Time Horizons\nActive, widely cited\nMeasures the length of tasks (in human expert time) an agent completes with 50% reliability; tracks the trend over time (roughly doubling every ~7 months); grounded in software and research tasks\nWide confidence intervals; task suite skews toward software and ML; 50% reliability is far below production needs; not a leaderboard of everyday performance\nYes — the best single measure of how autonomous agents are becoming\n\n\nARC-AGI (ARC-AGI-2 / ARC-AGI-3)\nActive, far from saturated on newer versions\nNovel visual grid puzzles that test abstraction and skill acquisition on unseen problems; easy for humans, hard for models; cost-per-task reported alongside scores; ARC-AGI-3 adds interactive game-like environments\nNarrow puzzle domain; results swing with test-time compute budgets; limited direct transfer to agentic work\nYes — the leading test of genuine novel reasoning rather than memorization\n\n\nAider Polyglot\nNear-saturating at the top\n225 hard Exercism exercises across C++, Go, Java, JavaScript, Python, and Rust; tests the model’s ability to make correct edits in a real coding workflow; reports cost and edit-format compliance\nExercise-style problems, not real repositories; public exercises raise contamination risk; top models cluster high\nSomewhat — useful for comparing code-editing reliability and cost; less so at the frontier\n\n\n\n\n2.15.1 Benchmark Articles\n\nGrading the Graders: Gaming Benchmarks and Making Your Own",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]
   },
   {
-    "objectID": "chapters/02-models.html#base-model-data",
-    "href": "chapters/02-models.html#base-model-data",
+    "objectID": "chapters/02-models.html#model-training-data",
+    "href": "chapters/02-models.html#model-training-data",
     "title": "2  Models",
-    "section": "2.7 Base Model Data",
-    "text": "2.7 Base Model Data\n(Order by Name ↑)\n\nAWS Open Data\nCommon Crawl\nFineWeb – curated Internet dataset.\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
+    "section": "2.16 Model Training Data",
+    "text": "2.16 Model Training Data\n\n2.16.1 Pretraining Corpora\n(Order by Name ↑)\n\nC4 (Colossal Clean Crawled Corpus) – cleaned Common Crawl text used to train T5 and many later models.\nCommon Crawl – the raw open web crawl underlying most pretraining datasets.\nDolma (Ai2) – fully open pretraining corpus behind the Olmo models.\nFineWeb – curated, deduplicated Common Crawl dataset.\nFineWeb-Edu – educational-quality subset of FineWeb.\nFineWeb 2 – multilingual extension of FineWeb.\nLAION / Re-LAION-5B – large image-text pair dataset used to train image models such as Stable Diffusion.\nRedPajama (Together AI) – open reproduction of the LLaMA training data mix.\nThe Pile (EleutherAI) – diverse 800 GB English text corpus from 22 sources.\nThe Stack v2 (BigCode) – large permissively licensed source-code dataset; key for code and agentic models.\n\n\n\n2.16.2 Post-Training and Agent Datasets\n(Order by Name ↑)\n\nDolci (Ai2) – supervised fine-tuning data for Olmo Think and Instruct models, including tool-use sets.\nSWE-Gym – environment and agent trajectories for training software-engineering agents on real GitHub tasks.\nSWE-smith – toolkit and dataset for generating software-engineering tasks and coding-agent trajectories at scale.\nTulu 3 (Ai2) – open instruction-tuning and preference data, with recipes.\n\n\n\n2.16.3 General Dataset Sources\n(Order by Name ↑)\n\nAWS Open Data\nGoogle Dataset Search\nHugging Face Datasets\nKaggle\nMicrosoft Planetary Computer Data Catalog\nMNIST (Modified National Institute of Standards and Technology database)\nOpen Images Dataset\nSNAP - Stanford Large Network Dataset Collection\nUC Irvine Machine Learning Repository\nUSA Data Gov",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Models</span>"
     ]

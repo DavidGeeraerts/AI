@@ -34,7 +34,7 @@
 |-----------------------------------|--------------------------|----------|-----------------|
 | Index                             | Main page                | revising | :green_circle:  |
 | Chapter 1                         | Introduction             | notes    | :yellow_circle: |
-| Chapter 2                         | Models                   | draft    | :red_circle:    |
+| Chapter 2                         | Models                   | active   | :green_circle:  |
 | Chapter 3                         | Running local models     | draft    | :red_circle:    |
 | Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
 | Chapter 5                         | Building a working stack | notes    | :red_circle:    |
