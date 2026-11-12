@@ -2,55 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://davidgeeraerts.github.io/AI/index.html</loc>
-    <lastmod>2026-11-06T17:05:29.851Z</lastmod>
+    <lastmod>2026-11-07T03:20:27.040Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/01-introduction.html</loc>
-    <lastmod>2026-11-02T17:04:15.967Z</lastmod>
+    <lastmod>2026-11-02T22:20:26.080Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/02-models.html</loc>
-    <lastmod>2026-11-02T19:09:12.503Z</lastmod>
+    <lastmod>2026-11-02T22:20:26.080Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/03-running-a-model.html</loc>
-    <lastmod>2026-11-04T20:59:07.108Z</lastmod>
+    <lastmod>2026-11-05T23:50:19.180Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/04-agents-and-harnesses.html</loc>
-    <lastmod>2026-11-06T21:03:56.202Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.909Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/05-building-a-working-stack.html</loc>
-    <lastmod>2026-11-06T22:43:10.497Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.909Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/06-miscellaneous-tools.html</loc>
-    <lastmod>2026-10-28T21:31:32.011Z</lastmod>
+    <lastmod>2026-10-31T13:28:00.959Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/chapters/07-resources.html</loc>
-    <lastmod>2026-11-09T22:30:37.186Z</lastmod>
+    <lastmod>2026-11-10T15:45:23.810Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/appendices/glossary.html</loc>
-    <lastmod>2026-11-06T21:19:15.460Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.907Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/appendices/references.html</loc>
-    <lastmod>2026-11-06T19:19:19.469Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.909Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/appendices/SOURCES.html</loc>
-    <lastmod>2026-11-06T19:11:06.097Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.906Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/digest/digest_index.html</loc>
-    <lastmod>2026-11-09T20:09:32.331Z</lastmod>
+    <lastmod>2026-11-10T15:39:23.473Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/digest/2026-11-November-digest.html</loc>
-    <lastmod>2026-11-09T15:41:48.004Z</lastmod>
+    <lastmod>2026-11-10T15:39:23.472Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/digest/2026-10-October-digest.html</loc>
@@ -58,10 +58,10 @@
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/appendices/notes.html</loc>
-    <lastmod>2026-11-06T21:42:43.334Z</lastmod>
+    <lastmod>2026-11-07T03:20:26.908Z</lastmod>
   </url>
   <url>
     <loc>https://davidgeeraerts.github.io/AI/appendices/prompt-engineering-notes.html</loc>
-    <lastmod>2026-10-28T17:20:54.106Z</lastmod>
+    <lastmod>2026-10-31T13:28:00.854Z</lastmod>
   </url>
 </urlset>
