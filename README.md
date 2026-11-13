@@ -4,6 +4,7 @@
 
 # :open_book: The Book of AI
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
+> "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
 
 :notebook: [The Book of AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
@@ -16,6 +17,9 @@
 :fire: Read the latest [digest](https://davidgeeraerts.github.io/AI/digest/2026-11-November-digest.html) — current snapshot of the landscape.
 
 <!-- DIGEST:END -->
+
+### :film_strip: Daily YouTube Digest
+- [YouTube Digest App](https://davidgeeraerts.github.io/youtube-feed-dashboard-ai/) — a daily digest of curated agentic engineering YouTube videos.
 
 ---
 
