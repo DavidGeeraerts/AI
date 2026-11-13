@@ -45,7 +45,7 @@
 | Index                             | Main page                | revising | :yellow_circle: |
 | Chapter 1                         | Introduction             | notes    | :red_circle:    |
 | Chapter 2                         | Models                   | active   | :yellow_circle: |
-| Chapter 3                         | Running local models     | draft    | :red_circle:    |
+| Chapter 3                         | Running local models     | draft    | :green_circle:  |
 | Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
 | Chapter 5                         | Building a working stack | notes    | :yellow_circle: |
 | Chapter 6                         | Miscellaneous Tools      | notes    | :red_circle:    |

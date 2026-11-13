@@ -32,18 +32,49 @@
 ## Physical Hardware
 
 
-
-
 ## Running AI Models Locally
 
-- [llama.cpp](https://github.com/ggerganov/llama.cpp) — Core inference engine (GGUF, maximum control)
+### Engines
+
+#### Production / High-Throughput Serving
+- [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving engine (multi-user / production)
+- [SGLang](https://www.sglang.io/) — High-throughput serving with structured generation (production, multimodal)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) — NVIDIA's optimized engine for maximum throughput on NVIDIA GPUs (DGX Spark, RTX)
+- [Hugging Face TGI](https://github.com/huggingface/text-generation-inference) — Text Generation Inference server for production serving
+
+#### General-Purpose / Local Inference
+- [llama.cpp](https://github.com/ggml-org/llama.cpp) — Core C/C++ inference engine (GGUF, CPU + GPU, maximum control)
+- [Hugging Face Transformers](https://github.com/huggingface/transformers) — Reference Python library; runs almost any model, slower but universal
+- [MLX / mlx-lm](https://github.com/ml-explore/mlx-lm) — Apple's framework for fast native inference on Apple Silicon
+
+#### Hardware-Specific / Niche
+- [OpenVINO](https://github.com/openvinotoolkit/openvino) — Intel's toolkit for running models on Intel CPUs, GPUs, and NPUs
+- [ONNX Runtime GenAI](https://github.com/microsoft/onnxruntime-genai) — Microsoft's cross-platform engine (Windows, DirectML, NPUs)
+- [ExLlamaV3](https://github.com/turboderp-org/exllamav3) — Fast quantized (EXL3) inference on consumer NVIDIA GPUs
+- [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types
+
+### Runners
 - [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
-- [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
-- [Jan](https://jan.ai/) — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)
-- [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
 - [KoboldCpp](https://github.com/LostRuins/koboldcpp) — Easy single-binary runner with built-in UI
-- [vLLM](https://github.com/vllm-project/vllm) — High-throughput serving (multi-user / production)
-- [SGLang](https://www.sglang.io/) -- SGLang powers fast large scale production large language and multimodal models.
+- [Jan](https://jan.ai/) — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)
+- [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
+- [textgen](https://github.com/oobabooga/textgen) — Open-source, offline desktop app with multiple backends, OpenAI/Anthropic-compatible API, tool-calling + MCP, and LoRA training
+
+### UIs
+- [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Comparing Local Model Runners
 

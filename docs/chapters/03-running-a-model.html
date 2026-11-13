@@ -445,11 +445,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#physical-hardware" id="toc-physical-hardware" class="nav-link" data-scroll-target="#physical-hardware"><span class="header-section-number">3.2</span> Physical Hardware</a></li>
   <li><a href="#running-ai-models-locally" id="toc-running-ai-models-locally" class="nav-link" data-scroll-target="#running-ai-models-locally"><span class="header-section-number">3.3</span> Running AI Models Locally</a>
   <ul class="collapse">
-  <li><a href="#comparing-local-model-runners" id="toc-comparing-local-model-runners" class="nav-link" data-scroll-target="#comparing-local-model-runners"><span class="header-section-number">3.3.1</span> Comparing Local Model Runners</a></li>
-  <li><a href="#local-first-inference" id="toc-local-first-inference" class="nav-link" data-scroll-target="#local-first-inference"><span class="header-section-number">3.3.2</span> Local-first inference</a></li>
-  <li><a href="#practical-implications" id="toc-practical-implications" class="nav-link" data-scroll-target="#practical-implications"><span class="header-section-number">3.3.3</span> Practical implications</a></li>
-  <li><a href="#when-to-choose-which" id="toc-when-to-choose-which" class="nav-link" data-scroll-target="#when-to-choose-which"><span class="header-section-number">3.3.4</span> When to choose which</a></li>
-  <li><a href="#other-local-inference-options" id="toc-other-local-inference-options" class="nav-link" data-scroll-target="#other-local-inference-options"><span class="header-section-number">3.3.5</span> Other local inference options</a></li>
+  <li><a href="#engines" id="toc-engines" class="nav-link" data-scroll-target="#engines"><span class="header-section-number">3.3.1</span> Engines</a></li>
+  <li><a href="#runners" id="toc-runners" class="nav-link" data-scroll-target="#runners"><span class="header-section-number">3.3.2</span> Runners</a></li>
+  <li><a href="#uis" id="toc-uis" class="nav-link" data-scroll-target="#uis"><span class="header-section-number">3.3.3</span> UIs</a></li>
+  <li><a href="#comparing-local-model-runners" id="toc-comparing-local-model-runners" class="nav-link" data-scroll-target="#comparing-local-model-runners"><span class="header-section-number">3.3.4</span> Comparing Local Model Runners</a></li>
+  <li><a href="#local-first-inference" id="toc-local-first-inference" class="nav-link" data-scroll-target="#local-first-inference"><span class="header-section-number">3.3.5</span> Local-first inference</a></li>
+  <li><a href="#practical-implications" id="toc-practical-implications" class="nav-link" data-scroll-target="#practical-implications"><span class="header-section-number">3.3.6</span> Practical implications</a></li>
+  <li><a href="#when-to-choose-which" id="toc-when-to-choose-which" class="nav-link" data-scroll-target="#when-to-choose-which"><span class="header-section-number">3.3.7</span> When to choose which</a></li>
+  <li><a href="#other-local-inference-options" id="toc-other-local-inference-options" class="nav-link" data-scroll-target="#other-local-inference-options"><span class="header-section-number">3.3.8</span> Other local inference options</a></li>
   </ul></li>
   <li><a href="#cloud-and-hybrid-options" id="toc-cloud-and-hybrid-options" class="nav-link" data-scroll-target="#cloud-and-hybrid-options"><span class="header-section-number">3.4</span> Cloud and hybrid options</a>
   <ul class="collapse">
@@ -533,18 +536,53 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="running-ai-models-locally" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="running-ai-models-locally"><span class="header-section-number">3.3</span> Running AI Models Locally</h2>
+<section id="engines" class="level3" data-number="3.3.1">
+<h3 data-number="3.3.1" class="anchored" data-anchor-id="engines"><span class="header-section-number">3.3.1</span> Engines</h3>
+<section id="production-high-throughput-serving" class="level4" data-number="3.3.1.1">
+<h4 data-number="3.3.1.1" class="anchored" data-anchor-id="production-high-throughput-serving"><span class="header-section-number">3.3.1.1</span> Production / High-Throughput Serving</h4>
 <ul>
-<li><a href="https://github.com/ggerganov/llama.cpp">llama.cpp</a> — Core inference engine (GGUF, maximum control)</li>
-<li><a href="https://ollama.com">Ollama</a> — CLI + local OpenAI-compatible API (most popular for developers)</li>
-<li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
-<li><a href="https://jan.ai/">Jan</a> — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)</li>
-<li><a href="https://openwebui.com/">Open WebUI</a> — Self-hosted web UI (excellent with Ollama)</li>
-<li><a href="https://github.com/LostRuins/koboldcpp">KoboldCpp</a> — Easy single-binary runner with built-in UI</li>
-<li><a href="https://github.com/vllm-project/vllm">vLLM</a> — High-throughput serving (multi-user / production)</li>
-<li><a href="https://www.sglang.io/">SGLang</a> – SGLang powers fast large scale production large language and multimodal models.</li>
+<li><a href="https://github.com/vllm-project/vllm">vLLM</a> — High-throughput serving engine (multi-user / production)</li>
+<li><a href="https://www.sglang.io/">SGLang</a> — High-throughput serving with structured generation (production, multimodal)</li>
+<li><a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a> — NVIDIA’s optimized engine for maximum throughput on NVIDIA GPUs (DGX Spark, RTX)</li>
+<li><a href="https://github.com/huggingface/text-generation-inference">Hugging Face TGI</a> — Text Generation Inference server for production serving</li>
 </ul>
-<section id="comparing-local-model-runners" class="level3" data-number="3.3.1">
-<h3 data-number="3.3.1" class="anchored" data-anchor-id="comparing-local-model-runners"><span class="header-section-number">3.3.1</span> Comparing Local Model Runners</h3>
+</section>
+<section id="general-purpose-local-inference" class="level4" data-number="3.3.1.2">
+<h4 data-number="3.3.1.2" class="anchored" data-anchor-id="general-purpose-local-inference"><span class="header-section-number">3.3.1.2</span> General-Purpose / Local Inference</h4>
+<ul>
+<li><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a> — Core C/C++ inference engine (GGUF, CPU + GPU, maximum control)</li>
+<li><a href="https://github.com/huggingface/transformers">Hugging Face Transformers</a> — Reference Python library; runs almost any model, slower but universal</li>
+<li><a href="https://github.com/ml-explore/mlx-lm">MLX / mlx-lm</a> — Apple’s framework for fast native inference on Apple Silicon</li>
+</ul>
+</section>
+<section id="hardware-specific-niche" class="level4" data-number="3.3.1.3">
+<h4 data-number="3.3.1.3" class="anchored" data-anchor-id="hardware-specific-niche"><span class="header-section-number">3.3.1.3</span> Hardware-Specific / Niche</h4>
+<ul>
+<li><a href="https://github.com/openvinotoolkit/openvino">OpenVINO</a> — Intel’s toolkit for running models on Intel CPUs, GPUs, and NPUs</li>
+<li><a href="https://github.com/microsoft/onnxruntime-genai">ONNX Runtime GenAI</a> — Microsoft’s cross-platform engine (Windows, DirectML, NPUs)</li>
+<li><a href="https://github.com/turboderp-org/exllamav3">ExLlamaV3</a> — Fast quantized (EXL3) inference on consumer NVIDIA GPUs</li>
+<li><a href="https://github.com/ikawrakow/ik_llama.cpp">ik_llama.cpp</a> — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types</li>
+</ul>
+</section>
+</section>
+<section id="runners" class="level3" data-number="3.3.2">
+<h3 data-number="3.3.2" class="anchored" data-anchor-id="runners"><span class="header-section-number">3.3.2</span> Runners</h3>
+<ul>
+<li><a href="https://ollama.com">Ollama</a> — CLI + local OpenAI-compatible API (most popular for developers)</li>
+<li><a href="https://github.com/LostRuins/koboldcpp">KoboldCpp</a> — Easy single-binary runner with built-in UI</li>
+<li><a href="https://jan.ai/">Jan</a> — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)</li>
+<li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
+<li><a href="https://github.com/oobabooga/textgen">textgen</a> — Open-source, offline desktop app with multiple backends, OpenAI/Anthropic-compatible API, tool-calling + MCP, and LoRA training</li>
+</ul>
+</section>
+<section id="uis" class="level3" data-number="3.3.3">
+<h3 data-number="3.3.3" class="anchored" data-anchor-id="uis"><span class="header-section-number">3.3.3</span> UIs</h3>
+<ul>
+<li><a href="https://openwebui.com/">Open WebUI</a> — Self-hosted web UI (excellent with Ollama)</li>
+</ul>
+</section>
+<section id="comparing-local-model-runners" class="level3" data-number="3.3.4">
+<h3 data-number="3.3.4" class="anchored" data-anchor-id="comparing-local-model-runners"><span class="header-section-number">3.3.4</span> Comparing Local Model Runners</h3>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 4%">
@@ -661,8 +699,8 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<section id="developer-focused-comparison-lm-studio-vs-ollama" class="level4" data-number="3.3.1.1">
-<h4 data-number="3.3.1.1" class="anchored" data-anchor-id="developer-focused-comparison-lm-studio-vs-ollama"><span class="header-section-number">3.3.1.1</span> Developer-focused comparison: LM Studio vs Ollama</h4>
+<section id="developer-focused-comparison-lm-studio-vs-ollama" class="level4" data-number="3.3.4.1">
+<h4 data-number="3.3.4.1" class="anchored" data-anchor-id="developer-focused-comparison-lm-studio-vs-ollama"><span class="header-section-number">3.3.4.1</span> Developer-focused comparison: LM Studio vs Ollama</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 11%">
@@ -720,8 +758,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool." class="level4" data-number="3.3.1.2">
-<h4 data-number="3.3.1.2" class="anchored" data-anchor-id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool."><span class="header-section-number">3.3.1.2</span> When Ollama is usually better: You want a fully open-source, auditable tool.</h4>
+<section id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool." class="level4" data-number="3.3.4.2">
+<h4 data-number="3.3.4.2" class="anchored" data-anchor-id="when-ollama-is-usually-better-you-want-a-fully-open-source-auditable-tool."><span class="header-section-number">3.3.4.2</span> When Ollama is usually better: You want a fully open-source, auditable tool.</h4>
 <ul>
 <li>You are a developer building scripts, agents, or apps (many frameworks and coding tools assume Ollama by default).</li>
 <li>You need Docker, Kubernetes, or long-running headless servers with minimal footprint.</li>
@@ -730,12 +768,12 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="local-first-inference" class="level3" data-number="3.3.2">
-<h3 data-number="3.3.2" class="anchored" data-anchor-id="local-first-inference"><span class="header-section-number">3.3.2</span> Local-first inference</h3>
+<section id="local-first-inference" class="level3" data-number="3.3.5">
+<h3 data-number="3.3.5" class="anchored" data-anchor-id="local-first-inference"><span class="header-section-number">3.3.5</span> Local-first inference</h3>
 <p><strong>RamaLama vs Ollama — key differences</strong></p>
 <p>Both tools let you run large language models locally, but they take different approaches.</p>
-<section id="quick-summary" class="level4" data-number="3.3.2.1">
-<h4 data-number="3.3.2.1" class="anchored" data-anchor-id="quick-summary"><span class="header-section-number">3.3.2.1</span> Quick summary</h4>
+<section id="quick-summary" class="level4" data-number="3.3.5.1">
+<h4 data-number="3.3.5.1" class="anchored" data-anchor-id="quick-summary"><span class="header-section-number">3.3.5.1</span> Quick summary</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 16%">
@@ -798,16 +836,16 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="main-philosophical-difference" class="level4" data-number="3.3.2.2">
-<h4 data-number="3.3.2.2" class="anchored" data-anchor-id="main-philosophical-difference"><span class="header-section-number">3.3.2.2</span> Main philosophical difference</h4>
+<section id="main-philosophical-difference" class="level4" data-number="3.3.5.2">
+<h4 data-number="3.3.5.2" class="anchored" data-anchor-id="main-philosophical-difference"><span class="header-section-number">3.3.5.2</span> Main philosophical difference</h4>
 <ul>
 <li><strong>Ollama</strong> optimizes for simplicity and a polished consumer experience. Install it, pull a model, chat. Models usually run as normal processes on your machine.</li>
 <li><strong>RamaLama</strong> optimizes for <em>making AI work like containers</em>. It treats models more like images: pull from multiple registries, run them in isolated containers, serve them, convert them to OCI images, push them to registries, etc. The slogan is essentially “make working with AI boring” by using the tools and patterns people already know from Podman/Docker.</li>
 </ul>
 </section>
 </section>
-<section id="practical-implications" class="level3" data-number="3.3.3">
-<h3 data-number="3.3.3" class="anchored" data-anchor-id="practical-implications"><span class="header-section-number">3.3.3</span> Practical implications</h3>
+<section id="practical-implications" class="level3" data-number="3.3.6">
+<h3 data-number="3.3.6" class="anchored" data-anchor-id="practical-implications"><span class="header-section-number">3.3.6</span> Practical implications</h3>
 <ul>
 <li><strong>Isolation &amp; security</strong>: RamaLama wins by default (models stay inside rootless containers).</li>
 <li><strong>GPU setup</strong>: RamaLama is often easier on Linux (especially Fedora/RHEL-style systems) because the container already contains the right CUDA/ROCm/etc. libraries.</li>
@@ -820,16 +858,16 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="when-to-choose-which" class="level3" data-number="3.3.4">
-<h3 data-number="3.3.4" class="anchored" data-anchor-id="when-to-choose-which"><span class="header-section-number">3.3.4</span> When to choose which</h3>
+<section id="when-to-choose-which" class="level3" data-number="3.3.7">
+<h3 data-number="3.3.7" class="anchored" data-anchor-id="when-to-choose-which"><span class="header-section-number">3.3.7</span> When to choose which</h3>
 <ul>
 <li>Choose <strong>Ollama</strong> if you want the simplest, most popular local model runner and don’t care about container isolation.</li>
 <li>Choose <strong>RamaLama</strong> if you already live in a container world (Podman/Docker), want better isolation by default, or need to pull models from Hugging Face / OCI registries more cleanly.</li>
 </ul>
 <p><em>Both expose OpenAI-compatible APIs, so most agents and tools can talk to either of them.</em></p>
 </section>
-<section id="other-local-inference-options" class="level3" data-number="3.3.5">
-<h3 data-number="3.3.5" class="anchored" data-anchor-id="other-local-inference-options"><span class="header-section-number">3.3.5</span> Other local inference options</h3>
+<section id="other-local-inference-options" class="level3" data-number="3.3.8">
+<h3 data-number="3.3.8" class="anchored" data-anchor-id="other-local-inference-options"><span class="header-section-number">3.3.8</span> Other local inference options</h3>
 <ul>
 <li><strong>llama.cpp</strong> offers low-level control and GGUF support.</li>
 <li><strong>LM Studio</strong> provides a desktop interface and API.</li>
