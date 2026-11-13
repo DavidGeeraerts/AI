@@ -37,10 +37,7 @@
 ## :snail: Book Progress
 
 ### Current Focus
-- structure for Chapter 05
-  - blocks
-    - labs
-      - micro labs
+
 
 ### Status chart
 | Chapters                          | Title                    | Status   | Active          |
@@ -50,11 +47,11 @@
 | Chapter 2                         | Models                   | active   | :yellow_circle: |
 | Chapter 3                         | Running local models     | draft    | :red_circle:    |
 | Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
-| Chapter 5                         | Building a working stack | notes    | :green_circle:  |
+| Chapter 5                         | Building a working stack | notes    | :yellow_circle: |
 | Chapter 6                         | Miscellaneous Tools      | notes    | :red_circle:    |
 | Chapter 7                         | Resources                | review   | :yellow_circle: |
 | Appendix-Glossary                 | Glossary                 | revising | :yellow_circle: |
-| Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
+| Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :red_circle:    |
 | Appendix-Digest Catalog           | Digest Catalog           | final    | :yellow_circle: |
 
 ### Status key
