@@ -10,6 +10,6 @@ graph TD
     Editor --> Workspace["Project: Agentic Stack"]
 ```
 
-{{< include blocks/labs/lab-0.1-linux-distribution-choices.qmd >}}
-{{< include blocks/labs/lab-0.2-vscode.qmd >}}
-{{< include blocks/labs/lab-0.3-runtime-isolation.qmd >}}
+`{{< include chapters/blocks/labs/lab-0.1-linux-distribution-choices.qmd >}}`
+`{{< include chapters/blocks/labs/lab-0.2-vscode.qmd >}}`
+`{{< include chapters/blocks/labs/lab-0.3-runtime-isolation.qmd >}}`

@@ -9,17 +9,17 @@ You have a machine. It is time to wake it up.
 
 In this chapter, we build an agentic engineering stack from the bare metal up. We do not rely on hosted platforms that hide the mechanics. You have to understand the rules of the system so you can bend them. We will start with the operating system, load the editor, download the weights, and build the harnesses that turn static code into autonomous operators.
 
-{{< include /chapters/blocks/block-0-pre-flight.qmd >}}
+{{< include /chapters/blocks/_block-0-pre-flight.qmd >}}
 
-{{< include /chapters/blocks/block-1-models.qmd >}}
+{{< include /chapters/blocks/_block-1-models.qmd >}}
 
-{{< include /chapters/blocks/block-2-running-models.qmd >}}
+{{< include /chapters/blocks/_block-2-running-models.qmd >}}
 
-{{< include /chapters/blocks/block-3-agents-harnesses.qmd >}}
+{{< include /chapters/blocks/_block-3-agents-harnesses.qmd >}}
 
-{{< include /chapters/blocks/block-4-orchestrating-swarm.qmd >}}
+{{< include /chapters/blocks/_block-4-orchestrating-swarm.qmd >}}
 
-{{< include /chapters/blocks/block-5-misc-tools-utilities.qmd >}}
+{{< include /chapters/blocks/_block-5-misc-tools-utilities.qmd >}}
 
 
 

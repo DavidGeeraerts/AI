@@ -438,12 +438,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#block-0-pre-flight" id="toc-block-0-pre-flight" class="nav-link active" data-scroll-target="#block-0-pre-flight"><span class="header-section-number">5.1</span> Block 0: Pre-Flight</a>
-  <ul class="collapse">
-  <li><a href="#lab-0.1-gnulinux-distribution-choices" id="toc-lab-0.1-gnulinux-distribution-choices" class="nav-link" data-scroll-target="#lab-0.1-gnulinux-distribution-choices"><span class="header-section-number">5.1.1</span> Lab 0.1: GNU/Linux distribution choices</a></li>
-  <li><a href="#lab-0.2-vs-code-installation-and-configuration" id="toc-lab-0.2-vs-code-installation-and-configuration" class="nav-link" data-scroll-target="#lab-0.2-vs-code-installation-and-configuration"><span class="header-section-number">5.1.2</span> Lab 0.2: VS Code installation and configuration</a></li>
-  <li><a href="#lab-0.3-runtime-isolation" id="toc-lab-0.3-runtime-isolation" class="nav-link" data-scroll-target="#lab-0.3-runtime-isolation"><span class="header-section-number">5.1.3</span> Lab 0.3: Runtime isolation</a></li>
-  </ul></li>
+  <li><a href="#block-0-pre-flight" id="toc-block-0-pre-flight" class="nav-link active" data-scroll-target="#block-0-pre-flight"><span class="header-section-number">5.1</span> Block 0: Pre-Flight</a></li>
   <li><a href="#block-1-models" id="toc-block-1-models" class="nav-link" data-scroll-target="#block-1-models"><span class="header-section-number">5.2</span> Block 1: Models</a></li>
   <li><a href="#block-2-running-models" id="toc-block-2-running-models" class="nav-link" data-scroll-target="#block-2-running-models"><span class="header-section-number">5.3</span> Block 2: Running Models</a></li>
   <li><a href="#block-3-agents-and-harnesses" id="toc-block-3-agents-and-harnesses" class="nav-link" data-scroll-target="#block-3-agents-and-harnesses"><span class="header-section-number">5.4</span> Block 3: Agents and Harnesses</a></li>
@@ -506,94 +501,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="lab-0.1-gnulinux-distribution-choices" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="lab-0.1-gnulinux-distribution-choices"><span class="header-section-number">5.1.1</span> Lab 0.1: GNU/Linux distribution choices</h3>
-<p>Choose a distribution based on its release model, package manager, hardware support, and maintenance requirements. Each microlab introduces one option.</p>
-<section id="microlab-0.1.1-rhel" class="level4" data-number="5.1.1.1">
-<h4 data-number="5.1.1.1" class="anchored" data-anchor-id="microlab-0.1.1-rhel"><span class="header-section-number">5.1.1.1</span> Microlab 0.1.1: RHEL</h4>
-<p>The enterprise standard: slow, stable, and unyielding. Configure <code>dnf</code> and SELinux.</p>
-</section>
-<section id="microlab-0.1.2-fedora" class="level4" data-number="5.1.1.2">
-<h4 data-number="5.1.1.2" class="anchored" data-anchor-id="microlab-0.1.2-fedora"><span class="header-section-number">5.1.1.2</span> Microlab 0.1.2: Fedora</h4>
-<p>The bleeding edge of the Red Hat lineage. Use a recent kernel for current GPU-driver support.</p>
-</section>
-<section id="microlab-0.1.3-centos-stream" class="level4" data-number="5.1.1.3">
-<h4 data-number="5.1.1.3" class="anchored" data-anchor-id="microlab-0.1.3-centos-stream"><span class="header-section-number">5.1.1.3</span> Microlab 0.1.3: CentOS Stream</h4>
-<p>The midstream preview of the next RHEL release.</p>
-</section>
-<section id="microlab-0.1.4-rocky-linux" class="level4" data-number="5.1.1.4">
-<h4 data-number="5.1.1.4" class="anchored" data-anchor-id="microlab-0.1.4-rocky-linux"><span class="header-section-number">5.1.1.4</span> Microlab 0.1.4: Rocky Linux</h4>
-<p>A community-supported, RHEL-compatible distribution. Explore DNF package management, SELinux, and its release lifecycle.</p>
-</section>
-<section id="microlab-0.1.5-almalinux" class="level4" data-number="5.1.1.5">
-<h4 data-number="5.1.1.5" class="anchored" data-anchor-id="microlab-0.1.5-almalinux"><span class="header-section-number">5.1.1.5</span> Microlab 0.1.5: AlmaLinux</h4>
-<p>A community-owned, RHEL-compatible distribution. Explore DNF package management, its release lifecycle, and supported migration paths.</p>
-</section>
-<section id="microlab-0.1.6-debian" class="level4" data-number="5.1.1.6">
-<h4 data-number="5.1.1.6" class="anchored" data-anchor-id="microlab-0.1.6-debian"><span class="header-section-number">5.1.1.6</span> Microlab 0.1.6: Debian</h4>
-<p>The universal operating system: stable, with <code>apt</code> as its package manager.</p>
-</section>
-<section id="microlab-0.1.7-ubuntu" class="level4" data-number="5.1.1.7">
-<h4 data-number="5.1.1.7" class="anchored" data-anchor-id="microlab-0.1.7-ubuntu"><span class="header-section-number">5.1.1.7</span> Microlab 0.1.7: Ubuntu</h4>
-<p>The mainstream desktop path, with broad hardware and software support.</p>
-</section>
-<section id="microlab-0.1.8-mint" class="level4" data-number="5.1.1.8">
-<h4 data-number="5.1.1.8" class="anchored" data-anchor-id="microlab-0.1.8-mint"><span class="header-section-number">5.1.1.8</span> Microlab 0.1.8: Mint</h4>
-<p>A comfortable desktop distribution built on Ubuntu or Debian; explore its desktop environment and package tools.</p>
-</section>
-<section id="microlab-0.1.9-arch-linux" class="level4" data-number="5.1.1.9">
-<h4 data-number="5.1.1.9" class="anchored" data-anchor-id="microlab-0.1.9-arch-linux"><span class="header-section-number">5.1.1.9</span> Microlab 0.1.9: Arch Linux</h4>
-<p>Build a system from the ground up with <code>pacman</code> and the Arch User Repository (AUR), trading convenience for control.</p>
-</section>
-<section id="microlab-0.1.10-omarchy" class="level4" data-number="5.1.1.10">
-<h4 data-number="5.1.1.10" class="anchored" data-anchor-id="microlab-0.1.10-omarchy"><span class="header-section-number">5.1.1.10</span> Microlab 0.1.10: Omarchy</h4>
-<p>Explore DHH’s opinionated, keyboard-driven Arch setup, built around Hyprland and Quickshell.</p>
-</section>
-<section id="microlab-0.1.11-manjaro" class="level4" data-number="5.1.1.11">
-<h4 data-number="5.1.1.11" class="anchored" data-anchor-id="microlab-0.1.11-manjaro"><span class="header-section-number">5.1.1.11</span> Microlab 0.1.11: Manjaro</h4>
-<p>Compare Manjaro’s more approachable Arch-based setup with Arch’s hands-on installation and maintenance.</p>
-</section>
-<section id="microlab-0.1.12-gentoo" class="level4" data-number="5.1.1.12">
-<h4 data-number="5.1.1.12" class="anchored" data-anchor-id="microlab-0.1.12-gentoo"><span class="header-section-number">5.1.1.12</span> Microlab 0.1.12: Gentoo</h4>
-<p>Compile packages from source and control CPU-specific build flags; this path requires more time and maintenance.</p>
-</section>
-<section id="microlab-0.1.13-opensuse" class="level4" data-number="5.1.1.13">
-<h4 data-number="5.1.1.13" class="anchored" data-anchor-id="microlab-0.1.13-opensuse"><span class="header-section-number">5.1.1.13</span> Microlab 0.1.13: openSUSE</h4>
-<p>Explore openSUSE’s <code>zypper</code> package manager and YaST system administration tools.</p>
-</section>
-<section id="microlab-0.1.14-alpine-linux" class="level4" data-number="5.1.1.14">
-<h4 data-number="5.1.1.14" class="anchored" data-anchor-id="microlab-0.1.14-alpine-linux"><span class="header-section-number">5.1.1.14</span> Microlab 0.1.14: Alpine Linux</h4>
-<p>Use the lightweight Alpine distribution, its <code>apk</code> package manager, and musl libc; later labs can apply it to containerized sandboxes.</p>
-</section>
-</section>
-<section id="lab-0.2-vs-code-installation-and-configuration" class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="lab-0.2-vs-code-installation-and-configuration"><span class="header-section-number">5.1.2</span> Lab 0.2: VS Code installation and configuration</h3>
-<p>Set up the editor as the primary workspace for the stack.</p>
-<section id="microlab-0.2.1-vs-code-installation" class="level4" data-number="5.1.2.1">
-<h4 data-number="5.1.2.1" class="anchored" data-anchor-id="microlab-0.2.1-vs-code-installation"><span class="header-section-number">5.1.2.1</span> Microlab 0.2.1: VS Code installation</h4>
-<p>Install Visual Studio Code using the official instructions for your operating system, then verify that it launches and can open a project folder.</p>
-</section>
-<section id="microlab-0.2.2-vs-code-extensions" class="level4" data-number="5.1.2.2">
-<h4 data-number="5.1.2.2" class="anchored" data-anchor-id="microlab-0.2.2-vs-code-extensions"><span class="header-section-number">5.1.2.2</span> Microlab 0.2.2: VS Code extensions</h4>
-<p>Install the Python, Quarto, Ruff, and Docker extensions. Verify each extension is enabled for the workspace.</p>
-</section>
-<section id="microlab-0.2.3-theme-and-settings" class="level4" data-number="5.1.2.3">
-<h4 data-number="5.1.2.3" class="anchored" data-anchor-id="microlab-0.2.3-theme-and-settings"><span class="header-section-number">5.1.2.3</span> Microlab 0.2.3: Theme and settings</h4>
-<p>Choose a readable theme and configure the integrated terminal shortcut for your operating system.</p>
-</section>
-</section>
-<section id="lab-0.3-runtime-isolation" class="level3" data-number="5.1.3">
-<h3 data-number="5.1.3" class="anchored" data-anchor-id="lab-0.3-runtime-isolation"><span class="header-section-number">5.1.3</span> Lab 0.3: Runtime isolation</h3>
-<p>Keep development runtimes separate from system packages and pin their versions for reproducible work.</p>
-<section id="microlab-0.3.1-mise" class="level4" data-number="5.1.3.1">
-<h4 data-number="5.1.3.1" class="anchored" data-anchor-id="microlab-0.3.1-mise"><span class="header-section-number">5.1.3.1</span> Microlab 0.3.1: <code>mise</code></h4>
-<p>Install <code>mise</code> and use it to manage development tool versions in user space rather than replacing operating-system packages.</p>
-</section>
-<section id="microlab-0.3.2-uv-and-python" class="level4" data-number="5.1.3.2">
-<h4 data-number="5.1.3.2" class="anchored" data-anchor-id="microlab-0.3.2-uv-and-python"><span class="header-section-number">5.1.3.2</span> Microlab 0.3.2: <code>uv</code> and Python</h4>
-<p>Install <code>uv</code>, select the project Python version, and create a project-local virtual environment.</p>
-</section>
-</section>
+<p><code>{{&lt; include chapters/blocks/labs/lab-0.1-linux-distribution-choices.qmd &gt;}}</code> <code>{{&lt; include chapters/blocks/labs/lab-0.2-vscode.qmd &gt;}}</code> <code>{{&lt; include chapters/blocks/labs/lab-0.3-runtime-isolation.qmd &gt;}}</code></p>
 </section>
 <section id="block-1-models" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="block-1-models"><span class="header-section-number">5.2</span> Block 1: Models</h2>
