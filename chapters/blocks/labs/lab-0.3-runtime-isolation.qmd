@@ -1,0 +1,6 @@
+### Lab 0.3: Runtime isolation
+
+Keep development runtimes separate from system packages and pin their versions for reproducible work.
+
+{{< include blocks/labs/microlabs/0.3.1-mise.qmd >}}
+{{< include blocks/labs/microlabs/0.3.2-uv-python.qmd >}}

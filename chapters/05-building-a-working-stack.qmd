@@ -2,10 +2,58 @@
 
 ---
 
-# Building a Working Stack
+# Building an Agentic Engineering Working Stack
+
+
+You have a machine. It is time to wake it up. 
+
+In this chapter, we build an agentic engineering stack from the bare metal up. We do not rely on hosted platforms that hide the mechanics. You have to understand the rules of the system so you can bend them. We will start with the operating system, load the editor, download the weights, and build the harnesses that turn static code into autonomous operators.
+
+{{< include /chapters/blocks/block-0-pre-flight.qmd >}}
+
+{{< include /chapters/blocks/block-1-models.qmd >}}
+
+{{< include /chapters/blocks/block-2-running-models.qmd >}}
+
+{{< include /chapters/blocks/block-3-agents-harnesses.qmd >}}
+
+{{< include /chapters/blocks/block-4-orchestrating-swarm.qmd >}}
+
+{{< include /chapters/blocks/block-5-misc-tools-utilities.qmd >}}
+
+
+
+
 
 Combine models, harnesses, tools, and operational safeguards into a stack that
 fits the work.
+
+## Building Blocks
+
+Will be made up of building blocks and microlabs. Each block will have a set of labs that can be completed in order to build a working stack.
+
+- each block should be an include `{{</* include */>}}`
+- each lab/microlab should be an include `{{</* include */>}}`
+
+
+E.g.
+Block 0: Pre-Flight
+The Universal GNU/Linux & VS Code Workbench
+
+Block 0: Pre-Flight
+Block 1: Introduction & Fundamentals {Building Blocks}
+Block 2: Models
+Block 3: Running models {locally, hosted, cloud}
+Block 4: Agents and Harnesses
+Block 5: Orchastrating the swarm {Multi-Agent Systems}
+Block 6: Misc tools and utilities
+
+E.g.
+- microlabs
+  - Lab 0.1: GNU/Linux distrubution choices
+  - Lab 0.2: VS Code installation and configuration
+    - Lab 0.2.1: Extension installation
+    - Lab 0.2.2: Theme and settings
 
 {{< include _05.1-nvidia-working-stack.qmd >}}
 

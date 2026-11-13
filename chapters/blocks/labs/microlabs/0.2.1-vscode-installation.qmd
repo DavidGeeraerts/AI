@@ -1,0 +1,3 @@
+#### Microlab 0.2.1: VS Code installation
+
+Install Visual Studio Code using the official instructions for your operating system, then verify that it launches and can open a project folder.

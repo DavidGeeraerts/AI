@@ -1,0 +1,3 @@
+#### Microlab 0.1.12: Gentoo
+
+Compile packages from source and control CPU-specific build flags; this path requires more time and maintenance.

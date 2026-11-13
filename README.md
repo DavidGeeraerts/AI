@@ -30,20 +30,26 @@
 
 ## :snail: Book Progress
 
+### Current Focus
+- structure for Chapter 05
+  - blocks
+    - labs
+      - micro labs
+
+### Status chart
 | Chapters                          | Title                    | Status   | Active          |
 |-----------------------------------|--------------------------|----------|-----------------|
-| Index                             | Main page                | revising | :green_circle:  |
-| Chapter 1                         | Introduction             | notes    | :yellow_circle: |
-| Chapter 2                         | Models                   | active   | :green_circle:  |
+| Index                             | Main page                | revising | :yellow_circle: |
+| Chapter 1                         | Introduction             | notes    | :red_circle:    |
+| Chapter 2                         | Models                   | active   | :yellow_circle: |
 | Chapter 3                         | Running local models     | draft    | :red_circle:    |
 | Chapter 4                         | Agents and Harnesses     | draft    | :red_circle:    |
-| Chapter 5                         | Building a working stack | notes    | :red_circle:    |
+| Chapter 5                         | Building a working stack | notes    | :green_circle:  |
 | Chapter 6                         | Miscellaneous Tools      | notes    | :red_circle:    |
-| Chapter 7                         | Resources                | active   | :green_circle:  |
-| Appendix-Glossary                 | Glossary                 | revising | :green_circle:  |
+| Chapter 7                         | Resources                | review   | :yellow_circle: |
+| Appendix-Glossary                 | Glossary                 | revising | :yellow_circle: |
 | Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :yellow_circle: |
-| Appendix-Digest Catalog           | Digest Catalog           | final    | :green_circle:  |
-
+| Appendix-Digest Catalog           | Digest Catalog           | final    | :yellow_circle: |
 
 ### Status key
 
@@ -69,8 +75,9 @@ Examples of how to link to glossary terms in the text:
 ```
 
 # Resource References
-- [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet)
-- [Quarto website](https://quarto.org/)
+- [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet) -- for using emojis in markdown
+- [Quarto website](https://quarto.org/) -- publishing and rendering engine for the book
+- [Mermaid](https://mermaid.js.org/) -- create diagrams and visualizations using text and code
 
 # Quotes
 > "Not all benchmarks lie, but all liars benchmark"

@@ -8,7 +8,7 @@
 
 <meta name="description" content="A practical guide to understanding agentic engineering and building a practical toolkit.">
 
-<title>5&nbsp; Building a Working Stack – The Book of AI</title>
+<title>5&nbsp; Building an Agentic Engineering Working Stack – The Book of AI</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -83,6 +83,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -266,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/05-building-a-working-stack.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building a Working Stack</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="Breadcrumbs"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/05-building-a-working-stack.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building an Agentic Engineering Working Stack</span></a></li></ol></nav>
         <a class="flex-grow-1" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -346,7 +349,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../chapters/05-building-a-working-stack.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building a Working Stack</span></span></a>
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building an Agentic Engineering Working Stack</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -435,12 +438,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#nvidia-working-stack" id="toc-nvidia-working-stack" class="nav-link active" data-scroll-target="#nvidia-working-stack"><span class="header-section-number">5.1</span> NVIDIA Working Stack</a>
+  <li><a href="#block-0-pre-flight" id="toc-block-0-pre-flight" class="nav-link active" data-scroll-target="#block-0-pre-flight"><span class="header-section-number">5.1</span> Block 0: Pre-Flight</a>
   <ul class="collapse">
-  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components"><span class="header-section-number">5.1.1</span> Components</a></li>
+  <li><a href="#lab-0.1-gnulinux-distribution-choices" id="toc-lab-0.1-gnulinux-distribution-choices" class="nav-link" data-scroll-target="#lab-0.1-gnulinux-distribution-choices"><span class="header-section-number">5.1.1</span> Lab 0.1: GNU/Linux distribution choices</a></li>
+  <li><a href="#lab-0.2-vs-code-installation-and-configuration" id="toc-lab-0.2-vs-code-installation-and-configuration" class="nav-link" data-scroll-target="#lab-0.2-vs-code-installation-and-configuration"><span class="header-section-number">5.1.2</span> Lab 0.2: VS Code installation and configuration</a></li>
+  <li><a href="#lab-0.3-runtime-isolation" id="toc-lab-0.3-runtime-isolation" class="nav-link" data-scroll-target="#lab-0.3-runtime-isolation"><span class="header-section-number">5.1.3</span> Lab 0.3: Runtime isolation</a></li>
   </ul></li>
-  <li><a href="#starting-points" id="toc-starting-points" class="nav-link" data-scroll-target="#starting-points"><span class="header-section-number">5.2</span> Starting points</a></li>
-  <li><a href="#practical-considerations" id="toc-practical-considerations" class="nav-link" data-scroll-target="#practical-considerations"><span class="header-section-number">5.3</span> Practical considerations</a></li>
+  <li><a href="#block-1-models" id="toc-block-1-models" class="nav-link" data-scroll-target="#block-1-models"><span class="header-section-number">5.2</span> Block 1: Models</a></li>
+  <li><a href="#block-2-running-models" id="toc-block-2-running-models" class="nav-link" data-scroll-target="#block-2-running-models"><span class="header-section-number">5.3</span> Block 2: Running Models</a></li>
+  <li><a href="#block-3-agents-and-harnesses" id="toc-block-3-agents-and-harnesses" class="nav-link" data-scroll-target="#block-3-agents-and-harnesses"><span class="header-section-number">5.4</span> Block 3: Agents and Harnesses</a></li>
+  <li><a href="#block-4-orchestrating-the-swarm" id="toc-block-4-orchestrating-the-swarm" class="nav-link" data-scroll-target="#block-4-orchestrating-the-swarm"><span class="header-section-number">5.5</span> Block 4: Orchestrating the Swarm</a></li>
+  <li><a href="#block-5-utilities" id="toc-block-5-utilities" class="nav-link" data-scroll-target="#block-5-utilities"><span class="header-section-number">5.6</span> Block 5: Utilities</a></li>
+  <li><a href="#building-blocks" id="toc-building-blocks" class="nav-link" data-scroll-target="#building-blocks"><span class="header-section-number">5.7</span> Building Blocks</a></li>
+  <li><a href="#nvidia-working-stack" id="toc-nvidia-working-stack" class="nav-link" data-scroll-target="#nvidia-working-stack"><span class="header-section-number">5.8</span> NVIDIA Working Stack</a>
+  <ul class="collapse">
+  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components"><span class="header-section-number">5.8.1</span> Components</a></li>
+  </ul></li>
+  <li><a href="#starting-points" id="toc-starting-points" class="nav-link" data-scroll-target="#starting-points"><span class="header-section-number">5.9</span> Starting points</a></li>
+  <li><a href="#practical-considerations" id="toc-practical-considerations" class="nav-link" data-scroll-target="#practical-considerations"><span class="header-section-number">5.10</span> Practical considerations</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/chapters/05-building-a-working-stack.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -450,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building a Working Stack</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Building an Agentic Engineering Working Stack</span></h1>
 </div>
 
 
@@ -469,12 +484,149 @@ ul.task-list li input[type="checkbox"] {
 
 <hr>
 <hr>
+<p>You have a machine. It is time to wake it up.</p>
+<p>In this chapter, we build an agentic engineering stack from the bare metal up. We do not rely on hosted platforms that hide the mechanics. You have to understand the rules of the system so you can bend them. We will start with the operating system, load the editor, download the weights, and build the harnesses that turn static code into autonomous operators.</p>
+<section id="block-0-pre-flight" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="block-0-pre-flight"><span class="header-section-number">5.1</span> Block 0: Pre-Flight</h2>
+<p>Before loading models, prepare a stable foundation: choose an operating system, configure the editor, and isolate development runtimes.</p>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+
+<pre class="mermaid mermaid-js">graph TD
+    Hardware["Bare Metal"] --&gt; Kernel["Linux Kernel"]
+    Kernel --&gt; UserSpace["User Space (mise, uv, containers)"]
+    UserSpace --&gt; Editor["The Editor (VS Code)"]
+    Editor --&gt; Workspace["Project: Agentic Stack"]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<section id="lab-0.1-gnulinux-distribution-choices" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="lab-0.1-gnulinux-distribution-choices"><span class="header-section-number">5.1.1</span> Lab 0.1: GNU/Linux distribution choices</h3>
+<p>Choose a distribution based on its release model, package manager, hardware support, and maintenance requirements. Each microlab introduces one option.</p>
+<section id="microlab-0.1.1-rhel" class="level4" data-number="5.1.1.1">
+<h4 data-number="5.1.1.1" class="anchored" data-anchor-id="microlab-0.1.1-rhel"><span class="header-section-number">5.1.1.1</span> Microlab 0.1.1: RHEL</h4>
+<p>The enterprise standard: slow, stable, and unyielding. Configure <code>dnf</code> and SELinux.</p>
+</section>
+<section id="microlab-0.1.2-fedora" class="level4" data-number="5.1.1.2">
+<h4 data-number="5.1.1.2" class="anchored" data-anchor-id="microlab-0.1.2-fedora"><span class="header-section-number">5.1.1.2</span> Microlab 0.1.2: Fedora</h4>
+<p>The bleeding edge of the Red Hat lineage. Use a recent kernel for current GPU-driver support.</p>
+</section>
+<section id="microlab-0.1.3-centos-stream" class="level4" data-number="5.1.1.3">
+<h4 data-number="5.1.1.3" class="anchored" data-anchor-id="microlab-0.1.3-centos-stream"><span class="header-section-number">5.1.1.3</span> Microlab 0.1.3: CentOS Stream</h4>
+<p>The midstream preview of the next RHEL release.</p>
+</section>
+<section id="microlab-0.1.4-rocky-linux" class="level4" data-number="5.1.1.4">
+<h4 data-number="5.1.1.4" class="anchored" data-anchor-id="microlab-0.1.4-rocky-linux"><span class="header-section-number">5.1.1.4</span> Microlab 0.1.4: Rocky Linux</h4>
+<p>A community-supported, RHEL-compatible distribution. Explore DNF package management, SELinux, and its release lifecycle.</p>
+</section>
+<section id="microlab-0.1.5-almalinux" class="level4" data-number="5.1.1.5">
+<h4 data-number="5.1.1.5" class="anchored" data-anchor-id="microlab-0.1.5-almalinux"><span class="header-section-number">5.1.1.5</span> Microlab 0.1.5: AlmaLinux</h4>
+<p>A community-owned, RHEL-compatible distribution. Explore DNF package management, its release lifecycle, and supported migration paths.</p>
+</section>
+<section id="microlab-0.1.6-debian" class="level4" data-number="5.1.1.6">
+<h4 data-number="5.1.1.6" class="anchored" data-anchor-id="microlab-0.1.6-debian"><span class="header-section-number">5.1.1.6</span> Microlab 0.1.6: Debian</h4>
+<p>The universal operating system: stable, with <code>apt</code> as its package manager.</p>
+</section>
+<section id="microlab-0.1.7-ubuntu" class="level4" data-number="5.1.1.7">
+<h4 data-number="5.1.1.7" class="anchored" data-anchor-id="microlab-0.1.7-ubuntu"><span class="header-section-number">5.1.1.7</span> Microlab 0.1.7: Ubuntu</h4>
+<p>The mainstream desktop path, with broad hardware and software support.</p>
+</section>
+<section id="microlab-0.1.8-mint" class="level4" data-number="5.1.1.8">
+<h4 data-number="5.1.1.8" class="anchored" data-anchor-id="microlab-0.1.8-mint"><span class="header-section-number">5.1.1.8</span> Microlab 0.1.8: Mint</h4>
+<p>A comfortable desktop distribution built on Ubuntu or Debian; explore its desktop environment and package tools.</p>
+</section>
+<section id="microlab-0.1.9-arch-linux" class="level4" data-number="5.1.1.9">
+<h4 data-number="5.1.1.9" class="anchored" data-anchor-id="microlab-0.1.9-arch-linux"><span class="header-section-number">5.1.1.9</span> Microlab 0.1.9: Arch Linux</h4>
+<p>Build a system from the ground up with <code>pacman</code> and the Arch User Repository (AUR), trading convenience for control.</p>
+</section>
+<section id="microlab-0.1.10-omarchy" class="level4" data-number="5.1.1.10">
+<h4 data-number="5.1.1.10" class="anchored" data-anchor-id="microlab-0.1.10-omarchy"><span class="header-section-number">5.1.1.10</span> Microlab 0.1.10: Omarchy</h4>
+<p>Explore DHH’s opinionated, keyboard-driven Arch setup, built around Hyprland and Quickshell.</p>
+</section>
+<section id="microlab-0.1.11-manjaro" class="level4" data-number="5.1.1.11">
+<h4 data-number="5.1.1.11" class="anchored" data-anchor-id="microlab-0.1.11-manjaro"><span class="header-section-number">5.1.1.11</span> Microlab 0.1.11: Manjaro</h4>
+<p>Compare Manjaro’s more approachable Arch-based setup with Arch’s hands-on installation and maintenance.</p>
+</section>
+<section id="microlab-0.1.12-gentoo" class="level4" data-number="5.1.1.12">
+<h4 data-number="5.1.1.12" class="anchored" data-anchor-id="microlab-0.1.12-gentoo"><span class="header-section-number">5.1.1.12</span> Microlab 0.1.12: Gentoo</h4>
+<p>Compile packages from source and control CPU-specific build flags; this path requires more time and maintenance.</p>
+</section>
+<section id="microlab-0.1.13-opensuse" class="level4" data-number="5.1.1.13">
+<h4 data-number="5.1.1.13" class="anchored" data-anchor-id="microlab-0.1.13-opensuse"><span class="header-section-number">5.1.1.13</span> Microlab 0.1.13: openSUSE</h4>
+<p>Explore openSUSE’s <code>zypper</code> package manager and YaST system administration tools.</p>
+</section>
+<section id="microlab-0.1.14-alpine-linux" class="level4" data-number="5.1.1.14">
+<h4 data-number="5.1.1.14" class="anchored" data-anchor-id="microlab-0.1.14-alpine-linux"><span class="header-section-number">5.1.1.14</span> Microlab 0.1.14: Alpine Linux</h4>
+<p>Use the lightweight Alpine distribution, its <code>apk</code> package manager, and musl libc; later labs can apply it to containerized sandboxes.</p>
+</section>
+</section>
+<section id="lab-0.2-vs-code-installation-and-configuration" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="lab-0.2-vs-code-installation-and-configuration"><span class="header-section-number">5.1.2</span> Lab 0.2: VS Code installation and configuration</h3>
+<p>Set up the editor as the primary workspace for the stack.</p>
+<section id="microlab-0.2.1-vs-code-installation" class="level4" data-number="5.1.2.1">
+<h4 data-number="5.1.2.1" class="anchored" data-anchor-id="microlab-0.2.1-vs-code-installation"><span class="header-section-number">5.1.2.1</span> Microlab 0.2.1: VS Code installation</h4>
+<p>Install Visual Studio Code using the official instructions for your operating system, then verify that it launches and can open a project folder.</p>
+</section>
+<section id="microlab-0.2.2-vs-code-extensions" class="level4" data-number="5.1.2.2">
+<h4 data-number="5.1.2.2" class="anchored" data-anchor-id="microlab-0.2.2-vs-code-extensions"><span class="header-section-number">5.1.2.2</span> Microlab 0.2.2: VS Code extensions</h4>
+<p>Install the Python, Quarto, Ruff, and Docker extensions. Verify each extension is enabled for the workspace.</p>
+</section>
+<section id="microlab-0.2.3-theme-and-settings" class="level4" data-number="5.1.2.3">
+<h4 data-number="5.1.2.3" class="anchored" data-anchor-id="microlab-0.2.3-theme-and-settings"><span class="header-section-number">5.1.2.3</span> Microlab 0.2.3: Theme and settings</h4>
+<p>Choose a readable theme and configure the integrated terminal shortcut for your operating system.</p>
+</section>
+</section>
+<section id="lab-0.3-runtime-isolation" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="lab-0.3-runtime-isolation"><span class="header-section-number">5.1.3</span> Lab 0.3: Runtime isolation</h3>
+<p>Keep development runtimes separate from system packages and pin their versions for reproducible work.</p>
+<section id="microlab-0.3.1-mise" class="level4" data-number="5.1.3.1">
+<h4 data-number="5.1.3.1" class="anchored" data-anchor-id="microlab-0.3.1-mise"><span class="header-section-number">5.1.3.1</span> Microlab 0.3.1: <code>mise</code></h4>
+<p>Install <code>mise</code> and use it to manage development tool versions in user space rather than replacing operating-system packages.</p>
+</section>
+<section id="microlab-0.3.2-uv-and-python" class="level4" data-number="5.1.3.2">
+<h4 data-number="5.1.3.2" class="anchored" data-anchor-id="microlab-0.3.2-uv-and-python"><span class="header-section-number">5.1.3.2</span> Microlab 0.3.2: <code>uv</code> and Python</h4>
+<p>Install <code>uv</code>, select the project Python version, and create a project-local virtual environment.</p>
+</section>
+</section>
+</section>
+<section id="block-1-models" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="block-1-models"><span class="header-section-number">5.2</span> Block 1: Models</h2>
+</section>
+<section id="block-2-running-models" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="block-2-running-models"><span class="header-section-number">5.3</span> Block 2: Running Models</h2>
+</section>
+<section id="block-3-agents-and-harnesses" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="block-3-agents-and-harnesses"><span class="header-section-number">5.4</span> Block 3: Agents and Harnesses</h2>
+</section>
+<section id="block-4-orchestrating-the-swarm" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="block-4-orchestrating-the-swarm"><span class="header-section-number">5.5</span> Block 4: Orchestrating the Swarm</h2>
+</section>
+<section id="block-5-utilities" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="block-5-utilities"><span class="header-section-number">5.6</span> Block 5: Utilities</h2>
 <p>Combine models, harnesses, tools, and operational safeguards into a stack that fits the work.</p>
-<section id="nvidia-working-stack" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="nvidia-working-stack"><span class="header-section-number">5.1</span> NVIDIA Working Stack</h2>
+</section>
+<section id="building-blocks" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="building-blocks"><span class="header-section-number">5.7</span> Building Blocks</h2>
+<p>Will be made up of building blocks and microlabs. Each block will have a set of labs that can be completed in order to build a working stack.</p>
+<ul>
+<li>each block should be an include <code>{{&lt; include &gt;}}</code></li>
+<li>each lab/microlab should be an include <code>{{&lt; include &gt;}}</code></li>
+</ul>
+<p>E.g. Block 0: Pre-Flight The Universal GNU/Linux &amp; VS Code Workbench</p>
+<p>Block 0: Pre-Flight Block 1: Introduction &amp; Fundamentals {Building Blocks} Block 2: Models Block 3: Running models {locally, hosted, cloud} Block 4: Agents and Harnesses Block 5: Orchastrating the swarm {Multi-Agent Systems} Block 6: Misc tools and utilities</p>
+<p>E.g. - microlabs - Lab 0.1: GNU/Linux distrubution choices - Lab 0.2: VS Code installation and configuration - Lab 0.2.1: Extension installation - Lab 0.2.2: Theme and settings</p>
+</section>
+<section id="nvidia-working-stack" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="nvidia-working-stack"><span class="header-section-number">5.8</span> NVIDIA Working Stack</h2>
 <p>Describe the NVIDIA-based stack here.</p>
-<section id="components" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="components"><span class="header-section-number">5.1.1</span> Components</h3>
+<section id="components" class="level3" data-number="5.8.1">
+<h3 data-number="5.8.1" class="anchored" data-anchor-id="components"><span class="header-section-number">5.8.1</span> Components</h3>
 <ul>
 <li>Model</li>
 <li>Inference runtime</li>
@@ -483,16 +635,16 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="starting-points" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="starting-points"><span class="header-section-number">5.2</span> Starting points</h2>
+<section id="starting-points" class="level2" data-number="5.9">
+<h2 data-number="5.9" class="anchored" data-anchor-id="starting-points"><span class="header-section-number">5.9</span> Starting points</h2>
 <ul>
 <li>A minimal personal agent stack can pair a local model such as Ollama or Jan with a harness, MCP tools, and memory.</li>
 <li>An always-on personal agent can combine a workspace such as Odysseus or Ajax with a messaging gateway such as OpenClaw or Hermes.</li>
 <li>A coding stack can combine OpenHands or OpenCode with repository context (DOX) and sandboxed execution.</li>
 </ul>
 </section>
-<section id="practical-considerations" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="practical-considerations"><span class="header-section-number">5.3</span> Practical considerations</h2>
+<section id="practical-considerations" class="level2" data-number="5.10">
+<h2 data-number="5.10" class="anchored" data-anchor-id="practical-considerations"><span class="header-section-number">5.10</span> Practical considerations</h2>
 <ul>
 <li>Incorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.</li>
 <li>Define containment and permission models.</li>

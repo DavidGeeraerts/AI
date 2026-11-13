@@ -1,0 +1,7 @@
+### Lab 0.2: VS Code installation and configuration
+
+Set up the editor as the primary workspace for the stack.
+
+{{< include blocks/labs/microlabs/0.2.1-vscode-installation.qmd >}}
+{{< include blocks/labs/microlabs/0.2.2-vscode-extensions.qmd >}}
+{{< include blocks/labs/microlabs/0.2.3-vscode-theme-settings.qmd >}}

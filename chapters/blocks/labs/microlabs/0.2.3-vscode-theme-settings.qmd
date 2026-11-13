@@ -1,0 +1,3 @@
+#### Microlab 0.2.3: Theme and settings
+
+Choose a readable theme and configure the integrated terminal shortcut for your operating system.

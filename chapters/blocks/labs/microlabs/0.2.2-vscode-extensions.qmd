@@ -1,0 +1,3 @@
+#### Microlab 0.2.2: VS Code extensions
+
+Install the Python, Quarto, Ruff, and Docker extensions. Verify each extension is enabled for the workspace.

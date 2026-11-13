@@ -1,0 +1,48 @@
+---
+
+Title: Block: 0.1: Pre-Flight: GNU/Linux distribution choices
+
+---
+
+# Block: 0.1: Pre-Flight: GNU/Linux distribution choices
+
+
+The [Linux] kernel is the same, but the package managers dictate how you interact with the system. Choose your branch.
+
+## RHEL branch
+
+Lab 0.1.1: RHEL - The enterprise standard. Slow, stable, unyielding. We configure dnf and SELinux.
+
+Lab 0.1.2: Fedora - The bleeding edge of the Red Hat lineage. We pull the latest kernel for better GPU driver support.
+
+Lab 0.1.3: CentOS Stream - The mid-ground. Testing the waters before RHEL.
+
+Lab 0.1.4: [Rocky Linux](https://rockylinux.org/)
+
+Lab 0.1.5: [AlmaLinux](https://almalinux.org/)
+
+## Debian branch
+
+Lab 0.1.6: Debian - The universal operating system. Rock solid. apt is your interface.
+
+Lab 0.1.7: Ubuntu - The mainstream path. Heavy, but everything works out of the box.
+
+Lab 0.1.8: Mint - The comfortable desktop. We strip away the GUI bloat to find the terminal.
+
+## Arch branch
+
+Lab 0.1.9: Arch - You build it yourself. pacman and the AUR. Maximum control, maximum responsibility.
+
+Lab 0.1.10: Omarchy - DHH's opinionated tiling setup. Hyprland and Quickshell. Fast, keyboard-driven, built for operators.
+
+Lab 0.1.11: Manjaro - Arch with training wheels.
+
+## SUSE branch
+Lab 0.1.13: openSUSE - zypper and YaST. The chameleon.
+
+## Gentoo branch
+Lab 0.1.12: Gentoo - Compiling everything from source. You control the exact flags for your CPU architecture. Not for the faint of heart.
+
+## Alpine branch
+Lab 0.1.14: Alpine - apk and musl libc. Ultra-lightweight. We use this primarily for our containerized sandboxes later.
+

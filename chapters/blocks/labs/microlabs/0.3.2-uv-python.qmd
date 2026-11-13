@@ -1,0 +1,3 @@
+#### Microlab 0.3.2: `uv` and Python
+
+Install `uv`, select the project Python version, and create a project-local virtual environment.

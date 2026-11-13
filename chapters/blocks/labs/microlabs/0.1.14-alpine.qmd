@@ -1,0 +1,3 @@
+#### Microlab 0.1.14: Alpine Linux
+
+Use the lightweight Alpine distribution, its `apk` package manager, and musl libc; later labs can apply it to containerized sandboxes.

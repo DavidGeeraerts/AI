@@ -1,0 +1,3 @@
+#### Microlab 0.1.10: Omarchy
+
+Explore DHH's opinionated, keyboard-driven Arch setup, built around Hyprland and Quickshell.

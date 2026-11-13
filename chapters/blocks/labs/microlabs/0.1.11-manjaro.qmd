@@ -1,0 +1,3 @@
+#### Microlab 0.1.11: Manjaro
+
+Compare Manjaro's more approachable Arch-based setup with Arch's hands-on installation and maintenance.

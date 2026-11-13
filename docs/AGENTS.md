@@ -21,7 +21,6 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 
 - never edit or change content in ./docs directory, only edit content in the root directory or subdirectories outside of ./docs
 - never edit ./_extensions
-- ignore .quarto directory and its contents
 - don't edit appendices/glossary.yml; edit appendices/glossary.qmd instead.
 
 </rules>
@@ -31,6 +30,11 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 # Instructions:
 
   - run `quarto render` to generate the website and check for any rendering errors
+  - When providing language for Chapter 05 and it's blocks and labs:
+    - avoid corporate language
+    - avoid marketing language
+    - use language from the Matrix movies.
+      - operator, red pill, blue pill, the construct, the real world, the matrix, etc.
 
 </instructions>
 
@@ -41,6 +45,7 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 
 # Output Format:
 
-    - when comparing entities, use a markdown table
+    - always provide raw markdown
+      - when comparing entities, use a markdown table
 
 </output_format>

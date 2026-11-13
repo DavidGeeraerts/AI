@@ -1,0 +1,15 @@
+## Block 0: Pre-Flight
+
+Before loading models, prepare a stable foundation: choose an operating system, configure the editor, and isolate development runtimes.
+
+```{mermaid}
+graph TD
+    Hardware["Bare Metal"] --> Kernel["Linux Kernel"]
+    Kernel --> UserSpace["User Space (mise, uv, containers)"]
+    UserSpace --> Editor["The Editor (VS Code)"]
+    Editor --> Workspace["Project: Agentic Stack"]
+```
+
+{{< include blocks/labs/lab-0.1-linux-distribution-choices.qmd >}}
+{{< include blocks/labs/lab-0.2-vscode.qmd >}}
+{{< include blocks/labs/lab-0.3-runtime-isolation.qmd >}}

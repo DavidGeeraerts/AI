@@ -422,41 +422,111 @@
   {
     "objectID": "chapters/05-building-a-working-stack.html",
     "href": "chapters/05-building-a-working-stack.html",
-    "title": "5  Building a Working Stack",
+    "title": "5  Building an Agentic Engineering Working Stack",
     "section": "",
-    "text": "5.1 NVIDIA Working Stack\nCombine models, harnesses, tools, and operational safeguards into a stack that fits the work.\nDescribe the NVIDIA-based stack here.",
+    "text": "5.1 Block 0: Pre-Flight\nYou have a machine. It is time to wake it up.\nIn this chapter, we build an agentic engineering stack from the bare metal up. We do not rely on hosted platforms that hide the mechanics. You have to understand the rules of the system so you can bend them. We will start with the operating system, load the editor, download the weights, and build the harnesses that turn static code into autonomous operators.\nBefore loading models, prepare a stable foundation: choose an operating system, configure the editor, and isolate development runtimes.\ngraph TD\n    Hardware[\"Bare Metal\"] --&gt; Kernel[\"Linux Kernel\"]\n    Kernel --&gt; UserSpace[\"User Space (mise, uv, containers)\"]\n    UserSpace --&gt; Editor[\"The Editor (VS Code)\"]\n    Editor --&gt; Workspace[\"Project: Agentic Stack\"]",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-0-pre-flight",
+    "href": "chapters/05-building-a-working-stack.html#block-0-pre-flight",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "",
+    "text": "5.1.1 Lab 0.1: GNU/Linux distribution choices\nChoose a distribution based on its release model, package manager, hardware support, and maintenance requirements. Each microlab introduces one option.\n\n5.1.1.1 Microlab 0.1.1: RHEL\nThe enterprise standard: slow, stable, and unyielding. Configure dnf and SELinux.\n\n\n5.1.1.2 Microlab 0.1.2: Fedora\nThe bleeding edge of the Red Hat lineage. Use a recent kernel for current GPU-driver support.\n\n\n5.1.1.3 Microlab 0.1.3: CentOS Stream\nThe midstream preview of the next RHEL release.\n\n\n5.1.1.4 Microlab 0.1.4: Rocky Linux\nA community-supported, RHEL-compatible distribution. Explore DNF package management, SELinux, and its release lifecycle.\n\n\n5.1.1.5 Microlab 0.1.5: AlmaLinux\nA community-owned, RHEL-compatible distribution. Explore DNF package management, its release lifecycle, and supported migration paths.\n\n\n5.1.1.6 Microlab 0.1.6: Debian\nThe universal operating system: stable, with apt as its package manager.\n\n\n5.1.1.7 Microlab 0.1.7: Ubuntu\nThe mainstream desktop path, with broad hardware and software support.\n\n\n5.1.1.8 Microlab 0.1.8: Mint\nA comfortable desktop distribution built on Ubuntu or Debian; explore its desktop environment and package tools.\n\n\n5.1.1.9 Microlab 0.1.9: Arch Linux\nBuild a system from the ground up with pacman and the Arch User Repository (AUR), trading convenience for control.\n\n\n5.1.1.10 Microlab 0.1.10: Omarchy\nExplore DHH’s opinionated, keyboard-driven Arch setup, built around Hyprland and Quickshell.\n\n\n5.1.1.11 Microlab 0.1.11: Manjaro\nCompare Manjaro’s more approachable Arch-based setup with Arch’s hands-on installation and maintenance.\n\n\n5.1.1.12 Microlab 0.1.12: Gentoo\nCompile packages from source and control CPU-specific build flags; this path requires more time and maintenance.\n\n\n5.1.1.13 Microlab 0.1.13: openSUSE\nExplore openSUSE’s zypper package manager and YaST system administration tools.\n\n\n5.1.1.14 Microlab 0.1.14: Alpine Linux\nUse the lightweight Alpine distribution, its apk package manager, and musl libc; later labs can apply it to containerized sandboxes.\n\n\n\n5.1.2 Lab 0.2: VS Code installation and configuration\nSet up the editor as the primary workspace for the stack.\n\n5.1.2.1 Microlab 0.2.1: VS Code installation\nInstall Visual Studio Code using the official instructions for your operating system, then verify that it launches and can open a project folder.\n\n\n5.1.2.2 Microlab 0.2.2: VS Code extensions\nInstall the Python, Quarto, Ruff, and Docker extensions. Verify each extension is enabled for the workspace.\n\n\n5.1.2.3 Microlab 0.2.3: Theme and settings\nChoose a readable theme and configure the integrated terminal shortcut for your operating system.\n\n\n\n5.1.3 Lab 0.3: Runtime isolation\nKeep development runtimes separate from system packages and pin their versions for reproducible work.\n\n5.1.3.1 Microlab 0.3.1: mise\nInstall mise and use it to manage development tool versions in user space rather than replacing operating-system packages.\n\n\n5.1.3.2 Microlab 0.3.2: uv and Python\nInstall uv, select the project Python version, and create a project-local virtual environment.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-1-models",
+    "href": "chapters/05-building-a-working-stack.html#block-1-models",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.2 Block 1: Models",
+    "text": "5.2 Block 1: Models",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-2-running-models",
+    "href": "chapters/05-building-a-working-stack.html#block-2-running-models",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.3 Block 2: Running Models",
+    "text": "5.3 Block 2: Running Models",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-3-agents-and-harnesses",
+    "href": "chapters/05-building-a-working-stack.html#block-3-agents-and-harnesses",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.4 Block 3: Agents and Harnesses",
+    "text": "5.4 Block 3: Agents and Harnesses",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-4-orchestrating-the-swarm",
+    "href": "chapters/05-building-a-working-stack.html#block-4-orchestrating-the-swarm",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.5 Block 4: Orchestrating the Swarm",
+    "text": "5.5 Block 4: Orchestrating the Swarm",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#block-5-utilities",
+    "href": "chapters/05-building-a-working-stack.html#block-5-utilities",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.6 Block 5: Utilities",
+    "text": "5.6 Block 5: Utilities\nCombine models, harnesses, tools, and operational safeguards into a stack that fits the work.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/05-building-a-working-stack.html#building-blocks",
+    "href": "chapters/05-building-a-working-stack.html#building-blocks",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.7 Building Blocks",
+    "text": "5.7 Building Blocks\nWill be made up of building blocks and microlabs. Each block will have a set of labs that can be completed in order to build a working stack.\n\neach block should be an include {{&lt; include &gt;}}\neach lab/microlab should be an include {{&lt; include &gt;}}\n\nE.g. Block 0: Pre-Flight The Universal GNU/Linux & VS Code Workbench\nBlock 0: Pre-Flight Block 1: Introduction & Fundamentals {Building Blocks} Block 2: Models Block 3: Running models {locally, hosted, cloud} Block 4: Agents and Harnesses Block 5: Orchastrating the swarm {Multi-Agent Systems} Block 6: Misc tools and utilities\nE.g. - microlabs - Lab 0.1: GNU/Linux distrubution choices - Lab 0.2: VS Code installation and configuration - Lab 0.2.1: Extension installation - Lab 0.2.2: Theme and settings",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html#nvidia-working-stack",
     "href": "chapters/05-building-a-working-stack.html#nvidia-working-stack",
-    "title": "5  Building a Working Stack",
-    "section": "",
-    "text": "5.1.1 Components\n\nModel\nInference runtime\nAgent harness\nSecurity and governance",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.8 NVIDIA Working Stack",
+    "text": "5.8 NVIDIA Working Stack\nDescribe the NVIDIA-based stack here.\n\n5.8.1 Components\n\nModel\nInference runtime\nAgent harness\nSecurity and governance",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html#starting-points",
     "href": "chapters/05-building-a-working-stack.html#starting-points",
-    "title": "5  Building a Working Stack",
-    "section": "5.2 Starting points",
-    "text": "5.2 Starting points\n\nA minimal personal agent stack can pair a local model such as Ollama or Jan with a harness, MCP tools, and memory.\nAn always-on personal agent can combine a workspace such as Odysseus or Ajax with a messaging gateway such as OpenClaw or Hermes.\nA coding stack can combine OpenHands or OpenCode with repository context (DOX) and sandboxed execution.",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.9 Starting points",
+    "text": "5.9 Starting points\n\nA minimal personal agent stack can pair a local model such as Ollama or Jan with a harness, MCP tools, and memory.\nAn always-on personal agent can combine a workspace such as Odysseus or Ajax with a messaging gateway such as OpenClaw or Hermes.\nA coding stack can combine OpenHands or OpenCode with repository context (DOX) and sandboxed execution.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
     ]
   },
   {
     "objectID": "chapters/05-building-a-working-stack.html#practical-considerations",
     "href": "chapters/05-building-a-working-stack.html#practical-considerations",
-    "title": "5  Building a Working Stack",
-    "section": "5.3 Practical considerations",
-    "text": "5.3 Practical considerations\n\nIncorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.\nDefine containment and permission models.\nUnderstand the cost and token economics of long-running agents.\nObserve and debug multi-step runs.\nUpdate skills and memory without destabilizing the system.",
+    "title": "5  Building an Agentic Engineering Working Stack",
+    "section": "5.10 Practical considerations",
+    "text": "5.10 Practical considerations\n\nIncorporate calibrated decision models such as Jev and RLCD for routing, gating, and confidence-based escalation.\nDefine containment and permission models.\nUnderstand the cost and token economics of long-running agents.\nObserve and debug multi-step runs.\nUpdate skills and memory without destabilizing the system.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building a Working Stack</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Building an Agentic Engineering Working Stack</span>"
     ]
   },
   {

@@ -1,0 +1,3 @@
+#### Microlab 0.1.4: Rocky Linux
+
+A community-supported, RHEL-compatible distribution. Explore DNF package management, SELinux, and its release lifecycle.
