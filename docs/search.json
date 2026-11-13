@@ -24,7 +24,7 @@
     "href": "index.html#map-of-the-book",
     "title": "The Book of AI",
     "section": "Map of the book",
-    "text": "Map of the book\n\n\n\nChapter\nFocus\n\n\n\n\n1. Introduction\nAgentic engineering, the stack layers, and how to use this as a living toolkit\n\n\n2. Models\nModel landscape, open-weight vs closed, benchmarks that still matter\n\n\n3. Running a Model\nLocal-first inference (Ollama, llama.cpp, LM Studio, Jan…) and hybrid patterns\n\n\n4. Agents and Harnesses\nRuntime layer: Hermes, OpenClaw, OpenHands, goose, Agent Zero, MCP, sandboxes\n\n\n5. Building a Working Stack\nMinimal viable personal agents, always-on patterns, coding stacks, containment\n\n\n6. Miscellaneous Tools\nSupporting tools, visualization, abliteration, signal sources\n\n\n7. Resources\nCurated links, papers, and further reading\n\n\nGlossary\nHigh-signal practitioner definitions\n\n\nPrompt Engineering Notes\nPractical patterns and notes\n\n\nDigest Catalog\nAll dated snapshots",
+    "text": "Map of the book\n\nchapter-structure — overview of the book’s organization and how to use it",
     "crumbs": [
       "Main Page"
     ]
@@ -37,6 +37,56 @@
     "text": "How to keep the map alive\nThe landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.\n\nCheck the Digest Index for update workflow.",
     "crumbs": [
       "Main Page"
+    ]
+  },
+  {
+    "objectID": "chapter-structure.html",
+    "href": "chapter-structure.html",
+    "title": "How the Book Is Organized",
+    "section": "",
+    "text": "How to Use the Book\nThe Book of AI is a practical guide to agentic engineering: understanding the parts of an AI system, choosing them deliberately, and assembling them into useful, controllable stacks. It is written for engineers and technical practitioners who want more than a catalog of products or model rankings.\nThe chapters move from models to inference, agent harnesses, and complete working systems. They emphasize practical trade-offs—including capability, cost, privacy, local control, and operational safety. Because tools and model capabilities change quickly, the book’s core chapters provide durable concepts while the monthly digest and resource lists track the moving landscape.",
+    "crumbs": [
+      "How the Book Is Organized"
+    ]
+  },
+  {
+    "objectID": "chapter-structure.html#how-to-use-the-book",
+    "href": "chapter-structure.html#how-to-use-the-book",
+    "title": "How the Book Is Organized",
+    "section": "",
+    "text": "Read the chapters in order for a guided progression from model fundamentals to agentic systems.\nUse the chapters as a reference when making a specific design or deployment decision.\nTreat product names, benchmarks, and dated examples as snapshots; check the linked sources and digest for current details.\nIn Chapter 5, follow the modular blocks, labs, and microlabs to build a working stack step by step.",
+    "crumbs": [
+      "How the Book Is Organized"
+    ]
+  },
+  {
+    "objectID": "chapter-structure.html#chapter-roadmap",
+    "href": "chapter-structure.html#chapter-roadmap",
+    "title": "How the Book Is Organized",
+    "section": "Chapter Roadmap",
+    "text": "Chapter Roadmap\n\n\n\n\n\n\n\n\nChapter\nFocus\nWhat it helps you do\n\n\n\n\n1. Introduction\nAgentic engineering and the layers of an agentic system\nUnderstand the book’s scope, audience, and practical orientation.\n\n\n2. Models\nModel types, capabilities, access, context, evaluation, and training data\nSelect models based on the work an agent must perform, not just leaderboard position.\n\n\n3. Running a Model\nLocal inference, hardware, hosted services, and hybrid deployments\nPut models behind usable interfaces and understand deployment trade-offs.\n\n\n4. Agents and Harnesses\nAgent loops, tools, MCP, memory, and execution environments\nUnderstand the runtime and safeguards that turn a model into an agent.\n\n\n5. Building a Working Stack\nModels, harnesses, tools, and operational practices assembled together\nBuild and operate a practical stack through blocks, labs, and microlabs.\n\n\n6. Miscellaneous Tools and Supporting Infrastructure\nAdditional tools, model selection and modification, and open-source resources\nExplore supporting capabilities that do not belong to one layer alone.\n\n\n7. Resources\nCurated articles, videos, publications, books, and people\nContinue learning from selected external sources.",
+    "crumbs": [
+      "How the Book Is Organized"
+    ]
+  },
+  {
+    "objectID": "chapter-structure.html#appendices-and-living-references",
+    "href": "chapter-structure.html#appendices-and-living-references",
+    "title": "How the Book Is Organized",
+    "section": "Appendices and Living References",
+    "text": "Appendices and Living References\nThe appendices provide a glossary, source material and references, general notes, and prompt-engineering notes. The digest is maintained in its own folder and included as a Digests part of the book. Use it as a periodic snapshot of developments in agentic engineering, not as a replacement for the foundational chapters.",
+    "crumbs": [
+      "How the Book Is Organized"
+    ]
+  },
+  {
+    "objectID": "chapter-structure.html#repository-file-structure",
+    "href": "chapter-structure.html#repository-file-structure",
+    "title": "How the Book Is Organized",
+    "section": "Repository File Structure",
+    "text": "Repository File Structure\nThe Quarto project configuration defines the book’s chapter and appendix order. The chapter files contain the main narrative; underscore-prefixed files under chapters/blocks/ are reusable Chapter 5 sections, labs, and microlabs included by the chapter.\nAI/\n├── _quarto.yml                 # Book configuration and reading order\n├── README.md                   # Project overview and progress\n├── LICENSE\n├── index.qmd                   # Book landing page\n├── chapter-structure.qmd       # This overview\n├── references.bib\n├── ieee.csl\n├── scratch.md                  # Working notes\n├── chapters/\n│   ├── 01-introduction.qmd\n│   ├── 02-models.qmd\n│   ├── 03-running-a-model.qmd\n│   ├── 04-agents-and-harnesses.qmd\n│   ├── 05-building-a-working-stack.qmd\n│   ├── 06-miscellaneous-tools.qmd\n│   ├── 07-resources.qmd\n│   ├── _05.1-nvidia-working-stack.qmd\n│   ├── _07.1-youtube-xml-feeds.qmd\n│   └── blocks/\n│       ├── _block-0-pre-flight.qmd\n│       ├── _block-0.1-pre-flight-gnu-linux-distributions.qmd\n│       ├── _block-1-models.qmd\n│       ├── _block-2-running-models.qmd\n│       ├── _block-3-agents-harnesses.qmd\n│       ├── _block-4-orchestrating-swarm.qmd\n│       ├── _block-5-misc-tools-utilities.qmd\n│       └── labs/\n│           ├── _lab-0.1-linux-distribution-choices.qmd\n│           ├── _lab-0.2-vscode.qmd\n│           ├── _lab-0.3-runtime-isolation.qmd\n│           └── microlabs/\n│               ├── _0.1.1-rhel.qmd ... _0.1.14-alpine.qmd\n│               ├── _0.2.1-vscode-installation.qmd\n│               ├── _0.2.2-vscode-extensions.qmd\n│               ├── _0.2.3-vscode-theme-settings.qmd\n│               ├── _0.3.1-mise.qmd\n│               └── _0.3.2-uv-python.qmd\n├── appendices/\n│   ├── glossary.qmd\n│   ├── references.qmd\n│   ├── SOURCES.qmd\n│   ├── notes.qmd\n│   └── prompt-engineering-notes.qmd\n├── digest/\n│   ├── digest_index.qmd\n│   ├── 2026-10-October-digest.qmd\n│   └── 2026-11-November-digest.qmd\n├── assets/\n├── configuration/\n├── examples/\n├── scripts/\n├── tests/\n├── _extensions/\n├── archive/\n├── _book/                      # Generated book artifacts\n└── docs/                        # Generated website output\nThe source files are the maintained material; _book/ and docs/ are generated outputs. The monthly digest and linked resources keep the book’s map current as tools, models, and practices evolve.",
+    "crumbs": [
+      "How the Book Is Organized"
     ]
   },
   {

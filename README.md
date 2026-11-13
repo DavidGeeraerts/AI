@@ -6,6 +6,8 @@
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
 > "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
 
+:bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
+
 :notebook: [The Book of AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
 - [Chapter Overview](chapter-structure.qmd)
