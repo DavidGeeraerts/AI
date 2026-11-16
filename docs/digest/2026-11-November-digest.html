@@ -444,6 +444,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary-general-ai-vibe-for-november-2026" id="toc-summary-general-ai-vibe-for-november-2026" class="nav-link active" data-scroll-target="#summary-general-ai-vibe-for-november-2026"><span class="emoji" data-emoji="newspaper">📰</span> Summary: General AI vibe for November 2026</a></li>
   <li><a href="#agentic-engineering-tools" id="toc-agentic-engineering-tools" class="nav-link" data-scroll-target="#agentic-engineering-tools"><span class="emoji" data-emoji="toolbox">🧰</span> Agentic Engineering Tools</a>
   <ul class="collapse">
+  <li><a href="#nvidia-switchyard-local-first-routing" id="toc-nvidia-switchyard-local-first-routing" class="nav-link" data-scroll-target="#nvidia-switchyard-local-first-routing">NVIDIA switchyard-local-first-routing</a></li>
   <li><a href="#ripple-65b-hugging-face" id="toc-ripple-65b-hugging-face" class="nav-link" data-scroll-target="#ripple-65b-hugging-face">Ripple-65B – Hugging Face</a></li>
   <li><a href="#nvidia-nemoclaw" id="toc-nvidia-nemoclaw" class="nav-link" data-scroll-target="#nvidia-nemoclaw">NVIDIA NemoClaw</a></li>
   <li><a href="#dsh-superagent" id="toc-dsh-superagent" class="nav-link" data-scroll-target="#dsh-superagent">dsh-superagent</a></li>
@@ -486,6 +487,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="agentic-engineering-tools" class="level2">
 <h2 class="anchored" data-anchor-id="agentic-engineering-tools"><span class="emoji" data-emoji="toolbox">🧰</span> Agentic Engineering Tools</h2>
+<section id="nvidia-switchyard-local-first-routing" class="level3">
+<h3 class="anchored" data-anchor-id="nvidia-switchyard-local-first-routing"><a href="https://github.com/NVIDIA/switchyard-local-first-routing">NVIDIA switchyard-local-first-routing</a></h3>
+<blockquote class="blockquote">
+<p>is a local-first routing plugin for Hermes (<code>hermes-agent</code>) that implements Verification-Gated Routing (VGR). It routes agent requests to a local model (e.g., <code>llama-server</code>) first, scores response quality using token log-probabilities, and escalates to a cloud model only when verification fails. Running a <code>nemo-switchyard</code> loopback sidecar alongside Hermes, it automatically offloads non-critical side tasks (session titling, smart approvals, and context compression) to local inference to minimize cloud token costs while maintaining response reliability.</p>
+</blockquote>
+</section>
 <section id="ripple-65b-hugging-face" class="level3">
 <h3 class="anchored" data-anchor-id="ripple-65b-hugging-face"><a href="https://www.ricursive.com/">Ripple-65B</a> – <a href="https://huggingface.co/ricursiveAI/Ripple-65B-Preview">Hugging Face</a></h3>
 <blockquote class="blockquote">
