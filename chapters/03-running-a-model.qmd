@@ -46,12 +46,14 @@
 - [llama.cpp](https://github.com/ggml-org/llama.cpp) — Core C/C++ inference engine (GGUF, CPU + GPU, maximum control)
 - [Hugging Face Transformers](https://github.com/huggingface/transformers) — Reference Python library; runs almost any model, slower but universal
 - [MLX / mlx-lm](https://github.com/ml-explore/mlx-lm) — Apple's framework for fast native inference on Apple Silicon
+- [TensorFold](https://github.com/ashhart/TensorFold) — A high-performance native inference engine written in Zig. Similar to llama.cpp, it bypasses Python entirely to run Metal (Apple Silicon), CUDA (NVIDIA), and Vulkan kernels directly on the hardware.
 
 #### Hardware-Specific / Niche
 - [OpenVINO](https://github.com/openvinotoolkit/openvino) — Intel's toolkit for running models on Intel CPUs, GPUs, and NPUs
 - [ONNX Runtime GenAI](https://github.com/microsoft/onnxruntime-genai) — Microsoft's cross-platform engine (Windows, DirectML, NPUs)
 - [ExLlamaV3](https://github.com/turboderp-org/exllamav3) — Fast quantized (EXL3) inference on consumer NVIDIA GPUs
 - [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types
+- [Strata](https://github.com/niko1221/strata) — A highly specialized inference engine (incorporating parts of llama.cpp) designed strictly to run massive 100B+ parameter Mixture-of-Experts (MoE) models on standard consumer hardware. It uses "expert streaming" to keep frequently used neural network experts in GPU VRAM while rapidly fetching the remaining experts from system RAM and NVMe SSDs. 
 
 ### Runners
 - [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
@@ -59,13 +61,15 @@
 - [Jan](https://jan.ai/) — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)
 - [LM Studio](https://lmstudio.ai/) — Polished desktop GUI
 - [textgen](https://github.com/oobabooga/textgen) — Open-source, offline desktop app with multiple backends, OpenAI/Anthropic-compatible API, tool-calling + MCP, and LoRA training
+- [Strata](https://github.com/niko1221/strata) — operates as a fully integrated desktop application and runner. It automatically handles downloading its supported models, sets up smaller draft models for speculative decoding to boost generation speed, and exposes an OpenAI/Anthropic-compatible API on localhost:8080 alongside its own built-in web UI.
+- [TensorFold](https://github.com/ashhart/TensorFold) — acts as a standalone runner via a single, zero-dependency Zig binary. It handles checkpoint loading, tokenization, and speculative decoding internally. It also natively spins up an OpenAI-compatible server, allowing it to drop immediately into existing web UIs and downstream workflows.
 
 ### UIs
 - [Open WebUI](https://openwebui.com/) — Self-hosted web UI (excellent with Ollama)
 
-
-
-
+##### Notes
+- [Strata](https://github.com/niko1221/strata): Unlike general-purpose engines like llama.cpp or runners like Ollama that aim to support thousands of different open-source models, Strata deliberately sacrifices broad compatibility. It is heavily optimized for a very small roster of massive, sparse MoE models (primarily Qwen3.8-Flash-Next and DeepSeek V4.1). You generally do not use Strata to run a standard 8B or 14B parameter model. You use it specifically when you want to force a 125-billion parameter model to run efficiently at dozens of tokens per second on a 12GB to 24GB gaming GPU, bypassing the need for an expensive dedicated server.
+- [TensorFold](https://github.com/ashhart/TensorFold): aims for bare-metal efficiency, portability, and ease of use, but achieves it through a modern Zig codebase rather than C/C++. It is highly optimized for Apple Silicon and NVIDIA GPUs (including DGX Spark systems), accelerating local inference by removing heavy ML dependencies and orchestrating the entire stack—from kernel execution to API serving—inside one executable.
 
 
 
