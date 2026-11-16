@@ -510,7 +510,7 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="https://youtu.be/U8lGbSaCCYI?si=anfJL6PqQIxiVZwn">ByteByteGo: How to Run LLMs Locally (Great For Learning and Privacy)</a></p>
 <section id="webonline-models" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="webonline-models"><span class="header-section-number">3.1</span> Web/Online Models</h2>
-<p>(Order by Name ↑)</p>
+<p>(alphabetical ↑)</p>
 <ul>
 <li><a href="https://www.anthropic.com/">Anthropic</a> - <a href="https://claude.ai/">Claude</a></li>
 <li><a href="https://www.deepseek.com/">DeepSeek</a> - <a href="https://chat.deepseek.com/">Chat</a></li>
@@ -518,13 +518,15 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://ai.google/">Google</a> - <a href="https://gemini.google.com/">Gemini</a> / <a href="https://aistudio.google.com/">AI Studio</a></li>
 <li><a href="https://grok.com/">Grok</a> (xAI)</li>
 <li><a href="https://www.ibm.com/granite/playground/">IBM Granite</a></li>
-<li><a href="https://kimi.moonshot.cn/">Kimi</a> (Moonshot AI)</li>
+<li><a href="https://kimi.com/">Kimi</a> (Moonshot AI)</li>
 <li><a href="https://mammouth.ai/">Mammouth</a> - Multi-model selector</li>
 <li><a href="https://www.meta.ai/">Meta AI</a></li>
 <li><a href="https://copilot.microsoft.com/">Microsoft Copilot</a></li>
 <li><a href="https://chat.mistral.ai/">Mistral</a></li>
 <li><a href="https://openai.com/">OpenAI</a> - <a href="https://chatgpt.com/">ChatGPT</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a> - Open-source API gateway for LLMs</li>
 <li><a href="https://www.perplexity.ai/">Perplexity</a></li>
+<li><a href="https://poe.com/">Poe</a> (Multi-model selection)</li>
 <li><a href="https://chat.qwen.ai/">Qwen</a> (Alibaba)</li>
 <li><a href="https://www.together.ai/">Together AI</a></li>
 <li><a href="https://console.typesafe.ai/home">TypeSafe</a></li>
@@ -553,6 +555,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/ggml-org/llama.cpp">llama.cpp</a> — Core C/C++ inference engine (GGUF, CPU + GPU, maximum control)</li>
 <li><a href="https://github.com/huggingface/transformers">Hugging Face Transformers</a> — Reference Python library; runs almost any model, slower but universal</li>
 <li><a href="https://github.com/ml-explore/mlx-lm">MLX / mlx-lm</a> — Apple’s framework for fast native inference on Apple Silicon</li>
+<li><a href="https://github.com/ashhart/TensorFold">TensorFold</a> — A high-performance native inference engine written in Zig. Similar to llama.cpp, it bypasses Python entirely to run Metal (Apple Silicon), CUDA (NVIDIA), and Vulkan kernels directly on the hardware.</li>
 </ul>
 </section>
 <section id="hardware-specific-niche" class="level4" data-number="3.3.1.3">
@@ -562,6 +565,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/microsoft/onnxruntime-genai">ONNX Runtime GenAI</a> — Microsoft’s cross-platform engine (Windows, DirectML, NPUs)</li>
 <li><a href="https://github.com/turboderp-org/exllamav3">ExLlamaV3</a> — Fast quantized (EXL3) inference on consumer NVIDIA GPUs</li>
 <li><a href="https://github.com/ikawrakow/ik_llama.cpp">ik_llama.cpp</a> — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types</li>
+<li><a href="https://github.com/niko1221/strata">Strata</a> — A highly specialized inference engine (incorporating parts of llama.cpp) designed strictly to run massive 100B+ parameter Mixture-of-Experts (MoE) models on standard consumer hardware. It uses “expert streaming” to keep frequently used neural network experts in GPU VRAM while rapidly fetching the remaining experts from system RAM and NVMe SSDs.</li>
 </ul>
 </section>
 </section>
@@ -573,6 +577,8 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://jan.ai/">Jan</a> — Fully open-source run models locally, with cloud integration, MCP support. desktop app (privacy-focused)</li>
 <li><a href="https://lmstudio.ai/">LM Studio</a> — Polished desktop GUI</li>
 <li><a href="https://github.com/oobabooga/textgen">textgen</a> — Open-source, offline desktop app with multiple backends, OpenAI/Anthropic-compatible API, tool-calling + MCP, and LoRA training</li>
+<li><a href="https://github.com/niko1221/strata">Strata</a> — operates as a fully integrated desktop application and runner. It automatically handles downloading its supported models, sets up smaller draft models for speculative decoding to boost generation speed, and exposes an OpenAI/Anthropic-compatible API on localhost:8080 alongside its own built-in web UI.</li>
+<li><a href="https://github.com/ashhart/TensorFold">TensorFold</a> — acts as a standalone runner via a single, zero-dependency Zig binary. It handles checkpoint loading, tokenization, and speculative decoding internally. It also natively spins up an OpenAI-compatible server, allowing it to drop immediately into existing web UIs and downstream workflows.</li>
 </ul>
 </section>
 <section id="uis" class="level3" data-number="3.3.3">
@@ -580,6 +586,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><a href="https://openwebui.com/">Open WebUI</a> — Self-hosted web UI (excellent with Ollama)</li>
 </ul>
+<section id="notes" class="level5" data-number="3.3.3.0.1">
+<h5 data-number="3.3.3.0.1" class="anchored" data-anchor-id="notes"><span class="header-section-number">3.3.3.0.1</span> Notes</h5>
+<ul>
+<li><a href="https://github.com/niko1221/strata">Strata</a>: Unlike general-purpose engines like llama.cpp or runners like Ollama that aim to support thousands of different open-source models, Strata deliberately sacrifices broad compatibility. It is heavily optimized for a very small roster of massive, sparse MoE models (primarily Qwen3.8-Flash-Next and DeepSeek V4.1). You generally do not use Strata to run a standard 8B or 14B parameter model. You use it specifically when you want to force a 125-billion parameter model to run efficiently at dozens of tokens per second on a 12GB to 24GB gaming GPU, bypassing the need for an expensive dedicated server.</li>
+<li><a href="https://github.com/ashhart/TensorFold">TensorFold</a>: aims for bare-metal efficiency, portability, and ease of use, but achieves it through a modern Zig codebase rather than C/C++. It is highly optimized for Apple Silicon and NVIDIA GPUs (including DGX Spark systems), accelerating local inference by removing heavy ML dependencies and orchestrating the entire stack—from kernel execution to API serving—inside one executable.</li>
+</ul>
+</section>
 </section>
 <section id="comparing-local-model-runners" class="level3" data-number="3.3.4">
 <h3 data-number="3.3.4" class="anchored" data-anchor-id="comparing-local-model-runners"><span class="header-section-number">3.3.4</span> Comparing Local Model Runners</h3>

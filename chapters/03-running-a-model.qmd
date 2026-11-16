@@ -8,7 +8,7 @@
 
 
 ## Web/Online Models
-(Order by Name ↑)
+(alphabetical ↑)
 
 - [Anthropic](https://www.anthropic.com/) - [Claude](https://claude.ai/)
 - [DeepSeek](https://www.deepseek.com/) - [Chat](https://chat.deepseek.com/)
@@ -16,13 +16,15 @@
 - [Google](https://ai.google/) - [Gemini](https://gemini.google.com/) / [AI Studio](https://aistudio.google.com/)
 - [Grok](https://grok.com/) (xAI)
 - [IBM Granite](https://www.ibm.com/granite/playground/)
-- [Kimi](https://kimi.moonshot.cn/) (Moonshot AI)
+- [Kimi](https://kimi.com/) (Moonshot AI)
 - [Mammouth](https://mammouth.ai/) - Multi-model selector
 - [Meta AI](https://www.meta.ai/)
 - [Microsoft Copilot](https://copilot.microsoft.com/)
 - [Mistral](https://chat.mistral.ai/)
 - [OpenAI](https://openai.com/) - [ChatGPT](https://chatgpt.com/)
+- [OpenRouter](https://openrouter.ai/) - Open-source API gateway for LLMs
 - [Perplexity](https://www.perplexity.ai/)
+- [Poe](https://poe.com/) (Multi-model selection)
 - [Qwen](https://chat.qwen.ai/) (Alibaba)
 - [Together AI](https://www.together.ai/)
 - [TypeSafe](https://console.typesafe.ai/home)
