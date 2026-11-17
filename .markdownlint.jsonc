@@ -1,0 +1,45 @@
+{
+  // Enable all standard structural rules by default
+  "default": true,
+
+  // --- AI Prompts, Docs & URL Friendliness ---
+
+  // Disable line-length limits (AI prompts, system instructions, and long reference URLs often exceed 80 chars)
+  "MD013": false,
+
+  // Allow inline HTML (essential for XML-style tags like <example>, <context>, <rules> in AI prompts, plus <details> or badges)
+  "MD033": false,
+
+  // Allow multiple headings with the same text in different sections (e.g., repeated "### Prompt" or "### Output" subheadings)
+  "MD024": {
+    "siblings_only": true
+  },
+
+  // --- Quarto & Technical Writing Compatibility ---
+
+  // Allow files to start with YAML frontmatter (---) or Quarto directives instead of requiring an # H1 on line 1
+  "MD041": false,
+
+  // Enforce fenced code blocks (```) rather than 4-space indented code blocks
+  "MD046": {
+    "style": "fenced"
+  },
+
+  // Require language identifiers on code blocks (e.g., ```python, ```powershell, ```json) for proper syntax highlighting
+  "MD040": true,
+
+  // --- Clean Formatting & Table Consistency ---
+
+  // Use dashes (-) consistently for unordered lists
+  "MD004": {
+    "style": "dash"
+  },
+
+  // Enforce consistent pipe-style tables (works smoothly alongside your markdown-table-formatter extension)
+  "MD055": {
+    "style": "leading_and_trailing"
+  },
+
+  // Disable strict trailing punctuation checks on headings (allows titles like "What is RAG?" or "Step 1: Setup")
+  "MD026": false
+}
