@@ -3,7 +3,9 @@
 </div>
 
 # :open_book: The Book of AI
+
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
+>
 > "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
 
 :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
@@ -21,25 +23,50 @@
 <!-- DIGEST:END -->
 
 ### :film_strip: Daily YouTube Digest
+
 - [YouTube Digest App](https://davidgeeraerts.github.io/youtube-feed-dashboard-ai/) — a daily digest of curated agentic engineering YouTube videos.
 
 ---
 
 ## The Why
+
 | W's                |                                                                                                                  |
 |--------------------|------------------------------------------------------------------------------------------------------------------|
 | **Who** it’s for:  | Engineers and technical practitioners building and working with AI agents.                                       |
 | **What** it is:    | A curated comprehensive, reference and architecture book for agentic systems engineering.                        |
 | **Why** it exists: | A single, maintained source of knowledge instead of scattered resources for practitioners of agentic engineering |
 
---- 
+---
 
 ## :snail: Book Progress
 
 ### Current Focus
 
+Looking at claims as a reference for supporting evidence and examples for the book. The goal is to have a curated set of claims with supporting evidence and examples that can be used to support the arguments in the book.
+
+#### Claims Relationship Diagram
+
+``` mermaid
+references.bib
+  ├── @katz2026agentharness
+  └── @ibm2026agentterms
+         │
+         └── cited by
+                │
+claims.yml
+  └── ch04-harness-repeatability
+         │
+         ├── source: 7Y4sbZgBdnc 18:12–19:38
+         └── source: SIZsFGvtClM 24:04–25:11
+                │
+                └── displayed in
+                       │
+                       └── chapters/04-agents-and-harnesses.qmd
+
+```
 
 ### Status chart
+
 | Chapters                          | Title                    | Status   | Active          |
 |-----------------------------------|--------------------------|----------|-----------------|
 | Index                             | Main page                | revising | :yellow_circle: |
@@ -67,32 +94,35 @@
 | final       | Considered done (may still get minor tweaks) | Chapter is solid                   |
 | active      | Currently being worked on                    | Highlight current focus            |
 
-
 ## Glossary technical reference
 
 Examples of how to link to glossary terms in the text:
 
-``` 
+```
 [{{< glossary "(AI) Artificial Intelligence" display="AI" popup="hover" >}}](https://davidgeeraerts.github.io/AI/appendices/glossary.html#ai-artificial-intelligence)
 
 ```
 
 # Resource References
+
 - [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet) -- for using emojis in markdown
 - [Quarto website](https://quarto.org/) -- publishing and rendering engine for the book
 - [Mermaid](https://mermaid.js.org/) -- create diagrams and visualizations using text and code
 
 # Quotes
+>
 > "Not all benchmarks lie, but all liars benchmark"
 
 > "GPU sovereignty is the new second amendment" ~DHH
 
-
 # History
+
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), agents, agentic engineering, etc._
 
 # License
+
 Unless otherwise noted, original content in this repository by David Geeraerts is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
 
 # 📊 GitHub Stats
+
 ![Alt](https://repobeats.axiom.co/api/embed/a45c742cf7979dcff3ac7e99445bc37a05abb2d0.svg "Repobeats analytics image")

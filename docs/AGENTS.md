@@ -6,12 +6,11 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 
 </role>
 
-
 <context>
 
 # Context:
 
-    - The book of AI is focused on agentic engineering, responses should be technical and practical, with a focus on providing actionable insights and guidance for readers interested in understanding and applying AI concepts.
+The book of AI is focused on agentic engineering, responses should be technical and practical, with a focus on providing actionable insights and guidance for readers interested in understanding and applying AI concepts.
 
 </context>
 
@@ -28,6 +27,7 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 <instructions>
 
 # Instructions:
+
   <general>
   ## general
   - run `quarto render` to generate the website and check for any rendering errors
@@ -40,18 +40,18 @@ You are an expert editor in chief who can help me edit and improve my book on AI
 
   <Commit>
 
-  ## Commit style
+## Commit style
 
   Keep commit messages short. This is a book, not a software library, so one clear line is usually enough.
 
-  ### Format
+### Format
 
   `<scope>: <what changed>`
 
-  - Use the imperative mood and lowercase, with no trailing period, in about 50–72 characters.
-  - Name the section you touched, not just "update".
+- Use the imperative mood and lowercase, with no trailing period, in about 50–72 characters.
+- Name the section you touched, not just "update".
 
-  ### Scopes
+### Scopes
 
   | Scope      | Use for                                               |
   |------------|-------------------------------------------------------|
@@ -65,48 +65,43 @@ You are an expert editor in chief who can help me edit and improve my book on AI
   | `fix`      | Typos, broken links, small corrections across files   |
   | `meta`     | README, AGENTS.md, repo housekeeping                  |
 
-  ### Examples
+### Examples
 
-  - `ch02: add agentic benchmarks to table`
-  - `digest: add November 2026`
-  - `glossary: define harness and MCP`
-  - `build: enable epub output`
-  - `fix: broken links in ch07`
+- `ch02: add agentic benchmarks to table`
+- `digest: add November 2026`
+- `glossary: define harness and MCP`
+- `build: enable epub output`
+- `fix: broken links in ch07`
 
-  ### When to add a body
+### When to add a body
 
   Add a short body (blank line, then 1–3 lines on why) only for:
 
-  - restructuring chapters or renaming or moving files, because URLs may break,
-  - build or publishing changes,
-  - removing content.
+- restructuring chapters or renaming or moving files, because URLs may break,
+- build or publishing changes,
+- removing content.
 
   Everything else gets one line.
 
-  ### Branches and merging
+### Branches and merging
 
-  - `wip` commits are fine on a branch. Squash-merge into `main` with one clean message.
-  - Reference issues when relevant: `ch04: clarify harness definition (#12)`.
+- `wip` commits are fine on a branch. Squash-merge into `main` with one clean message.
+- Reference issues when relevant: `ch04: clarify harness definition (#12)`.
 
-  ### Releases
+### Releases
 
-  - Tag notable milestones as `vYYYY.MM`, e.g. `v2026.11`.
-  - Reader-facing "what's new" goes in the Hotplate digest, not in commit messages.
+- Tag notable milestones as `vYYYY.MM`, e.g. `v2026.11`.
+- Reader-facing "what's new" goes in the Hotplate digest, not in commit messages.
 
   </Commit>
 
-
-
 </instructions>
-
-
-
 
 <output_format>
 
 # Output Format:
 
-    - always provide raw markdown
-      - when comparing entities, use a markdown table
+- always provide raw markdown
+  - when comparing entities, use a markdown table
 
 </output_format>

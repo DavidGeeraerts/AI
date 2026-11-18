@@ -1,0 +1,41 @@
+claim_id: ch04-harness-repeatability
+chapter: chapters/04-agents-and-harnesses.qmd
+bibliography_keys:
+  - katz2026agentharness
+  - ibm2026agentterms
+statement: >
+  Agent harnesses separate reusable orchestration from model-specific behavior.
+support: strong
+sources:
+  - bibliography_key: katz2026agentharness
+    video_id: 7Y4sbZgBdnc
+    start: "00:18:12"
+    end: "00:19:38"
+    quote: >
+      The harness is responsible for giving the model a repeatable way to operate.
+  - bibliography_key: ibm2026agentterms
+    video_id: SIZsFGvtClM
+    start: "00:24:04"
+    end: "00:25:11"
+    quote: >
+      The harness provides tools and context around the model.
+verified: false
+
+claim_id: ch05-context-overflow
+chapter: chapters/05-building-a-working-stack.qmd
+bibliography_keys:
+  - karpathy2025context
+  - mermaid2026longcontext
+statement: >
+  Context must be treated as a bounded resource, not as unlimited memory.
+support: strong
+sources:
+  - bibliography_key: karpathy2025context
+    video_id: exampleVideoId
+    start: "00:33:10"
+    end: "00:34:02"
+  - bibliography_key: mermaid2026longcontext
+    video_id: anotherVideoId
+    start: "00:11:45"
+    end: "00:12:30"
+verified: false

@@ -4,6 +4,12 @@
 
 # Introduction
 
+## What is AI?
+
+![IBM graphic asking Is AI Really Superintelligence? It introduces the topic of artificial intelligence and superintelligence.](assets/images/IBM_Is_AI_Really_Superintelligence.jpg)
+
+
+
 ## From Chatbots to Agentic Engineering
 
 ### What changes when AI systems can use tools and work across multiple steps
