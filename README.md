@@ -46,9 +46,10 @@ Looking at [claims](/sources/claims.yml) as a [reference](references.bib) for su
 
 #### Claims Relationship Diagram
 
+```text
 references.bib
   ├── @katz2026agentharness
-  └── @ibm2026agentterms
+  └── @ibm2026agenticengineeringterms
          │
          └── cited by
                 │
@@ -61,6 +62,7 @@ claims.yml
                 └── displayed in
                        │
                        └── chapters/04-agents-and-harnesses.qmd
+```
 
 ### Status chart
 

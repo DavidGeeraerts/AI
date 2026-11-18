@@ -2,7 +2,7 @@ claim_id: ch04-harness-repeatability
 chapter: chapters/04-agents-and-harnesses.qmd
 bibliography_keys:
   - katz2026agentharness
-  - ibm2026agentterms
+  - ibm2026agenticengineeringterms
 statement: >
   Agent harnesses separate reusable orchestration from model-specific behavior.
 support: strong
@@ -13,7 +13,7 @@ sources:
     end: "00:19:38"
     quote: >
       The harness is responsible for giving the model a repeatable way to operate.
-  - bibliography_key: ibm2026agentterms
+  - bibliography_key: ibm2026agenticengineeringterms
     video_id: SIZsFGvtClM
     start: "00:24:04"
     end: "00:25:11"
