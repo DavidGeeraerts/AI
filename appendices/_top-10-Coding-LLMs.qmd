@@ -1,0 +1,17 @@
+---
+
+---
+
+# Top 10 Coding LLMs
+| Rank    | Configuration   | Model                           | Notes                         |
+|---------|-----------------|---------------------------------|-------------------------------|
+| 1 (tie) | Claude Code     | Claude Fable 5.2 (xhigh / high) | Shares the lead at ~58        |
+| 1 (tie) | Claude Code     | Claude Opus 5.5 (max)           | Shares the lead at ~58        |
+| 3       | Claude Code     | Claude Sonnet 5.5 (max)         | Strong mid-tier Claude option |
+| 4       | Antigravity CLI | Gemini 4 Carbon (high)          | Leading Google configuration  |
+| 5       | Muse Code       | Muse Wonder Full (max)          | Top Meta configuration        |
+| 6       | Codex           | GPT-6.2 Astra (max)             | Leading OpenAI configuration  |
+| 7       | Antigravity CLI | Gemini 4 Hydrogen (xhigh)       | —                             |
+| 8       | Codex           | GPT-6.2 Sol (xhigh)             | Stronger value OpenAI option  |
+| 9       | Kimi Code CLI   | Kimi K3.1 Pro                   | Leading open-weight option    |
+| 10      | Muse Code       | Muse Wonder (max)               | —                             |

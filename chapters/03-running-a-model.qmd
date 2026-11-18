@@ -55,7 +55,8 @@
 - [ONNX Runtime GenAI](https://github.com/microsoft/onnxruntime-genai) — Microsoft's cross-platform engine (Windows, DirectML, NPUs)
 - [ExLlamaV3](https://github.com/turboderp-org/exllamav3) — Fast quantized (EXL3) inference on consumer NVIDIA GPUs
 - [ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp) — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types
-- [Strata](https://github.com/niko1221/strata) — A highly specialized inference engine (incorporating parts of llama.cpp) designed strictly to run massive 100B+ parameter Mixture-of-Experts (MoE) models on standard consumer hardware. It uses "expert streaming" to keep frequently used neural network experts in GPU VRAM while rapidly fetching the remaining experts from system RAM and NVMe SSDs. 
+- [Strata](https://github.com/niko1221/strata) — A highly specialized inference engine (incorporating parts of llama.cpp) designed strictly to run massive 100B+ parameter Mixture-of-Experts (MoE) models on standard consumer hardware. It uses "expert streaming" to keep frequently used neural network experts in GPU VRAM while rapidly fetching the remaining experts from system RAM and NVMe SSDs.
+- [Basalt](https://github.com/jesdga95/basalt) — NVIDIA Blackwell-optimized local inference engine forked from [Strata](https://github.com/niko1221/strata) for selected models, with system-RAM offload and compatible APIs.
 
 ### Runners
 - [Ollama](https://ollama.com) — CLI + local OpenAI-compatible API (most popular for developers)
