@@ -42,11 +42,10 @@
 
 ### Current Focus
 
-Looking at claims as a reference for supporting evidence and examples for the book. The goal is to have a curated set of claims with supporting evidence and examples that can be used to support the arguments in the book.
+Looking at [claims](/sources/claims.yml) as a [reference](references.bib) for supporting evidence and examples for the book. The goal is to have a curated set of claims with supporting evidence and examples that can be used to support the arguments in the book.
 
 #### Claims Relationship Diagram
 
-``` mermaid
 references.bib
   ├── @katz2026agentharness
   └── @ibm2026agentterms
@@ -63,8 +62,6 @@ claims.yml
                        │
                        └── chapters/04-agents-and-harnesses.qmd
 
-```
-
 ### Status chart
 
 | Chapters                          | Title                    | Status   | Active          |
@@ -80,8 +77,9 @@ claims.yml
 | Appendix-Glossary                 | Glossary                 | revising | :yellow_circle: |
 | Appendix-Prompt Engineering Notes | Prompt Engineering Notes | final    | :red_circle:    |
 | Appendix-Digest Catalog           | Digest Catalog           | final    | :yellow_circle: |
+| Appendix-Bibliography             | Bibliography             | draft    | :green_circle:  |
 
-### Status key
+#### Status key
 
 | Status      | Meaning                                      | Description                        |
 |-------------|----------------------------------------------|------------------------------------|
