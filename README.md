@@ -1,8 +1,6 @@
 <div align="center">
 <img src="/assets/images/Book-Cover-Banner.jpg" alt="The Book of AI Banner"/>
-</div>
-
-# HAS MOVED TO [https://github.com/the-book-of-ai](https://github.com/the-book-of-ai)
+</div
 
 
 # :open_book: The Book of AI
