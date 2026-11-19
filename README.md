@@ -100,9 +100,8 @@ claims.yml
 
 Examples of how to link to glossary terms in the text:
 
-```
-[{{< glossary "(AI) Artificial Intelligence" display="AI" popup="hover" >}}](https://davidgeeraerts.github.io/AI/appendices/glossary.html#ai-artificial-intelligence)
-
+```text
+[{{< glossary "(AI) Artificial Intelligence" display="AI" popup="hover" >}}](https://the-book-of-ai.github.io/source/appendices/glossary.html#ai-artificial-intelligence)
 ```
 
 # Resource References
@@ -114,6 +113,7 @@ Examples of how to link to glossary terms in the text:
 # Quotes
 
 > "Not all benchmarks lie, but all liars benchmark"
+
 > "GPU sovereignty is the new second amendment" ~DHH
 
 # History
