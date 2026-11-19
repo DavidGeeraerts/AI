@@ -2,9 +2,6 @@
 <img src="/assets/images/Book-Cover-Banner.jpg" alt="The Book of AI Banner"/>
 </div
 
-
-# :open_book: The Book of AI
-
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
 
 > "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
@@ -13,7 +10,7 @@
 
 > Be a comprehensive, well curated (signal from noise), and maintained manual for agentic engineering and building a practical toolkit.
 
-:bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
+## :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
 
 :notebook: [The Book of AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
@@ -115,9 +112,8 @@ Examples of how to link to glossary terms in the text:
 - [Mermaid](https://mermaid.js.org/) -- create diagrams and visualizations using text and code
 
 # Quotes
->
-> "Not all benchmarks lie, but all liars benchmark"
 
+> "Not all benchmarks lie, but all liars benchmark"
 > "GPU sovereignty is the new second amendment" ~DHH
 
 # History
@@ -126,7 +122,7 @@ _This is a work in progress --started 2025-02-- to document [my](https://github.
 
 # License
 
-Unless otherwise noted, original content in this repository by David Geeraerts is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI by David Geeraerts” and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
+Unless otherwise noted, original content in this repository by the-book-of-ai is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). Please attribute it as “The Book of AI" and link to this repository and the license. Third-party materials, including research papers and images, are excluded and remain subject to their own terms.
 
 # 📊 GitHub Stats
 

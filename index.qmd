@@ -33,3 +33,72 @@ This book is for people who want to **assemble and control** that stack rather t
 The landscape moves quickly. Treat the dated Digests as the primary signal of what is current; the chapter text provides the stable conceptual frame.
 
 - Check the [Digest Index](digest/digest_index.qmd) for update workflow.
+
+
+
+## Publishing roles
+
+```{mermaid}
+%%| label: fig-publishing-roles
+%%| fig-cap: "Online publishing roles mapped to an open-source GitHub workflow."
+flowchart TB
+    subgraph L1["<span style='font-size:13px;color:#e6e8ee'><span style='color:#9ed3ff'>▍</span> Layer 1 · Editorial Leadership</span>"]
+        direction LR
+        OO(["<b>Org Owner</b><br/><i>Publisher</i>"])
+        LA(["<b>Lead Author</b><br/><i>Editor-in-Chief</i>"])
+        LM(["<b>Lead Maintainer</b><br/><i>Managing Editor</i>"])
+        OO -.-> LA -.-> LM
+    end
+
+    subgraph L2["<span style='font-size:13px;color:#e6e8ee'><span style='color:#57df98'>▍</span> Layer 2 · Content &amp; Quality</span>"]
+        direction TB
+        subgraph L2A[" "]
+            direction LR
+            CM(["<b>Chapter Maintainer</b><br/><i>Section Editor</i>"])
+            CO(["<b>Contributors</b><br/><i>Writers & Contributors</i>"])
+            CM -.-> CO
+        end
+        subgraph L2B[" "]
+            direction LR
+            SME(["<b>SME Reviewer</b><br/><i>Technical Reviewer</i>"])
+            LC(["<b>Linters & Copy Reviewers</b><br/><i>Copy Editor & Fact-Checker</i>"])
+            SME -.-> LC
+        end
+        L2A -. "Contributors → SME Reviewer" .-> L2B
+    end
+
+    subgraph L3["<span style='font-size:13px;color:#e6e8ee'><span style='color:#cfbaff'>▍</span> Layer 3 · Production &amp; Platform</span>"]
+        direction LR
+        RM(["<b>Release Manager</b><br/><i>Production Editor</i>"])
+        VC(["<b>Visual Contributor</b><br/><i>Visual Designer</i>"])
+        DO(["<b>DevOps / Build</b><br/><i>Publishing Engineer</i>"])
+        RM -.-> VC -.-> DO
+    end
+
+    subgraph L4["<span style='font-size:13px;color:#e6e8ee'><span style='color:#ffe28a'>▍</span> Layer 4 · Audience &amp; Community</span>"]
+        direction LR
+        COM(["<b>Community Manager</b><br/><i>Community Editor</i>"])
+        DA(["<b>Docs Analytics</b><br/><i>SEO & Analytics Lead</i>"])
+        COM ~~~ DA
+    end
+
+    %% Label group-to-group links so Mermaid keeps the horizontal rows.
+    L1 -. "Lead Author → Chapter Maintainer" .-> L2
+    L1 -. "Lead Maintainer → Contributors" .-> L2
+    L2 -. "Linters & Copy Reviewers → Release Manager" .-> L3
+    L3 -- "DevOps / Build → Community Manager" --> L4
+    L3 -. "DevOps / Build → Docs Analytics" .-> L4
+
+    %% Dark layers and highlighted roles
+    style L1 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L2 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L3 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L4 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L2A fill:none,stroke:none
+    style L2B fill:none,stroke:none
+    classDef default fill:#1c1d21,stroke:#444854,color:#e6e8ee,stroke-width:1px;
+    classDef focus fill:#1c1d21,stroke:#ffffff,color:#ffffff,stroke-width:1.5px;
+
+    class DO,DA focus
+    linkStyle 11 stroke:#7ab4ff,stroke-width:2px
+```

@@ -85,6 +85,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -448,6 +451,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#what-this-book-is-for" id="toc-what-this-book-is-for" class="nav-link" data-scroll-target="#what-this-book-is-for">What this book is for</a></li>
   <li><a href="#map-of-the-book" id="toc-map-of-the-book" class="nav-link" data-scroll-target="#map-of-the-book">Map of the book</a></li>
   <li><a href="#how-to-keep-the-map-alive" id="toc-how-to-keep-the-map-alive" class="nav-link" data-scroll-target="#how-to-keep-the-map-alive">How to keep the map alive</a></li>
+  <li><a href="#publishing-roles" id="toc-publishing-roles" class="nav-link" data-scroll-target="#publishing-roles">Publishing roles</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/davidgeeraerts/AI/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/davidgeeraerts/AI/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -541,6 +545,86 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Check the <a href="./digest/digest_index.html">Digest Index</a> for update workflow.</li>
 </ul>
+</section>
+<section id="publishing-roles" class="level2">
+<h2 class="anchored" data-anchor-id="publishing-roles">Publishing roles</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div id="fig-publishing-roles" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-publishing-roles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div>
+
+<pre class="mermaid mermaid-js" data-label="fig-publishing-roles">flowchart TB
+    subgraph L1["&lt;span style='font-size:13px;color:#e6e8ee'&gt;&lt;span style='color:#9ed3ff'&gt;▍&lt;/span&gt; Layer 1 · Editorial Leadership&lt;/span&gt;"]
+        direction LR
+        OO(["&lt;b&gt;Org Owner&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Publisher&lt;/i&gt;"])
+        LA(["&lt;b&gt;Lead Author&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Editor-in-Chief&lt;/i&gt;"])
+        LM(["&lt;b&gt;Lead Maintainer&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Managing Editor&lt;/i&gt;"])
+        OO -.-&gt; LA -.-&gt; LM
+    end
+
+    subgraph L2["&lt;span style='font-size:13px;color:#e6e8ee'&gt;&lt;span style='color:#57df98'&gt;▍&lt;/span&gt; Layer 2 · Content &amp;amp; Quality&lt;/span&gt;"]
+        direction TB
+        subgraph L2A[" "]
+            direction LR
+            CM(["&lt;b&gt;Chapter Maintainer&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Section Editor&lt;/i&gt;"])
+            CO(["&lt;b&gt;Contributors&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Writers &amp; Contributors&lt;/i&gt;"])
+            CM -.-&gt; CO
+        end
+        subgraph L2B[" "]
+            direction LR
+            SME(["&lt;b&gt;SME Reviewer&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Technical Reviewer&lt;/i&gt;"])
+            LC(["&lt;b&gt;Linters &amp; Copy Reviewers&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Copy Editor &amp; Fact-Checker&lt;/i&gt;"])
+            SME -.-&gt; LC
+        end
+        L2A -. "Contributors → SME Reviewer" .-&gt; L2B
+    end
+
+    subgraph L3["&lt;span style='font-size:13px;color:#e6e8ee'&gt;&lt;span style='color:#cfbaff'&gt;▍&lt;/span&gt; Layer 3 · Production &amp;amp; Platform&lt;/span&gt;"]
+        direction LR
+        RM(["&lt;b&gt;Release Manager&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Production Editor&lt;/i&gt;"])
+        VC(["&lt;b&gt;Visual Contributor&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Visual Designer&lt;/i&gt;"])
+        DO(["&lt;b&gt;DevOps / Build&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Publishing Engineer&lt;/i&gt;"])
+        RM -.-&gt; VC -.-&gt; DO
+    end
+
+    subgraph L4["&lt;span style='font-size:13px;color:#e6e8ee'&gt;&lt;span style='color:#ffe28a'&gt;▍&lt;/span&gt; Layer 4 · Audience &amp;amp; Community&lt;/span&gt;"]
+        direction LR
+        COM(["&lt;b&gt;Community Manager&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Community Editor&lt;/i&gt;"])
+        DA(["&lt;b&gt;Docs Analytics&lt;/b&gt;&lt;br/&gt;&lt;i&gt;SEO &amp; Analytics Lead&lt;/i&gt;"])
+        COM ~~~ DA
+    end
+
+    %% Label group-to-group links so Mermaid keeps the horizontal rows.
+    L1 -. "Lead Author → Chapter Maintainer" .-&gt; L2
+    L1 -. "Lead Maintainer → Contributors" .-&gt; L2
+    L2 -. "Linters &amp; Copy Reviewers → Release Manager" .-&gt; L3
+    L3 -- "DevOps / Build → Community Manager" --&gt; L4
+    L3 -. "DevOps / Build → Docs Analytics" .-&gt; L4
+
+    %% Dark layers and highlighted roles
+    style L1 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L2 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L3 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L4 fill:#101010,stroke:#32343d,stroke-width:1px,rx:24,ry:24,color:#e6e8ee
+    style L2A fill:none,stroke:none
+    style L2B fill:none,stroke:none
+    classDef default fill:#1c1d21,stroke:#444854,color:#e6e8ee,stroke-width:1px;
+    classDef focus fill:#1c1d21,stroke:#ffffff,color:#ffffff,stroke-width:1.5px;
+
+    class DO,DA focus
+    linkStyle 11 stroke:#7ab4ff,stroke-width:2px
+</pre>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-publishing-roles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Online publishing roles mapped to an open-source GitHub workflow.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
 </section>
