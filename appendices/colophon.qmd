@@ -1,0 +1,27 @@
+# Colophon {.unnumbered}
+
+Tools change. Platforms disappear. Plain text endures.
+
+*The Book of AI* is authored, versioned, and compiled entirely with open-source/Free-Software, local-first software. No proprietary publishing platforms, no locked databases, and no cloud dependencies are required to read, edit, or rebuild it.
+
+## What colophone is
+> Traditionally placed at the very end of a physical book, a colophon is a brief note describing how the book was manufactured—the paper, ink, typeface, and printing press. In a modern technical book, it documents the software toolchain: plain-text Markdown (.qmd), Quarto, Pandoc, Git, your linter configuration, and the fonts or theme used.
+
+## The Press
+
+| Layer        | Tool                       | Role                                                     |
+|--------------|----------------------------|----------------------------------------------------------|
+| **Source**   | Quarto (`.qmd`) & Markdown | Plain-text authoring and modular lab includes            |
+| **Compiler** | Quarto CLI & Pandoc        | Renders HTML, PDF, and EPUB from one source tree         |
+| **Quality**  | `markdownlint-cli2`        | Enforces formatting via `.markdownlint.jsonc`            |
+| **Archive**  | Git & GitHub               | Version history, issue tracking, and public distribution |
+
+## Building an Offline Copy
+
+Anyone can clone the repository and run the press locally—no internet connection required after the initial clone:
+
+```bash
+git clone [https://github.com/DavidGeeraerts/AI.git](https://github.com/DavidGeeraerts/AI.git)
+cd AI
+quarto render
+

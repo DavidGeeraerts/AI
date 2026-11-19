@@ -82,48 +82,48 @@ The kernel is the same, but the package managers dictate how you interact with t
 
 #### RHEL branch
 
-* **Lab 0.1.1: RHEL** - The enterprise standard. Slow, stable, unyielding. We configure `dnf` and SELinux.
-* **Lab 0.1.2: Fedora** - The bleeding edge of the Red Hat lineage. We pull the latest kernel for better GPU driver support.
-* **Lab 0.1.3: CentOS Stream** - The mid-ground. Testing the waters before RHEL.
+- **Lab 0.1.1: RHEL** - The enterprise standard. Slow, stable, unyielding. We configure `dnf` and SELinux.
+- **Lab 0.1.2: Fedora** - The bleeding edge of the Red Hat lineage. We pull the latest kernel for better GPU driver support.
+- **Lab 0.1.3: CentOS Stream** - The mid-ground. Testing the waters before RHEL.
 
 #### Debian branch
 
-* **Lab 0.1.4: Debian** - The universal operating system. Rock solid. `apt` is your interface.
-* **Lab 0.1.5: Ubuntu** - The mainstream path. Heavy, but everything works out of the box.
-* **Lab 0.1.6: Mint** - The comfortable desktop. We strip away the GUI bloat to find the terminal.
+- **Lab 0.1.4: Debian** - The universal operating system. Rock solid. `apt` is your interface.
+- **Lab 0.1.5: Ubuntu** - The mainstream path. Heavy, but everything works out of the box.
+- **Lab 0.1.6: Mint** - The comfortable desktop. We strip away the GUI bloat to find the terminal.
 
 #### Arch branch
 
-* **Lab 0.1.7: Arch** - You build it yourself. `pacman` and the AUR. Maximum control, maximum responsibility.
-* **Lab 0.1.8: Omarchy** - DHH's opinionated tiling setup. Hyprland and Quickshell. Fast, keyboard-driven, built for operators.
-* **Lab 0.1.9: Manjaro** - Arch with training wheels.
+- **Lab 0.1.7: Arch** - You build it yourself. `pacman` and the AUR. Maximum control, maximum responsibility.
+- **Lab 0.1.8: Omarchy** - DHH's opinionated tiling setup. Hyprland and Quickshell. Fast, keyboard-driven, built for operators.
+- **Lab 0.1.9: Manjaro** - Arch with training wheels.
 
 #### Gentoo branch
 
-* **Lab 0.1.10: Gentoo** - Compiling everything from source. You control the exact flags for your CPU architecture. Not for the faint of heart.
+- **Lab 0.1.10: Gentoo** - Compiling everything from source. You control the exact flags for your CPU architecture. Not for the faint of heart.
 
 #### SUSE branch
 
-* **Lab 0.1.11: openSUSE** - `zypper` and YaST. The chameleon.
+- **Lab 0.1.11: openSUSE** - `zypper` and YaST. The chameleon.
 
 #### Alpine branch
 
-* **Lab 0.1.12: Alpine** - `apk` and `musl` libc. Ultra-lightweight. We use this primarily for our containerized sandboxes later.
+- **Lab 0.1.12: Alpine** - `apk` and `musl` libc. Ultra-lightweight. We use this primarily for our containerized sandboxes later.
 
 ### Lab 0.2: VS Code installation and configuration
 
 Your editor is your jack-in point. We configure it to be fast, dark, and deeply integrated with the terminal.
 
-* **Lab 0.2.1: Base installation** - Pulling the binary. Disabling telemetry. We don't need Microsoft tracking our keystrokes.
-* **Lab 0.2.2: Extension installation** - Loading the modules we need: `Python`, `Quarto`, `Ruff` (for fast linting), and `Docker`.
-* **Lab 0.2.3: Theme and settings** - Setting a high-contrast dark theme. Binding `Ctrl+~` to the integrated terminal.
+- **Lab 0.2.1: Base installation** - Pulling the binary. Disabling telemetry. We don't need Microsoft tracking our keystrokes.
+- **Lab 0.2.2: Extension installation** - Loading the modules we need: `Python`, `Quarto`, `Ruff` (for fast linting), and `Docker`.
+- **Lab 0.2.3: Theme and settings** - Setting a high-contrast dark theme. Binding `Ctrl+~` to the integrated terminal.
 
 ### Lab 0.3: Runtime Isolation
 
 System packages will break your stack. We isolate our runtimes in user-space.
 
-* **Lab 0.3.1: Installing `mise**` - The tool manager. We bypass `/usr/bin/` entirely.
-* **Lab 0.3.2: Pinning `uv` and Python** - Setting Python 3.12 as our global standard. Fast virtual environments.
+- **Lab 0.3.1: Installing `mise**` - The tool manager. We bypass `/usr/bin/` entirely.
+- **Lab 0.3.2: Pinning `uv` and Python** - Setting Python 3.12 as our global standard. Fast virtual environments.
 
 ```
 
@@ -152,15 +152,15 @@ flowchart LR
 
 ### Lab 1.1: The nature of an agent
 
-* **Lab 1.1.1: Deterministic code** - We write a Python script to parse a log file. It works perfectly until the log format changes by one character. It breaks.
-* **Lab 1.1.2: Stochastic execution** - We pass the broken log to a raw LLM prompt. It understands the intent and extracts the data, but the output format is unpredictable.
+- **Lab 1.1.1: Deterministic code** - We write a Python script to parse a log file. It works perfectly until the log format changes by one character. It breaks.
+- **Lab 1.1.2: Stochastic execution** - We pass the broken log to a raw LLM prompt. It understands the intent and extracts the data, but the output format is unpredictable.
 
 ### Lab 1.2: The contract layer
 
 To bridge the gap, we build contracts. We force the stochastic brain to communicate in strict, typed structures.
 
-* **Lab 1.2.1: Defining the input schema** - What exactly does the agent need to know?
-* **Lab 1.2.2: Pydantic outputs** - We write the JSON schema that the LLM must obey to pass data back to our system.
+- **Lab 1.2.1: Defining the input schema** - What exactly does the agent need to know?
+- **Lab 1.2.2: Pydantic outputs** - We write the JSON schema that the LLM must obey to pass data back to our system.
 
 ```
 
@@ -208,17 +208,17 @@ graph TD
 
 ### Lab 3.1: Local inference (Bare Metal)
 
-* **Lab 3.1.1: Ollama daemon** - The easiest way to pull and run weights. We start the service and watch it allocate VRAM.
-* **Lab 3.1.2: llama.cpp server** - Dropping down a level. We compile `llama-server` from source to control flash-attention and thread counts manually.
+- **Lab 3.1.1: Ollama daemon** - The easiest way to pull and run weights. We start the service and watch it allocate VRAM.
+- **Lab 3.1.2: llama.cpp server** - Dropping down a level. We compile `llama-server` from source to control flash-attention and thread counts manually.
 
 ### Lab 3.2: Hosted containers (The Grid)
 
-* **Lab 3.2.1: vLLM** - When one request at a time isn't enough. We spin up a Docker container with vLLM to handle continuous batching and high throughput.
-* **Lab 3.2.2: SGLang** - Exploring alternative backends for faster prefix-caching.
+- **Lab 3.2.1: vLLM** - When one request at a time isn't enough. We spin up a Docker container with vLLM to handle continuous batching and high throughput.
+- **Lab 3.2.2: SGLang** - Exploring alternative backends for faster prefix-caching.
 
 ### Lab 3.3: Cloud APIs (The outside world)
 
-* **Lab 3.3.1: LiteLLM routing** - We build a proxy router. If our local model fails or times out, we seamlessly route the request to a frontier cloud model without changing our application code.
+- **Lab 3.3.1: LiteLLM routing** - We build a proxy router. If our local model fails or times out, we seamlessly route the request to a frontier cloud model without changing our application code.
 
 ```
 
@@ -267,16 +267,16 @@ graph TD
 
 ### Lab 5.1: Topologies
 
-* **Lab 5.1.1: Planner and worker** - We build a two-node graph. The Planner writes a JSON blueprint; the Worker executes it step-by-step.
-* **Lab 5.1.2: State handoffs** - How to pass the working memory payload from one agent to another without losing context.
+- **Lab 5.1.1: Planner and worker** - We build a two-node graph. The Planner writes a JSON blueprint; the Worker executes it step-by-step.
+- **Lab 5.1.2: State handoffs** - How to pass the working memory payload from one agent to another without losing context.
 
 ### Lab 5.2: Agent-to-Agent (A2A) protocols
 
-* **Lab 5.2.1: Synthesizing context** - Agents shouldn't send raw HTML to each other. We write the compression prompts that allow agents to talk in dense summaries.
+- **Lab 5.2.1: Synthesizing context** - Agents shouldn't send raw HTML to each other. We write the compression prompts that allow agents to talk in dense summaries.
 
 ### Lab 5.3: Human-in-the-Loop (HITL)
 
-* **Lab 5.3.1: The kill switch** - Before the Worker agent executes a terminal command, the harness pauses execution. It prints the command to your screen and waits for `[y/N]`. Never give a machine a loaded gun without a safety.
+- **Lab 5.3.1: The kill switch** - Before the Worker agent executes a terminal command, the harness pauses execution. It prints the command to your screen and waits for `[y/N]`. Never give a machine a loaded gun without a safety.
 
 ```
 

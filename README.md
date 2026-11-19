@@ -5,8 +5,12 @@
 # :open_book: The Book of AI
 
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
->
+
 > "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
+
+## Objective
+
+> Be a comprehensive, well curated (signal from noise), and maintained manual for agentic engineering and building a practical toolkit.
 
 :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
 

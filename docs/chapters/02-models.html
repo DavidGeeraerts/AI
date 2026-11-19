@@ -740,14 +740,14 @@ ul.task-list li input[type="checkbox"] {
 <td>Highly regarded</td>
 <td>Monthly-refreshed questions from recent sources; objective ground-truth scoring; covers reasoning, coding, math, data analysis, language, instruction following</td>
 <td>Not human preference; not pure agentic long-horizon</td>
-<td><strong>One of the strongest current objective capability benchmarks</strong></td>
+<td>One of the strongest current objective capability benchmarks</td>
 </tr>
 <tr class="odd">
 <td><a href="https://lmarena.ai/"><strong>LMArena</strong></a> (Chatbot/Arena)</td>
 <td>Highly regarded</td>
 <td>Large-scale blind human preference (Elo-style); real user prompts</td>
 <td>Style/verbosity bias; overlapping confidence intervals; not verifiable correctness</td>
-<td><strong>Best for “which model feels best in open-ended use”</strong></td>
+<td>Best for “which model feels best in open-ended use”</td>
 </tr>
 <tr class="even">
 <td><a href="https://benchlm.ai/"><strong>BenchLM</strong></a></td>
@@ -775,21 +775,21 @@ ul.task-list li input[type="checkbox"] {
 <td>Active frontier benchmark</td>
 <td>Expert-authored (≈1,000 contributors) multi-modal closed-ended questions (2,500 total) at the frontier of human knowledge across 100+ subjects; designed to resist search/contamination; objective grading; HLE-Diamond &amp; Rolling variants for continued headroom</td>
 <td>Score variance across full set / text-only / Diamond / with-tools; some answer-key disputes (esp.&nbsp;chem/bio); calibration remains poor</td>
-<td><strong>Yes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks</strong></td>
+<td>Yes — currently one of the strongest non-saturated academic/knowledge + reasoning benchmarks</td>
 </tr>
 <tr class="even">
 <td><a href="https://github.com/Tencent/workbuddy-bench"><strong>WorkBuddy Bench</strong></a> (Tencent)</td>
 <td>Active / Research Preview (v1.2, Oct 2026)</td>
 <td>Multi-domain coding-agent eval (Code 80 / Web 70 / Office 50 / Security 60 tasks) reverse-engineered from real work; contamination-resistant prompts; dual harnesses (CodeBuddy Code + Claude Code); fully open (tasks, Docker images, tests, solutions); reports efficiency (tokens/turns)</td>
 <td>No suite-wide average (subset scores incomparable); harness effects are large; still early / Research Preview; heavier compute than pure unit-test benchmarks</td>
-<td><strong>Yes — one of the strongest current multi-domain agentic coding benchmarks</strong>, especially for real-world role-played work beyond pure SWE-bench-style issue fixing</td>
+<td>Yes — one of the strongest current multi-domain agentic coding benchmarks, especially for real-world role-played work beyond pure SWE-bench-style issue fixing</td>
 </tr>
 <tr class="odd">
 <td><a href="https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index"><strong>Artificial Analysis Intelligence Index v5</strong></a></td>
 <td>Active frontier composite (launched Oct 2026)</td>
 <td>Independent composite of 9 hard evaluations (Knowledge Work / Coding / Science / General at 25% each); 60% private or held-out data to resist contamination; strong agentic emphasis (FrontierCode 2.0, Terminal-Bench-Science, AA-Briefcase); no single model dominates all components</td>
 <td>Version scores not comparable to prior AA indices; heavy reliance on private tests reduces external auditability; mainly English text-only; effort settings and harness can shift rankings significantly</td>
-<td><strong>Yes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding</strong></td>
+<td>Yes — currently one of the most-watched single-number frontier rankings for overall capability, especially agentic/knowledge-work + coding</td>
 </tr>
 <tr class="even">
 <td><a href="https://www.tbench.ai/"><strong>Terminal-Bench</strong></a></td>
@@ -810,35 +810,35 @@ ul.task-list li input[type="checkbox"] {
 <td>Active, scores rising fast</td>
 <td>Agents operate real desktop operating systems and apps (Ubuntu, Windows, macOS) through screenshots and mouse/keyboard; execution-based checking; human baseline about 72%</td>
 <td>Slow and costly to run; environment setup and flaky tasks; scores sensitive to screenshot resolution and step limits</td>
-<td><strong>Yes — the standard benchmark for computer-use agents</strong></td>
+<td>Yes — the standard benchmark for computer-use agents</td>
 </tr>
 <tr class="odd">
 <td><a href="https://openai.com/index/browsecomp/"><strong>BrowseComp</strong></a> (OpenAI)</td>
 <td>Active, climbing</td>
 <td>1,266 hard-to-find but easy-to-verify questions that need persistent, creative web browsing; short answers allow objective grading</td>
 <td>Answers can leak onto the web over time; measures finding facts, not synthesis or report quality; English-centric (BrowseComp-ZH covers Chinese)</td>
-<td><strong>Yes — the go-to benchmark for deep-research and web-browsing agents</strong></td>
+<td>Yes — the go-to benchmark for deep-research and web-browsing agents</td>
 </tr>
 <tr class="even">
 <td><a href="https://mcp-universe.github.io/"><strong>MCP-Universe</strong></a> (Salesforce) and other MCP benchmarks (MCP-Bench, MCPMark)</td>
 <td>Emerging</td>
 <td>Agents use real Model Context Protocol servers (GitHub, maps, finance, browser, etc.) on multi-step tasks; execution-based checking; directly mirrors how modern agents connect to tools</td>
 <td>Young and fragmented, with no single standard; depends on live third-party services that change; long-context and unfamiliar-tool challenges skew results</td>
-<td><strong>Yes, if you build MCP-based agents</strong> — watch for consolidation</td>
+<td>Yes, if you build MCP-based agents — watch for consolidation</td>
 </tr>
 <tr class="odd">
 <td><a href="https://metr.org/"><strong>METR Time Horizons</strong></a></td>
 <td>Active, widely cited</td>
 <td>Measures the length of tasks (in human expert time) an agent completes with 50% reliability; tracks the trend over time (roughly doubling every ~7 months); grounded in software and research tasks</td>
 <td>Wide confidence intervals; task suite skews toward software and ML; 50% reliability is far below production needs; not a leaderboard of everyday performance</td>
-<td><strong>Yes — the best single measure of how autonomous agents are becoming</strong></td>
+<td>Yes — the best single measure of how autonomous agents are becoming</td>
 </tr>
 <tr class="even">
 <td><a href="https://arcprize.org/"><strong>ARC-AGI</strong></a> (ARC-AGI-2 / ARC-AGI-3)</td>
 <td>Active, far from saturated on newer versions</td>
 <td>Novel visual grid puzzles that test abstraction and skill acquisition on unseen problems; easy for humans, hard for models; cost-per-task reported alongside scores; ARC-AGI-3 adds interactive game-like environments</td>
 <td>Narrow puzzle domain; results swing with test-time compute budgets; limited direct transfer to agentic work</td>
-<td><strong>Yes — the leading test of genuine novel reasoning rather than memorization</strong></td>
+<td>Yes — the leading test of genuine novel reasoning rather than memorization</td>
 </tr>
 <tr class="odd">
 <td><a href="https://aider.chat/docs/leaderboards/"><strong>Aider Polyglot</strong></a></td>

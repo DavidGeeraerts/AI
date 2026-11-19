@@ -1,6 +1,10 @@
 project:
   type: book
   output-dir: docs
+  render:
+    - "!README.md"
+    - "!CONTRIBUTING.md"
+    - "!AGENTS.md"
   pre-render:
     - quarto run scripts/generate-glossary.ts
     - quarto run scripts/latest-digest.ts
