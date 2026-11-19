@@ -41,5 +41,8 @@
   },
 
   // Disable strict trailing punctuation checks on headings (allows titles like "What is RAG?" or "Step 1: Setup")
-  "MD026": false
+  "MD026": false,
+  
+  // Disable blank line checks after blockquotes
+  "MD028": false
 }
