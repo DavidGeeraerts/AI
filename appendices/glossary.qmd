@@ -40,6 +40,17 @@ At its core, Agentic AI is a type of AI that’s all about autonomy. This means 
 ### Agentic engineering stack
 > The layered set of models, harnesses, tools, memory, orchestration, and governance required to make AI agents reliable and controllable in real work. Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.
 
+### Agentic Loop
+
+> The core execution cycle an AI agent uses to complete work: it takes in a **goal**, performs an **action** (such as editing a file or running a command), **observes** the resulting output, and **adjusts** its approach until the task is complete. Agentic loops differ primarily by who starts the loop, who decides when it is finished, and who reviews the output.
+
+* **Interactive (Human-in-the-Loop) Agentic Loop:** A loop where a human controls both the start and stop boundaries [00:01:31]. A person provides the initial goal via a prompt, inspects the agent's output, and decides whether the task is complete or requires another turn. Best suited for ambiguous tasks without a clear, measurable finish line, though difficult to scale for repetitive work.
+* **Delegated Agentic Loop:** A loop where a human still defines the goal and kicks off execution, but attaches an explicit **stopping condition** (e.g., *upgrade outdated dependencies and stop when the build passes*). After each adjustment, an automated AI check evaluates that stopping condition—looping again on failure and exiting on success—before handing the finished result to a human for final review.
+* **Scheduled Agentic Loop:** A delegated loop triggered by a **clock** rather than a person [00:05:22]. A human defines the goal and stopping condition once, and a schedule runs the loop automatically at set intervals (such as nightly). Well suited for recurring maintenance and work that goes stale over time, with humans reviewing the results and adjusting or canceling the schedule as needed.
+
+**See also: Human-in-the-Loop (HITL).**
+
+
 ### (AGI) Artificial General Intelligence
 > is a hypothetical AI system that possesses the ability to understand, learn, and apply knowledge across a wide range of tasks and domains, similar to human intelligence. AGI aims to replicate the general cognitive abilities of humans, such as reasoning, problem-solving, and creativity, in an artificial system. Achieving AGI is a long-term goal of AI research and development.
 
@@ -798,6 +809,10 @@ A good harness (Hermes, OpenClaw, goose, etc.) dramatically changes what kind of
 
 ### (HITL) Human-in-the-loop
 > is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.
+
+### (HITL) Human-in-the-loop
+> A design pattern in which a human actively participates in an AI system's decision cycle—such as setting goals, verifying outputs, approving actions, or handling edge-case exceptions. In agentic workflows, this most commonly takes the form of an interactive loop where a person initiates each run and judges when the work is done [00:01:31]. *See also: [Agentic Loop](#agentic-loop).*
+
 
 ### Hyperparameter
 

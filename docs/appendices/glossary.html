@@ -546,32 +546,44 @@ ul.task-list li input[type="checkbox"] {
 <p>The layered set of models, harnesses, tools, memory, orchestration, and governance required to make AI agents reliable and controllable in real work. Mastering this stack is essential for moving from isolated prompts to robust, self-directed workflows that integrate seamlessly with local hardware and custom system administration tools.</p>
 </blockquote>
 </section>
-<section id="agi-artificial-general-intelligence" class="level3" data-number="A.1.7">
-<h3 data-number="A.1.7" class="anchored" data-anchor-id="agi-artificial-general-intelligence"><span class="header-section-number">A.1.7</span> (AGI) Artificial General Intelligence</h3>
+<section id="agentic-loop" class="level3" data-number="A.1.7">
+<h3 data-number="A.1.7" class="anchored" data-anchor-id="agentic-loop"><span class="header-section-number">A.1.7</span> Agentic Loop</h3>
+<blockquote class="blockquote">
+<p>The core execution cycle an AI agent uses to complete work: it takes in a <strong>goal</strong>, performs an <strong>action</strong> (such as editing a file or running a command), <strong>observes</strong> the resulting output, and <strong>adjusts</strong> its approach until the task is complete. Agentic loops differ primarily by who starts the loop, who decides when it is finished, and who reviews the output.</p>
+</blockquote>
+<ul>
+<li><strong>Interactive (Human-in-the-Loop) Agentic Loop:</strong> A loop where a human controls both the start and stop boundaries [00:01:31]. A person provides the initial goal via a prompt, inspects the agent’s output, and decides whether the task is complete or requires another turn. Best suited for ambiguous tasks without a clear, measurable finish line, though difficult to scale for repetitive work.</li>
+<li><strong>Delegated Agentic Loop:</strong> A loop where a human still defines the goal and kicks off execution, but attaches an explicit <strong>stopping condition</strong> (e.g., <em>upgrade outdated dependencies and stop when the build passes</em>). After each adjustment, an automated AI check evaluates that stopping condition—looping again on failure and exiting on success—before handing the finished result to a human for final review.</li>
+<li><strong>Scheduled Agentic Loop:</strong> A delegated loop triggered by a <strong>clock</strong> rather than a person [00:05:22]. A human defines the goal and stopping condition once, and a schedule runs the loop automatically at set intervals (such as nightly). Well suited for recurring maintenance and work that goes stale over time, with humans reviewing the results and adjusting or canceling the schedule as needed.</li>
+</ul>
+<p><strong>See also: Human-in-the-Loop (HITL).</strong></p>
+</section>
+<section id="agi-artificial-general-intelligence" class="level3" data-number="A.1.8">
+<h3 data-number="A.1.8" class="anchored" data-anchor-id="agi-artificial-general-intelligence"><span class="header-section-number">A.1.8</span> (AGI) Artificial General Intelligence</h3>
 <blockquote class="blockquote">
 <p>is a hypothetical AI system that possesses the ability to understand, learn, and apply knowledge across a wide range of tasks and domains, similar to human intelligence. AGI aims to replicate the general cognitive abilities of humans, such as reasoning, problem-solving, and creativity, in an artificial system. Achieving AGI is a long-term goal of AI research and development.</p>
 </blockquote>
 </section>
-<section id="ai-artificial-intelligence" class="level3" data-number="A.1.8">
-<h3 data-number="A.1.8" class="anchored" data-anchor-id="ai-artificial-intelligence"><span class="header-section-number">A.1.8</span> (AI) Artificial Intelligence</h3>
+<section id="ai-artificial-intelligence" class="level3" data-number="A.1.9">
+<h3 data-number="A.1.9" class="anchored" data-anchor-id="ai-artificial-intelligence"><span class="header-section-number">A.1.9</span> (AI) Artificial Intelligence</h3>
 <blockquote class="blockquote">
 <p>is a branch of computer science that focuses on creating intelligent machines that can perform tasks that typically require human intelligence. AI encompasses a wide range of techniques, including machine learning, natural language processing, computer vision, and robotics, to develop systems that can perceive, reason, learn, and act autonomously.</p>
 </blockquote>
 </section>
-<section id="alignment" class="level3" data-number="A.1.9">
-<h3 data-number="A.1.9" class="anchored" data-anchor-id="alignment"><span class="header-section-number">A.1.9</span> Alignment</h3>
+<section id="alignment" class="level3" data-number="A.1.10">
+<h3 data-number="A.1.10" class="anchored" data-anchor-id="alignment"><span class="header-section-number">A.1.10</span> Alignment</h3>
 <blockquote class="blockquote">
 <p>refers to the process of ensuring that AI systems are designed and deployed in a way that aligns with human values, ethical principles, and societal norms. Alignment involves considering the impact of AI systems on various stakeholders, including users, employees, and society as a whole. By aligning AI systems with human values, organizations can build trust, promote fairness, and mitigate potential risks associated with AI technologies.</p>
 </blockquote>
 </section>
-<section id="auto-regressive-language-model" class="level3" data-number="A.1.10">
-<h3 data-number="A.1.10" class="anchored" data-anchor-id="auto-regressive-language-model"><span class="header-section-number">A.1.10</span> Auto-regressive language model</h3>
+<section id="auto-regressive-language-model" class="level3" data-number="A.1.11">
+<h3 data-number="A.1.11" class="anchored" data-anchor-id="auto-regressive-language-model"><span class="header-section-number">A.1.11</span> Auto-regressive language model</h3>
 <blockquote class="blockquote">
 <p>is a type of AI model that generates text one token (word or character) at a time, with each token being predicted based on the previous ones. This means the model uses its own generated output as part of the input for predicting the next token, creating a sequence that builds on itself. A well-known example of an auto-regressive language model is GPT (Generative Pre-trained Transformer). These models are trained on large datasets and learn to predict the next word in a sentence, making them capable of generating coherent and contextually relevant text.</p>
 </blockquote>
 </section>
-<section id="attention-mechanism" class="level3" data-number="A.1.11">
-<h3 data-number="A.1.11" class="anchored" data-anchor-id="attention-mechanism"><span class="header-section-number">A.1.11</span> Attention Mechanism</h3>
+<section id="attention-mechanism" class="level3" data-number="A.1.12">
+<h3 data-number="A.1.12" class="anchored" data-anchor-id="attention-mechanism"><span class="header-section-number">A.1.12</span> Attention Mechanism</h3>
 <blockquote class="blockquote">
 <p>A key component in neural networks that helps models focus on relevant parts of input data. The attention mechanism allows the model to assign different weights to different parts of the input, enabling it to learn which elements are more important for the task at hand. This mechanism has been widely used in various deep learning architectures, such as transformers, to improve performance in tasks like machine translation, image captioning, and text summarization.</p>
 </blockquote>
@@ -1322,8 +1334,14 @@ ul.task-list li input[type="checkbox"] {
 <p>is a design pattern in which the agent pauses at defined points and waits for human approval, correction, or decision before continuing. It is used for high-stakes actions, ambiguous goals, or situations where the agent’s confidence is low.</p>
 </blockquote>
 </section>
-<section id="hyperparameter" class="level3" data-number="A.8.5">
-<h3 data-number="A.8.5" class="anchored" data-anchor-id="hyperparameter"><span class="header-section-number">A.8.5</span> Hyperparameter</h3>
+<section id="hitl-human-in-the-loop-1" class="level3" data-number="A.8.5">
+<h3 data-number="A.8.5" class="anchored" data-anchor-id="hitl-human-in-the-loop-1"><span class="header-section-number">A.8.5</span> (HITL) Human-in-the-loop</h3>
+<blockquote class="blockquote">
+<p>A design pattern in which a human actively participates in an AI system’s decision cycle—such as setting goals, verifying outputs, approving actions, or handling edge-case exceptions. In agentic workflows, this most commonly takes the form of an interactive loop where a person initiates each run and judges when the work is done [00:01:31]. <em>See also: <a href="#agentic-loop">Agentic Loop</a>.</em></p>
+</blockquote>
+</section>
+<section id="hyperparameter" class="level3" data-number="A.8.6">
+<h3 data-number="A.8.6" class="anchored" data-anchor-id="hyperparameter"><span class="header-section-number">A.8.6</span> Hyperparameter</h3>
 <blockquote class="blockquote">
 <p>is a configuration setting that is external to the model and is used to control the learning process. Hyperparameters are set before the learning process begins and are not updated during training. Examples of hyperparameters include the learning rate, batch size, number of layers in a neural network, and regularization strength.</p>
 </blockquote>
