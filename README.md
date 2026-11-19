@@ -12,7 +12,7 @@
 
 ## :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
 
-:notebook: [The Book of AI](https://davidgeeraerts.github.io/AI) — A practical guide to understanding agentic engineering and building a practical toolkit.
+:notebook: [The Book of AI](https://the-book-of-ai.github.io/source) — A practical guide to understanding agentic engineering and building a practical toolkit.
 
 - [Chapter Overview](chapter-structure.qmd)
 
@@ -20,13 +20,13 @@
 
 <!-- DIGEST:START -->
 
-:fire: Read the latest [digest](https://davidgeeraerts.github.io/AI/digest/2026-11-November-digest.html) — current snapshot of the landscape.
+:fire: Read the latest [digest](https://the-book-of-ai.github.io/source/digest/2026-11-November-digest.html) — current snapshot of the landscape.
 
 <!-- DIGEST:END -->
 
 ### :film_strip: Daily YouTube Digest
 
-- [YouTube Digest App](https://davidgeeraerts.github.io/youtube-feed-dashboard-ai/) — a daily digest of curated agentic engineering YouTube videos.
+- [YouTube Digest App](https://the-book-of-ai.github.io/youtube-feed-dashboard-ai/) — a daily digest of curated agentic engineering YouTube videos.
 
 ---
 
