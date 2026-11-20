@@ -55,6 +55,7 @@ Chapter 02 and the runtime choices in Chapter 03. The video description
 links to the underlying model files, documentation, and benchmarks for
 follow-up verification.
 
-The transcript was not saved: the available English captions are
-automatically generated, and permission to reproduce them has not been
-established.
+An existing, cleaned automatic transcript is available in
+[`transcripts/transcript_NqNGIuhxOQg.md`](transcripts/transcript_NqNGIuhxOQg.md).
+The summary above was written from the description and chapter markers, not
+from that transcript.

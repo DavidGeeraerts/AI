@@ -10,7 +10,28 @@
   "video_id": "NqNGIuhxOQg",
   "title": "LLM Quantization Explained! Which AI Model Should You Download?",
   "url": "https://www.youtube.com/watch?v=NqNGIuhxOQg",
-  "transcript": null,
+  "transcript": "sources/youtube/videos/transcripts/transcript_NqNGIuhxOQg.md",
   "summary": "sources/youtube/videos/NqNGIuhxOQg.md"
+},
+{
+  "video_id": "0LeT996Hz3E",
+  "title": "Engineer Your Coding Agents Like Any Other System — Zach Lloyd, Warp",
+  "url": "https://www.youtube.com/watch?v=0LeT996Hz3E",
+  "transcript": null,
+  "summary": "sources/youtube/videos/0LeT996Hz3E.md"
+},
+{
+  "video_id": "hWQjNS8iP7M",
+  "title": "Drug Design's Hidden Challenge",
+  "url": "https://www.youtube.com/watch?v=hWQjNS8iP7M",
+  "transcript": null,
+  "summary": "sources/youtube/videos/hWQjNS8iP7M.md"
+},
+{
+  "video_id": "Y6npte_lEKU",
+  "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs",
+  "url": "https://www.youtube.com/watch?v=Y6npte_lEKU",
+  "transcript": null,
+  "summary": "sources/youtube/videos/Y6npte_lEKU.md"
 }
 ]
