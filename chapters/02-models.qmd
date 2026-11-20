@@ -173,6 +173,17 @@ autonomy when selecting a model.
 - [Stable Diffusion](https://stability.ai/stable-image) (Stability AI)
 - [Veo / Imagen](https://deepmind.google/models/veo/) (Google DeepMind)
 
+
+### [MODELS.DEV Project](https://models.dev/)
+is an open-source, community-maintained database and API that standardizes technical specifications and pricing for AI models across providers.
+
+* Purpose: Eliminates the need for developers to manually scrape, normalize, and maintain fragmented model metadata across different AI vendors (such as OpenAI, Anthropic, Google, and open-weights hosts).
+
+* Tracked Metadata: Provides structured JSON records for token pricing (input, output, and cache read/write rates), context window limits, maximum output tokens, supported modalities (text, image, audio, video), and tool-calling or reasoning capabilities.
+
+* Integration: Exposes a single static JSON endpoint ([https://models.dev/api.json](https://models.dev/api.json)) alongside a searchable web directory, making it a drop-in reference for AI SDKs, agentic runtimes, and cost-tracking tools.
+
+
 ## Benchmarks
 
 | Benchmark                                                                                                                         | Status in 2026                                | Strengths                                                                                                                                                                                                                                                                                   | Weaknesses                                                                                                                                                                                               | Still useful?                                                                                                                                                  |
