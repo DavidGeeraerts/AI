@@ -567,6 +567,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/ikawrakow/ik_llama.cpp">ik_llama.cpp</a> — llama.cpp fork with faster CPU and hybrid CPU/GPU inference and newer quant types</li>
 <li><a href="https://github.com/niko1221/strata">Strata</a> — A highly specialized inference engine (incorporating parts of llama.cpp) designed strictly to run massive 100B+ parameter Mixture-of-Experts (MoE) models on standard consumer hardware. It uses “expert streaming” to keep frequently used neural network experts in GPU VRAM while rapidly fetching the remaining experts from system RAM and NVMe SSDs.</li>
 <li><a href="https://github.com/jesdga95/basalt">Basalt</a> — NVIDIA Blackwell-optimized local inference engine forked from <a href="https://github.com/niko1221/strata">Strata</a> for selected models, with system-RAM offload and compatible APIs.</li>
+<li><a href="https://github.com/warpfront/hipfire">hipfire</a> — is an inference engine for AMD GPUs. It ships its own Rust runtime, model implementations, quantization formats (MQ3–MQ6, MQ4R, MFP4), typed kernel dispatch and HIP kernels.</li>
 </ul>
 </section>
 </section>
@@ -580,6 +581,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="https://github.com/oobabooga/textgen">textgen</a> — Open-source, offline desktop app with multiple backends, OpenAI/Anthropic-compatible API, tool-calling + MCP, and LoRA training</li>
 <li><a href="https://github.com/niko1221/strata">Strata</a> — operates as a fully integrated desktop application and runner. It automatically handles downloading its supported models, sets up smaller draft models for speculative decoding to boost generation speed, and exposes an OpenAI/Anthropic-compatible API on localhost:8080 alongside its own built-in web UI.</li>
 <li><a href="https://github.com/ashhart/TensorFold">TensorFold</a> — acts as a standalone runner via a single, zero-dependency Zig binary. It handles checkpoint loading, tokenization, and speculative decoding internally. It also natively spins up an OpenAI-compatible server, allowing it to drop immediately into existing web UIs and downstream workflows.</li>
+<li><a href="https://github.com/warpfront/hipfire">hipfire</a> — provides a curated model list and an OpenAI-compatible HTTP daemon.</li>
 </ul>
 </section>
 <section id="uis" class="level3" data-number="3.3.3">
