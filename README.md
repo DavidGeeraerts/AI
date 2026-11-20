@@ -8,18 +8,24 @@
 
 ## Objective
 
-> Be a comprehensive, well curated (signal from noise), and maintained manual for agentic engineering and building a practical toolkit.
+> Be a comprehensive, well curated (signal from noise), maintained manual for agentic engineering, and building a practical toolkit for local LLM sovereignty.
 
-## :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
+## :construction: _This book is currently under heavy construction._ :construction:
 
-:notebook: [Read online: The Book of AI](https://the-book-of-ai.github.io/source)
+### :fountain_pen: _Laying the foundation._ :fountain_pen:
 
-- [Chapter Overview](chapter-structure.qmd)
+:book: [Read The Book of AI online](https://the-book-of-ai.github.io/source)
 
-## Follow updates
+- :books: [Chapter Overview](chapter-structure.qmd)
 
-- [Monthly digest catalog](https://the-book-of-ai.github.io/source/digest/digest_index.html) — dated snapshots of current tools and ideas.
-- [Daily YouTube digest](https://the-book-of-ai.github.io/youtube-feed-dashboard-ai/) — curated videos about agentic engineering.
+## Start Here (What's Ready Now)
+
+- :calendar: [Monthly digest catalog](https://the-book-of-ai.github.io/source/digest/digest_index.html) — dated snapshots of current tools and ideas.
+- :tv: [Daily YouTube digest](https://the-book-of-ai.github.io/youtube-feed-dashboard-ai/) — curated videos about agentic engineering.
+- :green_book: [Chapter 02: Models](https://the-book-of-ai.github.io/source/chapters/02-models.html) — _Status: Draft_
+- :orange_book: [Chapter 7: Resources](https://the-book-of-ai.github.io/source/chapters/07-resources.html) — _Status: Draft_
+- :green_book: [Glossary](https://the-book-of-ai.github.io/source/appendices/glossary.html) — _Status: Draft_
+- :green_book: [Prompt Engineering Notes](https://the-book-of-ai.github.io/source/appendices/prompt-engineering-notes.html) — _Status: Review_
 
 ---
 
