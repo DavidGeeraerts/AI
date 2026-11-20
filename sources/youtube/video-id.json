@@ -33,5 +33,201 @@
   "url": "https://www.youtube.com/watch?v=Y6npte_lEKU",
   "transcript": null,
   "summary": "sources/youtube/videos/Y6npte_lEKU.md"
+},
+{
+  "video_id": "F7qf5Mibgu4",
+  "title": "The Local AI Hardware Mistake Almost Everyone Makes",
+  "url": "https://www.youtube.com/watch?v=F7qf5Mibgu4",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "rXFV1ivDe6c",
+  "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search",
+  "url": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "hwRu-ehkzCw",
+  "title": "Deepseek Just Drops a Claude Code Rival (Super Agent)",
+  "url": "https://www.youtube.com/watch?v=hwRu-ehkzCw",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "kTmUbRVsamo",
+  "title": "What's the Best AI Model Your GPU Can Actually Run? 16GB to 1TB VRAM",
+  "url": "https://www.youtube.com/watch?v=kTmUbRVsamo",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "QrQruGQscrA",
+  "title": "NVIDIA Just Built an Ollama Killer",
+  "url": "https://www.youtube.com/watch?v=QrQruGQscrA",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "PfR4S3Zzdoo",
+  "title": "Bytes Is This The End of Token?",
+  "url": "https://www.youtube.com/watch?v=PfR4S3Zzdoo",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "mmns33BsBcY",
+  "title": "What Is Quantization? How AI Models Get Smaller & Faster",
+  "url": "https://www.youtube.com/watch?v=mmns33BsBcY",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "TpYBwkhy9JY",
+  "title": "You're Using AI Skills Wrong (I Was Too)",
+  "url": "https://www.youtube.com/watch?v=TpYBwkhy9JY",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "SIZsFGvtClM",
+  "title": "Agentic Engineering: 5 Terms Every AI Developer Should Know",
+  "url": "https://www.youtube.com/watch?v=SIZsFGvtClM",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "Dddv7P_k60o",
+  "title": "Top 5 AI Building Blocks Every Engineer Should Know",
+  "url": "https://www.youtube.com/watch?v=Dddv7P_k60o",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "7S3kCU1tXcA",
+  "title": "Your Local AI Model Isn't as Safe as You Think",
+  "url": "https://www.youtube.com/watch?v=7S3kCU1tXcA",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "L1OBRtfPS34",
+  "title": "Stanford CS146S: How always-on agents work",
+  "url": "https://www.youtube.com/watch?v=L1OBRtfPS34",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "cFx9Z3ZXca0",
+  "title": "Why I couldn't build Jev at OpenAI",
+  "url": "https://www.youtube.com/watch?v=cFx9Z3ZXca0",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "U8lGbSaCCYI",
+  "title": "How to Run LLMs Locally (Great For Learning and Privacy)",
+  "url": "https://www.youtube.com/watch?v=U8lGbSaCCYI",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "xhaE2sUnUZE",
+  "title": "Google's Nano Banana Just Got Killed",
+  "url": "https://www.youtube.com/watch?v=xhaE2sUnUZE",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "Cn8HBj8QAbk",
+  "title": "AI Whistleblower: We Are Being Gaslit By AI Companies, They're Hiding The Truth!",
+  "url": "https://www.youtube.com/watch?v=Cn8HBj8QAbk",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "LSk5KaEGVk4",
+  "title": "Agentic AI Engineering: Complete 4-Hour Workshop feat. MCP, CrewAI and OpenAI Agents SDK",
+  "url": "https://www.youtube.com/watch?v=LSk5KaEGVk4",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "SDIq26_DVLk",
+  "title": "AMD's $243 Billion AI Disaster...What Happened?",
+  "url": "https://www.youtube.com/watch?v=SDIq26_DVLk",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "K9anz4aB0S0",
+  "title": "What is CUDA?",
+  "url": "https://www.youtube.com/watch?v=K9anz4aB0S0",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "hFURlsMwU7c",
+  "title": "What Is the Most Popular Open-Source AI Stack?",
+  "url": "https://www.youtube.com/watch?v=hFURlsMwU7c",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "7xTGNNLPyMI",
+  "title": "Deep Dive into LLMs like ChatGPT",
+  "url": "https://www.youtube.com/watch?v=7xTGNNLPyMI",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "_1f-o0nqpEI",
+  "title": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters | Lex Fridman Podcast #459",
+  "url": "https://www.youtube.com/watch?v=_1f-o0nqpEI",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "lY8Ja00PCQM",
+  "title": "DeepSeek vs. Open AI - The State of AI",
+  "url": "https://www.youtube.com/watch?v=lY8Ja00PCQM",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "ugvHCXCOmm4",
+  "title": "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of AI & Humanity",
+  "url": "https://www.youtube.com/watch?v=ugvHCXCOmm4",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "00Q0G84kq3M",
+  "title": "RAG vs. Fine Tuning",
+  "url": "https://www.youtube.com/watch?v=00Q0G84kq3M",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "T-D1OfcDW1M",
+  "title": "What is Retrieval-Augmented Generation (RAG)?",
+  "url": "https://www.youtube.com/watch?v=T-D1OfcDW1M",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "0VH1Lim8gL8",
+  "title": "Deep Learning State of the Art (2020)",
+  "url": "https://www.youtube.com/watch?v=0VH1Lim8gL8",
+  "transcript": null,
+  "summary": null
+},
+{
+  "video_id": "7Y4sbZgBdnc",
+  "title": "Is the Agent Harness Dead?",
+  "url": "https://www.youtube.com/watch?v=7Y4sbZgBdnc",
+  "transcript": null,
+  "summary": null
 }
 ]
