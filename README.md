@@ -4,7 +4,7 @@
 
 ## Mapping the Artificial Intelligence landscape for agentic engineering.
 
-> "Take the red pill: a practical guide to agentic engineering and a manual for building your own toolkit."
+> See how deep the rabbit hole goes: a practical guide to agentic engineering and building your own stack for agentic systems.
 
 ## Objective
 
@@ -12,31 +12,14 @@
 
 ## :bangbang: :construction: _This book is currently under heavy construction, laying the foundation._ :construction: :bangbang:
 
-:notebook: [The Book of AI](https://the-book-of-ai.github.io/source) — A practical guide to understanding agentic engineering and building a practical toolkit.
+:notebook: [Read online: The Book of AI](https://the-book-of-ai.github.io/source)
 
 - [Chapter Overview](chapter-structure.qmd)
 
-## Monthly Digest
+## Follow updates
 
-<!-- DIGEST:START -->
-
-:fire: Read the latest [digest](https://the-book-of-ai.github.io/source/digest/2026-11-November-digest.html) — current snapshot of the landscape.
-
-<!-- DIGEST:END -->
-
-### :film_strip: Daily YouTube Digest
-
-- [YouTube Digest App](https://the-book-of-ai.github.io/youtube-feed-dashboard-ai/) — a daily digest of curated agentic engineering YouTube videos.
-
----
-
-## The Why
-
-| W's                |                                                                                                                  |
-|--------------------|------------------------------------------------------------------------------------------------------------------|
-| **Who** it’s for:  | Engineers and technical practitioners building and working with AI agents.                                       |
-| **What** it is:    | A curated comprehensive, reference and architecture book for agentic systems engineering.                        |
-| **Why** it exists: | A single, maintained source of knowledge instead of scattered resources for practitioners of agentic engineering |
+- [Monthly digest catalog](https://the-book-of-ai.github.io/source/digest/digest_index.html) — dated snapshots of current tools and ideas.
+- [Daily YouTube digest](https://the-book-of-ai.github.io/youtube-feed-dashboard-ai/) — curated videos about agentic engineering.
 
 ---
 
@@ -104,6 +87,11 @@ Examples of how to link to glossary terms in the text:
 [{{< glossary "(AI) Artificial Intelligence" display="AI" popup="hover" >}}](https://the-book-of-ai.github.io/source/appendices/glossary.html#ai-artificial-intelligence)
 ```
 
+## Work with the source
+
+The book is built with [Quarto](https://quarto.org/). Its chapters and appendices are Quarto Markdown (`.qmd`) files, and [_quarto.yml](_quarto.yml) defines the reading order and publishing settings.
+With Quarto installed, run `quarto render` from the repository root to build the website. The generated site goes to `docs/`; make changes to the source files, not the generated output. Corrections and suggestions are welcome through [GitHub issues](https://github.com/the-book-of-ai/source/issues).
+
 # Resource References
 
 - [Github emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet) -- for using emojis in markdown
@@ -119,6 +107,18 @@ Examples of how to link to glossary terms in the text:
 # History
 
 _This is a work in progress --started 2025-02-- to document [my](https://github.com/DavidGeeraerts) exploration of Artificial Intelligence, Large Language Models (LLM), Natural Language Models (NLM), Natural Language Processing (NLP), agents, agentic engineering, etc._
+
+---
+
+## The Why
+
+| W's                |                                                                                                                  |
+|--------------------|------------------------------------------------------------------------------------------------------------------|
+| **Who** it’s for:  | Engineers and technical practitioners building and working with AI agents.                                       |
+| **What** it is:    | A curated comprehensive, reference and architecture book for agentic systems engineering.                        |
+| **Why** it exists: | A single, maintained source of knowledge instead of scattered resources for practitioners of agentic engineering |
+
+---
 
 # License
 
