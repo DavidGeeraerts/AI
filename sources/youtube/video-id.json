@@ -1,7 +1,16 @@
+[
 {
   "video_id": "dQw4w9WgXcQ",
   "title": "The talk title",
   "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "transcript": "sources/transcripts/dQw4w9WgXcQ.vtt",
   "summary": "sources/videos/dQw4w9WgXcQ.md"
+},
+{
+  "video_id": "NqNGIuhxOQg",
+  "title": "LLM Quantization Explained! Which AI Model Should You Download?",
+  "url": "https://www.youtube.com/watch?v=NqNGIuhxOQg",
+  "transcript": null,
+  "summary": "sources/youtube/videos/NqNGIuhxOQg.md"
 }
+]
